@@ -1,0 +1,93 @@
+ideas = {
+
+	country = {
+		REM_feminism = {
+
+			allowed = {
+                tag = REM
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = feminism
+
+			modifier = {
+				political_power_cost = 0.1
+				stability_factor = -0.05
+			}
+		}
+	}
+	
+	country = {
+		REM_dominating_west = {
+
+			allowed = {
+                tag = REM
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = conquering_the_west
+
+			modifier = {
+				political_power_cost = - 0.05
+				consumer_goods_factor = -0.05
+				conscription_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}
+	}
+	
+	country = {
+		REM_orthodox_auto = {
+
+			allowed = {
+                tag = REM
+			}
+
+			allowed_civil_war = {
+				allowed = no
+			}
+
+			removal_cost = -1
+
+			picture = orthodox
+
+			modifier = {
+				political_power_cost = 0.1
+				stability_factor = -0.1
+			}
+		}
+	}
+	
+	country = {
+		petersburg_pact = {
+
+			allowed = {
+                tag = REM
+			}
+
+			allowed_civil_war = {
+				allowed = no
+			}
+
+			removal_cost = -1
+
+			picture = petersburg
+
+			modifier = {
+				neutrality_acceptance = 40
+				faction_trade_opinion_factor = 0.5
+				consumer_goods_factor = -0.1
+			}
+		}
+	}
+}

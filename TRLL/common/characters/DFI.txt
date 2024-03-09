@@ -1,0 +1,16 @@
+characters={
+	
+	DFI_nikolai={
+		name=DFI_nikolai_name
+		portraits={
+			civilian={
+				large="GFX_nikolai"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,16 @@
+characters={
+	
+	RHI_adolphe={
+		name=RHI_adolphe_name
+		portraits={
+			civilian={
+				large="GFX_adolphe"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+}

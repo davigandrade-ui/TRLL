@@ -1,0 +1,17 @@
+characters={
+	
+	CAV_nicholas_ii={
+		name=CAV_nicholas_ii_name
+		portraits={
+			civilian={
+				large="GFX_nickii"
+			}
+		}
+		country_leader={
+			ideology=despotism
+		    desc = REM_nicholas_ii_description
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+}

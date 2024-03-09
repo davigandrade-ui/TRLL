@@ -1,0 +1,21 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_idea_feminism"
+		texturefile = "gfx/interface/ideas/feminism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_petersburg"
+		texturefile = "gfx/interface/ideas/petersburg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_conquering_the_west"
+		texturefile = "gfx/interface/ideas/conqueringthewest.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_orthodox"
+		texturefile = "gfx/interface/ideas/orthodox.dds"
+	}
+}

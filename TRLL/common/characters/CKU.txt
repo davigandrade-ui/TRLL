@@ -1,0 +1,17 @@
+characters={
+	
+	CKU_kirill={
+		name=CKU_kirill_name
+		desc = REM_nicholas_ii_description
+		portraits={
+			civilian={
+				large="GFX_kirill"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+}

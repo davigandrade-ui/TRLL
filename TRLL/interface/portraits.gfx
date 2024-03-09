@@ -1,0 +1,253 @@
+spriteTypes = {
+
+# Russian Empire:
+
+	spriteType = {
+		name = "GFX_nickii"
+		texturefile = "gfx/leaders/REM/nickii.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_kerensky"
+		texturefile = "gfx/leaders/REM/kerensky.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tseretelli"
+		texturefile = "gfx/leaders/REM/tseretelli.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_bukharin"
+		texturefile = "gfx/leaders/REM/bukharin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ilyin"
+		texturefile = "gfx/leaders/REM/ilyn.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_pavel"
+		texturefile = "gfx/leaders/KPL/pavel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_nikolai"
+		texturefile = "gfx/leaders/DFI/nikolai.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_kirill"
+		texturefile = "gfx/leaders/CKU/kirill.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_baltic_congress"
+		texturefile = "gfx/leaders/BGO/balticcongress.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_trubetzkoy"
+		texturefile = "gfx/leaders/RMA/trubetzkoy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_boris"
+		texturefile = "gfx/leaders/BUL/portrait_boris_iii.dds"
+	}
+	
+# Czechoslovakia:
+
+	spriteType = {
+		name = "GFX_edvard"
+		texturefile = "gfx/leaders/CZE/portrait_edvard.dds"
+	}
+	
+# Serbia:
+
+	spriteType = {
+		name = "GFX_ljubomir"
+		texturefile = "gfx/leaders/SER/portrait_davidovich.dds"
+	}
+	
+# Croatia:
+
+	spriteType = {
+		name = "GFX_vlatko"
+		texturefile = "gfx/leaders/CRO/portrait_vlatko.dds"
+	}
+	
+# Hungary:
+
+	spriteType = {
+		name = "GFX_horthy"
+		texturefile = "gfx/leaders/HUN/portrait_miklos.dds"
+	}
+	
+# Romania:
+	
+	spriteType = {
+		name = "GFX_carol"
+		texturefile = "gfx/leaders/ROM/portrait_carolII.dds"
+	}
+	
+# Albania:
+
+	spriteType = {
+		name = "GFX_zog"
+		texturefile = "gfx/leaders/ALB/portrait_zog.dds"
+	}
+	
+# Greece:
+
+	spriteType = {
+		name = "GFX_metaxas"
+		texturefile = "gfx/leaders/GRE/portrait_metaxas.dds"
+	}
+	
+# Sweden:
+
+	spriteType = {
+		name = "GFX_gustaf"
+		texturefile = "gfx/leaders/SWE/portrait_gustaf.dds"
+	}
+	
+# Norway:
+
+	spriteType = {
+		name = "GFX_haakon"
+		texturefile = "gfx/leaders/NOR/portrait_haakon.dds"
+	}
+	
+# Denmark:
+
+	spriteType = {
+		name = "GFX_thorvald"
+		texturefile = "gfx/leaders/DEN/portrait_thorvald.dds"
+	}
+	
+# Netherlands:
+
+	spriteType = {
+		name = "GFX_bernhard"
+		texturefile = "gfx/leaders/HOL/portrait_bernhard.dds"
+	}
+	
+# Luxembourg:
+
+	spriteType = {
+		name = "GFX_bech"
+		texturefile = "gfx/leaders/LUX/portrait_bech.dds"
+	}
+	
+# Great Britain:
+	
+	spriteType = {
+		name = "GFX_mosley"
+		texturefile = "gfx/leaders/ENG/portrait_mosley.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_baldwin"
+		texturefile = "gfx/leaders/ENG/portrait_baldwin.dds"
+	}
+	
+# Ireland:
+
+	spriteType = {
+		name = "GFX_eamon"
+		texturefile = "gfx/leaders/IRE/portrait_éamon.dds"
+	}
+	
+# Belgium:
+
+	spriteType = {
+		name = "GFX_zeeland"
+		texturefile = "gfx/leaders/BEL/portrait_zeeland.dds"
+	}
+	
+# Italy:
+
+	spriteType = {
+		name = "GFX_mussolini"
+		texturefile = "gfx/leaders/ITA/portrait_mussolini.dds"
+	}
+	
+# USA:
+	
+	spriteType = {
+		name = "GFX_franklin_delano"
+		texturefile = "gfx/leaders/USA/portrait_fdr.dds"
+	}
+	
+# Japan:
+	
+	spriteType = {
+		name = "GFX_hirohito"
+		texturefile = "gfx/leaders/JAP/portrait_hirohito.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_tojo"
+		texturefile = "gfx/leaders/JAP/portrait_tojo.dds"
+	}
+	
+# Spain:
+	
+	spriteType = {
+		name = "GFX_alfonso"
+		texturefile = "gfx/leaders/SPR/portrait_alfonso.dds"
+	}
+	
+# Portugal:
+
+	spriteType = {
+		name = "GFX_duarte"
+		texturefile = "gfx/leaders/POR/portrait_duarte.dds"
+	}
+	
+# Germany:
+	
+	spriteType = {
+		name = "GFX_marx"
+		texturefile = "gfx/leaders/GER/portrait_marx.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_thalmann"
+		texturefile = "gfx/leaders/GER/portrait_thalmann.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_mackensen"
+		texturefile = "gfx/leaders/GER/portrait_mackensen.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_goring"
+		texturefile = "gfx/leaders/GER/portrait_goring.dds"
+	}
+
+	spriteType = {
+		name = "GFX_hitl"
+		texturefile = "gfx/leaders/GER/hitl.dds"
+	}
+	
+# France:
+	
+	spriteType = {
+		name = "GFX_adolphe"
+		texturefile = "gfx/leaders/RHI/portrait_adolphe.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_pivert"
+		texturefile = "gfx/leaders/FRA/portrait_pivert.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_jacques_doriot"
+		texturefile = "gfx/leaders/FRA/portrait_doriot.dds"
+	}
+}

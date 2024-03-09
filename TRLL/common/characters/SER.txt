@@ -1,0 +1,18 @@
+characters={
+
+	SER_ljubomir_davidovic={
+		name=SER_ljubomir_name
+		portraits={
+			civilian={
+				large="GFX_ljubomir"
+			}
+		}
+		country_leader={
+			ideology=centrism
+			traits =  { indomitable_perseverance }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+
+}

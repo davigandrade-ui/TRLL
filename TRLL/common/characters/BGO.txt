@@ -1,0 +1,17 @@
+characters={
+	
+	BGO_baltic_congress={
+		name=BGO_baltic_name
+		desc = REM_nicholas_ii_description
+		portraits={
+			civilian={
+				large="GFX_baltic_congress"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+}

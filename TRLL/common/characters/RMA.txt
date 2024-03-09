@@ -1,0 +1,17 @@
+characters={
+	
+	RMA_trubetzkoy={
+		name=RMA_trubetzkoy_name
+		desc = REM_nicholas_ii_description
+		portraits={
+			civilian={
+				large="GFX_trubetzkoy"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+}

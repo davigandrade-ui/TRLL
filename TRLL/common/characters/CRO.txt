@@ -1,0 +1,16 @@
+characters={
+
+	CRO_vlatko_macek={
+		name=CRO_vlatko_macek
+		portraits={
+			civilian={
+				large="GFX_vlatko"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+}

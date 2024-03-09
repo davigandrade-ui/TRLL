@@ -1,0 +1,63 @@
+characters={
+	
+	REM_nicholas_ii={
+		name=REM_nicholas_ii_name
+		portraits={
+			civilian={
+				large="GFX_nickii"
+			}
+		}
+		country_leader={
+			ideology=despotism
+		    desc = REM_nicholas_ii_description
+			traits =  { indomitable_perseverance father_of_russia }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	
+	REM_bukharin={
+		name=REM_bukharin_name
+		portraits={
+			civilian={
+				large="GFX_bukharin"
+			}
+		}
+		country_leader={
+			ideology=leninism
+			desc = REM_bukharin_description
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	
+	REM_kerensky={
+		name=REM_kerensky_name
+		portraits={
+			civilian={
+				large="GFX_kerensky"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			desc = REM_kerensky_description
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	
+	REM_ilyin={
+		name=REM_ilyin_name
+		portraits={
+			civilian={
+				large="GFX_ilyin"
+			}
+		}
+		country_leader={
+			ideology=clerical_fascism
+			desc = REM_ilyin_description
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+}
