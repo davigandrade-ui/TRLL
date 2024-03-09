@@ -288,8 +288,6 @@ set_convoys = 10
 		#King stuff
 		unlock_national_focus = ROM_institute_royal_dictatorship
 		unlock_national_focus = ROM_revise_the_constitution
-			id = 550
-		}
 		#ROM = {
 		#	#Pick from list of the sane events first
 		#	random_list = {
