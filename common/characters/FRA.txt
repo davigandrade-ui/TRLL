@@ -1,5 +1,5 @@
 characters={
-	FRA_marceau_pivert
+	FRA_marceau_pivert={
 		name=FRA_marceau_pivert
 		portraits={
 			civilian={
