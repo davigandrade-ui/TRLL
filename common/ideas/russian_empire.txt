@@ -54,7 +54,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				allowed = no
+				always = no
 			}
 
 			removal_cost = -1
@@ -76,7 +76,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				allowed = no
+				always = no
 			}
 
 			removal_cost = -1
