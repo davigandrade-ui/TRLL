@@ -23,7 +23,6 @@ characters={
 			army = {
 				large = "GFX_portrait_SWE_king_gustaf_v"
 			}
-
 		}
 
 		advisor={
@@ -54,8 +53,7 @@ characters={
 		 	ideology=monarchism
 			expire="1965.1.1.1"
 			id = -1
-		#}
-
+		}
 	}
 
 	SWE_tage_erlander={
