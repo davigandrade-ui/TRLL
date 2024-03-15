@@ -1,0 +1,102 @@
+spriteTypes = {
+	SpriteType = { 
+		name = "GFX_focus_REM_address_parliament"
+		texturefile = "gfx/interface/goals/focus_REM_address_parliament.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_REM_before_time_comes"
+		texturefile = "gfx/interface/goals/focus_REM_before_time_comes.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_REM_present_the_reforms"
+		texturefile = "gfx/interface/goals/focus_REM_present_reform.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_REM_reforms_passed"
+		texturefile = "gfx/interface/goals/focus_REM_reform_passed.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_REM_reforms_denied"
+		texturefile = "gfx/interface/goals/focus_REM_reform_denied.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_REM_to_live_with_failure"
+		texturefile = "gfx/interface/goals/focus_REM_to_live_with_failure.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_REM_question_the_monarchy"
+		texturefile = "gfx/interface/goals/focus_REM_question_monarchy.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_REM_open_political_discourse"
+		texturefile = "gfx/interface/goals/focus_REM_political_discourse.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_REM_demand_a_plebiscite"
+		texturefile = "gfx/interface/goals/focus_REM_demand_plebiscite.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_REM_growing_dissident"
+		texturefile = "gfx/interface/goals/focus_REM_growing_dissidence.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_REM_civil_liberties"
+		texturefile = "gfx/interface/goals/focus_REM_civil_liberties.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_REM_sweep_the_church"
+		texturefile = "gfx/interface/goals/focus_REM_sweep_church.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_REM_distance_the_military"
+		texturefile = "gfx/interface/goals/focus_REM_distance_military.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_REM_take_out_corrupt"
+		texturefile = "gfx/interface/goals/focus_REM_take_out_corrupt.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_REM_expanded_female_rights"
+		texturefile = "gfx/interface/goals/focus_REM_expand_female.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_REM_let_women_join_politics"
+		texturefile = "gfx/interface/goals/focus_REM_woman_politician.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_REM_restructure_church_state_relations"
+		texturefile = "gfx/interface/goals/focus_REM_restructure_state_church.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_REM_rewrite_constitution"
+		texturefile = "gfx/interface/goals/focus_REM_rewrite_constitution.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_REM_foster_culture_integrity"
+		texturefile = "gfx/interface/goals/focus_REM_foster_integrity.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_REM_tsarist_success"
+		texturefile = "gfx/interface/goals/focus_REM_tsarist_success.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_REM_educate_youth"
+		texturefile = "gfx/interface/goals/focus_REM_educate_youth.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_REM_secularize_administration"
+		texturefile = "gfx/interface/goals/focus_REM_secularize_administration.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_REM_restore_faith_government"
+		texturefile = "gfx/interface/goals/focus_REM_faith_government.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_REM_let_women_join"
+		texturefile = "gfx/interface/goals/focus_REM_woman_military.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_REM_decrease_voters_threshold"
+		texturefile = "gfx/interface/goals/focus_REM_more_votes.dds"
+	}
+}

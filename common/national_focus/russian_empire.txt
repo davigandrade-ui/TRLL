@@ -16,7 +16,7 @@
 
 	focus = {
 		id = REM_before_time_comes
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_REM_before_time_comes
 		x = 12
 		y = 1
 
@@ -47,7 +47,7 @@
 	
 	focus = {
 		id = REM_addressing_the_parliament
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_REM_address_parliament
 		x = 0
 		y = 1
 		relative_position_id = REM_before_time_comes
@@ -80,7 +80,7 @@
 	
 	focus = {
 		id = REM_present_the_reforms
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_REM_present_the_reforms
 		x = 0
 		y = 1
 		relative_position_id = REM_addressing_the_parliament
@@ -119,7 +119,7 @@
 	
 	focus = {
 		id = REM_reforms_passed
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_REM_reforms_passed
 		x = 5
 		y = 1
 		relative_position_id = REM_present_the_reforms
@@ -152,7 +152,7 @@
 	
 	focus = {
 		id = REM_sweep_the_church
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_REM_sweep_the_church
 		x = 3
 		y = 1
 		relative_position_id = REM_reforms_passed
@@ -185,7 +185,7 @@
 	
 	focus = {
 		id = REM_restructure_church_state_relations
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_REM_restructure_church_state_relations
 		x = 2
 		y = 1
 		relative_position_id = REM_sweep_the_church
@@ -218,7 +218,7 @@
 	
 	focus = {
 		id = REM_secularize_administration
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_REM_secularize_administration
 		x = 0
 		y = 1
 		relative_position_id = REM_restructure_church_state_relations
@@ -251,7 +251,7 @@
 	
 	focus = {
 		id = REM_restore_faith_government
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_REM_restore_faith_government
 		x = 0
 		y = 1
 		relative_position_id = REM_secularize_administration
@@ -284,7 +284,7 @@
 	
 	focus = {
 		id = REM_take_out_corrupt
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_REM_take_out_corrupt
 		x = 0
 		y = 1
 		relative_position_id = REM_sweep_the_church
@@ -317,7 +317,7 @@
 	
 	focus = {
 		id = REM_foster_culture_integrity
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_REM_foster_culture_integrity
 		x = -1
 		y = 1
 		relative_position_id = REM_take_out_corrupt
@@ -350,7 +350,7 @@
 	
 	focus = {
 		id = REM_educate_youth
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_REM_educate_youth
 		x = 1
 		y = 2
 		relative_position_id = REM_foster_culture_integrity
@@ -383,7 +383,7 @@
 	
 	focus = {
 		id = REM_civil_liberties
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_REM_civil_liberties
 		x = -2
 		y = 1
 		relative_position_id = REM_reforms_passed
@@ -416,7 +416,7 @@
 	
 	focus = {
 		id = REM_expanded_female_rights
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_REM_expanded_female_rights
 		x = 1
 		y = 1
 		relative_position_id = REM_civil_liberties
@@ -449,7 +449,7 @@
 	
 	focus = {
 		id = REM_distance_the_military
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_REM_distance_the_military
 		x = -1
 		y = 1
 		relative_position_id = REM_civil_liberties
@@ -482,7 +482,7 @@
 	
 	focus = {
 		id = REM_decrease_voters_threshold
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_REM_decrease_voters_threshold
 		x = -1
 		y = 1
 		relative_position_id = REM_distance_the_military
@@ -515,7 +515,7 @@
 	
 	focus = {
 		id = REM_let_women_join
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_REM_let_women_join
 		x = 1
 		y = 1
 		relative_position_id = REM_distance_the_military
@@ -548,7 +548,7 @@
 	
 	focus = {
 		id = REM_let_women_join_politics
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_REM_let_women_join_politics
 		x = 1
 		y = 1
 		relative_position_id = REM_expanded_female_rights
@@ -614,7 +614,7 @@
 	
 	focus = {
 		id = REM_rewrite_constitution
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_REM_rewrite_constitution
 		x = 0
 		y = 1
 		relative_position_id = REM_reformed_government
@@ -647,7 +647,7 @@
 	
 	focus = {
 		id = REM_tsarist_success
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_REM_tsarist_success
 		x = 18:5
 		y = 10
 
@@ -687,7 +687,7 @@
 	
 	focus = {
 		id = REM_reforms_denied
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_REM_reforms_denied
 		x = -5
 		y = 1
 		relative_position_id = REM_present_the_reforms
@@ -721,7 +721,7 @@
 	
 	focus = {
 		id = REM_to_live_with_failure
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_REM_to_live_with_failure
 		x = 0
 		y = 1
 		relative_position_id = REM_reforms_denied
@@ -754,7 +754,7 @@
 	
 	focus = {
 		id = REM_question_the_monarchy
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_REM_question_the_monarchy
 		x = -2
 		y = 1
 		relative_position_id = REM_to_live_with_failure
@@ -787,7 +787,7 @@
 	
 	focus = {
 		id = REM_open_political_discourse
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_REM_open_political_discourse
 		x = 0
 		y = 1
 		relative_position_id = REM_question_the_monarchy
@@ -853,7 +853,7 @@
 	
 	focus = {
 		id = REM_growing_dissident
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_REM_growing_dissident
 		x = 0
 		y = 1
 		relative_position_id = REM_parliamentary_backlash
@@ -886,7 +886,7 @@
 	
 	focus = {
 		id = REM_demand_a_plebiscite
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_REM_demand_a_plebiscite
 		x = 2
 		y = 1
 		relative_position_id = REM_open_political_discourse
