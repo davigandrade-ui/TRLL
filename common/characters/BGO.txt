@@ -2,7 +2,6 @@ characters={
 	
 	BGO_baltic_congress={
 		name=BGO_baltic_name
-		desc = REM_nicholas_ii_description
 		portraits={
 			civilian={
 				large="GFX_baltic_congress"
