@@ -132,7 +132,7 @@
 		completion_reward = {
 		# EVENT REFORMS PASSED
 		    add_timed_idea = {
-			    REM_reforms_passed
+			    idea = REM_reforms_passed
 				days = 120
 			}
 		}
@@ -260,7 +260,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-		    add_idea = {
+		    add_ideas = {
 			    REM_restore_faith
 			}
 		}
