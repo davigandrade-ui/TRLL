@@ -220,10 +220,8 @@
 	focus = {
 		id = JAP_approach_the_young_officers
 		icon = GFX_focus_generic_military_mission
-		prerequisite = { focus = JAP_the_unthinkable_option }
 		x = -1
 		y = 1
-		relative_position_id = JAP_the_unthinkable_option
 
 		cost = 10
 
@@ -282,10 +280,8 @@
 	focus = {
 		id = JAP_exchange_the_exiles
 		icon = GFX_goal_generic_forceful_treaty
-		prerequisite = { focus = JAP_the_unthinkable_option }
 		x = 1
 		y = 1
-		relative_position_id = JAP_the_unthinkable_option
 
 		cost = 10
 
@@ -1169,41 +1165,6 @@
 		}
 	}
 
-
-	focus = {
-		id = JAP_non_aggression_pact_with_the_soviet_union
-		icon = GFX_goal_generic_dangerous_deal
-		prerequisite = { focus = JAP_strike_south_doctrine focus = JAP_rekindle_the_old_alliance}
-		x = -6
-		y = 2
-		relative_position_id = JAP_national_mobilization_law
-		dynamic = yes  
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 2
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-			OR = {
-				has_non_aggression_pact_with = SOV
-				has_war_with = SOV
-			}
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			SOV = { country_event = { id = wtt_japan.11 } }
-		}
-	}
 
 	focus = {
 		id = JAP_bypass_the_philippines
@@ -2117,6 +2078,41 @@
 		}
 	}
 
+
+	focus = {
+		id = JAP_non_aggression_pact_with_the_soviet_union
+		icon = GFX_goal_generic_dangerous_deal
+		prerequisite = { focus = JAP_strike_south_doctrine focus = JAP_rekindle_the_old_alliance}
+		x = -6
+		y = 2
+		relative_position_id = JAP_national_mobilization_law
+		dynamic = yes  
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+			OR = {
+				has_non_aggression_pact_with = SOV
+				has_war_with = SOV
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			SOV = { country_event = { id = wtt_japan.11 } }
+		}
+	}
 	focus = {
 		id = JAP_strike_south_doctrine
 		icon = GFX_goal_generic_navy_doctrines_tactics

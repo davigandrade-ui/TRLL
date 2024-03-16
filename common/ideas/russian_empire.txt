@@ -21,7 +21,27 @@ ideas = {
 			}
 		}
 	}
-	
+		REM_victors_of_wwi = {
+			
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_victors_of_ww1
+			
+			modifier = {
+				conscription = -0.003
+				war_support_factor = -0.05
+				land_doctrine_cost_factor = 0.5
+			}
+		}	
 	country = {
 		REM_dominating_west = {
 
