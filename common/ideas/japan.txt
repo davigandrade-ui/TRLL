@@ -334,7 +334,29 @@ ideas = {
 				ai_desired_divisions_factor = 0.25
 			}
 		}
+		JAP_militarism_2 = {
+			allowed = {
+				always = no
+			}
 
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = warrior_traditions_idea
+			
+			modifier = {
+				war_support_factor = 0.2
+				mobilization_laws_cost_factor = -0.25
+				justify_war_goal_time = -0.2
+				research_speed_factor = -0.05
+				production_speed_industrial_complex_factor = -0.1
+				ai_desired_divisions_factor = 0.25
+				navy_max_range_factor = 0.1
+			}
+		}
 		JAP_militarism_shogunate = {
 
 			name = JAP_militarism
@@ -680,8 +702,10 @@ ideas = {
 			picture = jap_supremacy_of_technology
 			
 			research_bonus = {
-				infantry_weapons = 0.05
-				armor = 0.05
+				infantry_weapons = 0.1
+				artillery = 0.1
+				armor = 0.1
+				naval_equipment = 0.1
 			}
 		}
 
@@ -701,7 +725,6 @@ ideas = {
 			modifier = {
 				army_defence_factor = 0.1
 				army_attack_factor = 0.1
-				army_morale_factor = 0.1
 			}
 		}
 

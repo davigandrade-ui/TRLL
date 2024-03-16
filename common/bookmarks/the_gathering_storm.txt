@@ -87,7 +87,7 @@ bookmarks = {
 			ideas = {
 				REM_dominating_west
 				REM_orthodox_auto
-				petersburg_pact
+				REM_petersburg_pact
 			}
 			focuses = {
 			}	

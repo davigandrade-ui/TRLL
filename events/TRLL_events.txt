@@ -1,0 +1,38 @@
+add_namespace = TRLL
+
+
+#Japans asks to take overlordship if country has capitulated
+country_event = {
+	id = TRLL.1
+	title = TRLL.1.t
+	desc = TRLL.1.d
+	picture = GFX_report_event_japanese_transport_soldiers
+
+	is_triggered_only = yes
+	
+	option = {
+		name = TRLL.1.a
+			create_wargoal = {
+				target = "PHI"
+				type = puppet_wargoal_focus
+				expire = 0
+				expire = 0
+			}
+			add_ai_strategy = {
+				type = conquer
+				id = "PHI"
+				value = 200
+			}
+	}
+	option = {
+		name = TRLL.1.b
+					add_tech_bonus = {
+				name = JAP_bypass_the_philippines
+				bonus = 1.0
+				uses = 1
+				category = tp_tech
+			}
+
+			swap_ideas = { remove_idea = JAP_militarism add_idea = JAP_militarism_2}
+	}
+}

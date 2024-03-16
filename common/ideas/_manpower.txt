@@ -217,6 +217,7 @@ ideas = {
 			available = {
 				#has_manpower_for_recruit_change_to = { value = 0.05 group = mobilization_laws }
 				OR = {
+					threat > 0.5
 					has_government = fascism
 					has_government = communism
 					SWE_rapid_mob_manpower_law_trigger = yes 
