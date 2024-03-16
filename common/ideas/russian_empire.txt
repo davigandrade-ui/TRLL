@@ -20,11 +20,10 @@ ideas = {
 				stability_factor = -0.05
 			}
 		}
-	}
 		REM_victors_of_wwi = {
 			
 			allowed = {
-				original_tag = FRA
+				original_tag = REM
 				always = no
 			}
 
@@ -40,9 +39,9 @@ ideas = {
 				conscription = -0.003
 				war_support_factor = -0.05
 				land_doctrine_cost_factor = 0.5
+				mobilization_laws_cost_factor = 0.5
 			}
-		}	
-	country = {
+		}
 		REM_dominating_west = {
 
 			allowed = {
@@ -64,9 +63,6 @@ ideas = {
 				war_support_factor = 0.05
 			}
 		}
-	}
-	
-	country = {
 		REM_orthodox_auto = {
 
 			allowed = {
@@ -86,9 +82,6 @@ ideas = {
 				stability_factor = -0.1
 			}
 		}
-	}
-	
-	country = {
 		REM_orthodox_auto_2 = {
 
 			allowed = {
@@ -108,9 +101,6 @@ ideas = {
 				stability_factor = -0.07
 			}
 		}
-	}
-	
-	country = {
 		REM_orthodox_auto_3 = {
 
 			allowed = {
@@ -130,9 +120,6 @@ ideas = {
 				stability_factor = -0.04
 			}
 		}
-	}
-	
-	country = {
 		REM_controlled_church = {
 
 			allowed = {
@@ -152,9 +139,6 @@ ideas = {
 				stability_factor = 0.05
 			}
 		}
-	}
-	
-	country = {
 		REM_petersburg_pact = {
 
 			allowed = {
@@ -175,9 +159,6 @@ ideas = {
 				consumer_goods_factor = -0.1
 			}
 		}
-	}
-	
-	country = {
 		REM_reforms_passed = {
 
 			allowed = {
@@ -196,9 +177,6 @@ ideas = {
 				stability_factor = 0.05
 			}
 		}
-	}
-	
-	country = {
 		REM_reforms_denied = {
 
 			allowed = {
@@ -217,9 +195,6 @@ ideas = {
 				stability_factor = -0.05
 			}
 		}
-	}
-	
-	country = {
 		REM_restore_faith = {
 
 			allowed = {
