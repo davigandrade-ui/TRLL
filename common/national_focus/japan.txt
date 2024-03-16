@@ -15,79 +15,6 @@
 	continuous_focus_position = { x = 20 y = 1200 }
 
 	focus = {
-		id = JAP_the_unthinkable_option
-		icon = GFX_goal_support_communism
-		mutually_exclusive = {
-			focus = JAP_purge_the_kodoha_faction
-			focus = JAP_support_the_kodoha_faction
-			focus = JAP_strengthen_civilian_government
-		}
-		x = 3
-		y = 0
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 2
-		}
-
-		allow_branch = {
-			has_dlc = "Waking the Tiger"
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = obsolete_focus_branches_visibility
-						option = HIDE
-					}
-				}
-				NOT = {
-					OR = {
-						has_completed_focus = JAP_purge_the_kodoha_faction
-						has_completed_focus = JAP_support_the_kodoha_faction
-						has_completed_focus = JAP_strengthen_civilian_government
-					}
-				}
-			}
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-			has_government = communism
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			add_ideas = JAP_the_unthinkable_option
-			if = {
-		    	limit = {
-		    	    has_DLC = "Waking the Tiger"
-		    	}
-		    	custom_effect_tooltip = available_political_advisor
-		    	show_ideas_tooltip = sanzo_nosaka
-			}
-			add_political_power = 200
-			hidden_effect = {
-				if = {
-					limit = {
-						has_game_rule = {
-							rule = obsolete_focus_branches_visibility
-							option = HIDE
-						}
-					}
-					mark_focus_tree_layout_dirty = yes
-				}
-			}
-		}
-	}
-
-	focus = {
 		id = JAP_approach_the_young_officers
 		icon = GFX_focus_generic_military_mission
 		prerequisite = { focus = JAP_the_unthinkable_option }
@@ -779,10 +706,15 @@
 	focus = {
 		id = JAP_nationalize_the_zaibatsus
 		icon = GFX_focus_jap_zaibatsu
-		prerequisite = { focus = JAP_cast_the_die }
-		x = 2
+		prerequisite = { focus = JAP_support_the_kodoha_faction }
+		mutually_exclusive = {
+			focus = JAP_challenge_the_zaibatsus
+			focus = JAP_guide_the_zaibatsus
+			focus = JAP_nationalize_the_zaibatsus
+		}
+		x = 7
 		y = 1
-		relative_position_id = JAP_cast_the_die
+		relative_position_id = JAP_support_the_kodoha_faction
 
 		cost = 10
 
@@ -856,10 +788,8 @@
 	focus = {
 		id = JAP_people_owned_mines
 		icon = GFX_goal_generic_construction2
-		prerequisite = { focus = JAP_nationalize_the_zaibatsus }
 		x = -1
 		y = 1
-		relative_position_id = JAP_nationalize_the_zaibatsus
 
 		cost = 10
 
@@ -888,10 +818,8 @@
 	focus = {
 		id = JAP_public_works
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = JAP_nationalize_the_zaibatsus }
 		x = 1
 		y = 1
-		relative_position_id = JAP_nationalize_the_zaibatsus
 
 		cost = 10
 
@@ -942,11 +870,8 @@
 	focus = {
 		id = JAP_tokyo_aluminum_plant
 		icon = GFX_goal_generic_construct_civilian
-		prerequisite = { focus = JAP_people_owned_mines }
-		prerequisite = { focus = JAP_public_works }
 		x = 0
 		y = 2
-		relative_position_id = JAP_nationalize_the_zaibatsus
 
 		cost = 10
 
@@ -978,90 +903,12 @@
 	}
 
 	focus = {
-		id = JAP_purge_the_kodoha_faction
-		icon = GFX_goal_generic_major_war
-		mutually_exclusive = { focus = JAP_the_unthinkable_option focus = JAP_support_the_kodoha_faction focus = JAP_strengthen_civilian_government }
-		x = 8
-		y = 0
-		relative_position_id = JAP_the_unthinkable_option
-		offset = {
-			x = -8
-			y = 0
-			trigger = {
-				OR = {
-					NOT = { has_dlc = "Waking the Tiger" }
-					AND = {
-						has_game_rule = {
-							rule = obsolete_focus_branches_visibility
-							option = HIDE
-						}
-						has_completed_focus = JAP_purge_the_kodoha_faction
-					}
-				}
-			}
-		}
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 4
-		}
-
-		allow_branch = {
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = obsolete_focus_branches_visibility
-						option = HIDE
-					}
-				}
-				NOT = {
-					OR = {
-						has_completed_focus = JAP_the_unthinkable_option
-						has_completed_focus = JAP_support_the_kodoha_faction
-						has_completed_focus = JAP_strengthen_civilian_government
-					}
-				}
-			}
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			add_stability = 0.1
-			hidden_effect = {
-				if = {
-					limit = {
-						has_game_rule = {
-							rule = obsolete_focus_branches_visibility
-							option = HIDE
-						}
-					}
-					mark_focus_tree_layout_dirty = yes
-				}
-			}
-		}
-	}
-
-	focus = {
 		id = JAP_liaison_conference
 		icon = GFX_goal_generic_intelligence_exchange
-		prerequisite = { focus = JAP_purge_the_kodoha_faction }
-		x = -1
-		y = 1
-		relative_position_id = JAP_purge_the_kodoha_faction
-
+		x = 0
+		y = 2
+		prerequisite = { focus = JAP_guide_the_zaibatsus focus = JAP_challenge_the_zaibatsus focus = JAP_ally_with_the_zaibatsus focus = JAP_nationalize_the_zaibatsus }
+		relative_position_id = JAP_support_the_kodoha_faction
 		cost = 10
 
 		ai_will_do = {
@@ -1091,10 +938,8 @@
 	focus = {
 		id = JAP_greater_east_asian_co_prosperity_sphere
 		icon = GFX_goal_generic_alliance
-		prerequisite = { focus = JAP_liaison_conference }
-		x = -1
-		y = 1
-		relative_position_id = JAP_liaison_conference
+		x = 7
+		y = 2
 
 		cost = 10
 
@@ -1330,11 +1175,11 @@
 	focus = {
 		id = JAP_strike_south_doctrine
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		prerequisite = { focus = JAP_greater_east_asian_co_prosperity_sphere }
-		prerequisite = { focus = JAP_sign_tripartite_pact }
-		x = 0
-		y = 2
-		relative_position_id = JAP_liaison_conference
+		prerequisite = { focus = JAP_national_mobilization_law }
+		prerequisite = { focus = JAP_guide_the_zaibatsus }
+		x = -3
+		y = 1
+		relative_position_id = JAP_national_mobilization_law
 
 		cost = 10
 
@@ -1379,10 +1224,10 @@
 	focus = {
 		id = JAP_non_aggression_pact_with_the_soviet_union
 		icon = GFX_goal_generic_dangerous_deal
-		prerequisite = { focus = JAP_strike_south_doctrine }
-		x = 0
+		prerequisite = { focus = JAP_strike_south_doctrine focus = }
+		x = -5
 		y = 2
-		relative_position_id = JAP_strike_south_doctrine
+		relative_position_id = JAP_national_mobilization_law
 		dynamic = yes  
 
 		cost = 10
@@ -1414,11 +1259,9 @@
 	focus = {
 		id = JAP_bypass_the_philippines
 		icon = GFX_goal_generic_position_armies
-		prerequisite = { focus = JAP_non_aggression_pact_with_the_soviet_union }
 		mutually_exclusive = { focus = JAP_secure_the_philippines }
 		x = -1
 		y = 1
-		relative_position_id = JAP_non_aggression_pact_with_the_soviet_union
 
 		cost = 10
 
@@ -1452,11 +1295,9 @@
 	focus = {
 		id = JAP_secure_the_philippines
 		icon = GFX_goal_generic_occupy_states_ongoing_war
-		prerequisite = { focus = JAP_non_aggression_pact_with_the_soviet_union }
 		mutually_exclusive = { focus = JAP_bypass_the_philippines }
 		x = 1
 		y = 1
-		relative_position_id = JAP_non_aggression_pact_with_the_soviet_union
 
 		will_lead_to_war_with = PHI
 
@@ -1761,10 +1602,8 @@
 	focus = {
 		id = JAP_alliance_with_siam
 		icon = GFX_goal_generic_major_alliance
-		prerequisite = { focus = JAP_strike_south_doctrine }
 		x = 1
 		y = 1
-		relative_position_id = JAP_strike_south_doctrine
 
 		cost = 10
 
@@ -1889,10 +1728,8 @@
 	focus = {
 		id = JAP_sign_tripartite_pact
 		icon = GFX_goal_anschluss
-		prerequisite = { focus = JAP_liaison_conference }
-		x = 1
-		y = 1
-		relative_position_id = JAP_liaison_conference
+		x = 10
+		y = 2
 
 		cost = 10
 
@@ -1982,8 +1819,9 @@
 		mutually_exclusive = {
 			focus = JAP_challenge_the_zaibatsus
 			focus = JAP_ally_with_the_zaibatsus
+			focus = JAP_nationalize_the_zaibatsus
 		}
-		x = 0
+		x = -3
 		y = 1
 		relative_position_id = JAP_support_the_kodoha_faction
 
@@ -2072,9 +1910,10 @@
 	focus = {
 		id = JAP_nationalize_war_industry
 		icon = GFX_goal_generic_construct_mil_factory
-		x = 0
-		y = 5
-		relative_position_id = JAP_guide_the_zaibatsus
+		prerequisite = { focus = JAP_nationalize_the_zaibatsus }
+		x = 1
+		y = 1
+		relative_position_id = JAP_nationalize_the_zaibatsus
 
 		offset = {
 			x = -1
@@ -2257,9 +2096,9 @@
 	focus = {
 		id = JAP_national_mobilization_law
 		icon = GFX_goal_generic_axis_build_infantry
-		prerequisite = { focus = JAP_guide_the_zaibatsus focus = JAP_challenge_the_zaibatsus focus = JAP_ally_with_the_zaibatsus }
-		x = 0
-		y = 1
+		prerequisite = { focus = JAP_liaison_conference }
+		x = 3
+		y = 2
 		relative_position_id = JAP_guide_the_zaibatsus
 		offset = {
 			x = -13
@@ -2344,9 +2183,9 @@
 		id = JAP_national_research_policy
 		icon = GFX_focus_research
 		prerequisite = { focus = JAP_imperial_arsenals }
-		x = 2
+		x = 1
 		y = 1
-		relative_position_id = JAP_national_mobilization_law
+		relative_position_id = JAP_imperial_arsenals
 
 		cost = 10
 
@@ -2375,9 +2214,9 @@
 	focus = {
 		id = JAP_imperial_arsenals
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = JAP_challenge_the_zaibatsus focus = JAP_guide_the_zaibatsus }
-		x = 2
-		y = 0
+		prerequisite = { focus = JAP_national_mobilization_law }
+		x = 1
+		y = 1
 		relative_position_id = JAP_national_mobilization_law
 
 		cost = 10
@@ -2669,7 +2508,6 @@
 	focus = {
 		id = JAP_support_the_kodoha_faction
 		icon = GFX_goal_generic_military_deal
-		mutually_exclusive = { focus = JAP_purge_the_kodoha_faction focus = JAP_the_unthinkable_option focus = JAP_strengthen_civilian_government }
 		x = 30
 		y = 0
 
@@ -2759,8 +2597,9 @@
 		mutually_exclusive = {
 			focus = JAP_guide_the_zaibatsus
 			focus = JAP_ally_with_the_zaibatsus
+			focus = JAP_nationalize_the_zaibatsus
 		}
-		x = 4
+		x = 3
 		y = 1
 		relative_position_id = JAP_support_the_kodoha_faction
 
@@ -3368,10 +3207,11 @@
 	focus = {
 		id = JAP_preemptive_war
 		icon = GFX_goal_generic_war_with_comintern
-		prerequisite = { focus = JAP_technological_exchange }
-		x = 0
+		prerequisite = { focus = JAP_national_mobilization_law }
+		prerequisite = { focus = JAP_nationalize_the_zaibatsus }
+		x = 7
 		y = 1
-		relative_position_id = JAP_technological_exchange
+		relative_position_id = JAP_national_mobilization_law
 
 		cost = 10
 
@@ -3410,12 +3250,6 @@
 				}
 				unlock_decision_tooltip = JAP_war_with_soviet_union
 			}
-			if = {
-				limit = {
-					has_country_leader = { id = 700 ruling_only = yes }
-				}
-				remove_country_leader_trait = imperial_sanction
-			}
 		}
 	}
 
@@ -3424,7 +3258,6 @@
 		icon = GFX_goal_generic_construction2
 		x = -2
 		y = 1
-		relative_position_id = JAP_preemptive_war
 
 		cost = 10
 
@@ -3503,10 +3336,8 @@
 	focus = {
 		id = JAP_german_rocketry
 		icon = GFX_focus_rocketry
-		prerequisite = { focus = JAP_preemptive_war }
 		x = 0
 		y = 1
-		relative_position_id = JAP_preemptive_war
 
 		cost = 10
 
@@ -3558,91 +3389,15 @@
 	}
 
 	focus = {
-		id = JAP_strengthen_civilian_government
-		icon = GFX_goal_support_democracy
-		mutually_exclusive = { focus = JAP_purge_the_kodoha_faction focus = JAP_support_the_kodoha_faction focus = JAP_the_unthinkable_option }
-		x = 6
-		y = 0
-		relative_position_id = JAP_support_the_kodoha_faction
-
-		offset = {
-			x = -22
-			y = 0
-			trigger = {
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-				has_completed_focus = JAP_strengthen_civilian_government
-			}
-		}
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 2
-		}
-
-		allow_branch = {
-			has_dlc = "Waking the Tiger"
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = obsolete_focus_branches_visibility
-						option = HIDE
-					}
-				}
-				NOT = {
-					OR = {
-						has_completed_focus = JAP_purge_the_kodoha_faction
-						has_completed_focus = JAP_support_the_kodoha_faction
-						has_completed_focus = JAP_the_unthinkable_option
-					}
-				}
-			}
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			add_political_power = 120
-			add_timed_idea = { idea = JAP_strengthen_civilian_government days = 1095 }
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = kijuro_shidehara
-			hidden_effect = {
-				if = {
-					limit = {
-						has_game_rule = {
-							rule = obsolete_focus_branches_visibility
-							option = HIDE
-						}
-					}
-					mark_focus_tree_layout_dirty = yes
-				}
-			}
-		}
-	}
-
-	focus = {
 		id = JAP_ally_with_the_zaibatsus
 		icon = GFX_focus_jap_zaibatsu
 		prerequisite = { focus = JAP_support_the_kodoha_faction }
 		mutually_exclusive = {
 			focus = JAP_challenge_the_zaibatsus
 			focus = JAP_guide_the_zaibatsus
+			focus = JAP_nationalize_the_zaibatsus
 		}
-		x = -4
+		x = -7
 		y = 1
 		relative_position_id = JAP_support_the_kodoha_faction
 
@@ -5043,8 +4798,8 @@
 		id = JAP_army_expansion
 		icon = GFX_goal_generic_army_artillery
 		prerequisite = { focus = JAP_army_expansion_law }
-		x = 1
-		y = 1
+		x = 2
+		y = 0
 		relative_position_id = JAP_army_expansion_law
 
 		cost = 10
@@ -5117,7 +4872,7 @@
 		id = JAP_fighter_modernization
 		icon = GFX_goal_generic_air_fighter2
 		prerequisite = { focus = JAP_army_expansion_law }
-		x = 4
+		x = 2
 		y = 2
 		relative_position_id = JAP_army_expansion_law
 
@@ -5258,8 +5013,6 @@
 	focus = {
 		id = JAP_the_zero
 		icon = GFX_focus_jap_zero
-		prerequisite = { focus = JAP_first_air_fleet }
-		prerequisite = { focus = JAP_agility_focus }
 		x = 1
 		y = 1
 		relative_position_id = JAP_agility_focus
@@ -5466,9 +5219,9 @@
 	focus = {
 		id = JAP_new_naval_estimates
 		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 2
-		y = 1
-		prerequisite = { focus = JAP_ally_with_the_zaibatsus focus = JAP_guide_the_zaibatsus }
+		x = 6
+		y = 3
+		prerequisite = { focus = JAP_national_mobilization_law }
 		relative_position_id = JAP_ally_with_the_zaibatsus
 
 		cost = 10
