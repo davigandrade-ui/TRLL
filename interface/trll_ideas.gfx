@@ -18,4 +18,19 @@ spriteTypes = {
 		name = "GFX_idea_orthodox"
 		texturefile = "gfx/interface/ideas/orthodox.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_reforms_passed"
+		texturefile = "gfx/interface/ideas/reformspassed.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_reforms_denied"
+		texturefile = "gfx/interface/ideas/reformsdenied.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_restore_faith"
+		texturefile = "gfx/interface/ideas/restorefaith.dds"
+	}
 }
