@@ -23,11 +23,6 @@
 		cost = 2
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -42,6 +37,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
+		# EVENT TIME COMES
 		}
 	}
 	
@@ -56,11 +52,6 @@
 		prerequisite = { focus = REM_before_time_comes }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -75,6 +66,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
+		# EVENT ADDRESS PARLIAMENT
 		}
 	}
 	
@@ -89,11 +81,6 @@
 		prerequisite = { focus = REM_addressing_the_parliament }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -108,6 +95,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
+		# EVENT PRESENT REFORMS CHANCE WILL BE DECIDED BY DECISIONS
 		}
 	}
 	
@@ -128,11 +116,6 @@
 		prerequisite = { focus = REM_present_the_reforms }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -147,6 +130,11 @@
 		available_if_capitulated = no
 
 		completion_reward = {
+		# EVENT REFORMS PASSED
+		    add_timed_idea = {
+			    REM_reforms_passed
+				days = 120
+			}
 		}
 	}
 	
@@ -161,11 +149,6 @@
 		prerequisite = { focus = REM_reforms_passed }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -180,6 +163,11 @@
 		available_if_capitulated = no
 
 		completion_reward = {
+		# EVENT CHURCH PROTESTS
+		    swap_ideas = {
+			    remove_idea = REM_orthodox_auto
+				add_idea = REM_orthodox_auto_2
+			}
 		}
 	}
 	
@@ -194,11 +182,6 @@
 		prerequisite = { focus = REM_sweep_the_church }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -213,6 +196,10 @@
 		available_if_capitulated = no
 
 		completion_reward = {
+		    swap_ideas = {
+			    remove_idea = REM_orthodox_auto_2
+				add_idea = REM_orthodox_auto_3
+			}
 		}
 	}
 	
@@ -227,11 +214,6 @@
 		prerequisite = { focus = REM_restructure_church_state_relations }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -246,6 +228,10 @@
 		available_if_capitulated = no
 
 		completion_reward = {
+		    swap_ideas = {
+			    remove_idea = REM_orthodox_auto_3
+				add_idea = REM_controlled_church
+			}
 		}
 	}
 	
@@ -260,11 +246,6 @@
 		prerequisite = { focus = REM_secularize_administration }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -279,6 +260,9 @@
 		available_if_capitulated = no
 
 		completion_reward = {
+		    add_idea = {
+			    REM_restore_faith
+			}
 		}
 	}
 	
@@ -293,11 +277,6 @@
 		prerequisite = { focus = REM_sweep_the_church }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -326,11 +305,6 @@
 		prerequisite = { focus = REM_take_out_corrupt }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -359,11 +333,6 @@
 		prerequisite = { focus = REM_foster_culture_integrity focus = REM_restore_faith_government }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -392,11 +361,6 @@
 		prerequisite = { focus = REM_reforms_passed }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -425,11 +389,6 @@
 		prerequisite = { focus = REM_civil_liberties focus = REM_sweep_the_church }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -458,11 +417,6 @@
 		prerequisite = { focus = REM_civil_liberties }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -491,11 +445,6 @@
 		prerequisite = { focus = REM_distance_the_military }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -524,11 +473,6 @@
 		prerequisite = { focus = REM_distance_the_military focus = REM_expanded_female_rights }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -557,11 +501,6 @@
 		prerequisite = { focus = REM_expanded_female_rights }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -590,11 +529,6 @@
 		prerequisite = { focus = REM_let_women_join_politics focus = REM_let_women_join focus = REM_decrease_voters_threshold }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -623,11 +557,6 @@
 		prerequisite = { focus = REM_reformed_government }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -656,11 +585,6 @@
 		prerequisite = { focus = REM_rewrite_constitution focus = REM_educate_youth }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -697,11 +621,6 @@
 		mutually_exclusive = { focus = REM_reforms_passed }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -730,11 +649,6 @@
 		prerequisite = { focus = REM_reforms_denied }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -763,11 +677,6 @@
 		prerequisite = { focus = REM_to_live_with_failure }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -796,11 +705,6 @@
 		prerequisite = { focus = REM_question_the_monarchy }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -829,11 +733,6 @@
 		prerequisite = { focus = REM_to_live_with_failure }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -862,11 +761,6 @@
 		prerequisite = { focus = REM_parliamentary_backlash }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -895,11 +789,6 @@
 		prerequisite = { focus = REM_open_political_discourse focus = REM_growing_dissident }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -934,11 +823,6 @@
 		cost = 4
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -971,11 +855,6 @@
 		prerequisite = { focus = REM_long_live_alexei }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -1004,11 +883,6 @@
 		prerequisite = { focus = REM_gorchakov_doctrine }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -1037,11 +911,6 @@
 		prerequisite = { focus = REM_visit_austria }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -1069,11 +938,6 @@
 		prerequisite = { focus = REM_approach_west }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -1102,11 +966,6 @@
 		prerequisite = { focus = REM_gorchakov_doctrine }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -1135,11 +994,6 @@
 		prerequisite = { focus = REM_approach_asia }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -1168,11 +1022,6 @@
 		prerequisite = { focus = REM_approach_asia }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -1201,11 +1050,6 @@
 		prerequisite = { focus = REM_visit_tokyo focus = REM_rekindle_china }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -1234,11 +1078,6 @@
 		prerequisite = { focus = REM_trade_investment_agreement }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -1270,11 +1109,6 @@
 		prerequisite = { focus = REM_long_live_alexei }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {
@@ -1302,11 +1136,6 @@
 		prerequisite = { focus = REM_national_rejuvenation_act }
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
 		}
 
 		available = {

@@ -69,7 +69,73 @@ ideas = {
 	}
 	
 	country = {
-		petersburg_pact = {
+		REM_orthodox_auto_2 = {
+
+			allowed = {
+                tag = REM
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = orthodox
+
+			modifier = {
+				political_power_cost = 0.05
+				stability_factor = -0.07
+			}
+		}
+	}
+	
+	country = {
+		REM_orthodox_auto_3 = {
+
+			allowed = {
+                tag = REM
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = orthodox
+
+			modifier = {
+				political_power_cost = 0.02
+				stability_factor = -0.04
+			}
+		}
+	}
+	
+	country = {
+		REM_controlled_church = {
+
+			allowed = {
+                tag = REM
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = orthodox
+
+			modifier = {
+				political_power_cost = -0.05
+				stability_factor = 0.05
+			}
+		}
+	}
+	
+	country = {
+		REM_petersburg_pact = {
 
 			allowed = {
                 tag = REM
@@ -87,6 +153,69 @@ ideas = {
 				neutrality_acceptance = 40
 				faction_trade_opinion_factor = 0.5
 				consumer_goods_factor = -0.1
+			}
+		}
+	}
+	
+	country = {
+		REM_reforms_passed = {
+
+			allowed = {
+                tag = REM
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = reforms_passed
+
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+	}
+	
+	country = {
+		REM_reforms_denied = {
+
+			allowed = {
+                tag = REM
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = reforms_denied
+
+			modifier = {
+				stability_factor = -0.05
+			}
+		}
+	}
+	
+	country = {
+		REM_restore_faith = {
+
+			allowed = {
+                tag = REM
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = reforms_faith
+
+			modifier = {
+				stability_factor = 0.05
 			}
 		}
 	}
