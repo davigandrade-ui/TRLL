@@ -37,6 +37,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
+		add_political_power = 100
 		# EVENT TIME COMES
 		}
 	}

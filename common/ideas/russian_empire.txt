@@ -42,6 +42,31 @@ ideas = {
 				mobilization_laws_cost_factor = 0.5
 			}
 		}
+		REM_communists_lurking = { 
+
+			removal_cost = -1
+
+			picture = trotskyite_plot
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.1
+				political_power_factor = -0.1
+				intelligence_agency_defense = -0.1
+				airforce_intel_to_others = 10
+				navy_intel_to_others = 10
+				army_intel_to_others = 10
+				civilian_intel_to_others = 10
+			}
+		}
+
 		REM_dominating_west = {
 
 			allowed = {

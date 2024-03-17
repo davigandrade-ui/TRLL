@@ -89,4 +89,5 @@ add_ideas = {
 	REM_dominating_west
 	REM_orthodox_auto
 	REM_victors_of_wwi
+	REM_communists_lurking
 }
