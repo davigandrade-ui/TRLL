@@ -10,7 +10,7 @@ characters={
 		country_leader={
 			ideology=despotism
 		    desc = REM_nicholas_ii_description
-			traits =  { indomitable_perseverance father_of_russia }
+			traits =  { indomitable_perseverance father_of_russia REM_aging_man }
 			expire="1960.1.1.1"
 			id=-1
 		}
