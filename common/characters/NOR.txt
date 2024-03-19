@@ -383,7 +383,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=nazism
+			ideology=national_vanguard
 			expire="1965.1.1.1"
 			traits = { NOR_ruthless_administrator }
 			id=-1
