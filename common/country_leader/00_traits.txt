@@ -113,7 +113,7 @@ leader_traits = {
 
 	emperor_showa = {
 		random = no
-		stability_factor = 0.6 #FOR THE EMPERAH
+		stability_factor = 0.2 #FOR THE EMPERAH
 
 		ai_will_do = {
 			factor = 1
@@ -5979,6 +5979,7 @@ leader_traits = {
 		random = yes
 		conversion_cost_civ_to_mil_factor = -0.2
 		production_speed_supply_node_factor = 0.1
+		production_speed_rail_way_factor = 0.2
 		# civ_to_mil_industry_conversion_rate = -1
 
 		ai_will_do = {

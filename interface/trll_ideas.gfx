@@ -33,4 +33,10 @@ spriteTypes = {
 		name = "GFX_idea_restore_faith"
 		texturefile = "gfx/interface/ideas/restorefaith.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_state_shintoism_2"
+		texturefile = "gfx/interface/ideas/state_shintoism.dds"
+	}
+
 }

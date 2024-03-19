@@ -26,3 +26,8 @@
  REM_parliamentary_backlash:0 "Parliamentary Backlash"
  REM_growing_dissident:0 "Growing Dissident"
  REM_demand_a_plebiscite:0 "Demand a Plebiscite"
+ JAP_one_true_goal:0 "One True Goal"
+ JAP_take_manchuria:0 "Invade Manchuria"
+ JAP_take_manchuria_desc:0 "Manchuria continues to exist under Russian rule; an ugly relic of our past defeat. We must remedy this situation and ensure this region is returned to rightful Japanese control."
+ JAP_take_manchuria_tt:0 "§4Adds 1 level infrastructure to every Manchuria state you control§!"
+ JAP_prepare_for_war_with_the_soviet_union_tt:0 "§4This advisor %50 cheaper(75pp)§!"
