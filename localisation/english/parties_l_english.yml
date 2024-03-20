@@ -31,14 +31,10 @@
  national_vanguard_desc:0 "National Vanguardism is a nationalist ideology advocating for a strong, unified nation led by a charismatic authoritarian figure. It emphasizes national unity, cultural traditionalism, and selective social welfare."
  japanese_vanguard:0 "Japanese Vanguardism"
  japanese_vanguard_desc:0 "Japanese Vanguardism advocates Japanese imperialism and supremacy, driven by nationalism, militarism, and cultural superiority. It envisions Japan as the leader of an Asian empire, promoting hegemony through military strength and a belief in the divine mission of the Japanese people."
- maximalism:0 "Maximalism"
- maximalism_desc:0 ""To be a Maximalist is to embrace and encourage the principle of authority", as said by british Premier Oswald Mosley. \n\nMaximalism is the advocation for a powerful centralized state led by a leader. It prioritizes national identity, societal cohesion, and traditional values while seeking support from popular bases."
- fascism_ideology:0 "Fascism"
- fascism_ideology_desc:0 "Encompassing a variety of ultra-nationalist movements, fascism typically venerates devotion to the state and uniting the people under a strong leader."
  falangism:0 "Falangism"
  falangism_desc:0 "An authoritarian ideology with traits of fascism and conservatism, Falangism values national and Catholic identity."
- clerical_fascism:0 "Clerical fascism"
- clerical_fascism_desc:0 "Clerical fascism merges ultra-nationalism and religious fervor, prioritizing absolute loyalty to the state and its leader. It stresses unity under authoritarian rule, integrating religious principles into governance."
+ clerical_fascism:0 "Clerical Vanguard"
+ clerical_fascism_desc:0 "Clerical Vanguardism merges ultra-nationalism and religious fervor, prioritizing absolute loyalty to the state and its leader. It stresses unity under authoritarian rule, integrating religious principles into governance."
  rexism:0 "Rexism"
  rexism_desc:0 "Strongly opposed to both liberal and communist ideals, Rexism is a staunchly conservative nationalist movement who advocate a corporatist economic policy. Employing increasingly populist and authoritarian rhetoric, their ideals are shifting closer to other fascist movements."
  
@@ -57,6 +53,14 @@
  anarchism_desc:0 "Anarchism is the rejection of authority itself, promoting the division of society into self-managing and self-governing collectives instead of a singular, centralized state."
  monarchism:0 "Monarchism"
  monarchism_desc:0 "Monarchism promotes a hierarchical structure with power vested in a hereditary monarch or royal family, emphasizing stability and continuity under their rule."
+ 
+ maximalism:0 "Maximalism"
+ maximalism_noun:0 "Maximalism"
+ maximalism_desc:0 ""To be a Maximalist is to embrace and encourage the principle of authority", as said by british politician Oswald Mosley. \n\nMaximalism is the advocation for a powerful centralized state led by a leader. It prioritizes national identity, societal cohesion, and traditional values while seeking support from popular bases."
+ german_maximalism:0 "German Maximalism"
+ german_maximalism_desc:0 "German Maximalism is a political ideology characterized by Maximalism with Germanic ascendence. This ideology is rooted in a desire for a dominant and assertive Germany on the world stage, with a focus on achieving economic prosperity and military strength through state intervention and control."
+ american_maximalism:0 "American Maximalism"
+ american_maximalism_desc:0 "American Maximalism seeks to maximize state control to ensure economic prosperity, social stability, and military strength, with a focus on preserving American identity and dominance both domestically and internationally."
  
  # TRLL TAGS BELOW
  

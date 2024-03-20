@@ -210,6 +210,11 @@ spriteTypes = {
 # Germany:
 	
 	spriteType = {
+		name = "GFX_joachim"
+		texturefile = "gfx/leaders/GER/portrait_joachim.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_marx"
 		texturefile = "gfx/leaders/GER/portrait_marx.dds"
 	}
