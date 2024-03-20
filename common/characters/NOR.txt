@@ -408,7 +408,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=gen_nazism
+			ideology=national_vanguard
 			expire="1965.1.1.1"
 			traits = { NOR_germanophile_officer }
 			id=-1

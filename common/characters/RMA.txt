@@ -2,7 +2,6 @@ characters={
 	
 	RMA_trubetzkoy={
 		name=RMA_trubetzkoy_name
-		desc = REM_nicholas_ii_description
 		portraits={
 			civilian={
 				large="GFX_trubetzkoy"
@@ -11,6 +10,7 @@ characters={
 		country_leader={
 			ideology=despotism
 			expire="1960.1.1.1"
+			desc = REM_nicholas_ii_description
 			id=-1
 		}
 	}
