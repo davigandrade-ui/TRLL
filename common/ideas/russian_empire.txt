@@ -57,13 +57,15 @@ ideas = {
 			}
 
 			modifier = {
-				stability_factor = -0.1
-				political_power_factor = -0.1
+				democratic_drift = 0.1
+				fascism_drift = 0.1
+				neutrality_drift = -0.1
 				intelligence_agency_defense = -0.1
 				airforce_intel_to_others = 10
 				navy_intel_to_others = 10
 				army_intel_to_others = 10
 				civilian_intel_to_others = 10
+
 			}
 		}
 
@@ -217,7 +219,8 @@ ideas = {
 			picture = reforms_denied
 
 			modifier = {
-				stability_factor = -0.05
+				stability_factor = -0.1
+				political_power_factor = -0.1
 			}
 		}
 		REM_restore_faith = {
