@@ -1,0 +1,12 @@
+## This file is for Ministers and Military Staff only. Ideas go to ideas.gfx
+## This file was done by tehrozer for Eeastern Europe Reworked Mod
+## It is a second file with minister gfx 
+
+spriteTypes = {
+
+ 	spriteType = {
+		name = "GFX_idea_REM_Pyotr_Stolypin"
+		texturefile = "gfx/interface/ministers/REM/REM_prime_minister_stolypin.dds"
+	}
+
+}
