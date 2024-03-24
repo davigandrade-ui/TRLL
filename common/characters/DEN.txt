@@ -463,7 +463,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=nazism
+				ideology=national_vanguard
 				traits = { DEN_fascist_populist}
 				expire="1965.1.1.1"
 				id=-1
@@ -524,7 +524,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=nazism
+				ideology=national_vanguard
 				expire="1965.1.1.1"
 				id=-1
 			}

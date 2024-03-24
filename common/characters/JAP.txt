@@ -1596,5 +1596,29 @@ characters={
 		}
 	}
 
+	JAP_yuuki_rito={
+		name=JAP_yuuki_rito
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_asia_2"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = JAP_yuuki_rito
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				armaments_organizer
+			}
+			cost = 75
+			visible = { has_character_flag = northern_japan }
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+	}
+
 	# Illusive Gentleman auto-generated
 }

@@ -23,7 +23,29 @@ ideas = {
 			}
 		}
 	
+		state_shintoism_2 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+			
+			removal_cost = -1
 	
+
+			modifier = {
+				industry_air_damage_factor = -0.1
+				army_morale_factor = 0.1
+				recruitable_population_factor = 0.1
+				army_core_defence_factor = 0.1	
+			}
+		}	
+
+
 		# POLITICAL
 		student_mobilization_idea = {
 			
@@ -81,7 +103,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				conscription = 0.025
+				conscription = 0.01
 			}
 		}
 
@@ -218,6 +240,7 @@ ideas = {
 				production_speed_industrial_complex_factor = 0.05
 				production_speed_arms_factory_factor = 0.05
 				production_speed_dockyard_factor = 0.05
+				consumer_goods_factor = -0.10
 			}
 		}
 
@@ -355,6 +378,29 @@ ideas = {
 				production_speed_industrial_complex_factor = -0.1
 				ai_desired_divisions_factor = 0.25
 				navy_max_range_factor = 0.1
+			}
+		}
+		JAP_militarism_3 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = warrior_traditions_idea
+			
+			modifier = {
+				war_support_factor = 0.2
+				mobilization_laws_cost_factor = -0.25
+				justify_war_goal_time = -0.2
+				research_speed_factor = -0.05
+				production_speed_industrial_complex_factor = -0.1
+				ai_desired_divisions_factor = 0.25
+				conscription = 0.01
 			}
 		}
 		JAP_militarism_shogunate = {
@@ -1133,7 +1179,10 @@ ideas = {
 			picture = generic_intel_bonus
 			
 			modifier = {
-				neutrality_drift = 0.3
+				war_support_factor = -0.2
+				mobilization_laws_cost_factor = 0.25
+				justify_war_goal_time = 0.2
+				research_speed_factor = 0.05
 			}
 		}
 

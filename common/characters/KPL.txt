@@ -2,13 +2,13 @@ characters={
 	
 	KPL_pavel={
 		name="Pavel Yengalychev"
-		desc=REM_nick_desc
 		portraits={
 			civilian={
 				large="GFX_pavel"
 			}
 		}
 		country_leader={
+			desc=REM_nick_desc
 			ideology=despotism
 			expire="1960.1.1.1"
 			id=-1

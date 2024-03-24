@@ -88,4 +88,6 @@ add_ideas = {
 	REM_feminism
 	REM_dominating_west
 	REM_orthodox_auto
+	REM_victors_of_wwi
+	
 }

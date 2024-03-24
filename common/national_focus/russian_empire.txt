@@ -37,6 +37,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
+		add_political_power = 100
 		# EVENT TIME COMES
 		}
 	}
@@ -119,6 +120,7 @@
 		}
 
 		available = {
+		always = no
 		}
 		
 		bypass = {
@@ -174,7 +176,7 @@
 	focus = {
 		id = REM_restructure_church_state_relations
 		icon = GFX_focus_REM_restructure_church_state_relations
-		x = 2
+		x = 1
 		y = 1
 		relative_position_id = REM_sweep_the_church
 
@@ -269,7 +271,7 @@
 	focus = {
 		id = REM_take_out_corrupt
 		icon = GFX_focus_REM_take_out_corrupt
-		x = 0
+		x = -1
 		y = 1
 		relative_position_id = REM_sweep_the_church
 
@@ -299,7 +301,7 @@
 	focus = {
 		id = REM_foster_culture_integrity
 		icon = GFX_focus_REM_foster_culture_integrity
-		x = -1
+		x = 0
 		y = 1
 		relative_position_id = REM_take_out_corrupt
 
@@ -327,7 +329,7 @@
 	focus = {
 		id = REM_educate_youth
 		icon = GFX_focus_REM_educate_youth
-		x = 1
+		x = 0
 		y = 2
 		relative_position_id = REM_foster_culture_integrity
 
@@ -579,7 +581,7 @@
 	focus = {
 		id = REM_tsarist_success
 		icon = GFX_focus_REM_tsarist_success
-		x = 18:5
+		x = 17
 		y = 10
 
 
@@ -626,6 +628,7 @@
 		}
 
 		available = {
+		always = no
 		}
 		
 		bypass = {
@@ -637,6 +640,9 @@
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_ideas = { REM_communists_lurking}
+			add_ideas = { REM_reforms_denied}
+			
 		}
 	}
 	

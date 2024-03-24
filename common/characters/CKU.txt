@@ -2,7 +2,6 @@ characters={
 	
 	CKU_kirill={
 		name=CKU_kirill_name
-		desc = REM_nicholas_ii_description
 		portraits={
 			civilian={
 				large="GFX_kirill"
@@ -10,6 +9,7 @@ characters={
 		}
 		country_leader={
 			ideology=despotism
+			desc = REM_nicholas_ii_description
 			expire="1960.1.1.1"
 			id=-1
 		}

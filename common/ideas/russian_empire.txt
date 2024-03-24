@@ -20,9 +20,55 @@ ideas = {
 				stability_factor = -0.05
 			}
 		}
-	}
-	
-	country = {
+		REM_victors_of_wwi = {
+			
+			allowed = {
+				original_tag = REM
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_victors_of_ww1
+			
+			modifier = {
+				conscription = -0.003
+				war_support_factor = -0.05
+				land_doctrine_cost_factor = 0.5
+				mobilization_laws_cost_factor = 0.5
+			}
+		}
+		REM_communists_lurking = { 
+
+			removal_cost = -1
+
+			picture = trotskyite_plot
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			modifier = {
+				democratic_drift = 0.1
+				fascism_drift = 0.1
+				neutrality_drift = -0.1
+				intelligence_agency_defense = -0.1
+				airforce_intel_to_others = 10
+				navy_intel_to_others = 10
+				army_intel_to_others = 10
+				civilian_intel_to_others = 10
+
+			}
+		}
+
 		REM_dominating_west = {
 
 			allowed = {
@@ -44,9 +90,6 @@ ideas = {
 				war_support_factor = 0.05
 			}
 		}
-	}
-	
-	country = {
 		REM_orthodox_auto = {
 
 			allowed = {
@@ -66,9 +109,6 @@ ideas = {
 				stability_factor = -0.1
 			}
 		}
-	}
-	
-	country = {
 		REM_orthodox_auto_2 = {
 
 			allowed = {
@@ -88,9 +128,6 @@ ideas = {
 				stability_factor = -0.07
 			}
 		}
-	}
-	
-	country = {
 		REM_orthodox_auto_3 = {
 
 			allowed = {
@@ -110,9 +147,6 @@ ideas = {
 				stability_factor = -0.04
 			}
 		}
-	}
-	
-	country = {
 		REM_controlled_church = {
 
 			allowed = {
@@ -132,9 +166,6 @@ ideas = {
 				stability_factor = 0.05
 			}
 		}
-	}
-	
-	country = {
 		REM_petersburg_pact = {
 
 			allowed = {
@@ -155,9 +186,6 @@ ideas = {
 				consumer_goods_factor = -0.1
 			}
 		}
-	}
-	
-	country = {
 		REM_reforms_passed = {
 
 			allowed = {
@@ -176,9 +204,6 @@ ideas = {
 				stability_factor = 0.05
 			}
 		}
-	}
-	
-	country = {
 		REM_reforms_denied = {
 
 			allowed = {
@@ -194,12 +219,10 @@ ideas = {
 			picture = reforms_denied
 
 			modifier = {
-				stability_factor = -0.05
+				stability_factor = -0.1
+				political_power_factor = -0.1
 			}
 		}
-	}
-	
-	country = {
 		REM_restore_faith = {
 
 			allowed = {
