@@ -83,14 +83,14 @@ if = {
 	GER = {
 		add_opinion_modifier = {
 			target = POR
-			modifier = fascism_leanings_good
+			modifier = national_vanguard_leanings_good
 		}
 	}
 
 	ITA = {
 		add_opinion_modifier = {
 			target = POR
-			modifier = fascism_leanings_good
+			modifier = national_vanguard_leanings_good
 		}
 	}
 	
@@ -207,7 +207,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 10
+	national_vanguard = 10
 	communism = 10
 	neutrality = 60
 	democratic = 20

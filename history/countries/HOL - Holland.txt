@@ -272,13 +272,13 @@ recruit_character = HOL_wilhelmina
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = national_vanguard
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	fascism = 43
+	national_vanguard = 43
 	democratic = 54
 	communism = 3
 }
