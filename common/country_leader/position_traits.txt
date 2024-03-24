@@ -1,0 +1,26 @@
+#####################
+# Position traits
+######################
+# These have no effect and are just for events and to clarify ideology belongings
+#####################
+
+leader_traits = {
+
+#####################
+# Minister
+#####################
+
+decision = {}
+
+
+#####################
+# Minister
+#####################
+
+	head_of_government = {}
+	security_minister = {}
+	foreign_minister = {}
+	war_minister = {}
+	head_of_council = {}
+}
+

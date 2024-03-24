@@ -5,4 +5,24 @@ spriteTypes = {
 		texturefile = "gfx/interface/ministers/REM/REM_prime_minister_stolypin.dds"
 	}
 
+ 	spriteType = {
+		name = "GFX_idea_REM_Vyacheslav_von_Plehve"
+		texturefile = "gfx/interface/ministers/REM/REM_advisor_plehve.dds"
+	}	
+
+ 	spriteType = {
+		name = "GFX_idea_REM_Sergei_Sazonov"
+		texturefile = "gfx/interface/ministers/REM/REM_advisor_sazonov.dds"
+	}
+
+ 	spriteType = {
+		name = "GFX_idea_REM_Alexander_Guchkov"
+		texturefile = "gfx/interface/ministers/REM/REM_advisor_guchkov.dds"
+	}	
+
+ 	spriteType = {
+		name = "GFX_idea_REM_Nikolai_Lvov"
+		texturefile = "gfx/interface/ministers/REM/REM_advisor_nikolaevich.dds"
+	}	
+
 }

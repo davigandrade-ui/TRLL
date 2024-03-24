@@ -39,6 +39,7 @@ idea_categories = {
 		slot = person_of_influence
 		slot = person_of_influence
 		slot = person_of_influence
+		slot = person_of_influence		
 
 		ledger = civilian
 		

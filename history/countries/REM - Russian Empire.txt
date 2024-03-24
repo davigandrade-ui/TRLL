@@ -85,6 +85,10 @@ set_popularities = {
 
 add_ideas = {
 	REM_Pyotr_Stolypin
+	REM_Vyacheslav_von_Plehve
+	REM_Sergei_Sazonov
+	REM_Alexander_Guchkov
+	REM_Nikolai_Lvov
     petersburg_pact
 	REM_feminism
 	REM_dominating_west

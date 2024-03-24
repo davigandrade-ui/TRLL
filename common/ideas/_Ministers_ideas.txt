@@ -10,10 +10,86 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea REM_Pyotr Stolypin"
+				log = "[GetDateText]: [Root.GetName]: add idea REM_Pyotr_Stolypin"
 			}
 			traits = {
 				head_of_government
+				headstrong
+			}
+		}
+	}
+
+	person_of_influence = {
+		
+		REM_Vyacheslav_von_Plehve = { 
+			allowed = { original_tag = REM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea REM_Vyacheslav_von_Plehve"
+			}
+			traits = {
+				security_minister
+				conservative_nationalist
+			}
+		}
+
+		REM_Sergei_Sazonov = { 
+			allowed = { original_tag = REM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea REM_Sergei_Sazonov"
+			}
+			traits = {
+				foreign_minister
+				expansionist_policies
+			}
+		}
+
+		REM_Alexander_Guchkov = { 
+			allowed = { original_tag = REM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea REM_Alexander_Guchkov"
+			}
+			traits = {
+				war_minister
+				army_chief_offensive_2
+			}
+		}
+
+		REM_Nikolai_Lvov = { 
+			allowed = { original_tag = REM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea REM_Nikolai_Lvov"
+			}
+			traits = {
+				head_of_council
+				staunch_constitutionalist
 			}
 		}
 	}

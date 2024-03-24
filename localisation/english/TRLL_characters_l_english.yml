@@ -3,4 +3,7 @@
  JAP_yuuki_rito:0 "Yuuki Rito"
  minister_available:0 "§RMinisters can't be manually added or removed.§! They can only be changed via events, focuses, decisions and so on.\n\nThis list represents all possible ministers for a nation, so the people here may be at odds with the current government, in a different country or even dead."
  REM_Pyotr_Stolypin:0 "Pyotr Stolypin"
- head_of_government:0 "Head of Government"
+ REM_Vyacheslav_von_Plehve:0 "Vyacheslav von Plehve"
+ REM_Sergei_Sazonov:0 "Sergei Sazonov"
+ REM_Alexander_Guchkov:0 "Alexander Guchkov"
+ REM_Nikolai_Lvov:0 "Nikolai Lvov"
