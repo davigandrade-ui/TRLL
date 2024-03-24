@@ -293,6 +293,8 @@
 		available_if_capitulated = no
 
 		completion_reward = {
+		    add_political_power = 50
+			add_stability = 0.05
 		}
 	}
 	

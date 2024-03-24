@@ -15,6 +15,44 @@ characters={
 		}
 	}
 	
+	GER_joachim_von_ribbentrop={
+		name=GER_joachim_von_ribbentrop
+		portraits={
+			army={
+				small="GFX_idea_joachim_von_ribbentrop"
+			}
+			civilian={
+				large=GFX_joachim
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = joachim_von_ribbentrop
+			allowed = {
+				original_tag = GER
+			}
+			available = {
+				OR = {
+					has_government = maximalism
+					has_country_flag = GER_reinstated_nazi_leadership 
+				}
+			}
+			traits = {
+				backroom_backstabber 
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+		
+		country_leader={
+			ideology=maximalism
+			traits={ dictator anti_democrat }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
 	GER_august_mackensen={
 		name=GER_mackensen
 		portraits={
@@ -1697,34 +1735,6 @@ characters={
 				silent_workhorse 
 			}
 		}		
-	}
-
-	GER_joachim_von_ribbentrop={
-		name=GER_joachim_von_ribbentrop
-		portraits={
-			army={
-				small="GFX_idea_joachim_von_ribbentrop"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = joachim_von_ribbentrop
-			allowed = {
-				original_tag = GER
-			}
-			available = {
-				OR = {
-					has_government = fascism 
-					has_country_flag = GER_reinstated_nazi_leadership 
-				}
-			}
-			traits = {
-				backroom_backstabber 
-			}
-			ai_will_do = {
-				factor = 0.000
-			}
-		}
 	}
 
 	GER_konstantin_von_neurath={

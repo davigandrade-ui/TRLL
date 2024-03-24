@@ -1,0 +1,22 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_ideology_maximalism_group # Will be used for the Maximalism
+        texturefile = gfx/interface/ideologies/maximalism_group.dds
+    }
+    spriteType = {
+        name = GFX_ideology_communism_group # Will be used for the Communism
+        texturefile = gfx/interface/ideologies/communism_group.dds
+    }
+    spriteType = {
+        name = GFX_ideology_democratic_group # Will be used for the Democracy
+        texturefile = gfx/interface/ideologies/democratic_group.dds
+    }
+    spriteType = {
+        name = GFX_ideology_neutrality_group # Neutrality
+        texturefile = gfx/interface/ideologies/neutrality_group.dds
+    }
+    spriteType = {
+        name = GFX_ideology_national_vanguard_group # National Vanguard
+        texturefile = gfx/interface/ideologies/nationalvan_group.dds
+    }
+}
