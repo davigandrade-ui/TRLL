@@ -3,9 +3,6 @@
  communism_noun:0 "Communism"
  democratic:0 "Democratic"
  democratic_noun:0 "Democracy"
- fascism:0 "Fascist"
- fascism_noun:0 "Fascism"
- fascism_desc:0 "Totalitarian Regime"
  communism_desc:0 "Totalitarian Regime"
  democratic_desc:0 "Democratic Regime"
  conservatism:0 "Conservatism"
@@ -27,7 +24,8 @@
  anarchist_communism_desc:0 "An ideology embracing the idea of communism as a stateless society, Anarchist Communism eschews the idea of a transitionary socialist state and favors a society based on voluntary associations and mutual aid."
  
 
- national_vanguard:0 "National Vanguardism"
+ national_vanguard:0 "National Vanguardist"
+ national_vanguard_noun:0 "National Vanguardism
  national_vanguard_desc:0 "National Vanguardism is a nationalist ideology advocating for a strong, unified nation led by a charismatic authoritarian figure. It emphasizes national unity, cultural traditionalism, and selective social welfare."
  japanese_vanguard:0 "Japanese Vanguardism"
  japanese_vanguard_desc:0 "Japanese Vanguardism advocates Japanese imperialism and supremacy, driven by nationalism, militarism, and cultural superiority. It envisions Japan as the leader of an Asian empire, promoting hegemony through military strength and a belief in the divine mission of the Japanese people."
