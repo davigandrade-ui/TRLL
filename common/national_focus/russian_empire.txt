@@ -811,6 +811,10 @@
 		available_if_capitulated = no
 
 		completion_reward = {
+					set_politics = {
+				ruling_party = democratic
+				elections_allowed = yes
+			}
 		}
 	}
 	
