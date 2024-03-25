@@ -305,7 +305,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=fascism_ideology
+			ideology=national_vanguard_ideology
 			expire="1965.1.1.1"
 			traits = { NOR_fascist_lackey }
 			id=-1
@@ -341,7 +341,7 @@ characters={
 				NOR_AAT = yes
 			}
 			available = {
-				has_government = fascism 
+				has_government = national_vanguard 
 				NOT = { has_completed_focus = NOR_jonas_lie_coup }
 			}
 			traits = {
@@ -422,7 +422,7 @@ characters={
 			available = {
 				OR = {
 					has_completed_focus = NOR_squash_dissent
-					has_government = fascism 
+					has_government = national_vanguard 
 				}
 			}
 			traits  = { NOR_ruthless_police_captain }
@@ -434,7 +434,7 @@ characters={
 				original_tag = NOR
 			}
 			available = {
-				has_government = fascism 
+				has_government = national_vanguard 
 				NOT = { has_completed_focus = NOR_bring_back_quisling }
 			}
 			traits = {
@@ -610,7 +610,7 @@ characters={
 			available = {
 				has_country_flag = NOR_trotsky_embraced
 				NOT = { has_completed_focus = NOR_compromise_with_the_nkp } 
-				NOT = { has_government = fascism } 
+				NOT = { has_government = national_vanguard } 
 				NOT = { has_government = neutrality }
 				NOR_trotsky_not_in_sov = yes 
 				NOR_trotsky_not_in_mex = yes #Yes, I know this is bullshit but it's all for the tooltip
@@ -657,7 +657,7 @@ characters={
 				NOR_AAT = yes
 			}
 			available = {
-				has_government = fascism 
+				has_government = national_vanguard 
 			}
 			traits  = {
 				NOR_fascist_judiciary
@@ -685,7 +685,7 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = fascism 
+					has_government = national_vanguard 
 					has_completed_focus = NOR_nasjonal_samling
 				}
 			}
@@ -714,7 +714,7 @@ characters={
 				NOR_AAT = yes
 			}
 			available = {
-				has_government = fascism 
+				has_government = national_vanguard 
 			}
 			traits  = {
 				NOR_callous_engineer
@@ -801,7 +801,7 @@ characters={
 
 		corps_commander={
 			visible = {
-				NOT = { has_government = fascism }				
+				NOT = { has_government = national_vanguard }				
 			}
 			traits={ trait_reckless trickster winter_specialist }
 			skill=4
@@ -818,7 +818,7 @@ characters={
 				original_tag = NOR
 			}
 			available = {
-				NOT = {	has_government = fascism }
+				NOT = {	has_government = national_vanguard }
 				NOT = { has_government = communism }
 			}
 			traits = {
@@ -1230,7 +1230,7 @@ characters={
 			slot = high_command
 			idea_token = NOR_birger_eriksen
 			available = {
-				NOT = { has_government = fascism } 
+				NOT = { has_government = national_vanguard } 
 			}
 
 			ledger = army
@@ -1356,7 +1356,7 @@ characters={
 				slot = theorist
 				idea_token = NOR_konrad_sundlo
 				available = {
-					has_government = fascism 
+					has_government = national_vanguard 
 				}
 
 				ledger = army
@@ -1386,7 +1386,7 @@ characters={
 			slot = theorist
 			idea_token = NOR_oscar_torp
 			available = {
-				NOT = { has_government = fascism } 
+				NOT = { has_government = national_vanguard } 
 			}
 
 			ledger = army

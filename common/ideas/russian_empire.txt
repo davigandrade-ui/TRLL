@@ -58,7 +58,7 @@ ideas = {
 
 			modifier = {
 				democratic_drift = 0.1
-				fascism_drift = 0.1
+				national_vanguard_drift = 0.1
 				neutrality_drift = -0.1
 				intelligence_agency_defense = -0.1
 				airforce_intel_to_others = 10

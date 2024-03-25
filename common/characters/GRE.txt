@@ -1226,7 +1226,7 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = fascism 
+					has_government = national_vanguard 
 					has_completed_focus = GRE_recruit_the_fascists 
 				}
 			}

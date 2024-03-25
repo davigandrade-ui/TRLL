@@ -351,7 +351,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = national_vanguard
 			}
 
 			removal_cost = -1
@@ -368,7 +368,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = national_vanguard
 			}
 
 			removal_cost = -1
@@ -386,7 +386,7 @@ ideas = {
 
 			allowed_civil_war = {
 				not = { has_government = communism }
-				not = { has_government = fascism }
+				not = { has_government = national_vanguard }
 			}
 
 			removal_cost = -1
@@ -409,7 +409,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				fascism_drift = -0.1
+				national_vanguard_drift = -0.1
 			}
 		}
 		FRA_la_deluge = {
@@ -519,7 +519,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = national_vanguard
 			}
 
 			removal_cost = -1
@@ -529,7 +529,7 @@ ideas = {
 			}
 		}
 		FRA_up_with_jean_darc = {
-			picture = generic_fascism_drift_bonus
+			picture = generic_national_vanguard_drift_bonus
 			
 			allowed = {
 				original_tag = FRA #should probably be VIC
@@ -537,13 +537,13 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = national_vanguard
 			}
 
 			removal_cost = -1
 			
 			modifier = {
-				fascism_drift = 0.075
+				national_vanguard_drift = 0.075
 				neutrality_drift = 0.025
 			}
 		}
@@ -555,7 +555,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = national_vanguard
 			}
 
 			removal_cost = -1
@@ -573,7 +573,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = national_vanguard
 			}
 
 			removal_cost = -1
@@ -591,7 +591,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = national_vanguard
 			}
 
 			removal_cost = -1
@@ -609,7 +609,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = national_vanguard
 			}
 
 			removal_cost = -1
@@ -626,7 +626,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = national_vanguard
 			}
 
 			removal_cost = -1
@@ -643,7 +643,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = national_vanguard
 			}
 
 			removal_cost = -1
@@ -842,7 +842,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = national_vanguard
 			}
 
 			removal_cost = -1
@@ -859,7 +859,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = national_vanguard
 			}
 
 			removal_cost = -1
@@ -881,7 +881,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = national_vanguard
 			}
 			available = {
 				num_of_military_factories < 35
@@ -900,7 +900,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = national_vanguard
 			}
 
 			removal_cost = -1
@@ -917,7 +917,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = national_vanguard
 			}
 
 			removal_cost = -1
@@ -1193,9 +1193,9 @@ ideas = {
 							}
 						}
 						AND = {	
-							has_government = fascism
+							has_government = national_vanguard
 							GER = {
-								has_government = fascism
+								has_government = national_vanguard
 							}
 						}
 					}
@@ -1281,7 +1281,7 @@ ideas = {
 				allowed_civil_war = {
 					NOT = {
 						OR = {
-							has_government = fascism
+							has_government = national_vanguard
 							AND = {
 								NOT = { has_government = communism }
 								any_other_country = {
@@ -1306,7 +1306,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = fascism
+					has_government = national_vanguard
 				}
 			}
 
@@ -1360,7 +1360,7 @@ ideas = {
 				}
 		}		
 		FRA_support_the_right_focus = {
-				picture = generic_fascism_drift_bonus
+				picture = generic_national_vanguard_drift_bonus
 				allowed = {
 					always = no # Added via focus
 				}
@@ -1369,17 +1369,17 @@ ideas = {
 						OR = {
 							has_government = communism
 							AND = {
-								NOT = { has_government = fascism }
+								NOT = { has_government = national_vanguard }
 								any_other_country = {
 									original_tag = FRA
-									has_government = fascism
+									has_government = national_vanguard
 								}
 							}
 						}
 					}
 				}
 				modifier = {
-					fascism_drift = 0.2
+					national_vanguard_drift = 0.2
 				}
 		}
 
@@ -1407,7 +1407,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = national_vanguard
 			}
 
 			modifier = {
@@ -1444,7 +1444,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = fascism
+					has_government = national_vanguard
 				}
 			}
 

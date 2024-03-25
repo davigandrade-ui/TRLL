@@ -54,7 +54,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=clerical_fascism
+			ideology=clerical_national_vanguard
 			desc = REM_ilyin_description
 			expire="1960.1.1.1"
 			id=-1

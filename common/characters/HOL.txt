@@ -37,7 +37,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=national_vanguard_ideology
 			traits={ leider }
 			expire="1965.1.1.1"
 			id=-1
@@ -476,7 +476,7 @@ characters={
 					has_dlc = "Man the Guns"
 				}
 				available = {
-					has_government = fascism
+					has_government = national_vanguard
 				}
 				traits = {
 					army_chief_offensive_2
@@ -765,7 +765,7 @@ characters={
 					original_tag  = HOL
 				}
 				available  = {
-					has_government  = fascism 
+					has_government  = national_vanguard 
 				}
 				traits  = {
 					prince_of_terror 

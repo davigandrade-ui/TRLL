@@ -130,7 +130,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = national_vanguard
 			}
 
 			removal_cost = -1
@@ -165,7 +165,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = national_vanguard
 			}
 			
 			removal_cost = -1

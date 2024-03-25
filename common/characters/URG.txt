@@ -102,7 +102,7 @@ characters = {
 			logistics_skill = 1
 			legacy_id = -1
 			visible = {
-				has_government = fascism
+				has_government = national_vanguard
 			}
 		}
 	}

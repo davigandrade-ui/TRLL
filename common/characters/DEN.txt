@@ -395,7 +395,7 @@ characters={
 				available = {
 					is_country_leader = no
 					NOT = {
-						has_government = fascism
+						has_government = national_vanguard
 						has_character_flag = DEN_political_agitator_flag
 						has_country_flag = DEN_banned_communism_flag
 					}
@@ -480,7 +480,7 @@ characters={
 					NOT = {
 						has_government = communism
 						has_character_flag = DEN_political_agitator_flag
-						has_country_flag = DEN_banned_fascism_flag
+						has_country_flag = DEN_banned_national_vanguard_flag
 					}
 				}
 				traits = {
@@ -803,7 +803,7 @@ characters={
 						is_subject = yes
 						OVERLORD = {
 							OR = {
-								has_government = fascism
+								has_government = national_vanguard
 								has_government = neutrality
 							}
 						}
@@ -918,7 +918,7 @@ characters={
 							is_subject = yes
 							OVERLORD = {
 								OR = {
-									has_government = fascism
+									has_government = national_vanguard
 									has_government = neutrality
 								}
 							}
@@ -2209,7 +2209,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = national_vanguard_ideology
 			traits = { DEN_fascist_militarist }
 			expire = "1965.1.1.1"
 			id = -1
@@ -2225,12 +2225,12 @@ characters={
 				is_country_leader = no
 				OR = {
 					has_completed_focus = DEN_strengthen_the_officer_corp
-					has_government = fascism
+					has_government = national_vanguard
 				}	
 				NOT = {
 					has_government = communism
 					has_character_flag = DEN_political_agitator_flag
-					has_country_flag = DEN_banned_fascism_flag
+					has_country_flag = DEN_banned_national_vanguard_flag
 				}
 			}
 			traits = {

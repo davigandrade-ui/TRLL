@@ -1181,7 +1181,7 @@ characters={
 			}
 			do_effect  = {
 				not  = {
-					has_government  = fascism 
+					has_government  = national_vanguard 
 				}
 			}
 			on_add  = {
@@ -1276,7 +1276,7 @@ characters={
 			available  = {
 				has_completed_focus  = FRA_integralism 
 				or  = {
-					has_government  = fascism 
+					has_government  = national_vanguard 
 					has_government  = neutrality 
 				}
 			}
@@ -1313,7 +1313,7 @@ characters={
 			}
 			available  = {
 				has_completed_focus  = FRA_national_regeneration 
-				has_government  = fascism 
+				has_government  = national_vanguard 
 			}
 			cost  = 75.000
 			traits  = {
