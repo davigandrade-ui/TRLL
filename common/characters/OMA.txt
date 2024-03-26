@@ -46,7 +46,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=national_vanguard_ideology
+			ideology=national_vanguard
 			traits={ smooth_talking_charmer appeaser }
 			expire="1943.1.1.12"
 			id=-1

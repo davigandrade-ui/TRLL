@@ -99,7 +99,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = national_vanguard_ideology
+				ideology = national_vanguard
 				traits = { hardened_officer }
 				expire = "1966.1.1.1"
 				id = -1
@@ -136,7 +136,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = national_vanguard_ideology
+				ideology = national_vanguard
 				expire = "1965.1.1.1"
 				id = -1
 			}

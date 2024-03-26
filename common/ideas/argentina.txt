@@ -17,7 +17,6 @@ ideas = {
 			modifier = {
 				stability_factor = -0.1
 				neutrality_drift = 0.02
-				  = 0.25
 				war_support_factor = -0.1
 
 			}

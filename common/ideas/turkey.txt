@@ -1016,7 +1016,6 @@ ideas = {
 				
 			modifier = {
 				stability_factor = 0.15
-				  = -0.15
 				high_command_cost_factor = -0.15
 				air_chief_cost_factor = -0.15
 				army_chief_cost_factor = -0.15

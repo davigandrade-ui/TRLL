@@ -1385,7 +1385,7 @@ JAP_colonial_independence = {
 						}
 						NOT = {
 							has_government = communism
-							has_government = fascism
+							has_government = national_vanguard
 						}
 					}
 					transfer_state = 609

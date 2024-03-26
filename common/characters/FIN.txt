@@ -1623,7 +1623,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = national_vanguard_ideology #IKL
+				ideology = national_vanguard #IKL
 				expire = "1965.1.1.1"
 				id = -1
 				traits = { economic_reformer personal_agenda_annala }
@@ -1669,7 +1669,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = national_vanguard_ideology #IKL
+				ideology = national_vanguard #IKL
 				expire = "1965.1.1.1"
 				id = -1
 				traits = { hawk }

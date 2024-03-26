@@ -25,7 +25,7 @@ characters={
 			id = -1
 		}
 		country_leader = { #Finnish content AAT
-			ideology = national_vanguard_ideology
+			ideology = national_vanguard
 			expire = "1940.1.1.1"
 			id = -1
 			traits = { grandpa_vainamoinen }

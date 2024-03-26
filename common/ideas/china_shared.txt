@@ -154,10 +154,6 @@ ideas = {
 		}
 
 	}
-
-	political_advisor = {
-
-	}
 	
 	army_chief = {
 	

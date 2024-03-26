@@ -158,7 +158,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=national_vanguard_ideology
+			ideology=national_vanguard
 			traits={ financial_expert armaments_organizer }
 			expire="1956.1.1.12"
 			id=-1

@@ -71,7 +71,7 @@ characters = {
 				has_government = national_vanguard
 			}
 			country_leader = {
-				ideology = national_vanguard_ideology 
+				ideology = national_vanguard 
 				expire = "1965.1.1.1"
 				traits = { crowned_adder }
 				id = -1
@@ -105,7 +105,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = national_vanguard_ideology 
+				ideology = national_vanguard 
 				expire = "1965.1.1.1"
 				traits = { }
 				id = -1
@@ -126,7 +126,7 @@ characters = {
 		}
 		### Country leader role to be added via event
 		# country_leader = {
-		# 	ideology = national_vanguard_ideology 
+		# 	ideology = national_vanguard 
 		# 	expire = "1965.1.1.1"
 		# 	traits = { tainted_ras }
 		# 	id = -1
@@ -170,7 +170,7 @@ characters = {
 
 		### Country leader role to be added via event
 		# country_leader = {
-		# 	ideology = national_vanguard_ideology 
+		# 	ideology = national_vanguard 
 		# 	expire = "1965.1.1.1"
 		# 	traits = { tainted_ras }
 		# 	id = -1
@@ -1673,7 +1673,7 @@ characters = {
 			}
 		}
 		country_leader={
-			ideology=national_vanguard_ideology
+			ideology=national_vanguard
 			traits={ captain_of_industry }
 			expire="1942.1.1.12"
 			id=-1

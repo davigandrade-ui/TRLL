@@ -364,7 +364,6 @@ ideas = {
 			}
 
 			modifier = {
-				  = -0.25
 				trade_laws_cost_factor = -0.25
 				mobilization_laws_cost_factor = -0.25
 				economy_cost_factor = -0.25
@@ -389,7 +388,6 @@ ideas = {
 			}
 
 			modifier = {
-				  = -0.25
 				trade_laws_cost_factor = -0.25
 				mobilization_laws_cost_factor = -0.25
 				economy_cost_factor = -0.25
@@ -415,7 +413,6 @@ ideas = {
 			}
 
 			modifier = {
-				  = -0.33
 				trade_laws_cost_factor = -0.33
 				mobilization_laws_cost_factor = -0.33
 				economy_cost_factor = -0.33
@@ -440,7 +437,6 @@ ideas = {
 			}
 
 			modifier = {
-				  = -0.33
 				trade_laws_cost_factor = -0.33
 				mobilization_laws_cost_factor = -0.33
 				economy_cost_factor = -0.33
