@@ -491,6 +491,8 @@
 		available_if_capitulated = no
 
 		completion_reward = {
+				custom_effect_tooltip = available_military_high_command
+				show_ideas_tooltip = REM_Aleksandra_Samusenko
 		}
 	}
 	

@@ -11,6 +11,7 @@ recruit_character = REM_nicholas_ii
 recruit_character = REM_bukharin
 recruit_character = REM_kerensky
 recruit_character = REM_ilyin
+recruit_character = REM_Aleksandra_Samusenko
 
 puppet = KPL
 puppet = DFI

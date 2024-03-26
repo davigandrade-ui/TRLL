@@ -60,4 +60,26 @@ characters={
 			id=-1
 		}
 	}
+	REM_Aleksandra_Samusenko = {
+		name = REM_Aleksandra_Samusenko
+		portraits = {
+			army = {
+				small = "GFX_Portrait_Soviet_Generic_land_7_small"
+				large = GFX_Portrait_Soviet_Generic_land_7
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = high_command
+			idea_token = REM_Aleksandra_Samusenko
+			ledger = army
+			allowed = {
+				original_tag = REM
+			}
+			visible = { REM = {has_completed_focus = REM_let_women_join} }
+			traits = {
+				army_armored_2
+			}
+		}	
+	}
 }
