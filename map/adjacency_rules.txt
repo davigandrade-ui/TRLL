@@ -441,3 +441,43 @@ adjacency_rule =
 	icon = 6979
 	offset = { 9 0 6 }
 }
+
+#Shimonoseki-kaikyō
+adjacency_rule
+{
+	name = "SHIMONOSEKI_strait"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+
+	required_provinces = { 1025 11985 }
+
+	icon = 1025
+	offset = { 1 -2 6 }
+}
