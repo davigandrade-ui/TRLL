@@ -257,6 +257,9 @@ ideologies = {
 			american_maximalism = {
             }
 			
+			maximalism_generic = {
+            }
+
 		}
 
 		dynamic_faction_names = {

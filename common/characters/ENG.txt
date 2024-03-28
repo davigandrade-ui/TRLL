@@ -91,7 +91,7 @@ characters={
 		}
 		
 		country_leader={
-			ideology=maximalism
+			ideology=maximalism_generic
 			traits={ maximalist_head economic_reformer warmonger }
 			desc = ENG_mosley_description
 			expire="1965.1.1.1"

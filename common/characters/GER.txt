@@ -46,7 +46,7 @@ characters={
 		}
 		
 		country_leader={
-			ideology=maximalism
+			ideology=german_maximalism
 			traits={ dictator anti_democrat }
 			expire="1965.1.1.1"
 			id=-1
