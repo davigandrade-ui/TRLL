@@ -3091,7 +3091,7 @@ SOV_propaganda_campaigns = {
 		modifier = {
 			opinion_gain_monthly_same_ideology_factor = 0.25
 			fascism_acceptance = -100
-			fascism_drift = -0.1
+			national_vanguard_drift = -0.1
 		}
 
 		complete_effect = {

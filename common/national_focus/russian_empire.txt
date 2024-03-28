@@ -379,6 +379,12 @@
 		available_if_capitulated = no
 
 		completion_reward = {
+		add_political_power = 50
+		add_stability = 0.05
+						add_popularity = {
+					ideology = democratic
+					popularity = 0.01
+				}
 		}
 	}
 	
@@ -463,6 +469,12 @@
 		available_if_capitulated = no
 
 		completion_reward = {
+		add_political_power = 25
+
+								add_popularity = {
+					ideology = democratic
+					popularity = 0.01
+				}
 		}
 	}
 	

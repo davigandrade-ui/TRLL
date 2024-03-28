@@ -3357,7 +3357,7 @@ POL_sanacja_falanga_decisions = {
 		days_remove = 70
 		
 		modifier = {
-			fascism_drift = 0.1
+			national_vanguard_drift = 0.1
 			stability_weekly = -0.02
 		}
 		
@@ -3394,7 +3394,7 @@ POL_sanacja_falanga_decisions = {
 		days_remove = 70
 		
 		modifier = {
-			fascism_drift = 0.1
+			national_vanguard_drift = 0.1
 			political_power_factor = -0.5
 		}
 		

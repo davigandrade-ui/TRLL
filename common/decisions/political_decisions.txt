@@ -61,7 +61,7 @@ fascism_on_the_rise = {
 		days_remove = 30
 
 		modifier = {
-			fascism_drift = 0.02
+			national_vanguard_drift = 0.02
 			stability_weekly = -0.03
  			political_power_gain = -0.2
 		}
@@ -1876,7 +1876,7 @@ political_actions = {
         }
 	
 		modifier = {
-			fascism_drift = -0.05
+			national_vanguard_drift = -0.05
 			stability_weekly = 0.007
 		}
 	
@@ -2076,7 +2076,7 @@ political_actions = {
 		}
 	
 		modifier = {
-			fascism_drift = -0.05
+			national_vanguard_drift = -0.05
 		}
 	
 		days_remove = -1
@@ -2345,7 +2345,7 @@ political_actions = {
 	
 		modifier = {
 			communism_drift = -0.01
-			fascism_drift = 0.03
+			national_vanguard_drift = 0.03
 			democratic_drift = -0.01
 			neutrality_drift = -0.01
 		}
@@ -2410,7 +2410,7 @@ political_actions = {
 		
 		modifier = {
 			communism_drift = -0.01
-			fascism_drift = -0.01
+			national_vanguard_drift = -0.01
 			democratic_drift = 0.03
 			neutrality_drift = -0.01
 		}
@@ -2466,7 +2466,7 @@ political_actions = {
 	
 		modifier = {
 			communism_drift = 0.03
-			fascism_drift = -0.01
+			national_vanguard_drift = -0.01
 			democratic_drift = -0.01
 			neutrality_drift = -0.01
 		}
@@ -2531,7 +2531,7 @@ political_actions = {
 	
 		modifier = {
 			communism_drift = -0.01
-			fascism_drift = -0.01
+			national_vanguard_drift = -0.01
 			democratic_drift = -0.01
 			neutrality_drift = 0.03
 		}

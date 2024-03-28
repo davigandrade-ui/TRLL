@@ -3960,7 +3960,7 @@ BUL_internal_factions = {
 				#Store ideology support values to fix the mess after the split
 				set_variable = { BUL_communist_support_before_zveno_coup = party_popularity_100@communism }
 				set_variable = { BUL_democratic_support_before_zveno_coup = party_popularity_100@democratic }
-				set_variable = { BUL_fascist_support_before_zveno_coup = party_popularity_100@fascism }
+				set_variable = { BUL_fascist_support_before_zveno_coup = party_popularity_100@national_vanguard }
 				set_variable = { BUL_neutrality_support_before_zveno_coup = party_popularity_100@neutrality }
 
 				#START CIVIL WAR
@@ -3985,7 +3985,7 @@ BUL_internal_factions = {
 				set_popularities = {
 					communism = BUL_communist_support_before_zveno_coup
 					democratic = BUL_democratic_support_before_zveno_coup
-					fascism = BUL_fascist_support_before_zveno_coup
+					national_vanguard = BUL_fascist_support_before_zveno_coup
 					neutrality = BUL_neutrality_support_before_zveno_coup
 				}
 
@@ -4064,7 +4064,7 @@ BUL_internal_factions = {
 						democratic = 10
 						neutrality = 55
 						communism = 5
-						fascism = 30
+						national_vanguard = 30
 					}
 					set_party_name = {
 						ideology = neutrality
@@ -10016,7 +10016,7 @@ political_actions = {
 		cost = 50
 		
 		complete_effect = {
-			retire_ideology_leader = fascism
+			retire_ideology_leader = national_vanguard
 			set_party_name = {
 				ideology = national_vanguard
 				long_name = BUL_national_social_movement_party_long
@@ -10025,7 +10025,7 @@ political_actions = {
 			add_country_leader_role = {
 				character = BUL_aleksandar_tsankov
 				country_leader = {
-				  ideology=nazism
+				  ideology=national_vanguard
 				  traits = { the_bloody_professor }
 				  expire="1965.1.1"
 				}

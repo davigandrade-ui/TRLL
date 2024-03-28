@@ -28,7 +28,7 @@ CHI_seek_japanese_support = {
 		cost = 35
 
 		modifier = {
-			fascism_drift = 0.05
+			national_vanguard_drift = 0.05
 			stability_weekly = -0.005
 			political_power_gain = -0.5
 		}
@@ -59,7 +59,7 @@ CHI_seek_japanese_support = {
 		cost = 0
 
 		modifier = {
-			fascism_drift = 0.1
+			national_vanguard_drift = 0.1
 			stability_weekly = -0.01
 		}
 
@@ -247,7 +247,7 @@ CHI_seek_japanese_support = {
 			is_subject = no
 			if = {
 				limit = { JAP = { has_government = national_vanguard } }
-				fascism > 0.4
+				national_vanguard > 0.4
 			}
 			if = {
 				limit = { JAP = { has_government = democratic } }

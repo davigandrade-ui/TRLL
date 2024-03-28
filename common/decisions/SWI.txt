@@ -1329,7 +1329,7 @@ SWI_federal_council_decisions_category = {
 		cost = SWI_president_initiative_cost
 		
 		modifier = {
-			fascism_drift = -0.15
+			national_vanguard_drift = -0.15
 			democratic_drift = -0.05
 			war_support_weekly_factor = 0.07
 			communism_drift = 0.07
@@ -1711,7 +1711,7 @@ SWI_federal_council_decisions_category = {
 		cost = SWI_president_initiative_cost
 		
 		modifier = {
-			fascism_drift = -0.05
+			national_vanguard_drift = -0.05
 			monthly_population = 0.3
 		}
 
@@ -1895,7 +1895,7 @@ SWI_federal_council_decisions_category = {
 		cost = SWI_president_initiative_cost
 		
 		modifier = {
-			fascism_drift = 0.1
+			national_vanguard_drift = 0.1
 			stability_weekly = -0.01
 		}
 
@@ -1969,7 +1969,7 @@ SWI_federal_council_decisions_category = {
 		cost = SWI_president_initiative_cost
 		
 		modifier = {
-			fascism_drift = 0.05
+			national_vanguard_drift = 0.05
 			stability_factor = 0.1 
 			war_support_factor = 0.1
 		}
@@ -2719,7 +2719,7 @@ SWI_absolute_neutrality_decisions_category = {
 		days_remove = 120 
 
 		modifier = {
-			fascism_drift = 0.05
+			national_vanguard_drift = 0.05
 		}
 
 		complete_effect = {

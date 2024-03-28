@@ -115,7 +115,7 @@ LAT_delay_perkonkrust_decisions = {
 		}
 		
 		modifier = {
-			fascism_drift = -0.1
+			national_vanguard_drift = -0.1
 		}
 		
 		complete_effect = {
@@ -150,7 +150,7 @@ LAT_delay_perkonkrust_decisions = {
 		}
 		
 		modifier = {
-			fascism_drift = -0.2
+			national_vanguard_drift = -0.2
 			democratic_drift = 0.1
 		}
 		
