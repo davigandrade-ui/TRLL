@@ -3537,7 +3537,7 @@ FIN_coup_preparations = {
 		}
 
 		available = {
-			fascism > 0.3
+			national_vanguard > 0.3
 		}
 
 		visible = {
@@ -3620,7 +3620,7 @@ FIN_coup_preparations = {
 		}
 
 		available = {
-			fascism > 0.4
+			national_vanguard > 0.4
 		}
 
 		visible = {

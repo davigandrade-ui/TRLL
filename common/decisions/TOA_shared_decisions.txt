@@ -1,6 +1,6 @@
 
 political_actions = {
-	PAR_flip_to_fascism = {
+	PAR_flip_to_national_vanguard = {
 		priority = 20
 		icon = generic_civil_support
 		ai_will_do = {
@@ -26,7 +26,7 @@ political_actions = {
 		cost = 35
 		complete_effect = {
 			set_politics = {
-				ruling_party = fascism
+				ruling_party = national_vanguard
 				elections_allowed = no
 				last_election = "1936.02.04"
 			}

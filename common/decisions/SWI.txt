@@ -1850,7 +1850,7 @@ SWI_federal_council_decisions_category = {
 		}	
 	}
 
-	SWI_spouse_fascism = { #For Fascist Propagandist and fascist recruiters 
+	SWI_spouse_national_vanguard = { #For Fascist Propagandist and fascist recruiters 
 	
 		icon = GFX_decision_hol_radio_oranje
 
@@ -2702,7 +2702,7 @@ SWI_absolute_neutrality_decisions_category = {
 		allowed = { original_tag = SWI }
 
 		visible = {
-			check_variable = { ROOT.party_popularity_100@fascism < 10 }
+			check_variable = { ROOT.party_popularity_100@national_vanguard < 10 }
 			NOT = { has_government = national_vanguard } 
 			NOT = { has_idea = fascism_banned }
 		}

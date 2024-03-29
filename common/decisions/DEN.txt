@@ -391,7 +391,7 @@ DEN_balance_of_power_category = {
 				}
 				AND = {
 					has_government = national_vanguard
-					fascism > 0.5
+					national_vanguard > 0.5
 				}
 			}
 		}
@@ -420,7 +420,7 @@ DEN_balance_of_power_category = {
 					has_government = national_vanguard
 				}
 				set_politics = { 
-					ruling_party = fascism
+					ruling_party = national_vanguard
 					elections_allowed = no
 				}	
 			}
@@ -2486,7 +2486,7 @@ DEN_occupation_category = {
 							var:DEN.DEN_overlord_nation = {
 								has_government = national_vanguard
 							}
-							fascism > 0.4
+							national_vanguard > 0.4
 						}
 						AND = {
 							var:DEN.DEN_overlord_nation = {
@@ -2545,11 +2545,11 @@ DEN_occupation_category = {
 					}
 				}
 				set_politics = { 
-					ruling_party = fascism 
+					ruling_party = national_vanguard 
 				}
 				if = {
 					limit = {
-						fascism < 0.6
+						national_vanguard < 0.6
 					}
 					add_stability = -0.1
 				}
@@ -2676,7 +2676,7 @@ DEN_occupation_category = {
 					has_government = national_vanguard
 				}
 				set_politics = { 
-					ruling_party = fascism 
+					ruling_party = national_vanguard 
 					elections_allowed = no
 				}
 			}	
@@ -3196,7 +3196,7 @@ DEN_occupation_category = {
 		}
 	}
 
-	DEN_bop_occupation_ban_fascism = {
+	DEN_bop_occupation_ban_national_vanguard = {
 		priority = 99
 		icon = GFX_decision_generic_speech
 
@@ -3317,7 +3317,7 @@ DEN_occupation_category = {
 			}
 		}
 	}
-	DEN_bop_occupation_allow_fascism = {
+	DEN_bop_occupation_allow_national_vanguard = {
 		priority = 99
 		icon = GFX_decision_generic_political_address
 
@@ -7466,7 +7466,7 @@ DEN_influence_countries_category = {
 						}
 						FROM = {
 							NOT = { has_government = national_vanguard }
-							fascism < 50
+							national_vanguard < 50
 						}
 					}
 				}

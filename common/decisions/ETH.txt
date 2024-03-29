@@ -3373,7 +3373,7 @@ ETH_exploit_french_weakness_category = {
 					any_country = {
 						original_tag = FRA 
 						exists = yes 
-						has_government= fascism
+						has_government= national_vanguard
 					}
 					num_divisions_in_states = {
 						count = 0

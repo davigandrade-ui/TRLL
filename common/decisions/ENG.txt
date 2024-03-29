@@ -317,7 +317,7 @@ ENG_organize_the_blackshirts = {
 			}
 			modifier = {
 				factor = 0
-				fascism > 0.5
+				national_vanguard > 0.5
 			}
 		}
 	}
@@ -389,7 +389,7 @@ ENG_organize_the_blackshirts = {
 			}
 			modifier = {
 				factor = 0
-				fascism > 0.5
+				national_vanguard > 0.5
 			}
 		}
 	}
@@ -461,7 +461,7 @@ ENG_organize_the_blackshirts = {
 			}
 			modifier = {
 				factor = 0
-				fascism > 0.5
+				national_vanguard > 0.5
 			}
 		}
 	}
@@ -533,7 +533,7 @@ ENG_organize_the_blackshirts = {
 			}
 			modifier = {
 				factor = 0
-				fascism > 0.5
+				national_vanguard > 0.5
 			}
 		}
 	}
@@ -605,7 +605,7 @@ ENG_organize_the_blackshirts = {
 			}
 			modifier = {
 				factor = 0
-				fascism > 0.5
+				national_vanguard > 0.5
 			}
 		}
 	}
@@ -677,7 +677,7 @@ ENG_organize_the_blackshirts = {
 			}
 			modifier = {
 				factor = 0
-				fascism > 0.5
+				national_vanguard > 0.5
 			}
 		}
 	}
@@ -749,7 +749,7 @@ ENG_organize_the_blackshirts = {
 			}
 			modifier = {
 				factor = 0
-				fascism > 0.5
+				national_vanguard > 0.5
 			}
 		}
 	}
@@ -821,7 +821,7 @@ ENG_organize_the_blackshirts = {
 			}
 			modifier = {
 				factor = 0
-				fascism > 0.5
+				national_vanguard > 0.5
 			}
 		}
 	}
@@ -893,7 +893,7 @@ ENG_organize_the_blackshirts = {
 			}
 			modifier = {
 				factor = 0
-				fascism > 0.5
+				national_vanguard > 0.5
 			}
 		}
 	}
@@ -965,7 +965,7 @@ ENG_organize_the_blackshirts = {
 			}
 			modifier = {
 				factor = 0
-				fascism > 0.5
+				national_vanguard > 0.5
 			}
 		}
 	}
@@ -1037,7 +1037,7 @@ ENG_organize_the_blackshirts = {
 			}
 			modifier = {
 				factor = 0
-				fascism > 0.5
+				national_vanguard > 0.5
 			}
 		}
 	}
@@ -1109,7 +1109,7 @@ ENG_organize_the_blackshirts = {
 			}
 			modifier = {
 				factor = 0
-				fascism > 0.5
+				national_vanguard > 0.5
 			}
 		}
 	}
@@ -1181,7 +1181,7 @@ ENG_organize_the_blackshirts = {
 			}
 			modifier = {
 				factor = 0
-				fascism > 0.5
+				national_vanguard > 0.5
 			}
 		}
 	}
@@ -1253,7 +1253,7 @@ ENG_organize_the_blackshirts = {
 			}
 			modifier = {
 				factor = 0
-				fascism > 0.5
+				national_vanguard > 0.5
 			}
 		}
 	}
@@ -1325,7 +1325,7 @@ ENG_organize_the_blackshirts = {
 			}
 			modifier = {
 				factor = 0
-				fascism > 0.5
+				national_vanguard > 0.5
 			}
 		}
 	}
@@ -1397,7 +1397,7 @@ ENG_organize_the_blackshirts = {
 			}
 			modifier = {
 				factor = 0
-				fascism > 0.5
+				national_vanguard > 0.5
 			}
 		}
 	}
@@ -1408,7 +1408,7 @@ ENG_organize_the_blackshirts = {
 
 		available = {
 			has_full_control_of_state = 126
-			fascism > 0.5
+			national_vanguard > 0.5
 		}
 
 		cost = 100
@@ -1483,7 +1483,7 @@ ENG_organize_the_blackshirts = {
 			}
 			modifier = {
 				factor = 0
-				fascism > 0.5
+				national_vanguard > 0.5
 			}
 		}
 	}
@@ -1602,7 +1602,7 @@ ENG_organize_the_blackshirts = {
 			}
 			modifier = {
 				factor = 0
-				fascism > 0.5
+				national_vanguard > 0.5
 			}
 		}
 	}
@@ -6898,7 +6898,7 @@ ENG_move_to_secure_the_dominions = {
 		}
 	}
 
-	ENG_replace_government_in_canada_fascism = {
+	ENG_replace_government_in_canada_national_vanguard = {
 
 		icon = eng_install_government
 
@@ -6917,7 +6917,7 @@ ENG_move_to_secure_the_dominions = {
 			NOT = { army_manpower_in_state = { state = 276 amount < 48000 } }
 			FROM = { 
 				has_country_flag = ENG_cannot_leave_faction
-				fascism > 0.2
+				national_vanguard > 0.2
 			}
 		}
 
@@ -6950,7 +6950,7 @@ ENG_move_to_secure_the_dominions = {
 
 		complete_effect = {
 			FROM = {
-				set_politics = { ruling_party = fascism elections_allowed = no }
+				set_politics = { ruling_party = national_vanguard elections_allowed = no }
 				add_popularity = { ideology = national_vanguard popularity = 0.2 }
 				add_timed_idea = { idea = fascist_influence days = 730 }
 				CAN_enforce_loyalty = yes
@@ -7182,7 +7182,7 @@ ENG_move_to_secure_the_dominions = {
 		}
 	}
 
-	ENG_replace_government_in_south_africa_fascism = {
+	ENG_replace_government_in_south_africa_national_vanguard = {
 
 		icon = eng_install_government
 
@@ -7196,7 +7196,7 @@ ENG_move_to_secure_the_dominions = {
 			NOT = { army_manpower_in_state = { state = 275 amount < 48000 } }
 			FROM = {
 				has_country_flag = ENG_cannot_leave_faction
-				fascism > 0.2
+				national_vanguard > 0.2
 			}
 		}
 
@@ -7229,7 +7229,7 @@ ENG_move_to_secure_the_dominions = {
 
 		complete_effect = {
 			FROM = {
-				set_politics = { ruling_party = fascism elections_allowed = no }
+				set_politics = { ruling_party = national_vanguard elections_allowed = no }
 				add_popularity = { ideology = national_vanguard popularity = 0.2 }
 				add_timed_idea = { idea = fascist_influence days = 730 }
 				SAF_enforce_loyalty = yes
@@ -7525,7 +7525,7 @@ ENG_move_to_secure_the_dominions = {
 		}
 	}
 
-	ENG_replace_government_in_british_raj_fascism = {
+	ENG_replace_government_in_british_raj_national_vanguard = {
 
 		icon = eng_install_government
 
@@ -7574,7 +7574,7 @@ ENG_move_to_secure_the_dominions = {
 			NOT = { army_manpower_in_state = { state = 439 amount < 96000 } }
 			FROM = { 
 				has_country_flag = ENG_cannot_leave_faction
-				fascism > 0.2
+				national_vanguard > 0.2
 			}
 		}
 
@@ -7607,7 +7607,7 @@ ENG_move_to_secure_the_dominions = {
 
 		complete_effect = {
 			FROM = {
-				set_politics = { ruling_party = fascism elections_allowed = no }
+				set_politics = { ruling_party = national_vanguard elections_allowed = no }
 				add_popularity = { ideology = national_vanguard popularity = 0.2 }
 				add_timed_idea = { idea = fascist_influence days = 730 }
 				RAJ_enforce_loyalty = yes
@@ -7870,7 +7870,7 @@ ENG_move_to_secure_the_dominions = {
 		}
 	}
 
-	ENG_replace_government_in_australia_fascism = {
+	ENG_replace_government_in_australia_national_vanguard = {
 
 		icon = eng_install_government
 
@@ -7885,7 +7885,7 @@ ENG_move_to_secure_the_dominions = {
 			NOT = { army_manpower_in_state = { state = 285 amount < 48000 } }
 			FROM = {
 				has_country_flag = ENG_cannot_leave_faction
-				fascism > 0.2
+				national_vanguard > 0.2
 			}
 		}
 
@@ -7918,7 +7918,7 @@ ENG_move_to_secure_the_dominions = {
 
 		complete_effect = {
 			FROM = {
-				set_politics = { ruling_party = fascism elections_allowed = no }
+				set_politics = { ruling_party = national_vanguard elections_allowed = no }
 				add_popularity = { ideology = national_vanguard popularity = 0.2 }
 				add_timed_idea = { idea = fascist_influence days = 730 }
 				AST_enforce_loyalty = yes
@@ -8143,7 +8143,7 @@ ENG_move_to_secure_the_dominions = {
 		}
 	}
 
-	ENG_replace_government_in_new_zealand_fascism = {
+	ENG_replace_government_in_new_zealand_national_vanguard = {
 
 		icon = eng_install_government
 
@@ -8156,7 +8156,7 @@ ENG_move_to_secure_the_dominions = {
 			NOT = { army_manpower_in_state = { state = 284 amount < 48000 } }
 			FROM = {
 				has_country_flag = ENG_cannot_leave_faction
-				fascism > 0.2
+				national_vanguard > 0.2
 			}
 		}
 
@@ -8189,7 +8189,7 @@ ENG_move_to_secure_the_dominions = {
 
 		complete_effect = {
 			FROM = {
-				set_politics = { ruling_party = fascism elections_allowed = no }
+				set_politics = { ruling_party = national_vanguard elections_allowed = no }
 				add_popularity = { ideology = national_vanguard popularity = 0.2 }
 				add_timed_idea = { idea = fascist_influence days = 730 }
 				NZL_enforce_loyalty = yes

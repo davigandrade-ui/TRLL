@@ -3621,7 +3621,7 @@ TUR_fundamentalist_state_management_category = {
 					modifier = {
 						factor = 25
 						OR = {
-							fascism > 0.5
+							national_vanguard > 0.5
 							communism > 0.5
 						}
 					}
@@ -3926,7 +3926,7 @@ TUR_the_enemy_within = {
 					modifier = {
 						factor = 25
 						OR = {
-							fascism > 0.5
+							national_vanguard > 0.5
 							communism > 0.5
 						}
 					}

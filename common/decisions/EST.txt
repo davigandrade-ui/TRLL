@@ -501,7 +501,7 @@ march_through_estonia = {
 		timeout_effect = {
 			effect_tooltip = {
 				start_civil_war = {
-					ruling_party = fascism
+					ruling_party = national_vanguard
 					ideology = ROOT
 					size = 0.5
 				}
@@ -734,7 +734,7 @@ EST_convert_FIN_cat = {
 					}
 					is_capital = yes
 				}
-				owner = { fascism > 0.4 }
+				owner = { national_vanguard > 0.4 }
 			}
 			NOT = { has_country_flag = marching_in_state_flag }
 		}

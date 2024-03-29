@@ -801,14 +801,14 @@ YUG_crush_ustasa = {
 						release = PREV
 					}
 					set_politics = {
-						ruling_party = fascism
+						ruling_party = national_vanguard
 						last_election = "1935.6.9"
 						election_frequency = 12
 						elections_allowed = no
 					}
 					set_popularities = {
 						democratic = 15
-						fascism = 75
+						national_vanguard = 75
 						communism = 10
 					}
 					add_country_leader_role = {

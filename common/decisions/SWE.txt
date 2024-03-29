@@ -555,7 +555,7 @@ SWE_politics = {
 	}
 
 
-	pervert_radiotjanst_fascism = {
+	pervert_radiotjanst_national_vanguard = {
 		icon = decision_generic_political_discourse
 		allowed = { 
 			original_tag = SWE 
@@ -2610,7 +2610,7 @@ SWE_ball_bearings_cat = {
 #		base = 80
 #		modifier = {
 #			OR = {
-#				fascism > 0.5 
+#				national_vanguard > 0.5 
 #				has_government = national_vanguard
 #			}
 
@@ -2676,7 +2676,7 @@ SWE_ball_bearings_cat = {
 #			modifier = {
 #
 #				OR = {
-#					fascism > 0.5 
+#					national_vanguard > 0.5 
 #					has_government = national_vanguard
 #				}
 #
@@ -3259,7 +3259,7 @@ SWE_communist_foreign_influence = {
 
 						start_civil_war = {
 							ideology = communism
-							ruling_party = fascism
+							ruling_party = national_vanguard
 							size = var:SWE_NOR_communist_support
 							keep_all_characters = yes 
 						}
@@ -3424,7 +3424,7 @@ SWE_communist_foreign_influence = {
 
 						start_civil_war = {
 							ideology = communism
-							ruling_party = fascism
+							ruling_party = national_vanguard
 							size = var:SWE_DEN_communist_support
 						}
 					}

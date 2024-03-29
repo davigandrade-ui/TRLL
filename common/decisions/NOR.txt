@@ -2224,7 +2224,7 @@ NOR_fascist_preparation_decisions_category = {
 		}
 		
 		available = {
-			fascism > 0.5
+			national_vanguard > 0.5
 		}
 
 		complete_effect = {

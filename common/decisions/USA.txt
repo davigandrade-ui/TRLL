@@ -1514,7 +1514,7 @@ USA_honor_the_confederacy = {
 	USA_constitutional_convention = {
 		icon = eng_trade_unions_support
 		available = {
-			fascism > 0.35
+			national_vanguard > 0.35
 		}
 		visible = {
 			has_country_flag = {
@@ -1532,7 +1532,7 @@ USA_honor_the_confederacy = {
 			add_stability = 0.1
 			add_war_support = 0.05
 			add_popularity = { ideology = national_vanguard popularity = 0.05 }
-			set_politics = { ruling_party = fascism }
+			set_politics = { ruling_party = national_vanguard }
 		}
 	}
 

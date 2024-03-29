@@ -128,7 +128,7 @@ foreign_influence = {
 				is_puppet_of = ROOT
 			}
 			FROM = {
-				fascism < 0.9
+				national_vanguard < 0.9
 			}
 			OR = {
 				political_power_daily > 0.5
@@ -156,7 +156,7 @@ foreign_influence = {
 			}
 			FROM = {
 				is_puppet_of = ROOT
-				fascism < 0.99
+				national_vanguard < 0.99
 			}
 		}
 
@@ -367,7 +367,7 @@ foreign_influence = {
 				is_puppet_of = ROOT
 			}
 			FROM = {
-				fascism > 0.6
+				national_vanguard > 0.6
 			}
 			FROM = {
 				NOT = { has_government = national_vanguard }
@@ -415,7 +415,7 @@ foreign_influence = {
 			}
 			FROM = {
 				set_politics = {
-					ruling_party = fascism
+					ruling_party = national_vanguard
 					elections_allowed = no
 				}
 			}

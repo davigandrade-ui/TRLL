@@ -3424,7 +3424,7 @@ GRE_faction_management_category = {
 			divide_temp_variable = { GRE_allied_fascists_variable = 2 }
 			if = {
 				limit = {
-					fascism > 0.5
+					national_vanguard > 0.5
 				}
 				divide_temp_variable = { GRE_befriend_fascists_variable = 3 }
 			}

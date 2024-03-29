@@ -179,7 +179,7 @@ LIT_iron_wolf_appeasement = {
 }
 
 support_polish_falange_decisions = {
-	LIT_promote_fascism = {
+	LIT_promote_national_vanguard = {
 
 		icon = hol_draw_up_staff_plans
 		available = {
@@ -258,7 +258,7 @@ support_polish_falange_decisions = {
 	LIT_ignite_civil_war_in_POL = {
 		available = {
 			POL = {
-				fascism > 0.4
+				national_vanguard > 0.4
 				NOT = { has_government = national_vanguard }
 			}
 		}

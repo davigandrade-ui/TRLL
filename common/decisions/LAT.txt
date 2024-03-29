@@ -25,7 +25,7 @@ LAT_perkonkrust_revolt_category = {
 		}
 		
 		available = {
-			fascism > 0.55
+			national_vanguard > 0.55
 		}
 		
 		days_mission_timeout = 180
@@ -195,7 +195,7 @@ LAT_delay_perkonkrust_decisions = {
 }
 
 promote_baltic_fascism_cat = {
-	LAT_promote_fascism = {
+	LAT_promote_national_vanguard = {
 
 		icon = hol_draw_up_staff_plans
 
