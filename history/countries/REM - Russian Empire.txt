@@ -13,12 +13,36 @@ recruit_character = REM_kerensky
 recruit_character = REM_ilyin
 recruit_character = REM_Aleksandra_Samusenko
 
-puppet = KPL
-puppet = DFI
-puppet = CKU
-puppet = BGO
-puppet = CAV
-puppet = RMA
+
+set_autonomy = {
+	target = KPL
+	autonomous_state = autonomy_imperial_mandates
+}
+
+set_autonomy = {
+	target = DFI
+	autonomous_state = autonomy_imperial_mandates
+}
+
+set_autonomy = {
+	target = CKU
+	autonomous_state = autonomy_imperial_mandates
+}
+
+set_autonomy = {
+	target = BGO
+	autonomous_state = autonomy_imperial_mandates
+}
+
+set_autonomy = {
+	target = CAV
+	autonomous_state = autonomy_imperial_mandates
+}
+
+set_autonomy = {
+	target = RMA
+	autonomous_state = autonomy_imperial_mandates
+}
 
 create_faction = "Pact of St.Petersburg"
 
