@@ -8213,12 +8213,12 @@ focus_tree = {
 					}
 				}
 				set_politics = {
-					ruling_party = fascism
+					ruling_party = national_vanguard
 				}
 				
 				if = {
 					limit = {
-						fascism < 0.5
+						national_vanguard < 0.5
 					}
 					if = {
 						limit = {
@@ -8351,7 +8351,7 @@ focus_tree = {
 				add_stability = 0.05
 
 				set_politics = {
-					ruling_party = fascism
+					ruling_party = national_vanguard
 				}
 				
 				DEN_frits_clausen = {
@@ -8366,7 +8366,7 @@ focus_tree = {
 			custom_effect_tooltip = if_they_refuse_tt
 			effect_tooltip = {
 				set_politics = {
-					ruling_party = fascism
+					ruling_party = national_vanguard
 				}
 
 				start_civil_war = {
