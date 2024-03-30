@@ -31,14 +31,19 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_tech_bonus = {
-				name = GER_four_year_plan
-				bonus = 1.0
-				uses = 2
-				category = industry
+							set_politics = {
+				ruling_party = neutrality
+				elections_allowed = yes
 			}
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = hjalmar_schacht
+			   retire_country_leader = yes # Assumes that the political party whose leadership changes is currently ruling.
+    add_country_leader_role = {
+        character = GER_wilhelm_ii # Must be recruited
+        promote_leader = yes
+        country_leader = {
+            ideology = despotism
+            traits = {  }
+        }
+    }
 		}
 		
 	}
