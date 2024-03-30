@@ -242,4 +242,8 @@ ideas = {
 			}
 		}
 	}
+
+	tank_manufacturer = {  
+
+	}
 }
