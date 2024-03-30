@@ -370,7 +370,7 @@ focus_tree = {
 
 		available = {
 			communism < 0.05
-			fascism < 0.05
+			national_vanguard < 0.05
 			democratic > 0.25
 		}
 
@@ -1142,7 +1142,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.1
 			}
 			
@@ -1216,7 +1216,7 @@ focus_tree = {
 					}
 					effect_tooltip = {
 						set_politics = {
-							ruling_party = fascism
+							ruling_party = national_vanguard
 							elections_allowed = no
 						}
 						remove_ideas = democratic_opposition
