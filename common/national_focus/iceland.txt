@@ -2030,7 +2030,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 75
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.10
 			}
 			add_popularity = {
@@ -2253,7 +2253,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.05
 			}
 			add_tech_bonus = {
@@ -2332,7 +2332,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.05
 			}
 			add_popularity = {
@@ -2508,7 +2508,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.05
 			}
 			set_politics = {

@@ -1186,7 +1186,7 @@ focus_tree = {
 					ENG = { has_government = national_vanguard }
 				}
 				add_popularity = {
-					ideology = fascism
+					ideology = national_vanguard
 					popularity = 0.1
 				}
 			}
@@ -1782,7 +1782,7 @@ focus_tree = {
 					GER = { has_government = national_vanguard }
 				}
 				add_popularity = {
-					ideology = fascism
+					ideology = national_vanguard
 					popularity = 0.1
 				}
 			}
@@ -2124,7 +2124,7 @@ focus_tree = {
 					USA = { has_government = national_vanguard }
 				}
 				add_popularity = {
-					ideology = fascism
+					ideology = national_vanguard
 					popularity = 0.1
 				}
 			}
@@ -3143,7 +3143,7 @@ focus_tree = {
 		}
 
 			#name will be used as focus/idea instead
-			#set_party_name = { ideology = fascism name = MEX_fascist_party_legionnaires_of_christ_short long_name = MEX_fascist_party_legionnaires_of_christ_long }		
+			#set_party_name = { ideology = national_vanguard name = MEX_fascist_party_legionnaires_of_christ_short long_name = MEX_fascist_party_legionnaires_of_christ_long }		
 	}
 	
 	focus = {
@@ -3181,7 +3181,7 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT}
 		completion_reward = {
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.1
 			}
 			
@@ -3842,7 +3842,7 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT}
 		completion_reward = {
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.1
 			}
 			
@@ -3866,7 +3866,7 @@ focus_tree = {
 					character = MEX_plutarco_calles
 					country_leader = {
 						expire = "1965.1.1"
-						ideology = fascism_ideology #changed to "regular fascism" to differenciate from Abascal
+						ideology = national_vanguard_ideology #changed to "regular fascism" to differenciate from Abascal
 						traits = {
 							el_jefe_maximo
 						}
@@ -3883,7 +3883,7 @@ focus_tree = {
 					character = MEX_saturnino_cedillo
 					country_leader = {
 						expire = "1965.1.1"
-						ideology = fascism_ideology
+						ideology = national_vanguard_ideology
 						traits = {
 							strongman_of_san_luis_potosi
 						}
@@ -3892,7 +3892,7 @@ focus_tree = {
 				}
 			}
 			set_party_name = { ideology = neutrality name = MEX_democratic_party_institutional_revolutionary_party_short long_name = MEX_democratic_party_institutional_revolutionary_party_long }
-			set_party_name = { ideology = fascism name = MEX_fascist_party_national_revolutionary_party_short long_name = MEX_fascist_party_national_revolutionary_party_long }
+			set_party_name = { ideology = national_vanguard name = MEX_fascist_party_national_revolutionary_party_short long_name = MEX_fascist_party_national_revolutionary_party_long }
 		}
 	}
 
@@ -4206,13 +4206,13 @@ focus_tree = {
 					has_government = national_vanguard
 				}
 				add_popularity = {
-					ideology = fascism
+					ideology = national_vanguard
 					popularity = 0.05
 				}
 			}
 			else = {
 				add_popularity = {
-					ideology = fascism
+					ideology = national_vanguard
 					popularity = 0.05
 				}
 				add_popularity = {
@@ -4265,7 +4265,7 @@ focus_tree = {
 		completion_reward = {
 			unlock_decision_tooltip = MEX_decision_support_spanish_fascists
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.1
 			}
 			add_doctrine_cost_reduction = {

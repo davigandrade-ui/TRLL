@@ -1067,7 +1067,7 @@
 				set_equipment_fraction = 0.8
 				
 				add_popularity = {
-					ideology = fascism
+					ideology = national_vanguard
 					popularity = 1
 				}
 				random_country = {

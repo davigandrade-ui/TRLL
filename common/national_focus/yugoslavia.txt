@@ -1348,7 +1348,7 @@ focus_tree = {
 								name = neutrality 
 							}
 							set_party_name = { 
-								ideology = fascism 
+								ideology = national_vanguard 
 								long_name = transylvania_fascism_party_long 
 								name = transylvania_fascism_party 
 							}
@@ -1421,7 +1421,7 @@ focus_tree = {
 							name = neutrality 
 						}
 						set_party_name = { 
-							ideology = fascism 
+							ideology = national_vanguard 
 							long_name = fascism 
 							name = fascism 
 						}
@@ -2056,7 +2056,7 @@ focus_tree = {
 				add_country_leader_role = {
 					country_leader = {
 						expire = "1965.1.1"
-						ideology = fascism_ideology
+						ideology = national_vanguard_ideology
 						traits = {}
 					}
 					promote_leader = yes
@@ -2505,7 +2505,7 @@ focus_tree = {
 					add_country_leader_role = {
 						character = YUG_prince_paul
 						country_leader = {
-							ideology = fascism_ideology
+							ideology = national_vanguard_ideology
 							traits = {
 								collaborator_king
 							}
@@ -2513,7 +2513,7 @@ focus_tree = {
 						promote_leader = yes
 					}
 					set_party_name = { 
-						ideology = fascism
+						ideology = national_vanguard
 						name = YUG_kardocevik
 						long_name = YUG_kardocevik
 					}

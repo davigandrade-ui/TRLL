@@ -8270,7 +8270,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_popularity = {
-				ideology = fascism 
+				ideology = national_vanguard 
 				popularity = -0.15
 			}
 			add_war_support = -0.03
@@ -8321,7 +8321,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_popularity = {
-				ideology = fascism 
+				ideology = national_vanguard 
 				popularity = 0.05
 			}
 			add_war_support = 0.03
@@ -8349,7 +8349,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_popularity = {
-				ideology = fascism 
+				ideology = national_vanguard 
 				popularity = -0.05
 			}
 			add_stability = -0.03
@@ -8503,7 +8503,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 25
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = -0.05
 			}
 
@@ -9089,7 +9089,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 50
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.05
 			}
 			add_stability = 0.02
@@ -9373,7 +9373,7 @@ focus_tree = {
 
 		completion_reward = { #Propaganda System? NOPE :D
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.05
 			}
 			add_war_support = 0.03
@@ -9419,7 +9419,7 @@ focus_tree = {
 			add_war_support = 0.02
 			add_stability = 0.02
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.05
 			}
 		}
@@ -10131,7 +10131,7 @@ focus_tree = {
 			add_political_power = 75
 			add_command_power = 50
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.1
 			}
 
@@ -10740,7 +10740,7 @@ focus_tree = {
 				character = ITA_italo_balbo
 				promote_leader = yes
 				country_leader = {
-					ideology = fascism_ideology
+					ideology = national_vanguard_ideology
 					expire = 1965.1.1.1
 					traits =  {	aviation_hero }
 				}
@@ -10802,7 +10802,7 @@ focus_tree = {
 					character = ITA_dino_grandi
 					promote_leader = yes
 					country_leader = {
-						ideology = fascism_ideology
+						ideology = national_vanguard_ideology
 						expire = 1965.1.1.1
 						traits =  {
 							silver_tongue
@@ -10815,7 +10815,7 @@ focus_tree = {
 					character = ITA_dino_grandi
 					promote_leader = yes
 					country_leader = {
-						ideology = fascism_ideology
+						ideology = national_vanguard_ideology
 						expire = 1965.1.1.1
 						traits =  {
 							silver_tongue_no_lar
@@ -10896,7 +10896,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_popularity = {
-				ideology = fascism 
+				ideology = national_vanguard 
 				popularity = 0.05
 			}
 			add_war_support = 0.05
@@ -10990,7 +10990,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 100
 			add_popularity = {
-				ideology = fascism 
+				ideology = national_vanguard 
 				popularity = 0.05
 			}
 			add_war_support = 0.1
@@ -11059,7 +11059,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 100
 			add_popularity = {
-				ideology = fascism 
+				ideology = national_vanguard 
 				popularity = 0.05
 			}
 			add_stability = 0.05
@@ -13283,7 +13283,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = -0.5
 			}
 			delete_unit_template_and_units = {
@@ -13330,7 +13330,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = -0.05
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.1
 			}
 			army_experience = 15
@@ -16008,7 +16008,7 @@ focus_tree = {
 			add_political_power = 50
 			add_war_support = 0.03
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.05
 			}
 			add_ideas = ITA_italian_irredentism_ns
@@ -18459,7 +18459,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = -0.1
 			add_popularity = {
-				ideology = fascism 
+				ideology = national_vanguard 
 				popularity = -0.1
 			}
 

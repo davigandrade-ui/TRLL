@@ -2057,7 +2057,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_popularity = {
-   				ideology = fascism
+   				ideology = national_vanguard
    	 			popularity = 0.05
 			}
 			custom_effect_tooltip = GRE_fascists_put_in_play_tt
@@ -2777,7 +2777,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_popularity = {
-   				ideology = fascism
+   				ideology = national_vanguard
    	 			popularity = 0.1
 			}
 			if = { 

@@ -753,7 +753,7 @@
 				add_idea = SWI_martial_law_idea
 			}
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = -0.15
 			}
 			add_popularity = {
@@ -3491,7 +3491,7 @@
 
 			}
 			add_popularity = {
-				ideology = fascism 
+				ideology = national_vanguard 
 				popularity = -0.15
 			}
 			add_political_power = 120
@@ -7109,7 +7109,7 @@
 			show_ideas_tooltip = SWI_robert_tobler
 			show_ideas_tooltip = SWI_rolf_henne
 			add_popularity = {
-				ideology = fascism 
+				ideology = national_vanguard 
 				popularity = 0.05
 			}
 		}
@@ -7226,7 +7226,7 @@
 			}
 
 			add_popularity = {
-				ideology = fascism 
+				ideology = national_vanguard 
 				popularity = 0.05 
 			}
 		}
@@ -7667,7 +7667,7 @@ focus = {
 				add_idea = SWI_democratic_unrest
 			}
 			add_popularity = {
-				ideology = fascism 
+				ideology = national_vanguard 
 				popularity = 0.05
 			}
 			every_other_country = {
@@ -7736,7 +7736,7 @@ focus = {
 				promote_leader = yes
 			}
 			hidden_effect = { 
-				SWI_robert_tobler = { remove_country_leader_role = { ideology = fascism_ideology } }
+				SWI_robert_tobler = { remove_country_leader_role = { ideology = national_vanguard_ideology } }
 			}
 			SWI_robert_tobler = {
 				SWI_add_country_leader_trait_based_on_councilor_trait = yes
@@ -7859,7 +7859,7 @@ focus = {
 		completion_reward = {
 			add_war_support = 0.1 
 			add_popularity = {
-				ideology = fascism 
+				ideology = national_vanguard 
 				popularity = 0.08
 			}
 			SWI_max_mr_medium_increase = yes 

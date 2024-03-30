@@ -2461,7 +2461,7 @@
 			multiply_temp_variable = { FRA_rw_support = 0.5 }
 			start_civil_war = {
 				size = FRA_rw_support
-				ideology = fascism
+				ideology = national_vanguard
 			}
 		}
 	}
@@ -4835,12 +4835,12 @@
 				set_temp_variable = { FRA_fascism = party_popularity@fascism }
 				add_popularity = { ideology = democratic popularity = FRA_fascism } 
 				multiply_temp_variable = { FRA_fascism = -1 }
-				add_popularity = { ideology = fascism popularity = FRA_fascism }
+				add_popularity = { ideology = national_vanguard popularity = FRA_fascism }
 			}
 			else = {
 				set_temp_variable = { FRA_democracy = party_popularity@democratic }
 				multiply_temp_variable = { FRA_democracy = 0.3 }
-				add_popularity = { ideology = fascism popularity = FRA_democracy } 
+				add_popularity = { ideology = national_vanguard popularity = FRA_democracy } 
 				multiply_temp_variable = { FRA_democracy = -1 }
 				add_popularity = { ideology = democratic popularity = FRA_democracy }
 			}
@@ -5424,7 +5424,7 @@
 		search_filters = { FOCUS_FILTER_STABILITY }
 		completion_reward = {
 			remove_ideas = { FRA_disjointed_government }
-			add_popularity = { ideology = fascism popularity = party_popularity@neutrality }
+			add_popularity = { ideology = national_vanguard popularity = party_popularity@neutrality }
 			add_popularity = { ideology = neutrality popularity = -1}
 		}
 	}
@@ -5529,7 +5529,7 @@
 				desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
 				picture = GFX_portrait_fra_francois_de_la_rocque
 				expire = "1965.1.1"
-				ideology = fascism_ideology
+				ideology = national_vanguard_ideology
 				traits = {
 					retired_officer
 				}

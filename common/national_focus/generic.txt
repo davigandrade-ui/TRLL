@@ -2070,7 +2070,7 @@ focus_tree = {
 			if = {
 				limit = { has_government = national_vanguard }
 				add_popularity = {
-					ideology = fascism
+					ideology = national_vanguard
 					popularity = 0.2
 				}
 			}
@@ -2229,7 +2229,7 @@ focus_tree = {
 			if = {
 				limit = { has_government = national_vanguard }
 				add_popularity = {
-					ideology = fascism
+					ideology = national_vanguard
 					popularity = 0.2
 				}
 			}

@@ -8659,7 +8659,7 @@ focus_tree = {
 					elections_allowed = no
 				}
 				set_party_name = { 
-					ideology = fascism 
+					ideology = national_vanguard 
 					long_name = bermontian_party
 					name = bermontian_party 
 				}
@@ -11442,7 +11442,7 @@ focus_tree = {
 		completion_reward = {
 			effect_tooltip = {
 				set_party_name = { 
-					ideology = fascism 
+					ideology = national_vanguard 
 					long_name = POL_natdem_party_long
 					name = POL_natdem_party 
 				}

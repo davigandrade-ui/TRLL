@@ -2146,7 +2146,7 @@ focus_tree = {
 				}
 			}
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.12
 			}	
 		}
@@ -2535,7 +2535,7 @@ focus_tree = {
 				popularity = 0.1
 			}
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.08
 			}
 			add_political_power = 50		
@@ -2560,7 +2560,7 @@ focus_tree = {
 		completion_reward = {
 			add_command_power = 30
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = -0.1
 			}
 			add_equipment_to_stockpile = { 
@@ -2684,7 +2684,7 @@ focus_tree = {
 		completion_reward = {
 			remove_ideas = { NOR_anti_communist_sentiment_ns }
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = -0.2
 			}
 			add_popularity = {
@@ -4035,7 +4035,7 @@ focus_tree = {
 			NOR_set_prepare_variables_fascist = yes 	
 			add_political_power = 50
 			add_popularity = {
-				ideology = fascism 
+				ideology = national_vanguard 
 				popularity = 0.05
 			}
 			unlock_decision_tooltip = {
@@ -4161,7 +4161,7 @@ focus_tree = {
 			add_war_support = 0.25
 			add_political_power = 100 	
 			add_popularity = {
-				ideology = fascism 
+				ideology = national_vanguard 
 				popularity = -0.1
 			}
 			mark_focus_tree_layout_dirty = yes
@@ -4236,7 +4236,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 50
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = -0.1
 			}
 			hidden_effect = { find_local_dangerous_fascist = yes }
@@ -4485,7 +4485,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.3
 			}
 			if = {
@@ -5042,7 +5042,7 @@ focus_tree = {
 			}
 			add_stability = 0.1
 			add_popularity = {
-				ideology = fascism 
+				ideology = national_vanguard 
 				popularity = 0.15
 			}
 		}
@@ -5330,7 +5330,7 @@ focus_tree = {
 		completion_reward = {
 			promote_character = {
 				character = NOR_vidkun_quisling 
-				ideology = fascism_ideology 
+				ideology = national_vanguard_ideology 
 			}
 			NOR_vidkun_quisling = { 
 				remove_country_leader_trait = NOR_fascist_lackey
@@ -6244,14 +6244,14 @@ focus_tree = {
 			add_war_support = 0.2
 			add_political_power = 120
 			add_popularity = {
-				ideology = fascism 
+				ideology = national_vanguard 
 				popularity = 0.1
 			}
 			NOR_vidkun_quisling = {
 				swap_country_leader_traits = {
 					remove = NOR_fascist_dilettante
 					add = NOR_fascist_landssviker
-					ideology = fascism_ideology
+					ideology = national_vanguard_ideology
 				}
 				set_portraits = {
 					army = { large ="GFX_portrait_NOR_vidkun_quisling_3"}
@@ -8104,7 +8104,7 @@ focus_tree = {
 				category = industry 
 			}
 			add_popularity = { # This is to represent Large industry's collaboration with the Nazis in occupied Norway 
-			 	ideology = fascism
+			 	ideology = national_vanguard
 			 	popularity = 0.05
 			 } 
 		}

@@ -315,7 +315,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_MANPOWER }
 		completion_reward = {
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.025
 			}
 			add_ideas = {
@@ -340,7 +340,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_HISTORICAL FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.05
 			}
 			add_ideas = {
@@ -365,7 +365,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.05
 			}
 
@@ -467,7 +467,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.15
 			}
 			add_war_support = 0.1
@@ -1052,7 +1052,7 @@ focus_tree = {
 		search_filters = {  FOCUS_FILTER_HISTORICAL FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = -0.3
 			}
 			add_popularity = {

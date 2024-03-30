@@ -3658,7 +3658,7 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT}
 		completion_reward = {
 			add_popularity = {
-			    ideology = fascism
+			    ideology = national_vanguard
 			    popularity = 0.05
 			}
 			add_war_support = 0.05
@@ -4226,7 +4226,7 @@ focus_tree = {
 			add_ideas = HOL_implement_the_program
 			add_stability = 0.05
 			add_popularity = {
-			    ideology = fascism
+			    ideology = national_vanguard
 			    popularity = 0.05
 			}
 			if = {
@@ -5484,7 +5484,7 @@ focus_tree = {
 				value = -1
 			}
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = ban_fascism_var
 			}
 			set_temp_variable = {

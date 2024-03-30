@@ -4137,7 +4137,7 @@ focus_tree = {
 					multiply_temp_variable = { POR_democratic_cw_opposition = 0.6 }
 					add_to_temp_variable = { POR_democratic_cw_opposition = party_popularity@fascism }
 					start_civil_war = {	
-						ideology = fascism
+						ideology = national_vanguard
 						size = POR_democratic_cw_opposition
 						capital = 180
 						states = { 181 }
@@ -5122,7 +5122,7 @@ focus_tree = {
 			else = {
 				add_political_power = 120
 				add_popularity = {
-				    ideology = fascism
+				    ideology = national_vanguard
 				    popularity = 0.05
 				}
 			}
@@ -5865,7 +5865,7 @@ focus_tree = {
 				}
 
 				add_popularity = {
-				    ideology = fascism
+				    ideology = national_vanguard
 				    popularity = 0.10
 				}			
 			}
@@ -6172,7 +6172,7 @@ focus_tree = {
 						    name = BRA_monarchy_party
 						}
 						set_party_name = { 
-						    ideology = fascism
+						    ideology = national_vanguard
 						    long_name = BRA_antimonarchist_coalition_long
 						    name = BRA_antimonarchist_coalition
 						}
@@ -6204,7 +6204,7 @@ focus_tree = {
 							add_country_leader_role = {
 								country_leader = {
 									expire = "1954.8.24"
-									ideology = fascism_ideology
+									ideology = national_vanguard_ideology
 									traits = {
 										anti_communist
 									}
@@ -6345,7 +6345,7 @@ focus_tree = {
 				add_to_temp_variable = { POR_monarchist_cw_opposition = party_popularity@communism }
 				add_to_temp_variable = { POR_monarchist_cw_opposition = party_popularity@democratic }
 				start_civil_war = {	
-					ideology = fascism
+					ideology = national_vanguard
 					size = POR_monarchist_cw_opposition
 					capital = 180
 					states = { 181 }

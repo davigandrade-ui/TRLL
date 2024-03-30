@@ -564,7 +564,7 @@ focus_tree = {
 			else_if = {
 				limit = { has_government = national_vanguard }
 				add_popularity = {
-					ideology = fascism
+					ideology = national_vanguard
 					popularity = 0.2
 				}
 				add_timed_idea = { idea = LIT_purge_resistance_idea days = 180 }
@@ -689,7 +689,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = -0.05
 			}
 			add_stability = 0.05
@@ -1439,7 +1439,7 @@ focus_tree = {
 				elections_allowed = no
 			}
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.15
 			}
 			remove_ideas = {
@@ -2470,7 +2470,7 @@ focus_tree = {
 			}
 			else = {
 				add_popularity = {
-					ideology = fascism
+					ideology = national_vanguard
 					popularity = -0.1
 				}
 			}
@@ -2507,7 +2507,7 @@ focus_tree = {
 		completion_reward = {
 			LIT_remove_iron_wolf_effect = yes
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = -0.1
 			}
 			custom_effect_tooltip = disable_iron_wolf_tt

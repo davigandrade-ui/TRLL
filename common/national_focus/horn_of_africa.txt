@@ -1310,7 +1310,7 @@ focus_tree = {
 						}
 					}
 					add_popularity = {
-						ideology = fascism
+						ideology = national_vanguard
 						popularity = 0.1
 					}
 				}

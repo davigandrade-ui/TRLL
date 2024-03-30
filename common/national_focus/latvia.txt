@@ -1171,7 +1171,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = -0.1
 			}
 			swap_ideas = {
@@ -1213,7 +1213,7 @@ focus_tree = {
 			remove_mission = LAT_perkonkrust_uprising
 			remove_perkonkrust_effect = yes
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = -0.1
 			}
 		}
@@ -1317,7 +1317,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.1
 			}
 			unlock_decision_category_tooltip = LAT_delay_perkonkrust_decisions
@@ -1354,7 +1354,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.05
 			}
 			swap_ideas = {
@@ -1395,7 +1395,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_MANPOWER }
 		completion_reward = {
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.05
 			}
 			swap_ideas = {
@@ -1435,7 +1435,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.05
 			}
 			random_owned_controlled_state = {
@@ -1562,7 +1562,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.05
 			}
 			add_ideas = LAT_neopaganism_idea
@@ -1601,7 +1601,7 @@ focus_tree = {
 		completion_reward = {
 			remove_mission = LAT_perkonkrust_uprising
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = -0.2
 			}
 
@@ -1669,7 +1669,7 @@ focus_tree = {
 				elections_allowed = no
 			}
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.15
 			}
 			remove_mission = LAT_perkonkrust_uprising
@@ -1731,7 +1731,7 @@ focus_tree = {
 				elections_allowed = no
 			}
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.15
 			}
 			GER = {

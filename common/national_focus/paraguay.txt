@@ -1409,7 +1409,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.15
 			}
 
@@ -2005,7 +2005,7 @@ focus_tree = {
 				popularity = 0.25
 			}
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.1
 			}
 			add_popularity = {
@@ -2062,7 +2062,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.1
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = -0.25
 			}
 

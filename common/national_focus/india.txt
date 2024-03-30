@@ -898,7 +898,7 @@ focus_tree = {
 					GER = {
 						add_to_faction = RAJ
 						add_popularity = {
-							ideology = fascism
+							ideology = national_vanguard
 							popularity = 0.35
 						}
 					}
