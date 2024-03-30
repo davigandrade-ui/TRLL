@@ -218,4 +218,5 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 761;13315;sea;9092;-1;-1;-1;-1;;Ontario
 6979;11767;sea;5864;-1;-1;-1;-1;;Albania
 13196;13314;sea;9092;-1;-1;-1;-1;;Northern Quebec
+10233;5205;sea;13155;-1;-1;-1;-1;;Makinac Bridge
 -1;-1;;-1;-1;-1;-1;-1;-1 

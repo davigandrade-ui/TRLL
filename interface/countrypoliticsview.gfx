@@ -4,7 +4,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_autonomy_imperial_mandates_icon"
-		textureFile = "gfx/interface/autonomy/autonomy_imperial_mandates_icon.dds"
+		textureFile = "gfx/interface/autonomy/autonomy_imperial_mandates_icon.png"
 	}
 
 	spriteType = {

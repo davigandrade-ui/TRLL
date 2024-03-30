@@ -1490,7 +1490,7 @@ focus_tree = {
 			hidden_effect = {
 
 			set_politics = {
-				ruling_party = fascism
+				ruling_party = national_vanguard
 				last_election = "1934.3.26" 
 				election_frequency = 48
 				elections_allowed = no
@@ -1560,7 +1560,7 @@ focus_tree = {
 			hidden_effect = {
 
 			set_politics = {
-				ruling_party = fascism
+				ruling_party = national_vanguard
 				last_election = "1934.3.26"
 				election_frequency = 48
 				elections_allowed = no
