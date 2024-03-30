@@ -8,6 +8,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_alexei_romanov"
+		texturefile = "gfx/leaders/REM/Portrait_REM_Alexi_Romanov.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_kerensky"
 		texturefile = "gfx/leaders/REM/kerensky.dds"
 	}

@@ -112,6 +112,7 @@
  REM_national_vanguard_party:1 "RFP"
  REM_national_vanguard_party_long:0 "Rossijskaja Fašistskaja Partija"
  REM_neutrality_party:1 "House of Romanov"
+ REM_maximalism_party:0 "Organization of Free Maximalists"
  
  
  # VANILLA TAGS BELOW
@@ -184,6 +185,8 @@
  FRA_communism_party:0 "Parti Communiste Francais"
  FRA_democratic_party:0 "Section française de l'Internationale ouvrière"
  FRA_maximalism_party:0 "Parti National Maximaliste"
+ FRA_national_vanguard_party:0 "Front d'Avant-Garde Français"
+ FRA_neutrality_party:0 "Monarchiste Action Française"
  
  AUS_communism_party:0 "KPÖ"
  AUS_communism_party_long:0 "Kommunistische Partei Österreichs"
