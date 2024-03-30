@@ -6,6 +6,7 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
 					always = no
+				    has_government = neutrality
 				}
 			}
 			cancel_if_invalid = no
@@ -27,6 +28,7 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
 					always = no
+					has_government = neutrality
 				}
 			}
 			cancel_if_invalid = no
@@ -45,6 +47,7 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
 					always = no
+					has_government = neutrality
 				}
 			}
 			cancel_if_invalid = no
@@ -63,6 +66,7 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
 					always = no
+					has_government = neutrality
 				}
 			}
 			cancel_if_invalid = no
@@ -81,6 +85,7 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
 					always = no
+					has_government = neutrality
 				}
 			}
 			cancel_if_invalid = no

@@ -865,6 +865,90 @@
 		completion_reward = {
 		}
 	}
+	
+	focus = {
+		id = REM_asset_alexei_postion
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_long_live_alexei
+		x = 0
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_long_live_alexei }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_finishing_the_job
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_asset_alexei_postion
+		x = 0
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_asset_alexei_postion }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_revitalize_economy
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_finishing_the_job
+		x = 3
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_finishing_the_job }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
 
 	#############
 	# DIPLOMACY #
@@ -873,12 +957,10 @@
 	focus = {
 		id = REM_gorchakov_doctrine
 		icon = GFX_goal_generic_major_war
-		x = -3
-		y = 2
-		relative_position_id = REM_long_live_alexei
+		x = 40
+		y = -15
 
 		cost = 3
-		prerequisite = { focus = REM_long_live_alexei }
 
 		ai_will_do = {
 		}
@@ -1128,11 +1210,9 @@
 	focus = {
 		id = REM_national_rejuvenation_act
 		icon = GFX_goal_generic_major_war
-		x = 3
+		x = 50
 		y = 1
-		relative_position_id = REM_long_live_alexei
 		cost = 3
-		prerequisite = { focus = REM_long_live_alexei }
 
 		ai_will_do = {
 		}

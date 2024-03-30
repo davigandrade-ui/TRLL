@@ -82,4 +82,20 @@ characters={
 			}
 		}	
 	}
+	
+	REM_Alexei_Romanov = {
+		name=REM_Alexei_name
+		portraits={
+			civilian={
+				large="GFX_alexei_romanov"
+			}
+		}
+	country_leader={
+			ideology=despotism
+		    desc = REM_alexei_description
+			traits =  { }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
 }

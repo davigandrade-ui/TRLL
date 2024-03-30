@@ -138,7 +138,7 @@ ideologies = {
 			rexism = {
 			}
 			
-			clerical_fascism = {
+			clerical_national_vanguard = {
 			}
 			
 			national_vanguard = {
@@ -270,7 +270,7 @@ ideologies = {
 			"FACTION_NAME_FASCIST_5"
 		}
 
-		color = { 138 39 39 }
+		color = { 155 57 57 }
 
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0
