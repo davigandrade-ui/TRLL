@@ -852,6 +852,9 @@
 		}
 
 		available = {
+			REM_Alexei_Romanov = {
+			    is_country_leader = yes
+			}
 		}
 		
 		bypass = {
