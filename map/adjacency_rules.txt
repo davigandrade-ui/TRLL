@@ -226,6 +226,129 @@ adjacency_rule =
 	offset = { -3 0 -2 }
 }
 
+#Sape Strait (around Komodo Island) - 15 km
+adjacency_rule
+{
+	contested =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+
+	required_provinces = { 12162 1298 }
+
+	icon = 1298
+	offset = { -12 0 -2}
+
+
+	name = "SAPE_STRAIT"
+}
+
+#Tsugaru Strait - (Honshu to Hokkaido) - 20 km
+adjacency_rule
+{
+	contested =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+
+	required_provinces = { 3962 9859 }
+
+	icon = 5946
+	offset = { -26 0 5 }
+
+
+	name = "TSUGARU_STRAIT"
+}
+
+#Bab-el-Mandeb Strait (Djibouti -Yemen) - 21 km
+adjacency_rule
+{
+	contested =
+	{
+		army = no
+		navy = yes
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+
+	required_provinces = { 4985 5074 10752 }
+
+	icon = 2776
+	offset = { -15 0 14 }
+
+
+	name = "BAB-EL-MANDEB_STRAIT"
+}
+
 #Marmara Strait
 adjacency_rule =
 {
@@ -400,6 +523,211 @@ adjacency_rule =
 		
 	icon = 10904
 	offset = { 2 0 12 }
+}
+
+#North Channel/Strait of Moyle (Scotland to Ireland) - 21km
+adjacency_rule
+{
+	contested =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+
+	required_provinces = { 3379 6350 }
+
+	icon = 8340
+	offset = { -13 0 18 }
+
+
+	name = "MOYLE_STRAIT"
+}
+
+#Kerch Strait (east Crimea) - 3.1 km
+adjacency_rule
+{
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no #13 m depth
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no #13 m depth
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+
+	required_provinces = { 9680 6741 }
+
+	icon = 8282
+	offset = { -2 0 -18 }
+
+
+	name = "KERCH_STRAIT"
+}
+
+#Dover Strait - 34 km
+adjacency_rule
+{
+	contested =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+
+	required_provinces = { 3501 11548 }
+
+	icon = 8450
+	offset = { 10 0 7 }
+
+
+	name = "DOVER_STRAIT"
+}
+
+#Sunda Strait (Java to Sumatra) - 26 km
+adjacency_rule
+{
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+
+	required_provinces = { 1342 10279 }
+
+	icon = 2714
+	offset = { 19 0 26 }
+
+
+	name = "SUNDA_STRAIT"
+}
+
+#Bali, Lombok and alas Straits (southern Indonesian islands) 2.4, 21 and 12 km
+adjacency_rule
+{
+	contested =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+
+	required_provinces = { 7654 4273 7293 10191 }
+
+	icon = 2239
+	offset = { -16 0 -11 }
+
+
+	name = "LOMBOK_STRAIT"
 }
 
 #Strait of Otranto #TODO_Manu: TEST THIS OUT AND REMOVE IF NOT SATISFACTORY
