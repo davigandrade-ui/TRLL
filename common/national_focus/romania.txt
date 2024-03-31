@@ -1882,7 +1882,7 @@ focus_tree = {
 		available = {
 			is_subject = no
 			communism < 0.5
-			fascism < 0.5
+			national_vanguard < 0.5
 			neutrality < 0.5
 		}
 

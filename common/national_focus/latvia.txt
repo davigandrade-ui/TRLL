@@ -1197,7 +1197,7 @@ focus_tree = {
 		}
 
 		available = {
-			fascism < 0.1
+			national_vanguard < 0.1
 		}
 
 		bypass = {
@@ -1585,7 +1585,7 @@ focus_tree = {
 		}
 
 		available = {
-			fascism < 0.5
+			national_vanguard < 0.5
 			NOT = { has_government = national_vanguard }
 		}
 

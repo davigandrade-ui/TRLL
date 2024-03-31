@@ -4129,7 +4129,7 @@ focus_tree = {
 			}
 			NOT = { has_completed_focus = SPA_the_latin_bloc }
 			NOT = { has_government = national_vanguard }
-			fascism < 0.4		
+			national_vanguard < 0.4		
 			NOT = { has_global_flag = POR_iberian_summit_in_progress_flag }
 		}
 		bypass = {

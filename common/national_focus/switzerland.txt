@@ -3956,7 +3956,7 @@
 		}
 
 		available = {
-			fascism < 0.30
+			national_vanguard < 0.30
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_balanced
@@ -4157,7 +4157,7 @@
 		}
 
 		available = {
-			fascism < 0.30
+			national_vanguard < 0.30
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_balanced
@@ -5127,7 +5127,7 @@
 
 		available = {
 			democratic < 0.90
-			fascism < 0.20
+			national_vanguard < 0.20
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_very_cantons
@@ -5175,7 +5175,7 @@
 
 		available = {
 			democratic < 0.80
-			fascism < 0.20
+			national_vanguard < 0.20
 			AUS = {	exists = yes }
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
@@ -5253,7 +5253,7 @@
 
 		available = {
 			democratic < 0.75
-			fascism < 0.20
+			national_vanguard < 0.20
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_very_council
@@ -5321,7 +5321,7 @@
 
 		available = {
 			democratic < 0.70
-			fascism < 0.15
+			national_vanguard < 0.15
 			AUS = {	exists = yes }
 			SWI_is_fully_centralized = yes 
 		}
@@ -5377,7 +5377,7 @@
 
 		available = {
 			democratic < 0.60
-			fascism < 0.15
+			national_vanguard < 0.15
 			SWI_is_fully_centralized = yes 
 		}
 		
@@ -5474,7 +5474,7 @@
 
 		available = {
 			democratic < 0.60
-			fascism < 0.15
+			national_vanguard < 0.15
 			SWI_is_fully_centralized = yes 
 		}
 		
@@ -5547,7 +5547,7 @@
 
 		available = {
 			democratic < 0.60
-			fascism < 0.15
+			national_vanguard < 0.15
 			SWI_is_fully_centralized = yes 
 		}
 		
@@ -5600,7 +5600,7 @@
 
 		available = {
 			democratic < 0.50
-			fascism < 0.10
+			national_vanguard < 0.10
 			any_controlled_state = {
 				is_alpine_state = yes 
 			}
@@ -5666,7 +5666,7 @@
 
 		available = {
 			democratic < 0.40
-			fascism < 0.10
+			national_vanguard < 0.10
 		}
 		
 		bypass = {
@@ -5710,7 +5710,7 @@
 
 		available = {
 			democratic < 0.40
-			fascism < 0.10
+			national_vanguard < 0.10
 		}
 		
 		bypass = {
@@ -5755,7 +5755,7 @@
 
 		available = {
 			democratic < 0.40
-			fascism < 0.10
+			national_vanguard < 0.10
 		}
 		
 		bypass = {
@@ -5805,7 +5805,7 @@
 
 		available = {
 			democratic < 0.70
-			fascism < 0.15		
+			national_vanguard < 0.15		
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_very_council
@@ -5843,7 +5843,7 @@
 
 		available = {
 			democratic < 0.65
-			fascism < 0.10			
+			national_vanguard < 0.10			
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_very_council
@@ -5882,7 +5882,7 @@
 
 		available = {
 			democratic < 0.65
-			fascism < 0.10	
+			national_vanguard < 0.10	
 			SWI_is_fully_centralized = yes
 		}
 		
@@ -5923,7 +5923,7 @@
 
 		available = {
 			democratic < 0.60
-			fascism < 0.05	
+			national_vanguard < 0.05	
 		}
 		
 		bypass = {
@@ -5971,7 +5971,7 @@
 
 		available = {
 			democratic > 0.50
-			fascism < 0.05	
+			national_vanguard < 0.05	
 			has_war = yes 
 		}
 		
@@ -6018,7 +6018,7 @@
 
 		available = {
 			democratic > 0.60
-			fascism < 0.05	
+			national_vanguard < 0.05	
 		}
 		
 		bypass = {
@@ -6086,7 +6086,7 @@
 
 		available = {
 			democratic < 0.80
-			fascism < 0.20
+			national_vanguard < 0.20
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_very_council
@@ -6133,7 +6133,7 @@
 
 		available = {
 			democratic < 0.80
-			fascism < 0.20
+			national_vanguard < 0.20
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_very_council
@@ -6170,7 +6170,7 @@
 
 		available = {
 			democratic < 0.80
-			fascism < 0.20
+			national_vanguard < 0.20
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_very_council
@@ -6228,7 +6228,7 @@
 
 		available = {
 			democratic < 0.80
-			fascism < 0.20
+			national_vanguard < 0.20
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_very_council
@@ -6286,7 +6286,7 @@
 
 		available = {
 			democratic < 0.80
-			fascism < 0.20
+			national_vanguard < 0.20
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_very_council
@@ -6343,7 +6343,7 @@
 
 		available = {
 			democratic < 0.80
-			fascism < 0.20
+			national_vanguard < 0.20
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_very_council
@@ -6385,7 +6385,7 @@
 
 		available = {
 			democratic < 0.80
-			fascism < 0.20
+			national_vanguard < 0.20
 			any_owned_state = {
 				is_coastal = yes
 			}
@@ -6428,7 +6428,7 @@
 
 		available = {
 			democratic < 0.80
-			fascism < 0.20
+			national_vanguard < 0.20
 			any_owned_state = {
 				is_coastal = yes
 			}
@@ -6464,7 +6464,7 @@
 
 		available = {
 			democratic < 0.80
-			fascism < 0.20
+			national_vanguard < 0.20
 			any_owned_state = {
 				is_coastal = yes
 			}
@@ -6506,7 +6506,7 @@
 
 		available = {
 			democratic < 0.80
-			fascism < 0.20
+			national_vanguard < 0.20
 			any_owned_state = {
 				is_coastal = yes
 			}
@@ -6549,7 +6549,7 @@
 
 		available = {
 			democratic < 0.80
-			fascism < 0.20
+			national_vanguard < 0.20
 			any_owned_state = {
 				is_coastal = yes
 			}
@@ -6591,7 +6591,7 @@
 
 		available = {
 			democratic < 0.80
-			fascism < 0.20
+			national_vanguard < 0.20
 			any_owned_state = {
 				is_coastal = yes
 			}
@@ -6653,7 +6653,7 @@
 
 		available = {
 			democratic < 0.80
-			fascism < 0.20
+			national_vanguard < 0.20
 			any_owned_state = {
 				is_coastal = yes
 			}
@@ -6714,7 +6714,7 @@
 
 		available = {
 			democratic < 0.80
-			fascism < 0.20
+			national_vanguard < 0.20
 			any_owned_state = {
 				is_coastal = yes
 			}

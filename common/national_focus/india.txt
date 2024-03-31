@@ -296,7 +296,7 @@ focus_tree = {
 			modifier = {
 				AND = {
 					communism > 0.25
-					fascism < 0.25
+					national_vanguard < 0.25
 				}
 				factor = 3
 			}
