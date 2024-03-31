@@ -16562,7 +16562,7 @@ ai_will_do = {
 			retire_character = SOV_tsar_vladimir_kirillovich
 			add_ideas = SOV_tsar_vladimir_i
 			set_politics = {
-				ruling_party = fascism
+				ruling_party = national_vanguard
 				elections_allowed = yes
 			}
 			add_popularity = {

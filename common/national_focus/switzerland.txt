@@ -7810,7 +7810,7 @@ focus = {
 				SWI_rolf_henne = { SWI_make_character_confederation_president = yes } 
 			}
 			set_politics = {
-				ruling_party = fascism
+				ruling_party = national_vanguard
 				elections_allowed = no
 			}
 			retire_character = SWI_robert_tobler 
@@ -7937,7 +7937,7 @@ focus = {
 				id = SWI_centralization_bop
 			}
 			set_politics = {
-				ruling_party = fascism
+				ruling_party = national_vanguard
 				elections_allowed = no
 			}
 			unlock_decision_tooltip = {

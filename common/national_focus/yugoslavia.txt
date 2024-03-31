@@ -2529,7 +2529,7 @@ focus_tree = {
 						}
 						custom_effect_tooltip = neutral_to_fascist_tt
 						set_politics = {
-							ruling_party = fascism
+							ruling_party = national_vanguard
 						}
 					}
 				}

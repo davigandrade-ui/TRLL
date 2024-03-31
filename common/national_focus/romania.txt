@@ -2781,7 +2781,7 @@ focus_tree = {
 					national_vanguard > party_popularity@communism
 				}
 				set_politics = {
-					ruling_party = fascism
+					ruling_party = national_vanguard
 					elections_allowed = no
 				}
 			}

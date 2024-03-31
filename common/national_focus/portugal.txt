@@ -5096,7 +5096,7 @@ focus_tree = {
 					NOT = { has_government = national_vanguard }
 				}
 				set_politics = {
-					ruling_party = fascism
+					ruling_party = national_vanguard
 				}	
 				
 				if = { #Low Stability triggers a Civil War
@@ -6185,7 +6185,7 @@ focus_tree = {
 								} 
 							}
 							set_politics = {
-								ruling_party = fascism
+								ruling_party = national_vanguard
 							}
 						}
 						set_popularities = {

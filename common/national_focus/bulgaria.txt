@@ -7871,7 +7871,7 @@ focus_tree = {
 				add_to_temp_variable = { BUL_fascist_cw_opposition = party_popularity@democratic }
 				add_to_temp_variable = { BUL_fascist_cw_opposition = party_popularity@communism }
 				set_politics = {
-					ruling_party = fascism
+					ruling_party = national_vanguard
 				}
 				hidden_effect = { #Generates undesired "Politics will change" tooltip
 					every_unit_leader = {
@@ -8003,7 +8003,7 @@ focus_tree = {
 					NOT = { has_government = national_vanguard }
 				}
 				set_politics = {
-					ruling_party = fascism
+					ruling_party = national_vanguard
 				}
 			}
 			add_ideas = BUL_military_dictatorship

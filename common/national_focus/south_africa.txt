@@ -1029,7 +1029,7 @@
 		complete_tooltip = {
 			set_capital = { state = 541 }
 			start_civil_war = {
-				ruling_party = fascism
+				ruling_party = national_vanguard
 				ideology = democratic
 				size = 0.75
 				capital = 681
@@ -1043,7 +1043,7 @@
 			hidden_effect = {
 				set_capital = { state = 541 }
 				start_civil_war = {
-					ruling_party = fascism
+					ruling_party = national_vanguard
 					ideology = democratic
 					size = 0.45
 					capital = 681

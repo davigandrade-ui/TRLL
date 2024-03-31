@@ -5204,7 +5204,7 @@
 				}
 			}
 			set_politics = {
-				ruling_party = fascism
+				ruling_party = national_vanguard
 				elections_allowed = no
 			}
 

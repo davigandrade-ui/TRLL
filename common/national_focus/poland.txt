@@ -8655,7 +8655,7 @@ focus_tree = {
 			effect_tooltip = {
 				add_ruling_to_fas = yes
 				set_politics = {
-					ruling_party = fascism
+					ruling_party = national_vanguard
 					elections_allowed = no
 				}
 				set_party_name = { 
@@ -11400,7 +11400,7 @@ focus_tree = {
 		completion_reward = {
 			effect_tooltip = {
 				set_politics = {
-					ruling_party = fascism
+					ruling_party = national_vanguard
 					elections_allowed = no
 				}
 				promote_character = POL_boleslaw_piasecki
@@ -11447,7 +11447,7 @@ focus_tree = {
 					name = POL_natdem_party 
 				}
 				set_politics = {
-					ruling_party = fascism
+					ruling_party = national_vanguard
 					elections_allowed = yes
 					election_frequency = 60
 				}

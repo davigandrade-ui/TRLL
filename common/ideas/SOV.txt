@@ -771,7 +771,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV #Every SOV suffers from this
+				original_tag = REM #Every SOV suffers from this
 			}
 
 			picture = EST_democratic_opposition
@@ -791,7 +791,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV #Every SOV suffers from this
+				original_tag = REM #Every SOV suffers from this
 			}
 
 			picture = EST_democratic_opposition
@@ -1094,7 +1094,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV #Every SOV has this
+				original_tag = REM #Every SOV has this
 			}
 
 			equipment_bonus = {
@@ -1221,7 +1221,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			modifier = {
@@ -1242,7 +1242,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			modifier = {
@@ -1264,7 +1264,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			modifier = {
@@ -1287,7 +1287,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			modifier = {
@@ -1308,7 +1308,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			modifier = {
@@ -2088,7 +2088,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			modifier = {
@@ -2109,7 +2109,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			modifier = {
@@ -2150,7 +2150,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			modifier = {
@@ -2170,7 +2170,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			modifier = {
@@ -2189,7 +2189,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			modifier = {
@@ -2207,7 +2207,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			modifier = {
@@ -2226,7 +2226,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			modifier = {
@@ -2245,7 +2245,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			modifier = {
@@ -2264,7 +2264,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 				NOT = { has_government = communism }
 			}
 
@@ -2285,7 +2285,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 				NOT = { has_government = communism }
 			}
 
@@ -2306,7 +2306,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 				NOT = { has_government = communism }
 			}
 
@@ -2328,7 +2328,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 				NOT = { has_government = communism }
 			}
 
@@ -2350,7 +2350,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 				NOT = { has_government = communism }
 			}
 
@@ -2370,7 +2370,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			modifier = {
@@ -2390,7 +2390,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 				NOT = { has_government = communism }
 			}
 
@@ -2411,7 +2411,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			modifier = {
@@ -2432,7 +2432,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			modifier = {
@@ -2453,7 +2453,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			modifier = {
@@ -2472,7 +2472,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			equipment_bonus = {
@@ -2501,7 +2501,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			modifier = {
@@ -2519,7 +2519,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			modifier = {
@@ -2535,7 +2535,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			modifier = {
@@ -2552,7 +2552,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			modifier = {
@@ -2572,7 +2572,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			equipment_bonus = {
@@ -2592,7 +2592,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			modifier = {
@@ -2609,7 +2609,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			modifier = {
@@ -2626,7 +2626,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			modifier = {
@@ -2643,7 +2643,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			modifier = {
@@ -3118,7 +3118,7 @@ ideas = {
 				always = no # Added via focus
 			}
 			allowed_civil_war = {
-				original_tag = SOV #Every SOV has this
+				original_tag = REM #Every SOV has this
 				has_government = communism # Not if exiles, right?
 			}
 
@@ -3144,7 +3144,7 @@ ideas = {
 				always = no # Added via focus
 			}
 			allowed_civil_war = {
-				original_tag = SOV #Every SOV has this
+				original_tag = REM #Every SOV has this
 				has_government = communism # Not if exiles, right?
 			}
 
@@ -3387,7 +3387,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV #Every SOV has this
+				original_tag = REM #Every SOV has this
 			}
 
 			modifier = {
@@ -3405,7 +3405,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV #Every SOV has this
+				original_tag = REM #Every SOV has this
 			}
 
 			equipment_bonus = {
@@ -3426,7 +3426,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV #Every SOV has this
+				original_tag = REM #Every SOV has this
 			}
 
 			equipment_bonus = {
@@ -3451,7 +3451,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV #Every SOV has this
+				original_tag = REM #Every SOV has this
 			}
 
 			equipment_bonus = {
@@ -3472,7 +3472,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				original_tag = SOV #Every SOV has this
+				original_tag = REM #Every SOV has this
 			}
 
 			equipment_bonus = {
@@ -4427,7 +4427,7 @@ ideas = {
 
 			allowed = {
 				OR = {
-					original_tag = SOV
+					original_tag = REM
 					original_tag = REM
 					AND = {
 						OR = {
@@ -4478,7 +4478,6 @@ ideas = {
 			picture = morozov_design_bureau
 
 			allowed = {
-				original_tag = SOV
 				original_tag = REM
 			}
 
@@ -4509,7 +4508,6 @@ ideas = {
 			picture = morozov_design_bureau
 
 			allowed = {
-				original_tag = SOV
 				original_tag = REM
 			}
 
@@ -4543,7 +4541,6 @@ ideas = {
 			picture = morozov_design_bureau
 
 			allowed = {
-				original_tag = SOV
 				original_tag = REM
 			}
 
@@ -4574,7 +4571,6 @@ ideas = {
 			picture = morozov_design_bureau
 
 			allowed = {
-				original_tag = SOV
 				original_tag = REM
 			}
 
@@ -4606,7 +4602,6 @@ ideas = {
 			picture = morozov_design_bureau
 
 			allowed = {
-				original_tag = SOV
 				original_tag = REM
 			}
 
@@ -4638,7 +4633,6 @@ ideas = {
 			picture = morozov_design_bureau
 
 			allowed = {
-				original_tag = SOV
 				original_tag = REM
 			}
 
@@ -4670,7 +4664,6 @@ ideas = {
 			picture = morozov_design_bureau
 
 			allowed = {
-				original_tag = SOV
 				original_tag = REM
 			}
 
@@ -4712,7 +4705,7 @@ ideas = {
 			picture = astrov_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -4739,7 +4732,7 @@ ideas = {
 			picture = astrov_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -4769,7 +4762,7 @@ ideas = {
 			picture = astrov_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -4802,7 +4795,7 @@ ideas = {
 			picture = astrov_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -4832,7 +4825,7 @@ ideas = {
 			picture = astrov_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -4863,7 +4856,7 @@ ideas = {
 			picture = astrov_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -4894,7 +4887,7 @@ ideas = {
 			picture = astrov_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -4925,7 +4918,7 @@ ideas = {
 			picture = astrov_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -4966,7 +4959,7 @@ ideas = {
 			picture = okmo
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -4993,7 +4986,7 @@ ideas = {
 			picture = okmo
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5023,7 +5016,7 @@ ideas = {
 			picture = okmo
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5056,7 +5049,7 @@ ideas = {
 			picture = okmo
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5086,7 +5079,7 @@ ideas = {
 			picture = okmo
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5117,7 +5110,7 @@ ideas = {
 			picture = okmo
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5148,7 +5141,7 @@ ideas = {
 			picture = okmo
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5179,7 +5172,7 @@ ideas = {
 			picture = okmo
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5219,7 +5212,7 @@ ideas = {
 			picture = SOV_mytishchy_machine_building_plant
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5249,7 +5242,7 @@ ideas = {
 			picture = SOV_mytishchy_machine_building_plant
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5285,7 +5278,7 @@ ideas = {
 			picture = SOV_mytishchy_machine_building_plant
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5321,7 +5314,7 @@ ideas = {
 			picture = SOV_mytishchy_machine_building_plant
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5357,7 +5350,7 @@ ideas = {
 			picture = SOV_mytishchy_machine_building_plant
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5394,7 +5387,7 @@ ideas = {
 			picture = SOV_mytishchy_machine_building_plant
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5431,7 +5424,7 @@ ideas = {
 			picture = SOV_mytishchy_machine_building_plant
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5468,7 +5461,7 @@ ideas = {
 			picture = SOV_mytishchy_machine_building_plant
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5515,7 +5508,7 @@ ideas = {
 			picture = SOV_kirov
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5542,7 +5535,7 @@ ideas = {
 			picture = SOV_kirov
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5572,7 +5565,7 @@ ideas = {
 			picture = SOV_kirov
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5605,7 +5598,7 @@ ideas = {
 			picture = SOV_kirov
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5635,7 +5628,7 @@ ideas = {
 			picture = SOV_kirov
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5666,7 +5659,7 @@ ideas = {
 			picture = SOV_kirov
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5697,7 +5690,7 @@ ideas = {
 			picture = SOV_kirov
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5728,7 +5721,7 @@ ideas = {
 			picture = SOV_kirov
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5777,7 +5770,7 @@ ideas = {
 			picture = nevskoye_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5806,7 +5799,7 @@ ideas = {
 			picture = nevskoye_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5841,7 +5834,7 @@ ideas = {
 			picture = nevskoye_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5876,7 +5869,7 @@ ideas = {
 			picture = nevskoye_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5911,7 +5904,7 @@ ideas = {
 			picture = nevskoye_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5942,7 +5935,7 @@ ideas = {
 			picture = nevskoye_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -5980,7 +5973,7 @@ ideas = {
 			picture = nevskoye_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -6018,7 +6011,7 @@ ideas = {
 			picture = nevskoye_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -6055,7 +6048,7 @@ ideas = {
 			picture = nevskoye_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -6092,7 +6085,7 @@ ideas = {
 			picture = nevskoye_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -6129,7 +6122,7 @@ ideas = {
 			picture = nevskoye_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -6169,7 +6162,7 @@ ideas = {
 			picture = nevskoye_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -6218,7 +6211,7 @@ ideas = {
 			picture = SOV_rubin_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -6246,7 +6239,7 @@ ideas = {
 			picture = SOV_rubin_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -6280,7 +6273,7 @@ ideas = {
 			picture = SOV_rubin_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -6314,7 +6307,7 @@ ideas = {
 			picture = SOV_rubin_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -6348,7 +6341,7 @@ ideas = {
 			picture = SOV_rubin_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -6378,7 +6371,7 @@ ideas = {
 			picture = SOV_rubin_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -6415,7 +6408,7 @@ ideas = {
 			picture = SOV_rubin_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -6452,7 +6445,7 @@ ideas = {
 			picture = SOV_rubin_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -6488,7 +6481,7 @@ ideas = {
 			picture = SOV_rubin_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -6524,7 +6517,7 @@ ideas = {
 			picture = SOV_rubin_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -6560,7 +6553,7 @@ ideas = {
 			picture = SOV_rubin_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -6599,7 +6592,7 @@ ideas = {
 			picture = SOV_rubin_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -6647,7 +6640,7 @@ ideas = {
 			picture = SOV_black_sea_shipyard
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -6675,7 +6668,7 @@ ideas = {
 			picture = SOV_black_sea_shipyard
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -6709,7 +6702,7 @@ ideas = {
 			picture = SOV_black_sea_shipyard
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -6743,7 +6736,7 @@ ideas = {
 			picture = SOV_black_sea_shipyard
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -6777,7 +6770,7 @@ ideas = {
 			picture = SOV_black_sea_shipyard
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -6807,7 +6800,7 @@ ideas = {
 			picture = SOV_black_sea_shipyard
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -6844,7 +6837,7 @@ ideas = {
 			picture = SOV_black_sea_shipyard
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -6878,7 +6871,7 @@ ideas = {
 			picture = SOV_black_sea_shipyard
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -6914,7 +6907,7 @@ ideas = {
 			picture = SOV_black_sea_shipyard
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -6950,7 +6943,7 @@ ideas = {
 			picture = SOV_black_sea_shipyard
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -6986,7 +6979,7 @@ ideas = {
 			picture = SOV_black_sea_shipyard
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -7025,7 +7018,7 @@ ideas = {
 			picture = SOV_black_sea_shipyard
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -7073,7 +7066,7 @@ ideas = {
 			picture = SOV_sevastopol_marine_plant
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -7105,7 +7098,7 @@ ideas = {
 			picture = SOV_sevastopol_marine_plant
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -7143,7 +7136,7 @@ ideas = {
 			picture = SOV_sevastopol_marine_plant
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -7181,7 +7174,7 @@ ideas = {
 			picture = SOV_sevastopol_marine_plant
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -7219,7 +7212,7 @@ ideas = {
 			picture = SOV_sevastopol_marine_plant
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -7252,7 +7245,7 @@ ideas = {
 			picture = SOV_sevastopol_marine_plant
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -7293,7 +7286,7 @@ ideas = {
 			picture = SOV_sevastopol_marine_plant
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -7334,7 +7327,7 @@ ideas = {
 			picture = SOV_sevastopol_marine_plant
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -7373,7 +7366,7 @@ ideas = {
 			picture = SOV_sevastopol_marine_plant
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -7412,7 +7405,7 @@ ideas = {
 			picture = SOV_sevastopol_marine_plant
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -7451,7 +7444,7 @@ ideas = {
 			picture = SOV_sevastopol_marine_plant
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -7493,7 +7486,7 @@ ideas = {
 			picture = SOV_sevastopol_marine_plant
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -7551,7 +7544,7 @@ ideas = {
 			picture = mig_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -7582,7 +7575,7 @@ ideas = {
 			picture = mig_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -7619,7 +7612,7 @@ ideas = {
 			picture = mig_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -7651,7 +7644,7 @@ ideas = {
 			picture = mig_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -7684,7 +7677,7 @@ ideas = {
 			picture = mig_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -7722,7 +7715,7 @@ ideas = {
 			picture = mig_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -7761,7 +7754,7 @@ ideas = {
 			picture = mig_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -7795,7 +7788,7 @@ ideas = {
 			picture = mig_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -7845,7 +7838,7 @@ ideas = {
 			picture = ilyushin_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -7876,7 +7869,7 @@ ideas = {
 			picture = ilyushin_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -7913,7 +7906,7 @@ ideas = {
 			picture = ilyushin_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -7945,7 +7938,7 @@ ideas = {
 			picture = ilyushin_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -7978,7 +7971,7 @@ ideas = {
 			picture = ilyushin_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -8016,7 +8009,7 @@ ideas = {
 			picture = ilyushin_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -8055,7 +8048,7 @@ ideas = {
 			picture = ilyushin_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -8089,7 +8082,7 @@ ideas = {
 			picture = ilyushin_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -8140,7 +8133,7 @@ ideas = {
 			picture = tupolev_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -8171,7 +8164,7 @@ ideas = {
 			picture = tupolev_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -8208,7 +8201,7 @@ ideas = {
 			picture = tupolev_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -8240,7 +8233,7 @@ ideas = {
 			picture = tupolev_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -8273,7 +8266,7 @@ ideas = {
 			picture = tupolev_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -8311,7 +8304,7 @@ ideas = {
 			picture = tupolev_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -8350,7 +8343,7 @@ ideas = {
 			picture = tupolev_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -8384,7 +8377,7 @@ ideas = {
 			picture = tupolev_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -8434,7 +8427,7 @@ ideas = {
 			picture = yakovlev_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -8465,7 +8458,7 @@ ideas = {
 			picture = yakovlev_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -8502,7 +8495,7 @@ ideas = {
 			picture = yakovlev_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -8534,7 +8527,7 @@ ideas = {
 			picture = yakovlev_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -8567,7 +8560,7 @@ ideas = {
 			picture = yakovlev_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -8605,7 +8598,7 @@ ideas = {
 			picture = yakovlev_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -8644,7 +8637,7 @@ ideas = {
 			picture = yakovlev_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -8678,7 +8671,7 @@ ideas = {
 			picture = yakovlev_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -8734,7 +8727,7 @@ ideas = {
 			picture = grabin_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -8761,7 +8754,7 @@ ideas = {
 			picture = grabin_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -8794,7 +8787,7 @@ ideas = {
 			picture = grabin_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -8822,7 +8815,7 @@ ideas = {
 			picture = grabin_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -8850,7 +8843,7 @@ ideas = {
 			picture = grabin_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -8884,7 +8877,7 @@ ideas = {
 			picture = grabin_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -8918,7 +8911,7 @@ ideas = {
 			picture = grabin_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -8947,7 +8940,7 @@ ideas = {
 			picture = grabin_design_bureau
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -8992,7 +8985,7 @@ ideas = {
 			picture = tula_arms_plant
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -9019,7 +9012,7 @@ ideas = {
 			picture = tula_arms_plant
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -9052,7 +9045,7 @@ ideas = {
 			picture = tula_arms_plant
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -9080,7 +9073,7 @@ ideas = {
 			picture = tula_arms_plant
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -9108,7 +9101,7 @@ ideas = {
 			picture = tula_arms_plant
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -9142,7 +9135,7 @@ ideas = {
 			picture = tula_arms_plant
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -9176,7 +9169,7 @@ ideas = {
 			picture = tula_arms_plant
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -9205,7 +9198,7 @@ ideas = {
 			picture = tula_arms_plant
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -9249,7 +9242,7 @@ ideas = {
 			picture = gaz
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -9277,7 +9270,7 @@ ideas = {
 			picture = gaz
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -9311,7 +9304,7 @@ ideas = {
 			picture = gaz
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -9340,7 +9333,7 @@ ideas = {
 			picture = gaz
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -9369,7 +9362,7 @@ ideas = {
 			picture = gaz
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -9405,7 +9398,7 @@ ideas = {
 			picture = gaz
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -9440,7 +9433,7 @@ ideas = {
 			picture = gaz
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -9470,7 +9463,7 @@ ideas = {
 			picture = gaz
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -9515,7 +9508,7 @@ ideas = {
 		stalingrad_tractor_factory = {
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -9539,7 +9532,7 @@ ideas = {
 			picture = stalingrad_tractor_factory
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -9570,7 +9563,7 @@ ideas = {
 		leningrad_polytechnical_institute = {
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -9594,7 +9587,7 @@ ideas = {
 			picture = leningrad_polytechnical_institute
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -9627,7 +9620,7 @@ ideas = {
 			picture = SOV_soviet_railways
 
 			allowed = {
-				original_TAG = SOV
+				original_tag = REM
 
 			}
 
@@ -9658,7 +9651,7 @@ ideas = {
 			picture = SOV_soviet_railways
 
 			allowed = {
-				original_TAG = SOV
+				original_tag = REM
 
 			}
 
@@ -9698,7 +9691,7 @@ ideas = {
 			picture = generic_industrial_concern_2
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			available = {
@@ -9728,7 +9721,7 @@ ideas = {
 			picture = generic_industrial_concern_2
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -9757,7 +9750,7 @@ ideas = {
 			picture = generic_industrial_concern_2
 
 			allowed = {
-				original_TAG = SOV
+				original_tag = REM
 
 			}
 
@@ -9787,7 +9780,7 @@ ideas = {
 			picture = generic_industrial_concern_2
 
 			allowed = {
-				original_TAG = SOV
+				original_tag = REM
 
 			}
 
@@ -9817,7 +9810,7 @@ ideas = {
 			picture = generic_industrial_concern_2
 
 			allowed = {
-				original_TAG = SOV
+				original_tag = REM
 
 			}
 
@@ -9847,7 +9840,7 @@ ideas = {
 			picture = generic_industrial_concern_2
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -9877,7 +9870,7 @@ ideas = {
 			picture = generic_industrial_concern_2
 
 			allowed = {
-				original_TAG = SOV
+				original_tag = REM
 
 			}
 
@@ -9908,7 +9901,7 @@ ideas = {
 			picture = generic_industrial_concern_2
 
 			allowed = {
-				original_TAG = SOV
+				original_tag = REM
 
 			}
 
@@ -9939,7 +9932,7 @@ ideas = {
 			picture = generic_industrial_concern_2
 
 			allowed = {
-				original_TAG = SOV
+				original_tag = REM
 
 			}
 
@@ -9970,7 +9963,7 @@ ideas = {
 			picture = generic_industrial_concern_2
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -9999,7 +9992,7 @@ ideas = {
 			picture = generic_industrial_concern_2
 
 			allowed = {
-				original_TAG = SOV
+				original_tag = REM
 
 			}
 
@@ -10029,7 +10022,7 @@ ideas = {
 			picture = generic_industrial_concern_2
 
 			allowed = {
-				original_TAG = SOV
+				original_tag = REM
 
 			}
 
@@ -10059,7 +10052,7 @@ ideas = {
 			picture = generic_industrial_concern_2
 
 			allowed = {
-				original_TAG = SOV
+				original_tag = REM
 
 			}
 
@@ -10089,7 +10082,7 @@ ideas = {
 			picture = generic_industrial_concern_2
 
 			allowed = {
-				original_tag = SOV
+				original_tag = REM
 			}
 
 			visible = {
@@ -10118,7 +10111,7 @@ ideas = {
 			picture = generic_industrial_concern_2
 
 			allowed = {
-				original_TAG = SOV
+				original_tag = REM
 
 			}
 
@@ -10148,7 +10141,7 @@ ideas = {
 			picture = generic_industrial_concern_2
 
 			allowed = {
-				original_TAG = SOV
+				original_tag = REM
 
 			}
 
@@ -10178,7 +10171,7 @@ ideas = {
 			picture = generic_industrial_concern_2
 
 			allowed = {
-				original_TAG = SOV
+				original_tag = REM
 
 			}
 
