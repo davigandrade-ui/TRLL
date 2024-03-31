@@ -27,66 +27,7 @@ TUR_ottoman_plan = {
 	ai_national_focuses = {
 		#1936
 		TUR_the_montreux_convention
-		TUR_fully_integrate_the_is_bank
-		TUR_hava_okulu
-		TUR_ratify_the_six_arrows
-		TUR_privatize_the_anadolu_agency
-		#1937
-		TUR_the_sanayiciler
-		TUR_lift_the_ban_on_other_political_parties
-		TUR_treaty_of_saadabad
-		TUR_cooperate_with_the_debt_council
-		TUR_utilize_foreign_capital
-		#1938
-		TUR_holding_our_first_multi_party_election
-		TUR_democratic_transition_focus
-		TUR_assess_our_future
-		TUR_the_hatay_issue
-		TUR_permit_regional_elections
-		#1939
-		TUR_expanding_our_armaments
-		TUR_learning_from_the_great_war
-		TUR_modernising_the_army
-		TUR_expand_the_air_bases
-		TUR_expand_the_golcuk_naval_base
-		#1940
-		TUR_privatize_our_infrastructure
-		TUR_peace_in_the_world
-		TUR_democratic_capstone_focus
-		TUR_relocate_from_yildiz_palace
-		TUR_embrace_military_tradition
-		#1941
-		TUR_pivot_to_the_past
-		TUR_purge_the_kemalists
-		TUR_restore_the_divan
-		TUR_rebuilding_our_nation
-		TUR_return_of_the_sultan
-		#1942
-		TUR_reclaim_macedonia
-		TUR_join_the_central_powers
-		TUR_aligning_bulgaria
-		TUR_expanding_the_saadabad_pact
-		TUR_the_damascus_diktat
-		#1943
-		TUR_the_pan_national_association_of_ulemas
-		TUR_imperial_factories
-		TUR_reclaiming_our_lost_empire
-		TUR_supporting_the_east
-		TUR_reinstate_the_darulfununu_sahane
-		#1944
-		TUR_desert_camel_corps
-		TUR_refining_our_strategies
-		TUR_the_red_apples_of_sevres
-		TUR_the_legacy_of_osmanli_donanmasi
-		TUR_accelerate_native_fighter_designs	
-		#1945
-		TUR_invoke_the_methods_of_mehmed_ii
-		TUR_turkish_air_defense_platforms
-		TUR_expanding_our_navy
-		TUR_expanded_credit_on_our_debts
-		TUR_fortified_defensive_bases	
-		#1946
-		TUR_turk_silahli_kuvvetleri
+	
 	}
 
 	research = {
