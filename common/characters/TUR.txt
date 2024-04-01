@@ -1,4 +1,21 @@
 characters={
+
+	TUR_recebzade_erdogan_efendi = {
+		name=TUR_recebzade_erdogan_efendi_name
+		portraits={
+			civilian={
+				large="GFX_recebzade_erdogan_efendi"
+			}
+		}
+	country_leader={
+			ideology=despotism
+		    desc = TUR_recebzade_erdogan_efendi_description
+			traits =  { }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+
 	TUR_mustafa_kemal_ataturk={
 		instance = {
 			allowed = {

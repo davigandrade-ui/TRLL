@@ -11,7 +11,7 @@ state={
 	state_category = town
 
 	history={
-		owner = TMP
+		owner = TUR
 		victory_points = {
 			11747 15
 		}
@@ -29,7 +29,6 @@ state={
 		}
 		add_core_of = TUR
 		add_core_of = OTT
-		add_core_of = TMP
 	}
 
 	provinces={

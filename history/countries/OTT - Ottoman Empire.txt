@@ -1,5 +1,8 @@
 ﻿set_research_slots = 3
 
+recruit_character = TUR_recebzade_erdogan_efendi
+
+
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -68,3 +71,5 @@ set_popularities = {
 	democratic = 6
 	neutrality = 94
 }
+set_cosmetic_tag = TUR_ottoman_sempatizers
+
