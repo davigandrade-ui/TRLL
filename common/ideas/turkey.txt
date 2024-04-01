@@ -2,6 +2,44 @@ ideas = {
 
 	country = { 
 
+		TUR_more_troops = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+			
+			removal_cost = -1
+	
+
+			modifier = {
+				conscription = 0.01
+			}
+		}	
+
+		TUR_superior_will = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = jap_supremacy_of_will
+			
+			modifier = {
+				army_defence_factor = 0.05
+				army_attack_factor = 0.05
+			}
+		}
+
 		TUR_kemalist_army_officers_powerful_loyal = { 
 
 			allowed = {

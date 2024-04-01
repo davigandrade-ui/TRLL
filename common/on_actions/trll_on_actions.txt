@@ -1,0 +1,11 @@
+			
+# on_actions = {
+#	on_startup = {
+#		effect= {
+#
+#			TUR = {  #Province 13058 is impassable and cannot be conquered. Give it to the new state controller.
+#    				set_province_controller = 9811
+#  			}
+#  		}
+#  	}
+#}  				

@@ -1,4 +1,6 @@
-﻿set_research_slots = 3
+﻿capital = 346
+
+set_research_slots = 3
 
 recruit_character = TUR_recebzade_erdogan_efendi
 
@@ -61,7 +63,7 @@ if = {
 		mtg_transport = 1
 	}
 }
-
+add_ideas = TUR_legacy_of_ataturk_defiled
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1935.2.8"

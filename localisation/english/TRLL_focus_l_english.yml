@@ -89,3 +89,15 @@
  JAP_take_manchuria_tt:0 "§4Adds 1 level infrastructure to every Manchuria state you control§!"
  
  JAP_prepare_for_war_with_the_soviet_union_tt:0 "§4This advisor %50 cheaper(75pp)§!"
+
+ TUR_denounce:0 "Denounce Fundamentalists"
+
+ TUR_emergency_railway_iniative:0 "Emergency Railway Iniative"
+
+ TUR_emergency_railway_iniative_tt:0 "§RDebt to council will increase!§!"
+
+ TUR_bread_for_the_people:0 "Bread For The People"
+
+ TUR_choose_fevzi:0 "Fevzi Çakmak's Plan"
+
+ TUR_choose_fahrettin:0 "Fahrettin Altay's Plan"

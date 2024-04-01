@@ -34,6 +34,11 @@ if = {
 	}
 }
 
+	declare_war_on = {
+		target = OTT
+		type = annex_everything
+	}
+
 ###################
 #### 3D MODELS ####
 ###################
@@ -166,6 +171,7 @@ if = {
 			TUR_sectarian_woes
 			TUR_disorganised_armed_forces
 			TUR_debt_council
+			TUR_legacy_of_ataturk_defiled
 		}
 		
 		353 = {
@@ -414,13 +420,13 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1935.2.8"
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 94
-	neutrality = 6
+	democratic = 6
+	neutrality = 94
 }
 
 set_convoys = 20
@@ -496,6 +502,7 @@ if = {
 
 if = {
 	limit = { NOT = { has_dlc = "Battle for the Bosporus" } }
+	recruit_character = TUR_kazim_orbay
 	recruit_character = TUR_ismet_inonu
 	recruit_character = TUR_mustafa_kemal_ataturk
 	recruit_character = TUR_sefik_husnu
@@ -517,7 +524,7 @@ if = {
 	recruit_character = TUR_hassan_saka
 	recruit_character = TUR_kazim_ozalp
 	recruit_character = TUR_mumtaz_okmen
-	recruit_character = TUR_kazim_orbay
+	
 }
 
 if = {
