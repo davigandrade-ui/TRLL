@@ -691,11 +691,11 @@ country_event = {
 		}
 		GER = { add_to_faction = RAJ }
 		add_popularity = {
-			ideology = fascism
+			ideology = national_vanguard
 			popularity = 0.35
 		}
 		set_politics = {
-			ruling_party = fascism
+			ruling_party = national_vanguard
 			elections_allowed = no
 		}
 		hidden_effect = {

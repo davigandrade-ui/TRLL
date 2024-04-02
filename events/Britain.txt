@@ -663,7 +663,7 @@ country_event = {
 	trigger = {
 		tag = ENG
 		has_idea = ENG_george_vi
-		has_government = fascism
+		has_government = national_vanguard
 		NOT = { has_dlc = "Man the Guns" }
 	}
 	
@@ -687,7 +687,7 @@ country_event = {
 			desc = "POLITICS_EDWARD_EDWARD_DESC"
 			picture = GFX_portrait_Edward_VIII
 			expire = "1965.1.1"
-			ideology = fascism_ideology
+			ideology = national_vanguard_ideology
 			traits = {
 				inexperienced_imperialist				
 			}
@@ -765,7 +765,7 @@ country_event = {
 			limit = {
 				NOT = {
 					RAJ = {
-						has_government = fascism
+						has_government = national_vanguard
 					}
 				}
 			}
@@ -777,7 +777,7 @@ country_event = {
 		if = {
 			limit = {
 				RAJ = {
-					has_government = fascism
+					has_government = national_vanguard
 				}
 			}
 			end_puppet = RAJ
@@ -868,13 +868,13 @@ country_event = {
 		ai_chance = {
 			factor = 100
 			modifier = {
-				has_government = fascism
+				has_government = national_vanguard
 				factor = 0
 			}
 		}
 		name = britain.23.a
 		start_civil_war = {
-				ideology = fascism
+				ideology = national_vanguard
 				size = 0.5
 		}
 	}
@@ -882,7 +882,7 @@ country_event = {
 	option = {
 		name = britain.23.b
 		start_civil_war = {
-				ruling_party = fascism
+				ruling_party = national_vanguard
 				ideology = neutrality
 				size = 0.5
 		}

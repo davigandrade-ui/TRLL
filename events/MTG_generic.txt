@@ -196,7 +196,7 @@ country_event = {
 		if = {
 			limit = {
 				FROM = {
-					has_government = fascism
+					has_government = national_vanguard
 				}
 			}
 			effect_tooltip = {
@@ -205,7 +205,7 @@ country_event = {
 					days = 365
 				}
 				set_politics = {
-					ruling_party = fascism
+					ruling_party = national_vanguard
 					elections_allowed = no
 				}
 			}

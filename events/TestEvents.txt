@@ -412,7 +412,7 @@ country_event = {
 		every_country = {
 			limit = {
 				OR = {
-					has_government = fascism
+					has_government = national_vanguard
 					has_government = neutrality
 				}
 				NOT = {

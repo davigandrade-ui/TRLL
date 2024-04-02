@@ -18,7 +18,7 @@ country_event = {
 				factor = 5
 			}
 			modifier = {
-				has_government = fascism
+				has_government = national_vanguard
 				factor = 0.25
 			}
 		}

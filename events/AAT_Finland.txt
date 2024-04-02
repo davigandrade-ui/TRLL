@@ -2482,7 +2482,7 @@ country_event = {
 			modifier = { #In case more modifiers are added
 				factor = 10
 				is_historical_focus_on = yes
-				has_government = fascism
+				has_government = national_vanguard
 			}
 			modifier = {
 				factor = 0
@@ -3187,7 +3187,7 @@ country_event = {
 			modifier = { #In case more modifiers are added
 				factor = 10
 				is_historical_focus_on = yes
-				has_government = fascism
+				has_government = national_vanguard
 			}
 			modifier = {
 				factor = 0
@@ -4672,11 +4672,11 @@ country_event = {
 
 			if = {
 				limit = {
-					has_government = fascism
+					has_government = national_vanguard
 				}
 				KAR = {
 					set_politics = { 
-						ruling_party = fascism
+						ruling_party = national_vanguard
 						elections_allowed = no
 					}
 					set_popularities = {
@@ -4703,7 +4703,7 @@ country_event = {
 				# Add extra country leader trait to the possible leaders (fascist & non-aligned)
 				KAR_ukki_vainamoinen = {
 					add_country_leader_trait = {
-					 	ideology = fascism_ideology
+					 	ideology = national_vanguard_ideology
 					 	trait = veteran_guerrilla_fighter
 					 }
 				}
@@ -4968,11 +4968,11 @@ country_event = {
 
 			if = {
 				limit = {
-					has_government = fascism
+					has_government = national_vanguard
 				}
 				KAR = {
 					set_politics = { 
-						ruling_party = fascism
+						ruling_party = national_vanguard
 						elections_allowed = no
 					}
 					set_popularities = {
@@ -4999,7 +4999,7 @@ country_event = {
 				# Add extra country leader trait to the possible leaders (fascist & non-aligned)
 				KAR_ukki_vainamoinen = {
 					add_country_leader_trait = {
-					 	ideology = fascism_ideology
+					 	ideology = national_vanguard_ideology
 					 	trait = veteran_guerrilla_fighter
 					 }
 				}

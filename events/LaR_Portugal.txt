@@ -439,7 +439,7 @@ country_event = {
 						NOT = { 
 							has_completed_focus = SPA_unify_the_nationalist_front
 						}
-						NOT = { has_government = fascism }
+						NOT = { has_government = national_vanguard }
 					}
 					AND = {
 						tag = SPD
@@ -1827,7 +1827,7 @@ country_event = {
 				add_to_temp_variable = { POR_bra_monarchist_cw_opposition = party_popularity@communism }
 				add_to_temp_variable = { POR_bra_monarchist_cw_opposition = party_popularity@democratic }
 				start_civil_war = {
-					ideology = fascism
+					ideology = national_vanguard
 					size = POR_bra_monarchist_cw_opposition
 					capital = 501
 					states = { 495 497 498 499 280 502 503 504 505 }
@@ -1835,7 +1835,7 @@ country_event = {
 				random_country = {
 					limit = {
 						original_tag = BRA
-						has_government = fascism
+						has_government = national_vanguard
 					}
 					POR = { 
 						add_to_war = { targeted_alliance = BRA enemy = PREV hostility_reason = asked_to_join }
@@ -1850,7 +1850,7 @@ country_event = {
 				}
 				BRA = {
 					set_party_name = { 
-					    ideology = fascism
+					    ideology = national_vanguard
 					    long_name = BRA_fascism_party_long
 					    name = BRA_fascism_party
 					}
@@ -1859,7 +1859,7 @@ country_event = {
 						desc = "POLITICS_PLINIO_SALGADO_DESC"
 						picture = GFX_portrait_Plinio_Salgado
 						expire = "1965.1.1"
-						ideology = fascism_ideology
+						ideology = national_vanguard_ideology
 						traits = {
 							#
 						}
@@ -1893,7 +1893,7 @@ country_event = {
 				}
 				if = {
 					limit = {
-						NOT = { has_government = fascism }
+						NOT = { has_government = national_vanguard }
 					}
 					set_politics = {
 						ruling_party = neutrality
@@ -1921,13 +1921,13 @@ country_event = {
 						desc = "POLITICS_PLINIO_SALGADO_DESC"
 						picture = GFX_portrait_Plinio_Salgado
 						expire = "1965.1.1"
-						ideology = fascism_ideology
+						ideology = national_vanguard_ideology
 						traits = {
 							#
 						}
 					}
 					set_party_name = {
-					    ideology = fascism
+					    ideology = national_vanguard
 					    long_name = BRA_fascism_party_long
 					    name = BRA_fascism_party
 					}
@@ -1988,12 +1988,12 @@ country_event = {
 				}					
 			}
 			start_civil_war = {
-				ideology = fascism
+				ideology = national_vanguard
 			}
 			random_country = {
 				limit = {
 					original_tag = BRA
-					has_government = fascism
+					has_government = national_vanguard
 				}
 				POR = { 
 					add_to_war = { targeted_alliance = BRA enemy = PREV hostility_reason = asked_to_join }
@@ -2024,7 +2024,7 @@ country_event = {
 			}
 			if = {
 				limit = {
-					NOT = { has_government = fascism }
+					NOT = { has_government = national_vanguard }
 				}
 				set_politics = {
 					ruling_party = neutrality
@@ -2099,7 +2099,7 @@ country_event = {
 			desc = "POLITICS_PLINIO_SALGADO_DESC"
 			picture = GFX_portrait_Plinio_Salgado
 			expire = "1965.1.1"
-			ideology = fascism_ideology
+			ideology = national_vanguard_ideology
 			traits = {
 				#
 			}
@@ -2169,7 +2169,7 @@ country_event = {
 		    name = BRA_monarchy_party
 		}
 		set_party_name = { 
-		    ideology = fascism
+		    ideology = national_vanguard
 		    long_name = BRA_antimonarchist_coalition_long
 		    name = BRA_antimonarchist_coalition
 		}
@@ -2182,7 +2182,7 @@ country_event = {
 				} 
 			}
 			set_politics = {
-				ruling_party = fascism
+				ruling_party = national_vanguard
 			}
 		}
 		set_popularities = {
@@ -2199,7 +2199,7 @@ country_event = {
 			add_country_leader_role = {
 				country_leader = {
 					expire = "1954.8.24"
-					ideology = fascism_ideology
+					ideology = national_vanguard_ideology
 					traits = {
 						anti_communist
 					}
@@ -2229,7 +2229,7 @@ country_event = {
 		    name = BRA_monarchy_party
 		}
 		set_party_name = { 
-		    ideology = fascism
+		    ideology = national_vanguard
 		    long_name = BRA_antimonarchist_coalition_long
 		    name = BRA_antimonarchist_coalition
 		}
@@ -2242,7 +2242,7 @@ country_event = {
 				} 
 			}
 			set_politics = {
-				ruling_party = fascism
+				ruling_party = national_vanguard
 			}
 		}
 		set_popularities = {
@@ -2259,7 +2259,7 @@ country_event = {
 			add_country_leader_role = {
 				country_leader = {
 					expire = "1954.8.24"
-					ideology = fascism_ideology
+					ideology = national_vanguard_ideology
 					traits = {
 						anti_communist
 					}

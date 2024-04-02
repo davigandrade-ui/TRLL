@@ -900,7 +900,7 @@ country_event = {
 			modifier = {
 				JAP = {
 					NOT = {
-						has_government = fascism #Japan doesn't seem interested in China
+						has_government = national_vanguard #Japan doesn't seem interested in China
 					}
 				}
 				factor = 2
@@ -1360,7 +1360,7 @@ country_event = {
 			modifier = {
 				JAP = {
 					NOT = {
-						has_government = fascism
+						has_government = national_vanguard
 					}
 				}
 				factor = 0.5

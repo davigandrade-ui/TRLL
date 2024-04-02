@@ -178,7 +178,7 @@ SOV_dont_support_if_exiles_and_friendly_with_japan = {
 	enable = {		
 		OR = {
 			SOV = { has_government = neutrality }	
-			SOV = { has_government = fascism }	
+			SOV = { has_government = national_vanguard }	
 		}
 	}
 	abort = {

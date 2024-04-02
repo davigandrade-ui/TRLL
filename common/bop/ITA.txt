@@ -141,7 +141,7 @@ ITA_power_balance = {
 					}
 					promote_character = {
 						character = ITA_benito_mussolini
-						ideology = fascism
+						ideology = national_vanguard
 					}
 				}
 			}
@@ -240,7 +240,7 @@ ITA_power_balance = {
 					}
 					promote_character = {
 						character = ITA_italo_balbo
-						ideology = fascism
+						ideology = national_vanguard
 					}
 				}
 			}
@@ -339,7 +339,7 @@ ITA_power_balance = {
 					}
 					promote_character = {
 						character = ITA_dino_grandi
-						ideology = fascism
+						ideology = national_vanguard
 					}
 				}
 			}
@@ -515,7 +515,7 @@ ITA_power_balance = {
 						}
 						OR = {
 							has_government = neutrality
-							has_government = fascism
+							has_government = national_vanguard
 						}
 					}
 					ITA_vittorio_emanuele_iii = { promote_character = yes }
@@ -637,7 +637,7 @@ ITA_power_balance = {
 						}
 						OR = {
 							has_government = neutrality
-							has_government = fascism
+							has_government = national_vanguard
 						}
 					}
 					ITA_promote_umberto_to_country_leader = yes

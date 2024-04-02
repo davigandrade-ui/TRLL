@@ -167,7 +167,7 @@ country_event = {
 								set_popularities = {
 									fascism = 100
 								}
-								set_politics = { ruling_party = fascism elections_allowed = no }
+								set_politics = { ruling_party = national_vanguard elections_allowed = no }
 							}
 							allowed_party_communism = {
 								set_popularities = {

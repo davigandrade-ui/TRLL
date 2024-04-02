@@ -439,7 +439,7 @@ country_event = {
 			factor = 50
 		}
 		trigger = {
-			has_government = fascism
+			has_government = national_vanguard
 			not = { has_dlc = "La Resistance" }
 		}
 		#Set same cosmetic tag they would get on capitulation
@@ -691,7 +691,7 @@ country_event = {
 				}
 			}
 			start_civil_war = {
-				ideology = fascism
+				ideology = national_vanguard
 				size = 0.9
 				capital = 26
 				states = { 26 21 22 31 25 20 32 33 1 735 677 680 554 458 462 461 513 459 460 665 553 272 556 543 706 708 713 268 557 514 515 776 777 778 779 780 781 782 786 851 }
@@ -723,11 +723,11 @@ country_event = {
 			}
 		}
 		random_other_country = {
-			limit = { original_tag = FRA has_government = fascism }
+			limit = { original_tag = FRA has_government = national_vanguard }
 			ROOT = { puppet = PREV }
 			set_capital = { state = 26 }
 			set_politics = {
-				ruling_party = fascism
+				ruling_party = national_vanguard
 				elections_allowed = no
 			}
 			set_popularities = {
@@ -755,7 +755,7 @@ country_event = {
 			add_country_leader_role = {
 				character = FRA_philippe_petain
 				country_leader = {
-					ideology = fascism_ideology 
+					ideology = national_vanguard_ideology 
 					expire = "1965.1.1.1"
 					id = -1
 				}
@@ -1116,7 +1116,7 @@ country_event = {
 			factor = 50 
 		}
 		trigger = {
-			has_government = fascism
+			has_government = national_vanguard
 			has_dlc = "La Resistance"
 		}
 		FRA = { 
@@ -1239,7 +1239,7 @@ country_event = {
 				}
 				set_capital = { state = 26 }
 				set_politics = {
-					ruling_party = fascism
+					ruling_party = national_vanguard
 					elections_allowed = no
 				}
 				set_popularities = {
@@ -1258,7 +1258,7 @@ country_event = {
 					add_country_leader_role = {
 						country_leader = {
 							expire = "1965.1.1"
-							ideology = fascism_ideology
+							ideology = national_vanguard_ideology
 							traits = {
 								
 							}
@@ -2010,7 +2010,7 @@ country_event = {
     		random_other_country = {
 				limit = {
 					original_tag = SPR
-					has_government = fascism
+					has_government = national_vanguard
 				}
 				FRA = {
 					add_ai_strategy = {
@@ -2098,11 +2098,11 @@ country_event = {
 			}
 			if = {
 				limit = {
-					has_government = fascism
+					has_government = national_vanguard
 				}
 				FRA = {
 					set_politics = {
-						ruling_party = fascism
+						ruling_party = national_vanguard
 						elections_allowed = no
 					}
 					set_popularities = {
@@ -2244,7 +2244,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 2
-				has_government = fascism
+				has_government = national_vanguard
 			}
 			modifier = {
 				factor = 0.5

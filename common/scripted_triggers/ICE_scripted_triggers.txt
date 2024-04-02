@@ -38,7 +38,7 @@ ICE_has_fascist_ai = {
 				rule = ICE_AI_BEHAVIOR
 				option = ICE_FASCIST_PLAN
 			}
-			has_government = fascism
+			has_government = national_vanguard
 		}
 	}
 }

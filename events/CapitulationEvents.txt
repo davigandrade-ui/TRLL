@@ -16,8 +16,8 @@ news_event = {
 			NOT = {
 				OR = {
 					AND = {
-						ROOT = { has_government = fascism }
-						FROM.FROM = { has_government = fascism }
+						ROOT = { has_government = national_vanguard }
+						FROM.FROM = { has_government = national_vanguard }
 					}
 					AND = {
 						ROOT = { has_government = democratic }
@@ -46,8 +46,8 @@ news_event = {
 		trigger = {
 			OR = {
 				AND = {
-					ROOT = { has_government = fascism }
-					FROM.FROM = { has_government = fascism }
+					ROOT = { has_government = national_vanguard }
+					FROM.FROM = { has_government = national_vanguard }
 				}
 				AND = {
 					ROOT = { has_government = communism }
@@ -127,8 +127,8 @@ news_event = {
 			NOT = {
 				OR = {
 					AND = {
-						ROOT = { has_government = fascism }
-						FROM.FROM = { has_government = fascism }
+						ROOT = { has_government = national_vanguard }
+						FROM.FROM = { has_government = national_vanguard }
 					}
 					AND = {
 						ROOT = { has_government = democratic }

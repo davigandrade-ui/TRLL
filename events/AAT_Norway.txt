@@ -816,7 +816,7 @@ country_event = { # Claiming Land
 		text = AAT_norway.17.desc_fascist
 		trigger = {
 			FROM = {
-				has_government = fascism 
+				has_government = national_vanguard 
 			}
 		} 
 	}
@@ -922,7 +922,7 @@ country_event = { # They accepted our demands
 	desc = {
 		text = AAT_norway.18.desc_fascist
 		trigger = {
-			has_government = fascism 
+			has_government = national_vanguard 
 		} 
 	}
 
@@ -1153,7 +1153,7 @@ country_event = { # THEY REJECTED US
 	desc = {
 		text = AAT_norway.19.desc_fascist
 		trigger = {
-			has_government = fascism 
+			has_government = national_vanguard 
 		} 
 	}
 
@@ -2175,7 +2175,7 @@ country_event = { # Norway wants Tanks and Kool-Aid
 			else = {
 				effect_tooltip = {
 					add_popularity = {
-						ideology = fascism
+						ideology = national_vanguard
 						popularity = 0.12
 					}
 				}
@@ -2490,7 +2490,7 @@ country_event = { # Communist/Fascist Accepted sale of tanks and Kool-Aid
 		}
 		else = {
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.12
 			}
 		} 
@@ -3002,7 +3002,7 @@ country_event = { # Asking for foreign support
 			modifier = {
 				factor = 10 
 				is_historical_focus_on = yes
-				has_government = fascism 
+				has_government = national_vanguard 
 			}
 		}
 		trigger = {

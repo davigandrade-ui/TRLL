@@ -453,12 +453,12 @@ GRE_fascist_plan = {
 					has_completed_focus = ITA_befriend_turkey
 				}
 				GER = { 
-					NOT = { has_government = fascism }
+					NOT = { has_government = national_vanguard }
 				}
 			}
 			AND = { 
-				GER = { NOT = { has_government = fascism } }
-				ITA = { NOT = { has_government = fascism } }
+				GER = { NOT = { has_government = national_vanguard } }
+				ITA = { NOT = { has_government = national_vanguard } }
 			}
 		}
 	}

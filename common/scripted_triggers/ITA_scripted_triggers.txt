@@ -79,7 +79,7 @@ ITA_is_compatible_spanish_tag = { #THIS is Spanish tag, ROOT is ITA
 	OR = { #Nationalist Spain
 		AND = {
 			tag = SPA
-			ROOT = { has_government = fascism }
+			ROOT = { has_government = national_vanguard }
 		}
 		AND = { #Carlists
 			tag = SPB
@@ -197,7 +197,7 @@ ITA_government_is_really_fascist = {
 		}
 	}
 	else = {
-		has_government = fascism
+		has_government = national_vanguard
 	}
 }
 
@@ -207,13 +207,13 @@ ITA_government_is_somewhat_fascist = {
 			has_dlc = "By Blood Alone"
 		}
 		OR = {
-			has_government = fascism
+			has_government = national_vanguard
 			has_completed_focus = ITA_utilize_the_blackshirts
 		}
 	}
 	else = {
 		OR = {
-			has_government = fascism
+			has_government = national_vanguard
 			has_government = neutrality
 		}
 	}
@@ -505,7 +505,7 @@ has_dino_grandi = {
 
 ITA_is_kinda_fascist = {
 	OR = {
-		has_government = fascism
+		has_government = national_vanguard
 		has_government = neutrality
 		if = {
 			limit = {
@@ -530,7 +530,7 @@ ITA_is_anti_fascist = {
 		limit = {
 			has_dlc = "By Blood Alone"
 		}
-		NOT = { has_government = fascism }
+		NOT = { has_government = national_vanguard }
 		NOT = { has_government = neutrality }
 		NOT = {
 			custom_trigger_tooltip = {
@@ -668,7 +668,7 @@ ITA_is_appropriate_cw_side_for_character_split = {
 			}
 			has_country_flag = ITA_fascist_side_for_character_split_flag
 			#log = "I am a FASCIST [FROM.GetName]"
-			#has_government = fascism
+			#has_government = national_vanguard
 		}
 		#MONARCHIST & ANTIFASCIST
 		else_if = {
@@ -731,7 +731,7 @@ ITA_is_appropriate_cw_side_for_character_split = {
 			}
 			NOT = { has_country_flag = ITA_antifa_side_for_character_split_flag }
 			#log = "I am a FASCIST [FROM.GetName]"
-			#has_government = fascism
+			#has_government = national_vanguard
 		}
 		else = {
 			#log ="I have no idea what I am [FROM.GetName]"

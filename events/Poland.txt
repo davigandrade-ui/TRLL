@@ -842,7 +842,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 10
-				has_government = fascism
+				has_government = national_vanguard
 			}
 		}
 		hidden_effect = {
@@ -1008,9 +1008,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = fascism
+					has_government = national_vanguard
 				}
-				has_government = fascism
+				has_government = national_vanguard
 			}
 		}
 	}
@@ -1037,9 +1037,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = fascism
+						has_government = national_vanguard
 					}
-					has_government = fascism
+					has_government = national_vanguard
 				}
 				AND = {
 					FROM = {
@@ -1111,13 +1111,13 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.1
-				FROM = { has_government = fascism }
+				FROM = { has_government = national_vanguard }
 				has_same_ideology = no
 			}
 			modifier = {
 				factor = 0.001
 				original_tag = ITA
-				has_government = fascism
+				has_government = national_vanguard
 				has_same_ideology = no
 			}
 		}
@@ -1162,13 +1162,13 @@ country_event = {
 			modifier = {
 				factor = 200
 				original_tag = ITA
-				has_government = fascism
+				has_government = national_vanguard
 				has_same_ideology = no
 			}
 			
 			modifier = {
 				factor = 2
-				FROM = { has_government = fascism }
+				FROM = { has_government = national_vanguard }
 				has_same_ideology = no
 			}
 			modifier = {
@@ -1399,7 +1399,7 @@ country_event = {
 		}
 		add_ruling_to_fas = yes
 		set_politics = {
-			ruling_party = fascism
+			ruling_party = national_vanguard
 			elections_allowed = no
 			long_name = POL_OZON_party_long
 			name = POL_OZON_party
@@ -1591,7 +1591,7 @@ country_event = {
 	
 	trigger = {
 		tag = GER
-		has_government = fascism
+		has_government = national_vanguard
 		has_completed_focus = GER_rhineland
 		is_subject = no
 		DNZ = {
@@ -1907,7 +1907,7 @@ country_event = { #Event to replace the Sanation government when Poland capitula
 		}
 		if = {
 			limit = {
-				has_government = fascism
+				has_government = national_vanguard
 			}
 			add_ruling_to_neu = yes
 			set_politics = {
@@ -1925,7 +1925,7 @@ country_event = { #Event to replace the Sanation government when Poland capitula
 		}
 		if = {
 			limit = {
-				has_government = fascism
+				has_government = national_vanguard
 			}
 			add_ruling_to_neu = yes
 			set_politics = {

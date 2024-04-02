@@ -255,7 +255,7 @@ country_event = {
 	trigger = {
 		original_tag = MEX
 		has_defensive_war = no
-		NOT = { has_government = fascism }
+		NOT = { has_government = national_vanguard }
 		has_idea = synarchist_support_surge
 		national_vanguard > 0.3
 	}
@@ -273,7 +273,7 @@ country_event = {
 		trigger = { is_ai = no }
 		hidden_effect = {
 			start_civil_war = {
-				ruling_party = fascism
+				ruling_party = national_vanguard
 				ideology = neutrality
 				size = 0.5
 			}
@@ -297,7 +297,7 @@ country_event = {
 			set_war_support = 0.8
 			
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 1
 			}
 			
@@ -309,13 +309,13 @@ country_event = {
 		name = tfv_canada.30.b
 		hidden_effect = {
 			start_civil_war = {
-				ideology = fascism
+				ideology = national_vanguard
 				size = 0.5
 			}
 			random_other_country = {
 				limit = {
 					original_tag = MEX
-					has_government = fascism
+					has_government = national_vanguard
 				}
 				set_equipment_fraction = 0.3
 				set_stability = 0.9
@@ -332,7 +332,7 @@ country_event = {
 				popularity = 0.5
 			}
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = -1
 			}
 			set_equipment_fraction = 0.3
@@ -356,7 +356,7 @@ country_event = {
 		}
 		
 		set_politics = {
-			ruling_party = fascism
+			ruling_party = national_vanguard
 			elections_allowed = no
 		}
 		remove_ideas = synarchist_support_surge
@@ -387,7 +387,7 @@ country_event = {
 				random_country = {
 					limit = {
 						original_tag = MEX
-						has_government = fascism
+						has_government = national_vanguard
 					}
 					CAN = { add_to_faction = PREV }
 				}
@@ -438,7 +438,7 @@ country_event = {
 		random_country = {
 			limit = {
 				original_tag = MEX
-				has_government = fascism
+				has_government = national_vanguard
 			}
 			CAN = { add_to_faction = PREV }
 		}

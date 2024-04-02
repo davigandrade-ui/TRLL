@@ -625,7 +625,7 @@ country_event = {
 				every_other_country = {
 					limit = {
 						OR = {
-							has_government = fascism
+							has_government = national_vanguard
 							has_completed_focus = ENG_organize_the_blackshirts
 							has_completed_focus = FRA_right_wing_rhetoric
 							has_completed_focus = FRA_utilize_the_leagues
@@ -1736,7 +1736,7 @@ country_event = {
 			}
 			every_other_country = {
 				limit = {
-					has_government = fascism
+					has_government = national_vanguard
 				}
 				add_ai_strategy = {
 					type = support
@@ -2399,7 +2399,7 @@ country_event = {
 
 	trigger = {
 		original_tag = USA
-		has_government = fascism
+		has_government = national_vanguard
 		has_civil_war = no
 		has_global_flag = USA_civil_war_fired_democrats
 		has_country_leader = { ruling_only = yes character = USA_douglas_macarthur }
@@ -2461,7 +2461,7 @@ country_event = {
 			character = USA_charles_lindbergh
 			country_leader = {
 				expire = "1965.1.1"
-				ideology = fascism_ideology
+				ideology = national_vanguard_ideology
 				traits = {
 					famous_aviator
 				}

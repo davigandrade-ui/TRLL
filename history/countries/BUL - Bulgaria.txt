@@ -18,7 +18,7 @@ set_party_name = { # DLC
 	long_name = BUL_communism_party_bulgarian_long
 }
 set_party_name = { # DLC
-	ideology = fascism
+	ideology = national_vanguard
 	name = BUL_fascism_party_bulgarian
 	long_name = BUL_fascism_party_bulgarian_long
 }

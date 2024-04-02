@@ -83,7 +83,7 @@ NORDIC_is_fascist = {
 		original_tag = DEN
 		original_tag = ICE
 	}
-	has_government = fascism
+	has_government = national_vanguard
 	# Add more triggers if needed
 }
 
@@ -146,7 +146,7 @@ NORDIC_monarchist_alliance_viable = {
 			has_dynamic_modifier = { modifier = NORDIC_monarchist_alliance_leader_dmod }
 			has_dynamic_modifier = { modifier = NORDIC_monarchist_alliance_member_dmod }
 			AND = {
-				has_government = fascism 
+				has_government = national_vanguard 
 				NORDIC_alliance_created_already = no
 				NORDIC_has_started_democratic_focus_tree = no
 				NORDIC_has_started_communist_focus_tree = no 

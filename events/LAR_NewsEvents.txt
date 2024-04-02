@@ -294,11 +294,11 @@ news_event = {
 			OR = {
 				AND = {
 					tag = GER
-					has_government = fascism
+					has_government = national_vanguard
 				}
 				AND = {
 					tag = ITA
-					has_government = fascism
+					has_government = national_vanguard
 				}
 			}
 			NOT = { original_tag = SPR }
@@ -313,11 +313,11 @@ news_event = {
 			NOT = {
 				AND = {
 					tag = GER
-					has_government = fascism
+					has_government = national_vanguard
 				}
 				AND = {
 					tag = ITA
-					has_government = fascism
+					has_government = national_vanguard
 				}
 				tag = SOV
 			}
@@ -852,11 +852,11 @@ news_event = {
 			NOT = {
 				AND = {
 					tag = GER
-					has_government = fascism
+					has_government = national_vanguard
 				}
 				AND = {
 					tag = ITA
-					has_government = fascism
+					has_government = national_vanguard
 				}
 			}
 			NOT = { has_government = communism }
@@ -902,11 +902,11 @@ news_event = {
 				tag = SOV
 				AND = {
 					tag = GER
-					has_government = fascism
+					has_government = national_vanguard
 				}
 				AND = {
 					tag = ITA
-					has_government = fascism
+					has_government = national_vanguard
 				}
 			}
 			NOT = {
@@ -957,11 +957,11 @@ news_event = {
 			NOT = {
 				AND = {
 					tag = GER
-					has_government = fascism
+					has_government = national_vanguard
 				}
 				AND = {
 					tag = ITA
-					has_government = fascism
+					has_government = national_vanguard
 				}
 			}
 			OR = {
@@ -980,11 +980,11 @@ news_event = {
 			OR = {
 				AND = {
 					tag = GER
-					has_government = fascism
+					has_government = national_vanguard
 				}
 				AND = {
 					tag = ITA
-					has_government = fascism
+					has_government = national_vanguard
 				}
 			}
 			country_exists = SPD
@@ -1421,7 +1421,7 @@ news_event = {
 		name = lar_news.8.e #fascist and non-royalist unaligned
 		trigger = {
 			OR = {
-				has_government = fascism
+				has_government = national_vanguard
 				AND = {
 					has_government = neutrality
 					NOT = {
@@ -1479,7 +1479,7 @@ news_event = {
 	option = {
 		name = lar_news.9.e #fascist 
 		trigger = {
-			has_government = fascism
+			has_government = national_vanguard
 
 		}
 	}
@@ -2627,7 +2627,7 @@ news_event = {
 		name = lar_news.27.c #Fascists
 		trigger = {
 			NOT = { tag = POR }
-			has_government = fascism
+			has_government = national_vanguard
 		}
 	}
 
@@ -2636,7 +2636,7 @@ news_event = {
 		trigger = {
 			NOT = {
 				has_government = communism
-				has_government = fascism
+				has_government = national_vanguard
 				tag = POR
 			}
 		}
@@ -2697,11 +2697,11 @@ news_event = {
 			OR = {
 				AND = {
 					tag = GER
-					has_government = fascism
+					has_government = national_vanguard
 				}
 				AND = {
 					tag = ITA
-					has_government = fascism
+					has_government = national_vanguard
 				}
 			}
 		}
@@ -2713,11 +2713,11 @@ news_event = {
 			NOT = {
 				AND = {
 					tag = GER
-					has_government = fascism
+					has_government = national_vanguard
 				}
 				AND = {
 					tag = ITA
-					has_government = fascism
+					has_government = national_vanguard
 				}
 				tag = SOV
 				tag = SPA
@@ -2838,11 +2838,11 @@ news_event = {
 			OR = {
 				AND = {
 					tag = GER
-					has_government = fascism
+					has_government = national_vanguard
 				}
 				AND = {
 					tag = ITA
-					has_government = fascism
+					has_government = national_vanguard
 				}
 			}
 		}
@@ -2854,11 +2854,11 @@ news_event = {
 			NOT = {
 				AND = {
 					tag = GER
-					has_government = fascism
+					has_government = national_vanguard
 				}
 				AND = {
 					tag = ITA
-					has_government = fascism
+					has_government = national_vanguard
 				}
 				tag = SPD
 				tag = SOV

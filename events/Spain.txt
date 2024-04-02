@@ -17,7 +17,7 @@ country_event = {
 		NOT = { has_global_flag = scw_over }
 		tag = SPR
 		has_defensive_war = no
-		NOT = { has_government = fascism }
+		NOT = { has_government = national_vanguard }
 		date > 1936.2.16 # Trigger at some point after 1936 elections
 		NOT = { has_dlc = "La Resistance" }
 	}
@@ -56,7 +56,7 @@ country_event = {
 		hidden_effect = {
 			set_capital = { state = 176 }
 			start_civil_war = {
-				ruling_party = fascism
+				ruling_party = national_vanguard
 				ideology = communism
 				size = 0.5
 				capital = 41
@@ -87,7 +87,7 @@ country_event = {
 			set_war_support = 0.8
 
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 1
 			}
 			random_other_country = {
@@ -107,7 +107,7 @@ country_event = {
 		name = spain.1.b
 		hidden_effect = {
 			start_civil_war = {
-				ideology = fascism
+				ideology = national_vanguard
 				size = 0.5
 				capital = 176
 				states = { 166 169 170 171 172 174 176 177 178 290 297 699 788 789 791 }
@@ -115,7 +115,7 @@ country_event = {
 			random_other_country = {
 				limit = {
 					original_tag = SPR
-					has_government = fascism
+					has_government = national_vanguard
 				}
 				set_equipment_fraction = 0.5
 				set_stability = 0.9
@@ -136,13 +136,13 @@ country_event = {
 				popularity = 0.5
 			}
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = -1
 			}
 			random_other_country = {
 				limit = {
 					original_tag = SPR
-					has_government = fascism
+					has_government = national_vanguard
 				}
 				set_cosmetic_tag = SPR_civil_war
 				set_country_flag = scw_no_lar_nationalists
@@ -176,7 +176,7 @@ country_event = {
 		name = spain.2.a
 		every_other_country = {
 			limit = {
-				has_government = fascism
+				has_government = national_vanguard
 				NOT = { original_tag = SPR }
 			}
 			country_event = { id = spain.4 days = 1 }
@@ -220,7 +220,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				MEX = { NOT = { has_government = fascism } }
+				MEX = { NOT = { has_government = national_vanguard } }
 			}
 			MEX = { country_event = { id = spain.5 days = 1 } }
 		}
@@ -295,7 +295,7 @@ country_event = {
 		SPR = { has_civil_war = yes }
 		any_other_country = {
 			original_tag = SPR
-			has_government = fascism
+			has_government = national_vanguard
 			ROOT = { is_lend_leasing = PREV }
 		}
 	}
@@ -310,7 +310,7 @@ country_event = {
 		random_other_country = {
 			limit = {
 				original_tag = SPR
-				has_government = fascism
+				has_government = national_vanguard
 			}
 			add_opinion_modifier = { target = ROOT modifier = lend_leased_spanish_civil_war }
 		}
@@ -350,7 +350,7 @@ country_event = {
 
 	trigger = {
 		original_tag = SPR
-		has_government = fascism
+		has_government = national_vanguard
 		has_global_flag = nationalist_victory
 		owns_state = 41
 		NOT = {
@@ -409,7 +409,7 @@ country_event = {
 		ai_chance = { factor = 0 }
 		name = spain.9.b
 		set_politics = {
-			ruling_party = fascism
+			ruling_party = national_vanguard
 			elections_allowed = no
 		}
 		set_country_flag = SPR_communist_civil_war
@@ -442,7 +442,7 @@ country_event = {
 		hidden_effect = {
 			set_capital = { state = 176 }
 			start_civil_war = {
-				ruling_party = fascism
+				ruling_party = national_vanguard
 				ideology = communism
 				size = 0.5
 				capital = 41
@@ -470,7 +470,7 @@ country_event = {
 			set_stability = 0.9
 			set_war_support = 0.8
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 1
 			}
 			random_other_country = {
@@ -487,7 +487,7 @@ country_event = {
 		name = spain.10.b
 		hidden_effect = {
 			start_civil_war = {
-				ideology = fascism
+				ideology = national_vanguard
 				size = 0.5
 				capital = 176
 				states = { 166 169 170 171 172 174 176 177 178 290 297 699 788 789 791 }
@@ -495,7 +495,7 @@ country_event = {
 			random_other_country = {
 				limit = {
 					original_tag = SPR
-					has_government = fascism
+					has_government = national_vanguard
 				}
 				set_equipment_fraction = 0.7
 				set_stability = 0.9
@@ -514,7 +514,7 @@ country_event = {
 			set_stability = 0.9
 			set_war_support = 0.8
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = -1
 			}
 			add_popularity = {
@@ -528,7 +528,7 @@ country_event = {
 			random_other_country = {
 				limit = {
 					original_tag = SPR
-					has_government = fascism
+					has_government = national_vanguard
 				}
 				set_cosmetic_tag = SPR_civil_war
 			}

@@ -805,7 +805,7 @@ country_event = {
 
 	trigger = {
 		tag = USA
-		has_government = fascism
+		has_government = national_vanguard
 		is_puppet = no
 	}
 	

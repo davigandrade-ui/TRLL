@@ -93,7 +93,7 @@ create_country_leader = {
 	name = "Ettore Bastico"
 	desc = ""
 	picture = GFX_portrait_Ettore_Bastico
-	ideology = fascism_ideology
+	ideology = national_vanguard_ideology
 	traits = {
 		#
 	}

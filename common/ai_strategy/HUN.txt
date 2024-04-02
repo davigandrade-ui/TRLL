@@ -111,7 +111,7 @@ germany_kaiser = {
 		GER = {
 			OR = {
 				exists = no
-				has_government = fascism
+				has_government = national_vanguard
 			}
 		}
 	}
@@ -146,7 +146,7 @@ germany_hungary_kaiser = {
 		HUN = {
 			OR = {
 				exists = no
-				has_government = fascism
+				has_government = national_vanguard
 				has_government = communism
 			}
 		}

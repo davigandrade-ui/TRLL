@@ -11,7 +11,7 @@ set_party_name = {
 	name = SOV_communism_party_russian
 }
 set_party_name = {
-	ideology = fascism
+	ideology = national_vanguard
 	long_name = SOV_fascism_party_russian_long
 	name = SOV_fascism_party_russian
 }

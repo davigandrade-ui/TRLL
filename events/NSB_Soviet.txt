@@ -2165,7 +2165,7 @@ country_event = {
 						democratic > 0.5
 					}
 					FROM = {
-						has_government = fascism
+						has_government = national_vanguard
 						national_vanguard > 0.5
 					}
 					FROM = {
@@ -2982,7 +2982,7 @@ country_event = {
 			if = {
 				limit = {
 					OR = {
-						has_government = fascism
+						has_government = national_vanguard
 						has_government = neutrality
 					}
 				}
@@ -3391,7 +3391,7 @@ country_event = {
 					}
 					AND = {
 						FROM = {
-							has_government = fascism
+							has_government = national_vanguard
 						}
 						national_vanguard > 0.5
 					}
@@ -3527,7 +3527,7 @@ country_event = {
 					if = {
 						limit = {
 							OR = {
-								has_government = fascism
+								has_government = national_vanguard
 								has_government = neutrality
 							}
 						}
@@ -3591,7 +3591,7 @@ country_event = {
 						democratic > 0.5
 					}
 					FROM = {
-						has_government = fascism
+						has_government = national_vanguard
 						national_vanguard > 0.5
 					}
 					FROM = {
@@ -7224,7 +7224,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 2
-				has_government = fascism
+				has_government = national_vanguard
 			}
 		}
 
@@ -10016,7 +10016,7 @@ country_event = {
 			modifier = {
 				factor = 5 # Military wants this!
 				JAP = { 
-					has_government = fascism
+					has_government = national_vanguard
 				}
 			}
 			modifier = { #Appropriate PC for Foreign Affairs
@@ -10183,7 +10183,7 @@ country_event = {
 			modifier = {
 				factor = 5 # Military wants this!
 				JAP = { 
-					has_government = fascism
+					has_government = national_vanguard
 				}
 			}
 			modifier = { #Appropriate PC for Foreign Affairs
@@ -10268,7 +10268,7 @@ country_event = {
 			modifier = {
 				factor = 2 # Military wants this!
 				JAP = { 
-					has_government = fascism
+					has_government = national_vanguard
 				}
 			}
 		}
@@ -10320,7 +10320,7 @@ country_event = {
 			modifier = {
 				factor = 3 # Military wants this!
 				JAP = { 
-					has_government = fascism
+					has_government = national_vanguard
 				}
 			}
 		}
@@ -10483,7 +10483,7 @@ country_event = {
 			modifier = {
 				factor = 1.5 # fascists are extra keen to get hands on more oil
 				GER = { 
-					has_government = fascism
+					has_government = national_vanguard
 				}
 			}
 			modifier = { #Appropriate PC for Foreign Affairs
@@ -10546,7 +10546,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 2 # More likely if both are going down the fascist path
-				GER = { has_government = fascism }
+				GER = { has_government = national_vanguard }
 				SOV = { SOV_is_exiles = yes }
 			}
 			modifier = {
@@ -11737,7 +11737,7 @@ country_event = {
 							# Add extra country leader trait to the possible leaders (fascist & non-aligned)
 							KAR_ukki_vainamoinen = {
 								add_country_leader_trait = {
-								 	ideology = fascism_ideology
+								 	ideology = national_vanguard_ideology
 								 	trait = veteran_guerrilla_fighter
 								 }
 							}
@@ -12197,7 +12197,7 @@ country_event = {
 					popularity = 0.4
 				}
 				add_popularity = {
-					ideology = fascism  
+					ideology = national_vanguard  
 					popularity = 0.2
 				}
 				add_popularity = {

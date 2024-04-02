@@ -196,7 +196,7 @@ country_event = {
 			}
 		}
 		add_popularity = {
-			ideology = fascism
+			ideology = national_vanguard
 			popularity = 0.1
 		}
 		set_country_flag = coalition_with_fascists
@@ -373,7 +373,7 @@ country_event = {
 			}
 		}
 		add_popularity = {
-			ideology = fascism
+			ideology = national_vanguard
 			popularity = 0.1
 		}
 		set_country_flag = coalition_with_fascists
@@ -394,7 +394,7 @@ country_event = {
 					has_dlc = "Arms Against Tyranny"
 					tag = DEN
 					is_subject = yes
-					var:DEN.DEN_overlord_nation = { has_government = fascism }
+					var:DEN.DEN_overlord_nation = { has_government = national_vanguard }
 				}
 			}
 		}
@@ -454,7 +454,7 @@ country_event = {
 		has_government = democratic
 		has_country_flag = coalition_with_fascists
 		any_other_country = {
-			has_government = fascism
+			has_government = national_vanguard
 			is_faction_leader = yes
 		}
 	}
@@ -474,7 +474,7 @@ country_event = {
 		}
 		random_other_country = {
 			limit = {
-				has_government = fascism
+				has_government = national_vanguard
 				is_faction_leader = yes
 			}
 			add_opinion_modifier = {
@@ -483,7 +483,7 @@ country_event = {
 			}			
 		}
 		add_popularity = {
-			ideology = fascism
+			ideology = national_vanguard
 			popularity = 0.05
 		}
 	}
@@ -634,7 +634,7 @@ country_event = {
 			base = 75			
 		}
 		set_politics = {
-			ruling_party = fascism
+			ruling_party = national_vanguard
 			elections_allowed = no
 		}
 	}
@@ -645,7 +645,7 @@ country_event = {
 			base = 35
 		}
 		start_civil_war = {
-			ideology = fascism
+			ideology = national_vanguard
 			size = 0.5
 		}
 	}
@@ -736,7 +736,7 @@ country_event = {
 			}
 		}
 		add_popularity = {
-			ideology = fascism
+			ideology = national_vanguard
 			popularity = 0.10
 		}
 	}
@@ -811,7 +811,7 @@ country_event = {
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = fascism
+			ideology = national_vanguard
 			popularity = 0.05
 		}
 	}
@@ -872,7 +872,7 @@ country_event = {
 			popularity = 0.07
 		}
 		add_popularity = {
-			ideology = fascism
+			ideology = national_vanguard
 			popularity = 0.07
 		}
 	}
@@ -895,7 +895,7 @@ country_event = {
 			} 
 		}
 		OR = { NOT = { original_tag = SPR } NOT = { date < 1937.1.1 } }
-		has_government = fascism
+		has_government = national_vanguard
 		national_vanguard > 0.5
 	}
 	
@@ -922,7 +922,7 @@ country_event = {
 			}
 		}
 		OR = { NOT = { original_tag = SPR } NOT = { date < 1937.1.1 } }
-		has_government = fascism
+		has_government = national_vanguard
 		NOT = { national_vanguard > 0.5 }
 	}
 	

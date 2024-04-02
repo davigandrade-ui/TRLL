@@ -359,7 +359,7 @@ country_event = {
 		CHL = {
 			NOT = {
 				OR = {
-					has_government = fascism
+					has_government = national_vanguard
 					has_War_with = GER
 				}
 			}
@@ -622,14 +622,14 @@ country_event = {
 		add_stability = -0.05
 
 		add_popularity = {
-			ideology = fascism
+			ideology = national_vanguard
 			popularity = -0.15
 		}	
 
 		CHL_anarchic_society_level_down = yes
 
 		set_party_name = {
-		    ideology = fascism
+		    ideology = national_vanguard
 		    long_name = CHL_popular_socialist_vanguard_long
 		    name = CHL_popular_socialist_vanguard
 		}
@@ -661,18 +661,18 @@ country_event = {
 		add_stability = -0.2
 
 		add_popularity = {
-			ideology = fascism
+			ideology = national_vanguard
 			popularity = 0.15
 		}	
 
 		set_party_name = {
-		    ideology = fascism
+		    ideology = national_vanguard
 		    long_name = CHL_popular_socialist_vanguard_long
 		    name = CHL_popular_socialist_vanguard
 		}
 
 		start_civil_war = {
-		    ideology = fascism
+		    ideology = national_vanguard
 		    size = 0.1
 		    army_ratio = 0.1
 		    navy_ratio = 0
@@ -731,12 +731,12 @@ country_event = {
 		add_stability = -0.15
 
 		add_popularity = {
-			ideology = fascism
+			ideology = national_vanguard
 			popularity = -0.05
 		}
 
 		set_party_name = {
-		    ideology = fascism
+		    ideology = national_vanguard
 		    long_name = CHL_popular_socialist_vanguard_long
 		    name = CHL_popular_socialist_vanguard
 		}
@@ -2168,7 +2168,7 @@ country_event = {
 		add_manpower = 1500
 
 		add_popularity = {
-			ideology = fascism
+			ideology = national_vanguard
 			popularity = 0.01
 		}	
 
@@ -2457,7 +2457,7 @@ country_event = {
 		random_country = {
 			limit = {
 				original_tag = GER
-				has_government = fascism
+				has_government = national_vanguard
 				is_faction_leader = yes
 			}
 			add_to_faction = FROM
@@ -2567,7 +2567,7 @@ country_event = {
 
 		URG = {
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.2
 			}	
 			add_war_support = 0.1
@@ -3816,7 +3816,7 @@ country_event = {
 		}	
 
 		add_popularity = {
-			ideology = fascism
+			ideology = national_vanguard
 			popularity = 0.15
 		}	
 
@@ -4521,7 +4521,7 @@ country_event = {
 
 		hidden_effect = {
 			start_civil_war = {
-			    ideology = fascism
+			    ideology = national_vanguard
 			    size = 0.6
 			    army_ratio = 0.6
 			    navy_ratio = 0.4
@@ -4781,7 +4781,7 @@ country_event = {
 
 		hidden_effect = {
 			start_civil_war = {
-			    ideology = fascism
+			    ideology = national_vanguard
 			    size = 0.6
 			    army_ratio = 0.6
 			    navy_ratio = 0.4
@@ -5797,13 +5797,13 @@ country_event = {
 		} 
 
 		set_politics = {
-			ruling_party = fascism
+			ruling_party = national_vanguard
 			elections_allowed = no
 			last_election = "1936.1.1"
 		}
 
 		add_popularity = {
-			ideology = fascism
+			ideology = national_vanguard
 			popularity = 0.1
 		}	
 

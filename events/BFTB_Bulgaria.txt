@@ -1177,7 +1177,7 @@ country_event = {
 		BUL_nsm_high_popularity_increase_effect = yes
 		add_war_support = 0.05
 		add_popularity = {
-			ideology = fascism
+			ideology = national_vanguard
 			popularity = 0.1
 		}
 
@@ -1199,7 +1199,7 @@ country_event = {
 		BUL_nsm_low_popularity_decrease_effect = yes
 		add_stability = -0.05
 		add_popularity = {
-			ideology = fascism
+			ideology = national_vanguard
 			popularity = 0.05
 		}
 
@@ -2304,13 +2304,13 @@ country_event = {
 			modifier = {
 				factor = 5
 				is_in_faction_with = GER
-				GER = { has_government = fascism }
+				GER = { has_government = national_vanguard }
 			}
 		}
 
 		trigger = {
 			OR = {
-				has_government = fascism
+				has_government = national_vanguard
 				AND = {
 					has_government = neutrality
 					OR = {
@@ -2318,7 +2318,7 @@ country_event = {
 						AND = {
 							any_allied_country = {
 								is_major = yes
-								has_government = fascism
+								has_government = national_vanguard
 							}
 						}
 						AND = {
@@ -2339,13 +2339,13 @@ country_event = {
 		}
 
 		add_popularity = {
-			ideology = fascism
+			ideology = national_vanguard
 			popularity = 0.1
 		}
 
 		if = {
 			limit = {
-				has_government = fascism
+				has_government = national_vanguard
 			}
 			if = {
 				limit = {
@@ -2358,7 +2358,7 @@ country_event = {
 					character = BUL_regency_council
 					country_leader = {
 						expire = "1965.1.1"
-						ideology = fascism_ideology
+						ideology = national_vanguard_ideology
 						traits = {
 							elected_regency_council_pro_axis hardened_officer_regency_council
 						}
@@ -2390,7 +2390,7 @@ country_event = {
 					character = BUL_regency_council
 					country_leader = {
 						expire = "1965.1.1"
-						ideology = fascism_ideology
+						ideology = national_vanguard_ideology
 						traits = {
 							elected_regency_council_pro_axis
 						}
@@ -2411,7 +2411,7 @@ country_event = {
 					character = BUL_regency_council
 					country_leader = {
 						expire = "1965.1.1"
-						ideology = fascism_ideology
+						ideology = national_vanguard_ideology
 						traits = {
 							elected_regency_council_pro_axis political_manipulator_regency_council
 						}
@@ -2434,7 +2434,7 @@ country_event = {
 					character = BUL_regency_council
 					country_leader = {
 						expire = "1965.1.1"
-						ideology = fascism_ideology
+						ideology = national_vanguard_ideology
 						traits = {
 							elected_regency_council_pro_axis
 						}
@@ -2451,7 +2451,7 @@ country_event = {
 					character = BUL_regency_council
 					country_leader = {
 						expire = "1965.1.1"
-						ideology = fascism_ideology
+						ideology = national_vanguard_ideology
 						traits = {
 							elected_regency_council_pro_axis
 						}
@@ -2462,10 +2462,10 @@ country_event = {
 		}
 		if = {
 			limit = {
-				NOT = { has_government = fascism }
+				NOT = { has_government = national_vanguard }
 			}
 			set_politics = {
-				ruling_party = fascism
+				ruling_party = national_vanguard
 				election_frequency = 48
 				elections_allowed = no
 			}
@@ -2484,7 +2484,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				is_in_faction_with = GER
-				GER = { has_government = fascism }
+				GER = { has_government = national_vanguard }
 			}
 		}
 
@@ -2506,7 +2506,7 @@ country_event = {
 							NOT = {
 								any_allied_country = {
 									is_major = yes
-									has_government = fascism
+									has_government = national_vanguard
 								}
 							}
 						}
@@ -2642,7 +2642,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				is_in_faction_with = GER
-				GER = { has_government = fascism }
+				GER = { has_government = national_vanguard }
 			}
 		}
 
@@ -2653,7 +2653,7 @@ country_event = {
 
 		if = {
 			limit = {
-				has_government = fascism
+				has_government = national_vanguard
 			}
 			if = {
 				limit = {
@@ -3567,7 +3567,7 @@ country_event = {
 			modifier = {
 				factor = 0.5
 				OR = {
-					has_government = fascism
+					has_government = national_vanguard
 					has_government = democratic
 				}
 			}
@@ -7408,7 +7408,7 @@ country_event = {
 #		trigger = {
 #			is_ai = yes
 #			NOT = {
-#				has_government = fascism
+#				has_government = national_vanguard
 #			}
 #		}
 #
@@ -8963,7 +8963,7 @@ country_event = {
 		days = 3
 		modifier = {
 			factor = 300
-			has_government = fascism
+			has_government = national_vanguard
 		}
 		modifier = {
 			factor = 100
@@ -9005,7 +9005,7 @@ country_event = {
 		name = bftb_bulgaria_political_leaders.1.a
 
 		trigger = {
-			has_government = fascism
+			has_government = national_vanguard
 		}
 
 		kill_ideology_leader = fascism
@@ -9016,12 +9016,12 @@ country_event = {
 
 		trigger = {
 			has_country_flag = BUL_nsm_integrated_flag
-			has_government = fascism
+			has_government = national_vanguard
 		}
 
 		kill_ideology_leader = fascism
 		set_party_name = {
-			ideology = fascism
+			ideology = national_vanguard
 			long_name = BUL_national_social_movement_party_long
 			name = BUL_national_social_movement_party
 		}

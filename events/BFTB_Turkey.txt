@@ -1238,7 +1238,7 @@ country_event = {
 			}
 			promote_leader = yes
 		}
-		set_politics = { ruling_party = fascism }
+		set_politics = { ruling_party = national_vanguard }
 	}
 	option = {
 		name = bftb_turkey.24.f #nationalist + fascist = Cakmak + Peker / Peker
@@ -1246,7 +1246,7 @@ country_event = {
 			has_completed_focus = TUR_kemalism_and_the_modern_movement
 		}
 		promote_character = TUR_mehmet_recep_peker #Has the country role already set in the Character File (FASCISM -> fascism_ideology)
-		set_politics = { ruling_party = fascism }
+		set_politics = { ruling_party = national_vanguard }
 	}
 	option = {
 		name = bftb_turkey.24.g #socialist
@@ -2841,7 +2841,7 @@ country_event = {
 		}
 		start_civil_war = {
 			ruling_party = neutrality
-			ideology = fascism
+			ideology = national_vanguard
 			size = 0.45
 			capital = 676
 			states = { 676 }
@@ -2854,7 +2854,7 @@ country_event = {
 			random_other_country = { 
            		limit = { 
            		    original_tag = IRQ 
-           		    has_government = fascism 
+           		    has_government = national_vanguard 
            		} 
           		ROOT = { set_variable = { civil_war_opponent = PREV } }
 			}
@@ -2868,7 +2868,7 @@ country_event = {
 		ai_chance = {
 			base = 30
 		}
-		set_politics = { ruling_party = fascism }
+		set_politics = { ruling_party = national_vanguard }
 		ENG = { 
 			remove_resource_rights = 676
 			remove_resource_rights = 291
@@ -2922,7 +2922,7 @@ country_event = {
 		random_other_country = { 
 			limit = { 
 				original_tag = IRQ 
-				has_government = fascism
+				has_government = national_vanguard
 			} 
 			ROOT = { give_guarantee = PREV }
 		}
@@ -2930,7 +2930,7 @@ country_event = {
 			random_other_country = { 
 				limit = { 
 					original_tag = IRQ 
-					has_government = fascism
+					has_government = national_vanguard
 				} 
 				set_country_flag = TUR_iraqi_fascists_flag
 				#set_variable = { civil_war_opponent = PREV }
@@ -2958,7 +2958,7 @@ country_event = {
 		if = {
 			limit = {
 				has_dlc = "Death or Dishonor"
-				has_government = fascism
+				has_government = national_vanguard
 			}
 			set_autonomy = {
 				target = FROM
@@ -3136,7 +3136,7 @@ country_event = {
 	option = {
 		name = bftb_turkey.75.a #then guard the sacred flame with us
 		trigger = {
-			ENG = { has_government = fascism }
+			ENG = { has_government = national_vanguard }
 		}
 		IRQ = { country_event = { id = generic.5 } }
 	}
@@ -3481,7 +3481,7 @@ country_event = {
 		trigger = {
 			OR = {
 				has_government = neutrality
-				has_government = fascism
+				has_government = national_vanguard
 			}
 		}
 		if = {
@@ -3489,7 +3489,7 @@ country_event = {
 				ENG = { 
 					OR = {
 						has_government = neutrality
-						has_government = fascism
+						has_government = national_vanguard
 					} 
 				}
 			} 
@@ -3500,7 +3500,7 @@ country_event = {
 				FRA = { 
 					OR = {
 						has_government = neutrality
-						has_government = fascism
+						has_government = national_vanguard
 					} 
 				}
 			} 
@@ -3511,7 +3511,7 @@ country_event = {
 				GER = { 
 					OR = {
 						has_government = neutrality
-						has_government = fascism
+						has_government = national_vanguard
 					} 
 				}
 			} 
@@ -3522,7 +3522,7 @@ country_event = {
 				ITA = { 
 					OR = {
 						has_government = neutrality
-						has_government = fascism
+						has_government = national_vanguard
 					} 
 				}
 			} 
@@ -3533,7 +3533,7 @@ country_event = {
 				ROM = { 
 					OR = {
 						has_government = neutrality
-						has_government = fascism
+						has_government = national_vanguard
 					} 
 				}
 			} 
@@ -3544,7 +3544,7 @@ country_event = {
 				GRE = { 
 					OR = {
 						has_government = neutrality
-						has_government = fascism
+						has_government = national_vanguard
 					}
 				}
 			} 
@@ -3618,7 +3618,7 @@ country_event = {
 		name = bftb_turkey.85.c #we cannot allow the communists to run amok
 		trigger = {
 			OR = {
-				has_government = fascism
+				has_government = national_vanguard
 				has_government = neutrality
 			}
 		}
@@ -5480,7 +5480,7 @@ country_event = {
 			}
 			promote_leader = yes
 		}
-		set_politics = { ruling_party = fascism }
+		set_politics = { ruling_party = national_vanguard }
 	}
 	option = {
 		name = bftb_turkey.134.f #nationalist + fascist = Cakmak + Peker / Peker
@@ -5489,7 +5489,7 @@ country_event = {
 			has_completed_focus = TUR_kemalism_and_the_modern_movement
 		}
 		promote_character = TUR_mehmet_recep_peker #Has the country role already set in the Character File (FASCISM -> fascism_ideology)
-		set_politics = { ruling_party = fascism }
+		set_politics = { ruling_party = national_vanguard }
 	}
 	option = {
 		name = bftb_turkey.134.g #socialist
@@ -5740,7 +5740,7 @@ country_event = {
 	option = {
 		name = bftb_turkey.137.d #as long as they leave their fellow faction members alone...
 		trigger = {
-			has_government = fascism
+			has_government = national_vanguard
 		}
 		custom_effect_tooltip = TUR_keeping_turkey_under_observation
 		hidden_effect = {

@@ -3388,7 +3388,7 @@ unit_leader_event = {
 			}
 			ORO = {
 				promote_character = { character = ETH_haile_selassie_gugsa ideology = despotism }
-				promote_character = { character = ETH_haile_selassie_gugsa ideology = fascism_ideology }
+				promote_character = { character = ETH_haile_selassie_gugsa ideology = national_vanguard_ideology }
 			}
 		}
 
@@ -3709,7 +3709,7 @@ unit_leader_event = {
 				ETH_abba_jofir = {
 					add_country_leader_role = {
 						country_leader = {
-							ideology = fascism_ideology 
+							ideology = national_vanguard_ideology 
 							expire = "1965.1.1.1"
 							traits = { inexperienced_sultan }
 							id = -1
@@ -3745,7 +3745,7 @@ unit_leader_event = {
 					ETH_abba_jofir = {
 						add_country_leader_role = {
 							country_leader = {
-								ideology = fascism_ideology 
+								ideology = national_vanguard_ideology 
 								expire = "1965.1.1.1"
 								traits = { inexperienced_sultan }
 								id = -1
@@ -3771,7 +3771,7 @@ unit_leader_event = {
 			}
 			GBA = {
 				promote_character = { character = ETH_abba_jofir ideology = despotism }
-				promote_character = { character = ETH_abba_jofir ideology = fascism_ideology }
+				promote_character = { character = ETH_abba_jofir ideology = national_vanguard_ideology }
 			}
 		}
 
@@ -4054,7 +4054,7 @@ unit_leader_event = {
 				ETH_hailu_tekle_haymanot = {
 					add_country_leader_role = {
 						country_leader = {
-							ideology = fascism_ideology 
+							ideology = national_vanguard_ideology 
 							expire = "1965.1.1.1"
 							traits = { tainted_ras }
 							id = -1
@@ -4090,7 +4090,7 @@ unit_leader_event = {
 					ETH_hailu_tekle_haymanot = {
 						add_country_leader_role = {
 							country_leader = {
-								ideology = fascism_ideology 
+								ideology = national_vanguard_ideology 
 								expire = "1965.1.1.1"
 								traits = { tainted_ras }
 								id = -1
@@ -4116,7 +4116,7 @@ unit_leader_event = {
 			}
 			BEG = {
 				promote_character = { character = ETH_hailu_tekle_haymanot ideology = despotism }
-				promote_character = { character = ETH_hailu_tekle_haymanot ideology = fascism_ideology }
+				promote_character = { character = ETH_hailu_tekle_haymanot ideology = national_vanguard_ideology }
 			}
 		}
 
@@ -4369,7 +4369,7 @@ unit_leader_event = {
 				ETH_seyoum_mengesha = {
 					add_country_leader_role = {
 						country_leader = {
-							ideology = fascism_ideology 
+							ideology = national_vanguard_ideology 
 							expire = "1965.1.1.1"
 							traits = { eager_collaborator }
 							id = -1
@@ -4405,7 +4405,7 @@ unit_leader_event = {
 					ETH_seyoum_mengesha = {
 						add_country_leader_role = {
 							country_leader = {
-								ideology = fascism_ideology 
+								ideology = national_vanguard_ideology 
 								expire = "1965.1.1.1"
 								traits = { eager_collaborator }
 								id = -1
@@ -4431,7 +4431,7 @@ unit_leader_event = {
 			}
 			TIG = {
 				promote_character = { character = ETH_seyoum_mengesha ideology = despotism }
-				promote_character = { character = ETH_seyoum_mengesha ideology = fascism_ideology }
+				promote_character = { character = ETH_seyoum_mengesha ideology = national_vanguard_ideology }
 			}
 		}
 
@@ -6388,7 +6388,7 @@ country_event = {
 		add_political_power = 75
 		add_stability = -0.05 
 		add_popularity = {
-		    ideology = fascism
+		    ideology = national_vanguard
 		    popularity = -0.05
 		}
 		remove_ideas = ITA_shadow_of_mussolini
@@ -6447,7 +6447,7 @@ country_event = {
 		}
 		add_political_power = 50
 		add_popularity = {
-		    ideology = fascism
+		    ideology = national_vanguard
 		    popularity = 0.05
 		} 
 		
@@ -9639,7 +9639,7 @@ country_event = {
 				factor = 0.6
 				OR = {
 					has_government = neutrality
-					has_government = fascism
+					has_government = national_vanguard
 				}
 			}
 			modifier = {
@@ -10853,7 +10853,7 @@ country_event = {
 		add_stability = -0.1
 		add_war_support = -0.2
 		add_popularity = {
-		    ideology = fascism
+		    ideology = national_vanguard
 		    popularity = -0.3
 		}
 

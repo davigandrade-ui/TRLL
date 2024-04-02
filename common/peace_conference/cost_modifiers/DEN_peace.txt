@@ -11,7 +11,7 @@ peace_action_modifiers = {
                 original_tag = DEN
                 has_completed_focus = DEN_secure_danish_freedom
                 OR = {
-                    has_government = fascism
+                    has_government = national_vanguard
                     has_government = communism
                 }
             }

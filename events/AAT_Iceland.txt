@@ -65,7 +65,7 @@ country_event = {
 				factor = 5 
 				GER = { 
 					has_war = yes 
-					has_government = fascism
+					has_government = national_vanguard
 				}
 			}
 			modifier  = {
@@ -1195,7 +1195,7 @@ country_event = {
 			base = 10
 			modifier = {
 				factor = 2
-				has_government = fascism
+				has_government = national_vanguard
 			}
 			modifier = {
 				factor = 3
@@ -1409,10 +1409,10 @@ country_event = {
 		}
 		trigger = {
 			has_completed_focus = ICE_fighting_as_equals
-			DEN = { has_government = fascism }
+			DEN = { has_government = national_vanguard }
 		}
 		set_politics = {
-			ruling_party = fascism
+			ruling_party = national_vanguard
 		}
 		ICE_gisli_sigurbjornsson = {
 			promote_character = yes 
