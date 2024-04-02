@@ -111,7 +111,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Phan_Boi_Chau
 	expire = "1953.3.1"
-	ideology = national_vanguard_ideology 
+	ideology = national_vanguard 
 	traits = {
 		
 	}

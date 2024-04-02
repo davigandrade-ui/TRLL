@@ -3046,7 +3046,7 @@ ITA_start_anti_fascist_civil_war = { #The one triggered via focus
 			random_other_country = {
 				limit = {
 					original_tag = ITA
-					has_government = fascism
+					has_government = national_vanguard
 					has_civil_war = yes
 				}
 				every_state = {
@@ -3070,7 +3070,7 @@ ITA_start_anti_fascist_civil_war = { #The one triggered via focus
 			random_other_country = {
 				limit = {
 					original_tag = ITA
-					has_government = fascism
+					has_government = national_vanguard
 					has_civil_war = yes
 				}
 				set_country_flag = SUEZ_SANCTIONS_FLAG
@@ -3084,7 +3084,7 @@ ITA_anti_fascist_civil_war_deal_with_fascist_side = {
 	random_other_country = {
 		limit = {
 			original_tag = ITA
-			has_government = fascism
+			has_government = national_vanguard
 			has_civil_war = yes
 		}
 		remove_power_balance = { id = ITA_power_balance }

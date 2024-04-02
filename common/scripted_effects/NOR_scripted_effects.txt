@@ -934,7 +934,7 @@ NOR_fcw_effect_fascist_player = {
 	random_other_country = {
 		limit = {
 			original_tag = NOR 
-			NOT = { has_government = fascism }
+			NOT = { has_government = national_vanguard }
 		}
 		set_variable = { NOR.NOR_cw_democratic_norway = THIS }
 	}
@@ -993,7 +993,7 @@ NOR_fcw_effect_democratic_player = {
 	random_other_country = {
 		limit = {
 			original_tag = NOR 
-			has_government = fascism
+			has_government = national_vanguard
 		}
 		set_variable = { NOR.NOR_cw_fascist_norway = THIS }
 	}
@@ -1025,7 +1025,7 @@ NOR_fcw_big_fascist_support = {
 	random_country = {
 		limit = {
 			original_tag = NOR 
-			has_government = fascism
+			has_government = national_vanguard
 			has_civil_war = yes
 		}
 		NOR = {

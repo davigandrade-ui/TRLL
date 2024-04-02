@@ -372,7 +372,7 @@ POL_sanation_right_opposition_up = {
 			random_other_country = {
 				limit = {
 					original_tag = ROOT
-					has_government = fascism
+					has_government = national_vanguard
 				}
 				set_party_name = { 
 					ideology = fascism 

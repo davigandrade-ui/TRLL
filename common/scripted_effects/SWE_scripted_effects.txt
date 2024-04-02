@@ -1162,13 +1162,13 @@ SWE_is_ice_mostly_occupied = {
 								DEN = {
 									OR = {
 										has_government = communism
-										has_government = fascism
+										has_government = national_vanguard
 										AND = {
 											DEN = {
 												is_subject = yes
 												OVERLORD = {
 													OR = {
-														has_government = fascism
+														has_government = national_vanguard
 														has_government = communism
 													}
 												}
@@ -1178,7 +1178,7 @@ SWE_is_ice_mostly_occupied = {
 								}
 							}
 
-							has_government = fascism
+							has_government = national_vanguard
 							has_government = communism
 						}
 					}
