@@ -65,7 +65,7 @@ if = {
 		mtg_transport = 1
 	}
 }
-add_ideas = { TUR_sectarian_woes_2 }
+add_ideas = { TUR_sectarian_woes_2 TUR_irregular_army }
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1935.2.8"
