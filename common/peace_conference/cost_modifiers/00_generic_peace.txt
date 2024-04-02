@@ -166,7 +166,7 @@ peace_action_modifiers = {
     }
 
 
-    democracy_force_government_on_evil_fascism = {
+    democracy_force_government_on_evil_national_vanguard = {
         category = ideology
         peace_action_type = force_government
         enable = {

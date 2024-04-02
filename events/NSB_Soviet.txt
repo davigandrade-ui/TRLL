@@ -11344,7 +11344,7 @@ country_event = {
 			set_popularities = {
 				communism = SOV.SOV_communist_support_before_puppet
 				democratic = SOV.SOV_democratic_support_before_puppet
-				fascism = SOV.SOV_fascist_support_before_puppet
+				national_vanguard = SOV.SOV_fascist_support_before_puppet
 				neutrality = SOV.SOV_neutrality_support_before_puppet
 			}
 			clear_variable = SOV.SOV_communist_support_before_puppet

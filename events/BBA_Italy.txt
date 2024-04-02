@@ -13262,7 +13262,7 @@ country_event = { #Exiled country receives offer to become Italian puppet
 				set_popularities = {
 					democratic = FROM.party_popularity_100@democratic
 					neutrality = FROM.party_popularity_100@neutrality
-					fascism = FROM.party_popularity_100@fascism
+					national_vanguard = FROM.party_popularity_100@fascism
 					communism = FROM.party_popularity_100@communism
 				}
 			}

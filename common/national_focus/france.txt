@@ -4832,9 +4832,9 @@
 				limit = {
 					not = { has_completed_focus = FRA_utilize_the_leagues }
 				}
-				set_temp_variable = { FRA_fascism = party_popularity@fascism }
+				set_temp_variable = { FRA_national_vanguard = party_popularity@fascism }
 				add_popularity = { ideology = democratic popularity = FRA_fascism } 
-				multiply_temp_variable = { FRA_fascism = -1 }
+				multiply_temp_variable = { FRA_national_vanguard = -1 }
 				add_popularity = { ideology = national_vanguard popularity = FRA_fascism }
 			}
 			else = {

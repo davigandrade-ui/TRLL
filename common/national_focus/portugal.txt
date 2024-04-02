@@ -5849,7 +5849,7 @@ focus_tree = {
 				set_popularities = {
 						communism = com_pop
 						democratic = dem_pop
-						fascism = fas_pop
+						national_vanguard = fas_pop
 						neutrality = neu_pop
 					}
 			}
@@ -6191,7 +6191,7 @@ focus_tree = {
 						set_popularities = {
 							democratic = 0
 							neutrality = 20
-							fascism = 80
+							national_vanguard = 80
 							communism = 0
 						}
 						hidden_effect = {

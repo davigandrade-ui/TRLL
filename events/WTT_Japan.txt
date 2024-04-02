@@ -725,7 +725,7 @@ country_event = {
 			base = 10
 		}
 
-		event_target:ITA_fascism = {
+		event_target:ITA_national_vanguard = {
 			country_event = { id = wtt_japan.110 hours = 6 }
 		}
 	}
@@ -737,7 +737,7 @@ country_event = {
 		}
 
 		event_target:JAP_initiator = { country_event = { id = wtt_japan.112 hours = 6 } }
-		event_target:ITA_fascism = { country_event = { id = wtt_japan.112 hours = 6 } }
+		event_target:ITA_national_vanguard = { country_event = { id = wtt_japan.112 hours = 6 } }
 	}
 }
 
@@ -766,16 +766,16 @@ country_event = {
 			give_guarantee = event_target:ITA_fascism
 			give_guarantee = event_target:GER_fascism
 		}
-		event_target:GER_fascism = {
+		event_target:GER_national_vanguard = {
 			give_guarantee = event_target:ITA_fascism
 			give_guarantee = event_target:JAP_initiator
 		}
-		event_target:ITA_fascism = {
+		event_target:ITA_national_vanguard = {
 			give_guarantee = event_target:JAP_initiator
 			give_guarantee = event_target:GER_fascism
 		}
 		event_target:JAP_initiator = { country_event = { id = wtt_japan.111 hours = 6 } }
-		event_target:GER_fascism = { country_event = { id = wtt_japan.113 hours = 6 } }
+		event_target:GER_national_vanguard = { country_event = { id = wtt_japan.113 hours = 6 } }
 	}
 
 	option = {
@@ -791,7 +791,7 @@ country_event = {
 			}
 		}
 		
-		event_target:GER_fascism = { country_event = { id = wtt_japan.112 hours = 6 } }
+		event_target:GER_national_vanguard = { country_event = { id = wtt_japan.112 hours = 6 } }
 		event_target:JAP_initiator = { country_event = { id = wtt_japan.112 hours = 6 } }
 	}
 }
@@ -815,11 +815,11 @@ country_event = {
 				give_guarantee = event_target:ITA_fascism
 				give_guarantee = event_target:GER_fascism
 			}
-			event_target:GER_fascism = {
+			event_target:GER_national_vanguard = {
 				give_guarantee = event_target:ITA_fascism
 				give_guarantee = event_target:JAP_initiator
 			}
-			event_target:ITA_fascism = {
+			event_target:ITA_national_vanguard = {
 				give_guarantee = event_target:JAP_initiator
 				give_guarantee = event_target:GER_fascism
 			}
@@ -829,14 +829,14 @@ country_event = {
 				limit = {
 					is_literally_china = yes
 				}
-				event_target:ITA_fascism = {
+				event_target:ITA_national_vanguard = {
 					add_ai_strategy = {
 						type = alliance
 						id = PREV
 						value = -500
 					}
 				}
-				event_target:GER_fascism = {
+				event_target:GER_national_vanguard = {
 					add_ai_strategy = {
 						type = alliance
 						id = PREV
@@ -878,11 +878,11 @@ country_event = {
 				give_guarantee = event_target:ITA_fascism
 				give_guarantee = event_target:GER_fascism
 			}
-			event_target:GER_fascism = {
+			event_target:GER_national_vanguard = {
 				give_guarantee = event_target:ITA_fascism
 				give_guarantee = event_target:JAP_initiator
 			}
-			event_target:ITA_fascism = {
+			event_target:ITA_national_vanguard = {
 				give_guarantee = event_target:JAP_initiator
 				give_guarantee = event_target:GER_fascism
 			}

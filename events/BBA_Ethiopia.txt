@@ -152,7 +152,7 @@ country_event = {
 			}
 			set_popularities = {
 				communism = 50
-				fascism = 20
+				national_vanguard = 20
 				democratic = 10
 				neutrality = 20
 			}
@@ -1984,7 +1984,7 @@ country_event = {
 		}
 		hidden_effect = {
 			set_temp_variable = { temp_neutrality = ETH.party_popularity_100@neutrality}
-			set_temp_variable = { temp_fascism = ETH.party_popularity_100@fascism}
+			set_temp_variable = { temp_national_vanguard = ETH.party_popularity_100@fascism}
 			set_temp_variable = { temp_democratic = ETH.party_popularity_100@democratic}
 			set_temp_variable = { temp_communism = ETH.party_popularity_100@communism}
 			
@@ -1997,7 +1997,7 @@ country_event = {
 					democratic = temp_democratic
 					neutrality = temp_neutrality
 					communism = temp_communism
-					fascism = temp_fascism
+					national_vanguard = temp_fascism
 				}
 			}
 		}
@@ -6845,7 +6845,7 @@ country_event = {
 			ERI = {
 				set_popularities = {
 					democratic = 20
-					fascism = 5
+					national_vanguard = 5
 					neutrality = 15
 					communism = 60
 				}
@@ -6912,7 +6912,7 @@ country_event = {
 					set_popularities = {
 						democratic = ETH.party_popularity_100@democratic
 						neutrality = ETH.party_popularity_100@neutrality
-						fascism = ETH.party_popularity_100@fascism
+						national_vanguard = ETH.party_popularity_100@fascism
 						communism = ETH.party_popularity_100@communism
 					}
 					set_politics = {
@@ -6937,7 +6937,7 @@ country_event = {
 					set_popularities = {
 						democratic = ETH.party_popularity_100@democratic
 						neutrality = ETH.party_popularity_100@neutrality
-						fascism = ETH.party_popularity_100@fascism
+						national_vanguard = ETH.party_popularity_100@fascism
 						communism = ETH.party_popularity_100@communism
 					}
 					set_politics = {

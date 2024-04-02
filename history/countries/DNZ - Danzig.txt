@@ -96,7 +96,7 @@ set_politics = {
 
 set_popularities = { #popularities based on 1933 election statistics.
 	democratic = 22
-	fascism = 62
+	national_vanguard = 62
 	communism = 6
 	neutrality = 10
 }

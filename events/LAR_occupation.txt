@@ -137,7 +137,7 @@ country_event = {
 					# booleans that will be allowed to change ideology
 					set_temp_variable = { allowed_party_neutrality = 1 }
 					set_temp_variable = { allowed_party_democratic = 1 }
-					set_temp_variable = { allowed_party_fascism = 1 }
+					set_temp_variable = { allowed_party_national_vanguard = 1 }
 					set_temp_variable = { allowed_party_communism = 1 }
 					
 					# do not change ideology of occupier country
@@ -163,9 +163,9 @@ country_event = {
 								}
 								set_politics = { ruling_party = democratic elections_allowed = yes }
 							}
-							allowed_party_fascism = {
+							allowed_party_national_vanguard = {
 								set_popularities = {
-									fascism = 100
+									national_vanguard = 100
 								}
 								set_politics = { ruling_party = national_vanguard elections_allowed = no }
 							}
@@ -314,7 +314,7 @@ country_event = {
 							set_popularities = {
 								democratic = ETH.party_popularity_100@democratic
 								neutrality = ETH.party_popularity_100@neutrality
-								fascism = ETH.party_popularity_100@fascism
+								national_vanguard = ETH.party_popularity_100@fascism
 								communism = ETH.party_popularity_100@communism
 							}
 							set_country_flag = ETH_supported_this_uprising_flag 

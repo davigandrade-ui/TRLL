@@ -1406,7 +1406,7 @@ country_event = { #Denmark becomes a puppet
 		hidden_effect = {
 			set_popularities = { #Denmark keeps it government form
 				democratic = DEN_democratic_popularity
-				fascism = DEN_fascism_popularity
+				national_vanguard = DEN_fascism_popularity
 				communism = DEN_communism_popularity
 				neutrality = DEN_neutrality_popularity
 			}

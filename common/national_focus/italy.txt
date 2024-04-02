@@ -21649,7 +21649,7 @@ focus_tree = {
 							set_popularities = {
 								democratic = ITA.party_popularity_100@democratic
 								neutrality = ITA.party_popularity_100@neutrality
-								fascism = ITA.party_popularity_100@fascism
+								national_vanguard = ITA.party_popularity_100@fascism
 								communism = ITA.party_popularity_100@communism
 							}
 							set_politics = {

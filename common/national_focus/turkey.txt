@@ -17,7 +17,7 @@ focus_tree = {
 
 	focus = {
 		id = TUR_denounce
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_goal_continuous_def_against_influence
 		cost = 5
 		x = 8
 		y = 0
@@ -33,7 +33,7 @@ focus_tree = {
 		id = TUR_emergency_railway_iniative
 		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = { focus = TUR_denounce }
-		x = 0
+		x = -1
 		y = 1
 		relative_position_id = TUR_denounce
 
@@ -72,10 +72,10 @@ focus_tree = {
 	focus = {
 		id = TUR_bread_for_the_people
 		icon = GFX_focus_SOV_breadbasket_of_the_union
-		prerequisite = { focus = TUR_emergency_railway_iniative }
-		x = 0
+		prerequisite = { focus = TUR_denounce }
+		x = 1
 		y = 1
-		relative_position_id = TUR_emergency_railway_iniative
+		relative_position_id = TUR_denounce
 
 		cost = 5
 
@@ -103,13 +103,33 @@ focus_tree = {
 	}
 
 	focus = {
+		id = TUR_the_guardians_of_kemalism
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = TUR_denounce }
+		x = 0
+		y = 2
+		relative_position_id = TUR_denounce
+		cost = 5
+		ai_will_do = {
+			base = 10
+		} 
+		
+
+		search_filters = { FOCUS_FILTER_TUR_KEMALISM FOCUS_FILTER_WAR_SUPPORT }
+		completion_reward = {
+		add_ideas = TUR_kemalist_army_officers_limited_power_loyal
+		}
+
+	}
+
+	focus = {
 		id = TUR_choose_fevzi
 		icon = GFX_goal_generic_army_artillery2
-		prerequisite = { focus = TUR_bread_for_the_people }
+		prerequisite = { focus = TUR_the_guardians_of_kemalism }
 		mutually_exclusive = { focus = TUR_choose_fahrettin }
 		x = -1
 		y = 1
-		relative_position_id = TUR_bread_for_the_people
+		relative_position_id = TUR_the_guardians_of_kemalism
 
 		cost = 5
 
@@ -132,18 +152,21 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-				add_ideas = TUR_superior_will
+					swap_ideas = {
+				remove_idea = TUR_kemalist_army_officers_limited_power_loyal
+				add_idea = TUR_superior_will
+			}
 		}
 	}
 
 	focus = {
 		id = TUR_choose_fahrettin
 		icon = GFX_focus_generic_full_social_mobilization
-		prerequisite = { focus = TUR_bread_for_the_people }
+		prerequisite = { focus = TUR_the_guardians_of_kemalism }
 		mutually_exclusive = { focus = TUR_choose_fevzi }
 		x = 1
 		y = 1
-		relative_position_id = TUR_bread_for_the_people
+		relative_position_id = TUR_the_guardians_of_kemalism
 
 		cost = 5
 
@@ -166,7 +189,10 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			add_ideas = TUR_more_troops
+					swap_ideas = {
+				remove_idea = TUR_kemalist_army_officers_limited_power_loyal
+				add_idea = TUR_more_troops
+			}		
 		}
 	}
 

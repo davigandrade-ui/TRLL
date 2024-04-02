@@ -14,10 +14,14 @@ ideas = {
 			}
 			
 			removal_cost = -1
-	
+
+			picture = tur_kemalist_officers_loyalty_effect	
 
 			modifier = {
 				conscription = 0.01
+				stability_factor = 0.05
+				max_planning = 0.1
+				experience_gain_army_factor = -0.1
 			}
 		}	
 
@@ -32,11 +36,14 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = jap_supremacy_of_will
+			picture = tur_kemalist_officers_loyalty_effect
 			
 			modifier = {
 				army_defence_factor = 0.05
 				army_attack_factor = 0.05
+				stability_factor = 0.05
+				max_planning = 0.1
+				experience_gain_army_factor = -0.1
 			}
 		}
 

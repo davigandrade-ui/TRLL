@@ -3394,7 +3394,7 @@ country_event = { #Event sent from Germany to tell Switzerland that they can be 
 			set_popularities = {
 				democratic = SWI.SWI_temp_dem_pop
 				neutrality = SWI.SWI_temp_neut_pop
-				fascism = SWI.SWI_temp_fasc_pop
+				national_vanguard = SWI.SWI_temp_fasc_pop
 				communism = SWI.SWI_temp_comm_pop
 			}
 		}

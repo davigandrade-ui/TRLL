@@ -170,7 +170,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 20
+	national_vanguard = 20
 	neutrality = 80
 }
 
@@ -182,7 +182,7 @@ set_popularities = {
 		elections_allowed = no
 	}
 	set_popularities = {
-		fascism = 100
+		national_vanguard = 100
 	}
 
 	recruit_character = SIA_plaek_phibunsongkhram

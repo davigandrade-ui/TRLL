@@ -56,7 +56,7 @@ IF = {
 		neutrality = 32
 		democratic = 54
 		communism = 12
-		fascism = 2
+		national_vanguard = 2
 	}
 
 	recruit_character = BOL_jose_luis_tejada_sorzano

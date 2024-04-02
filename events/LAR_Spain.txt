@@ -2499,7 +2499,7 @@ country_event = {
 						democratic = 5
 						communism = 3
 						neutrality = 44
-						fascism = 48
+						national_vanguard = 48
 					}
 					transfer_state = 177
 					177 = { set_state_flag = SPR_sided_with_nationalists_flag }
@@ -5589,7 +5589,7 @@ country_event = {
 				set_popularities = {
 					democratic = 13
 					neutrality = 82
-					fascism = 5
+					national_vanguard = 5
 				}
 				set_party_name = { ideology = neutrality long_name = SPR_neutrality_party_long name = SPR_neutrality_party }
 			}
@@ -6400,7 +6400,7 @@ country_event = {
 					elections_allowed = no
 				}
 				set_popularities = {
-					fascism = 80
+					national_vanguard = 80
 					democratic = 15
 					neutrality = 5
 				}
@@ -8050,7 +8050,7 @@ country_event = {
 					democratic = 61
 					communism = 35
 					neutrality = 3
-					fascism = 1
+					national_vanguard = 1
 				}
 				set_stability = 0.6
 				set_war_support = 0.5

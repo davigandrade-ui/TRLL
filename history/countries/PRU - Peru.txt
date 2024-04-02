@@ -158,7 +158,7 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 49
-	fascism = 51
+	national_vanguard = 51
 }
 
 1939.1.1 = {

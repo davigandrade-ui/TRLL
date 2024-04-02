@@ -4680,7 +4680,7 @@ country_event = {
 						elections_allowed = no
 					}
 					set_popularities = {
-						fascism = 75
+						national_vanguard = 75
 						neutrality = 20
 						democratic = 5
 					}
@@ -4694,7 +4694,7 @@ country_event = {
 					}
 					set_popularities = {
 						neutrality = 60
-						fascism = 35
+						national_vanguard = 35
 						democratic = 5
 					}
 				}
@@ -4976,7 +4976,7 @@ country_event = {
 						elections_allowed = no
 					}
 					set_popularities = {
-						fascism = 75
+						national_vanguard = 75
 						neutrality = 20
 						democratic = 5
 					}
@@ -4990,7 +4990,7 @@ country_event = {
 					}
 					set_popularities = {
 						neutrality = 60
-						fascism = 35
+						national_vanguard = 35
 						democratic = 5
 					}
 				}

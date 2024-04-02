@@ -491,7 +491,7 @@ country_event = {
 		NOT = { has_government = national_vanguard }
 		national_vanguard > 0.6
 		NOT = { national_vanguard > 0.7 }
-		check_has_focus_tree_to_switch_to_fascism = yes
+		check_has_focus_tree_to_switch_to_national_vanguard = yes
 		NOT = {
 			AND = {
 				original_tag = SPR
@@ -1429,7 +1429,7 @@ country_event = {
 		#has_idea = fascist_revolutionaries
 		NOT = { has_government = national_vanguard }
 		has_civil_war = no
-		check_has_focus_tree_to_switch_to_fascism = yes
+		check_has_focus_tree_to_switch_to_national_vanguard = yes
 		NOT = {
 			AND = {
 				original_tag = SPR

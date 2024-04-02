@@ -366,7 +366,7 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 96
-	fascism = 2
+	national_vanguard = 2
 	communism = 2
 }
 
@@ -374,7 +374,7 @@ set_popularities = {
 #	#next election october 39
 #	set_popularities = {
 #		democratic = 95
-#		fascism = 2
+#		national_vanguard = 2
 #		communism = 3
 #	}
 #}
