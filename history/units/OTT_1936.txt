@@ -1,8 +1,47 @@
-﻿division_template = {
-	name = "Piyade Tümeni"  			# Infantry Division
+﻿instant_effect = {
+	### Variants ###
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+		}
+		requested_factories = 1
+		progress = 0.43
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+		}
+		requested_factories = 1
+		progress = 0.44
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+		}
+		requested_factories = 1
+		progress = 0.83
+		efficiency = 50
+	}
+}
 
-	division_names_group = TUR_INF_01
+division_template = {
+	name = "Süvari Fırkası"
+	division_names_group = OTT_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
 
+division_template = {
+	name = "Piyade Fırkası"
+	division_names_group = OTT_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -15,11 +54,10 @@
 		infantry = { x = 2 y = 2 }
 	}
 }
+
 division_template = {
-	name = "Dag Tugayi" 				# Mountain Brigade
-
-	division_names_group = TUR_MTN_01
-
+	name = "Dagci Firka"
+	division_names_group = OTT_MTN_01
 	regiments = {
 		mountaineers = { x = 0 y = 0 }
 		mountaineers = { x = 0 y = 1 }
@@ -28,12 +66,12 @@ division_template = {
 		mountaineers = { x = 1 y = 1 }
 		mountaineers = { x = 1 y = 2 }
 	}
+	priority = 2
 }
+
 division_template = {
-	name = "Bogazi Tugay" 				# Fortress Brigade - garrison brigade, lower experience and equipment
-
-	division_names_group = TUR_GAR_01
-
+	name = "Muhafız Piyade Fırkası"
+	division_names_group = OTT_GAR_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -44,51 +82,240 @@ division_template = {
 	}
 	priority = 0
 }
+
 division_template = {
-	name = "Süvari Tümeni" 				# Cavalry Division
-
-	division_names_group = TUR_CAV_01
-
+	name = "Zirhli Fırkası"
+	division_names_group = OTT_ARM_01
 	regiments = {
-		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
-		cavalry = { x = 0 y = 3 }
-		cavalry = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 }
-		#cavalry = { x = 1 y = 2 }
-		#cavalry = { x = 1 y = 3 }
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
 	}
 }
 
 units = {
-	######## LAND UNITS ########
-	##### Türk Ordusu #####
 	division = {
-		#name = "14. Süvari Tümeni"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 14
-		}
 		location = 9861
-		division_template = "Süvari Tümeni" 
+		division_template = "Muhafız Piyade Fırkası"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 6807
+		division_template = "Süvari Fırkası"
+		start_experience_factor = 0.1
+	}
+	division = {
+		location = 806
+		division_template = "Piyade Fırkası"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
+	}
+	division = {
+		location = 11881
+		division_template = "Piyade Fırkası"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
+		start_experience_factor = 0.2
 	}
 
-}
-
-
-### Starting Production ###
-instant_effect = {
-	add_equipment_production = {
-		equipment = {
-			type = infantry_equipment_1
-			creator = "OTT"
-		}
-		requested_factories = 1
-		progress = 0.43
-		efficiency = 100
+	division = {
+		location = 9932
+		division_template = "Süvari Fırkası"
+		start_experience_factor = 0.1
+	}
+	division = {
+		location = 784
+		division_template = "Piyade Fırkası"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 3876
+		division_template = "Piyade Fırkası"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 11860
+		division_template = "Muhafız Piyade Fırkası"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 9811
+		division_template = "Süvari Fırkası"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
+		start_experience_factor = 0.1
+	}
+	division = {
+		location = 11792
+		division_template = "Piyade Fırkası"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 11826
+		division_template = "Piyade Fırkası"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 9900
+		division_template = "Muhafız Piyade Fırkası"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 6894
+		division_template = "Muhafız Piyade Fırkası"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 3862
+		division_template = "Muhafız Piyade Fırkası"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 3788
+		division_template = "Dagci Firka"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 9861
+		division_template = "Dagci Firka"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 11844
+		division_template = "Dagci Firka"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 3862
+		division_template = "Süvari Fırkası"
+		start_experience_factor = 0.1
+	}
+	division = {
+		location = 933
+		division_template = "Piyade Fırkası"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 11881
+		division_template = "Piyade Fırkası"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 961
+		division_template = "Süvari Fırkası"
+		start_experience_factor = 0.1
+	}
+	division = {
+		location = 886
+		division_template = "Süvari Fırkası"
+		start_experience_factor = 0.1
+	}
+	division = {
+		location = 6956
+		division_template = "Piyade Fırkası"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 9830
+		division_template = "Piyade Fırkası"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 9763
+		division_template = "Piyade Fırkası"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 9755
+		division_template = "Piyade Fırkası"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 11826
+		division_template = "Süvari Fırkası"
+		start_experience_factor = 0.1
+	}
+	division = {
+		location = 933
+		division_template = "Piyade Fırkası"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 9900
+		division_template = "Süvari Fırkası"
+		start_experience_factor = 0.1
+	}
+	division = {
+		location = 9755
+		division_template = "Piyade Fırkası"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 3870
+		division_template = "Piyade Fırkası"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 784
+		division_template = "Piyade Fırkası"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 3876
+		division_template = "Süvari Fırkası"
+		start_experience_factor = 0.1
+	}
+	division = {
+		location = 11860
+		division_template = "Süvari Fırkası"
+		start_experience_factor = 0.1
+	}
+	division = {
+		location = 11792
+		division_template = "Piyade Fırkası"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 11844
+		division_template = "Piyade Fırkası"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 940
+		division_template = "Piyade Fırkası"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 3870
+		division_template = "Piyade Fırkası"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 929
+		division_template = "Süvari Fırkası"
+		start_experience_factor = 0.1
 	}
 }
+

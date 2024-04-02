@@ -15,11 +15,6 @@ focus_tree = {
 
 	continuous_focus_position = { x = 100 y = 3250 }
 
-	initial_show_position = {
-		x = 20
-		y = 0
-	}
-
 	focus = {
 		id = TUR_denounce
 		icon = GFX_goal_generic_political_pressure
