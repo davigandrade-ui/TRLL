@@ -15,12 +15,29 @@ focus_tree = {
 
 	continuous_focus_position = { x = 100 y = 3250 }
 
+
 	focus = {
-		id = TUR_denounce
-		icon = GFX_goal_continuous_def_against_influence
+		id = TUR_war_economyy
+		icon = GFX_goal_economic_control
 		cost = 5
 		x = 8
 		y = 0
+		available = {
+
+		}
+		completion_reward = {
+	    add_ideas = tot_economic_mobilisation
+			}
+	}
+
+	focus = {
+		id = TUR_denounce
+		icon = GFX_goal_continuous_def_against_influence
+		prerequisite = { focus = TUR_war_economyy }
+		cost = 5
+		x = 0
+		y = 1
+		relative_position_id = TUR_war_economyy
 		available = {
 
 		}
@@ -70,8 +87,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = TUR_bread_for_the_people
-		icon = GFX_focus_SOV_breadbasket_of_the_union
+		id = TUR_the_idea_that_unites_us
+		icon = GFX_focus_TUR_ratify_the_six_arrows
 		prerequisite = { focus = TUR_denounce }
 		x = 1
 		y = 1
