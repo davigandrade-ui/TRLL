@@ -4821,12 +4821,12 @@ focus_tree = {
 					}
 					remove_trait = {
 						character = SPA_francisco_franco
-						ideology = national_vanguard_ideology
+						ideology = national_vanguard
 						trait = caudillo_1
 					}
 					add_trait = {
 						character = SPA_francisco_franco
-						ideology = national_vanguard_ideology
+						ideology = national_vanguard
 						trait = caudillo_2
 					}
 				}

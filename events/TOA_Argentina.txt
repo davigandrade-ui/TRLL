@@ -109,7 +109,7 @@ country_event = {
 		                set_nationality = PREV.PREV
 		                add_country_leader_role = {
 							country_leader = {
-								ideology = national_vanguard_ideology
+								ideology = national_vanguard
 								expire = "1965.1.1.1"
 								traits = {
 									#war_industrialist
@@ -447,7 +447,7 @@ country_event = {
 	                set_nationality = PREV.PREV
 	                add_country_leader_role = {
 						country_leader = {
-							ideology = national_vanguard_ideology
+							ideology = national_vanguard
 							expire = "1965.1.1.1"
 							traits = {
 								#war_industrialist
@@ -549,7 +549,7 @@ country_event = {
 	                set_nationality = PREV.PREV
 	                add_country_leader_role = {
 						country_leader = {
-							ideology = national_vanguard_ideology
+							ideology = national_vanguard
 							expire = "1965.1.1.1"
 							traits = {
 								#war_industrialist

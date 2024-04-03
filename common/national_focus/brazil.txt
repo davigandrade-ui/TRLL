@@ -184,7 +184,7 @@ focus_tree = {
 
 		completion_reward = {
 			
-			#set_country_leader_ideology = national_vanguard_ideology
+			#set_country_leader_ideology = national_vanguard
 			custom_effect_tooltip = BRA_estado_moderno_tt
 			hidden_effect = {
 			every_other_country = {

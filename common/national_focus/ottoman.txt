@@ -1,0 +1,97 @@
+focus_tree = {
+	id = ottoöan_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = OTT
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 100 y = 3250 }
+
+	focus = {
+		id = OTT_denounce
+		icon = GFX_goal_generic_political_pressure
+		cost = 5
+		x = 8
+		y = 0
+		available = {
+
+		}
+		completion_reward = {
+	    add_political_power = 100
+			}
+	}
+
+	focus = {
+		id = OTT_masallah
+		icon = GFX_focus_TUR_loosen_the_laws_on_secularism
+		prerequisite = { focus = OTT_denounce }
+		x = 1
+		y = 1
+		relative_position_id = OTT_denounce
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+	
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			add_ideas = TUR_islam
+		}
+	}
+
+	focus = {
+		id = OTT_yerli_ve_milli
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = OTT_denounce }
+		x = -1
+		y = 1
+		relative_position_id = OTT_denounce
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+	
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 1000 producer = GER }
+		}
+	}
+
+}

@@ -86,7 +86,7 @@ country_event = {
 				add_country_leader_role = {
 					country_leader = {
 						expire = "1965.1.1"
-						ideology = national_vanguard_ideology
+						ideology = national_vanguard
 						traits = {
 							archon_basileus
 						}
@@ -6675,7 +6675,7 @@ country_event = {
 		
 		promote_character = {
 			character = GRE_ioannis_metaxas 
-			ideology = national_vanguard_ideology
+			ideology = national_vanguard
 		}
 		custom_effect_tooltip = GRE_metaxist_monarchist_fascism_tt
 		hidden_effect = { 

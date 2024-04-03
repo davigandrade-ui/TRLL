@@ -670,7 +670,7 @@ country_event = {
 			}
 			remove_country_leader_role = {
 				character = JAP_emperor_hirohito
-				ideology = national_vanguard_ideology
+				ideology = national_vanguard
 			}
 		}
 		add_country_leader_role = {

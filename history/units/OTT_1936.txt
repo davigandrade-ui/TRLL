@@ -43,15 +43,12 @@ division_template = {
 	name = "Piyade Fırkası"
 	division_names_group = OTT_INF_01
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+		irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+		irregular_infantry = { x = 1 y = 2 }
 	}
 }
 
@@ -313,7 +310,7 @@ units = {
 		start_experience_factor = 0.2
 	}
 	division = {
-		location = 929
+		location = 961
 		division_template = "Süvari Fırkası"
 		start_experience_factor = 0.1
 	}

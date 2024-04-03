@@ -167,7 +167,7 @@ if = {
 			limited_conscription
 			export_focus
 			civilian_economy
-			TUR_sectarian_woes_2
+			TUR_sectarian_woes_1
 			TUR_disorganised_armed_forces
 			TUR_debt_council
 			TUR_legacy_of_ataturk_defiled
@@ -430,7 +430,7 @@ set_popularities = {
 
 set_convoys = 20
 set_stability = 0.5
-set_war_support = 0.3
+set_war_support = 0.5
 
 if = {
 	limit = { has_dlc = "Battle for the Bosporus" }

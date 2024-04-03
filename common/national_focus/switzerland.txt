@@ -7736,7 +7736,7 @@ focus = {
 				promote_leader = yes
 			}
 			hidden_effect = { 
-				SWI_robert_tobler = { remove_country_leader_role = { ideology = national_vanguard_ideology } }
+				SWI_robert_tobler = { remove_country_leader_role = { ideology = national_vanguard } }
 			}
 			SWI_robert_tobler = {
 				SWI_add_country_leader_trait_based_on_councilor_trait = yes

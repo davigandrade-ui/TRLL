@@ -4703,7 +4703,7 @@ country_event = {
 				# Add extra country leader trait to the possible leaders (fascist & non-aligned)
 				KAR_ukki_vainamoinen = {
 					add_country_leader_trait = {
-					 	ideology = national_vanguard_ideology
+					 	ideology = national_vanguard
 					 	trait = veteran_guerrilla_fighter
 					 }
 				}
@@ -4999,7 +4999,7 @@ country_event = {
 				# Add extra country leader trait to the possible leaders (fascist & non-aligned)
 				KAR_ukki_vainamoinen = {
 					add_country_leader_trait = {
-					 	ideology = national_vanguard_ideology
+					 	ideology = national_vanguard
 					 	trait = veteran_guerrilla_fighter
 					 }
 				}

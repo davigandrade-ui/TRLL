@@ -5330,7 +5330,7 @@ focus_tree = {
 		completion_reward = {
 			promote_character = {
 				character = NOR_vidkun_quisling 
-				ideology = national_vanguard_ideology 
+				ideology = national_vanguard 
 			}
 			NOR_vidkun_quisling = { 
 				remove_country_leader_trait = NOR_fascist_lackey
@@ -6251,7 +6251,7 @@ focus_tree = {
 				swap_country_leader_traits = {
 					remove = NOR_fascist_dilettante
 					add = NOR_fascist_landssviker
-					ideology = national_vanguard_ideology
+					ideology = national_vanguard
 				}
 				set_portraits = {
 					army = { large ="GFX_portrait_NOR_vidkun_quisling_3"}

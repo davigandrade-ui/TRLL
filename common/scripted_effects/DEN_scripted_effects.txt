@@ -4003,7 +4003,7 @@ DEN_create_the_plenipotentiary = { #This is set up in an event and will create a
 			create_country_leader = {
 				picture = GFX_portrait_Europe_Generic_1
 				expire = "1965.1.1"
-				ideology = national_vanguard_ideology
+				ideology = national_vanguard
 				traits = {
 					DEN_plenipotentiary
 				}	

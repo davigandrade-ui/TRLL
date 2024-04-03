@@ -95,7 +95,7 @@ units = {
 		location = 9878
 		division_template = "Süvari Tümeni" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 	## VI. Kolordu ##
@@ -108,7 +108,7 @@ units = {
 		location = 11907
 		division_template = "Piyade Tümeni" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 	division = {
@@ -120,7 +120,7 @@ units = {
 		location = 11746
 		division_template = "Piyade Tümeni" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 	division = {
@@ -132,7 +132,7 @@ units = {
 		location = 11810
 		division_template = "Piyade Tümeni" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 
@@ -146,7 +146,7 @@ units = {
 		location = 1122
 		division_template = "Piyade Tümeni" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 	division = {
@@ -172,7 +172,7 @@ units = {
 		location = 1005
 		division_template = "Piyade Tümeni" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 	division = {
@@ -184,7 +184,7 @@ units = {
 		location = 9901
 		division_template = "Piyade Tümeni" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 	division = {
@@ -196,7 +196,7 @@ units = {
 		location = 9833
 		division_template = "Piyade Tümeni" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 	## IV. Kolordu ##
@@ -209,7 +209,7 @@ units = {
 		location = 3907
 		division_template = "Piyade Tümeni" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 	division = {
@@ -221,7 +221,7 @@ units = {
 		location = 11747
 		division_template = "Piyade Tümeni" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 	division = {
@@ -233,7 +233,7 @@ units = {
 		location = 11810
 		division_template = "Dag Tugayi" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 
@@ -247,7 +247,7 @@ units = {
 		location = 11839
 		division_template = "Dag Tugayi" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 	## I. Kolordu ##
@@ -260,7 +260,7 @@ units = {
 		location = 4127
 		division_template = "Piyade Tümeni" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 	division = {
@@ -272,7 +272,7 @@ units = {
 		location = 904
 		division_template = "Piyade Tümeni" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 	division = {
@@ -298,7 +298,7 @@ units = {
 		location = 7143
 		division_template = "Piyade Tümeni" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 	division = {
@@ -310,7 +310,7 @@ units = {
 		location = 11907
 		division_template = "Dag Tugayi" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 	## V. Kolordu ##
@@ -323,7 +323,7 @@ units = {
 		location = 804
 		division_template = "Piyade Tümeni" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 	division = {
@@ -335,7 +335,7 @@ units = {
 		location = 6995
 		division_template = "Piyade Tümeni" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 	division = {
@@ -402,7 +402,7 @@ units = {
 		location = 12016
 		division_template = "Piyade Tümeni" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 	division = {
@@ -414,7 +414,7 @@ units = {
 		location = 10056
 		division_template = "Piyade Tümeni" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 	## VIII. Kolordu ##
@@ -427,7 +427,7 @@ units = {
 		location = 11897
 		division_template = "Piyade Tümeni" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 	division = {
@@ -439,7 +439,7 @@ units = {
 		location = 6925
 		division_template = "Piyade Tümeni" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 	## IX. Kolordu ##
@@ -452,7 +452,7 @@ units = {
 		location = 3907
 		division_template = "Piyade Tümeni" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 	division = {
@@ -464,7 +464,7 @@ units = {
 		location = 804
 		division_template = "Piyade Tümeni" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 	division = {
@@ -476,7 +476,7 @@ units = {
 		location = 6995
 		division_template = "Süvari Tümeni" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 
