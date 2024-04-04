@@ -37,37 +37,32 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = TRLL.1
-	title = TRLL.1.t
-	desc = TRLL.1.d
-	picture = GFX_report_event_japanese_transport_soldiers
 
-	is_triggered_only = yes
+# Turkish Civil War - Kurds rise up ("player" goes Kemalist-Fundamentalist)
+country_event = {
+	id = TRLL.2
+	title = TRLL.2.t
+	desc = TRLL.2.d
+	picture = GFX_report_event_spr_anarchist_uprising2
 	
-	option = {
-		name = TRLL.1.a
-			create_wargoal = {
-				target = "PHI"
-				type = puppet_wargoal_focus
-				expire = 0
-				expire = 0
-			}
-			add_ai_strategy = {
-				type = conquer
-				id = "PHI"
-				value = 200
-			}
+	fire_only_once = yes
+	
+	trigger = {
+		tag = OTT				
+		country_exists = OTT
+		date > 1937.1.1
+	}
+
+	immediate = {
+		hidden_effect = {
+			if = { limit = { 353 = { is_controlled_by = OTT} } KUR = { transfer_state = 353 } }
+			if = { limit = { 352 = { is_controlled_by = OTT} } KUR = { transfer_state = 353 } }
+			if = { limit = { 800 = { is_controlled_by = OTT} } KUR = { transfer_state = 353 } }
+			if = { limit = { 350 = { is_controlled_by = OTT} } KUR = { transfer_state = 353 } }
+		}
 	}
 	option = {
-		name = TRLL.1.b
-					add_tech_bonus = {
-				name = JAP_bypass_the_philippines
-				bonus = 1.0
-				uses = 1
-				category = tp_tech
-			}
+		name = TRLL.2.a
 
-			swap_ideas = { remove_idea = JAP_militarism add_idea = JAP_militarism_2}
 	}
 }
