@@ -415,6 +415,13 @@ ideas = {
 			available = {
 				has_war = yes
 				has_war_support > 0.8
+
+				OR = {
+					casualties > 1000000
+					any_allied_country = { casualties > 1000000 }
+				}
+
+
 				any_enemy_country = {
 					ic_ratio = {
 						tag = ROOT
@@ -458,7 +465,7 @@ ideas = {
 						}
 					}
 				}
-			}
+			}	
 			on_add = {
 				if = {
 					limit = {
@@ -525,7 +532,6 @@ ideas = {
 
 			modifier = {
 				consumer_goods_expected_value = 0.10
-				conscription = -0.03
 				production_speed_arms_factory_factor = 0.3
 				conversion_cost_civ_to_mil_factor= -0.3
 				conversion_cost_mil_to_civ_factor = -0.3
