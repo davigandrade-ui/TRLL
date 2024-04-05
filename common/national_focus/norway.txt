@@ -4594,7 +4594,7 @@ focus_tree = {
 			remove_ideas = { NOR_contested_leadership_ns }
 			promote_character = {
 				character = NOR_josef_terboven
-				ideology = nazism
+				ideology = national_vanguard
 			}			
 		}
 	}
@@ -5308,7 +5308,7 @@ focus_tree = {
 		completion_reward = {
 			promote_character = {
 				character = NOR_jonas_lie
-				ideology = gen_nazism
+				ideology = gen_national_vanguard
 			}
 		}
 	}

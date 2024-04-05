@@ -2442,7 +2442,7 @@ country_event = {
 			desc = "POLITICS_DOUGLAS_MACARTHUR_DESC"
 			picture = GFX_portrait_USA_mr_hilt
 			expire = "1965.1.1"
-			ideology = nazism
+			ideology = national_vanguard
 			traits = {
 				great_architect
 			}

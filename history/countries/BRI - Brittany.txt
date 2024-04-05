@@ -270,7 +270,7 @@ create_country_leader = {
 	name = "Olier Mordrel"
 	picture = GFX_portrait_Olier_Mordrel
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = national_vanguard
 }
 
 create_country_leader = {

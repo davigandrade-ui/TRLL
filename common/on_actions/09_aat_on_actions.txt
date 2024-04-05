@@ -2922,7 +2922,7 @@ on_actions = {
 				#ERADICATE EXTREMISTS
 				if = {
 					limit = {
-						fascism < 0.01
+						national_vanguard < 0.01
 						communism < 0.01
 					}
 					if = {
@@ -3577,7 +3577,7 @@ on_actions = {
 				#OBLITERATED EUROPEAN FASCISM
 				if = {
 					limit = {
-						fascism < 0.01
+						national_vanguard < 0.01
 						all_country = { #No Fascist country in Europe
 							OR = {
 								NOT = { has_government = national_vanguard }

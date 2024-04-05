@@ -349,7 +349,7 @@ country_event = {
 		OR = { NOT = { original_tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = democratic
 		democratic < 0.5
-		fascism < 0.5
+		national_vanguard < 0.5
 		communism < 0.5
 	}
 	

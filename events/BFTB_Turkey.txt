@@ -2827,7 +2827,7 @@ country_event = {
 	option = {
 		name = bftb_turkey.67.a #fight the fascists
 		trigger = {
-			NOT = { fascism < 0.05 }
+			NOT = { national_vanguard < 0.05 }
 		}
 		ai_chance = {
 			base = 5
@@ -2863,7 +2863,7 @@ country_event = {
 	option = {
 		name = bftb_turkey.67.b #uplift the fascists
 		trigger = {
-			NOT = { fascism < 0.05 }
+			NOT = { national_vanguard < 0.05 }
 		}
 		ai_chance = {
 			base = 30
@@ -2898,7 +2898,7 @@ country_event = {
 	option = {
 		name = bftb_turkey.67.c #scatter the fascists
 		trigger = {
-			fascism < 0.05
+			national_vanguard < 0.05
 		}
 		add_stability = 0.05
 		hidden_effect = {

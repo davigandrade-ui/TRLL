@@ -766,7 +766,7 @@ country_event = { #Fascist Campaign
 		}
 		if = {
 			limit = {
-				fascism < 0.9
+				national_vanguard < 0.9
 			}
 			add_popularity = {
 			    ideology = national_vanguard
@@ -788,7 +788,7 @@ country_event = { #Fascist Campaign
 			}
 		}
 		trigger = {
-			fascism < 0.8
+			national_vanguard < 0.8
 		}
 		add_popularity = {
 		    ideology = national_vanguard
@@ -804,11 +804,11 @@ country_event = { #Fascist Campaign
 			base = 1
 			modifier = {
 				factor = 5
-				fascism < 0.5
+				national_vanguard < 0.5
 			}
 		}
 		trigger = {
-			fascism < 0.7
+			national_vanguard < 0.7
 		}
 		add_popularity = {
 		    ideology = national_vanguard

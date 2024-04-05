@@ -1917,7 +1917,7 @@ country_event = {
 	picture = GFX_report_event_fascists_posing
 
 	trigger = {
-		fascism < 0.3
+		national_vanguard < 0.3
 		has_idea = fascist_revolutionaries
 	}
 

@@ -112,7 +112,7 @@
 		x = 5
 		y = 1
 		relative_position_id = REM_present_the_reforms
-
+		mutually_exclusive = { focus = REM_reforms_denied }
 		cost = 2
 		prerequisite = { focus = REM_present_the_reforms }
 

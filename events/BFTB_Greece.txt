@@ -81,7 +81,7 @@ country_event = {
 		hidden_effect = {
 			GRE_georgios_kosmidis = {
 				remove_country_leader_role = {
-					ideology = nazism
+					ideology = national_vanguard
 				}
 				add_country_leader_role = {
 					country_leader = {
@@ -4802,7 +4802,7 @@ country_event = {
 			desc = "POLITICS_ADOLFOS_I_DESC"
 			picture = GFX_portrait_Adolfos_I
 			expire = "1965.1.1"
-			ideology = gen_nazism
+			ideology = gen_national_vanguard
 			traits = {
 				basileus
 			}
@@ -6716,7 +6716,7 @@ country_event = {
 			character = "GRE_george_mercouris"
 			country_leader = {
 				expire = "1965.1.1"
-				ideology = gen_nazism
+				ideology = gen_national_vanguard
 				traits = {
 					polemarch
 				}
@@ -6819,7 +6819,7 @@ country_event = {
 		}
 		else_if = {
 			limit = { 
-				fascism < 0.5
+				national_vanguard < 0.5
 				national_vanguard > 0.25
 			}
 			start_civil_war = {
@@ -6897,7 +6897,7 @@ country_event = {
 		}
 		else_if = {
 			limit = { 
-				fascism < 0.5
+				national_vanguard < 0.5
 				national_vanguard > 0.25
 			}
 			start_civil_war = {

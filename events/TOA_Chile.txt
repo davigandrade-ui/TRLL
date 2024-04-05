@@ -3739,14 +3739,14 @@ country_event = {
 
 		remove_country_leader_role = {
 		    character = CHL_jorge_gonzález_von_marées
-		    ideology = nazism
+		    ideology = national_vanguard
 		}
 
 		add_country_leader_role  = {
 			character = CHL_carlos_keller_reuff
 		    promote_leader = yes
 		    country_leader = {
-		        ideology = nazism
+		        ideology = national_vanguard
 		        expire = "1965.1.1.1"
 		        traits = { JUNO_national_socialist_vanguard }
 		    }
@@ -3767,7 +3767,7 @@ country_event = {
 
 		remove_country_leader_role = {
 		    character = CHL_jorge_gonzález_von_marées
-		    ideology = nazism
+		    ideology = national_vanguard
 		}
 
 		add_country_leader_role  = {
@@ -4704,7 +4704,7 @@ country_event = {
 	        		PREV.PREV = {
 	        			promote_character = {
 	        				character = CHL_jorge_gonzález_von_marées 
-	        				ideology = nazism 
+	        				ideology = national_vanguard 
 	        			}
 	        		}
 	        	}
@@ -4935,7 +4935,7 @@ country_event = {
 	        		PREV.PREV = {
 	        			promote_character = {
 	        				character = CHL_jorge_gonzález_von_marées 
-	        				ideology = nazism 
+	        				ideology = national_vanguard 
 	        			}
 	        		}
 	        	}

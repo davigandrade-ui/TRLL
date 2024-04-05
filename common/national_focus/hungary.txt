@@ -1223,7 +1223,7 @@ focus_tree = {
 				add_country_leader_role = {
 					character = "HUN_franz_friedrich"
 					country_leader = {
-					  ideology=nazism
+					  ideology=national_vanguard
 					  expire="1965.1.1"
 					}
 					promote_leader = yes
@@ -1425,7 +1425,7 @@ focus_tree = {
 					add_country_leader_role = {
 						character = "HUN_franz_friedrich"
 						country_leader = {
-						  ideology=nazism
+						  ideology=national_vanguard
 						  expire="1965.1.1"
 						}
 						promote_leader = yes

@@ -3995,7 +3995,7 @@ country_event = {
 			
 			modifier = {
 				factor = 2
-				fascism < 0.2
+				national_vanguard < 0.2
 			}
 			modifier = {
 				factor = 2

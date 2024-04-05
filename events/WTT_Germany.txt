@@ -2219,7 +2219,7 @@ country_event = {
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = nazism
+						ideology = national_vanguard
 						expire = "1965.1.1.1"
 						traits = {}
 					}
@@ -3632,7 +3632,7 @@ country_event = {
 			character = ARG_senor_hitler
 			country_leader={
 				expire = "1965.1.1"
-				ideology = nazism
+				ideology = national_vanguard
 				traits = {
 					dictator
 					incognito

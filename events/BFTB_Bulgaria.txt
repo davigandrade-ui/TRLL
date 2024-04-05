@@ -2377,7 +2377,7 @@ country_event = {
 					character = BUL_regency_council
 					country_leader = {
 						expire = "1965.1.1"
-						ideology = gen_nazism
+						ideology = gen_national_vanguard
 						traits = {
 							elected_regency_council_pro_axis the_bloody_professor_regency_council
 						}
@@ -9029,7 +9029,7 @@ country_event = {
 			character = BUL_aleksandar_tsankov
 			country_leader = {
 				expire = "1965.1.1"
-				ideology = nazism
+				ideology = national_vanguard
 				traits = {
 					the_bloody_professor
 				}
