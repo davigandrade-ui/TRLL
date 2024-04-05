@@ -78,10 +78,46 @@ focus_tree = {
 	}
 
 	focus = {
+		id = OTT_gayretullah
+		icon = GFX_goal_continuous_suppression
+		prerequisite = { focus = OTT_masallah }
+		x = 0
+		y = 1
+		relative_position_id = OTT_masallah
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+	
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = TUR_islam
+				add_idea = TUR_islam_2
+			}		
+		}
+	}	
+
+	focus = {
 		id = TUR_bread_for_the_people
 		icon = GFX_focus_SOV_breadbasket_of_the_union
 		prerequisite = { focus = OTT_denounce }
-		x = 0
+		x = -2
 		y = 1
 		relative_position_id = OTT_denounce
 
@@ -111,10 +147,43 @@ focus_tree = {
 	}
 
 	focus = {
+		id = TUR_three_children
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = TUR_bread_for_the_people }
+		x = 0
+		y = 1
+		relative_position_id = TUR_bread_for_the_people
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			add_country_leader_trait = uc_cocuk
+		}
+	}
+
+	focus = {
 		id = OTT_yerli_ve_milli
 		icon = GFX_goal_generic_small_arms
 		prerequisite = { focus = OTT_denounce }
-		x = -2
+		x = 0
 		y = 1
 		relative_position_id = OTT_denounce
 

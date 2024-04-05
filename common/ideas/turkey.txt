@@ -37,6 +37,24 @@ ideas = {
 			}
 		}	
 
+		TUR_islam_2 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+			}
+			
+			removal_cost = -1
+
+			picture = tur_varlik_vergisi
+
+			modifier = {
+				stability_factor = 0.05
+				surrender_limit = 0.2
+			}
+		}	
+
 		TUR_irregular_army = {
 			allowed = {
 				always = no

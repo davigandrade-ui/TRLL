@@ -14,6 +14,11 @@
 
 leader_traits = {
 
+	uc_cocuk = {
+		random = no
+		monthly_population = 1
+	}
+
 
 	self_declared_caliph = { #shared monarch trait
 		random = no
