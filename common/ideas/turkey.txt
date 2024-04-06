@@ -32,7 +32,7 @@ ideas = {
 			picture = tur_varlik_vergisi
 
 			modifier = {
-				stability_factor = 0.05
+				war_support_factor = 0.05
 				surrender_limit = 0.1
 			}
 		}	
@@ -50,7 +50,7 @@ ideas = {
 			picture = tur_varlik_vergisi
 
 			modifier = {
-				stability_factor = 0.05
+				war_support_factor = 0.05
 				surrender_limit = 0.2
 			}
 		}	

@@ -38,7 +38,7 @@ country_event = {
 }
 
 
-# Turkish Civil War - Kurds rise up ("player" goes Kemalist-Fundamentalist)
+# Turkish Civil War - Kurds rise up ("player" goes Fundamentalist)
 country_event = {
 	id = TRLL.2
 	title = TRLL.2.t
@@ -56,9 +56,11 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			if = { limit = { 353 = { is_controlled_by = OTT} } KUR = { transfer_state = 353 } }
-			if = { limit = { 352 = { is_controlled_by = OTT} } KUR = { transfer_state = 353 } }
-			if = { limit = { 800 = { is_controlled_by = OTT} } KUR = { transfer_state = 353 } }
-			if = { limit = { 350 = { is_controlled_by = OTT} } KUR = { transfer_state = 353 } }
+			if = { limit = { 352 = { is_controlled_by = OTT} } KUR = { transfer_state = 352 } }
+			if = { limit = { 800 = { is_controlled_by = OTT} } KUR = { transfer_state = 800 } }
+			if = { limit = { 350 = { is_controlled_by = OTT} } KUR = { transfer_state = 350 } }
+			KUR = { declare_war_on = { target = OTT type = annex_everything } }
+			KUR = { declare_war_on = { target = TUR type = annex_everything } }
 		}
 	}
 	option = {
