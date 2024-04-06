@@ -469,7 +469,6 @@ ideas = {
 			removal_cost = -1
 				
 			modifier = {
-				war_support_factor = -0.15
 				army_speed_factor = -0.1
 				training_time_factor = 0.25
 				naval_coordination = -0.15

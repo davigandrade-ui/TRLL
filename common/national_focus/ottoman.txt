@@ -1,5 +1,5 @@
 focus_tree = {
-	id = ottoöan_focus
+	id = ottoman_focus
 
 	country = {
 		factor = 0
@@ -212,4 +212,44 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = OTT_last_defense
+		icon = GFX_goal_generic_defence
+		prerequisite = { focus = OTT_yerli_ve_milli }
+		prerequisite = { focus = OTT_gayretullah focus = TUR_three_children }
+		x = 0
+		y = 2
+		relative_position_id = OTT_yerli_ve_milli
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		surrender_progress > 0.7
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+
+		random_owned_controlled_state = {
+						add_dynamic_modifier = {
+						modifier = OTT_last_defense
+				}
+								
+	
+			}
+		}
+	}
 }
