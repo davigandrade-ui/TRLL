@@ -16,7 +16,6 @@ focus_tree = {
 		modifier = {
 			add = 10
 			tag = ARG
-			has_dlc = "Trial of Allegiance"
 		} 
 	}
 
@@ -860,7 +859,7 @@ focus_tree = {
 
 		completion_reward = { 
 			custom_effect_tooltip = ARG_modify_growing_nationalism_ns_intro
-			add_to_variable = { ARG_growing_nationalism_fascism_drift = 0.1 tooltip = fascism_drift_factor_tt }
+			add_to_variable = { ARG_growing_nationalism_national_vanguard_drift = 0.1 tooltip = national_vanguard_drift_factor_tt }
 			add_to_variable = { ARG_growing_nationalism_recruitable_population_factor = 0.1 tooltip = recruitable_population_factor_tt}
 			add_to_variable = { ARG_growing_nationalism_war_support_factor = 0.05 tooltip = war_support_factor_tt}
 			add_to_variable = { ARG_growing_nationalism_democratic_drift = -0.05 tooltip = democratic_drift_factor_tt }

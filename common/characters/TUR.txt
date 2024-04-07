@@ -10,7 +10,7 @@ characters={
 	country_leader={
 			ideology=despotism
 		    desc = TUR_recebzade_erdogan_efendi_description
-			traits =  { self_declared_caliph }
+			traits =  { self_declared_caliph recebzade_political_paranoia }
 			expire="1960.1.1.1"
 			id=-1
 		}

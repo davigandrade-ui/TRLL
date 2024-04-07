@@ -1420,7 +1420,7 @@ NORDIC_monarchist_alliance_leader_dmod = {
 	production_factory_efficiency_gain_factor = NORDIC_monarchist_alliance_leader_dmod_prod_eff_gain # 0.25
 	production_speed_buildings_factor = NORDIC_monarchist_alliance_leader_dmod_construction # -0.1
 	army_org_factor = NORDIC_monarchist_alliance_leader_dmod_max_org # 0.2
-	fascism_drift = NORDIC_monarchist_alliance_leader_dmod_drift_defense # -0.15 
+	national_vanguard_drift = NORDIC_monarchist_alliance_leader_dmod_drift_defense # -0.15 
 }
 
 NORDIC_monarchist_alliance_member_dmod = {	
@@ -1435,5 +1435,5 @@ NORDIC_monarchist_alliance_member_dmod = {
 	production_factory_efficiency_gain_factor = NORDIC_monarchist_alliance_member_dmod_prod_eff_gain # 0.17
 	production_speed_buildings_factor = NORDIC_monarchist_alliance_member_dmod_construction # -0.7
 	army_org_factor = NORDIC_monarchist_alliance_member_dmod_max_org # 0.12
-	fascism_drift = NORDIC_monarchist_alliance_member_dmod_drift_defense # -0.1  
+	national_vanguard_drift = NORDIC_monarchist_alliance_member_dmod_drift_defense # -0.1  
 }

@@ -14,6 +14,26 @@
 
 leader_traits = {
 
+	true_caliph = {
+		random = no
+		weekly_manpower = 2000
+		mobilization_speed = 0.5
+		war_support_factor = 0.5
+		weekly_casualties_war_support = 0.01
+		political_power_factor = 0.25
+		conscription_factor = 0.1
+		resistance_growth_on_our_occupied_states = 0.5
+		resistance_decay_on_our_occupied_states = -0.5
+		stability_factor = 0.1
+		army_attack_factor = 0.5
+	}
+
+	recebzade_political_paranoia = {
+		random = no
+		drift_defence_factor = 0.1
+		custom_modifier_tooltip = recebzade_paranoia_modifier_increase_effect_tt
+	}
+
 	uc_cocuk = {
 		random = no
 		monthly_population = 1

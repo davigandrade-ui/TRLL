@@ -14,7 +14,6 @@ focus_tree = {
 		modifier = {
 			add = 10
 			tag = BRA
-			has_dlc = "Trial of Allegiance"
 		}
 	}
 	
@@ -155,7 +154,7 @@ focus_tree = {
 			custom_effect_tooltip = BRA_modify_aotci_ns_intro
 			add_to_variable = {
 				BRA_coup_fascism_factor = 0.05
-				tooltip = fascism_drift_factor_tt
+				tooltip = national_vanguard_drift_factor_tt
 			}
 		}
 	}
@@ -635,7 +634,7 @@ focus_tree = {
 			custom_effect_tooltip = BRA_modify_estado_novo_ns_intro
 			add_to_variable = {
 				BRA_estado_novo_fascism_factor = -0.2
-				tooltip = fascism_drift_factor_tt
+				tooltip = national_vanguard_drift_factor_tt
 			}
 			add_to_variable = {
 				BRA_estado_novo_democratic_factor = -0.2

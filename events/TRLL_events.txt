@@ -68,3 +68,25 @@ country_event = {
 
 	}
 }
+
+# Reforms Event
+country_event = {
+	id = TRLL.3
+	title = TRLL.3.t
+	desc = TRLL.3.d
+	picture = GFX_report_event_ast_parliament_house
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = TRLL.3.a
+		complete_national_focus	= REM_reforms_passed
+	}
+	option = {
+		name = TRLL.3.b
+		complete_national_focus	= REM_reforms_denied
+	}
+
+}

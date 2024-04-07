@@ -48,7 +48,7 @@ focus_tree = {
 		id = OTT_masallah
 		icon = GFX_focus_TUR_loosen_the_laws_on_secularism
 		prerequisite = { focus = OTT_denounce }
-		x = 2
+		x = 3
 		y = 1
 		relative_position_id = OTT_denounce
 
@@ -117,7 +117,7 @@ focus_tree = {
 		id = TUR_bread_for_the_people
 		icon = GFX_focus_SOV_breadbasket_of_the_union
 		prerequisite = { focus = OTT_denounce }
-		x = -2
+		x = -3
 		y = 1
 		relative_position_id = OTT_denounce
 
@@ -180,11 +180,44 @@ focus_tree = {
 	}
 
 	focus = {
-		id = OTT_yerli_ve_milli
-		icon = GFX_goal_generic_small_arms
+		id = OTT_reach_out_to_britain
+		icon = GFX_focus_chi_british_cooperation
 		prerequisite = { focus = OTT_denounce }
 		x = 0
 		y = 1
+		relative_position_id = OTT_denounce
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			custom_effect_tooltip = OTT_britain_spies
+			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 1000 producer = ENG }
+		}
+	}
+
+	focus = {
+		id = OTT_yerli_ve_milli
+		icon = GFX_goal_generic_air_fighter2
+		prerequisite = { focus = OTT_reach_out_to_britain }
+		x = 1
+		y = 2
 		relative_position_id = OTT_denounce
 
 		cost = 5
@@ -208,20 +241,28 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 1000 producer = GER }
+					ENG = { 
+						create_production_license = {
+							target = TUR
+							equipment = {
+							    type = small_plane_airframe
+							}
+							cost_factor = 0
+						}
+					}
 		}
 	}
 
 	focus = {
 		id = OTT_last_defense
 		icon = GFX_goal_generic_defence
-		prerequisite = { focus = OTT_yerli_ve_milli }
+		prerequisite = { focus = OTT_reach_out_to_britain }
 		prerequisite = { focus = OTT_gayretullah focus = TUR_three_children }
 		x = 0
 		y = 2
-		relative_position_id = OTT_yerli_ve_milli
+		relative_position_id = OTT_reach_out_to_britain
 
-		cost = 2
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -242,7 +283,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-
+		set_country_flag = { flag = OTT_last_defense_cooldown value = 1 days = 90 }
 		random_owned_controlled_state = {
 						add_dynamic_modifier = {
 						modifier = OTT_last_defense
@@ -252,4 +293,39 @@ focus_tree = {
 			}
 		}
 	}
+
+	focus = {
+		id = OTT_true_caliph
+		icon = GFX_focus_TUR_pivot_to_the_past
+		prerequisite = { focus = OTT_last_defense }
+		x = 0
+		y = 1
+		relative_position_id = OTT_last_defense
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+				not = { has_country_flag = OTT_last_defense_cooldown }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+		custom_effect_tooltip = OTT_cooldown_tt
+		swap_ruler_traits = { remove = self_declared_caliph add = true_caliph }
+		}
+	}
+
 }

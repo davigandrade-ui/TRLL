@@ -17,7 +17,6 @@ focus_tree = {
 		modifier = {
 			add = 10
 			tag = CHL
-			has_dlc = "Trial of Allegiance"
 		}
 	}
 	
