@@ -299,7 +299,7 @@ NOR_fasc_prep_start = {
 			add_to_variable = { NOR_state_preparation = 1 }
 			ROOT = {
 				add_popularity = {
-					ideology = fascism
+					ideology = national_vanguard
 					popularity = 0.02
 				}
 			}
@@ -319,7 +319,7 @@ NOR_fasc_prep_start = {
 		 	}	
 		 	ROOT = {
 				add_popularity = {
-					ideology = fascism
+					ideology = national_vanguard
 					popularity = 0.05
 				}
 		 	}
@@ -352,7 +352,7 @@ NOR_fasc_prep_start = {
 			}
 			set_country_flag = NOR_active_preparation 
 			add_popularity = {
-				ideology = fascism
+				ideology = national_vanguard
 				popularity = 0.05
 			}
 		}
@@ -951,7 +951,7 @@ NOR_fcw_effect_fascist_player = {
 	}
 	ROOT = {
 		add_popularity = {
-			ideology = fascism
+			ideology = national_vanguard
 			popularity = 0.60
 		}
 		add_manpower = 10000
@@ -973,7 +973,7 @@ NOR_fcw_effect_fascist_player = {
 NOR_fcw_effect_democratic_player = {
 	start_civil_war = {
 		ruling_party = democratic 
-		ideology = fascism
+		ideology = national_vanguard
 		size = party_popularity@fascism 
 		states = { 110 }
 		keep_all_characters = yes 

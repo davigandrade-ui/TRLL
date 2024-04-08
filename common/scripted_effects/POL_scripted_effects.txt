@@ -362,7 +362,7 @@ POL_sanation_right_opposition_up = {
 				}
 			}
 			start_civil_war = {
-				ideology = fascism
+				ideology = national_vanguard
 				size = 0.5
 				army_ratio = 0.25
 				keep_unit_leaders_trigger = {
@@ -375,7 +375,7 @@ POL_sanation_right_opposition_up = {
 					has_government = national_vanguard
 				}
 				set_party_name = { 
-					ideology = fascism 
+					ideology = national_vanguard 
 					long_name = POL_OZON_party_long
 					name = POL_OZON_party
 				}

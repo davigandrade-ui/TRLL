@@ -3569,7 +3569,7 @@ focus_tree = {
 			add_stability = 0.05
 			hidden_effect = {
 				kill_country_leader = yes
-				kill_ideology_leader = fascism
+				kill_ideology_leader = national_vanguard
 			}
 			add_country_leader_role = {
 				character = "SPA_francisco_franco"
@@ -3583,7 +3583,7 @@ focus_tree = {
 			add_country_leader_role = {
 				character = "SPA_francisco_franco"
 				country_leader = {
-				  ideology=fascism_ideology
+				  ideology=national_vanguard
 				  traits = { caudillo_1 }
 				  expire="1965.1.1"
 				}

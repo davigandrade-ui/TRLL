@@ -938,8 +938,8 @@ GER_reichskommissariats = {
 		}
 
 		complete_effect = {
-			release_on_controlled = UKR
-			UKR = {
+			release_on_controlled = CKU
+			CKU = {
 				set_state_controller = 93
 				set_state_controller = 91
 				set_state_controller = 89

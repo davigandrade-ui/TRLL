@@ -9,7 +9,7 @@ SWI_centralization_bop = {
 		min = -0.25
 		max = 0.25
 		modifier = {
-			political_advisor_cost_factor = -0.5
+	#		political_advisor_cost_factor = -0.5
 			surrender_limit	= 0.1
 		}
 	}
@@ -23,7 +23,7 @@ SWI_centralization_bop = {
 			max = 1
 			modifier = {
 				war_support_factor = -0.3
-				political_advisor_cost_factor = -1
+		#		political_advisor_cost_factor = -1
 				surrender_limit	= 0.75
 			}
 			on_activate = {
@@ -38,7 +38,7 @@ SWI_centralization_bop = {
 			max = 0.75
 			modifier = {
 				war_support_factor = -0.15
-				political_advisor_cost_factor = -0.75
+		#		political_advisor_cost_factor = -0.75
 				surrender_limit	= 0.4
 			}
 			on_activate = {
@@ -71,7 +71,7 @@ SWI_centralization_bop = {
 			max = -0.25
 			modifier = {
 				war_support_factor = 0.1
-				political_advisor_cost_factor = -0.25
+			#	political_advisor_cost_factor = -0.25
 				surrender_limit	= -0.1
 			}
 			on_activate = {

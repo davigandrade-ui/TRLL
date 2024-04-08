@@ -3,7 +3,7 @@
 #	example_effect = {
 #		add_political_power = 66
 #		add_popularity = {
-#			ideology = fascism
+#			ideology = national_vanguard
 #			popularity = 0.33
 #		}
 #	}
@@ -2998,7 +2998,7 @@ ITA_start_anti_fascist_civil_war = { #The one triggered via focus
 			has_completed_focus = ITA_unite_the_opposition
 		}
 		start_civil_war = {
-			ideology = fascism
+			ideology = national_vanguard
 			ruling_party = communism #Original tag
 			size = 0.5
 			states = all
@@ -3018,7 +3018,7 @@ ITA_start_anti_fascist_civil_war = { #The one triggered via focus
 	}
 	else = {
 		start_civil_war = {
-			ideology = fascism
+			ideology = national_vanguard
 			ruling_party = communism #Original tag
 			size = 0.6
 			states = all

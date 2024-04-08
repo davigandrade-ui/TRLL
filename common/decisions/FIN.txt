@@ -2245,22 +2245,22 @@ political_actions = {
 			
 		}
 
-		remove_effect = {
-			set_country_flag = FIN_kullervo_manner_extradited_flag
-			if = {
-				limit = {
-					amount_taken_ideas = {
-						amount < 3
-						slots = { political_advisor }
-					}
-				}
-				activate_advisor = FIN_kullervo_manner
-			}
-			else = {
-				custom_effect_tooltip = available_political_advisor
-				show_ideas_tooltip = FIN_kullervo_manner
-			}
-		}
+		#remove_effect = {
+		#	set_country_flag = FIN_kullervo_manner_extradited_flag
+		#	if = {
+		#		limit = {
+		#			amount_taken_ideas = {
+		#				amount < 3
+		#				slots = { political_advisor }
+		#			}
+		#		}
+		#		activate_advisor = FIN_kullervo_manner
+		#	}
+		#	else = {
+		#		custom_effect_tooltip = available_political_advisor
+		#		show_ideas_tooltip = FIN_kullervo_manner
+		#	}
+		#}
 	}
 }
 

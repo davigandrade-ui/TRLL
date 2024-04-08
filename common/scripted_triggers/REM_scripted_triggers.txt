@@ -1,0 +1,3 @@
+REM_is_in_mitteleuropa = {
+	has_dynamic_modifier = { modifier = MIT_mitteleuropa_modifier }
+}

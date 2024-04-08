@@ -14,6 +14,25 @@ recruit_character = REM_ilyin
 recruit_character = REM_Aleksandra_Samusenko
 
 
+### Mitteleuropa ###
+create_economic_sphere = yes
+var:economic_sphere = {
+	set_character_name = mitteleuropa_title
+	var:desc = { set_character_name = MIT_mitteleuropa_modifier_desc }
+	var:icon = { set_character_name = "GFX_goal_GER_mitteleuropa" }
+}
+
+REM_add_to_mitteleuropa = yes #Germany needs to be the first index in the array
+every_country = {
+	limit = {
+		OR = {
+			tag = BEL
+		}
+	}
+	REM_add_to_mitteleuropa = yes
+}
+
+
 set_autonomy = {
 	target = KPL
 	autonomous_state = autonomy_imperial_mandates

@@ -349,7 +349,7 @@ NOR_administrative_council_dmod = { # Added in the Historical side of the Fascis
 
 	remove_trigger = {
 		NOR = { 
-			NOT = { has_government = fascism } 
+			NOT = { has_government = national_vanguard } 
 		}
 	}
 
@@ -365,7 +365,7 @@ NOR_oppressed_civilians_dmod = {
 			NOR_AAT = yes 
 		}
 		remove_trigger = {
-			NOT = { has_government = fascism }
+			NOT = { has_government = national_vanguard }
 		}
 
 		icon = GFX_idea_generic_oppression
