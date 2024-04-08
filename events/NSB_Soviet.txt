@@ -7521,7 +7521,7 @@ country_event = {
 			traits = { operative_commando operative_infiltrator }
 			bypass_recruitment = no
 			available_to_spy_master = yes
-			nationalities = { SOV GER UKR }
+			nationalities = { SOV GER CKU }
 		}
 	}
 }
@@ -9143,9 +9143,9 @@ country_event = {
 		IF = {
 			limit = {
 				has_country_flag = SOV_CSW_ukraine_germany_flag 
-				UKR = { owns_state = 192 }
+				CKU = { owns_state = 192 }
 			}
-			UKR = { give_resource_rights = { receiver = GER state = 229 } }
+			CKU = { give_resource_rights = { receiver = GER state = 229 } }
 		}
 
 		# Independence for Belarus
@@ -10855,12 +10855,12 @@ country_event = {
 					original_tag = SOV
 				}
 				every_owned_state = {
-					limit = { is_core_of = UKR }
-					UKR = { transfer_state = PREV }
+					limit = { is_core_of = CKU }
+					CKU = { transfer_state = PREV }
 				}
 			}
 		}
-		UKR = {
+		CKU = {
 			division_template = {
 			    name = "German Trained Division"
 				is_locked = yes
@@ -10878,7 +10878,7 @@ country_event = {
 				is_locked = yes 
 			}
 			every_owned_state = {
-				limit = { is_core_of = UKR }
+				limit = { is_core_of = CKU }
 				create_unit = { 
 					division = "name = \"German Division\" division_template = \"German Trained Division\" start_experience_factor = 0.2 start_equipment_factor = 0.95" owner = UKR 
 				}
@@ -10894,7 +10894,7 @@ country_event = {
 		}
 		
 		declare_war_on = {
-			target = UKR
+			target = CKU
 			type = annex_everything
 		} 
 	}
@@ -10911,7 +10911,7 @@ country_event = {
 		}
 		SOS = {
 			declare_war_on = {
-				target = UKR
+				target = CKU
 				type = annex_everything
 			} 
 		}
@@ -11613,7 +11613,7 @@ country_event = {
 						factor = 0
 						OR = { 
 							has_country_flag = ukr_uprising_flag
-							UKR = { exists = yes }
+							CKU = { exists = yes }
 						}
 					}
 					set_variable = { SOV_nationalist_country = UKR }

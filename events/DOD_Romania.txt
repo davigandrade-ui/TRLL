@@ -1333,7 +1333,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 3
-					slots = { political_advisor }
+					#slots = { political_advisor }
 				}
 			}
 			modifier = {
@@ -1341,7 +1341,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 2
-					slots = { political_advisor }
+					#slots = { political_advisor }
 				}
 			}
 			modifier = {
@@ -1349,7 +1349,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 1
-					slots = { political_advisor }
+					#slots = { political_advisor }
 				}
 			}			
 			modifier = {
@@ -1426,7 +1426,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 3
-					slots = { political_advisor }
+					#slots = { political_advisor }
 				}
 			}
 			modifier = {
@@ -1434,7 +1434,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 2
-					slots = { political_advisor }
+					#slots = { political_advisor }
 				}
 			}
 			modifier = {
@@ -1442,7 +1442,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 1
-					slots = { political_advisor }
+					#slots = { political_advisor }
 				}
 			}						
 			modifier = {
@@ -1507,7 +1507,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 3
-					slots = { political_advisor }
+					#slots = { political_advisor }
 				}
 			}
 			modifier = {
@@ -1515,7 +1515,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 2
-					slots = { political_advisor }
+					#slots = { political_advisor }
 				}
 			}
 			modifier = {
@@ -1523,7 +1523,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 1
-					slots = { political_advisor }
+					#slots = { political_advisor }
 				}
 			}			
 			modifier = {
@@ -1600,7 +1600,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 3
-					slots = { political_advisor }
+					#slots = { political_advisor }
 				}
 			}
 			modifier = {
@@ -1608,7 +1608,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 2
-					slots = { political_advisor }
+					#slots = { political_advisor }
 				}
 			}
 			modifier = {
@@ -1616,7 +1616,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 1
-					slots = { political_advisor }
+					#slots = { political_advisor }
 				}
 			}			
 			modifier = {
@@ -1693,7 +1693,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 3
-					slots = { political_advisor }
+					#slots = { political_advisor }
 				}
 			}
 			modifier = {
@@ -1701,7 +1701,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 2
-					slots = { political_advisor }
+					#slots = { political_advisor }
 				}
 			}
 			modifier = {
@@ -1709,7 +1709,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 1
-					slots = { political_advisor }
+					#slots = { political_advisor }
 				}
 			}			
 			modifier = {
@@ -1787,7 +1787,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 3
-					slots = { political_advisor }
+					#slots = { political_advisor }
 				}
 			}
 			modifier = {
@@ -1795,7 +1795,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 2
-					slots = { political_advisor }
+					#slots = { political_advisor }
 				}
 			}
 			modifier = {
@@ -1803,7 +1803,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 1
-					slots = { political_advisor }
+					#slots = { political_advisor }
 				}
 			}			
 			modifier = {
@@ -4111,7 +4111,7 @@ country_event = { #if Codreanu is still in power, kill him and replace with Goga
 			ideology = national_vanguard
 			popularity = 0.05
 		}
-		kill_ideology_leader = fascism
+		kill_ideology_leader = national_vanguard
 		promote_character = ROM_octavian_goga
 		set_party_name = { 
 		    ideology = national_vanguard

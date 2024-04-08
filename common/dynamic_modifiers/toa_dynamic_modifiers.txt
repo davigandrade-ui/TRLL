@@ -441,7 +441,7 @@ CHL_chilean_economy_dynamic_modifier = { #NATIONAL SPIRIT
 	local_resources_factor = CHL_economy_local_resources_factor
 	industrial_capacity_dockyard = CHL_economy_industrial_capacity_dockyard
 	industrial_capacity_factory = CHL_economy_industrial_capacity_factory
-	political_advisor_cost_factor = CHL_economy_political_advisor_cost_factor
+	#political_advisor_cost_factor = CHL_economy_political_advisor_cost_factor
 	min_export = CHL_economy_min_export_factor
 }
 

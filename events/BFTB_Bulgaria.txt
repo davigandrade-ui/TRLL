@@ -2674,7 +2674,7 @@ country_event = {
 					promote_leader = yes
 				}
 				hidden_effect = {
-					retire_ideology_leader = fascism
+					retire_ideology_leader = national_vanguard
 				}
 			}
 			else_if = {
@@ -2696,7 +2696,7 @@ country_event = {
 					promote_leader = yes
 				}
 				hidden_effect = {
-					retire_ideology_leader = fascism
+					retire_ideology_leader = national_vanguard
 				}
 			}
 			else = {
@@ -9008,7 +9008,7 @@ country_event = {
 			has_government = national_vanguard
 		}
 
-		kill_ideology_leader = fascism
+		kill_ideology_leader = national_vanguard
 	}
 
 	option = {#Get Aleksandar Tsankov as leader
@@ -9019,7 +9019,7 @@ country_event = {
 			has_government = national_vanguard
 		}
 
-		kill_ideology_leader = fascism
+		kill_ideology_leader = national_vanguard
 		set_party_name = {
 			ideology = national_vanguard
 			long_name = BUL_national_social_movement_party_long
@@ -9045,7 +9045,7 @@ country_event = {
 			has_government = communism
 		}
 
-		kill_ideology_leader = fascism
+		kill_ideology_leader = national_vanguard
 	}
 
 	option = {#Other ideologies
@@ -9058,7 +9058,7 @@ country_event = {
 			}
 		}
 
-		kill_ideology_leader = fascism
+		kill_ideology_leader = national_vanguard
 	}
 }
 

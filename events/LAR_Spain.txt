@@ -235,7 +235,7 @@ country_event = {
 					retire_ideology_leader = communism
 				}
 				SPD = { # Remove Carlist/Falangist country leaders for new SPD tag
-					retire_ideology_leader = fascism
+					retire_ideology_leader = national_vanguard
 					retire_ideology_leader = neutrality
 					create_country_leader = {
 						name = "Manuel Azaña"
@@ -2507,7 +2507,7 @@ country_event = {
 					178 = { set_state_flag = SPR_sided_with_nationalists_flag }
 				}
 				SPD = {
-					retire_ideology_leader = fascism
+					retire_ideology_leader = national_vanguard
 					retire_ideology_leader = neutrality
 					create_country_leader = {
 						name = "Manuel Azaña"
@@ -4497,7 +4497,7 @@ country_event = {
 			add_timed_idea = { idea = SPA_death_before_surrender days = 900 }
 			SPD = { add_timed_idea = { idea = SPR_death_before_surrender days = 900 } }
 			set_party_name = { ideology = neutrality long_name = SPR_neutrality_military_junta_party_long name = SPR_neutrality_military_junta_party }
-			kill_ideology_leader = fascism
+			kill_ideology_leader = national_vanguard
 		}
 		complete_national_focus = SPA_unify_the_nationalist_front
 	}
@@ -4588,7 +4588,7 @@ country_event = {
 			add_timed_idea = { idea = SPA_death_before_surrender days = 900 }
 			SPD = { add_timed_idea = { idea = SPR_death_before_surrender days = 900 } }
 			set_party_name = { ideology = neutrality long_name = SPR_neutrality_military_junta_party_long name = SPR_neutrality_military_junta_party }
-			kill_ideology_leader = fascism
+			kill_ideology_leader = national_vanguard
 		}
 		complete_national_focus = SPA_supremacy_of_the_communion
 	}

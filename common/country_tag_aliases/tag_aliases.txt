@@ -193,3 +193,8 @@ MOT = {
 	variable = generic_operation_target
 }
 
+### Leader of Mitteleuropa
+MIT = {
+	variable = REM.economic_sphere:members^0
+}
+

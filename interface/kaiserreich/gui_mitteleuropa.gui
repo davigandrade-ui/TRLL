@@ -26,7 +26,7 @@ guitypes = {
 		buttonType = {
 			name = "mitteleuropa_open_button"
 			position = { x = 8 y = 4 }
-			quadTextureSprite = "GFX_idea_ger_revive_the_kaiserreich"
+			quadTextureSprite = "GFX_idea_petersburg"
 			clicksound = click_ok
 			oversound = ui_menu_over
 			pdx_tooltip = mitteleuropa_open_button

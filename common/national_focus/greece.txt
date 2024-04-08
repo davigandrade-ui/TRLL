@@ -2431,9 +2431,9 @@ focus_tree = {
 		}
 
 		bypass = {
-			TUR = {
-				has_completed_focus = TUR_pivot_to_the_past
-			}
+			#TUR = {
+			#	has_completed_focus = TUR_pivot_to_the_past
+			#}
 		}
 
 		search_filters = { FOCUS_FILTER_ANNEXATION }

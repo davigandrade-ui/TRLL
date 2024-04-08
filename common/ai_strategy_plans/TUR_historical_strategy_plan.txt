@@ -37,7 +37,7 @@ TUR_historical_plan = {
 
 	ai_national_focuses = {
 		#1936
-		TUR_the_montreux_convention
+		 
 	
 	}
 

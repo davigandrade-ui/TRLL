@@ -2749,8 +2749,8 @@ GRE_hellenic_academy_category = {
 		visible = {
 			has_completed_focus = GRE_hellenic_armed_forces
 			TUR = { 
-				has_completed_focus = TUR_pivot_to_the_past
-				has_completed_focus = TUR_reconfigure_our_foreign_policy
+				#has_completed_focus = TUR_pivot_to_the_past
+				#has_completed_focus = TUR_reconfigure_our_foreign_policy
 			}
 		}
 

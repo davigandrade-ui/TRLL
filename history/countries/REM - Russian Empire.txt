@@ -26,7 +26,13 @@ REM_add_to_mitteleuropa = yes #Germany needs to be the first index in the array
 every_country = {
 	limit = {
 		OR = {
-			tag = BEL
+			tag = CKU
+			tag = BGO
+			tag = DFI
+			tag = BUL
+			tag = CAV
+			tag = POL
+			tag = SER
 		}
 	}
 	REM_add_to_mitteleuropa = yes

@@ -59,7 +59,6 @@ characters={
 		}
 
 	GRE_markos_vafiadis={
-		instance={
 			name=GRE_markos_vafiadis
 			portraits={
 				army={
@@ -100,21 +99,6 @@ characters={
 					guerilla_warfare_expert 
 				}
 			}
-		}
-		instance={
-			allowed={ always = no }
-			name=GRE_markos_vafiadis
-			portraits={
-				civilian={
-					large=GFX_portrait_GRE_markos_vafiadis
-				}
-			}
-			country_leader={
-				ideology=marxism
-				expire="1965.1.1.1"
-				id=-1
-			}
-		}
 	}
 
 	GRE_konstantinos_tsaldaris={

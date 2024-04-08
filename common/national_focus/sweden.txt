@@ -4045,10 +4045,10 @@ focus_tree = {
 					has_dlc = "Battle for the Bosporus"
 					TUR = {
 						OR = {
-							has_completed_focus = TUR_fully_integrate_the_is_bank
-							has_completed_focus = TUR_peace_at_home
-							has_completed_focus = TUR_reinvigorate_turkish_nationalism
-							has_completed_focus = TUR_kemalism_and_the_modern_movement
+							#has_completed_focus = TUR_fully_integrate_the_is_bank
+							#has_completed_focus = TUR_peace_at_home
+							#has_completed_focus = TUR_reinvigorate_turkish_nationalism
+							#has_completed_focus = TUR_kemalism_and_the_modern_movement
 						}
 					}
 				}
