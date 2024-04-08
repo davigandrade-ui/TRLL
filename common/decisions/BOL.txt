@@ -42,7 +42,6 @@ BOL_bolivian_irredentism = {
 			NOT = {
 				has_country_flag = BOL_restored_the_litoral_department_flag
 			}
-			has_dlc = "Trial of Allegiance"
 		}
 
 		cost = 100
@@ -129,7 +128,6 @@ BOL_bolivian_irredentism = {
 			NOT = {
 				has_country_flag = BOL_restored_the_acre_state_flag
 			}
-			has_dlc = "Trial of Allegiance"
 		}
 
 		cost = 100
@@ -216,7 +214,6 @@ BOL_bolivian_irredentism = {
 			NOT = {
 				has_country_flag = BOL_established_arican_department_flag
 			}
-			has_dlc = "Trial of Allegiance"
 		}
 
 		cost = 120
@@ -295,7 +292,6 @@ political_actions = {
 		visible = { 
 			tag = BOL
 			NOT = { has_country_flag = BOL_embraced_plurinationalism_flag }
-			has_dlc = "Trial of Allegiance"
 		} 
 
 		#days_remove = 24 
@@ -347,7 +343,6 @@ political_actions = {
 			tag = BOL
 			has_government = neutrality
 			NOT = { has_country_flag = BOL_david_toro_resigned_flag }
-			has_dlc = "Trial of Allegiance"
 		} 
 
 		#days_remove = 24 

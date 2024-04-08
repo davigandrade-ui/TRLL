@@ -13,7 +13,6 @@
 ARG_avoid_china = {
 	allowed = { 
 		original_tag = CHI 
-		has_dlc = "Trial of Allegiance" 
 	}
 	enable = {
 		is_historical_focus_on = yes
