@@ -975,7 +975,7 @@ country_event = { #FROM Leaves Mitteleuropa!
 	desc = {
 		text = germany_mitteleuropa_events.21.d.socialist
 		trigger = {
-			FROM = { ##has_socialist_government = yes }
+			##FROM = { has_socialist_government = yes }
 		}
 	}
 	desc = {
@@ -1014,7 +1014,7 @@ country_event = { #FROM Leaves Mitteleuropa!
 		name = germany_mitteleuropa_events.21.a
 		effect_tooltip = { FROM = { REM_remove_from_mitteleuropa_effect = yes } }
 		if = {
-			limit = { FROM = { #has_socialist_government = yes } }
+			#limit = { FROM = { has_socialist_government = yes } }
 			add_opinion_modifier = {
 				target = FROM
 				modifier = KR_outraged

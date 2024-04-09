@@ -1245,7 +1245,7 @@
 # 		trigger = {
 # 			has_completed_focus = TUR_kemalism_and_the_modern_movement
 # 		}
-# 		promote_character = TUR_mehmet_recep_peker #Has the country role already set in the Character File (FASCISM -> fascism_ideology)
+# 		promote_character = TUR_mehmet_recep_peker #Has the country role already set in the Character File (FASCISM -> national_vanguard)
 # 		set_politics = { ruling_party = national_vanguard }
 # 	}
 # 	option = {
@@ -5488,7 +5488,7 @@
 # 			has_idea = TUR_recep_peker
 # 			has_completed_focus = TUR_kemalism_and_the_modern_movement
 # 		}
-# 		promote_character = TUR_mehmet_recep_peker #Has the country role already set in the Character File (FASCISM -> fascism_ideology)
+# 		promote_character = TUR_mehmet_recep_peker #Has the country role already set in the Character File (FASCISM -> national_vanguard)
 # 		set_politics = { ruling_party = national_vanguard }
 # 	}
 # 	option = {

@@ -2555,7 +2555,7 @@ characters={
 			planning_skill = 3
 			logistics_skill = 3
 			legacy_id = 75
-			visible = { #has_completed_focus = TUR_invite_german_officers_to_izmir }
+			#visible = { has_completed_focus = TUR_invite_german_officers_to_izmir }
 		}
 	}
 
@@ -2575,7 +2575,7 @@ characters={
 			defense_skill = 2
 			planning_skill = 4
 			logistics_skill = 2
-			visible = { #has_completed_focus = TUR_invite_german_officers_to_izmir }
+			#visible = { has_completed_focus = TUR_invite_german_officers_to_izmir }
 		}
 	}
 

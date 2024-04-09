@@ -14,7 +14,7 @@ MIT_mitteleuropa_modifier = {
 	production_factory_max_efficiency_factor = MIT_production_factory_max_efficiency_factor
 
 	political_power_factor = MIT_political_power_factor
-	political_advisor_cost_factor = MIT_political_advisor_cost_factor
+	#political_advisor_cost_factor = MIT_political_advisor_cost_factor
 
 	research_speed_factor = MIT_research_speed_factor
 

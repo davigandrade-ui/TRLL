@@ -457,7 +457,7 @@ ideas = {
 		}
 
 
-		SWE_radiotjanst_national_vanguard = { 
+		SWE_radiotjanst_fascism = { 
 
 			allowed = {
 				tag = SWE
