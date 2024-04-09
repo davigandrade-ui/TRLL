@@ -180,7 +180,7 @@ country_event = {
 				limit = {
 					amount_taken_ideas = {
 					   amount < 3
-					   slots = { political_advisor }
+					   #slots = { political_advisor }
 					}
 				}
 				add_ideas = GRE_aristotle_onassis
@@ -4802,7 +4802,7 @@ country_event = {
 			desc = "POLITICS_ADOLFOS_I_DESC"
 			picture = GFX_portrait_Adolfos_I
 			expire = "1965.1.1"
-			ideology = gen_national_vanguard
+			ideology = national_vanguard
 			traits = {
 				basileus
 			}
@@ -6716,7 +6716,7 @@ country_event = {
 			character = "GRE_george_mercouris"
 			country_leader = {
 				expire = "1965.1.1"
-				ideology = gen_national_vanguard
+				ideology = national_vanguard
 				traits = {
 					polemarch
 				}

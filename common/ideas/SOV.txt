@@ -948,7 +948,7 @@ ideas = {
 				}
 			}
 
-			picture = generic_national_vanguard_drift_bonus
+			picture = generic_fascism_drift_bonus
 
 			modifier = {
 				national_vanguard_acceptance = 15
@@ -2528,7 +2528,7 @@ ideas = {
 		}
 
 		SOV_russian_political_influence = {
-			picture = generic_national_vanguard_drift_2
+			picture = generic_fascism_drift_2
 			removal_cost = -1
 
 			allowed = {

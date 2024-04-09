@@ -14099,90 +14099,90 @@ SOV_soviet_civil_war_dec_cat = {
 	}
 
 	# Offer Vladivostok to Japan
-	SOV_concessions_japan_vladivostok_SCW = {
-
-		icon = generic_political_discourse
-
-		allowed = {
-			original_tag = SOV
-		}
-		targets = { JAP }
-		target_trigger = {
-			FROM = {
-				tag = JAP
-			}
-		}
-		target_root_trigger = {
-			OR = {
-				SOV_is_right_opposition = yes
-				SOV_is_exiles = yes
-			}
-		}
-		available = {
-			JAP = { exists = yes }
-			408 = { CONTROLLER = { original_tag = SOV } }
-			custom_trigger_tooltip = {
-				tooltip = SOV_not_has_conflict_with_japan
-				NOT = { JAP = { has_decision = JAP_test_the_soviets } }
-				NOT = { has_border_war_with = JAP }
-				NOT = { has_war_with = JAP }
-			}
-		}
-		ai_will_do = {
-			base = 0
-			modifier = {
-				add = 50
-				SOV_is_exiles = yes
-			}
-			modifier = {
-				add = 50
-				surrender_progress > 0
-			}
-			modifier = {
-				add = 50
-				date > 1938.1.1
-			}
-			modifier = { # Save pp for NKVD Chief and Stalin Assassination
-				factor = 0
-				has_completed_focus = SOV_organize_uprisings_in_the_country
-				NOT = { has_completed_focus = SOV_the_plan_for_the_coup }
-			}
-		}
-		cost = 25
-
-		fire_only_once = yes # Either you make the offer or you don't
-
-		visible = {
-			hidden_trigger = {
-				SOV_has_selected_hq = yes
-				OR = {
-					has_completed_focus = SOV_concessions_to_foreign_powers # Right Opposition
-					AND = {
-						SOV_is_exiles = yes
-						has_completed_focus = SOV_unification_of_the_exiles
-					}
-				}
-			}
-			NOT = { has_global_flag = SOV_soviet_civil_war_over }
-		}
-		cancel_if_not_visible = yes
-
-		complete_effect = {
-			random_list = {
-				20 = { SOV_paranoia_very_low_increase_effect = yes }
-				60 = { SOV_paranoia_low_increase_effect = yes }
-				20 = { SOV_paranoia_medium_increase_effect = yes }
-			}
-			JAP = {
-				country_event = {
-					id = NSB_soviet_civil_war_common.100
-					hours = 1 # TODO THOMAS - set longer delay
-				}
-				custom_effect_tooltip = SOV_concessions_japan_vladivostok_SCW_accept
-			}
-
-		}
-	}
+	#SOV_concessions_japan_vladivostok_SCW = {
+	#
+	#	icon = generic_political_discourse
+	#
+	#	allowed = {
+	#		original_tag = SOV
+	#	}
+	#	targets = { JAP }
+	#	target_trigger = {
+	#		FROM = {
+	#			tag = JAP
+	#		}
+	#	}
+	#	target_root_trigger = {
+	#		OR = {
+	#			SOV_is_right_opposition = yes
+	#			SOV_is_exiles = yes
+	#		}
+	#	}
+	#	available = {
+	#		JAP = { exists = yes }
+	#		408 = { CONTROLLER = { original_tag = SOV } }
+	#		custom_trigger_tooltip = {
+	#			tooltip = SOV_not_has_conflict_with_japan
+	#			NOT = { JAP = { has_decision = JAP_test_the_soviets } }
+	#			NOT = { has_border_war_with = JAP }
+	#			NOT = { has_war_with = JAP }
+	#		}
+	#	}
+	#	ai_will_do = {
+	#		base = 0
+	#		modifier = {
+	#			add = 50
+	#			SOV_is_exiles = yes
+	#		}
+	#		modifier = {
+	#			add = 50
+	#			surrender_progress > 0
+	#		}
+	#		modifier = {
+	#			add = 50
+	#			date > 1938.1.1
+	#		}
+	#		modifier = { # Save pp for NKVD Chief and Stalin Assassination
+	#			factor = 0
+	#			has_completed_focus = SOV_organize_uprisings_in_the_country
+	#			NOT = { has_completed_focus = SOV_the_plan_for_the_coup }
+	#		}
+	#	}
+	#	cost = 25
+	#
+	#	fire_only_once = yes # Either you make the offer or you don't
+	#
+	#	visible = {
+	#		hidden_trigger = {
+	#			SOV_has_selected_hq = yes
+	#			OR = {
+	#				has_completed_focus = SOV_concessions_to_foreign_powers # Right Opposition
+	#				AND = {
+	#					SOV_is_exiles = yes
+	#					has_completed_focus = SOV_unification_of_the_exiles
+	#				}
+	#			}
+	#		}
+	#		NOT = { has_global_flag = SOV_soviet_civil_war_over }
+	#	}
+	#	cancel_if_not_visible = yes
+	#
+	#	complete_effect = {
+	#		random_list = {
+	#			20 = { SOV_paranoia_very_low_increase_effect = yes }
+	#			60 = { SOV_paranoia_low_increase_effect = yes }
+	#			20 = { SOV_paranoia_medium_increase_effect = yes }
+	#		}
+	#		JAP = {
+	#			country_event = {
+	#				id = NSB_soviet_civil_war_common.100
+	#				hours = 1 # TODO THOMAS - set longer delay
+	#			}
+	#			custom_effect_tooltip = SOV_concessions_japan_vladivostok_SCW_accept
+	#		}
+	#
+	#	}
+	#}
 	# Offer North Sakhalin to Japan
 	SOV_concessions_japan_sakhalin_SCW = { #TODO_THOMAS
 

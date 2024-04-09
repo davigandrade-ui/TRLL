@@ -2409,8 +2409,8 @@ country_event = {
 
 		set_party_name = {
 				ideology = national_vanguard
-				long_name = ARG_gen_national_vanguard_party_long
-				name = ARG_gen_national_vanguard_party
+				long_name = ARG_national_vanguard_party_long
+				name = ARG_national_vanguard_party
 			}
 
 		set_politics = {
@@ -2438,10 +2438,10 @@ country_event = {
 		mark_focus_tree_layout_dirty = yes
 
 		hidden_effect = {
-				GER = {
-				GER_adolf_hitler = {
-				retire = yes
-				}  
+				#GER = {
+				#GER_adolf_hitler = {
+				#retire = yes
+				#}  
 			}
 		} 
 	}

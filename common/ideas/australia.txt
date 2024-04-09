@@ -434,7 +434,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_national_vanguard_drift_bonus
+			picture = generic_fascism_drift_bonus
 
 			modifier = {
 				autonomy_gain = 1

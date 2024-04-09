@@ -1015,56 +1015,56 @@ TUR_kemalist_turn_ally_effect = {
 }
 
 # Worsen Ataturk's Health
-TUR_worsen_ataturks_health_effect = {
-	custom_effect_tooltip = TUR_worsen_ataturks_health_effect_tt
-	hidden_effect = {
-		if = {
-			limit = {
-				NOT = { has_variable = TUR_ataturk_sickness_factor_var }
-				has_country_leader_with_trait = father_of_the_turks
-			}
-			set_variable = { var = TUR_ataturk_sickness_factor_var value = 1 }
-			swap_ruler_traits = { remove = father_of_the_turks add = father_of_the_turks_1 }
-		}
-		if = {
-			limit = {
-				check_variable = { var = TUR_ataturk_sickness_factor_var value = 1 compare = equals }
-				has_country_leader_with_trait = father_of_the_turks_1
-			}
-			add_to_variable = { var = TUR_ataturk_sickness_factor_var value = 1 }
-			swap_ruler_traits = { remove = father_of_the_turks_1 add = father_of_the_turks_2 }
-		}
-		else_if = {
-			limit = {
-				check_variable = { var = TUR_ataturk_sickness_factor_var value = 2 compare = equals }
-				has_country_leader_with_trait = father_of_the_turks_2
-			}
-			swap_ruler_traits = { remove = father_of_the_turks_2 add = father_of_the_turks_3 }
-			add_to_variable = { var = TUR_ataturk_sickness_factor_var value = 1 }
-		}
-		else_if = {
-			limit = {
-				check_variable = { var = TUR_ataturk_sickness_factor_var value = 3 compare = equals }
-				has_country_leader_with_trait = father_of_the_turks_3
-			}
-			swap_ruler_traits = { remove = father_of_the_turks_3 add = father_of_the_turks_4 }
-			add_to_variable = { var = TUR_ataturk_sickness_factor_var value = 1 }
-		}
-		else_if = {
-			limit = {
-				check_variable = { var = TUR_ataturk_sickness_factor_var value = 4 compare = equals }
-			}
-			add_country_leader_trait = infirm
-			add_to_variable = { var = TUR_ataturk_treatment_cost_var value = 250 }
-			if = {
-				limit = {
-					TUR_mustafa_kemal_ataturk = { is_unit_leader = yes }
-				}
-				TUR_mustafa_kemal_ataturk = { remove_unit_leader_role = yes }
-			}
-		}
-	}
-}
+#TUR_worsen_ataturks_health_effect = {
+#	custom_effect_tooltip = TUR_worsen_ataturks_health_effect_tt
+#	hidden_effect = {
+#		if = {
+#			limit = {
+#				NOT = { has_variable = TUR_ataturk_sickness_factor_var }
+#				has_country_leader_with_trait = father_of_the_turks
+#			}
+#			set_variable = { var = TUR_ataturk_sickness_factor_var value = 1 }
+#			swap_ruler_traits = { remove = father_of_the_turks add = father_of_the_turks_1 }
+#		}
+#		if = {
+#			limit = {
+#				check_variable = { var = TUR_ataturk_sickness_factor_var value = 1 compare = equals }
+#				has_country_leader_with_trait = father_of_the_turks_1
+#			}
+#			add_to_variable = { var = TUR_ataturk_sickness_factor_var value = 1 }
+#			swap_ruler_traits = { remove = father_of_the_turks_1 add = father_of_the_turks_2 }
+#		}
+#		else_if = {
+#			limit = {
+#				check_variable = { var = TUR_ataturk_sickness_factor_var value = 2 compare = equals }
+#				has_country_leader_with_trait = father_of_the_turks_2
+#			}
+#			swap_ruler_traits = { remove = father_of_the_turks_2 add = father_of_the_turks_3 }
+#			add_to_variable = { var = TUR_ataturk_sickness_factor_var value = 1 }
+#		}
+#		else_if = {
+#			limit = {
+#				check_variable = { var = TUR_ataturk_sickness_factor_var value = 3 compare = equals }
+#				has_country_leader_with_trait = father_of_the_turks_3
+#			}
+#			swap_ruler_traits = { remove = father_of_the_turks_3 add = father_of_the_turks_4 }
+#			add_to_variable = { var = TUR_ataturk_sickness_factor_var value = 1 }
+#		}
+#		else_if = {
+#			limit = {
+#				check_variable = { var = TUR_ataturk_sickness_factor_var value = 4 compare = equals }
+#			}
+#			add_country_leader_trait = infirm
+#			add_to_variable = { var = TUR_ataturk_treatment_cost_var value = 250 }
+#			if = {
+#				limit = {
+#					TUR_mustafa_kemal_ataturk = { is_unit_leader = yes }
+#				}
+#				TUR_mustafa_kemal_ataturk = { remove_unit_leader_role = yes }
+#			}
+#		}
+#	}
+#}
 
 #Apply appropriate cosmetic tag so that 3D models change based on ideology
 TUR_set_appropriate_cosmetic_tag = {

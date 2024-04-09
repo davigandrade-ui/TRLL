@@ -18,13 +18,7 @@ scripted_gui = {
 			mitteleuropa_open_button_click = {
 				if = {
 					limit = { MIT_interface_is_open = no }
-					if = {
-						limit = { NOT = { has_country_flag = MIT_opened_panel_once } }
-						country_event = germany_mitteleuropa_events.1001
-					}
-					else = {
-						MIT_open_mitteleuropa_panel = yes
-					}
+					MIT_open_mitteleuropa_panel = yes
 				}
 				else = {
 					MIT_close_mitteleuropa_panel = yes

@@ -658,7 +658,7 @@ SOV_soviet_chinese_relations = {
 	license_tech_difference_speed = 0.25 #less cost increase for each tech level between the license and own tech level
 }
 
-SOV_face_western_national_vanguard_static = {
+SOV_face_western_fascism_static = {
 	valid_relation_trigger = {
 		FROM = {
 			has_war_with = ROOT

@@ -866,7 +866,7 @@ ideas = {
 
 		HOL_volk_en_vaderland = {
 
-			picture = generic_national_vanguard_drift_bonus
+			picture = generic_fascism_drift_bonus
 
 			allowed = {
 				always = no
@@ -939,7 +939,7 @@ ideas = {
 
 		HOL_implement_the_program = {
 
-			picture = generic_national_vanguard_drift_2
+			picture = generic_fascism_drift_2
 
 			allowed = {
 				always = no

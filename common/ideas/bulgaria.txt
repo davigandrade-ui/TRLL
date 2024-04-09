@@ -1609,7 +1609,7 @@ ideas = {
 			}
 		}
 
-		BUL_nationalist_propaganda_national_vanguard = {
+		BUL_nationalist_propaganda_fascism = {
 			name = BUL_nationalist_propaganda
 			
 			picture = generic_morale_bonus
@@ -1656,7 +1656,7 @@ ideas = {
 			}
 		}
 
-		BUL_nationalist_propaganda_weak_national_vanguard = {
+		BUL_nationalist_propaganda_weak_fascism = {
 			name = BUL_nationalist_propaganda
 			
 			picture = generic_morale_bonus

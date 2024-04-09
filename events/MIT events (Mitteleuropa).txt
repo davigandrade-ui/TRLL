@@ -951,19 +951,19 @@ country_event = { #Leaving Mitteleuropa
 		effect_tooltip = { REM_remove_from_mitteleuropa_effect = yes }
 		if = {
 			limit = {
-				GER = {
+				REM = {
 					exists = yes
 					is_subject = no
 					REM_is_in_mitteleuropa = yes
 				}
 				OR = {
 					is_subject = no
-					is_subject_of = GER
+					is_subject_of = REM
 				}
-				NOT = { has_event_target = GER_kicked_from_mitteleuropa }
-				NOT = { any_enemy_country = { is_ally_with = GER } }
+				NOT = { has_event_target = REM_kicked_from_mitteleuropa }
+				NOT = { any_enemy_country = { is_ally_with = REM } }
 			}
-			GER = { country_event = germany_mitteleuropa_events.21 }
+			REM = { country_event = germany_mitteleuropa_events.21 }
 		}
 	}
 }
@@ -975,17 +975,17 @@ country_event = { #FROM Leaves Mitteleuropa!
 	desc = {
 		text = germany_mitteleuropa_events.21.d.socialist
 		trigger = {
-			FROM = { has_socialist_government = yes }
+			FROM = { ##has_socialist_government = yes }
 		}
 	}
 	desc = {
 		text = germany_mitteleuropa_events.21.d.allied_with_rival
 		trigger = {
 			FROM = {
-				has_socialist_government = no
+				##has_socialist_government = no
 				AND = {
 					is_in_faction = yes
-					NOT = { is_in_faction_with = GER }
+					NOT = { is_in_faction_with = REM }
 				}
 			}
 		}
@@ -994,11 +994,11 @@ country_event = { #FROM Leaves Mitteleuropa!
 		text = germany_mitteleuropa_events.21.d.left_mitteleuropa
 		trigger = {
 			FROM = {
-				has_socialist_government = no
+				#has_socialist_government = no
 				NOT = {
 					AND = {
 						is_in_faction = yes
-						NOT = { is_in_faction_with = GER }
+						NOT = { is_in_faction_with = REM }
 					}
 				}
 			}
@@ -1014,7 +1014,7 @@ country_event = { #FROM Leaves Mitteleuropa!
 		name = germany_mitteleuropa_events.21.a
 		effect_tooltip = { FROM = { REM_remove_from_mitteleuropa_effect = yes } }
 		if = {
-			limit = { FROM = { has_socialist_government = yes } }
+			limit = { FROM = { #has_socialist_government = yes } }
 			add_opinion_modifier = {
 				target = FROM
 				modifier = KR_outraged
@@ -1057,7 +1057,7 @@ country_event = { # ME activated
 		custom_effect_tooltip = MIT_focus_unlocked
 		if = {
 			limit = { NOT = { has_country_flag = MIT_election } }
-			GER_enable_mitteleuropa = yes
+			REM_enable_mitteleuropa = yes
 		}
 		hidden_effect = {
 			set_country_flag = MIT_opened_panel_once
@@ -1301,7 +1301,7 @@ country_event = { # Europamark
 		log = "[GetLogInfo]: event germany_mitteleuropa_events.1009 option germany_mitteleuropa_events.1009.b"
 		name = germany_mitteleuropa_events.1009.b
 		trigger = {
-			NOT = { is_subject_of = GER }
+			NOT = { is_subject_of = REM }
 		}
 		ai_chance = { base = 0 }
 	}
@@ -1328,7 +1328,7 @@ country_event = { # Bank of Central Europe
 		log = "[GetLogInfo]: event germany_mitteleuropa_events.1010 option germany_mitteleuropa_events.1010.b"
 		name = germany_mitteleuropa_events.1010.b
 		trigger = {
-			NOT = { is_subject_of = GER }
+			NOT = { is_subject_of = REM }
 		}
 		ai_chance = { base = 0 }
 	}

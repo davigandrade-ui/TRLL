@@ -2872,7 +2872,7 @@ on_actions = {
 					limit = {
 						OR = {
 							communism > 0.09
-							fascism > 0.09
+							national_vanguard > 0.09
 						}
 					}
 					#Add modifier (only once)
@@ -3356,7 +3356,7 @@ on_actions = {
 					limit = {
 						OR = {
 							communism > 0.09
-							fascism > 0.09
+							national_vanguard > 0.09
 						}
 					}
 					#Add modifier (only once)

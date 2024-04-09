@@ -5308,7 +5308,7 @@ focus_tree = {
 		completion_reward = {
 			promote_character = {
 				character = NOR_jonas_lie
-				ideology = gen_national_vanguard
+				ideology = national_vanguard
 			}
 		}
 	}
