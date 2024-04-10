@@ -176,11 +176,15 @@
  JAP_neutrality_party_kodoha_long:0 "Kodoha Faction"
  JAP_neutrality_party_kodoha:0 "Kodoha Faction"
  
- USA_communism_party:0 "Socialist Party of America"
+ USA_communism_party:0 "SPA (True Bolsheviks)"
+ USA_communism_party_long:0 "Socialist Party of America (True Bolsheviks)"
+ USA_communism_party_desc:0 "The True Bolshevik faction of the Socialist Party of America stands up for the communist ideals of political philosophers such as Karl Marx, Friedrich Engels and Gramsci, being the majority in the American Congress of Trade Unions."
  USA_democratic_party:0 "Democratic Party"
  USA_republican_party:0 "Republican Party"
  USA_national_vanguard_party:0 "Democratic Party (Vanguard)"
- USA_maximalism_party:0 "Democratic Party (Maximalists)"
+ USA_maximalism_party:0 "SPA (Maximalists)"
+ USA_maximalism_party_long:0 "Socialist Party of America (Maximalists)"
+ USA_maximalism_party_desc:0 "Opposing the True Bolsheviks faction, the Maximalists of the Socialist Party of America, mirroring the Maximalism of figures such as Molotov in the Russian Empire and Joachim von Ribbentrop in Germany, they seek to take over the ACTU and install their own dictatorship of the state proletariat, being lead by figures such as Earl Browder and Franklin Delano Roosevelt Jr."
  
  FRA_communism_party:0 "Parti Communiste Francais"
  FRA_democratic_party:0 "Section française de l'Internationale ouvrière"
