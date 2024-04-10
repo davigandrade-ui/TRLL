@@ -17,7 +17,6 @@ focus_tree = {
 		modifier = {
 			add = 10
 			tag = CHL
-			has_dlc = "Trial of Allegiance"
 		}
 	}
 	
@@ -2254,9 +2253,9 @@ focus_tree = {
 
 						amount_taken_ideas = {
 						    amount < 3
-						    slots = {
-						        political_advisor
-						    }
+						    #slots = {
+						    #    political_advisor
+						    #}
 						}
 					}
 					add_ideas = CHL_carlos_ibanez

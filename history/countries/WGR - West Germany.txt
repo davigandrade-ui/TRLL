@@ -176,7 +176,7 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 80
-	fascism = 10
+	national_vanguard = 10
 	communism = 10
 }
 
@@ -189,7 +189,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Klaus_Klauser
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = national_vanguard
 	traits = {
 	}
 }

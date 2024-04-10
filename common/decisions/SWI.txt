@@ -1850,7 +1850,7 @@ SWI_federal_council_decisions_category = {
 		}	
 	}
 
-	SWI_spouse_national_vanguard = { #For Fascist Propagandist and fascist recruiters 
+	SWI_spouse_fascism = { #For Fascist Propagandist and fascist recruiters 
 	
 		icon = GFX_decision_hol_radio_oranje
 

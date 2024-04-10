@@ -18,5 +18,17 @@ bookmarks = {
 			focuses = {
 			}	
 		}
+
+		"TUR"={
+			history = "REM_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				TUR_disorganised_armed_forces
+				TUR_sectarian_woes_2
+				TUR_legacy_of_ataturk_defiled
+			}
+			focuses = {
+			}	
+		}
 	}
 }

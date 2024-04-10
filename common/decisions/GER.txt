@@ -525,7 +525,7 @@ GER_reichskommissariats = {
 							desc = "POLITICS_JOSEF_TERBOVEN_DESC"
 							picture = GFX_portrait_Josef_Terboven
 							expire = "1965.1.1"
-							ideology = nazism
+							ideology = national_vanguard
 							traits = {
 							}
 						}
@@ -558,7 +558,7 @@ GER_reichskommissariats = {
 						desc = "POLITICS_JOSEF_TERBOVEN_DESC"
 						picture = GFX_portrait_Josef_Terboven
 						expire = "1965.1.1"
-						ideology = nazism
+						ideology = national_vanguard
 						traits = {
 						}
 					}
@@ -630,7 +630,7 @@ GER_reichskommissariats = {
 						desc = "POLITICS_ARTHUR_SEYSS_INQUART_DESC"
 						picture = GFX_portrait_Arthur_Seyss_Inquart
 						expire = "1965.1.1"
-						ideology = nazism
+						ideology = national_vanguard
 						traits = {
 						}
 					}
@@ -647,7 +647,7 @@ GER_reichskommissariats = {
 						desc = "POLITICS_ARTHUR_SEYSS_INQUART_DESC"
 						picture = GFX_portrait_Arthur_Seyss_Inquart
 						expire = "1965.1.1"
-						ideology = nazism
+						ideology = national_vanguard
 						traits = {
 						}
 					}
@@ -717,7 +717,7 @@ GER_reichskommissariats = {
 						desc = "POLITICS_JOSEF_GROHE_DESC"
 						picture = GFX_portrait_Josef_Grohe
 						expire = "1965.1.1"
-						ideology = nazism
+						ideology = national_vanguard
 						traits = {
 						}
 					}
@@ -737,7 +737,7 @@ GER_reichskommissariats = {
 						desc = "POLITICS_JOSEF_GROHE_DESC"
 						picture = GFX_portrait_Josef_Grohe
 						expire = "1965.1.1"
-						ideology = nazism
+						ideology = national_vanguard
 						traits = {
 						}
 					}
@@ -886,7 +886,7 @@ GER_reichskommissariats = {
 					desc = "POLITICS_HINRICH_LOHSE_DESC"
 					picture = GFX_portrait_Hinrich_Lohse
 					expire = "1965.1.1"
-					ideology = nazism
+					ideology = national_vanguard
 					traits = {
 					}
 				}
@@ -938,8 +938,8 @@ GER_reichskommissariats = {
 		}
 
 		complete_effect = {
-			release_on_controlled = UKR
-			UKR = {
+			release_on_controlled = CKU
+			CKU = {
 				set_state_controller = 93
 				set_state_controller = 91
 				set_state_controller = 89
@@ -969,7 +969,7 @@ GER_reichskommissariats = {
 					desc = "POLITICS_HINRICH_LOHSE_DESC"
 					picture = GFX_portrait_Erich_Koch
 					expire = "1965.1.1"
-					ideology = nazism
+					ideology = national_vanguard
 					traits = {
 					}
 				}

@@ -3,7 +3,59 @@
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	paratroopers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	basic_train = 1
+	iw_small_airframe = 1
+	aa_lmg = 1
+	aa_cannon_1 = 1
+	early_bombs = 1
+	engines_1 = 1
+	engines_2 = 1
+	iw_medium_airframe = 1
+	iw_large_airframe = 1
+	basic_small_airframe = 1
+	basic_medium_airframe = 1
+	aircraft_construction = 1
+	air_torpedoe_1 = 1
+	gwtank_chassis = 1
+	basic_light_tank_chassis = 1
+	improved_light_tank_chassis = 1
+	engine_tech_1 = 1
+	engine_tech_2 = 1
+	basic_naval_mines = 1
+	submarine_mine_laying = 1
+	early_ship_hull_light = 1
+	basic_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	basic_ship_hull_submarine = 1
+	early_ship_hull_cruiser = 1
+	basic_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	basic_battery = 1
+	basic_light_battery = 1
+	basic_torpedo = 1
+	basic_depth_charges = 1
+	mtg_transport = 1
+	armored_car1 = 1
 }
+
+set_oob = "SOV_1936_nsb"
+set_naval_oob = "SOV_1936_naval_mtg"
+set_air_oob = "SOV_1936_air_bba"
 
 set_convoys = 10
 
@@ -12,6 +64,140 @@ recruit_character = REM_bukharin
 recruit_character = REM_kerensky
 recruit_character = REM_ilyin
 recruit_character = REM_Aleksandra_Samusenko
+recruit_character = SOV_aleksandr_vasilevsky
+recruit_character = SOV_aleksandr_golovanov
+recruit_character = SOV_aleksandr_gorbatov
+recruit_character = SOV_aleksandr_novikov
+recruit_character = SOV_aleksandr_yegorov
+recruit_character = SOV_andrey_grechko
+recruit_character = SOV_andrey_vlasov
+recruit_character = SOV_andrey_yeryomenko
+recruit_character = SOV_arseny_golovko
+recruit_character = SOV_boris_shaposhnikov
+recruit_character = SOV_dmitry_lelyushenko
+recruit_character = SOV_filipp_golikov
+recruit_character = SOV_filipp_oktyabrsky
+recruit_character = SOV_georgy_zakharov
+recruit_character = SOV_georgy_zhukov
+recruit_character = SOV_gordey_levchenko
+recruit_character = SOV_grigory_kulik
+recruit_character = SOV_igor_kurchatov
+recruit_character = SOV_issa_pliyev
+recruit_character = SOV_ivan_chernyakhovsky
+recruit_character = SOV_ivan_fedyuninsky
+recruit_character = SOV_ivan_konev
+recruit_character = SOV_ivan_yumashev
+recruit_character = SOV_kirill_meretskov
+recruit_character = SOV_kirill_moskalenko
+recruit_character = SOV_kliment_voroshilov
+recruit_character = SOV_konstantin_rokossovsky
+recruit_character = SOV_konstantin_vershinin
+recruit_character = SOV_kuzma_galitsky
+recruit_character = SOV_leonid_govorov
+recruit_character = SOV_maksim_purkayev
+recruit_character = SOV_markian_popov
+recruit_character = SOV_maks_reyter
+recruit_character = SOV_mikhail_frinovsky
+recruit_character = SOV_mikhail_tukhachevsky
+recruit_character = SOV_nikandr_chibisov
+recruit_character = SOV_nikolay_berzarin
+recruit_character = SOV_nikolay_vatutin
+recruit_character = SOV_nikolay_kuznetsov
+recruit_character = SOV_pavel_rychagov
+recruit_character = SOV_pavel_zhigarev
+recruit_character = SOV_pyotr_smirnov
+recruit_character = SOV_rodion_malinovsky
+recruit_character = SOV_semyon_budyonny
+recruit_character = SOV_semyon_timoshenko
+recruit_character = SOV_sergey_khudyakov
+recruit_character = SOV_sergey_korolyov
+recruit_character = SOV_sergey_rudenko
+recruit_character = SOV_sergey_gorshkov
+recruit_character = SOV_stepan_krasovsky
+recruit_character = SOV_vasily_blyukher
+recruit_character = SOV_vasily_chuykov
+recruit_character = SOV_vasily_kuznetsov
+recruit_character = SOV_vladimir_kasatonov
+recruit_character = SOV_vladimir_tributs
+recruit_character = SOV_yakov_cherevichenko
+recruit_character = SOV_yakov_smushkevich
+recruit_character = SOV_vitaly_primakov
+	recruit_character = SOV_pyotr_krasnov
+	recruit_character = SOV_konstantin_nechayev
+	recruit_character = SOV_aleksandr_rodzyanko
+	recruit_character = SOV_vladimir_kosmin
+	recruit_character = SOV_andrey_shkuro
+	recruit_character = SOV_anton_denikin
+	recruit_character = SOV_anastasy_vonsyatsky
+	# recruit_character = SOV_grigory_semyonov # starts as an advisor to Puyi
+	recruit_character = SOV_metropolitan_anastasy
+	recruit_character = SOV_metropolitan_nikolay
+	recruit_character = SOV_nikolay_ustryalov
+	recruit_character = SOV_aleksandr_kazembek
+	recruit_character = SOV_metropolitan_aleksy
+	recruit_character = SOV_metropolitan_meletius
+	recruit_character = SOV_aleksandr_prokofyev_seversky
+	recruit_character = SOV_vyacheslav_tkachyov
+	recruit_character = SOV_yan_nagursky
+	recruit_character = SOV_vasily_yanchenko
+	recruit_character = SOV_tsar_vladimir_kirillovich	
+#Not available at game start
+recruit_character = SOV_vasily_korzh
+recruit_character = SOV_sidor_kovpak
+recruit_character = SOV_lev_dovator
+recruit_character = SOV_pavel_rybalko
+
+
+	create_operative_leader = {
+		name = "Alexander Radó"
+		GFX = GFX_portrait_alexander_rado
+		traits = { operative_natural_orator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { REM HUN }
+	}
+
+	create_operative_leader = {
+		name = "Kim Philby"
+		GFX = GFX_portrait_kim_philby
+		traits = { operative_double_agent operative_infiltrator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { REM ENG }
+	}
+	create_operative_leader = {
+		name = "Richard Sorge"
+		GFX = GFX_portrait_richard_sorge
+		traits = { operative_well_groomed }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { REM GER }
+	}
+
+
+### Mitteleuropa ###
+create_economic_sphere = yes
+var:economic_sphere = {
+	set_character_name = mitteleuropa_title
+	var:desc = { set_character_name = MIT_mitteleuropa_modifier_desc }
+	var:icon = { set_character_name = "GFX_goal_GER_mitteleuropa" }
+}
+
+REM_add_to_mitteleuropa = yes #Germany needs to be the first index in the array
+every_country = {
+	limit = {
+		OR = {
+			tag = CKU
+			tag = BGO
+			tag = DFI
+			tag = BUL
+			tag = CAV
+			tag = POL
+			tag = SER
+		}
+	}
+	REM_add_to_mitteleuropa = yes
+}
 
 
 set_autonomy = {

@@ -481,8 +481,8 @@ should_USA_invade_europe_or_africa = {
 					has_government = democratic
 					ENG = { has_government = democratic }
 					OR = {
-						GER = { has_government = fascism }
-						ITA = { has_government = fascism }
+						GER = { has_government = national_vanguard }
+						ITA = { has_government = national_vanguard }
 					}
 				}
 				is_in_array = { potential_and_current_enemies = GER }
@@ -663,8 +663,8 @@ has_same_ideology = {
 				ROOT = { has_government = democratic }
 			}
 			AND = {
-				has_government = fascism
-				ROOT = { has_government = fascism }
+				has_government = national_vanguard
+				ROOT = { has_government = national_vanguard }
 			}
 			AND = {
 				has_government = communism
@@ -1060,7 +1060,7 @@ big_communist_exists = {
 big_fascist_exists = {
 	any_other_country = {
 		is_major = yes 
-		has_government = fascism
+		has_government = national_vanguard
 		has_capitulated = no 
 		exists = yes 
 	}
@@ -1379,7 +1379,7 @@ is_democratic_seller_trigger = {
 #Subsidy Seller Triggers
 is_fascist_seller_trigger = {
 	NOT = { has_war_with = ROOT	}
-	has_government = fascism 
+	has_government = national_vanguard 
 }
 
 is_democracy_seller_trigger = {

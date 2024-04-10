@@ -88,7 +88,7 @@ if = {
 }
 
 set_popularities = {
-	fascism = 34
+	national_vanguard = 34
 	democratic = 30
 	communism = 36
 }
@@ -98,7 +98,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Drastamat_Kanayan
 	expire = "1953.3.1"
-	ideology = fascism_ideology
+	ideology = national_vanguard
 	traits = {
 		
 	}

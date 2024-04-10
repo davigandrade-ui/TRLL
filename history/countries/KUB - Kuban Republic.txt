@@ -78,7 +78,7 @@ set_popularities = {
 	democratic = 30
 	neutrality = 30
 	communism = 20
-	fascism = 20
+	national_vanguard = 20
 }
 
 #TODO, James make Ivan Kononov country leader for the fascists

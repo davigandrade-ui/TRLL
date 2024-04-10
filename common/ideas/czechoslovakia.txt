@@ -23,7 +23,7 @@ ideas = {
 			}
 		}
 
-		CZE_czech_national_vanguard = {
+		CZE_czech_fascism = {
 
 			allowed = {
 				always = no
@@ -33,7 +33,7 @@ ideas = {
 				has_government = national_vanguard
 			}
 
-			picture = generic_national_vanguard_drift_bonus
+			picture = generic_fascism_drift_bonus
 
 			removal_cost = -1
 
@@ -420,9 +420,9 @@ ideas = {
 		}
 
 
-		CZE_czech_national_vanguard_idea = {
+		CZE_czech_fascism_idea = {
 
-			picture = generic_national_vanguard_drift_bonus
+			picture = generic_fascism_drift_bonus
 
 			allowed = {
 				original_tag = CZE
@@ -441,9 +441,9 @@ ideas = {
 			}
 		}
 
-		CZE_national_national_vanguard_idea = {
+		CZE_national_fascism_idea = {
 
-			picture = generic_national_vanguard_drift_bonus
+			picture = generic_fascism_drift_bonus
 
 			allowed = {
 				original_tag = CZE

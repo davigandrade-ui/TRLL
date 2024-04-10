@@ -76,7 +76,7 @@ NOR_tank_seller_still_exists = {
 NOR_fascist_norway_exists = {
 	any_country = {
 		original_tag = NOR 
-		has_government = fascism
+		has_government = national_vanguard
 		exists = yes 
 		has_capitulated = no 
 	}
@@ -103,7 +103,7 @@ NOR_valid_fascist_tank_seller = {
 	custom_trigger_tooltip = {
 		tooltip = NOR_valid_fascist_tank_seller_TT 
 		FROM = {
-			has_government = fascism 
+			has_government = national_vanguard 
 			is_major = yes
 			has_capitulated = no
 			NOT = {
@@ -227,7 +227,7 @@ NOR_char_cw_loyalist = { #These will stay with either the monarchy or any democr
 }
 
 NOR_char_cw_fascist = { # Run off the mill fascists
-	has_government = fascism
+	has_government = national_vanguard
 }
 
 

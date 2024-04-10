@@ -133,7 +133,7 @@ set_politics = {
 set_popularities = {
 	democratic = 40
 	communism = 25
-	fascism = 30
+	national_vanguard = 30
 	neutrality = 5
 }
 
@@ -167,7 +167,7 @@ create_country_leader = {
 	desc = "POLITICS_IHSAN_NURI_DESC"
 	picture = "GFX_portrait_kur_ihsan_nuri"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = national_vanguard
 	traits = {
 		experienced_insurgent
 	}

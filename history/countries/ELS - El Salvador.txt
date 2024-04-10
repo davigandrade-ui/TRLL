@@ -94,7 +94,7 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	fascism = 100
+	national_vanguard = 100
 }
 
 1939.1.1 = {

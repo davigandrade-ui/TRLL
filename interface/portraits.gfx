@@ -260,4 +260,10 @@ spriteTypes = {
 		name = "GFX_jacques_doriot"
 		texturefile = "gfx/leaders/FRA/portrait_doriot.dds"
 	}
+
+	spriteType = {
+		name = "GFX_recebzade_erdogan_efendi"
+		texturefile = "gfx/leaders/TUR/portrait_recebzade_erdogan_efendi.dds"
+	}
+
 }

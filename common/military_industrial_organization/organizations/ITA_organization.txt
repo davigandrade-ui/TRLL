@@ -16,22 +16,10 @@ ITA_fiat_organization = {
 	allowed = {	
 		OR = {
 			tag = ITA 
-			AND = {
-				tag = GRE 
-				has_dlc = "Battle for the Bosporus"
-			}
-			AND = {
-				tag = BUL 
-				has_dlc = "Battle for the Bosporus"
-			}
-			AND = {
-				tag = ETH 
-				has_dlc = "By Blood Alone"
-			}
-			AND = {
-				tag = BRA
-				has_dlc = "Trial of Allegiance"
-			}
+			tag = GRE 
+			tag = BUL 
+			tag = ETH 
+			tag = BRA
 		}
 	}
 
@@ -139,10 +127,7 @@ ITA_crda_organization = {
 	allowed = {	
 		OR = {
 			tag = ITA 
-			AND = {
-				tag = BUL 
-				has_dlc = "Battle for the Bosporus"
-			}
+			tag = BUL 
 		}
 	}
 	
@@ -384,10 +369,7 @@ ITA_macchi_organization = {
 	allowed = {	
 		OR = {
 			tag = ITA 
-			AND = {
-				tag = ETH 
-				has_dlc = "By Blood Alone"
-			}
+			tag = ETH
 		}
 	}
 	
@@ -544,10 +526,7 @@ ITA_caproni_organization = {
 	allowed = {	 
 		OR = {
 			tag = ITA 
-			AND = {
-				tag = ETH 
-				has_dlc = "By Blood Alone"
-			}
+			tag = ETH 
 		}
 	}
 
@@ -646,10 +625,7 @@ ITA_imam_organization = {
 	allowed = {	
 		OR = {
 			tag = ITA 
-			AND = {
-				tag = ETH 
-				has_dlc = "By Blood Alone"
-			}
+			tag = ETH
 		}
 	}
 
@@ -750,10 +726,7 @@ ITA_fiat_aviazione_organization = {
 	allowed = {	 
 		OR = {
 			tag = ITA
-			AND = {
-				tag = BRA
-				has_dlc = "Trial of Allegiance"
-			}
+			tag = BRA
 		} 
 	}
 	
@@ -859,10 +832,7 @@ ITA_beretta_organization = {
 	allowed = {	 
 		OR = {
 			tag = ITA 
-			AND = {
-				tag = ETH
-				has_dlc = "By Blood Alone"
-			}
+            tag = ETH
 		}
 	}
 
@@ -921,10 +891,7 @@ ITA_lancia_organization = {
 	allowed = {	 
 		OR = {
 			tag = ITA 
-			AND = {
-				tag = BUL 
-				has_dlc = "Battle for the Bosporus"
-			}
+            tag = BUL
 		}
 	}
 	
@@ -991,10 +958,7 @@ ITA_breda_organization = {
 	allowed = {	 
 		OR = {
 			tag = ITA 
-			AND = {
-				tag = ETH
-				has_dlc = "By Blood Alone"
-			}
+            tag = ETH
 		}
 	}
 
@@ -1092,7 +1056,6 @@ ITA_officine_meccaniche_organization = {
 	
 	allowed = {
 		original_tag = ITA
-		has_dlc = "By Blood Alone"
 	}
 	
 	available = {

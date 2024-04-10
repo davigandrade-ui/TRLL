@@ -54,7 +54,7 @@ set_variable = { ARG_anti_corruption_democratic_factor = 0.03 }
 set_variable = { ARG_anti_corruption_war_support_factor = -0.2 }
 
 # Growing Nationalism Modifier
-set_variable = { ARG_growing_nationalism_fascism_drift = 0.05 } 
+set_variable = { ARG_growing_nationalism_national_vanguard_drift = 0.05 } 
 set_variable = { ARG_growing_nationalism_recruitable_population_factor = 0.02 }
 set_variable = { ARG_growing_nationalism_stability_factor = 0.05 }
 set_variable = { ARG_growing_nationalism_war_support_factor = 0 }
@@ -333,7 +333,7 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 25
-	fascism = 20
+	national_vanguard = 20
 	communism = 25
 	neutrality = 30
 }
@@ -348,7 +348,7 @@ set_popularities = {
 
 	set_popularities = {
 		democratic = 15
-		fascism = 20
+		national_vanguard = 20
 		communism = 15
 		neutrality = 50
 	}

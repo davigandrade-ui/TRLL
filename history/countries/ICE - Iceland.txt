@@ -239,7 +239,7 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 96
-	fascism = 2
+	national_vanguard = 2
 	communism = 2
 }
 
@@ -252,7 +252,7 @@ set_popularities = {
 	}
 	set_popularities = {
 		democratic = 84
-		fascism = 2
+		national_vanguard = 2
 		communism = 2
 		neutrality = 12
 	}
@@ -278,7 +278,7 @@ IF = {
 		desc = ""
 		picture = GFX_portrait_Johannes_Valurson
 		expire = "1965.1.1"
-		ideology = fascism_ideology
+		ideology = national_vanguard
 		traits = {
 			#
 		}

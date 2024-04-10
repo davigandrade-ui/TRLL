@@ -1,0 +1,333 @@
+focus_tree = {
+	id = ottoman_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = OTT
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 100 y = 3250 }
+
+	focus = {
+		id = OTT_war_for_survival
+		icon = GFX_focus_eng_expose_the_belly_of_the_bear
+		cost = 5
+		x = 8
+		y = 0
+		available = {
+
+		}
+		completion_reward = {
+	    add_ideas = tot_economic_mobilisation
+			}
+	}
+
+	focus = {
+		id = OTT_denounce
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = OTT_war_for_survival }
+		relative_position_id = OTT_war_for_survival
+		cost = 5
+		x = 0
+		y = 1
+		available = {
+
+		}
+		completion_reward = {
+	    add_political_power = 100
+			}
+	}
+
+	focus = {
+		id = OTT_masallah
+		icon = GFX_focus_TUR_loosen_the_laws_on_secularism
+		prerequisite = { focus = OTT_denounce }
+		x = 3
+		y = 1
+		relative_position_id = OTT_denounce
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+	
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			add_ideas = TUR_islam
+		}
+	}
+
+	focus = {
+		id = OTT_gayretullah
+		icon = GFX_goal_continuous_suppression
+		prerequisite = { focus = OTT_masallah }
+		x = 0
+		y = 1
+		relative_position_id = OTT_masallah
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+	
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = TUR_islam
+				add_idea = TUR_islam_2
+			}		
+		}
+	}	
+
+	focus = {
+		id = TUR_bread_for_the_people
+		icon = GFX_focus_SOV_breadbasket_of_the_union
+		prerequisite = { focus = OTT_denounce }
+		x = -3
+		y = 1
+		relative_position_id = OTT_denounce
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+
+	focus = {
+		id = TUR_three_children
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = TUR_bread_for_the_people }
+		x = 0
+		y = 1
+		relative_position_id = TUR_bread_for_the_people
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			add_country_leader_trait = uc_cocuk
+		}
+	}
+
+	focus = {
+		id = OTT_reach_out_to_britain
+		icon = GFX_focus_chi_british_cooperation
+		prerequisite = { focus = OTT_denounce }
+		x = 0
+		y = 1
+		relative_position_id = OTT_denounce
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			custom_effect_tooltip = OTT_britain_spies
+			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 1000 producer = ENG }
+		}
+	}
+
+	focus = {
+		id = OTT_yerli_ve_milli
+		icon = GFX_goal_generic_air_fighter2
+		prerequisite = { focus = OTT_reach_out_to_britain }
+		x = 1
+		y = 2
+		relative_position_id = OTT_denounce
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+	
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+					ENG = { 
+						create_production_license = {
+							target = TUR
+							equipment = {
+							    type = small_plane_airframe
+							}
+							cost_factor = 0
+						}
+					}
+		}
+	}
+
+	focus = {
+		id = OTT_last_defense
+		icon = GFX_goal_generic_defence
+		prerequisite = { focus = OTT_reach_out_to_britain }
+		prerequisite = { focus = OTT_gayretullah focus = TUR_three_children }
+		x = 0
+		y = 2
+		relative_position_id = OTT_reach_out_to_britain
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		casualties > 100000
+		surrender_progress > 0.7
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+		set_country_flag = { flag = OTT_last_defense_cooldown value = 1 days = 90 }
+		random_owned_controlled_state = {
+						add_dynamic_modifier = {
+						modifier = OTT_last_defense
+				}
+				prioritize = { 354 }
+								
+	
+			}
+		}
+	}
+
+	focus = {
+		id = OTT_true_caliph
+		icon = GFX_focus_TUR_pivot_to_the_past
+		prerequisite = { focus = OTT_last_defense }
+		x = 0
+		y = 1
+		relative_position_id = OTT_last_defense
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+				not = { has_country_flag = OTT_last_defense_cooldown }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+		custom_effect_tooltip = OTT_cooldown_tt
+		swap_ruler_traits = { remove = self_declared_caliph add = true_caliph }
+		}
+	}
+
+}

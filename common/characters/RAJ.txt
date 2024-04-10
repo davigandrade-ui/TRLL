@@ -785,7 +785,7 @@ characters={
 				small="GFX_idea_RAJ_subhas_chanda_bose" #small="GFX_idea_generic_political_advisor_india_1"
 			}
 			civilian ={
-				large = "GFX_RAJ_subhas_chandra_bose" #Can become country leader (Communism -> Stalinism) (national_vanguard -> Nazism)
+				large = "GFX_RAJ_subhas_chandra_bose" #Can become country leader (Communism -> Stalinism) (national_vanguard -> national_vanguard)
 			}
 		}
 		advisor={

@@ -90,7 +90,7 @@ set_politics = {
 
 set_popularities = {
 	democratic = 80
-	fascism = 10
+	national_vanguard = 10
 	communism = 10
 }
 

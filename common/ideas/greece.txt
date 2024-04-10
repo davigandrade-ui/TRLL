@@ -635,7 +635,7 @@ ideas = {
 				
 		}
 
-		GRE_political_instability_national_vanguard = {
+		GRE_political_instability_fascism = {
 				
 			allowed = {
 				original_tag = GRE
@@ -645,7 +645,7 @@ ideas = {
 				always = no
 			}
 
-			picture = gre_political_instability_national_vanguard
+			picture = gre_political_instability_fascism
 				
 			removal_cost = -1
 				
@@ -654,7 +654,7 @@ ideas = {
 			}
 		}
 
-		GRE_state_of_the_nation_national_vanguard = {
+		GRE_state_of_the_nation_fascism = {
 				
 			allowed = {
 				original_tag = GRE
@@ -664,7 +664,7 @@ ideas = {
 				always = no
 			}
 
-			picture = gre_political_instability_national_vanguard
+			picture = gre_political_instability_fascism
 				
 			removal_cost = -1
 				
@@ -825,7 +825,7 @@ ideas = {
 				has_government = national_vanguard
 			}
 
-			picture = generic_national_vanguard_drift_bonus
+			picture = generic_fascism_drift_bonus
 				
 			removal_cost = -1
 				

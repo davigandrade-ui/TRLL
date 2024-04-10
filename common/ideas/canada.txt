@@ -398,7 +398,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_national_vanguard_drift_bonus
+			picture = generic_fascism_drift_bonus
 
 			modifier = {
 				democratic_drift = -0.1
@@ -417,7 +417,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_national_vanguard_drift_bonus
+			picture = generic_fascism_drift_bonus
 
 			modifier = {
 				democratic_drift = -0.1
@@ -438,7 +438,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_national_vanguard_drift_bonus
+			picture = generic_fascism_drift_bonus
 
 			modifier = {
 				democratic_drift = -0.1
@@ -743,7 +743,6 @@ ideas = {
 
 			allowed = {
 				original_tag = CAN
-				has_dlc = "Together for Victory"
 			}
 
 			research_bonus = {
@@ -766,7 +765,6 @@ ideas = {
 
 			allowed = {
 				original_TAG = CAN
-				has_dlc = "Together for Victory"
 			}
 
 
@@ -787,7 +785,6 @@ ideas = {
 
 			allowed = {
 				original_tag = CAN
-				has_dlc = "Together for Victory"
 			}
 
 			research_bonus = {
@@ -804,7 +801,6 @@ ideas = {
 
 			allowed = {
 				original_tag = CAN
-				has_dlc = "Together for Victory"
 			}
 
 			available = {
@@ -830,7 +826,6 @@ ideas = {
 
 			allowed = {
 				original_TAG = CAN
-				has_dlc = "Together for Victory"
 			}
 
 
@@ -850,7 +845,6 @@ ideas = {
 
 			allowed = {
 				original_TAG = CAN
-				has_dlc = "Together for Victory"
 			}
 
 
@@ -961,7 +955,6 @@ ideas = {
 
 			allowed = {
 				original_tag = CAN
-				has_dlc = "Together for Victory"
 			}
 
 			available = {
@@ -988,7 +981,6 @@ ideas = {
 
 			allowed = {
 				original_tag = CAN
-				has_dlc = "Together for Victory"
 			}
 
 			available = {

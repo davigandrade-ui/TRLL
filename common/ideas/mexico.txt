@@ -22,7 +22,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = generic_national_vanguard_drift_bonus
+			picture = generic_fascism_drift_bonus
 			
 			modifier = {
 				stability_factor = -0.05
@@ -603,7 +603,7 @@ ideas = {
 		
 		MEX_legion_of_christ = {
 		
-			picture = generic_national_vanguard_drift_bonus
+			picture = generic_fascism_drift_bonus
 			
 			allowed = {
 				always = no
@@ -623,7 +623,7 @@ ideas = {
 		
 		MEX_triumph_of_synarchism = {
 		
-			picture = generic_national_vanguard_drift_bonus
+			picture = generic_fascism_drift_bonus
 			
 			allowed = {
 				always = no
@@ -768,7 +768,7 @@ ideas = {
 		}		
 		MEX_synarchist_influence = {
 
-			picture = generic_national_vanguard_drift_bonus
+			picture = generic_fascism_drift_bonus
 
 			allowed = {
 				always = no
@@ -829,7 +829,7 @@ ideas = {
 		
 		synarchist_youth = {
 
-			picture = generic_national_vanguard_drift_2
+			picture = generic_fascism_drift_2
 
 			allowed = {
 				always = no

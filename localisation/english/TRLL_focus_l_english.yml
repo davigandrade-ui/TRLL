@@ -89,3 +89,45 @@
  JAP_take_manchuria_tt:0 "§4Adds 1 level infrastructure to every Manchuria state you control§!"
  
  JAP_prepare_for_war_with_the_soviet_union_tt:0 "§4This advisor %50 cheaper(75pp)§!"
+
+ TUR_denounce:0 "Denounce Fundamentalists"
+
+ TUR_emergency_railway_iniative:0 "Railway Initiative"
+
+ TUR_emergency_railway_iniative_tt:0 "§RDebt to council will increase!§!"
+
+ TUR_bread_for_the_people:0 "Bread For The People"
+
+ TUR_choose_fevzi:0 "Fevzi Çakmak's Plan"
+
+ TUR_choose_fahrettin:0 "Fahrettin Altay's Plan"
+
+ OTT_yerli_ve_milli:0 "Yerli ve Milli"
+
+ OTT_denounce:0 "Issue a Fatwa"
+
+ OTT_masallah:0 "Masallah, Insallah"
+
+ TUR_the_idea_that_unites_us:0 "The Idea That Unites Us"
+
+ TUR_war_economyy:0 "Tekâlif-i Milliye"
+
+ OTT_war_for_survival:0 "War For Survival"
+
+ OTT_gayretullah:0 "Gayretullah"
+
+ TUR_three_children:0 "Three Children"
+
+ TUR_direct_control_from_ankara:0 "Direct Control From Ankara"
+
+ TUR_fuel_the_war_machine:0 "Fuel The War machine"
+
+ OTT_last_defense:0 "Last Defense"
+
+ OTT_britain_spies:0 "§RNothing is free. Beware of British spies.§!\n"
+
+ OTT_reach_out_to_britain:0 "Reach Out To Britain"
+
+ OTT_true_caliph:0 "True Caliph"
+
+ OTT_cooldown_tt:0 "§R90 days must pass after taking last defense§!\n\n"

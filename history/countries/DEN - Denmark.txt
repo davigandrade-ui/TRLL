@@ -401,7 +401,7 @@ if = {
 	}
 	set_popularities = {
 		democratic = DEN_democratic_popularity
-		fascism = DEN_fascism_popularity
+		national_vanguard = DEN_fascism_popularity
 		communism = DEN_communism_popularity
 		neutrality = DEN_neutrality_popularity
 	}
@@ -414,7 +414,7 @@ if = {
 	}
 	set_popularities = {
 		democratic = 94
-		fascism = 1
+		national_vanguard = 1
 		communism = 2
 		neutrality = 3
 	}

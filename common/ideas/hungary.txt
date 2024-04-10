@@ -140,7 +140,7 @@ ideas = {
 			}
 		}
 
-		HUN_hungarian_monarchy_national_vanguard = {			
+		HUN_hungarian_monarchy_fascism = {			
 			allowed = {
 				original_tag = HUN
 				always = no
@@ -244,7 +244,7 @@ ideas = {
 				original_tag = HUN
 				always = no
 			}
-			picture = generic_national_vanguard_drift_2
+			picture = generic_fascism_drift_2
 			
 			modifier = {
 				national_vanguard_drift = 0.03

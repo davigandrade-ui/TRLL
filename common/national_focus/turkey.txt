@@ -15,34 +15,286 @@ focus_tree = {
 
 	continuous_focus_position = { x = 100 y = 3250 }
 
-	initial_show_position = {
-		x = 20
+
+	focus = {
+		id = TUR_war_economyy
+		icon = GFX_goal_economic_control
+		cost = 5
+		x = 8
 		y = 0
+		available = {
+
+		}
+		completion_reward = {
+	    add_ideas = tot_economic_mobilisation
+			}
 	}
 
 	focus = {
-		id = TUR_the_montreux_convention
-		icon = GFX_focus_TUR_the_montreux_convention
+		id = TUR_denounce
+		icon = GFX_goal_continuous_def_against_influence
+		prerequisite = { focus = TUR_war_economyy }
+		cost = 5
+		x = 0
+		y = 1
+		relative_position_id = TUR_war_economyy
 		available = {
-			TUR = { is_subject = no }
+
 		}
-		x = 5
-		y = 0
-		cost = 10
+		completion_reward = {
+	    add_political_power = 100
+			}
+	}
+
+	focus = {
+		id = TUR_emergency_railway_iniative
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = TUR_denounce }
+		x = -1
+		y = 1
+		relative_position_id = TUR_denounce
+
+		cost = 5
+
 		ai_will_do = {
-			base = 10
+			factor = 1
+		}
+
+		available = {
+		controls_state = 342
+		has_full_control_of_state = 345	
 		}
 
 		bypass = {
-			341 = { is_demilitarized_zone = no }
-			797 = { is_demilitarized_zone = no }
-			340 = { is_demilitarized_zone = no }
+
 		}
 
-		search_filters = { FOCUS_FILTER_POLITICAL }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
 		completion_reward = {
-			ENG = { country_event = { id = bftb_turkey.1 } }
-			custom_effect_tooltip = TUR_the_montreux_convention_tt
+				custom_effect_tooltip = TUR_emergency_railway_iniative_tt
+
+			build_railway = { #Mukden-Korean border
+				path = {
+					1005 1122 4127 4008 7026 4124 10056 11810 11746
+				}
+			}
 		}
 	}
+
+	focus = {
+		id = TUR_the_idea_that_unites_us
+		icon = GFX_focus_TUR_ratify_the_six_arrows
+		prerequisite = { focus = TUR_denounce }
+		x = 1
+		y = 1
+		relative_position_id = TUR_denounce
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+
+	focus = {
+		id = TUR_the_guardians_of_kemalism
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = TUR_denounce }
+		x = 0
+		y = 2
+		relative_position_id = TUR_denounce
+		cost = 5
+		ai_will_do = {
+			base = 10
+		} 
+		
+
+		search_filters = { FOCUS_FILTER_TUR_KEMALISM FOCUS_FILTER_WAR_SUPPORT }
+		completion_reward = {
+		add_ideas = TUR_kemalist_army_officers_limited_power_loyal
+		}
+
+	}
+
+	focus = {
+		id = TUR_choose_fevzi
+		icon = GFX_goal_generic_army_artillery2
+		prerequisite = { focus = TUR_the_guardians_of_kemalism }
+		mutually_exclusive = { focus = TUR_choose_fahrettin }
+		x = -1
+		y = 1
+		relative_position_id = TUR_the_guardians_of_kemalism
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+					swap_ideas = {
+				remove_idea = TUR_kemalist_army_officers_limited_power_loyal
+				add_idea = TUR_superior_will
+			}
+		}
+	}
+
+	focus = {
+		id = TUR_choose_fahrettin
+		icon = GFX_focus_generic_full_social_mobilization
+		prerequisite = { focus = TUR_the_guardians_of_kemalism }
+		mutually_exclusive = { focus = TUR_choose_fevzi }
+		x = 1
+		y = 1
+		relative_position_id = TUR_the_guardians_of_kemalism
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+					swap_ideas = {
+				remove_idea = TUR_kemalist_army_officers_limited_power_loyal
+				add_idea = TUR_more_troops
+			}		
+		}
+	}
+
+	focus = {
+		id = TUR_direct_control_from_ankara
+		icon = GFX_goal_continuous_suppression
+		prerequisite = { focus = TUR_choose_fahrettin focus = TUR_choose_fevzi }
+		x = -1
+		y = 1
+		relative_position_id = TUR_choose_fahrettin
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+					swap_ideas = {
+				remove_idea = TUR_disorganised_armed_forces
+				add_idea = TUR_disorganised_armed_forces_1
+			}		
+		}
+	}
+
+	focus = {
+		id = TUR_fuel_the_war_machine
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = TUR_direct_control_from_ankara }
+		x = 0
+		y = 1
+		relative_position_id = TUR_direct_control_from_ankara
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			random_core_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 0
+					include_locked = yes
+				}
+				is_owned_and_controlled_by = ROOT
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+				}
+			}	
+		}
+	}
+
 }

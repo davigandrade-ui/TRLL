@@ -1704,8 +1704,8 @@ war_measures = {
             }
         }
         modifier = {
-            conscription = 0.03
-            stability_factor = -0.05
+            industrial_capacity_factory = 0.1
+            industrial_capacity_dockyard = 0.1
         }
         ai_will_do = {
 			factor = 1

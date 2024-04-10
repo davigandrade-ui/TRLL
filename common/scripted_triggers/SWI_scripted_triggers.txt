@@ -46,7 +46,7 @@ SWI_is_democratic_to_balance = {
 
 SWI_is_fascist_to_balance = {
 	SWI_is_country_to_balance = yes 
-	has_government = fascism	
+	has_government = national_vanguard	
 }
 
 SWI_is_faction_leader_of_neighbor = {
@@ -60,15 +60,15 @@ SWI_has_easy_fascist_neighbor_option = {
 	OR = {
 		GER = {
 			exists = yes 
-			has_government = fascism 
+			has_government = national_vanguard 
 		}
 		ITA = {
 			exists = yes 
-			has_government = fascism 
+			has_government = national_vanguard 
 		}
 		FRA = {
 			exists = yes 
-			has_government = fascism 
+			has_government = national_vanguard 
 		}
 	}
 }
@@ -85,7 +85,7 @@ is_suitable_fascist_major = { #This is an adaptation of the one found in the Bal
 	capital_scope = { is_on_continent = europe }
 	exists = yes
 	has_capitulated = no
-	has_government = fascism
+	has_government = national_vanguard
 	NOT = { has_war_with = ROOT }
 }
 
@@ -382,7 +382,7 @@ SWI_president_compatible_with_country_politics = {
 					}
 				}
 				AND = {
-					ROOT = { has_government = fascism }
+					ROOT = { has_government = national_vanguard }
 					SWI_councilor_is_fascist = yes 
 				}
 				AND = {
@@ -521,7 +521,7 @@ SWI_any_communist_to_balance_is_about_to_be_angry = {
 SWI_any_fascist_to_balance_is_about_to_be_angry = {
 	any_other_country = {
 		SWI_is_country_to_balance = yes 
-		has_government = fascism 
+		has_government = national_vanguard 
 		SWI_country_about_to_be_angry = yes 
 	}
 }
@@ -555,7 +555,7 @@ SWI_fascist_germany_exists = { #Checks if there's any fascist Germany around
 
 SWI_is_fasc_ger = {
 	original_tag = GER 
-	has_government = fascism
+	has_government = national_vanguard
 }
 
 ###### AI Triggers ##### 

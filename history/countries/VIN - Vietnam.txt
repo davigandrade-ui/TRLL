@@ -99,7 +99,7 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 35
-	fascism = 15
+	national_vanguard = 15
 	communism = 15
 	neutrality = 35
 }
@@ -111,7 +111,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Phan_Boi_Chau
 	expire = "1953.3.1"
-	ideology = fascism_ideology 
+	ideology = national_vanguard 
 	traits = {
 		
 	}

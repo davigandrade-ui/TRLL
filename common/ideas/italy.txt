@@ -1256,7 +1256,7 @@ ideas = {
 		ITA_pact_of_steel = {
 			removal_cost = -1
 
-			picture = generic_national_vanguard_drift_2
+			picture = generic_fascism_drift_2
 				
 			allowed = {
 				original_tag = ITA

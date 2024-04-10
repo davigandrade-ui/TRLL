@@ -14,7 +14,6 @@ focus_tree = {
 		modifier = {
 			add = 10
 			tag = BRA
-			has_dlc = "Trial of Allegiance"
 		}
 	}
 	
@@ -155,7 +154,7 @@ focus_tree = {
 			custom_effect_tooltip = BRA_modify_aotci_ns_intro
 			add_to_variable = {
 				BRA_coup_fascism_factor = 0.05
-				tooltip = fascism_drift_factor_tt
+				tooltip = national_vanguard_drift_factor_tt
 			}
 		}
 	}
@@ -184,7 +183,7 @@ focus_tree = {
 
 		completion_reward = {
 			
-			#set_country_leader_ideology = national_vanguard_ideology
+			#set_country_leader_ideology = national_vanguard
 			custom_effect_tooltip = BRA_estado_moderno_tt
 			hidden_effect = {
 			every_other_country = {
@@ -635,7 +634,7 @@ focus_tree = {
 			custom_effect_tooltip = BRA_modify_estado_novo_ns_intro
 			add_to_variable = {
 				BRA_estado_novo_fascism_factor = -0.2
-				tooltip = fascism_drift_factor_tt
+				tooltip = national_vanguard_drift_factor_tt
 			}
 			add_to_variable = {
 				BRA_estado_novo_democratic_factor = -0.2
@@ -959,7 +958,7 @@ focus_tree = {
 			BRA_plinio_salgado = {
 				add_country_leader_role = {
 					country_leader = {
-						ideology=fascism_ideology
+						ideology=national_vanguard
 						expire="1965.1.1.1"
 						id=-1
 						traits = {

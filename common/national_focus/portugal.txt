@@ -5096,7 +5096,7 @@ focus_tree = {
 					NOT = { has_government = national_vanguard }
 				}
 				set_politics = {
-					ruling_party = fascism
+					ruling_party = national_vanguard
 				}	
 				
 				if = { #Low Stability triggers a Civil War
@@ -5849,7 +5849,7 @@ focus_tree = {
 				set_popularities = {
 						communism = com_pop
 						democratic = dem_pop
-						fascism = fas_pop
+						national_vanguard = fas_pop
 						neutrality = neu_pop
 					}
 			}
@@ -6185,13 +6185,13 @@ focus_tree = {
 								} 
 							}
 							set_politics = {
-								ruling_party = fascism
+								ruling_party = national_vanguard
 							}
 						}
 						set_popularities = {
 							democratic = 0
 							neutrality = 20
-							fascism = 80
+							national_vanguard = 80
 							communism = 0
 						}
 						hidden_effect = {
@@ -6204,7 +6204,7 @@ focus_tree = {
 							add_country_leader_role = {
 								country_leader = {
 									expire = "1954.8.24"
-									ideology = national_vanguard_ideology
+									ideology = national_vanguard
 									traits = {
 										anti_communist
 									}

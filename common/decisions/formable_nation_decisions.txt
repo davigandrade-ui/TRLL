@@ -1780,7 +1780,7 @@ form_ottoman_empire_category = {
 		visible = {
 			original_tag = TUR
 			NOT = { has_global_flag = ottoman_balkans_flag }
-			has_completed_focus = TUR_reclaim_macedonia
+			#has_completed_focus = TUR_reclaim_macedonia
 		}
 
 		complete_effect = {
@@ -1863,7 +1863,7 @@ form_ottoman_empire_category = {
 		visible = {
 			original_tag = TUR
 			NOT = { has_global_flag = ottoman_greece_flag }
-			has_completed_focus = TUR_reclaim_macedonia
+			#has_completed_focus = TUR_reclaim_macedonia
 		}
 
 		complete_effect = {
@@ -1915,7 +1915,7 @@ form_ottoman_empire_category = {
 		visible = {
 			original_tag = TUR
 			NOT = { has_global_flag = ottoman_bosnia_flag }
-			has_completed_focus = TUR_reclaiming_our_lost_empire
+			##has_completed_focus = TUR_reclaiming_our_lost_empire
 		}
 
 		complete_effect = {
@@ -1972,7 +1972,7 @@ form_ottoman_empire_category = {
 		visible = {
 			original_tag = TUR
 			NOT = { has_global_flag = ottoman_romania_flag }
-			has_completed_focus = TUR_reclaiming_our_lost_empire
+			#has_completed_focus = TUR_reclaiming_our_lost_empire
 		}
 
 		complete_effect = {
@@ -2035,8 +2035,8 @@ form_ottoman_empire_category = {
 			original_tag = TUR
 			NOT = { has_global_flag = ottoman_syria_flag }
 			OR = {
-				has_completed_focus = TUR_reclaiming_our_lost_empire
-				has_completed_focus = TUR_the_damascus_diktat
+				#has_completed_focus = TUR_reclaiming_our_lost_empire
+				#has_completed_focus = TUR_the_damascus_diktat
 			}
 		}
 
@@ -2092,7 +2092,7 @@ form_ottoman_empire_category = {
 		visible = {
 			original_tag = TUR
 			NOT = { has_global_flag = ottoman_levant_flag }
-			has_completed_focus = TUR_reclaiming_our_lost_empire
+			#has_completed_focus = TUR_reclaiming_our_lost_empire
 		}
 
 		complete_effect = {
@@ -2146,7 +2146,7 @@ form_ottoman_empire_category = {
 		visible = {
 			original_tag = TUR
 			NOT = { has_global_flag = ottoman_mesopotamia_flag }
-			has_completed_focus = TUR_reclaiming_our_lost_empire
+			#has_completed_focus = TUR_reclaiming_our_lost_empire
 		}
 
 		complete_effect = {
@@ -2208,7 +2208,7 @@ form_ottoman_empire_category = {
 		visible = {
 			original_tag = TUR
 			NOT = { has_global_flag = ottoman_arabia_flag }
-			has_completed_focus = TUR_reclaiming_our_lost_empire
+			#has_completed_focus = TUR_reclaiming_our_lost_empire
 		}
 
 		complete_effect = {
@@ -2278,7 +2278,7 @@ form_ottoman_empire_category = {
 		visible = {
 			original_tag = TUR
 			NOT = { has_global_flag = ottoman_yemen_flag }
-			has_completed_focus = TUR_reclaiming_our_lost_empire
+			#has_completed_focus = TUR_reclaiming_our_lost_empire
 		}
 
 		complete_effect = {
@@ -2337,7 +2337,7 @@ form_ottoman_empire_category = {
 		visible = {
 			original_tag = TUR
 			NOT = { has_global_flag = ottoman_egypt_flag }
-			has_completed_focus = TUR_reclaiming_our_lost_empire
+			#has_completed_focus = TUR_reclaiming_our_lost_empire
 		}
 
 		complete_effect = {
@@ -2398,7 +2398,7 @@ form_ottoman_empire_category = {
 		visible = {
 			original_tag = TUR
 			NOT = { has_global_flag = ottoman_libya_flag }
-			has_completed_focus = TUR_reclaiming_our_lost_empire
+			#has_completed_focus = TUR_reclaiming_our_lost_empire
 		}
 
 		complete_effect = {
@@ -2458,7 +2458,7 @@ form_ottoman_empire_category = {
 		visible = {
 			original_tag = TUR
 			NOT = { has_global_flag = ottoman_tunisia_flag }
-			has_completed_focus = TUR_reclaiming_our_lost_empire
+			#has_completed_focus = TUR_reclaiming_our_lost_empire
 		}
 
 		complete_effect = {
@@ -7725,7 +7725,7 @@ form_turan_category = {
 
 		visible = {
 			original_tag = TUR
-			has_completed_focus = TUR_turanist_ambition
+			#has_completed_focus = TUR_turanist_ambition
 			NOT = { has_global_flag = form_turan_flag }
 		}
 
@@ -7874,7 +7874,7 @@ form_turan_category = {
 		}
 
 		visible = {
-			has_completed_focus = TUR_subdue_the_magyars
+			#has_completed_focus = TUR_subdue_the_magyars
 		}
 
 		fire_only_once = yes
@@ -7948,7 +7948,7 @@ form_turan_category = {
 		}
 
 		visible = {
-			has_completed_focus = TUR_cin_turkleri
+			#has_completed_focus = TUR_cin_turkleri
 		}
 
 		fire_only_once = yes
@@ -8033,7 +8033,7 @@ form_turan_category = {
 		}
 
 		visible = {
-			has_completed_focus = TUR_crowning_ourselves_with_the_fin_ugor
+			#has_completed_focus = TUR_crowning_ourselves_with_the_fin_ugor
 		}
 
 		fire_only_once = yes

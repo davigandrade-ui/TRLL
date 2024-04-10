@@ -277,7 +277,7 @@ IF = {
 	limit = { has_dlc = "By Blood Alone" }
 	set_popularities = {
 		neutrality = 70
-		fascism = 20 
+		national_vanguard = 20 
 		democratic = 5
 		communism = 5
 	}

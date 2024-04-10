@@ -72,7 +72,7 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 50
-	fascism = 3
+	national_vanguard = 3
 	communism = 47
 }
 
@@ -94,7 +94,7 @@ create_country_leader = {
 	name = "Daniel Cardona i Civit"
 	picture = GFX_portrait_Daniel_Cardona_i_Civit
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = national_vanguard
 }
 
 create_country_leader = {

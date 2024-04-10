@@ -760,7 +760,7 @@ country = {
 
 		removal_cost = -1
 
-		picture = generic_national_vanguard_drift_2
+		picture = generic_fascism_drift_2
 
 		modifier = {
 			conscription = 0.02
@@ -1609,7 +1609,7 @@ country = {
 			defense_bonus_against = -0.1
 		}
 
-		picture = generic_national_vanguard_drift_2
+		picture = generic_fascism_drift_2
 
 		modifier = {
 			conscription = 0.02
@@ -1776,7 +1776,7 @@ country = {
 
 		removal_cost = -1
 
-		picture = generic_national_vanguard_drift_bonus
+		picture = generic_fascism_drift_bonus
 
 		modifier = {
 			national_vanguard_drift = 0.1
@@ -1794,7 +1794,7 @@ country = {
 			has_government = national_vanguard
 		}
 
-		picture = generic_national_vanguard_drift_bonus
+		picture = generic_fascism_drift_bonus
 
 		removal_cost = -1
 

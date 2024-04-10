@@ -10740,7 +10740,7 @@ focus_tree = {
 				character = ITA_italo_balbo
 				promote_leader = yes
 				country_leader = {
-					ideology = national_vanguard_ideology
+					ideology = national_vanguard
 					expire = 1965.1.1.1
 					traits =  {	aviation_hero }
 				}
@@ -10802,7 +10802,7 @@ focus_tree = {
 					character = ITA_dino_grandi
 					promote_leader = yes
 					country_leader = {
-						ideology = national_vanguard_ideology
+						ideology = national_vanguard
 						expire = 1965.1.1.1
 						traits =  {
 							silver_tongue
@@ -10815,7 +10815,7 @@ focus_tree = {
 					character = ITA_dino_grandi
 					promote_leader = yes
 					country_leader = {
-						ideology = national_vanguard_ideology
+						ideology = national_vanguard
 						expire = 1965.1.1.1
 						traits =  {
 							silver_tongue_no_lar
@@ -21649,7 +21649,7 @@ focus_tree = {
 							set_popularities = {
 								democratic = ITA.party_popularity_100@democratic
 								neutrality = ITA.party_popularity_100@neutrality
-								fascism = ITA.party_popularity_100@fascism
+								national_vanguard = ITA.party_popularity_100@fascism
 								communism = ITA.party_popularity_100@communism
 							}
 							set_politics = {

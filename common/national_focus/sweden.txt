@@ -4045,10 +4045,10 @@ focus_tree = {
 					has_dlc = "Battle for the Bosporus"
 					TUR = {
 						OR = {
-							has_completed_focus = TUR_fully_integrate_the_is_bank
-							has_completed_focus = TUR_peace_at_home
-							has_completed_focus = TUR_reinvigorate_turkish_nationalism
-							has_completed_focus = TUR_kemalism_and_the_modern_movement
+							#has_completed_focus = TUR_fully_integrate_the_is_bank
+							#has_completed_focus = TUR_peace_at_home
+							#has_completed_focus = TUR_reinvigorate_turkish_nationalism
+							#has_completed_focus = TUR_kemalism_and_the_modern_movement
 						}
 					}
 				}
@@ -8049,7 +8049,7 @@ focus_tree = {
 
 		completion_reward = {
 			set_politics = {
-				ruling_party = fascism
+				ruling_party = national_vanguard
 				elections_allowed = no
 			}
 
@@ -8088,7 +8088,7 @@ focus_tree = {
 			custom_effect_tooltip = SWE_civil_war_tt
 			custom_effect_tooltip = SWE_delegation_to_berlin_tt
 			set_politics = {
-				ruling_party = fascism
+				ruling_party = national_vanguard
 				elections_allowed = no
 			}
 			hidden_effect = {

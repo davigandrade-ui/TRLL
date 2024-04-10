@@ -1798,6 +1798,10 @@ political_actions = {
 				date < 1937.3.1
 				factor = 0
 			}
+			modifier = {
+				has_stability < 0.9
+				factor = 0
+			}
 		}
     }
     give_refuge_ita = {
@@ -1841,6 +1845,10 @@ political_actions = {
 				tag = ENG
 				has_War = no
 				date < 1937.3.1
+				factor = 0
+			}
+			modifier = {
+				has_stability < 0.9
 				factor = 0
 			}
 		}
@@ -2377,7 +2385,7 @@ political_actions = {
 					has_dlc = "Battle for the Bosporus"
 				}
 				NOT = {
-					has_completed_focus = TUR_privatize_the_anadolu_agency
+					#has_completed_focus = TUR_privatize_the_anadolu_agency
 				}
 			}
 			if = {
@@ -2498,7 +2506,7 @@ political_actions = {
 					has_dlc = "Battle for the Bosporus"
 				}
 				NOT = {
-					has_completed_focus = TUR_privatize_the_anadolu_agency
+					#has_completed_focus = TUR_privatize_the_anadolu_agency
 				}
 			}
 			if = {

@@ -1366,7 +1366,7 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {
 			set_politics = {
-				ruling_party = fascism
+				ruling_party = national_vanguard
 			}
 			set_party_name = { ideology = national_vanguard long_name = SPR_fascism_falange_party_long name = SPR_fascism_falange_party }
 			add_popularity = {
@@ -3569,7 +3569,7 @@ focus_tree = {
 			add_stability = 0.05
 			hidden_effect = {
 				kill_country_leader = yes
-				kill_ideology_leader = fascism
+				kill_ideology_leader = national_vanguard
 			}
 			add_country_leader_role = {
 				character = "SPA_francisco_franco"
@@ -3583,7 +3583,7 @@ focus_tree = {
 			add_country_leader_role = {
 				character = "SPA_francisco_franco"
 				country_leader = {
-				  ideology=fascism_ideology
+				  ideology=national_vanguard
 				  traits = { caudillo_1 }
 				  expire="1965.1.1"
 				}
@@ -4129,7 +4129,7 @@ focus_tree = {
 			}
 			NOT = { has_completed_focus = SPA_the_latin_bloc }
 			NOT = { has_government = national_vanguard }
-			fascism < 0.4		
+			national_vanguard < 0.4		
 			NOT = { has_global_flag = POR_iberian_summit_in_progress_flag }
 		}
 		bypass = {
@@ -4821,12 +4821,12 @@ focus_tree = {
 					}
 					remove_trait = {
 						character = SPA_francisco_franco
-						ideology = national_vanguard_ideology
+						ideology = national_vanguard
 						trait = caudillo_1
 					}
 					add_trait = {
 						character = SPA_francisco_franco
-						ideology = national_vanguard_ideology
+						ideology = national_vanguard
 						trait = caudillo_2
 					}
 				}

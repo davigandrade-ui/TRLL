@@ -1,0 +1,57 @@
+﻿capital = 346
+
+set_oob = "OTT_1936"
+
+set_research_slots = 3
+
+recruit_character = TUR_recebzade_erdogan_efendi
+recruit_character = TUR_ahmet_fevzi_pasha 
+recruit_character = TUR_refet_pasha 
+recruit_character = TUR_mehmet_esat_pasha
+recruit_character = TUR_kazim_karabekir
+recruit_character = TUR_fakhri_pasha
+recruit_character = TUR_refet_bele
+recruit_character = TUR_ali_ihsan_sabis
+recruit_character = TUR_ali_fuat_cebesoy
+recruit_character = TUR_rauf_orbay
+recruit_character = TUR_halil_kut
+recruit_character = TUR_nuri_killigil
+recruit_character = TUR_said_i_nursi
+
+set_technology = {
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	tech_recon = 1
+	tech_support = 1
+	tech_trucks = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	basic_train = 1
+	irregular_infantry = 1
+	gwtank_chassis = 1
+	basic_light_tank_chassis = 1
+	basic_naval_mines = 1
+	submarine_mine_laying = 1
+	early_ship_hull_light = 1
+	basic_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	basic_ship_hull_submarine = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	basic_battery = 1
+	basic_torpedo = 1
+	coastal_defense_ships = 1
+	mtg_transport = 1
+}
+add_ideas = { TUR_sectarian_woes_1 TUR_irregular_army TUR_non_existent_bureaucracy limited_conscription }
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1935.2.8"
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 6
+	neutrality = 94
+}
+set_cosmetic_tag = TUR_ottoman_sempatizers
+

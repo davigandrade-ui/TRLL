@@ -59,8 +59,6 @@ characters={
 		}
 
 	GRE_markos_vafiadis={
-		instance={
-			allowed={ has_dlc = "Battle for the Bosporus" }
 			name=GRE_markos_vafiadis
 			portraits={
 				army={
@@ -80,7 +78,6 @@ characters={
 						original_tag = SWE
 						original_tag = CHL
 					}
-					has_dlc = "Battle for the Bosporus"
 				}
 				available = {
 					OR = {
@@ -102,21 +99,6 @@ characters={
 					guerilla_warfare_expert 
 				}
 			}
-		}
-		instance={
-			allowed={ NOT = { has_dlc = "Battle for the Bosporus" } }
-			name=GRE_markos_vafiadis
-			portraits={
-				civilian={
-					large=GFX_portrait_GRE_markos_vafiadis
-				}
-			}
-			country_leader={
-				ideology=marxism
-				expire="1965.1.1.1"
-				id=-1
-			}
-		}
 	}
 
 	GRE_konstantinos_tsaldaris={

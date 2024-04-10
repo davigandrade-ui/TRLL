@@ -752,7 +752,7 @@
 					} 
 					50 = {
 						set_politics = {
-							ruling_party = fascism
+							ruling_party = national_vanguard
 							elections_allowed = no
 							last_election = "1936.01.01"
 							election_frequency = 36
@@ -850,7 +850,7 @@
 					} 
 					50 = {
 						set_politics = {
-							ruling_party = fascism
+							ruling_party = national_vanguard
 							elections_allowed = no
 							last_election = "1936.01.01"
 							election_frequency = 36

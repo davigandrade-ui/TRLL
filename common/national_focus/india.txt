@@ -296,7 +296,7 @@ focus_tree = {
 			modifier = {
 				AND = {
 					communism > 0.25
-					fascism < 0.25
+					national_vanguard < 0.25
 				}
 				factor = 3
 			}
@@ -883,7 +883,7 @@ focus_tree = {
 					set_temp_variable = { ideology_val = party_popularity@fascism }
 					scale_var_civil_war_size_by_autonomy_and_var_ideology_val = yes
 					start_civil_war = {
-						ruling_party = fascism
+						ruling_party = national_vanguard
 						ideology = neutrality
 						size = civil_war_size
 						capital = 439
@@ -906,7 +906,7 @@ focus_tree = {
 						character = RAJ_subhas_chanda_bose
 						country_leader = {
 							expire = "1965.1.1"
-							ideology = nazism
+							ideology = national_vanguard
 							traits = {
 								indomitable_perseverance
 							}

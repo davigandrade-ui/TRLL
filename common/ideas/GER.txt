@@ -243,7 +243,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_national_vanguard_drift_bonus
+			picture = generic_fascism_drift_bonus
 
 			modifier = {
 				national_vanguard_drift = 0.2
@@ -300,7 +300,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_national_vanguard_drift_bonus
+			picture = generic_fascism_drift_bonus
 
 			modifier = {
 				national_vanguard_drift = 0.2

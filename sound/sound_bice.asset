@@ -1,0 +1,6 @@
+### BICE MENU ###
+sound = 
+{
+	name = "click_tech_tab_01"
+	file = "menu/click_tech_tab_01.wav"
+}

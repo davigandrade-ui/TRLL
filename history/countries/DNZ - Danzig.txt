@@ -96,7 +96,7 @@ set_politics = {
 
 set_popularities = { #popularities based on 1933 election statistics.
 	democratic = 22
-	fascism = 62
+	national_vanguard = 62
 	communism = 6
 	neutrality = 10
 }
@@ -106,7 +106,7 @@ create_country_leader = {
 	desc = ""
 	picture = "GFX_portrait_DNZ_Albert_Forster"
 	expire = "1953.3.1"
-	ideology = nazism
+	ideology = national_vanguard
 	traits = {
 		
 	}

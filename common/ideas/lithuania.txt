@@ -372,7 +372,7 @@ ideas = {
 		}
 
 		LIT_fascist_propaganda = {
-			picture = generic_national_vanguard_drift_bonus
+			picture = generic_fascism_drift_bonus
 			allowed = {
 				always = no
 			}
@@ -389,7 +389,7 @@ ideas = {
 		}
 
 		LIT_falange_militancy = {
-			picture = generic_national_vanguard_drift_bonus
+			picture = generic_fascism_drift_bonus
 			allowed = {
 				always = no
 			}

@@ -85,7 +85,7 @@ if = {
 
 set_popularities = {
 	democratic = 20
-	fascism = 30
+	national_vanguard = 30
 	communism = 50
 }
 
@@ -116,7 +116,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Stepan_Bandera
 	expire = "1953.3.1"
-	ideology = fascism_ideology
+	ideology = national_vanguard
 	traits = {
 		
 	}

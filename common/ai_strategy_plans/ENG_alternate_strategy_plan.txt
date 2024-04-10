@@ -11,7 +11,7 @@ ENG_alternate_democratic_plan = {
 				has_completed_focus = ENG_steady_as_she_goes
 				NOT = { has_completed_focus = ENG_home_defence }
 				GER = { has_war = yes }
-				GER = { has_government = fascism }
+				GER = { has_government = national_vanguard }
 			}
 			OR = {
 				has_country_flag = ENG_AI_RANDOM_DEMOCRATIC_ALTERNATE

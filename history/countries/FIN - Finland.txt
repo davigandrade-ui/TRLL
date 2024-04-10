@@ -610,7 +610,7 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 15
-	fascism = 19
+	national_vanguard = 19
 	communism = 1
 	neutrality = 65
 }
@@ -629,7 +629,7 @@ country_event = { id = AAT_finland_political.02 days = 426 }
 	}
 	set_popularities = {
 		democratic = 4
-		fascism = 15
+		national_vanguard = 15
 		communism = 1
 		neutrality = 80
 	}

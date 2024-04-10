@@ -60,7 +60,7 @@ set_popularities = {
 	democratic = 20
 	communism = 15
 	neutrality = 60
-	fascism = 5
+	national_vanguard = 5
 }
 
 

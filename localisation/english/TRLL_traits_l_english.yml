@@ -6,3 +6,8 @@
  war_minister:0 "Minister of War"
  person_of_influence:0 "Person of Influence"
  head_of_council:0 "Head of Imperial Council"
+ self_declared_caliph:0 "Self-Declared Caliph"
+ uc_cocuk:0 "Obsessed With Population Growth"
+ recebzade_political_paranoia:0 "Paranoid Schizophrenia"
+ recebzade_paranoia_modifier_increase_effect_tt:0 "  - Random events will happen every 90 days"
+ true_caliph:0 "True Caliph"
