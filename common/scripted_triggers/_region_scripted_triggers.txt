@@ -1,0 +1,4 @@
+
+is_in_europe = {
+	has_country_flag = is_in_europe
+}

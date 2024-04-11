@@ -341,9 +341,9 @@ ideas = {
 			}
 		}
 
-		RAJ_all_india_forward_bloc_national_vanguard = {
+		RAJ_all_india_forward_bloc_fascism = {
 
-			picture = raj_all_india_forward_bloc_national_vanguard
+			picture = raj_all_india_forward_bloc_fascism
 
 			allowed = {
 				original_tag = RAJ

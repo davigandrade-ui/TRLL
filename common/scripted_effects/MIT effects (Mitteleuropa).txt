@@ -263,14 +263,14 @@ MIT_get_agenda_score_breakdown = {
 		limit = { NOT = { check_variable = { MIT_agenda_investment = 0 } } }
 		custom_effect_tooltip = agenda_score_tooltip_investment
 	}
-	if = {
-		limit = {
-			original_tag = IRE
-			has_completed_focus = IRE_host_germans
-			REM = { has_completed_focus = REM_european_brotherhood }
-		}
-		custom_effect_tooltip = agenda_score_tooltip_IRE_bonus
-	}
+	#if = {
+	#	limit = {
+	#		original_tag = IRE
+	#		has_completed_focus = IRE_host_germans
+	#		REM = { has_completed_focus = REM_european_brotherhood }
+	#	}
+	#	custom_effect_tooltip = agenda_score_tooltip_IRE_bonus
+	#}
 	custom_effect_tooltip = SEPARATION_LINE
 	custom_effect_tooltip = agenda_score_tooltip_final
 	if = {

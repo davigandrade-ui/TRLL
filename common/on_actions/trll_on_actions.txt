@@ -355,7 +355,6 @@ on_actions = {
 			BRM = { set_country_flag = is_in_india }
 			NEP = { set_country_flag = is_in_india }
 			BHU = { set_country_flag = is_in_india }
-			CEY = { set_country_flag = is_in_india }
 
 			for_each_scope_loop = {
 				array = global.oceania_tags_array
@@ -376,4 +375,17 @@ on_actions = {
 			}
 		}				
 	}
+	
+	on_daily_GER = {
+		effect = {
+			#Update Mitteleuropa GUI
+			if = {
+				limit = { MIT_is_active = yes }
+				MIT_recalculate_all_agenda_scores = yes
+				MIT_resort_agendas_based_on_score = yes
+				MIT_update_gui = yes
+			}
+		}
+	}
+
 }	

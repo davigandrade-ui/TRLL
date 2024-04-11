@@ -83,14 +83,14 @@ if = {
 	GER = {
 		add_opinion_modifier = {
 			target = POR
-			modifier = national_vanguard_leanings_good
+			modifier = fascism_leanings_good
 		}
 	}
 
 	ITA = {
 		add_opinion_modifier = {
 			target = POR
-			modifier = national_vanguard_leanings_good
+			modifier = fascism_leanings_good
 		}
 	}
 	
