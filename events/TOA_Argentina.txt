@@ -2437,13 +2437,13 @@ country_event = {
 
 		mark_focus_tree_layout_dirty = yes
 
-		hidden_effect = {
-				#GER = {
-				#GER_adolf_hitler = {
-				#retire = yes
-				#}  
-			}
-		} 
+		#hidden_effect = {
+		#		GER = {
+		#		GER_adolf_hitler = {
+		#		retire = yes
+		#		}  
+		#	}
+		#} 
 	}
 
 	# Begone dictator
