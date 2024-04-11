@@ -11,7 +11,7 @@ country_event = { #new election boot event
 
 	trigger = {
 		MIT_is_current_president = yes
-		GER = { has_country_flag = { flag = MIT_election days > 178 } }
+		REM = { has_country_flag = { flag = MIT_election days > 178 } }
 	}
 
 	mean_time_to_happen = {
@@ -32,13 +32,13 @@ country_event = { #new election boot event
 		#handle leadership agenda if present
 		if = {
 			limit = {
-				GER = { MIT_challenge_leadership = { is_in_array = { global.MIT_sorted_voted_agendas = THIS } } }
+				REM = { MIT_challenge_leadership = { is_in_array = { global.MIT_sorted_voted_agendas = THIS } } }
 			}
 			if = {
 				limit = { var:global.MIT_sorted_voted_agendas^0 = { has_character_flag = MIT_challenge_leadership } }
 				var:global.MIT_sorted_voted_agendas^0 = { var:agenda_supporters^0 = { save_event_target_as = MIT_next_chairman } }
 			}
-			GER = {
+			REM = {
 				MIT_challenge_leadership = {
 					var:agenda_supporters^0 = { set_country_flag = { flag = MIT_leadership_challenge_cooldown days = 365 value = 1 } }
 					remove_from_array = { global.MIT_sorted_voted_agendas = THIS }
@@ -158,7 +158,7 @@ country_event = { #Agenda election results
 			base = event_target:MIT_first_place_agenda.agenda_score
 			modifier = {
 				factor = 0
-				original_tag = GER
+				original_tag = REM
 				OR = {
 					has_event_target = MIT_chairman_agenda
 					event_target:MIT_first_place_agenda = { var:agenda_supporters^0 = { tag = ROOT } }
@@ -196,7 +196,7 @@ country_event = { #Agenda election results
 			base = event_target:MIT_second_place_agenda.agenda_score
 			modifier = {
 				factor = 0
-				original_tag = GER
+				original_tag = REM
 				OR = {
 					has_event_target = MIT_chairman_agenda
 					event_target:MIT_second_place_agenda = { var:agenda_supporters^0 = { tag = ROOT } }
@@ -252,7 +252,7 @@ country_event = { #Agenda election results
 			base = event_target:MIT_third_place_agenda.agenda_score
 			modifier = {
 				factor = 0
-				original_tag = GER
+				original_tag = REM
 				OR = {
 					has_event_target = MIT_chairman_agenda
 					event_target:MIT_third_place_agenda = { var:agenda_supporters^0 = { tag = ROOT } }
@@ -326,7 +326,7 @@ country_event = { #Agenda election results
 			base = event_target:MIT_chairman_agenda.agenda_score
 			modifier = {
 				factor = 0
-				NOT = { original_tag = GER }
+				NOT = { original_tag = REM }
 			}
 			modifier = {
 				add = 100
@@ -1274,7 +1274,7 @@ country_event = { # Free Travel Area
 		log = "[GetLogInfo]: event germany_mitteleuropa_events.1008 option germany_mitteleuropa_events.1008.b"
 		name = germany_mitteleuropa_events.1008.b
 		trigger = {
-			NOT = { is_subject_of = GER }
+			NOT = { is_subject_of = REM }
 		}
 		ai_chance = { base = 0 }
 	}
