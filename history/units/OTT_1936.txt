@@ -27,19 +27,6 @@
 }
 
 division_template = {
-	name = "Süvari Fırkası"
-	division_names_group = OTT_CAV_01
-	regiments = {
-		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
-		cavalry = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 }
-		cavalry = { x = 1 y = 2 }
-	}
-}
-
-division_template = {
 	name = "Piyade Fırkası"
 	division_names_group = OTT_INF_01
 	regiments = {
@@ -52,55 +39,16 @@ division_template = {
 	}
 }
 
-division_template = {
-	name = "Dagci Firka"
-	division_names_group = OTT_MTN_01
-	regiments = {
-		mountaineers = { x = 0 y = 0 }
-		mountaineers = { x = 0 y = 1 }
-		mountaineers = { x = 0 y = 2 }
-		mountaineers = { x = 1 y = 0 }
-		mountaineers = { x = 1 y = 1 }
-		mountaineers = { x = 1 y = 2 }
-	}
-	priority = 2
-}
-
-division_template = {
-	name = "Muhafız Piyade Fırkası"
-	division_names_group = OTT_GAR_01
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-	}
-	priority = 0
-}
-
-division_template = {
-	name = "Zirhli Fırkası"
-	division_names_group = OTT_ARM_01
-	regiments = {
-		light_armor = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-	}
-}
-
 units = {
 	division = {
 		location = 9861
-		division_template = "Muhafız Piyade Fırkası"
+		division_template = "Piyade Fırkası"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
 		start_experience_factor = 0.3
 	}
 	division = {
 		location = 6807
-		division_template = "Süvari Fırkası"
+		division_template = "Piyade Fırkası"
 		start_experience_factor = 0.1
 	}
 	division = {
@@ -118,7 +66,7 @@ units = {
 
 	division = {
 		location = 9932
-		division_template = "Süvari Fırkası"
+		division_template = "Piyade Fırkası"
 		start_experience_factor = 0.1
 	}
 	division = {
@@ -135,13 +83,13 @@ units = {
 	}
 	division = {
 		location = 11860
-		division_template = "Muhafız Piyade Fırkası"
+		division_template = "Piyade Fırkası"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
 		start_experience_factor = 0.3
 	}
 	division = {
 		location = 9811
-		division_template = "Süvari Fırkası"
+		division_template = "Piyade Fırkası"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
 		start_experience_factor = 0.1
 	}
@@ -159,40 +107,40 @@ units = {
 	}
 	division = {
 		location = 9900
-		division_template = "Muhafız Piyade Fırkası"
+		division_template = "Piyade Fırkası"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
 		start_experience_factor = 0.3
 	}
 	division = {
 		location = 6894
-		division_template = "Muhafız Piyade Fırkası"
+		division_template = "Piyade Fırkası"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
 		start_experience_factor = 0.3
 	}
 	division = {
 		location = 3862
-		division_template = "Muhafız Piyade Fırkası"
+		division_template = "Piyade Fırkası"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "OTT" } }
 		start_experience_factor = 0.3
 	}
 	division = {
 		location = 3788
-		division_template = "Dagci Firka"
+		division_template = "Piyade Fırkası"
 		start_experience_factor = 0.2
 	}
 	division = {
 		location = 9861
-		division_template = "Dagci Firka"
+		division_template = "Piyade Fırkası"
 		start_experience_factor = 0.2
 	}
 	division = {
 		location = 11844
-		division_template = "Dagci Firka"
+		division_template = "Piyade Fırkası"
 		start_experience_factor = 0.2
 	}
 	division = {
 		location = 3862
-		division_template = "Süvari Fırkası"
+		division_template = "Piyade Fırkası"
 		start_experience_factor = 0.1
 	}
 	division = {
@@ -209,12 +157,12 @@ units = {
 	}
 	division = {
 		location = 961
-		division_template = "Süvari Fırkası"
+		division_template = "Piyade Fırkası"
 		start_experience_factor = 0.1
 	}
 	division = {
 		location = 886
-		division_template = "Süvari Fırkası"
+		division_template = "Piyade Fırkası"
 		start_experience_factor = 0.1
 	}
 	division = {
@@ -243,7 +191,7 @@ units = {
 	}
 	division = {
 		location = 11826
-		division_template = "Süvari Fırkası"
+		division_template = "Piyade Fırkası"
 		start_experience_factor = 0.1
 	}
 	division = {
@@ -254,7 +202,7 @@ units = {
 	}
 	division = {
 		location = 9900
-		division_template = "Süvari Fırkası"
+		division_template = "Piyade Fırkası"
 		start_experience_factor = 0.1
 	}
 	division = {
@@ -277,12 +225,12 @@ units = {
 	}
 	division = {
 		location = 3876
-		division_template = "Süvari Fırkası"
+		division_template = "Piyade Fırkası"
 		start_experience_factor = 0.1
 	}
 	division = {
 		location = 11860
-		division_template = "Süvari Fırkası"
+		division_template = "Piyade Fırkası"
 		start_experience_factor = 0.1
 	}
 	division = {
@@ -311,8 +259,87 @@ units = {
 	}
 	division = {
 		location = 961
-		division_template = "Süvari Fırkası"
+		division_template = "Piyade Fırkası"
 		start_experience_factor = 0.1
 	}
+
+	division = {
+		location = 9811
+		division_template = "Piyade Fırkası"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		location = 806
+		division_template = "Piyade Fırkası"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		location = 886
+		division_template = "Piyade Fırkası"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		location = 6956
+		division_template = "Piyade Fırkası"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		location = 6830
+		division_template = "Piyade Fırkası"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		location = 9830
+		division_template = "Piyade Fırkası"
+		start_experience_factor = 0.1
+	}						
+
+	division = {
+		location = 9763
+		division_template = "Piyade Fırkası"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		location = 6807
+		division_template = "Piyade Fırkası"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		location = 6894
+		division_template = "Piyade Fırkası"
+		start_experience_factor = 0.1
+	}	
+
+	division = {
+		location = 3788
+		division_template = "Piyade Fırkası"
+		start_experience_factor = 0.1
+	}					
+
+	division = {
+		location = 3862
+		division_template = "Piyade Fırkası"
+		start_experience_factor = 0.1
+	}	
+
+	division = {
+		location = 11826
+		division_template = "Piyade Fırkası"
+		start_experience_factor = 0.1
+	}		
+
+	division = {
+		location = 11792
+		division_template = "Piyade Fırkası"
+		start_experience_factor = 0.1
+	}		
+
 }
 

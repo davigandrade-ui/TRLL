@@ -59,8 +59,7 @@ country_event = {
 			if = { limit = { 352 = { is_controlled_by = OTT} } KUR = { transfer_state = 352 } }
 			if = { limit = { 800 = { is_controlled_by = OTT} } KUR = { transfer_state = 800 } }
 			if = { limit = { 350 = { is_controlled_by = OTT} } KUR = { transfer_state = 350 } }
-			KUR = { declare_war_on = { target = OTT type = annex_everything } }
-			KUR = { declare_war_on = { target = TUR type = annex_everything } }
+			KUR = { declare_war_on = { target = OTT type = annex_everything } declare_war_on = { target = TUR type = annex_everything } load_oob = "KUR_liberation_troops" }
 		}
 	}
 	option = {

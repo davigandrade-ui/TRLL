@@ -31,11 +31,31 @@ focus_tree = {
 	}
 
 	focus = {
+		id = TUR_old_but_gold
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = TUR_war_economyy }
+		cost = 5
+		x = -2
+		y = 1
+		relative_position_id = TUR_war_economyy
+		ai_will_do = {
+			factor = 2
+		}
+		available = {
+
+		}
+		completion_reward = {
+	    add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 5000 producer = TUR }
+	    add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 500 producer = TUR }
+			}
+	}
+
+	focus = {
 		id = TUR_denounce
 		icon = GFX_goal_continuous_def_against_influence
 		prerequisite = { focus = TUR_war_economyy }
 		cost = 5
-		x = 0
+		x = 2
 		y = 1
 		relative_position_id = TUR_war_economyy
 		available = {
@@ -76,9 +96,9 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-				custom_effect_tooltip = TUR_emergency_railway_iniative_tt
 
-			build_railway = { #Mukden-Korean border
+
+			build_railway = { 
 				path = {
 					1005 1122 4127 4008 7026 4124 10056 11810 11746
 				}
@@ -122,10 +142,10 @@ focus_tree = {
 	focus = {
 		id = TUR_the_guardians_of_kemalism
 		icon = GFX_goal_generic_political_pressure
-		prerequisite = { focus = TUR_denounce }
+		prerequisite = { focus = TUR_old_but_gold }
 		x = 0
-		y = 2
-		relative_position_id = TUR_denounce
+		y = 1
+		relative_position_id = TUR_old_but_gold
 		cost = 5
 		ai_will_do = {
 			base = 10

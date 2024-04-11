@@ -14,6 +14,9 @@
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
 	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
 }
 division_template = {
 	name = "Dag Tugayi" 				# Mountain Brigade
@@ -193,7 +196,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 24
 		}
-		location = 9833
+		location = 6925
 		division_template = "Piyade Tümeni" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
@@ -490,8 +493,18 @@ instant_effect = {
 			type = infantry_equipment_1
 			creator = "TUR"
 		}
-		requested_factories = 1
+		requested_factories = 3
 		progress = 0.43
 		efficiency = 100
 	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+		}
+		requested_factories = 1
+		progress = 0.83
+		efficiency = 50
+	}
+
 }

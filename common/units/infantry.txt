@@ -599,8 +599,8 @@ sub_units = {
 		
 		#Size Definitions
 		max_strength = 30 # reg inf 25
-		max_organisation = 45 # reg inf 60
-		default_morale = 0.2 #  reg inf 0.3
+		max_organisation = 35 # reg inf 60
+		default_morale = 0.15 #  reg inf 0.3
 		manpower = 1000
 
 		#Misc Abilities
@@ -611,32 +611,32 @@ sub_units = {
 		supply_consumption = 0.04 # reg inf  0.06
 
 		# generally not as drilled in modern warfare as regular troops 
-		soft_attack = -0.05
-		# breakthrough = -0.1  
-		defense = -0.15 # was -0.25 
+		soft_attack = -0.1
+		breakthrough = -0.1  
+		defense = -0.3
 
 		# Terrain bonuses
 		# Attack bonuses higher as they thought defending was dishonourable
 		hills = {
-			attack = 0.15 # was 0.1 
-			defence = 0.05
+			attack = 0.05 # was 0.1 
+			defence = 0.20
 		}
 		forest = {
 			attack = 0.15 # was 0.1 
 			defence = 0.05
 		}
 		mountain = {
-			attack = 0.15 # was 0.1 
-			defence = 0.05
+			attack = 0.05 # was 0.1 
+			defence = 0.20
 		}
 		desert = {
-			attack = 0.25 # was 0.1 
-			defence = 0.10	
+			attack = 0.10 # was 0.1 
+			defence = 0.50	
 		}
 		
 		
 		need = {
-			infantry_equipment = 80 # was 100 
+			infantry_equipment = 75 # was 100 
 		}
 	}
 

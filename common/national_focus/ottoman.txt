@@ -55,7 +55,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 1
+			factor = 2
 		}
 
 		available = {
@@ -190,7 +190,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 1
+			factor = 3
 		}
 
 		available = {
@@ -208,7 +208,7 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = OTT_britain_spies
-			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 1000 producer = ENG }
+			add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 5000 producer = ENG }
 		}
 	}
 
@@ -223,7 +223,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 1
+			factor = 0
 		}
 
 		available = {
@@ -284,7 +284,6 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-		set_country_flag = { flag = OTT_last_defense_cooldown value = 1 days = 90 }
 		random_owned_controlled_state = {
 						add_dynamic_modifier = {
 						modifier = OTT_last_defense
@@ -304,14 +303,13 @@ focus_tree = {
 		y = 1
 		relative_position_id = OTT_last_defense
 
-		cost = 5
+		cost = 15
 
 		ai_will_do = {
 			factor = 1
 		}
 
 		available = {
-				not = { has_country_flag = OTT_last_defense_cooldown }
 		}
 
 		bypass = {
@@ -325,7 +323,6 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-		custom_effect_tooltip = OTT_cooldown_tt
 		swap_ruler_traits = { remove = self_declared_caliph add = true_caliph }
 		}
 	}

@@ -26,6 +26,7 @@ leader_traits = {
 		resistance_decay_on_our_occupied_states = -0.5
 		stability_factor = 0.1
 		army_attack_factor = 0.5
+		conscription = 0.1
 	}
 
 	recebzade_political_paranoia = {
@@ -45,6 +46,7 @@ leader_traits = {
 		war_support_factor = 0.1
 		weekly_manpower = 400
 		mobilization_speed = 0.1
+		conscription = 0.02
 	}
 
 	dictator = {
