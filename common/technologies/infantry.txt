@@ -2234,7 +2234,7 @@ technologies = {
 		}		
 	}
 
-	irregular_infantry = {
+	irregular_infantry_2 = {
 		
 		allow = {
 			always = no

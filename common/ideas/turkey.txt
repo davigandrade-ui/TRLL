@@ -68,6 +68,7 @@ ideas = {
 			picture = chi_army_corruption
 
 			modifier = {
+				conscription = 0.05
 				war_support_factor = -0.3
 				max_planning = -0.1
 				max_dig_in = -1

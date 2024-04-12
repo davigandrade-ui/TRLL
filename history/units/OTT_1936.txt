@@ -339,7 +339,62 @@ units = {
 		location = 11792
 		division_template = "Piyade Fırkası"
 		start_experience_factor = 0.1
-	}		
+	}
+
+	division = {
+		location = 806
+		division_template = "Piyade Fırkası"
+		start_experience_factor = 0.1
+	}					
+
+	division = {
+		location = 886
+		division_template = "Piyade Fırkası"
+		start_experience_factor = 0.1
+	}	
+
+	division = {
+		location = 6956
+		division_template = "Piyade Fırkası"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		location = 961
+		division_template = "Piyade Fırkası"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		location = 933
+		division_template = "Piyade Fırkası"
+		start_experience_factor = 0.1
+	}	
+
+	division = {
+		location = 9900
+		division_template = "Piyade Fırkası"
+		start_experience_factor = 0.1
+	}	
+
+	division = {
+		location = 11881
+		division_template = "Piyade Fırkası"
+		start_experience_factor = 0.1
+	}	
+
+	division = {
+		location = 11844
+		division_template = "Piyade Fırkası"
+		start_experience_factor = 0.1
+	}									
+
+	division = {
+		location = 9861
+		division_template = "Piyade Fırkası"
+		start_experience_factor = 0.1
+	}									
+
 
 }
 

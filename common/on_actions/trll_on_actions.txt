@@ -2,7 +2,6 @@
 on_actions = {
 	on_startup = {
 		effect = {
-
 			build_railway = { 
 				path = {
 					921 961

@@ -51,6 +51,7 @@ country_event = {
 		tag = OTT				
 		country_exists = OTT
 		date > 1937.1.1
+		NOT = { OTT = { has_completed_focus = OTT_last_defense } }
 	}
 
 	immediate = {
