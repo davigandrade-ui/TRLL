@@ -27,7 +27,7 @@ set_technology = {
 	gw_artillery = 1
 	interwar_antiair = 1
 	basic_train = 1
-	irregular_infantry = 1
+	irregular_infantry_2 = 1
 	gwtank_chassis = 1
 	basic_light_tank_chassis = 1
 	basic_naval_mines = 1
@@ -45,13 +45,13 @@ set_technology = {
 }
 add_ideas = { TUR_sectarian_woes_1 TUR_irregular_army TUR_non_existent_bureaucracy limited_conscription }
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = national_vanguard
 	last_election = "1935.2.8"
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 6
-	neutrality = 94
+	democratic = 0
+	national_vanguard = 100
 }
 set_cosmetic_tag = TUR_ottoman_sempatizers
 
