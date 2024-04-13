@@ -120,7 +120,7 @@ ideas = {
 
 		}
 
-		SAF_abandon_westminster_national_vanguard = {
+		SAF_abandon_westminster_fascism = {
 			allowed = {
 				always = no
 			}
@@ -131,7 +131,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = ast_abandon_the_westminster_system_national_vanguard
+			picture = ast_abandon_the_westminster_system_fascism
 
 			modifier = {
 				autonomy_gain = 0.5

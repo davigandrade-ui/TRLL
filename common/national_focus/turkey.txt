@@ -35,7 +35,7 @@ focus_tree = {
 		icon = GFX_goal_generic_small_arms
 		prerequisite = { focus = TUR_war_economyy }
 		cost = 5
-		x = -2
+		x = -4
 		y = 1
 		relative_position_id = TUR_war_economyy
 		ai_will_do = {
@@ -55,9 +55,12 @@ focus_tree = {
 		icon = GFX_goal_continuous_def_against_influence
 		prerequisite = { focus = TUR_war_economyy }
 		cost = 5
-		x = 2
+		x = 4
 		y = 1
 		relative_position_id = TUR_war_economyy
+		ai_will_do = {
+			factor = 1
+		}
 		available = {
 
 		}
@@ -270,8 +273,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = TUR_fuel_the_war_machine
-		icon = GFX_goal_generic_construct_mil_factory
+		id = TUR_end_the_fundamentalist_menace
+		icon = GFX_focus_PAR_pull_back_troops_from_the_chaco
 		prerequisite = { focus = TUR_direct_control_from_ankara }
 		x = 0
 		y = 1
@@ -284,7 +287,71 @@ focus_tree = {
 		}
 
 		available = {
+		}
 
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+		if = { limit = { has_completed_focus = TUR_choose_fevzi } swap_ideas = { remove_idea = TUR_superior_will add_idea = TUR_superior_will_2 } } else = { swap_ideas = { remove_idea = TUR_more_troops add_idea = TUR_more_troops_2 } }
+		}
+	}
+
+	focus = {
+		id = TUR_recover_from_the_civil_war
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = { focus = TUR_war_economyy }
+		x = 0
+		y = 3
+		relative_position_id = TUR_war_economyy
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		has_war = no
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = { #free repair speed buf, decrease civil war debuff
+	
+		}
+	}
+
+	focus = {
+		id = TUR_fuel_the_war_machine
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = TUR_recover_from_the_civil_war }
+		x = 1
+		y = 1
+		relative_position_id = TUR_recover_from_the_civil_war
+		mutually_exclusive = { focus = TUR_national_recovery }	
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
 		}
 
 		bypass = {
@@ -307,14 +374,50 @@ focus_tree = {
 				}
 				is_owned_and_controlled_by = ROOT
 			}
-			add_extra_state_shared_building_slots = 1
+			add_extra_state_shared_building_slots = 3
 			add_building_construction = {
 				type = arms_factory
-				level = 1
+				level = 3
 				instant_build = yes
 				}
 			}	
 		}
 	}
+
+	focus = {
+		id = TUR_national_recovery
+		available = {
+		}
+		bypass = {
+		}
+		prerequisite = { focus = TUR_recover_from_the_civil_war }
+		mutually_exclusive = { focus = TUR_fuel_the_war_machine }		
+		icon = GFX_goal_generic_consumer_goods
+		x = -1
+		y = 1
+		relative_position_id = TUR_recover_from_the_civil_war
+		cost = 5
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+			add_timed_idea = { idea = SPA_national_recovery_1 days = 90 }
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+					}
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}	
 
 }
