@@ -90,3 +90,20 @@ country_event = {
 	}
 
 }
+
+# Reforms Event
+country_event = {
+	id = TRLL.4
+	title = TRLL.4.t
+	desc = TRLL.4.d
+	picture = GFX_report_event_ast_parliament_house
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = TRLL.4.a
+	}
+
+}

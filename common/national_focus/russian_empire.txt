@@ -67,7 +67,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-		# EVENT ADDRESS PARLIAMENT
+		country_event = { id = TRLL.4 }
 		}
 	}
 	
