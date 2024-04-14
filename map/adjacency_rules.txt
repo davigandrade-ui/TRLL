@@ -268,7 +268,7 @@ adjacency_rule =
 }
 
 #Tsugaru Strait - (Honshu to Hokkaido) - 20 km
-adjacency_rule
+adjacency_rule =
 {
 	contested =
 	{
