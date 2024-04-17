@@ -898,6 +898,10 @@
 		}
 	}
 	
+	
+	# ALEXEI PEACEFUL
+	
+	
 	focus = {
 		id = REM_finishing_the_job
 		icon = GFX_goal_generic_major_war
@@ -935,6 +939,458 @@
 
 		cost = 4
 		prerequisite = { focus = REM_finishing_the_job }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	
+	# EVIL ALEXEI
+	
+	
+	focus = {
+		id = REM_one_step_back
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_asset_alexei_postion
+		x = 3
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_asset_alexei_postion }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_shine_our_crown
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_one_step_back
+		x = 3
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_one_step_back }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_exploit_ukrainian_basket
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_shine_our_crown
+		x = 3
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_shine_our_crown }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_expand_imperial_administration
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_exploit_ukrainian_basket
+		x = 3
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_exploit_ukrainian_basket }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_close_bolshevik_meetings
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_shine_our_crown
+		x = 3
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_shine_our_crown }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_assasinate_bolshevik_leaders
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_close_bolshevik_meetings
+		x = 3
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_close_bolshevik_meetings }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_weaken_the_duma
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_close_bolshevik_meetings
+		x = 3
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_close_bolshevik_meetings }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_strengthen_monarchy
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_weaken_the_duma
+		x = 3
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_weaken_the_duma }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_revert_the_changes
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_strengthen_monarchy
+		x = 3
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_strengthen_monarchy focus = REM_assasinate_bolshevik_leaders focus = REM_expand_imperial_administration }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_spread_wings
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_one_step_back
+		x = 3
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_one_step_back }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_dealing_with_europe
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_spread_wings
+		x = 3
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_spread_wings }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_ultimatum_bulgaria
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_dealing_with_europe
+		x = 3
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_dealing_with_europe }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_dealing_with_asia
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_spread_wings
+		x = 3
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_spread_wings }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_ultimatum_korea
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_dealing_with_asia
+		x = 3
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_dealing_with_asia }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_strangle_sun #Death to Japan!
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_ultimatum_korea
+		x = 3
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_ultimatum_korea }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_strangle_sun
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_ultimatum_korea
+		x = 3
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_ultimatum_korea }
 
 		ai_will_do = {
 		}
