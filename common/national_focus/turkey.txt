@@ -64,6 +64,9 @@ focus_tree = {
 		available = {
 
 		}
+		bypass = {
+		NOT = { has_war_with=OTT }
+		}
 		completion_reward = {
 	    add_political_power = 100
 			}
@@ -110,8 +113,25 @@ focus_tree = {
 	}
 
 	focus = {
-		id = TUR_the_idea_that_unites_us
+		id = TUR_ratify_the_six_arrows
 		icon = GFX_focus_TUR_ratify_the_six_arrows
+		prerequisite = { focus = TUR_war_economyy }
+		x = 0
+		y = 1
+		relative_position_id = TUR_war_economyy
+		cost = 5
+		ai_will_do = {
+			base = 1
+		}
+
+		completion_reward = {
+			unlock_decision_category_tooltip = TUR_the_constitutional_arrows_category
+		}
+	}
+
+	focus = {
+		id = TUR_the_idea_that_unites_us
+		icon = GFX_goal_generic_national_unity
 		prerequisite = { focus = TUR_denounce }
 		x = 1
 		y = 1
@@ -307,10 +327,10 @@ focus_tree = {
 	focus = {
 		id = TUR_recover_from_the_civil_war
 		icon = GFX_goal_generic_construct_civilian
-		prerequisite = { focus = TUR_war_economyy }
+		prerequisite = { focus = TUR_denounce }
 		x = 0
-		y = 3
-		relative_position_id = TUR_war_economyy
+		y = 2
+		relative_position_id = TUR_denounce
 
 		cost = 5
 
@@ -320,6 +340,7 @@ focus_tree = {
 
 		available = {
 		has_war = no
+		not = { has_country_flag = TUR_great_depression_cooldown }
 		}
 
 		bypass = {
@@ -333,7 +354,12 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = { #free repair speed buf, decrease civil war debuff
-	
+		set_country_flag = { flag = TUR_great_depression_cooldown value = 1 days = 175 }
+		custom_effect_tooltip = TUR_great_depression_cooldown_tt
+					swap_ideas = {
+				remove_idea = TUR_recovering_from_civil_war
+				add_idea = TUR_recovering_from_civil_war_2
+			}
 		}
 	}
 
@@ -418,6 +444,43 @@ focus_tree = {
 				}
 			}
 		}
-	}	
+	}
+
+	focus = {
+		id = TUR_the_hatay_issue
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = TUR_ratify_the_six_arrows }
+		x = 0
+		y = 1
+		relative_position_id = TUR_ratify_the_six_arrows
+		cost = 5
+		ai_will_do = {
+			base = 10
+		}
+		available = { NOT = { has_war_with = OTT } has_army_manpower = { size > 250000 }
+		}
+		bypass = {
+			TUR = { owns_state = 799 }
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT }
+		completion_reward = {
+			if = {
+				limit = {
+					FRA = { owns_state = 799 }
+				}
+				FRA = { country_event = { id = bftb_turkey.25 hours = 6 } }
+			}
+			else = {
+				random_neighbor_country = { 
+					limit = {
+						owns_state = 799
+					}
+					country_event = { id = bftb_turkey.60 hours = 6 } 
+				}
+			}
+			add_war_support = 0.05
+		}
+	}		
 
 }

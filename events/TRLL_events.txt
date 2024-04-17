@@ -107,3 +107,23 @@ country_event = {
 	}
 
 }
+
+# Turkish Civil War - End Kemalists Won
+country_event = {
+	id = TRLL.5
+	title = TRLL.5.t
+	desc = TRLL.5.d
+	picture = GFX_report_event_generic_parliament
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = TUR				
+		NOT = { has_war_with = OTT }
+	}
+
+	option = {
+		name = TRLL.5.a
+		add_ideas = TUR_recovering_from_civil_war
+	}
+}
