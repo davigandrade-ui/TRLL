@@ -12,13 +12,13 @@
 	
 	default = no
 	
-	continuous_focus_position = { x = 50 y = 1500 }
+	continuous_focus_position = { x = 25 y = 20 }
 
 	focus = {
 		id = REM_before_time_comes
 		icon = GFX_focus_REM_before_time_comes
-		x = 12
-		y = 1
+		x = 10
+		y = -14
 
 		cost = 2
 
@@ -596,9 +596,9 @@
 	focus = {
 		id = REM_tsarist_success
 		icon = GFX_focus_REM_tsarist_success
-		x = 17
-		y = 10
-
+		x = 2
+		y = 1
+		relative_position_id = REM_rewrite_constitution
 
 		cost = 3
 		prerequisite = { focus = REM_rewrite_constitution focus = REM_educate_youth }
@@ -844,8 +844,8 @@
 	focus = {
 		id = REM_long_live_alexei
 		icon = GFX_goal_generic_major_war
-		x = 40
-		y = 1
+		x = 8
+		y = -4
 
 		cost = 4
 
@@ -1417,8 +1417,8 @@
 	focus = {
 		id = REM_gorchakov_doctrine
 		icon = GFX_goal_generic_major_war
-		x = 40
-		y = -15
+		x = 35
+		y = -14
 
 		cost = 3
 
@@ -1670,8 +1670,8 @@
 	focus = {
 		id = REM_national_rejuvenation_act
 		icon = GFX_goal_generic_major_war
-		x = 50
-		y = 1
+		x = 27
+		y = -14
 		cost = 3
 
 		ai_will_do = {

@@ -64,6 +64,7 @@ recruit_character = REM_bukharin
 recruit_character = REM_kerensky
 recruit_character = REM_ilyin
 recruit_character = REM_Aleksandra_Samusenko
+recruit_character = REM_Alexei_Romanov
 recruit_character = SOV_aleksandr_vasilevsky
 recruit_character = SOV_aleksandr_golovanov
 recruit_character = SOV_aleksandr_gorbatov
