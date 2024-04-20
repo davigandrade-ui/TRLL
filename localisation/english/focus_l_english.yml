@@ -2344,6 +2344,7 @@
  can_degaussing_tech:0 "Gain the Degaussing technology"
  USA_great_depression_cooldown:0 "New Legislation is still being drafted"
  USA_great_depression_cooldown_tt:0 "After this law is passed, it will take §Y230 days§! until further New Deal legislation is drafted and ready to be signed.\n\n"
+ TUR_great_depression_cooldown:0 "New law is still being worked on" 
  TUR_great_depression_cooldown_tt:0 "Once this law is passed, it will take §Y175 days§! for the work on the new law to be completed and ready to be signed.\n\n"
  USA_limited_intervention_tt:0 "\n\nPassing this law will make it §Rsignificantly harder§! to mobilize your economy.\n\n"
  britain_enforced_our_loyalty:0 "Britain enforced our loyalty."

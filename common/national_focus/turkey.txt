@@ -335,7 +335,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 
 		available = {
@@ -370,7 +370,6 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = TUR_recover_from_the_civil_war
-		mutually_exclusive = { focus = TUR_national_recovery }	
 		cost = 5
 
 		ai_will_do = {
@@ -416,8 +415,7 @@ focus_tree = {
 		}
 		bypass = {
 		}
-		prerequisite = { focus = TUR_recover_from_the_civil_war }
-		mutually_exclusive = { focus = TUR_fuel_the_war_machine }		
+		prerequisite = { focus = TUR_recover_from_the_civil_war }	
 		icon = GFX_goal_generic_consumer_goods
 		x = -1
 		y = 1
@@ -482,5 +480,58 @@ focus_tree = {
 			add_war_support = 0.05
 		}
 	}		
+
+	focus = {
+		id = TUR_industrial_encouragement_law
+		available = {
+		not = { has_country_flag = TUR_great_depression_cooldown }
+		}
+		prerequisite = { focus = TUR_recover_from_the_civil_war }
+		mutually_exclusive = { focus = SPA_autarky }
+		
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 2
+		relative_position_id = TUR_recover_from_the_civil_war
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH}
+
+		completion_reward = {
+		set_country_flag = { flag = TUR_great_depression_cooldown value = 1 days = 175 }
+		custom_effect_tooltip = TUR_great_depression_cooldown_tt
+					swap_ideas = {
+				remove_idea = TUR_recovering_from_civil_war_2
+				add_idea = TUR_recovering_from_civil_war_3
+			}
+		}
+	}
+
+	focus = {
+		id = TUR_national_defence_law
+		available = {
+		not = { has_country_flag = TUR_great_depression_cooldown }
+		}
+		prerequisite = { focus = TUR_industrial_encouragement_law }
+		mutually_exclusive = { focus = SPA_autarky }
+		
+		icon = GFX_focus_ARG_anti_corruption_policies
+		x = 0
+		y = 1
+		relative_position_id = TUR_industrial_encouragement_law
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH}
+
+		completion_reward = {
+				remove_ideas = TUR_recovering_from_civil_war_3
+		}
+	}
 
 }
