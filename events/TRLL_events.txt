@@ -121,9 +121,14 @@ country_event = {
 		tag = TUR				
 		NOT = { has_war_with = OTT }
 	}
-
+	immediate = {
+		hidden_effect = {
+			drop_cosmetic_tag = yes
+		}
+	}
 	option = {
 		name = TRLL.5.a
 		add_ideas = TUR_recovering_from_civil_war
+		remove_ideas = TUR_sectarian_woes_1 
 	}
 }

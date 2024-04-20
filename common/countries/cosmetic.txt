@@ -551,6 +551,11 @@ TUR_PROVISIONARY_neutrality = {
 	color_ui = rgb { 193 99 99 }
 }
 
+TUR_kemalist_officers = {
+	color = rgb { 161 69 69 }
+	color_ui = rgb { 93 58 20 }
+}
+
 TRN_communism = {
 	color = rgb { 213 253 255 }
 	color_ui = rgb { 213 253 255 }
