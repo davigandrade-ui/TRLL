@@ -50,6 +50,14 @@ country_event = {
 			original_tag = SWE
 			has_idea = SWE_hungershield
 		}
+		NOT = {
+			original_tag = TUR
+			has_idea = TUR_sectarian_woes_1
+		}
+		NOT = {
+			original_tag = OTT
+			has_idea = TUR_sectarian_woes_1
+		}
 	}
 
 	mean_time_to_happen = { 

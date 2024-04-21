@@ -39,7 +39,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = TUR_war_economyy
 		ai_will_do = {
-			factor = 3
+			factor = 4
 		}
 		available = {
 
@@ -102,8 +102,20 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-
-
+			342 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			345 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 			build_railway = { 
 				path = {
 					1005 1122 4127 4008 7026 4124 10056 11810 11746
@@ -516,7 +528,6 @@ focus_tree = {
 		not = { has_country_flag = TUR_great_depression_cooldown }
 		}
 		prerequisite = { focus = TUR_industrial_encouragement_law }
-		mutually_exclusive = { focus = SPA_autarky }
 		
 		icon = GFX_focus_ARG_anti_corruption_policies
 		x = 0

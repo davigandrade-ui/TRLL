@@ -78,6 +78,42 @@ focus_tree = {
 	}
 
 	focus = {
+		id = OTT_call_for_jihad
+		icon = GFX_focus_generic_attack_turkey
+		prerequisite = { focus = OTT_masallah }
+		x = 2
+		y = 1
+		relative_position_id = OTT_masallah
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+	
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = TUR_irregular_army
+				add_idea = TUR_irregular_army_2
+			}	
+		}
+	}	
+
+	focus = {
 		id = OTT_gayretullah
 		icon = GFX_goal_continuous_suppression
 		prerequisite = { focus = OTT_masallah }
@@ -190,7 +226,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 3
+			factor = 5
 		}
 
 		available = {
