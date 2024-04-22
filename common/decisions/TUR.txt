@@ -48,27 +48,6 @@
  			add_stability = -0.05
  		}
  	}
- 	TUR_alter_the_royal_laws_of_succession = {
- 		icon = eng_trade_unions_support
- 		allowed = {
- 			original_tag = TUR
- 		}
- 		available = {
- 			has_completed_focus = TUR_return_of_the_sultan
- 		}
- 		visible = {
- 			has_completed_focus = TUR_return_of_the_sultan
- 		}
- 		cost = 120
- 		fire_only_once = yes
- 		ai_will_do = {
- 			factor = 1
- 		}
- 		complete_effect = {
- 			add_stability = -0.05
- 			hidden_effect = { set_country_flag = TUR_altered_royal_succession_laws }
- 		}
- 	}
  }	
  TUR_the_constitutional_arrows_category = { 
 
@@ -92,7 +71,7 @@
  							character = TUR_adnan_menderes
  							ruling_only = yes
  						}
- 						NOT = { has_completed_focus = TUR_reconfigure_our_foreign_policy } 
+ 						#NOT = { has_completed_focus = TUR_reconfigure_our_foreign_policy } 
  					}
  					has_country_leader = {
  						character = TUR_refet_pasha

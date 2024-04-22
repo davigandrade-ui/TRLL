@@ -14209,7 +14209,7 @@ SOV_soviet_civil_war_dec_cat = {
 			655 = { CONTROLLER = { original_tag = SOV } }
 			custom_trigger_tooltip = {
 				tooltip = SOV_not_has_conflict_with_japan
-				NOT = { JAP = { has_decision = JAP_test_the_soviets } }
+				#NOT = { JAP = { has_decision = JAP_test_the_soviets } }
 				NOT = { has_border_war_with = JAP }
 				NOT = { has_war_with = JAP }
 			}
