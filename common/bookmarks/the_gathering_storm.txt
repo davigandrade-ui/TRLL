@@ -24,7 +24,7 @@ bookmarks = {
 			ideology = neutrality
 			ideas = {
 				TUR_disorganised_armed_forces
-				TUR_sectarian_woes_2
+				TUR_sectarian_woes_1
 				TUR_legacy_of_ataturk_defiled
 			}
 			focuses = {

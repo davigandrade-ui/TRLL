@@ -499,7 +499,6 @@ focus_tree = {
 		not = { has_country_flag = TUR_great_depression_cooldown }
 		}
 		prerequisite = { focus = TUR_recover_from_the_civil_war }
-		mutually_exclusive = { focus = SPA_autarky }
 		
 		icon = GFX_goal_generic_construction
 		x = 0

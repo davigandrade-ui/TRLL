@@ -148,7 +148,11 @@ recruit_character = SOV_sidor_kovpak
 recruit_character = SOV_lev_dovator
 recruit_character = SOV_pavel_rybalko
 
-
+recruit_character = REM_Vyacheslav_von_Plehve
+recruit_character = REM_Sergei_Sazonov
+recruit_character = REM_Alexander_Guchkov
+recruit_character = REM_Nikolai_Lvov
+recruit_character = REM_Pyotr_Stolypin
 
 set_variable = { global.MIT_small_value = 1 }
 set_variable = { global.MIT_medium_value = 5 }

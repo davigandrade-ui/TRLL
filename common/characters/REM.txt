@@ -98,4 +98,110 @@ characters={
 			id=-1
 		}
 	}
+
+	REM_Vyacheslav_von_Plehve = {
+			portraits={
+				army={
+					small="GFX_idea_REM_Vyacheslav_von_Plehve"
+				}
+			}				
+			advisor={
+				slot = political_advisor
+				idea_token = REM_Vyacheslav_von_Plehve
+				name = REM_Vyacheslav_von_Plehve
+				can_be_fired = no
+				allowed = {
+					original_tag = REM
+				}	
+				traits = {
+					security_minister
+					conservative_nationalist
+				}
+			}
+	}	
+
+	REM_Sergei_Sazonov = {
+			portraits={
+				army={
+					small="GFX_idea_REM_Sergei_Sazonov"
+				}
+			}				
+			advisor={
+				slot = political_advisor
+				idea_token = REM_Sergei_Sazonov
+				name = REM_Sergei_Sazonov
+				can_be_fired = no
+				allowed = {
+					original_tag = REM
+				}		
+				traits = {
+					foreign_minister
+					expansionist_policies
+				}
+			}
+	}	
+
+	REM_Alexander_Guchkov = {
+			portraits={
+				army={
+					small="GFX_idea_REM_Alexander_Guchkov"
+				}
+			}				
+			advisor={
+				slot = political_advisor
+				idea_token = REM_Alexander_Guchkov
+				name = REM_Alexander_Guchkov
+				can_be_fired = no
+				allowed = {
+					original_tag = REM
+				}	
+				traits = {
+					war_minister
+					army_chief_offensive_2
+				}
+			}
+	}	
+
+	REM_Nikolai_Lvov = {
+			portraits={
+				army={
+					small="GFX_idea_REM_Nikolai_Lvov"
+				}
+			}				
+			advisor={
+				slot = political_advisor
+				idea_token = REM_Nikolai_Lvov
+				name = REM_Nikolai_Lvov
+				can_be_fired = no
+				allowed = {
+					original_tag = REM
+				}	
+				traits = {
+					head_of_council
+					staunch_constitutionalist
+				}
+			}
+	}	
+
+	REM_Pyotr_Stolypin = {
+			portraits={
+				army={
+					small="GFX_idea_REM_Pyotr_Stolypin"
+				}
+			}				
+			advisor={
+				slot = head_of_government
+				idea_token = REM_Pyotr_Stolypin
+				name = REM_Pyotr_Stolypin
+				can_be_fired = no
+				allowed = {
+					original_tag = REM
+				}
+				traits = {
+					head_of_government
+					headstrong
+				}
+			}
+	}
+
 }

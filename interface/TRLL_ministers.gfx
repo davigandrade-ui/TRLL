@@ -25,4 +25,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/ministers/REM/REM_advisor_nikolaevich.dds"
 	}	
 
+	spriteType = {
+		name = "GFX_idea_TUR_mumtaz_okmen"
+		texturefile = "gfx/interface/ideas/idea_tur_mumtaz_okmen.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_TUR_hasan_cakmak"
+		texturefile = "gfx/interface/ideas/idea_generic_political_advisor_europe_1.dds"
+	}	
+
 }

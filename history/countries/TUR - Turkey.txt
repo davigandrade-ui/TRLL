@@ -49,6 +49,8 @@ set_technology = {
 	mtg_transport = 1
 }
 
+	recruit_character = TUR_mumtaz_okmen
+	recruit_character = TUR_hasan_cakmak
 		add_ideas = {
 			limited_conscription
 			export_focus
@@ -57,6 +59,8 @@ set_technology = {
 			TUR_disorganised_armed_forces
 			TUR_debt_council
 			TUR_legacy_of_ataturk_defiled
+			TUR_hasan_cakmak
+			
 		}
 	
 		add_opinion_modifier = { 
@@ -120,7 +124,6 @@ if = {
 	recruit_character = TUR_ahmet_ali_celikten
 	recruit_character = TUR_mehmet_fahri_engin
 	recruit_character = TUR_muzaffer_goksenin
-	recruit_character = TUR_mumtaz_okmen
 	recruit_character = TUR_riza_nur
 	recruit_character = TUR_nejdet_sancar
 	recruit_character = TUR_kazim_ozalp
@@ -148,6 +151,7 @@ if = {
 	recruit_character = TUR_durrushehvar_i #Empty char. Can become country leader later
 	recruit_character = TUR_abdulmejid_ii #Empty char. Can become country leader later
 	recruit_character = TUR_hazi_aslanov #Empty Char. Can become unit leader later
+
 }
 
 

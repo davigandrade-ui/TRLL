@@ -5942,6 +5942,7 @@ leader_traits = {
 		production_speed_arms_factory_factor = 0.1
 		production_speed_dockyard_factor = 0.1
 		production_speed_fuel_silo_factor = 0.1
+		production_speed_synthetic_refinery_factor = 0.1		
 
 		ai_will_do = {
 			factor = 2
@@ -5954,7 +5955,54 @@ leader_traits = {
 		production_speed_industrial_complex_factor = 0.1
 		production_speed_infrastructure_factor = 0.1
 		production_speed_rail_way_factor = 0.1
-		production_speed_synthetic_refinery_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 1.8
+				date < 1939.1.1
+			}
+		}
+	}
+
+	captain_of_industry_one = {
+		sprite = 10
+		random = yes
+		production_speed_industrial_complex_factor = 0.05
+		production_speed_infrastructure_factor = 0.05
+		production_speed_rail_way_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 1.8
+				date < 1939.1.1
+			}
+		}
+	}
+
+	captain_of_industry_two = {
+		sprite = 10
+		random = yes
+		production_speed_industrial_complex_factor = 0.1
+		production_speed_infrastructure_factor = 0.1
+		production_speed_rail_way_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 1.8
+				date < 1939.1.1
+			}
+		}
+	}
+
+	captain_of_industry_three = {
+		sprite = 10
+		random = yes
+		production_speed_industrial_complex_factor = 0.15
+		production_speed_infrastructure_factor = 0.15
+		production_speed_rail_way_factor = 0.15
 
 		ai_will_do = {
 			factor = 1
