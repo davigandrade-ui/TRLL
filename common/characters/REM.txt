@@ -190,7 +190,7 @@ characters={
 				}
 			}				
 			advisor={
-				slot = head_of_government
+				slot = second_in_command
 				idea_token = REM_Pyotr_Stolypin
 				name = REM_Pyotr_Stolypin
 				can_be_fired = no

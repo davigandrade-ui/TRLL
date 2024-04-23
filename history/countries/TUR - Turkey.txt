@@ -59,7 +59,6 @@ set_technology = {
 			TUR_disorganised_armed_forces
 			TUR_debt_council
 			TUR_legacy_of_ataturk_defiled
-			TUR_hasan_cakmak
 			
 		}
 	

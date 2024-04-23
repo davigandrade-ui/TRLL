@@ -2,6 +2,14 @@ ideas = {
 
 	hidden_ideas = {
 		
+	second_in_command = { }
+	political_advisor = { }
+	theorist = { }
+	army_chief = { }
+	navy_chief = { }
+	air_chief = { }
+	high_command = { }
+		
 		league_of_nations_member_idea = { 
 			allowed = {
 				always = no
