@@ -667,7 +667,7 @@ ideas = {
 			}
 		}
 		
-		DEN_foreign_influence_national_vanguard_ns = { 
+		DEN_foreign_influence_fascism_ns = { 
 			name = DEN_foreign_influence_ns
 			removal_cost = -1
 			picture = generic_fascism_drift_bonus 

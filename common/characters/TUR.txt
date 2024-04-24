@@ -1320,7 +1320,13 @@ characters={
 					has_dlc = "Battle for the Bosporus"
 				}
 				available = {
-					num_of_civilian_factories > 25
+					has_built = {
+    					type = industrial_complex
+   						 value > 5
+					}
+					not = {
+						OR = { has_idea_with_trait = captain_of_industry_three  has_political_power < 0 }
+					}
 				}
 				traits = {
 					captain_of_industry_two
@@ -1373,7 +1379,7 @@ characters={
 				}
 				available = {
 					not = {
-						has_idea_with_trait = captain_of_industry_two 
+						OR = { has_idea_with_trait = captain_of_industry_two  has_political_power < 0 }
 					}
 				}
 				visible = { not = { has_idea_with_trait = captain_of_industry_two } }				

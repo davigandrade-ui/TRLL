@@ -522,7 +522,7 @@ focus_tree = {
 
 			custom_effect_tooltip = CHL_skip_one_line_tt
 
-			activate_mission = CHL_anti_fascist_coalition_forming
+			#activate_mission = CHL_anti_fascist_coalition_forming
 
 		}
 	} 
