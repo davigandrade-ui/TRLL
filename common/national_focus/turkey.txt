@@ -491,7 +491,28 @@ focus_tree = {
 			}
 			add_war_support = 0.05
 		}
-	}		
+	}
+
+	focus = {
+		id = TUR_his_legacy
+		icon = GFX_goal_deify_ataturk
+		prerequisite = { focus = TUR_the_hatay_issue }
+		x = 0
+		y = 1
+		relative_position_id = TUR_the_hatay_issue
+		cost = 5
+		ai_will_do = {
+			base = 10
+		}
+		available = { TUR = { owns_state = 184 } TUR = { owns_state = 676 } TUR = { owns_state = 799 } TUR = { owns_state = 677 } TUR = { owns_state = 680 } TUR = { owns_state = 187 } TUR = { owns_state = 164 } TUR = { owns_state = 183 } TUR = { owns_state = 731 } TUR = { owns_state = 212 } TUR = { owns_state = 211 } }
+
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT }
+		completion_reward = {
+					
+				remove_ideas = TUR_legacy_of_ataturk_defiled
+				add_ideas = TUR_legacy_of_ataturk_fulfilled
+		}
+	}			
 
 	focus = {
 		id = TUR_industrial_encouragement_law

@@ -42,7 +42,7 @@ ideas = {
 			}
 		}
 
-		SAF_ossewabrandwag_national_vanguard = {
+		SAF_ossewabrandwag_fascism = {
 			allowed = {
 				always = no
 			}
@@ -53,7 +53,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = saf_ossewabrandwag_national_vanguard
+			picture = saf_ossewabrandwag_fascism
 
 			modifier = {
 				national_vanguard_drift = 0.01

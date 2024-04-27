@@ -1306,8 +1306,8 @@ ideas = {
 				
 			modifier = {
 				stability_factor = 0.15
-				political_power_gain = 0.1
-				democratic_drift = 0.02
+				political_power_gain = 0.5
+				drift_defence_factor = 0.5
 			}
 		}
 
