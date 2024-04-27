@@ -39,7 +39,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = TUR_war_economyy
 		ai_will_do = {
-			factor = 4
+			factor = 5
 		}
 		available = {
 
@@ -206,7 +206,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 3
+			factor = 4
 		}
 
 		available = {

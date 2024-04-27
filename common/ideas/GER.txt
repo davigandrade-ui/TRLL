@@ -346,7 +346,7 @@ ideas = {
 			}
 		}
 
-		GER_clamp_down_on_national_vanguard = {
+		GER_clamp_down_on_fascism= {
 			allowed = {
 				always = no
 			}

@@ -1373,6 +1373,13 @@ characters={
 				idea_token = TUR_hasan_cakmak
 				name = TUR_hasan_cakmak
 				cost = 0
+				ai_will_do = {
+					factor = 1
+					modifier = {
+						factor = 100
+						date < 1939.1.1
+					}
+				}
 				allowed = {
 					original_tag = TUR
 					has_dlc = "Battle for the Bosporus"

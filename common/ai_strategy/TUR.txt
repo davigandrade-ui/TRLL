@@ -47,3 +47,20 @@
 #		value = 200
 #	}
 #}
+
+CHI_prio_military_even_at_peace = {
+	allowed = { original_tag = CHI }
+	enable = {
+		has_war_with = OTT
+	}
+	abort = {
+		NOT = { has_war_with = OTT }
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = added_military_to_civilian_factory_ratio
+		value = -50
+	}
+	
+}
