@@ -130,5 +130,32 @@ country_event = {
 		name = TRLL.5.a
 		add_ideas = TUR_recovering_from_civil_war
 		remove_ideas = TUR_sectarian_woes_1 
+		add_ideas = partial_economic_mobilisation
 	}
 }
+
+# Turkish Civil War - Şeyh Bedrettin Comes To Aid
+#country_event = {
+#	id = TRLL.6
+#	title = TRLL.6.t
+#	desc = TRLL.6.d
+#	picture = GFX_report_event_generic_parliament
+#	
+#	fire_only_once = yes
+#	
+#	trigger = {
+#		tag = TUR				
+#		NOT = { has_war_with = OTT }
+#	}
+#	immediate = {
+#		hidden_effect = {
+#			drop_cosmetic_tag = yes
+#		}
+#	}
+#	option = {
+#		name = TRLL.5.a
+#		add_ideas = TUR_recovering_from_civil_war
+#		remove_ideas = TUR_sectarian_woes_1 
+#		add_ideas = partial_economic_mobilisation
+#	}
+#}

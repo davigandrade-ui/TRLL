@@ -288,7 +288,7 @@ units = {
 	}
 
 	division = {
-		location = 6830
+		location = 9777
 		division_template = "Piyade Fırkası"
 		start_experience_factor = 0.1
 	}

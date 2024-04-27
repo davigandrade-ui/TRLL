@@ -2,6 +2,24 @@ ideas = {
 
 	country = { 
 
+		TUR_national_recovery_1 = {
+
+			picture = generic_production_bonus
+
+			allowed = {
+				original_tag = TUR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				stability_weekly = 0.002
+				consumer_goods_factor = -0.15
+			}
+		}
+
 		TUR_recovering_from_civil_war = {
 
 			name = TUR_recovering_from_civil_war
@@ -20,6 +38,7 @@ ideas = {
 				ai_get_ally_desire_factor = -300
 				ai_join_ally_desire_factor = -300
 				join_faction_tension = 0.5
+				stability_factor = -0.2
 				industrial_capacity_factory = -0.2
 				industrial_capacity_dockyard = -0.2
 				production_speed_buildings_factor = -0.1
@@ -48,6 +67,7 @@ ideas = {
 				ai_get_ally_desire_factor = -200
 				ai_join_ally_desire_factor = -200
 				join_faction_tension = 0.5
+				stability_factor = -0.1
 				industrial_capacity_factory = -0.14
 				industrial_capacity_dockyard = -0.14
 				production_speed_buildings_factor = -0.07
@@ -73,6 +93,7 @@ ideas = {
 			}
 
 			modifier = {
+				stability_factor = -0.05
 				industrial_capacity_factory = -0.07
 				industrial_capacity_dockyard = -0.07
 				production_speed_buildings_factor = -0.04
@@ -112,8 +133,9 @@ ideas = {
 			picture = tur_varlik_vergisi
 
 			modifier = {
+				army_core_defence_factor = 0.05
+				army_core_attack_factor = 0.05
 				war_support_factor = 0.05
-				surrender_limit = 0.1
 			}
 		}	
 
@@ -130,8 +152,10 @@ ideas = {
 			picture = tur_varlik_vergisi
 
 			modifier = {
+				army_core_defence_factor = 0.05
+				army_core_attack_factor = 0.05
 				war_support_factor = 0.05
-				surrender_limit = 0.2
+				surrender_limit = 0.05
 			}
 		}	
 
@@ -169,7 +193,7 @@ ideas = {
 			picture = chi_army_corruption
 
 			modifier = {
-				conscription = 0.05
+				conscription = 0.055
 				war_support_factor = -0.3
 				max_planning = -0.1
 				max_dig_in = -1

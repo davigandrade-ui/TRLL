@@ -1,0 +1,17 @@
+OTT_the_soviet_not_a_threat_in_civil_war = {
+	allowed = { original_tag = OTT }
+	enable = {
+		has_war_with = TUR
+	}
+
+	abort = {
+		NOT = { has_war_with = TUR }
+	}
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = CAV	
+		value = -200
+	}
+
+}

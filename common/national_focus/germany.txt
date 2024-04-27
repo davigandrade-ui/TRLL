@@ -862,11 +862,10 @@ focus_tree = {
 	focus = {
 		id = GER_rocketry_focus
 		icon = GFX_focus_rocketry
-		prerequisite = { focus = GER_extra_tech_slot }
 		prerequisite = { focus = GER_air_innovation_2 }
-		x = 2
+		x =0
 		y = 1
-		relative_position_id = GER_extra_tech_slot
+		relative_position_id = GER_air_innovation_2
 		cost = 10
 		ai_will_do = {
 			factor = 1

@@ -11041,7 +11041,7 @@ CHL_the_hispanic_revolutions_decisions = {
 
 					start_civil_war = {
 						ideology = communism
-						ruling_party = fascism
+						ruling_party = national_vanguard
 						size = var:CHL_FROM_communist_support
 						ROOT = {
 							puppet = {

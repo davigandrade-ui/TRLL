@@ -679,9 +679,9 @@ sub_units = {
 		supply_consumption = 0.04 # reg inf  0.06
 
 		# generally not as drilled in modern warfare as regular troops 
-		soft_attack = -0.6
+		soft_attack = -0.70
 		#breakthrough = -0.1  
-		defense = -0.6
+		defense = -0.70
 
 		# Terrain bonuses
 		# Attack bonuses higher as they thought defending was dishonourable

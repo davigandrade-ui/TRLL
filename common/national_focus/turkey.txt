@@ -32,14 +32,14 @@ focus_tree = {
 
 	focus = {
 		id = TUR_old_but_gold
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_frontend_medal_dlc031
 		prerequisite = { focus = TUR_war_economyy }
 		cost = 5
 		x = -4
 		y = 1
 		relative_position_id = TUR_war_economyy
 		ai_will_do = {
-			factor = 5
+			factor = 7
 		}
 		available = {
 
@@ -206,7 +206,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 4
+			factor = 6
 		}
 
 		available = {
@@ -279,7 +279,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 1
+			factor = 3
 		}
 
 		available = {
@@ -315,7 +315,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 1
+			factor = 3
 		}
 
 		available = {
@@ -349,7 +349,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-
+		allow_branch = {
+			NOT = { has_war_with = OTT }
+		}
 		available = {
 		has_war = no
 		not = { has_country_flag = TUR_great_depression_cooldown }
@@ -437,7 +439,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
-			add_timed_idea = { idea = SPA_national_recovery_1 days = 90 }
+			add_timed_idea = { idea = TUR_national_recovery_1 days = 90 }
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
@@ -472,7 +474,9 @@ focus_tree = {
 		bypass = {
 			TUR = { owns_state = 799 }
 		}
-
+		allow_branch = {
+			NOT = { has_war_with = OTT }
+		}
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT }
 		completion_reward = {
 			if = {

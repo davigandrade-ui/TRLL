@@ -55,7 +55,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 2
+			factor = 3
 		}
 
 		available = {
@@ -81,7 +81,7 @@ focus_tree = {
 		id = OTT_call_for_jihad
 		icon = GFX_focus_generic_attack_turkey
 		prerequisite = { focus = OTT_masallah }
-		x = 0
+		x = 2
 		y = 1
 		relative_position_id = OTT_masallah
 
@@ -89,6 +89,10 @@ focus_tree = {
 
 		ai_will_do = {
 			factor = 3
+			modifier = {
+				factor = 5
+				has_manpower < 50000
+			}
 		}
 
 		available = {
@@ -106,6 +110,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
+			add_manpower = 50000
 			swap_ideas = {
 				remove_idea = TUR_irregular_army
 				add_idea = TUR_irregular_army_2
@@ -158,6 +163,10 @@ focus_tree = {
 
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				surrender_progress > 0.5
+			}
 		}
 
 		available = {
@@ -190,7 +199,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 6
+			factor = 9
 		}
 
 		available = {
@@ -209,6 +218,7 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = OTT_britain_spies
 			add_offsite_building = { type = arms_factory level = 2 }
+			add_offsite_building = { type = industrial_complex level = 2 }
 		}
 	}
 
@@ -223,7 +233,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 5
+			factor = 6
 		}
 
 		available = {
@@ -291,7 +301,7 @@ focus_tree = {
 	focus = {
 		id = OTT_last_defense
 		icon = GFX_goal_generic_defence
-		prerequisite = { focus = OTT_call_for_jihad focus = TUR_three_children focus = OTT_reach_out_to_britain }
+		prerequisite = { focus = OTT_gayretullah focus = TUR_three_children focus = OTT_reach_out_to_britain }
 		x = 0
 		y = 2
 		relative_position_id = OTT_reach_out_to_britain
@@ -299,12 +309,12 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 
 		available = {
 		casualties > 100000
-		surrender_progress > 0.7
+		surrender_progress > 0.70
 		}
 
 		bypass = {
@@ -332,15 +342,15 @@ focus_tree = {
 	focus = {
 		id = OTT_gayretullah
 		icon = GFX_goal_continuous_suppression
-		prerequisite = { focus = OTT_last_defense }
-		x = 1
+		prerequisite = { focus = OTT_masallah }
+		x = 0
 		y = 1
-		relative_position_id = OTT_last_defense
+		relative_position_id = OTT_masallah
 
 		cost = 5
 
 		ai_will_do = {
-			factor = 1
+			factor = 2
 		}
 
 		available = {
@@ -365,16 +375,89 @@ focus_tree = {
 		}
 	}	
 
+	focus = {
+		id = OTT_volunteers_from_abroad
+		icon = GFX_goal_generic_CAS
+		prerequisite = { focus = OTT_last_defense }
+		x = -1
+		y = 1
+		relative_position_id = OTT_last_defense
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+	
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+		custom_effect_tooltip = OTT_create_unit_rani_tt
+			hidden_effect = {
+
+			division_template = {
+				name = "Allahın Aslanları"
+				division_names_group = OTT_INF_01
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+		
+		        	infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+		
+		        	infantry = { x = 2 y = 0 }
+					infantry = { x = 2 y = 1 }
+					infantry = { x = 2 y = 2 }
+				}
+				support = {
+					artillery = { x = 0 y = 0 }
+				}
+			}
+
+		random_owned_controlled_state = {
+			prioritize = { 354 }
+			create_unit = { 
+				division = "name = \"1. Allahın Aslanları\" division_template = \"Allahın Aslanları\" start_experience_factor = 1" 
+				owner = OTT
+				}
+			create_unit = { 
+				division = "name = \"2. Allahın Aslanları\" division_template = \"Allahın Aslanları\" start_experience_factor = 1" 
+				owner = OTT
+				}
+			create_unit = { 
+				division = "name = \"3. Allahın Aslanları\" division_template = \"Allahın Aslanları\" start_experience_factor = 1" 
+				owner = OTT
+				}
+
+		}
+			}
+		}
+	}
 
 	focus = {
 		id = OTT_true_caliph
-		icon = GFX_focus_TUR_pivot_to_the_past
+		icon = GFX_focus_TUR_pivot_to_the_past 
 		prerequisite = { focus = OTT_last_defense }
+		prerequisite = { focus = OTT_volunteers_from_abroad }
 		x = 0
 		y = 2
 		relative_position_id = OTT_last_defense
 
-		cost = 15
+		cost = 5
 
 		ai_will_do = {
 			factor = 1

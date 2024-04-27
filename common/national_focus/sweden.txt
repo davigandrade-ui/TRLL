@@ -4053,10 +4053,10 @@ focus_tree = {
 					}
 				}
 
-				TUR = {
-					TUR_nazim_hikmet = { set_nationality = ROOT }
-					TUR_sevket_sureyya_aydemir = { set_nationality = ROOT }
-				}
+				#TUR = {
+				#	TUR_nazim_hikmet = { set_nationality = ROOT }
+				#	TUR_sevket_sureyya_aydemir = { set_nationality = ROOT }
+				#}
 			}
 
 

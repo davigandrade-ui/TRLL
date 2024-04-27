@@ -48,8 +48,8 @@
 #	}
 #}
 
-CHI_prio_military_even_at_peace = {
-	allowed = { original_tag = CHI }
+TUR_prio_civ_while_fightning_fundamentalists = {
+	allowed = { original_tag = TUR }
 	enable = {
 		has_war_with = OTT
 	}
