@@ -16,8 +16,9 @@ leader_traits = {
 
 	true_caliph = {
 		random = no
-		weekly_manpower = 20000
+		weekly_manpower = 20400
 		mobilization_speed = 0.5
+		stability_factor = 0.4
 		war_support_factor = 0.5
 		political_power_factor = 0.25
 		army_attack_factor = 1
