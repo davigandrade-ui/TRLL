@@ -64,3 +64,80 @@ TUR_prio_civ_while_fightning_fundamentalists = {
 	}
 	
 }
+
+TUR_dont_attack_like_crazy_monkey = {
+	allowed = {
+		original_tag = TUR
+	}
+
+	enable = {
+		has_war_with = OTT
+	}
+
+	abort = {
+		OR = {
+			NOT = { has_war_with = OTT }
+			OTT = { focus_progress = { focus = OTT_last_defense progress > 0.01 } }
+		}
+	}
+
+	ai_strategy = {
+		type = front_control
+
+		tag = OTT
+
+		ratio = 0.6
+
+		priority = 100
+		ordertype = front
+		execution_type = rush_weak
+	}
+
+}
+
+TUR_attack_like_crazy_monkey = {
+	allowed = {
+		original_tag = TUR
+	}
+
+	enable = {
+		OTT = { focus_progress = { focus = OTT_true_caliph progress > 0.01 } }
+	}
+
+	abort = {
+		NOT = { has_war_with = OTT }
+	}
+
+	ai_strategy = {
+		type = front_control
+
+		tag = OTT
+
+		ratio = 0.6
+
+		priority = 100
+		ordertype = front
+		execution_type = rush
+	}
+
+}
+
+TUR_stupid_ai_garrisons_not_needed = {
+	allowed = {
+		original_tag = TUR
+	}
+
+	enable = {
+		has_war_with = OTT
+	}
+
+	abort = {
+			NOT = { has_war_with = OTT }
+	}
+
+	ai_strategy = {
+		type = garrison_reinforcement_priority
+		value = -100 # positive is high prio, negative is low prio
+	}
+
+}

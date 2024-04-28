@@ -59,7 +59,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = TUR_war_economyy
 		ai_will_do = {
-			factor = 1
+			factor = 3
 		}
 		available = {
 
@@ -152,7 +152,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 1
+			factor = 3
 		}
 
 		available = {
@@ -183,8 +183,8 @@ focus_tree = {
 		relative_position_id = TUR_old_but_gold
 		cost = 5
 		ai_will_do = {
-			base = 10
-		} 
+			factor = 10
+		}
 		
 
 		search_filters = { FOCUS_FILTER_TUR_KEMALISM FOCUS_FILTER_WAR_SUPPORT }
@@ -206,7 +206,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 6
+			factor = 7
 		}
 
 		available = {
@@ -315,7 +315,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 3
+			factor = 4
 		}
 
 		available = {

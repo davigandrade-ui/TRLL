@@ -91,7 +91,7 @@ set_variable = { SOV_propaganda_high_yield_cost = SOV_propaganda_cost } # ID = 1
 set_variable = { SOV_propaganda_for_the_motherland_cost = SOV_propaganda_cost } # ID = 11
 set_variable = { SOV_propaganda_heroes_forward_cost = SOV_propaganda_cost } # ID = 12
 set_variable = { SOV_propaganda_anti_capitalism_cost = SOV_propaganda_cost } # ID = 13
-set_variable = { SOV_propaganda_anti_fascism_cost = SOV_propaganda_cost } # ID = 14
+set_variable = { SOV_propaganda_anti_national_vanguard_cost = SOV_propaganda_cost } # ID = 14
 set_variable = { SOV_propaganda_treacherous_enemy_cost = SOV_propaganda_cost } # ID = 15
 set_variable = { SOV_propaganda_do_not_blab_cost = SOV_propaganda_cost } # ID = 16
 set_variable = { SOV_propaganda_sweep_scum_out_cost = SOV_propaganda_cost } # ID = 17

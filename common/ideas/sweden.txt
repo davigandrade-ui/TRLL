@@ -1526,7 +1526,7 @@ ideas = {
 			}
 		}
 
-		SWE_undermine_national_vanguard = {
+		SWE_undermine_fascism = {
 			allowed_civil_war = {
 				always = yes
 			}

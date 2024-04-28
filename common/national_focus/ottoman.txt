@@ -55,7 +55,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 3
+			factor = 4
 		}
 
 		available = {
@@ -90,7 +90,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 3
 			modifier = {
-				factor = 5
+				factor = 6
 				has_manpower < 50000
 			}
 		}
@@ -130,6 +130,10 @@ focus_tree = {
 
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				surrender_progress > 0.55
+			}
 		}
 
 		available = {
@@ -199,7 +203,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 9
+			factor = 13
 		}
 
 		available = {
@@ -233,7 +237,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 6
+			factor = 9
 		}
 
 		available = {
@@ -313,8 +317,16 @@ focus_tree = {
 		}
 
 		available = {
-		casualties > 100000
-		surrender_progress > 0.70
+			OR = {
+				AND = {
+					casualties > 100000
+					surrender_progress > 0.70
+				}
+				AND = {
+					casualties > 200000
+					surrender_progress > 0.60
+				}
+			}
 		}
 
 		bypass = {
@@ -351,6 +363,10 @@ focus_tree = {
 
 		ai_will_do = {
 			factor = 2
+			modifier = {
+				factor = 0
+				surrender_progress > 0.55
+			}
 		}
 
 		available = {
@@ -379,14 +395,14 @@ focus_tree = {
 		id = OTT_volunteers_from_abroad
 		icon = GFX_goal_generic_CAS
 		prerequisite = { focus = OTT_last_defense }
-		x = -1
+		x = 0
 		y = 1
 		relative_position_id = OTT_last_defense
 
 		cost = 5
 
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 
 		available = {
@@ -451,13 +467,12 @@ focus_tree = {
 	focus = {
 		id = OTT_true_caliph
 		icon = GFX_focus_TUR_pivot_to_the_past 
-		prerequisite = { focus = OTT_last_defense }
 		prerequisite = { focus = OTT_volunteers_from_abroad }
 		x = 0
 		y = 2
 		relative_position_id = OTT_last_defense
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 1

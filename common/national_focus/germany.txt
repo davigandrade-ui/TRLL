@@ -309,22 +309,6 @@ focus_tree = {
 		
 	}
 	
-	focus = {
-		id = GER_invite_opposition
-		prerequisite = { focus = GER_meet_with_economy_ministry }
-		icon = GFX_goal_generic_construction
-		x = 5
-		y = 0
-		cost = 10
-		relative_position_id = GER_meet_with_economy_ministry
-		ai_will_do = {
-			factor = 12
-		}
-		completion_reward = {
-		}
-		
-	}
-	
 	# PLANES below
 
 	focus = {

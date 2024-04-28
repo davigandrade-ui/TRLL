@@ -172,6 +172,8 @@ ideas = {
 			picture = chi_army_corruption
 
 			modifier = {
+				equipment_capture = 0.1
+				mobilization_speed = 0.1
 				conscription = 0.03
 				war_support_factor = -0.3
 				max_planning = -0.1
@@ -193,6 +195,8 @@ ideas = {
 			picture = chi_army_corruption
 
 			modifier = {
+				equipment_capture = 0.1
+				mobilization_speed = 0.1
 				conscription = 0.055
 				war_support_factor = -0.3
 				max_planning = -0.1

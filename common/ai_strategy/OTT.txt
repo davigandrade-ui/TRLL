@@ -15,3 +15,27 @@ OTT_the_soviet_not_a_threat_in_civil_war = {
 	}
 
 }
+
+OTT_defend_until_caliph_becomes_true = {
+	allowed = { original_tag = OTT }
+	enable = {
+		has_war_with = TUR
+	}
+
+	abort = {
+		has_completed_focus = OTT_true_caliph
+	}
+
+	ai_strategy = {
+		type = front_control
+
+		tag = TUR
+
+		ratio = 0.6
+
+		priority = 100
+		ordertype = front
+		execution_type = balanced
+	}
+
+}
