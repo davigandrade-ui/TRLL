@@ -117,10 +117,8 @@ country_event = {
 	
 	fire_only_once = yes
 	
-	trigger = {
-		tag = TUR				
-		NOT = { has_war_with = OTT }
-	}
+	is_triggered_only = yes
+
 	immediate = {
 		hidden_effect = {
 			drop_cosmetic_tag = yes
@@ -131,6 +129,7 @@ country_event = {
 		add_ideas = TUR_recovering_from_civil_war
 		remove_ideas = TUR_sectarian_woes_1 
 		add_ideas = partial_economic_mobilisation
+		mark_focus_tree_layout_dirty = yes
 	}
 }
 
@@ -195,6 +194,22 @@ country_event = {
 				}
 				create_unit = {
 					division = "name = \"8. Şeyh Bedrettin Mürid\" division_template = \"Şeyh Bedrettin Mürid\"start_experience_factor = 0.1" 
+					owner = OTT
+				}
+				create_unit = {
+					division = "name = \"9. Şeyh Bedrettin Mürid\" division_template = \"Şeyh Bedrettin Mürid\"start_experience_factor = 0.1" 
+					owner = OTT
+				}
+				create_unit = {
+					division = "name = \"10. Şeyh Bedrettin Mürid\" division_template = \"Şeyh Bedrettin Mürid\"start_experience_factor = 0.1" 
+					owner = OTT
+				}
+				create_unit = {
+					division = "name = \"11. Şeyh Bedrettin Mürid\" division_template = \"Şeyh Bedrettin Mürid\"start_experience_factor = 0.1" 
+					owner = OTT
+				}
+				create_unit = {
+					division = "name = \"12. Şeyh Bedrettin Mürid\" division_template = \"Şeyh Bedrettin Mürid\"start_experience_factor = 0.1" 
 					owner = OTT
 				}
 				

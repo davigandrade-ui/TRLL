@@ -354,7 +354,6 @@ focus_tree = {
 		}
 		available = {
 		has_war = no
-		not = { has_country_flag = TUR_great_depression_cooldown }
 		}
 
 		bypass = {
