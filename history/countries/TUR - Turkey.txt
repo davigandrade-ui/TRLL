@@ -5,6 +5,8 @@ set_oob = "TUR_1936_nsb"
 set_naval_oob = "TUR_1936_naval_mtg"
 set_air_oob = "TUR_1936_air_bba"
 
+add_command_power = 15
+
 declare_war_on = {
 	target = OTT
 	type = annex_everything
@@ -51,6 +53,7 @@ set_technology = {
 
 	recruit_character = TUR_mumtaz_okmen
 	recruit_character = TUR_hasan_cakmak
+	recruit_character = TUR_refik_koraltan
 		add_ideas = {
 			limited_conscription
 			export_focus

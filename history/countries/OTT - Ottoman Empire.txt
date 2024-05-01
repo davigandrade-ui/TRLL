@@ -4,6 +4,8 @@ set_oob = "OTT_1936"
 
 set_research_slots = 3
 
+add_command_power = 15
+
 recruit_character = TUR_recebzade_erdogan_efendi
 recruit_character = TUR_ahmet_fevzi_pasha 
 recruit_character = TUR_refet_pasha 

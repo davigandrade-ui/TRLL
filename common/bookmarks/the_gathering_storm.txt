@@ -28,6 +28,22 @@ bookmarks = {
 				TUR_legacy_of_ataturk_defiled
 			}
 			focuses = {
+			TUR_his_legacy
+			}	
+		}
+
+		"OTT"={
+			history = "REM_GATHERING_STORM_DESC"
+			ideology = national_vanguard
+			ideas = {
+				TUR_sectarian_woes_1
+				TUR_irregular_army
+				TUR_non_existent_bureaucracy
+			}
+			focuses = {
+			OTT_last_defense
+			OTT_volunteers_from_abroad
+			OTT_true_caliph
 			}	
 		}
 	}

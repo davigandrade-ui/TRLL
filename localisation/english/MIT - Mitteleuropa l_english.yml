@@ -200,8 +200,8 @@
  MIT_becomes_new_chairman: "§Y[ROOT.GetNameWithFlag]§! becomes the new §YPresident of the Mitteleuropean Commission§!"
 
 ### Dynamic Modifiers ###
- MIT_mitteleuropa_modifier: "Member of Mitteleuropa"
- MIT_mitteleuropa_modifier_desc: "Officially titled the Central European Economic Union, Mitteleuropa is a customs and economic union unifying Germany and its sphere of influence, established after the Weltkrieg. Member states of Mitteleuropa find the impact of this agreement mixed - while the economic connections with Germany are beneficial, the agreement is heavily weighted in German favour."
+ MIT_mitteleuropa_modifier: "Member of St. Petersburg Pact"
+ MIT_mitteleuropa_modifier_desc: "§8The Pact of St. Petersburg§! is a robust alliance built on military, political, and economic cooperation among nations deeply connected to the Russian Empire's legacy. It ensures collective security through defense agreements, promotes political unity in global affairs, and fosters economic growth through trade and investment initiatives. \n\nBeyond strategic interests, it celebrates cultural bonds and historical ties, embodying unity in diversity. Together, member nations pursue a future of peace, prosperity, and mutual understanding, guided by a shared commitment to cooperation."
 
  MIT_modify_mitteleuropa_modifier: "Modify §Y$MIT_mitteleuropa_modifier$§! by"
  MIT_targeted_and_research_modifiers_tt: "[THIS.GetMitteleuropaBerlinBureaucracyActive]"

@@ -1,5 +1,5 @@
 MIT_mitteleuropa_modifier = {
-	icon = "GFX_idea_ger_revive_the_kaiserreich"
+	icon = "GFX_idea_petersburg"
 
 	min_export = MIT_min_export
 	trade_opinion_factor = MIT_trade_opinion_factor

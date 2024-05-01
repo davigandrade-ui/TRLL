@@ -326,6 +326,10 @@ focus_tree = {
 					casualties > 200000
 					surrender_progress > 0.60
 				}
+				AND = {
+					casualties > 300000
+					surrender_progress > 0.50
+				}
 			}
 		}
 
