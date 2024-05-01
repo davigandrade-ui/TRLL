@@ -19,7 +19,66 @@ bookmarks = {
 			}	
 		}
 
+		"FRA"={
+			history = "REM_GATHERING_STORM_DESC"
+			ideas = {
+
+			}
+			focuses = {
+			}	
+		}		
+
+		"GER"={
+			history = "REM_GATHERING_STORM_DESC"
+			ideas = {
+
+			}
+			focuses = {
+			}	
+		}
+
+		"ENG"={
+			history = "REM_GATHERING_STORM_DESC"
+			ideas = {
+
+			}
+			focuses = {
+			}	
+		}
+
+		"USA"={
+			history = "REM_GATHERING_STORM_DESC"
+			ideas = {
+
+			}
+			focuses = {
+			}	
+		}
+
+		"ITA"={
+			history = "REM_GATHERING_STORM_DESC"
+			ideas = {
+
+			}
+			focuses = {
+			}	
+		}
+
+		"JAP"={
+			history = "REM_GATHERING_STORM_DESC"
+			ideas = {
+
+			}
+			focuses = {
+			}	
+		}							
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
 		"TUR"={
+		minor = yes
 			history = "REM_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
@@ -33,6 +92,7 @@ bookmarks = {
 		}
 
 		"OTT"={
+		minor = yes
 			history = "REM_GATHERING_STORM_DESC"
 			ideology = national_vanguard
 			ideas = {
