@@ -773,7 +773,7 @@ adjacency_rule =
 #Shimonoseki-kaikyō
 adjacency_rule =
 {
-	name = "SHIMONOSEKI_strait"
+	name = "Shimonoseki_strait"
 
 	contested =
 	{
