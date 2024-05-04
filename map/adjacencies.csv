@@ -225,6 +225,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 859;6909;sea;8518;-1;-1;-1;-1;;Cross Sound Ferry
 9786;11740;sea;8492;-1;-1;-1;-1;;Cape May-Lewes Ferry
 3917;788;sea;8492;-1;-1;-1;-1;;Chesapeake Bay Ferry
+10904;13312;sea;2919;-1;-1;-1;-1;;Persian Gulf ferries
 2291;2124;;-1;-1;-1;-1;-1;SAPE_STRAIT;
 6824;5946;;-1;-1;-1;-1;-1;TSUGARU_STRAIT;
 2800;2776;;-1;-1;-1;-1;-1;BAB-EL-MANDEB_STRAIT;

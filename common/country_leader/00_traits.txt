@@ -14,37 +14,6 @@
 
 leader_traits = {
 
-	true_caliph = {
-		random = no
-		weekly_manpower = 20400
-		mobilization_speed = 0.5
-		stability_factor = 0.4
-		war_support_factor = 0.5
-		political_power_factor = 0.25
-		army_attack_factor = 1
-		army_defence_factor = 1
-		industrial_capacity_factory = 0.5
-	}
-
-	recebzade_political_paranoia = {
-		random = no
-		drift_defence_factor = 0.1
-		custom_modifier_tooltip = recebzade_paranoia_modifier_increase_effect_tt
-	}
-
-	uc_cocuk = {
-		random = no
-		monthly_population = 1
-	}
-
-
-	self_declared_caliph = { #shared monarch trait
-		random = no
-		war_support_factor = 0.1
-		weekly_manpower = 400
-		mobilization_speed = 0.1
-	}
-
 	dictator = {
 		random = no
 		political_power_factor = 0.25
@@ -55,25 +24,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	
-	maximalist_head = {
-		random = no
-		political_power_factor = 0.25
-		weekly_casualties_war_support = 0.001
 
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	REM_aging_man = {
-		random = no
-		stability_weekly_factor = -0.005
-		drift_defence_factor = -0.5
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	warrior_code = {
 		random = no
 		ai_call_ally_desire_factor = -40
@@ -87,7 +38,7 @@ leader_traits = {
 	underage_monarch = {
 		random = no
 		stability_factor = 0.10
-		 
+		political_advisor_cost_factor = 0.25
 		trade_laws_cost_factor = 0.25
 		mobilization_laws_cost_factor = 0.25
 		economy_cost_factor = 0.25
@@ -200,19 +151,6 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	
-	father_of_russia = {
-		random = no
-		war_support_factor = 0.1
-		stability_factor = 0.15
-		justify_war_goal_time = -0.25
-		industrial_capacity_factory = 0.1
-		industrial_capacity_dockyard = 0.1
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
 
 	cabinet_crisis = {
 		random = no
@@ -256,7 +194,7 @@ leader_traits = {
 
 	inexperienced_monarch = {
 		random = no
-		 
+		political_advisor_cost_factor = 0.25
 		trade_laws_cost_factor = 0.25
 		mobilization_laws_cost_factor = 0.25
 		economy_cost_factor = 0.25
@@ -295,7 +233,7 @@ leader_traits = {
 		sprite = 10
 		political_power_factor = -0.1
 		stability_factor = -0.1
-		 
+		political_advisor_cost_factor = -0.25		 
 		trade_laws_cost_factor = -0.25
 		mobilization_laws_cost_factor = -0.25
 		economy_cost_factor = -0.25
@@ -384,7 +322,7 @@ leader_traits = {
 	conservative_grandee = {
 		random = no
 		political_power_factor = 0.05
-		   
+		political_advisor_cost_factor = -0.1		   
 
 		ai_will_do = {
 			factor = 1
@@ -734,7 +672,7 @@ leader_traits = {
 
 	el_jefe_maximo = { #Plutarco Calles
 		random = no
-		 
+		political_advisor_cost_factor = -0.25		 
 		political_power_factor = 0.1
 		ai_will_do = {
 			factor = 1
@@ -864,7 +802,7 @@ leader_traits = {
 
 	camarilla_leader = {
 		random = no
-		 
+		political_advisor_cost_factor = -0.25		 
 		trade_laws_cost_factor = -0.25
 		mobilization_laws_cost_factor = -0.25
 		economy_cost_factor = -0.25
@@ -1338,7 +1276,7 @@ leader_traits = {
 		stability_factor = 0.1
 		war_support_factor = 0.15
 		political_power_gain = 0.15
-		 
+		political_advisor_cost_factor = -0.25		 
 
 		ai_will_do = {
 			factor = 1
@@ -1422,6 +1360,7 @@ leader_traits = {
 	father_of_the_turks = {
 		random = no
 		stability_factor = 0.3
+		political_advisor_cost_factor = -0.3
 		high_command_cost_factor = -0.3
 		air_chief_cost_factor = -0.3
 		army_chief_cost_factor = -0.3
@@ -1433,6 +1372,7 @@ leader_traits = {
 	father_of_the_turks_1 = {
 		random = no
 		stability_factor = 0.3
+		political_advisor_cost_factor = -0.22
 		high_command_cost_factor = -0.22
 		air_chief_cost_factor = -0.22
 		army_chief_cost_factor = -0.22
@@ -1444,7 +1384,7 @@ leader_traits = {
 	father_of_the_turks_2 = {
 		random = no
 		stability_factor = 0.3
-		  
+		political_advisor_cost_factor = -0.15  
 		high_command_cost_factor = -0.15
 		air_chief_cost_factor = -0.15
 		army_chief_cost_factor = -0.15
@@ -1456,6 +1396,7 @@ leader_traits = {
 	father_of_the_turks_3 = {
 		random = no
 		stability_factor = 0.3
+		political_advisor_cost_factor = -0.075
 		high_command_cost_factor = -0.075
 		air_chief_cost_factor = -0.075
 		army_chief_cost_factor = -0.075
@@ -1477,7 +1418,7 @@ leader_traits = {
 	infirm = {
 		random = no
 		political_power_factor = -0.25
-		 
+		political_advisor_cost_factor = 0.25 
 		high_command_cost_factor = 0.25
 		air_chief_cost_factor = 0.25
 		army_chief_cost_factor = 0.25
@@ -1490,7 +1431,7 @@ leader_traits = {
 		random = no
 		stability_factor = 0.15
 		war_support_factor = -0.1
-		 
+		political_advisor_cost_factor = -0.25 
 		high_command_cost_factor = -0.15
 		air_chief_cost_factor = -0.15
 		army_chief_cost_factor = -0.15
@@ -2073,7 +2014,7 @@ leader_traits = {
 		sprite = 13
 		democratic_drift = 0.05
 		political_power_gain = 0.05
-		stability_weekly = 0.005
+		stability_factor = 0.05
 	}
 
 	marxist_philosopher = {
@@ -5464,7 +5405,7 @@ leader_traits = {
 		equipment_bonus = {
 			train_equipment = {
 				build_cost_ic = 0.05
-				reliability = 0.15
+				armor_value = 0.1
 			}
 		}
 		production_speed_rail_way_factor = 0.05
@@ -5956,57 +5897,6 @@ leader_traits = {
 		production_speed_industrial_complex_factor = 0.1
 		production_speed_infrastructure_factor = 0.1
 		production_speed_rail_way_factor = 0.1
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 1.8
-				date < 1939.1.1
-			}
-		}
-	}
-
-	captain_of_industry_one = {
-		sprite = 10
-		random = yes
-		political_power_cost = 0.1
-		production_speed_industrial_complex_factor = 0.05
-		production_speed_infrastructure_factor = 0.05
-		production_speed_rail_way_factor = 0.05
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 1.8
-				date < 1939.1.1
-			}
-		}
-	}
-
-	captain_of_industry_two = {
-		sprite = 10
-		random = yes
-		political_power_cost = 0.2
-		production_speed_industrial_complex_factor = 0.1
-		production_speed_infrastructure_factor = 0.1
-		production_speed_rail_way_factor = 0.1
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 1.8
-				date < 1939.1.1
-			}
-		}
-	}
-
-	captain_of_industry_three = {
-		sprite = 10
-		random = yes
-		political_power_cost = 0.3
-		production_speed_industrial_complex_factor = 0.15
-		production_speed_infrastructure_factor = 0.15
-		production_speed_rail_way_factor = 0.15
 
 		ai_will_do = {
 			factor = 1
@@ -7859,7 +7749,7 @@ leader_traits = {
 		random = no
 		equipment_bonus = {
 			convoy = {
-				reliability = 0.3 build_cost_ic = -0.5
+				reliability = 0.1 build_cost_ic = -0.25
 			}
 		}
 
@@ -8461,7 +8351,7 @@ leader_traits = {
 
 	army_chief_old_guard = { # Rate at which field experience is gained decreases by 10%
 		sprite = 5 # Should not need sprite, should mostly be secondary
-		experience_gain_army = @chief_experience_gain_medium
+		experience_gain_army = @chief_experience_gain_low
 		max_command_power = 10
 
 		ai_will_do = {
