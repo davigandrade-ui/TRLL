@@ -113,7 +113,7 @@ shared_focus = {
 		any_other_country = {
 			exists = yes
 			has_capitulated = no
-			has_government = national_vanguard
+			has_government = fascism
 			is_major = yes
 			NOT = { has_war_with = ROOT }
 		}
@@ -131,7 +131,7 @@ shared_focus = {
 	completion_reward = {
 		add_ideas = BALTIC_axis_investments_idea
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = 0.05
 		}
 		if = {
@@ -139,7 +139,7 @@ shared_focus = {
 				GER = {
 					exists = yes
 					has_capitulated = no
-					has_government = national_vanguard
+					has_government = fascism
 					is_faction_leader = yes
 					NOT = { has_war_with = ROOT }
 				}
@@ -165,7 +165,7 @@ shared_focus = {
 					capital_scope = { is_on_continent = europe }
 					exists = yes
 					has_capitulated = no
-					has_government = national_vanguard
+					has_government = fascism
 					NOT = { has_war_with = ROOT }
 				}
 				add_opinion_modifier = {
@@ -183,7 +183,7 @@ shared_focus = {
 				JAP = {
 					exists = yes
 					has_capitulated = no
-					has_government = national_vanguard
+					has_government = fascism
 					NOT = { has_war_with = ROOT }
 				}
 			}
@@ -206,7 +206,7 @@ shared_focus = {
 					capital_scope = { is_on_continent = europe }
 					exists = yes
 					has_capitulated = no
-					has_government = national_vanguard
+					has_government = fascism
 					NOT = { has_war_with = ROOT }
 				}
 				add_opinion_modifier = {
@@ -223,7 +223,7 @@ shared_focus = {
 			limit = {
 				any_other_country = {
 					is_faction_leader = yes
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			get_best_alliance_match_fascism_effect = yes
@@ -242,13 +242,13 @@ shared_focus = {
 			limit = {
 				any_other_country ={
 					is_major = yes
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			random_other_country = {
 				limit = {
 					is_major = yes 
-					has_government = national_vanguard 
+					has_government = fascism 
 				}
 				add_opinion_modifier = {
 					target = PREV
@@ -283,7 +283,7 @@ shared_focus = {
 		any_other_country = {
 			exists = yes
 			has_capitulated = no
-			has_government = national_vanguard
+			has_government = fascism
 			is_major = yes
 			NOT = { has_war_with = ROOT }
 		}
@@ -360,7 +360,7 @@ shared_focus = {
 		any_other_country = {
 			exists = yes
 			has_capitulated = no
-			has_government = national_vanguard
+			has_government = fascism
 			is_major = yes
 			NOT = { has_war_with = ROOT }
 		}
@@ -447,7 +447,7 @@ shared_focus = {
 		any_other_country = {
 			exists = yes
 			has_capitulated = no
-			has_government = national_vanguard
+			has_government = fascism
 			is_major = yes
 			NOT = { has_war_with = ROOT }
 		}
@@ -591,7 +591,7 @@ shared_focus = {
 		any_other_country = {
 			exists = yes
 			has_capitulated = no
-			has_government = national_vanguard
+			has_government = fascism
 			is_major = yes
 			NOT = { has_war_with = ROOT }
 		}
@@ -689,7 +689,7 @@ shared_focus = {
 		any_other_country = {
 			exists = yes
 			has_capitulated = no
-			has_government = national_vanguard
+			has_government = fascism
 			is_major = yes
 			NOT = { has_war_with = ROOT }
 		}
@@ -710,7 +710,7 @@ shared_focus = {
 				GER = {
 					exists = yes
 					has_capitulated = no
-					has_government = national_vanguard
+					has_government = fascism
 					is_faction_leader = yes
 					NOT = { has_war_with = ROOT }
 				}
@@ -739,7 +739,7 @@ shared_focus = {
 					capital_scope = { is_on_continent = europe }
 					exists = yes
 					has_capitulated = no
-					has_government = national_vanguard
+					has_government = fascism
 					NOT = { has_war_with = ROOT }
 				}
 				give_fascist_tank_licences = yes
@@ -760,7 +760,7 @@ shared_focus = {
 				JAP = {
 					exists = yes
 					has_capitulated = no
-					has_government = national_vanguard
+					has_government = fascism
 					NOT = { has_war_with = ROOT }
 				}
 			}
@@ -806,7 +806,7 @@ shared_focus = {
 		any_other_country = {
 			exists = yes
 			has_capitulated = no
-			has_government = national_vanguard
+			has_government = fascism
 			is_major = yes
 			NOT = { has_war_with = ROOT }
 		}
@@ -848,7 +848,7 @@ shared_focus = {
 		any_other_country = {
 			exists = yes
 			has_capitulated = no
-			has_government = national_vanguard
+			has_government = fascism
 			is_faction_leader = yes
 			NOT = { has_war_with = ROOT }
 		}
@@ -868,7 +868,7 @@ shared_focus = {
 				GER = {
 					exists = yes
 					has_capitulated = no
-					has_government = national_vanguard
+					has_government = fascism
 					is_faction_leader = yes
 					NOT = { has_war_with = ROOT }
 				}
@@ -890,7 +890,7 @@ shared_focus = {
 					capital_scope = { is_on_continent = europe }
 					exists = yes
 					has_capitulated = no
-					has_government = national_vanguard
+					has_government = fascism
 					NOT = { has_war_with = ROOT }
 				}
 				country_event = {
@@ -904,7 +904,7 @@ shared_focus = {
 				JAP = {
 					exists = yes
 					has_capitulated = no
-					has_government = national_vanguard
+					has_government = fascism
 					NOT = { has_war_with = ROOT }
 				}
 			}
@@ -1053,7 +1053,7 @@ shared_focus = {
 			limit = {
 				any_other_country = {
 					is_faction_leader = yes
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			get_best_alliance_match_democratic_effect = yes
@@ -3783,7 +3783,7 @@ shared_focus = {
 	}
 
 	available = {
-		national_vanguard < 0.3
+		fascism < 0.3
 	}
 
 	bypass = {

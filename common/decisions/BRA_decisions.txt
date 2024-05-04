@@ -120,11 +120,11 @@ BRA_ensure_support_cat = {
 			base = 10
 			modifier = {
 				factor = 0.5
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			modifier = {
 				factor = 10
-				national_vanguard < 0.51
+				fascism < 0.51
 			}
 		}
 		visible = {
@@ -168,21 +168,21 @@ BRA_ensure_support_cat = {
 				35 = {
 					country_event = { id = JUNO_brazil_events.10 days = 1 }
 					effect_tooltip = {
-						add_popularity = { ideology = national_vanguard popularity = 0.01 }
+						add_popularity = { ideology = fascism popularity = 0.01 }
 					}
 				}
 				# Average march
 				50 = {
 					country_event = { id = JUNO_brazil_events.11 days = 1 }
 					effect_tooltip = {
-						add_popularity = { ideology = national_vanguard popularity = 0.03 }
+						add_popularity = { ideology = fascism popularity = 0.03 }
 					}
 				}
 				# Good march
 				15 = {
 					country_event = { id = JUNO_brazil_events.12 days = 1 }
 					effect_tooltip = {
-						add_popularity = { ideology = national_vanguard popularity = 0.05 }
+						add_popularity = { ideology = fascism popularity = 0.05 }
 					}
 				}
 			}
@@ -224,7 +224,7 @@ BRA_ensure_support_cat = {
 			base = 20
 			modifier = {
 				factor = 10
-				national_vanguard < 0.51
+				fascism < 0.51
 			}
 		}
 		fire_only_once = yes
@@ -314,7 +314,7 @@ BRA_ensure_support_cat = {
 				#}
 				#50 = {
 				#	set_politics = {
-				#		ruling_party = national_vanguard
+				#		ruling_party = fascism
 				#		last_election = "1934.3.26"
 				#		election_frequency = 48
 				#		elections_allowed = no

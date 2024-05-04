@@ -14,7 +14,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = national_vanguard
+		has_government = fascism
 		FROM = { has_government = neutrality }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
@@ -40,7 +40,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_government = national_vanguard
+		has_government = fascism
 		FROM = { has_government = democratic }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
@@ -66,7 +66,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_government = national_vanguard
+		has_government = fascism
 		FROM = { has_government = communism }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
@@ -92,8 +92,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = national_vanguard
-		FROM = { has_government = national_vanguard }
+		has_government = fascism
+		FROM = { has_government = fascism }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -197,7 +197,7 @@ country_event = {
 
 	trigger = {
 		has_government = communism
-		FROM = { has_government = national_vanguard }
+		FROM = { has_government = fascism }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -301,7 +301,7 @@ country_event = {
 
 	trigger = {
 		has_government = democratic
-		FROM = { has_government = national_vanguard }
+		FROM = { has_government = fascism }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -405,7 +405,7 @@ country_event = {
 
 	trigger = {
 		has_government = neutrality
-		FROM = { has_government = national_vanguard }
+		FROM = { has_government = fascism }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -863,14 +863,14 @@ country_event = {
 		name = war_justification.301.c
 		trigger = {
 			OR = {
-				has_government = national_vanguard
+				has_government = fascism
 				has_government = neutrality
 			}
 		}
 		add_political_power = -30
 		add_war_support = -0.05
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = -0.05
 		}
 	}

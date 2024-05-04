@@ -299,7 +299,7 @@ NOR_fasc_prep_start = {
 			add_to_variable = { NOR_state_preparation = 1 }
 			ROOT = {
 				add_popularity = {
-					ideology = national_vanguard
+					ideology = fascism
 					popularity = 0.02
 				}
 			}
@@ -319,7 +319,7 @@ NOR_fasc_prep_start = {
 		 	}	
 		 	ROOT = {
 				add_popularity = {
-					ideology = national_vanguard
+					ideology = fascism
 					popularity = 0.05
 				}
 		 	}
@@ -352,7 +352,7 @@ NOR_fasc_prep_start = {
 			}
 			set_country_flag = NOR_active_preparation 
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.05
 			}
 		}
@@ -915,7 +915,7 @@ NOR_start_fascist_civil_war = {
 
 NOR_fcw_effect_fascist_player = {
 	start_civil_war = {
-		ruling_party = national_vanguard 
+		ruling_party = fascism 
 		ideology = democratic
 		size = party_popularity@democratic 
 		states = all 
@@ -934,7 +934,7 @@ NOR_fcw_effect_fascist_player = {
 	random_other_country = {
 		limit = {
 			original_tag = NOR 
-			NOT = { has_government = national_vanguard }
+			NOT = { has_government = fascism }
 		}
 		set_variable = { NOR.NOR_cw_democratic_norway = THIS }
 	}
@@ -951,7 +951,7 @@ NOR_fcw_effect_fascist_player = {
 	}
 	ROOT = {
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = 0.60
 		}
 		add_manpower = 10000
@@ -973,7 +973,7 @@ NOR_fcw_effect_fascist_player = {
 NOR_fcw_effect_democratic_player = {
 	start_civil_war = {
 		ruling_party = democratic 
-		ideology = national_vanguard
+		ideology = fascism
 		size = party_popularity@fascism 
 		states = { 110 }
 		keep_all_characters = yes 
@@ -993,7 +993,7 @@ NOR_fcw_effect_democratic_player = {
 	random_other_country = {
 		limit = {
 			original_tag = NOR 
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		set_variable = { NOR.NOR_cw_fascist_norway = THIS }
 	}
@@ -1025,7 +1025,7 @@ NOR_fcw_big_fascist_support = {
 	random_country = {
 		limit = {
 			original_tag = NOR 
-			has_government = national_vanguard
+			has_government = fascism
 			has_civil_war = yes
 		}
 		NOR = {

@@ -26,7 +26,7 @@ ideas = {
 			
 			modifier = {
 				stability_factor = -0.05
-				national_vanguard_drift = 0.10
+				fascism_drift = 0.10
 			}
 	
 			ai_will_do = {
@@ -67,7 +67,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = neutrality
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			
@@ -463,7 +463,7 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 				}
 			}
@@ -471,7 +471,7 @@ ideas = {
 			modifier = {
 				military_leader_cost_factor = 0.5
 				max_command_power = 20
-				national_vanguard_drift = 0.1
+				fascism_drift = 0.1
 				army_morale_factor = 0.15
 			}
 		}
@@ -612,11 +612,11 @@ ideas = {
 			removal_cost = -1
 
 			allowed_civil_war = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			
 			modifier = {
-				national_vanguard_drift = 0.1
+				fascism_drift = 0.1
 				mobilization_speed = 0.1
 			}
 		}
@@ -632,11 +632,11 @@ ideas = {
 			removal_cost = -1
 
 			allowed_civil_war = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			
 			modifier = {
-				national_vanguard_drift = 0.2
+				fascism_drift = 0.2
 				mobilization_speed = 0.2
 			}
 		}
@@ -784,7 +784,7 @@ ideas = {
 
 			modifier = {
 				stability_factor = -0.05
-				national_vanguard_drift = 0.10
+				fascism_drift = 0.10
 			}
 		}		
 		MEX_bolivarian_agitation = {
@@ -839,7 +839,7 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 				}
 			}

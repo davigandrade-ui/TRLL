@@ -1543,7 +1543,7 @@ country_event = {
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = national_vanguard
+							ideology = fascism
 							expire = "1965.1.1.1"
 							traits = {}
 						}
@@ -1587,7 +1587,7 @@ country_event = {
 		add_stability = -0.2
 		set_country_flag = GER_ss_himmler_purged
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = -0.2
 		}
 		subtract_from_variable = { var = wehrmacht_anger value = 25 }
@@ -1656,7 +1656,7 @@ country_event = {
 			add_country_leader_role = {
 				promote_leader = yes
 				country_leader = {
-					ideology = national_vanguard
+					ideology = fascism
 					expire = "1965.1.1.1"
 					traits = {}
 				}
@@ -1699,7 +1699,7 @@ country_event = {
 		set_party_name = { ideology = neutrality long_name = GER_neutrality_party_civil_war name = GER_neutrality_party_civil_war }
 		start_civil_war = {
 			ruling_party = neutrality
-			ideology = national_vanguard
+			ideology = fascism
 			size = 0.4
 		}
 		hidden_effect = {

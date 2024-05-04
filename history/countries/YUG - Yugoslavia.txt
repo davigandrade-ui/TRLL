@@ -315,7 +315,7 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 15
-	national_vanguard = 10
+	fascism = 10
 	communism = 15
 	neutrality = 60
 }
@@ -329,7 +329,7 @@ set_popularities = {
 	}
 	set_popularities = { # Will get +7 from Italian focus: Potential Allies in the Balkans
 		democratic = 10
-		national_vanguard = 20
+		fascism = 20
 		communism = 10
 		neutrality = 60
 	}

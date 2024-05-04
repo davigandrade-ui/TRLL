@@ -7,7 +7,7 @@ SOV_DD_HISTORICAL = {
 
 	can_use = {
 		NOT = { 
-			has_government = national_vanguard
+			has_government = fascism
 			has_government = neutrality
 		}
 	}
@@ -45,7 +45,7 @@ SOV_CL_HISTORICAL = {
 
 	can_use = {
 		NOT = { 
-			has_government = national_vanguard
+			has_government = fascism
 			has_government = neutrality
 		}
 	}
@@ -73,7 +73,7 @@ SOV_CA_HISTORICAL = {
 
 	can_use = {
 		NOT = { 
-			has_government = national_vanguard
+			has_government = fascism
 			has_government = neutrality
 		}
 	}
@@ -99,7 +99,7 @@ SOV_MINELAYERS_HISTORICAL = {
 
 	can_use = {
 		NOT = { 
-			has_government = national_vanguard
+			has_government = fascism
 			has_government = neutrality
 		}
 	}
@@ -125,7 +125,7 @@ SOV_BB_HISTORICAL = {
 
 	can_use = {
 		NOT = { 
-			has_government = national_vanguard
+			has_government = fascism
 			has_government = neutrality
 		}
 	}
@@ -150,7 +150,7 @@ SOV_BC_HISTORICAL = {
 
 	can_use = {
 		NOT = { 
-			has_government = national_vanguard
+			has_government = fascism
 			has_government = neutrality
 		}
 	}
@@ -176,7 +176,7 @@ SOV_CV_HISTORICAL = {
 
 	can_use = {
 		NOT = { 
-			has_government = national_vanguard
+			has_government = fascism
 			has_government = neutrality
 		}
 	}
@@ -306,7 +306,7 @@ SOV_SS_STALINETS = {
 
 	can_use = {
 		NOT = { 
-			has_government = national_vanguard
+			has_government = fascism
 			has_government = neutrality
 		}
 	}
@@ -347,7 +347,7 @@ SOV_SS_LENINETS = {
 
 	can_use = {
 		NOT = { 
-			has_government = national_vanguard
+			has_government = fascism
 			has_government = neutrality
 		}
 	}
@@ -432,7 +432,7 @@ SOV_STATES = {
 
 	can_use = {
 		NOT = { 
-			has_government = national_vanguard
+			has_government = fascism
 			has_government = neutrality
 		}
 	}
@@ -457,7 +457,7 @@ SOV_CITIES = {
 
 	can_use = {
 		NOT = { 
-			has_government = national_vanguard
+			has_government = fascism
 			has_government = neutrality
 		}
 	}
@@ -481,7 +481,7 @@ SOV_LEADERS = {
 
 	can_use = {
 		NOT = { 
-			has_government = national_vanguard
+			has_government = fascism
 			has_government = neutrality
 		}
 	}
@@ -527,7 +527,7 @@ SOV_DD_IMPERIAL = {
 
 	can_use = {
 		OR = { 
-			has_government = national_vanguard
+			has_government = fascism
 			has_government = neutrality
 		}
 	}
@@ -567,7 +567,7 @@ SOV_DE_IMPERIAL = {
 
 	can_use = { 
 		OR = { 
-			has_government = national_vanguard
+			has_government = fascism
 			has_government = neutrality
 		}
 	}
@@ -596,7 +596,7 @@ SOV_CL_IMPERIAL = {
 
 	can_use = { 
 		OR = { 
-			has_government = national_vanguard
+			has_government = fascism
 			has_government = neutrality
 		}
 	}
@@ -623,7 +623,7 @@ SOV_CA_IMPERIAL = {
 
 	can_use = { 
 		OR = { 
-			has_government = national_vanguard
+			has_government = fascism
 			has_government = neutrality
 		}
 	}
@@ -650,7 +650,7 @@ SOV_MINELAYERS_IMPERIAL = {
 
 	can_use = { 
 		OR = { 
-			has_government = national_vanguard
+			has_government = fascism
 			has_government = neutrality
 		}
 	}
@@ -675,7 +675,7 @@ SOV_MINESWEEPERS_IMPERIAL = {
 
 	can_use = { 
 		OR = { 
-			has_government = national_vanguard
+			has_government = fascism
 			has_government = neutrality
 		}
 	}
@@ -701,7 +701,7 @@ SOV_BBBC_IMPERIAL = {
 
 	can_use = { 
 		OR = { 
-			has_government = national_vanguard
+			has_government = fascism
 			has_government = neutrality
 		}
 	}
@@ -727,7 +727,7 @@ SOV_CV_IMPERIAL = {
 
 	can_use = { 
 		OR = { 
-			has_government = national_vanguard
+			has_government = fascism
 			has_government = neutrality
 		}
 	}
@@ -751,7 +751,7 @@ SOV_SS_IMPERIAL = {
 
 	can_use = { 
 		OR = { 
-			has_government = national_vanguard
+			has_government = fascism
 			has_government = neutrality
 		}
 	}
@@ -778,7 +778,7 @@ SOV_IMPERIAL_CITIES = {
 
 	can_use = { 
 		OR = { 
-			has_government = national_vanguard
+			has_government = fascism
 			has_government = neutrality
 		}
 	}
@@ -800,7 +800,7 @@ SOV_IMPERIAL_GOVERNORATES = {
 
 	can_use = { 
 		OR = { 
-			has_government = national_vanguard
+			has_government = fascism
 			has_government = neutrality
 		}
 	}

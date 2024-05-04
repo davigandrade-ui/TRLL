@@ -3407,7 +3407,7 @@ focus_tree = {
 		}
 		bypass = {
 			OR = {
-				GER = { NOT = { has_government = national_vanguard } }
+				GER = { NOT = { has_government = fascism } }
 				GER = { exists = no }
 				GER = { has_completed_focus = GER_oppose_hitler }
 				has_war_with = ENG
@@ -3492,7 +3492,7 @@ focus_tree = {
 		}
 		bypass = {
 			OR = {
-				GER = { NOT = { has_government = national_vanguard } }
+				GER = { NOT = { has_government = fascism } }
 				ENG = { NOT = { has_government = democratic } }
 			}
 			NOT = {
@@ -3645,7 +3645,7 @@ focus_tree = {
 	focus = {
 		id = HOL_de_jeugdstorm
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		prerequisite = { focus = HOL_volk_en_vaderland }
 		icon = GFX_goal_generic_more_territorial_claims
@@ -3658,7 +3658,7 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT}
 		completion_reward = {
 			add_popularity = {
-			    ideology = national_vanguard
+			    ideology = fascism
 			    popularity = 0.05
 			}
 			add_war_support = 0.05
@@ -3669,7 +3669,7 @@ focus_tree = {
 	focus = {
 		id = HOL_strength_over_blood
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		prerequisite = { focus = HOL_volk_en_vaderland }
 		icon = GFX_focus_generic_support_the_left_right
@@ -3702,7 +3702,7 @@ focus_tree = {
 	focus = {
 		id = HOL_join_germany
 		available = {
-			GER = { has_government = national_vanguard }
+			GER = { has_government = fascism }
 			NOT = { has_war_with = GER }
 		}
 		bypass = {
@@ -4046,7 +4046,7 @@ focus_tree = {
 	focus = {
 		id = HOL_placate_the_japanese
 		available = {
-			JAP = { has_government = national_vanguard }
+			JAP = { has_government = fascism }
 			NOT = { has_war_with = JAP }
 			OR = {
 				AND = {
@@ -4226,7 +4226,7 @@ focus_tree = {
 			add_ideas = HOL_implement_the_program
 			add_stability = 0.05
 			add_popularity = {
-			    ideology = national_vanguard
+			    ideology = fascism
 			    popularity = 0.05
 			}
 			if = {
@@ -5484,7 +5484,7 @@ focus_tree = {
 				value = -1
 			}
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = ban_fascism_var
 			}
 			set_temp_variable = {
@@ -5700,7 +5700,7 @@ focus_tree = {
 			OR = {
 				AND = {
 					has_war_with = GER
-					GER = { has_government = national_vanguard }
+					GER = { has_government = fascism }
 				}
 				AND = {
 					NOT = { has_war_with = GER }
@@ -5758,7 +5758,7 @@ focus_tree = {
 			if = {
 				limit = {
 					has_war_with = GER
-					GER = { has_government = national_vanguard }
+					GER = { has_government = fascism }
 				}
 				every_country = {
 					limit = {

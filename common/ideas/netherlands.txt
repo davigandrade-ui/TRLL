@@ -860,7 +860,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				national_vanguard_drift = -0.02
+				fascism_drift = -0.02
 			}
 		}
 
@@ -873,13 +873,13 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 
 			removal_cost = -1
 
 			modifier = {
-				national_vanguard_drift = 0.1
+				fascism_drift = 0.1
 				war_support_factor = 0.1
 			}
 		}
@@ -893,7 +893,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 
 			removal_cost = -1
@@ -913,7 +913,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			
 			removal_cost = -1
@@ -946,7 +946,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 
 			removal_cost = -1
@@ -965,7 +965,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 
 			removal_cost = -1
@@ -1204,7 +1204,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				national_vanguard_drift = -0.02
+				fascism_drift = -0.02
 				communism_drift = -0.02
 				democratic_drift = 0.05
 				stability_weekly = 0.001
@@ -1307,7 +1307,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				national_vanguard_drift = -0.02
+				fascism_drift = -0.02
 				communism_drift = -0.02
 			}
 		}
@@ -1899,7 +1899,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			
 			removal_cost = -1

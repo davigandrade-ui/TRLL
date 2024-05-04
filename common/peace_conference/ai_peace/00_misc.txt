@@ -153,7 +153,7 @@ peace_ai_desires = {
             ROOT = { 
                 NOT = { tag = JAP }            #We aren't Japan (special handling)
                 is_major = yes                #We are big
-                has_government = national_vanguard    #We are the baddies
+                has_government = fascism    #We are the baddies
                 tag = ROOT.FROM                #We are acting for ourselves
             }
         }
@@ -167,7 +167,7 @@ peace_ai_desires = {
             ROOT = { 
                 NOT = { tag = JAP }            #We aren't Japan (special handling)
                 is_major = yes                #We are big
-                has_government = national_vanguard    #We are the baddies
+                has_government = fascism    #We are the baddies
             }
         }
 
@@ -180,10 +180,10 @@ peace_ai_desires = {
             ROOT = { 
                 NOT = { tag = JAP }            #We aren't Japan (special handling)
                 is_major = yes                #We are big
-                has_government = national_vanguard    #We are the baddies
+                has_government = fascism    #We are the baddies
                 tag = ROOT.FROM                #We are acting for ourselves
             }
-            ROOT.FROM.FROM = { NOT = { has_government = national_vanguard } }
+            ROOT.FROM.FROM = { NOT = { has_government = fascism } }
         }
 
         ai_desire = -75
@@ -255,7 +255,7 @@ peace_ai_desires = {
         enable = {
             ROOT = {
                 NOT = { has_government = democratic }
-                NOT = { has_government = national_vanguard }
+                NOT = { has_government = fascism }
                 NOT = {
                     tag = ROOT.FROM
                 }
@@ -359,7 +359,7 @@ peace_ai_desires = {
             ROOT = { has_government = democratic }
             ROOT.FROM = {
                 OR = {
-                    has_government = national_vanguard
+                    has_government = fascism
                     has_government = communism
                 }
             }
@@ -377,8 +377,8 @@ peace_ai_desires = {
                 ROOT.FROM.FROM = { pc_is_forced_government_to = democratic }
             }
             else_if = {
-                limit = { has_government = national_vanguard }
-                ROOT.FROM.FROM = { pc_is_forced_government_to = national_vanguard }
+                limit = { has_government = fascism }
+                ROOT.FROM.FROM = { pc_is_forced_government_to = fascism }
             }
             else_if = {
                 limit = { has_government = communism }
@@ -429,11 +429,11 @@ peace_ai_desires = {
     fascism_dont_liberate_the_wrong_ideology = {
         peace_action_type = liberate
         enable = {
-            ROOT = { has_government = national_vanguard }
+            ROOT = { has_government = fascism }
             ROOT.FROM = {
                 NOT = {
                     OR = {
-                        has_government = national_vanguard
+                        has_government = fascism
                         has_government = neutrality
                     }
                 }
@@ -609,8 +609,8 @@ peace_ai_desires = {
                 ROOT.FROM.FROM = { pc_is_forced_government_to = democratic }
             }
             else_if = {
-                limit = { has_government = national_vanguard }
-                ROOT.FROM.FROM = { pc_is_forced_government_to = national_vanguard }
+                limit = { has_government = fascism }
+                ROOT.FROM.FROM = { pc_is_forced_government_to = fascism }
             }
             else_if = {
                 limit = { has_government = communism }
@@ -633,7 +633,7 @@ peace_ai_desires = {
         enable = {
             ROOT.FROM = {
                 original_tag = GER
-                has_government = national_vanguard
+                has_government = fascism
             }
         }
         ai_desire = -100
@@ -663,7 +663,7 @@ peace_ai_desires = {
                 tag = ROOT.FROM
             }
             ROOT = {
-                has_government = national_vanguard
+                has_government = fascism
             }
             ROOT.FROM.FROM = {
                 tag = SOV
@@ -1086,8 +1086,8 @@ peace_ai_desires = {
                 ROOT.FROM.FROM = { pc_is_forced_government_to = democratic }
             }
             else_if = {
-                limit = { has_government = national_vanguard }
-                ROOT.FROM.FROM = { pc_is_forced_government_to = national_vanguard }
+                limit = { has_government = fascism }
+                ROOT.FROM.FROM = { pc_is_forced_government_to = fascism }
             }
             else_if = {
                 limit = { has_government = communism }
@@ -1118,8 +1118,8 @@ peace_ai_desires = {
                 ROOT.FROM.FROM = { pc_is_forced_government_to = democratic }
             }
             else_if = {
-                limit = { has_government = national_vanguard }
-                ROOT.FROM.FROM = { pc_is_forced_government_to = national_vanguard }
+                limit = { has_government = fascism }
+                ROOT.FROM.FROM = { pc_is_forced_government_to = fascism }
             }
             else_if = {
                 limit = { has_government = communism }

@@ -35,8 +35,8 @@ on_actions = {
 					original_tag = HUN
 					FROM = { original_tag = HUN }
 					OR = {
-						has_government = national_vanguard
-						FROM = { has_government = national_vanguard }
+						has_government = fascism
+						FROM = { has_government = fascism }
 					}
 				}
 

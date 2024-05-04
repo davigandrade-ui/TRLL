@@ -118,19 +118,19 @@ ideas = {
 
 			modifier = {
 				communism_drift = -0.01
-				national_vanguard_drift = -0.01
+				fascism_drift = -0.01
 				foreign_subversive_activites = -0.50
 			}
 		}
 
-		CAN_defence_of_canada_regulations_national_vanguard = {
+		CAN_defence_of_canada_regulations_fascism = {
 
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 
 			removal_cost = -1
@@ -160,7 +160,7 @@ ideas = {
 
 			modifier = {
 				democratic_drift = -0.01
-				national_vanguard_drift = -0.01
+				fascism_drift = -0.01
 				foreign_subversive_activites = -0.50
 			}
 		}
@@ -393,7 +393,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				 has_government = national_vanguard
+				 has_government = fascism
 			}
 
 			removal_cost = -1
@@ -402,7 +402,7 @@ ideas = {
 
 			modifier = {
 				democratic_drift = -0.1
-				national_vanguard_drift = 0.2
+				fascism_drift = 0.2
 			}
 		}
 
@@ -412,7 +412,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				 has_government = national_vanguard
+				 has_government = fascism
 			}
 
 			removal_cost = -1
@@ -421,7 +421,7 @@ ideas = {
 
 			modifier = {
 				democratic_drift = -0.1
-				national_vanguard_drift = 0.2
+				fascism_drift = 0.2
 				war_support_factor = 0.05
 				conscription = 0.02
 			}
@@ -433,7 +433,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				 has_government = national_vanguard
+				 has_government = fascism
 			}
 
 			removal_cost = -1
@@ -442,7 +442,7 @@ ideas = {
 
 			modifier = {
 				democratic_drift = -0.1
-				national_vanguard_drift = 0.2
+				fascism_drift = 0.2
 				war_support_factor = 0.05
 				conscription = 0.02
 				send_volunteer_divisions_required = -1

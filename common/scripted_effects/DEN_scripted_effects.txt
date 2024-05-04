@@ -3,7 +3,7 @@
 #	example_effect = {
 #		add_political_power = 66
 #		add_popularity = {
-#			ideology = national_vanguard
+#			ideology = fascism
 #			popularity = 0.33
 #		}
 #	}
@@ -494,11 +494,11 @@ DEN_bondepartiet_takes_over = {
 DEN_fascists_takes_over = {
 	if = {
 		limit = {
-			NOT = { has_government = national_vanguard }
+			NOT = { has_government = fascism }
 		}
 
 		set_politics = { #Fritz Clausen already has a country leader role
-			ruling_party = national_vanguard
+			ruling_party = fascism
 			elections_allowed = yes
 		}	
 	}
@@ -3976,13 +3976,13 @@ DEN_create_the_plenipotentiary = { #This is set up in an event and will create a
 		limit = {
 			FROM = { #Overlord Scope
 				original_tag = GER
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 		DEN_werner_best = {
 			add_country_leader_role = {
 				country_leader = {
-					ideology = national_vanguard
+					ideology = fascism
 					expire = "1965.1.1.1"
 					id = -1
 					traits = {
@@ -3996,14 +3996,14 @@ DEN_create_the_plenipotentiary = { #This is set up in an event and will create a
 		limit = {
 			FROM = { #Overlord Scope
 				NOT = { original_tag = GER }
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 		FROM = {
 			create_country_leader = {
 				picture = GFX_portrait_Europe_Generic_1
 				expire = "1965.1.1"
-				ideology = national_vanguard
+				ideology = fascism
 				traits = {
 					DEN_plenipotentiary
 				}	
@@ -4072,11 +4072,11 @@ DEN_install_a_plenipotentiary = {
 	if = {
 		limit = {
 			FROM = { #Overlord Scope
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 		set_politics = { #Denmark Scope
-			ruling_party = national_vanguard
+			ruling_party = fascism
 		}
 	}
 	else_if = {

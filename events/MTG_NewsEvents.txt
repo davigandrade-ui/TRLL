@@ -34,7 +34,7 @@ news_event = {
 		name = mtg_news.1.b
 		trigger = { 
 			NOT = { original_tag = CSA }
-			has_government = national_vanguard
+			has_government = fascism
 		}
 	}
 	option = {
@@ -78,7 +78,7 @@ news_event = {
 		trigger = { 
 			NOT = { original_tag = USA }
 			OR = {
-				has_government = national_vanguard
+				has_government = fascism
 				has_government = neutrality
 			}
 		}
@@ -120,7 +120,7 @@ news_event = {
 		name = mtg_news.3.b
 		trigger = { 
 			NOT = { original_tag = USA }
-			has_government = national_vanguard
+			has_government = fascism
 		}
 	}
 	option = {
@@ -176,7 +176,7 @@ news_event = {
 		name = mtg_news.4.b
 		trigger = { 
 			NOT = { original_tag = USA }
-			has_government = national_vanguard
+			has_government = fascism
 		}
 	}
 	option = {
@@ -218,7 +218,7 @@ news_event = {
 		name = mtg_news.5.b
 		trigger = { 
 			NOT = { original_tag = CSA }
-			has_government = national_vanguard
+			has_government = fascism
 		}
 	}
 	option = {
@@ -266,7 +266,7 @@ news_event = {
 		name = mtg_news.6.b
 		trigger = { 
 			NOT = { original_tag = CSA }
-			has_government = national_vanguard
+			has_government = fascism
 		}
 	}
 	option = {
@@ -309,7 +309,7 @@ news_event = {
 		name = mtg_news.7.b
 		trigger = { 
 			NOT = { original_tag = USA }
-			has_government = national_vanguard
+			has_government = fascism
 		}
 	}
 	option = {
@@ -1015,7 +1015,7 @@ news_event = {
 		name = mtg_news.25.b
 		trigger = {
 			original_tag = SPR
-			has_government = national_vanguard
+			has_government = fascism
 		}
 	}
 
@@ -2441,7 +2441,7 @@ news_event = {
 				original_tag = GER
 				original_tag = ITA
 			}
-			has_government = national_vanguard
+			has_government = fascism
 		}
 	}
 
@@ -2455,7 +2455,7 @@ news_event = {
 						original_tag = GER
 						original_tag = ITA
 					}
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 		}
@@ -3072,7 +3072,7 @@ news_event = {
 		}
 		effect_tooltip = {
 			start_civil_war = {
-				ruling_party = national_vanguard
+				ruling_party = fascism
 				ideology = neutrality
 				size = 0.05
 				states = all

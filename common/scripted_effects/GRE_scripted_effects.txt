@@ -694,7 +694,7 @@ GRE_set_appropriate_cosmetic_tag = {
 			set_cosmetic_tag = BYZ_UNIFIED_democratic
 		}
 		else_if = {
-			limit = { has_government = national_vanguard }
+			limit = { has_government = fascism }
 			set_cosmetic_tag = BYZ_UNIFIED_fascism
 		}
 		else = {
@@ -712,7 +712,7 @@ GRE_set_appropriate_cosmetic_tag = {
 			set_cosmetic_tag = GRE_GREATER_GREECE_democratic
 		}
 		else_if = {
-			limit = { has_government = national_vanguard }
+			limit = { has_government = fascism }
 			set_cosmetic_tag = GRE_GREATER_GREECE_fascism
 		}
 		else = {
@@ -730,7 +730,7 @@ GRE_set_appropriate_cosmetic_tag = {
 			set_cosmetic_tag = GRE_dem_monarchy_democratic
 		}
 		else_if = {
-			limit = { has_government = national_vanguard }
+			limit = { has_government = fascism }
 			set_cosmetic_tag = GRE_dem_monarchy_fascism
 		}
 		else = {
@@ -748,7 +748,7 @@ GRE_set_appropriate_cosmetic_tag = {
 			set_cosmetic_tag = GRE_com_independent_democratic
 		}
 		else_if = {
-			limit = { has_government = national_vanguard }
+			limit = { has_government = fascism }
 			set_cosmetic_tag = GRE_com_independent_fascism
 		}
 		else = {
@@ -766,7 +766,7 @@ GRE_set_appropriate_cosmetic_tag = {
 			set_cosmetic_tag = MAE_democratic
 		}
 		else_if = {
-			limit = { has_government = national_vanguard }
+			limit = { has_government = fascism }
 			set_cosmetic_tag = MAE_fascism
 		}
 		else = {

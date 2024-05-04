@@ -976,7 +976,7 @@ GRE_investment_decisions_category = {
 				owns_state = 16 
 				is_puppet = no
 				OR = { 
-					NOT = { has_government = national_vanguard }
+					NOT = { has_government = fascism }
 					NOT = { has_government = neutrality }
 				}
 			}
@@ -1048,7 +1048,7 @@ GRE_investment_decisions_category = {
 				FRA = {
 					has_capitulated = yes 
 					is_puppet = yes
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 				}
 			}
@@ -1111,7 +1111,7 @@ GRE_investment_decisions_category = {
 				FRA = {
 					has_capitulated = yes 
 					is_puppet = yes
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 				}
 			}
@@ -2837,7 +2837,7 @@ GRE_faction_management_category = {
 			}
 			if = {
 				limit = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				set_temp_variable = { GRE_befriend_monarchists_variable = party_popularity@fascism }
 				divide_temp_variable = { GRE_befriend_monarchists_variable = 3 }
@@ -2934,7 +2934,7 @@ GRE_faction_management_category = {
 			}
 			if = {
 				limit = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				set_temp_variable = { GRE_victorious_war_on_monarchists_variable = party_popularity@fascism }
 				divide_temp_variable = { GRE_victorious_war_on_monarchists_variable = 3 }
@@ -2961,7 +2961,7 @@ GRE_faction_management_category = {
 			check_variable = { var = GRE_republican_loyalty value = -2 compare = greater_than }
 			check_variable = { var = GRE_republican_loyalty value = 1 compare = less_than }
 			OR = {
-				has_government = national_vanguard
+				has_government = fascism
 				AND = {
 					has_government = neutrality
 					has_country_leader = {
@@ -3021,7 +3021,7 @@ GRE_faction_management_category = {
 			}
 			if = {
 				limit = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				set_temp_variable = { GRE_befriend_republicans_variable = party_popularity@fascism }
 				divide_temp_variable = { GRE_befriend_republicans_variable = 3 }
@@ -3063,7 +3063,7 @@ GRE_faction_management_category = {
 			check_variable = { var = GRE_republican_loyalty value = -2 compare = greater_than }
 			check_variable = { var = GRE_republican_loyalty value = 1 compare = less_than }
 			OR = { 
-				has_government = national_vanguard
+				has_government = fascism
 				AND = {
 					has_government = neutrality
 					has_completed_focus = GRE_crack_down_on_the_republicans
@@ -3129,7 +3129,7 @@ GRE_faction_management_category = {
 			}
 			if = {
 				limit = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				set_temp_variable = { GRE_victorious_war_on_republicans_variable = party_popularity@fascism }
 				divide_temp_variable = { GRE_victorious_war_on_republicans_variable = 3 }
@@ -3156,7 +3156,7 @@ GRE_faction_management_category = {
 			check_variable = { var = GRE_communist_loyalty value = -2 compare = greater_than }
 			check_variable = { var = GRE_communist_loyalty value = 1 compare = less_than }
 			OR = { 
-				has_government = national_vanguard
+				has_government = fascism
 				AND = {
 					has_government = neutrality
 					has_completed_focus = GRE_recruit_the_fascists
@@ -3213,7 +3213,7 @@ GRE_faction_management_category = {
 			}
 			if = {
 				limit = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				set_temp_variable = { GRE_befriend_communists_variable = party_popularity@fascism }
 				divide_temp_variable = { GRE_befriend_communists_variable = 3 }
@@ -3255,7 +3255,7 @@ GRE_faction_management_category = {
 			check_variable = { var = GRE_communist_loyalty value = -2 compare = greater_than }
 			check_variable = { var = GRE_communist_loyalty value = 1 compare = less_than }
 			OR = { 
-				has_government = national_vanguard
+				has_government = fascism
 				AND = {
 					has_government = neutrality
 					has_completed_focus = GRE_use_the_military
@@ -3322,7 +3322,7 @@ GRE_faction_management_category = {
 			}
 			if = {
 				limit = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				set_temp_variable = { GRE_victorious_war_on_communists_variable = party_popularity@fascism }
 				divide_temp_variable = { GRE_victorious_war_on_communists_variable = 3 }
@@ -3385,7 +3385,7 @@ GRE_faction_management_category = {
 		visible = {
 			NOT = { 
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					check_variable = { GRE_fascist_loyalty = -2 compare = equals }
 					check_variable = { GRE_fascist_loyalty = 1 compare = equals }
 				}
@@ -3424,7 +3424,7 @@ GRE_faction_management_category = {
 			divide_temp_variable = { GRE_allied_fascists_variable = 2 }
 			if = {
 				limit = {
-					national_vanguard > 0.5
+					fascism > 0.5
 				}
 				divide_temp_variable = { GRE_befriend_fascists_variable = 3 }
 			}
@@ -3486,7 +3486,7 @@ GRE_faction_management_category = {
 		visible = {
 			NOT = { 
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					check_variable = { var = GRE_fascist_loyalty value = 1 compare = greater_than_or_equals }
 					check_variable = { var = GRE_fascist_loyalty value = -2 compare = equals }
 				}

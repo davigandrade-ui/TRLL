@@ -72,7 +72,7 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 25
-	national_vanguard = 20
+	fascism = 20
 	communism = 5
 	neutrality = 50
 }
@@ -91,7 +91,7 @@ create_country_leader = {
 	name = "Saeed Ahmadi"
 	desc = ""
 	picture = GFX_portrait_Saeed_Ahmadi
-	ideology = national_vanguard
+	ideology = fascism
 	traits = {
 		#
 	}

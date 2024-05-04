@@ -2830,12 +2830,12 @@ ITA_balance_of_power_category = {
 
 		available = {
 			NOT = { has_global_flag = second_italo_ethiopian_war_flag }
-			ROOT = { has_government = national_vanguard }
+			ROOT = { has_government = fascism }
 		}
 
 		target_trigger = {
 			FROM = {
-				has_government = national_vanguard
+				has_government = fascism
 				is_subject = no
 				AND = {
 					has_war = yes
@@ -3355,7 +3355,7 @@ ITA_balance_of_power_category = {
 		}
 	}
 
-	ITA_bop_condemn_national_vanguard = {
+	ITA_bop_condemn_fascism = {
 		priority = 105
 		icon = GFX_decision_eng_propaganda_campaigns
 
@@ -3386,7 +3386,7 @@ ITA_balance_of_power_category = {
 				popularity = 0.1
 			}
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = -0.1
 			}
 			ITA_bop_low_decrease_effect = yes
@@ -5988,7 +5988,7 @@ ITA_diplomacy_balkan_decision_category = {
 					is_subject_of = ITA
 				}
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 				}
 			}
@@ -5998,7 +5998,7 @@ ITA_diplomacy_balkan_decision_category = {
 			ITA = {
 				OR = {
 					has_government = neutrality
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			NOT = {
@@ -6066,7 +6066,7 @@ ITA_diplomacy_balkan_decision_category = {
 			ITA = {
 				OR = {
 					has_government = neutrality
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			NOT = {
@@ -6091,14 +6091,14 @@ ITA_diplomacy_balkan_decision_category = {
 				}
 			}
 			IF = {
-				limit = { ITA = { has_government = national_vanguard } }
+				limit = { ITA = { has_government = fascism } }
 				CRO = {
 					ITA_prince_aimone = {
 						add_country_leader_role = {
 						  character = ITA_tomislav
 						  promote_leader = yes
 						  country_leader = {
-						    ideology = national_vanguard
+						    ideology = fascism_ideology
 						    expire = "1970.1.1.1"
 						    traits = { ITA_tomislav_of_croatia }
 						  }
@@ -6189,7 +6189,7 @@ ITA_diplomacy_balkan_decision_category = {
 			ITA = {
 				OR = {
 					has_government = neutrality
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			44 = {
@@ -6284,7 +6284,7 @@ ITA_diplomacy_balkan_decision_category = {
 			ITA = {
 				OR = {
 					has_government = neutrality
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			105 = {
@@ -6406,7 +6406,7 @@ ITA_diplomacy_balkan_decision_category = {
 			ITA = {
 				OR = {
 					has_government = neutrality
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			ALB = {
@@ -6479,7 +6479,7 @@ ITA_diplomacy_balkan_decision_category = {
 			ITA = {
 				OR = {
 					has_government = neutrality
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 		}
@@ -6550,7 +6550,7 @@ ITA_diplomacy_balkan_decision_category = {
 			ITA = {
 				OR = {
 					has_government = neutrality
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			OR = {
@@ -6610,11 +6610,11 @@ ITA_diplomacy_balkan_decision_category = {
 			IF = {
 				limit = {
 					ITA = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 				HUN = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			IF = {
@@ -6633,7 +6633,7 @@ ITA_diplomacy_balkan_decision_category = {
 			ITA = {
 				OR = {
 					has_government = neutrality
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			NOT = {
@@ -6698,7 +6698,7 @@ ITA_diplomacy_balkan_decision_category = {
 			ITA = {
 				OR = {
 					has_government = neutrality
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			NOT = {
@@ -6765,7 +6765,7 @@ ITA_diplomacy_balkan_decision_category = {
 			ITA = {
 				OR = {
 					has_government = neutrality
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				controls_state = 164
 			}
@@ -6841,7 +6841,7 @@ ITA_diplomacy_balkan_decision_category = {
 			ITA = {
 				OR = {
 					has_government = neutrality
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				controls_state = 164
 			}

@@ -133,7 +133,7 @@ country_event = {
 			}
 		}
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = 0.1
 		}
 		if = {
@@ -235,7 +235,7 @@ country_event = {
 					retire_ideology_leader = communism
 				}
 				SPD = { # Remove Carlist/Falangist country leaders for new SPD tag
-					retire_ideology_leader = national_vanguard
+					retire_ideology_leader = fascism
 					retire_ideology_leader = neutrality
 					create_country_leader = {
 						name = "Manuel Azaña"
@@ -2499,7 +2499,7 @@ country_event = {
 						democratic = 5
 						communism = 3
 						neutrality = 44
-						national_vanguard = 48
+						fascism = 48
 					}
 					transfer_state = 177
 					177 = { set_state_flag = SPR_sided_with_nationalists_flag }
@@ -2507,7 +2507,7 @@ country_event = {
 					178 = { set_state_flag = SPR_sided_with_nationalists_flag }
 				}
 				SPD = {
-					retire_ideology_leader = national_vanguard
+					retire_ideology_leader = fascism
 					retire_ideology_leader = neutrality
 					create_country_leader = {
 						name = "Manuel Azaña"
@@ -2521,7 +2521,7 @@ country_event = {
 					}
 				}
 				add_popularity = {
-				    ideology = national_vanguard
+				    ideology = fascism
 				    popularity = -0.3
 				}
 				add_popularity = {
@@ -4497,7 +4497,7 @@ country_event = {
 			add_timed_idea = { idea = SPA_death_before_surrender days = 900 }
 			SPD = { add_timed_idea = { idea = SPR_death_before_surrender days = 900 } }
 			set_party_name = { ideology = neutrality long_name = SPR_neutrality_military_junta_party_long name = SPR_neutrality_military_junta_party }
-			kill_ideology_leader = national_vanguard
+			kill_ideology_leader = fascism
 		}
 		complete_national_focus = SPA_unify_the_nationalist_front
 	}
@@ -4588,7 +4588,7 @@ country_event = {
 			add_timed_idea = { idea = SPA_death_before_surrender days = 900 }
 			SPD = { add_timed_idea = { idea = SPR_death_before_surrender days = 900 } }
 			set_party_name = { ideology = neutrality long_name = SPR_neutrality_military_junta_party_long name = SPR_neutrality_military_junta_party }
-			kill_ideology_leader = national_vanguard
+			kill_ideology_leader = fascism
 		}
 		complete_national_focus = SPA_supremacy_of_the_communion
 	}
@@ -5589,7 +5589,7 @@ country_event = {
 				set_popularities = {
 					democratic = 13
 					neutrality = 82
-					national_vanguard = 5
+					fascism = 5
 				}
 				set_party_name = { ideology = neutrality long_name = SPR_neutrality_party_long name = SPR_neutrality_party }
 			}
@@ -6394,13 +6394,13 @@ country_event = {
 			SPA = {
 				inherit_technology = SPB
 				set_politics = {
-					ruling_party = national_vanguard
+					ruling_party = fascism
 					last_election = "1933.4.26"
 					election_frequency = 48
 					elections_allowed = no
 				}
 				set_popularities = {
-					national_vanguard = 80
+					fascism = 80
 					democratic = 15
 					neutrality = 5
 				}
@@ -6434,7 +6434,7 @@ country_event = {
 			}
 			set_party_name = { ideology = neutrality long_name = SPR_neutrality_party_long name = SPR_neutrality_party }
 			add_popularity = {
-			    ideology = national_vanguard
+			    ideology = fascism
 			    popularity = -0.35
 			}
 			add_stability = -0.1
@@ -6677,7 +6677,7 @@ country_event = {
 				}
 			}
 			add_popularity = {
-			    ideology = national_vanguard
+			    ideology = fascism
 			    popularity = -0.35
 			}
 			add_stability = -0.1
@@ -7575,7 +7575,7 @@ country_event = {
 					}
 				}
 				add_popularity = {
-				    ideology = national_vanguard
+				    ideology = fascism
 				    popularity = -1
 				}
 				add_popularity = {
@@ -7619,7 +7619,7 @@ country_event = {
 					}
 				}
 				add_popularity = {
-				    ideology = national_vanguard
+				    ideology = fascism
 				    popularity = -1
 				}
 				add_popularity = {
@@ -8050,7 +8050,7 @@ country_event = {
 					democratic = 61
 					communism = 35
 					neutrality = 3
-					national_vanguard = 1
+					fascism = 1
 				}
 				set_stability = 0.6
 				set_war_support = 0.5
@@ -8405,7 +8405,7 @@ country_event = {
 					}
 				}
 				add_popularity = {
-				    ideology = national_vanguard
+				    ideology = fascism
 				    popularity = -1
 				}
 				add_popularity = {
@@ -8441,7 +8441,7 @@ country_event = {
 					}
 				}
 				add_popularity = {
-				    ideology = national_vanguard
+				    ideology = fascism
 				    popularity = -1
 				}
 				add_popularity = {
@@ -9122,7 +9122,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				has_government = democratic
-				FROM = { has_government = national_vanguard }
+				FROM = { has_government = fascism }
 			}
 			modifier = {
 				factor = 0
@@ -9480,7 +9480,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 5
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			modifier = {
 				factor = 10

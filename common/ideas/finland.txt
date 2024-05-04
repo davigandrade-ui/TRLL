@@ -647,7 +647,7 @@ ideas = {
 				improve_relations_maintain_cost_factor = -0.5
 				weekly_casualties_war_support = 0.005
 				weekly_bombing_war_support = 0.005
-				national_vanguard_acceptance = 50
+				fascism_acceptance = 50
 				custom_modifier_tooltip = FIN_the_lone_wolf_tt
 			}
 		}
@@ -1116,7 +1116,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				national_vanguard_drift = 0.1
+				fascism_drift = 0.1
 			}
 		}
 
@@ -1136,7 +1136,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				national_vanguard_drift = 0.1
+				fascism_drift = 0.1
 				war_support_factor = 0.05
 				conscription = 0.005
 				training_time_army_factor = -0.1
@@ -1159,7 +1159,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				national_vanguard_drift = 0.1
+				fascism_drift = 0.1
 				war_support_factor = 0.05
 				conscription = 0.005
 				training_time_army_factor = -0.1
@@ -1184,7 +1184,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				national_vanguard_drift = 0.1
+				fascism_drift = 0.1
 				war_support_factor = 0.05
 				conscription = 0.02
 				training_time_army_factor = -0.1

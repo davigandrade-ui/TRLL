@@ -1348,7 +1348,7 @@ focus_tree = {
 								name = neutrality 
 							}
 							set_party_name = { 
-								ideology = national_vanguard 
+								ideology = fascism 
 								long_name = transylvania_fascism_party_long 
 								name = transylvania_fascism_party 
 							}
@@ -1421,7 +1421,7 @@ focus_tree = {
 							name = neutrality 
 						}
 						set_party_name = { 
-							ideology = national_vanguard 
+							ideology = fascism 
 							long_name = fascism 
 							name = fascism 
 						}
@@ -1982,13 +1982,13 @@ focus_tree = {
 			OR = {
 				GER = {
 					NOT = { has_war_with = ROOT }
-					has_government = national_vanguard
+					has_government = fascism
 					has_capitulated = no
 					is_faction_leader = yes
 				}
 				any_other_country = {
 					is_major = yes
-					has_government = national_vanguard
+					has_government = fascism
 					is_faction_leader = yes
 				}
 			}
@@ -2016,7 +2016,7 @@ focus_tree = {
 						GER = {
 							exists = yes
 							has_capitulated = no
-							has_government = national_vanguard
+							has_government = fascism
 							is_faction_leader = yes
 						}
 					}
@@ -2035,7 +2035,7 @@ focus_tree = {
 						GER = {
 							exists = yes
 							has_capitulated = no
-							has_government = national_vanguard
+							has_government = fascism
 							is_faction_leader = yes
 						}
 					}
@@ -2056,7 +2056,7 @@ focus_tree = {
 				add_country_leader_role = {
 					country_leader = {
 						expire = "1965.1.1"
-						ideology = national_vanguard
+						ideology = fascism
 						traits = {}
 					}
 					promote_leader = yes
@@ -2090,7 +2090,7 @@ focus_tree = {
 					ITA_is_kinda_fascist = yes
 				}
 				else = { 
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				has_capitulated = no
 				controls_state = 163
@@ -2136,13 +2136,13 @@ focus_tree = {
 			OR = {
 				GER = {
 					NOT = { has_war_with = ROOT }
-					has_government = national_vanguard
+					has_government = fascism
 					has_capitulated = no
 					is_faction_leader = yes
 				}
 				any_other_country = {
 					is_major = yes
-					has_government = national_vanguard
+					has_government = fascism
 					is_faction_leader = yes
 				}
 			}
@@ -2173,7 +2173,7 @@ focus_tree = {
 					GER = {
 						exists = yes
 						has_capitulated = no
-						has_government = national_vanguard
+						has_government = fascism
 						is_faction_leader = yes
 					}
 				}
@@ -2505,7 +2505,7 @@ focus_tree = {
 					add_country_leader_role = {
 						character = YUG_prince_paul
 						country_leader = {
-							ideology = national_vanguard
+							ideology = fascism
 							traits = {
 								collaborator_king
 							}
@@ -2513,7 +2513,7 @@ focus_tree = {
 						promote_leader = yes
 					}
 					set_party_name = { 
-						ideology = national_vanguard
+						ideology = fascism
 						name = YUG_kardocevik
 						long_name = YUG_kardocevik
 					}
@@ -2529,7 +2529,7 @@ focus_tree = {
 						}
 						custom_effect_tooltip = neutral_to_fascist_tt
 						set_politics = {
-							ruling_party = national_vanguard
+							ruling_party = fascism
 						}
 					}
 				}

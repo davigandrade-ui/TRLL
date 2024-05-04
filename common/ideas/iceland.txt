@@ -106,7 +106,7 @@ ideas = {
 			}
 			available = {
 				NOT = { has_government = communism }
-				NOT = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
 			}
 
 			removal_cost = -1
@@ -129,7 +129,7 @@ ideas = {
 			}
 			available = {
 				NOT = { has_government = communism }
-				NOT = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
 			}
 
 			removal_cost = -1

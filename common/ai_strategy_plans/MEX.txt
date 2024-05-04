@@ -25,7 +25,7 @@ mexico_historical = {
 	abort = {
 		OR = {
 			has_war_with = USA
-			has_government = national_vanguard
+			has_government = fascism
 			has_government = communism
 		}
 	}
@@ -178,7 +178,7 @@ mexico_fascist_axis = {
 			}
 			AND = {
 				is_historical_focus_on = yes
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 	}

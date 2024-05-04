@@ -48,7 +48,7 @@ country_event = { #Motion of No Confidence
 			modifier = {
 				factor = 5
 				OR = {
-					national_vanguard > 0.2
+					fascism > 0.2
 					communism > 0.2
 					neutrality > 0.2
 				}
@@ -56,7 +56,7 @@ country_event = { #Motion of No Confidence
 			modifier = {
 				factor = 5
 				OR = {
-					national_vanguard > 0.35
+					fascism > 0.35
 					communism > 0.35
 					neutrality > 0.35
 				}
@@ -72,7 +72,7 @@ country_event = { #Motion of No Confidence
 							democratic < 0.5
 							communism > 0.19
 							neutrality > 0.19
-							national_vanguard > 0.19
+							fascism > 0.19
 						}
 					}
 					AND = {
@@ -81,7 +81,7 @@ country_event = { #Motion of No Confidence
 							democratic > 0.19 
 							communism < 0.5 
 							neutrality > 0.19 
-							national_vanguard > 0.19
+							fascism > 0.19
 						}
 					}
 					AND = {
@@ -90,7 +90,7 @@ country_event = { #Motion of No Confidence
 							democratic > 0.19 
 							communism  > 0.19 
 							neutrality < 0.5 
-							national_vanguard > 0.19 
+							fascism > 0.19 
 						}
 					}
 				}
@@ -496,19 +496,19 @@ country_event = { #Election Campaigns
 			base = 1
 			modifier = {
 				factor = 5
-				national_vanguard > 0.2
+				fascism > 0.2
 			}
 			modifier = {
 				factor = 5
-				national_vanguard > 0.35
+				fascism > 0.35
 			}
 			modifier = {
 				factor = 5
-				national_vanguard > 0.5
+				fascism > 0.5
 			}
 		}
 		trigger = {
-			national_vanguard > 0.14
+			fascism > 0.14
 			NOT = { 
 				has_country_flag = banned_fascism_flag 
 				has_country_flag = DEN_banned_fascism_flag
@@ -761,15 +761,15 @@ country_event = { #Fascist Campaign
 			base = 1
 			modifier = {
 				factor = 15
-				national_vanguard > 0.7
+				fascism > 0.7
 			}
 		}
 		if = {
 			limit = {
-				national_vanguard < 0.9
+				fascism < 0.9
 			}
 			add_popularity = {
-			    ideology = national_vanguard
+			    ideology = fascism
 			    popularity = 0.05
 			}
 		}
@@ -784,14 +784,14 @@ country_event = { #Fascist Campaign
 			base = 1
 			modifier = {
 				factor = 10
-				national_vanguard > 0.5
+				fascism > 0.5
 			}
 		}
 		trigger = {
-			national_vanguard < 0.8
+			fascism < 0.8
 		}
 		add_popularity = {
-		    ideology = national_vanguard
+		    ideology = fascism
 		    popularity = 0.1
 		}
 		add_political_power = -50
@@ -804,14 +804,14 @@ country_event = { #Fascist Campaign
 			base = 1
 			modifier = {
 				factor = 5
-				national_vanguard < 0.5
+				fascism < 0.5
 			}
 		}
 		trigger = {
-			national_vanguard < 0.7
+			fascism < 0.7
 		}
 		add_popularity = {
-		    ideology = national_vanguard
+		    ideology = fascism
 		    popularity = 0.15
 		}
 		add_political_power = -75
@@ -939,15 +939,15 @@ country_event = { #Election Results
 			base = 1
 			modifier = {
 				factor = 5
-				national_vanguard > 0.3
+				fascism > 0.3
 			}
 			modifier = {
 				factor = 10
-				national_vanguard > 0.4
+				fascism > 0.4
 			}
 			modifier = {
 				factor = 15
-				national_vanguard > 0.5
+				fascism > 0.5
 			}
 		}
 		trigger = {
@@ -1013,7 +1013,7 @@ country_event = { #Political Opposition
 		has_elections = yes
 		OR = {
 			has_government = communism
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		NOT = { has_country_flag = DEN_opposition_propaganda_flag }
 	}
@@ -1043,7 +1043,7 @@ country_event = { #Political Opposition
 			base = 2
 		}	
 		trigger = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		set_country_flag = DEN_opposition_propaganda_flag
 		add_timed_idea = {
@@ -1331,7 +1331,7 @@ country_event = { #Denmark becomes a puppet
 		}
 		if = {
 			limit = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			set_country_flag = DEN_is_fascist_flag
 		}
@@ -1406,7 +1406,7 @@ country_event = { #Denmark becomes a puppet
 		hidden_effect = {
 			set_popularities = { #Denmark keeps it government form
 				democratic = DEN_democratic_popularity
-				national_vanguard = DEN_fascism_popularity
+				fascism = DEN_fascism_popularity
 				communism = DEN_communism_popularity
 				neutrality = DEN_neutrality_popularity
 			}
@@ -1432,7 +1432,7 @@ country_event = { #Denmark becomes a puppet
 				limit = {
 					has_country_flag = DEN_is_fascist_flag
 				}
-				set_politics = { ruling_party = national_vanguard }
+				set_politics = { ruling_party = fascism }
 			}
 
 			set_country_flag = DEN_has_occupation_flag
@@ -1529,7 +1529,7 @@ country_event = { #Denmark keeps elections
 		}
 		if = {
 			limit = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			if = {
 				limit = {
@@ -1538,13 +1538,13 @@ country_event = { #Denmark keeps elections
 					}
 				}
 				set_politics = { 
-					ruling_party = national_vanguard
+					ruling_party = fascism
 					elections_allowed = yes
 				}
 			}
 			else = {
 				set_politics = { 
-					ruling_party = national_vanguard
+					ruling_party = fascism
 				}
 			}
 		}
@@ -1606,7 +1606,7 @@ country_event = { #Denmark Declares Independence
 			modifier = {
 				factor = 5
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = communism
 				}	
 			}
@@ -1773,12 +1773,12 @@ country_event = { #Danish Liberation War
 			}
 			modifier = { 
 				factor = 10
-				has_government = national_vanguard
+				has_government = fascism
 				DEN_fascist_ai = yes
 			}
 		}
 		trigger = {
-			has_government = national_vanguard
+			has_government = fascism
 			has_government = communism
 		}
 
@@ -3415,7 +3415,7 @@ country_event = { #Overlord: Denmark tries to placate the Overlord
 			modifier = {
 				factor = 5
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = communism
 				}
 			}
@@ -3535,7 +3535,7 @@ country_event = { #Overlord: Denmark is being a shitty subject
 			modifier = {
 				factor = 5
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = communism
 				}
 			}
@@ -3781,7 +3781,7 @@ country_event = { #Denmark: Choose new country leader
 		trigger= {
 			DEN_aksel_larsen = { is_country_leader = no }
 			OVERLORD = {
-				NOT = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
 				NOT = { has_government = democratic }
 			}
 			NOT = {
@@ -3810,7 +3810,7 @@ country_event = { #Denmark: Choose new country leader
 				NOT = { has_government = democratic }
 			}
 			NOT = {
-				has_government = national_vanguard
+				has_government = fascism
 				has_country_flag = DEN_banned_fascism_flag
 				has_country_flag = banned_fascism_flag
 				AND = {
@@ -4066,7 +4066,7 @@ country_event = { #Overlord: Denmark refuses to change leader
 			modifier = {
 				factor = 5
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = communism
 				}
 			}
@@ -4270,7 +4270,7 @@ country_event = { #Denmark: Overlord wants a new government
 			modifier = {
 				factor = 0
 				OR = {	
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = communism
 				}
 			}
@@ -4287,7 +4287,7 @@ country_event = { #Denmark: Overlord wants a new government
 				factor = 20
 				OR = {	
 					AND = {
-						has_government = national_vanguard
+						has_government = fascism
 						DEN_fascist_ai = yes
 					}
 					AND = {
@@ -4404,11 +4404,11 @@ country_event = { #Denmark: Chooses new Government form
 		}
 		trigger= {
 			OVERLORD = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 		set_politics = { 
-			ruling_party = national_vanguard
+			ruling_party = fascism
 		}
 		OVERLORD = { country_event = { id = denmark_overlord_events.23 days = 1 }}
 	}
@@ -4531,11 +4531,11 @@ country_event = { #Overlord: Denmark refuses to change government form
 			if = {
 				limit = {
 					ROOT = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 				set_politics = { 
-					ruling_party = national_vanguard
+					ruling_party = fascism
 				}
 			}
 			else_if = {
@@ -4633,11 +4633,11 @@ country_event = { #Denmark: Overlord tries to install its own government form
 		if = {
 			limit = {
 				FROM = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			set_politics = { 
-				ruling_party = national_vanguard
+				ruling_party = fascism
 			}
 		}
 		else_if = {
@@ -4713,7 +4713,7 @@ country_event = { #Denmark: Overlord tries to install its own government form
 						DEN_royal_ai = yes
 					}
 					AND = {
-						has_government = national_vanguard
+						has_government = fascism
 						DEN_fascist_ai  = yes
 					}
 					AND = {
@@ -4806,7 +4806,7 @@ country_event = { #Denmark: Overlord wants communism banned
 		}
 		else_if = {
 			limit = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			add_stability = ban_ideology_var
 		}
@@ -4897,7 +4897,7 @@ country_event = { #Denmark: Overlord wants fascism banned
 			set_country_flag = DEN_banned_fascism_flag
 		}
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = ban_ideology_var
 		}
 		if = {
@@ -4959,7 +4959,7 @@ country_event = { #Denmark: Overlord wants fascism banned
 			base = 1
 			modifier = {
 				factor = 10
-				national_vanguard > 0.3
+				fascism > 0.3
 			}
 			modifier = {
 				factor = 10
@@ -5066,7 +5066,7 @@ country_event = { #Denmark: Overlord wants weapons
 							has_government = communism
 						}
 						OR = {
-							has_government = national_vanguard
+							has_government = fascism
 							has_government = neutrality
 							DEN_royal_ai = yes
 							DEN_fascist_ai = yes
@@ -5074,7 +5074,7 @@ country_event = { #Denmark: Overlord wants weapons
 					}
 					AND = {
 						FROM = {
-							has_government = national_vanguard
+							has_government = fascism
 						}
 						OR = {
 							has_government = communism
@@ -5145,7 +5145,7 @@ country_event = { #Overlord: Denmark won't send weapons
 			modifier = {
 				factor = 5
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = communism
 				}
 			}
@@ -5258,7 +5258,7 @@ country_event = { #Denmark: Overlord wants troops
 							has_government = communism
 						}
 						OR = {
-							has_government = national_vanguard
+							has_government = fascism
 							has_government = neutrality
 							DEN_royal_ai = yes
 							DEN_fascist_ai = yes
@@ -5266,7 +5266,7 @@ country_event = { #Denmark: Overlord wants troops
 					}
 					AND = {
 						FROM = {
-							has_government = national_vanguard
+							has_government = fascism
 						}
 						OR = {
 							has_government = communism
@@ -5333,7 +5333,7 @@ country_event = { #Overlord: Denmark refuses to send troops
 			modifier = {
 				factor = 5
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = communism
 				}
 				NOT = { has_government = FROM }
@@ -5525,7 +5525,7 @@ country_event = { #Overlord: Denmark refused to appoint our country leader
 			modifier = {
 				factor = 5
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = communism
 				}
 				NOT = { has_government = FROM }
@@ -5594,7 +5594,7 @@ country_event = { #Denmark: overlord tries to install a loyal governor anyways!
 			limit = {
 				OR = {
 					NOT = { has_government = communism }
-					NOT = { has_government = national_vanguard }
+					NOT = { has_government = fascism }
 				}
 			}
 			event_option_tooltip = denmark_occupation_event.7.a
@@ -5719,7 +5719,7 @@ country_event = { #Overlord: Denmark refuses to part from Jutland
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = communism
 				}
 			}
@@ -5856,7 +5856,7 @@ country_event = { #Overlord: Denmark refuses to be annexed
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = communism
 				}
 			}
@@ -9589,7 +9589,7 @@ country_event = { #Denmark interferce in our politics; they try to change our id
 		}
 		else_if = {
 			limit = {
-				FROM = { has_government = national_vanguard }
+				FROM = { has_government = fascism }
 			}
 			add_timed_idea = {
 				idea = DEN_foreign_influence_fascism_ns
@@ -9661,7 +9661,7 @@ country_event = { #FROM stopped Danish subterfuge acts
 		}
 		else_if = {
 			limit = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			effect_tooltip = {
 				FROM = {
@@ -9893,7 +9893,7 @@ country_event = { #Denmark joins the Axis
 		add_stability = 0.05
 
 		set_politics = {
-			ruling_party = national_vanguard
+			ruling_party = fascism
 		}
 		
 		DEN_frits_clausen = {
@@ -9944,14 +9944,14 @@ country_event = { #Germany Rejects Denmark
 		name = denmark_fascist_event.3.a
 		trigger = {
 			NOT = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 		ai_chance = {
 			base = 1
 		}
 		set_politics = {
-			ruling_party = national_vanguard
+			ruling_party = fascism
 		}
 		
 		DEN_frits_clausen = {
@@ -9966,7 +9966,7 @@ country_event = { #Germany Rejects Denmark
 	option = { #Damn
 		name = denmark_fascist_event.3.b
 		trigger = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		ai_chance = {
 			base = 1
@@ -10211,7 +10211,7 @@ country_event = { #The Danish King seeks refuge
 				factor = 5
 				OR = {
 					has_government = neutrality
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			modifier = {
@@ -10274,7 +10274,7 @@ country_event = { #The Danish King seeks refuge
 						has_civil_war = no
 						OR = {
 							NOT = { has_government = communism }
-							NOT = { has_government = national_vanguard }
+							NOT = { has_government = fascism }
 						}
 					}
 				}
@@ -10288,7 +10288,7 @@ country_event = { #The Danish King seeks refuge
 						has_civil_war = no
 						OR = {
 							NOT = { has_government = communism }
-							NOT = { has_government = national_vanguard }
+							NOT = { has_government = fascism }
 						}
 					}
 				}
@@ -10302,7 +10302,7 @@ country_event = { #The Danish King seeks refuge
 						has_civil_war = no
 						OR = {
 							NOT = { has_government = communism }
-							NOT = { has_government = national_vanguard }
+							NOT = { has_government = fascism }
 						}
 					}
 				}

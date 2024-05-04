@@ -906,7 +906,7 @@ focus_tree = {
 		mutually_exclusive = { focus = GER_anti_soviet_pact }
 		available = {
 			is_subject = no
-			has_government = national_vanguard
+			has_government = fascism
 			has_army_manpower = { size > 849999 } #ca 90 div
 			SOV = {
 				NOT = { has_war_with = GER }
@@ -957,7 +957,7 @@ focus_tree = {
 		mutually_exclusive = { focus = GER_ussr_war_goal }
 		available = {
 			is_subject = no
-			has_government = national_vanguard
+			has_government = fascism
 			has_war = no
 			SOV = {
 				has_war = no
@@ -1010,7 +1010,7 @@ focus_tree = {
 		prerequisite = { focus = GER_soviet_ally }
 		available = {
 			is_subject = no
-			has_government = national_vanguard
+			has_government = fascism
 			OR = {
 				GRE = {
 					is_in_faction_with = GER
@@ -1310,7 +1310,7 @@ focus_tree = {
 						num_of_factories > 30
 					}
 					OR = {
-						has_government = national_vanguard 
+						has_government = fascism 
 						AND = {
 							is_neighbor_of = SOU
 							NOT = { has_government = communism }
@@ -1538,7 +1538,7 @@ focus_tree = {
 				if = {
 					limit = {
 						GER = {
-							has_government = national_vanguard
+							has_government = fascism
 						}
 					}
 					add_timed_idea = { idea = fascist_influence days = 1095 }
@@ -1708,13 +1708,13 @@ focus_tree = {
 					limit = {
 						original_tag = AUS
 						OR = {
-							has_government = national_vanguard
+							has_government = fascism
 							AND = {
 								has_government = neutrality
 								NOT = {
 									any_other_country = {
 										original_tag = AUS
-										has_government = national_vanguard
+										has_government = fascism
 									}
 								}
 							}
@@ -1722,7 +1722,7 @@ focus_tree = {
 								any_other_country = {
 									original_tag = AUS
 									OR = {
-										has_government = national_vanguard
+										has_government = fascism
 										has_government = neutrality
 									}
 								}
@@ -2314,7 +2314,7 @@ focus_tree = {
 				if = {
 					limit = {
 						GER = {
-							has_government = national_vanguard
+							has_government = fascism
 						}
 					}
 					add_timed_idea = { idea = fascist_influence days = 1095 }
@@ -2687,7 +2687,7 @@ focus_tree = {
 				AND = {
 					OR = {
 						HUN = {
-							NOT = { has_government = national_vanguard }
+							NOT = { has_government = fascism }
 							is_friend_or_potential_friend_of_GER = no
 						}
 						ROM = {
@@ -2800,7 +2800,7 @@ focus_tree = {
 				SPR = { has_civil_war = no }
 				any_other_country = {
 					original_tag = SPR
-					has_government = national_vanguard
+					has_government = fascism
 					NOT = { has_war_with = GER }
 					NOT = { is_in_faction_with = GER }
 				}
@@ -2821,7 +2821,7 @@ focus_tree = {
 				OR = {
 					exists = no
 					has_capitulated = yes
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 		}
@@ -2829,7 +2829,7 @@ focus_tree = {
 		#bypass = {
 		#	any_other_country = {
 		#		original_tag = SPR
-		#		has_government = national_vanguard
+		#		has_government = fascism
 		#		is_in_faction_with = GER
 		#	}
 		#}
@@ -2859,7 +2859,7 @@ focus_tree = {
 						AND = {
 							NOT = { has_dlc = "La Resistance" }
 							NOT = { country_exists = SPR }
-							SPR = { NOT = { has_government = national_vanguard } }
+							SPR = { NOT = { has_government = fascism } }
 						}
 						AND = {
 							has_dlc = "La Resistance"
@@ -2876,7 +2876,7 @@ focus_tree = {
 				random_other_country = {
 					limit = {
 						original_tag = SPR
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					remove_ideas = SPA_recovering_from_civil_war
 					add_opinion_modifier = { target = GER modifier = ger_spa_alliance_focus }
@@ -2962,7 +2962,7 @@ focus_tree = {
 				if = {
 					limit = {
 						GER = {
-							has_government = national_vanguard
+							has_government = fascism
 						}
 					}
 					add_timed_idea = { idea = fascist_influence days = 1095 }
@@ -3609,7 +3609,7 @@ focus_tree = {
 		mutually_exclusive = { focus = GER_weserubung }
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			country_exists = DEN
 			NOT = {
 				has_war_with = DEN
@@ -3639,7 +3639,7 @@ focus_tree = {
 				if = {
 					limit = {
 						GER = {
-							has_government = national_vanguard
+							has_government = fascism
 						}
 					}
 					add_timed_idea = { idea = fascist_influence days = 1095 }
@@ -3673,7 +3673,7 @@ focus_tree = {
 		icon = GFX_goal_generic_military_deal
 		prerequisite = { focus = GER_denmark_friend }
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			NOT = { has_war_with = NOR }
 			NOR = {
 				custom_trigger_tooltip = {
@@ -3702,7 +3702,7 @@ focus_tree = {
 				if = {
 					limit = {
 						GER = {
-							has_government = national_vanguard
+							has_government = fascism
 						}
 					}
 					add_timed_idea = { idea = fascist_influence days = 1095 }
@@ -3742,7 +3742,7 @@ focus_tree = {
 		icon = GFX_goal_generic_major_alliance
 		prerequisite = { focus = GER_denmark_friend }
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			NOT = { has_war_with = HOL }
 			HOL = {
 				custom_trigger_tooltip = {
@@ -3770,7 +3770,7 @@ focus_tree = {
 				if = {
 					limit = {
 						GER = {
-							has_government = national_vanguard
+							has_government = fascism
 						}
 					}
 					add_timed_idea = { idea = fascist_influence days = 1095 }
@@ -3804,7 +3804,7 @@ focus_tree = {
 		icon = GFX_goal_generic_propaganda
 		prerequisite = { focus = GER_norway_friend }
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			NOT = { has_war_with = SWE }
 			SWE = {
 				custom_trigger_tooltip = {
@@ -3832,7 +3832,7 @@ focus_tree = {
 				if = {
 					limit = {
 						GER = {
-							has_government = national_vanguard
+							has_government = fascism
 						}
 					}
 					add_timed_idea = { idea = fascist_influence days = 1095 }
@@ -4512,7 +4512,7 @@ focus_tree = {
 
 		available = {
 			is_subject = no
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		x = 47
 		y = 0
@@ -4605,7 +4605,7 @@ focus_tree = {
 			NOT = {
 				any_country = {
 					original_tag = GER
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 		}
@@ -5553,7 +5553,7 @@ focus_tree = {
 			is_subject = no
 			NOT = { has_war_with = ITA }
 			ITA = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 		cancel_if_invalid = yes
@@ -6609,7 +6609,7 @@ focus_tree = {
 						tag = POR
 						tag = GRE
 						has_government = communism
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 				country_event = { id = wtt_germany.24 }
@@ -6721,12 +6721,12 @@ focus_tree = {
 				}
 				if = {
 					limit = {
-						FRA = { has_government = national_vanguard }
+						FRA = { has_government = fascism }
 					}
 					random_other_country = {
 						limit = {
 							original_tag = SPR
-							has_government = national_vanguard
+							has_government = fascism
 						}
 						add_ai_strategy = {
 							type = befriend
@@ -6742,12 +6742,12 @@ focus_tree = {
 				}
 				if = {
 					limit = {
-						SOV = { has_government = national_vanguard } #futureproofing
+						SOV = { has_government = fascism } #futureproofing
 					}
 					random_other_country = {
 						limit = {
 							original_tag = SPR
-							has_government = national_vanguard
+							has_government = fascism
 						}
 						add_ai_strategy = {
 							type = befriend
@@ -6814,7 +6814,7 @@ focus_tree = {
 					AUS = {
 						NOT = {
 							has_government = communism
-							has_government = national_vanguard
+							has_government = fascism
 						}
 						exists = yes
 						is_subject = no
@@ -6830,7 +6830,7 @@ focus_tree = {
 					CZE = {
 						NOT = {
 							has_government = communism
-							has_government = national_vanguard
+							has_government = fascism
 						}
 						exists = yes
 						is_subject = no
@@ -6845,7 +6845,7 @@ focus_tree = {
 					HUN = {
 						NOT = {
 							has_government = communism
-							has_government = national_vanguard
+							has_government = fascism
 						}
 						exists = yes
 						is_subject = no
@@ -6897,7 +6897,7 @@ focus_tree = {
 					YUG = {
 						NOT = {
 							has_government = communism
-							has_government = national_vanguard
+							has_government = fascism
 						}
 						is_in_faction = no
 						exists = yes
@@ -6913,7 +6913,7 @@ focus_tree = {
 					ROM = {
 						NOT = {
 							has_government = communism
-							has_government = national_vanguard
+							has_government = fascism
 						}
 						is_in_faction = no
 						exists = yes
@@ -7105,7 +7105,7 @@ focus_tree = {
 					HOL = {
 						NOT = {
 							has_government = communism
-							has_government = national_vanguard
+							has_government = fascism
 						}
 						is_subject = no
 					}
@@ -7119,7 +7119,7 @@ focus_tree = {
 					BEL = {
 						NOT = {
 							has_government = communism
-							has_government = national_vanguard
+							has_government = fascism
 						}
 						is_subject = no
 					}
@@ -7133,7 +7133,7 @@ focus_tree = {
 					LUX = {
 						NOT = {
 							has_government = communism
-							has_government = national_vanguard
+							has_government = fascism
 						}
 						is_subject = no
 					}
@@ -7323,7 +7323,7 @@ focus_tree = {
 					NOR = {
 						NOT = {
 							has_government = communism
-							has_government = national_vanguard
+							has_government = fascism
 						}
 						is_subject = no
 					}
@@ -7337,7 +7337,7 @@ focus_tree = {
 					SWE = {
 						NOT = {
 							has_government = communism
-							has_government = national_vanguard
+							has_government = fascism
 						}
 						is_subject = no
 					}
@@ -7351,7 +7351,7 @@ focus_tree = {
 					DEN = {
 						NOT = {
 							has_government = communism
-							has_government = national_vanguard
+							has_government = fascism
 						}
 						is_subject = no
 					}
@@ -7427,7 +7427,7 @@ focus_tree = {
 					EST = {
 						NOT = {
 							has_government = communism
-							has_government = national_vanguard
+							has_government = fascism
 						}
 						is_subject = no
 					}
@@ -7446,7 +7446,7 @@ focus_tree = {
 					LAT = {
 						NOT = {
 							has_government = communism
-							has_government = national_vanguard
+							has_government = fascism
 						}
 						is_subject = no
 					}
@@ -7465,7 +7465,7 @@ focus_tree = {
 					LIT = {
 						NOT = {
 							has_government = communism
-							has_government = national_vanguard
+							has_government = fascism
 						}
 						is_subject = no
 					}
@@ -7537,7 +7537,7 @@ focus_tree = {
 					POL = {
 						NOT = {
 							has_government = communism
-							has_government = national_vanguard
+							has_government = fascism
 						}
 						is_subject = no
 					}
@@ -7623,7 +7623,7 @@ focus_tree = {
 					FIN = {
 						NOT = {
 							has_government = communism
-							has_government = national_vanguard
+							has_government = fascism
 						}
 						is_subject = no
 					}

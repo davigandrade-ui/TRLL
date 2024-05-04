@@ -221,11 +221,11 @@ focus_tree = {
 				OR = { 
 					AND = { 
 						NOT = { is_in_faction_with = ITA }
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					AND = { 
 						NOT = { is_in_faction_with = GER }
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					AND = { 
 						is_in_faction_with = ENG
@@ -780,7 +780,7 @@ focus_tree = {
 		id = GRE_reviving_the_double_headed_eagle
 		icon = GFX_focus_GRE_reviving_the_double_headed_eagle
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		prerequisite = { focus = GRE_horror_and_fear }
 		x = -1
@@ -792,7 +792,7 @@ focus_tree = {
 			modifier = { 
 				add = 1
 				AND = { 
-					has_government = national_vanguard
+					has_government = fascism
 					TUR = {
 						exists = no
 					}
@@ -1519,9 +1519,9 @@ focus_tree = {
 		icon = GFX_focus_generic_attack_turkey
 		prerequisite = { focus = GRE_ally_tito }
 		available = {
-			TUR = { national_vanguard > 0.3 }
+			TUR = { fascism > 0.3 }
 			OR = { 
-				TUR = { has_government = national_vanguard }
+				TUR = { has_government = fascism }
 				TUR = { has_added_tension_amount > 5 }
 			}		
 		}	
@@ -1595,7 +1595,7 @@ focus_tree = {
 			if = { 	
 				limit = {
 					ITA = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 				create_wargoal = {
@@ -1607,7 +1607,7 @@ focus_tree = {
 			if = { 	
 				limit = {
 					GER = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 				create_wargoal = {
@@ -1619,7 +1619,7 @@ focus_tree = {
 			if = { 	
 				limit = {
 					HUN = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 				create_wargoal = {
@@ -1631,7 +1631,7 @@ focus_tree = {
 			if = { 	
 				limit = {
 					YUG = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 				create_wargoal = {
@@ -1643,7 +1643,7 @@ focus_tree = {
 			if = { 	
 				limit = {
 					ROM = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}	
 				create_wargoal = {
@@ -1884,7 +1884,7 @@ focus_tree = {
 			}
 			if = {
 				limit = { 
-					GER = { has_government = national_vanguard } 
+					GER = { has_government = fascism } 
 				}
 				GER = { 
 					add_opinion_modifier = { 
@@ -2057,7 +2057,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_popularity = {
-   				ideology = national_vanguard
+   				ideology = fascism
    	 			popularity = 0.05
 			}
 			custom_effect_tooltip = GRE_fascists_put_in_play_tt
@@ -2777,12 +2777,12 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_popularity = {
-   				ideology = national_vanguard
+   				ideology = fascism
    	 			popularity = 0.1
 			}
 			if = { 
 				limit = { 
-					GER = { has_government = national_vanguard }
+					GER = { has_government = fascism }
 				}
 				GER = { 
 					add_opinion_modifier = { 
@@ -2793,7 +2793,7 @@ focus_tree = {
 			}
 			if = { 
 				limit = { 
-					ITA = { has_government = national_vanguard }
+					ITA = { has_government = fascism }
 				}
 				ITA = { 
 					add_opinion_modifier = { 
@@ -2825,7 +2825,7 @@ focus_tree = {
 			hidden_effect = { 
 				if = { 
 					limit = { 
-						GER = { has_government = national_vanguard }
+						GER = { has_government = fascism }
 					}
 					add_opinion_modifier = { 
 						target = GRE
@@ -2834,7 +2834,7 @@ focus_tree = {
 				}
 				if = { 
 					limit = { 
-						ITA = { has_government = national_vanguard }
+						ITA = { has_government = fascism }
 					}
 					add_opinion_modifier = { 
 						target = GRE
@@ -2884,7 +2884,7 @@ focus_tree = {
 		icon = GFX_focus_generic_little_entente
 		prerequisite = { focus = GRE_following_in_the_footsteps_of_giants }
 		available = { 
-			national_vanguard > 0.4
+			fascism > 0.4
 		}
 		x = 0
 		y = 1
@@ -3042,7 +3042,7 @@ focus_tree = {
 			if = {
 				limit = {
 					NOT = { 
-						GER = { has_government = national_vanguard }
+						GER = { has_government = fascism }
 					}
 				}
 				ITA = { country_event = { id = bftb_greece.65 days = 1 } }

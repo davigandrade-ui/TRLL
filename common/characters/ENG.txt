@@ -1176,7 +1176,7 @@ characters={
 			idea_token = ENG_jfc_fuller
 			ledger = army
 			available = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			allowed = {
 				original_tag = ENG
@@ -1654,7 +1654,7 @@ characters={
 					limit  = {
 						has_dlc = "Man the Guns"
 					}
-					has_government  = national_vanguard 
+					has_government  = fascism 
 				}
 				if  = {
 					limit  = {
@@ -1670,7 +1670,7 @@ characters={
 			}
 			do_effect  = {
 				NOT = {
-					has_government  = national_vanguard 
+					has_government  = fascism 
 				}
 			}
 			ai_will_do  = {
@@ -1812,7 +1812,7 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_mary_sophia_allen
 			available  = {
-				has_government  = national_vanguard 
+				has_government  = fascism 
 			}
 			allowed  = {
 				original_tag  = ENG

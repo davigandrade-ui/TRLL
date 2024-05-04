@@ -101,7 +101,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=national_vanguard
+				ideology=fascism_ideology
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -2067,7 +2067,7 @@ characters={
 	SWI_robert_tobler = {
 		
 		country_leader = {
-			ideology = national_vanguard
+			ideology = fascism_ideology
 			traits = { SWI_fascist_recruiter }
 			expire = "1965.1.1.1"
 			id=-1
@@ -2166,7 +2166,7 @@ characters={
 			
 		}
 		country_leader={
-			ideology=national_vanguard
+			ideology = fascism_ideology
 			traits={ SWI_fascist }
 			expire="1965.1.1.1"
 			id=-1

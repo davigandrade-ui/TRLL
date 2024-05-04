@@ -142,7 +142,7 @@ USA_congress = {
 		complete_effect = {
 			add_stability = -0.1
 			USA_congress_small_support = yes
-			add_popularity = { ideology = national_vanguard popularity = 0.02 }
+			add_popularity = { ideology = fascism popularity = 0.02 }
 		}
 	}
 	USA_pay_farm_subsidies = {

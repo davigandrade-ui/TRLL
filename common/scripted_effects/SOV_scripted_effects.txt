@@ -7872,7 +7872,7 @@ SOV_start_civil_war = {
 		set_popularities = {
 			communism = SOV.SOV_communist_support_before_civil_war
 			democratic = SOV.SOV_democratic_support_before_civil_war
-			national_vanguard = SOV.SOV_fascist_support_before_civil_war
+			fascism = SOV.SOV_fascist_support_before_civil_war
 			neutrality = SOV.SOV_neutrality_support_before_civil_war
 		}
 		# Set Stalin as Leader if alive, else set Beriya
@@ -8337,7 +8337,7 @@ SOV_left_opposition_civil_war_start = {
 	set_popularities = {
 		communism = SOV_communist_support_before_civil_war
 		democratic = SOV_democratic_support_before_civil_war
-		national_vanguard = SOV_fascist_support_before_civil_war
+		fascism = SOV_fascist_support_before_civil_war
 		neutrality = SOV_neutrality_support_before_civil_war
 	}
 
@@ -8385,7 +8385,7 @@ SOV_right_opposition_civil_war_start = {
 	set_popularities = {
 		communism = SOV_communist_support_before_civil_war
 		democratic = SOV_democratic_support_before_civil_war
-		national_vanguard = SOV_fascist_support_before_civil_war
+		fascism = SOV_fascist_support_before_civil_war
 		neutrality = SOV_neutrality_support_before_civil_war
 	}
 
@@ -8438,7 +8438,7 @@ SOV_exiles_civil_war_start = {
 	set_popularities = {
 		communism = SOV_communist_support_before_civil_war
 		democratic = SOV_democratic_support_before_civil_war
-		national_vanguard = SOV_fascist_support_before_civil_war
+		fascism = SOV_fascist_support_before_civil_war
 		neutrality = SOV_neutrality_support_before_civil_war
 	}
 

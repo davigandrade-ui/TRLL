@@ -1230,7 +1230,7 @@
 # 			}
 # 			remove_ideas = TUR_financing_private_enterprise
 # 			add_popularity = {
-#    				ideology = national_vanguard
+#    				ideology = fascism
 #    	 			popularity = 0.05
 # 			}
 # 			IF = {
@@ -3471,7 +3471,7 @@
 # 					modifier = {
 # 						factor = 25
 # 						OR = {
-# 							national_vanguard > 0.5
+# 							fascism > 0.5
 # 							communism > 0.5
 # 						}
 # 					}
@@ -3776,7 +3776,7 @@
 # 					modifier = {
 # 						factor = 25
 # 						OR = {
-# 							national_vanguard > 0.5
+# 							fascism > 0.5
 # 							communism > 0.5
 # 						}
 # 					}

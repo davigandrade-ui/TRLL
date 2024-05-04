@@ -468,7 +468,7 @@ BRA_aftermath_of_the_coup = { #NATIONAL SPIRIT
 	stability_factor = BRA_coup_stability_factor
 	communism_drift = BRA_coup_communism_factor
 	democratic_drift = BRA_coup_democratic_factor
-	national_vanguard_drift = BRA_coup_fascism_factor
+	fascism_drift = BRA_coup_fascism_factor
 	neutrality_drift = BRA_coup_neutrality_factor
 }
 
@@ -479,7 +479,7 @@ BRA_estado_novo_modifier = { #NATIONAL SPIRIT
 	neutrality_drift = BRA_estado_novo_neutrality_factor
 	communism_drift = BRA_estado_novo_communism_factor
 	democratic_drift = BRA_estado_novo_democratic_factor
-	national_vanguard_drift = BRA_estado_novo_fascism_factor
+	fascism_drift = BRA_estado_novo_fascism_factor
 	production_speed_buildings_factor = BRA_estado_novo_production_speed_buildings_factor
 	war_support_factor = BRA_estado_novo_war_support_factor
 	conscription_factor = BRA_estado_novo_recruitable_population_factor
@@ -500,7 +500,7 @@ BRA_estado_moderno_modifier = { #NATIONAL SPIRIT
 	neutrality_drift = BRA_estado_moderno_neutrality_factor
 	communism_drift = BRA_estado_moderno_communism_factor
 	democratic_drift = BRA_estado_moderno_democratic_factor
-	national_vanguard_drift = BRA_estado_moderno_fascism_factor
+	fascism_drift = BRA_estado_moderno_fascism_factor
 	production_speed_buildings_factor = BRA_estado_moderno_production_speed_buildings_factor
 	war_support_factor = BRA_estado_moderno_war_support_factor
 	conscription_factor = BRA_estado_moderno_recruitable_population_factor
@@ -529,7 +529,7 @@ ARG_corruption_crackdown_modifier = { #NATIONAL SPIRIT
 	stability_factor = ARG_corruption_crackdown_stability_factor
 	production_factory_max_efficiency_factor = ARG_corruption_crackdown_production_factory_max_efficiency_factor
 	neutrality_drift = ARG_corruption_crackdown_neutrality_factor
-	national_vanguard_drift = ARG_corruption_crackdown_fascism_factor
+	fascism_drift = ARG_corruption_crackdown_fascism_factor
 	war_support_factor = ARG_corruption_crackdown_war_support_factor
 }
 
@@ -556,7 +556,7 @@ ARG_international_loan_modifier = {
 ARG_growing_nationalism_modifier = {
 	enable = { always = yes }
 	icon = GFX_idea_ARG_growing_nationalism_modifier
-	national_vanguard_drift = ARG_growing_nationalism_national_vanguard_drift
+	fascism_drift = ARG_growing_nationalism_fascism_drift
 	conscription_factor = ARG_growing_nationalism_recruitable_population_factor
 	stability_factor = ARG_growing_nationalism_stability_factor
 	war_support_factor = ARG_growing_nationalism_war_support_factor

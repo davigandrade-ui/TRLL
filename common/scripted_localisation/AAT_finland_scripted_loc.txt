@@ -383,7 +383,7 @@ defined_text = {
 	name = GetDiplomacyDescriptionNiceNotNice
 	text = {
 		trigger = {
-			ROOT = { has_government = national_vanguard
+			ROOT = { has_government = fascism
 			}
 		}
 		localization_key = FIN_not_nice_desc
@@ -486,7 +486,7 @@ defined_text = {
 		trigger = {
 			GER = {
 				is_faction_leader = yes
-				has_government = national_vanguard
+				has_government = fascism
 				NOT = { has_war_with = ROOT }
 				all_allied_country = {
 					NOT = { has_war_with = ROOT }
@@ -499,7 +499,7 @@ defined_text = {
 		trigger = {
 			ITA = {
 				is_faction_leader = yes
-				has_government = national_vanguard
+				has_government = fascism
 				NOT = { has_war_with = ROOT }
 				all_allied_country = {
 					NOT = { has_war_with = ROOT }

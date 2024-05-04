@@ -120,7 +120,7 @@ characters={
 				}
 				available = {
 					NOT = {
-						has_government = national_vanguard 
+						has_government = fascism 
 					}
 					has_completed_focus = LIT_free_voldemares 
 				}
@@ -163,13 +163,13 @@ characters={
 							}
 						}
 						date > 1937.1.1
-						national_vanguard < 0.4
+						fascism < 0.4
 					}
 				}
 			}
 
 			country_leader={
-				ideology=national_vanguard
+				ideology=fascism_ideology
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -204,7 +204,7 @@ characters={
 			}
 
 			country_leader={
-				ideology=national_vanguard
+				ideology=fascism_ideology
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -865,7 +865,7 @@ characters={
 						}
 					}
 					date > 1937.1.1
-					national_vanguard < 0.4
+					fascism < 0.4
 				}
 			}
 		}

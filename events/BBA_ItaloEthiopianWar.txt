@@ -39,7 +39,7 @@ unit_leader_event = { # THIS IS ACTUALLY THE FIRST MISSIOLINI!
 			base = 10
 			modifier = {
 				factor = 0.5
-				NOT = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
 			}
 		}
 
@@ -831,7 +831,7 @@ country_event = {
 			base = 10
 			modifier = { # We don't generally like foreigners
 				factor = 0.5
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			modifier = { # Kodoha - Ethiopian Friendship
 				factor = 5
@@ -955,7 +955,7 @@ country_event = {
 			}
 			modifier = { # Not as keen if already part of the Axis
 				factor = 0.5 
-				has_government = national_vanguard
+				has_government = fascism
 				is_in_faction_with = GER
 			}
 		}
@@ -1142,7 +1142,7 @@ country_event = {
 			}
 			modifier = { # Not as keen if already part of the Axis
 				factor = 0.5 
-				has_government = national_vanguard
+				has_government = fascism
 				is_in_faction_with = GER
 			}
 			modifier = { # Not as keen if already part of the Axis
@@ -1502,7 +1502,7 @@ country_event = {
 		name = BBA_italo_ethiopian_war_events.303.a
 		custom_effect_tooltip = ETH_for_the_duration_of_the_war_tt
 		IF = {
-			limit = { has_government = national_vanguard }
+			limit = { has_government = fascism }
 			add_ideas = ITA_public_questions_war_effort_idea_fascism
 		}
 		ELSE_IF = {

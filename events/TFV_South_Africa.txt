@@ -325,16 +325,16 @@ country_event = {
 
 	trigger = {
 		has_completed_focus = SAF_support_the_german_coup
-		has_government = national_vanguard
+		has_government = fascism
 		original_tag = SAF
 		has_civil_war = yes
 		OR = {
 			GER = {
 				NOT = { has_war_with = SAF }
-				has_government = national_vanguard
+				has_government = fascism
 			}		
 			HOL = {
-				has_government = national_vanguard
+				has_government = fascism
 				NOT = { has_war_with = SAF }
 			}		
 		}
@@ -347,14 +347,14 @@ country_event = {
 		trigger = {
 			GER = {
 				NOT = { has_war_with = SAF }
-				has_government = national_vanguard
+				has_government = fascism
 			}			
 		}
 		
 		ai_chance = {
 			base = 100
 			modifier = {
-				GER = { NOT = { has_government = national_vanguard } }
+				GER = { NOT = { has_government = fascism } }
 				factor = 0.1
 			}
 		}
@@ -368,7 +368,7 @@ country_event = {
 		name = tfv_south_africa.10.b # Ask HOL for support
 		trigger = {
 			HOL = {
-				has_government = national_vanguard
+				has_government = fascism
 				NOT = { has_war_with = SAF }
 			}			
 		}
@@ -377,7 +377,7 @@ country_event = {
 			base = 30
 			modifier = {
 				GER = { 
-					has_government = national_vanguard 
+					has_government = fascism 
 					has_war = no
 				} 
 				factor = 0
@@ -399,10 +399,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_government = national_vanguard
+		has_government = fascism
 		SAF = {
 			has_civil_war = yes
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		NOT = { has_war_with = SAF }
 	}
@@ -580,10 +580,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_government = national_vanguard
+		has_government = fascism
 		SAF = {
 			has_civil_war = yes
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		NOT = { has_war_with = SAF }
 	}
@@ -772,7 +772,7 @@ country_event = {
 		ai_chance = {
 			base = 100
 			modifier = {
-				NOT = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
 				factor = 0
 			}
 		}
@@ -782,8 +782,8 @@ country_event = {
 			NOT = { has_country_flag = asked_HOL_for_support }
 			HOL = {
 				OR = {
-					national_vanguard > 0.25
-					has_government = national_vanguard
+					fascism > 0.25
+					has_government = fascism
 				}
 			}
 		}
@@ -822,7 +822,7 @@ country_event = {
 			NOT = { has_country_flag = asked_GER_for_support }			
 			GER = {
 				has_war = no
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 		
@@ -1016,7 +1016,7 @@ country_event = {
 		ai_chance = {
 			base = 70
 			modifier = {
-				has_government = national_vanguard 
+				has_government = fascism 
 				add = -50
 			}
 		}  

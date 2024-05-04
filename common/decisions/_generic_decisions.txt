@@ -620,7 +620,7 @@ propaganda_efforts = {
 			}
 			if = {
 				limit = {
-					NOT = { has_government = national_vanguard }
+					NOT = { has_government = fascism }
 				}
 				threat > 0.5
 			}
@@ -1679,7 +1679,7 @@ war_measures = {
                     has_war_support > 0.79
                 }
                 AND = {
-                    has_government = national_vanguard
+                    has_government = fascism
                     OR = {
                         has_war_support > 0.89
                         surrender_progress > 0
@@ -1745,7 +1745,7 @@ war_measures = {
                     has_war_support > 0.79
                 }
                 AND = {
-                    has_government = national_vanguard
+                    has_government = fascism
                     OR = {
                         has_war_support > 0.89
                         surrender_progress > 0

@@ -604,7 +604,7 @@ focus_tree = {
 			}
 			else_if = {
 				limit = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				add_country_leader_trait = LAT_military_dictator
 			}
@@ -697,7 +697,7 @@ focus_tree = {
 
 		available = {
 			NOT = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 
@@ -1171,7 +1171,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = -0.1
 			}
 			swap_ideas = {
@@ -1197,7 +1197,7 @@ focus_tree = {
 		}
 
 		available = {
-			national_vanguard < 0.1
+			fascism < 0.1
 		}
 
 		bypass = {
@@ -1213,7 +1213,7 @@ focus_tree = {
 			remove_mission = LAT_perkonkrust_uprising
 			remove_perkonkrust_effect = yes
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = -0.1
 			}
 		}
@@ -1303,7 +1303,7 @@ focus_tree = {
 		}
 
 		available = {
-			national_vanguard > 0.1
+			fascism > 0.1
 		}
 
 		bypass = {
@@ -1317,7 +1317,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.1
 			}
 			unlock_decision_category_tooltip = LAT_delay_perkonkrust_decisions
@@ -1340,7 +1340,7 @@ focus_tree = {
 		}
 
 		available = {
-			national_vanguard > 0.1
+			fascism > 0.1
 		}
 
 		bypass = {
@@ -1354,7 +1354,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.05
 			}
 			swap_ideas = {
@@ -1381,7 +1381,7 @@ focus_tree = {
 		}
 
 		available = {
-			national_vanguard > 0.1
+			fascism > 0.1
 		}
 
 		bypass = {
@@ -1395,7 +1395,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_MANPOWER }
 		completion_reward = {
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.05
 			}
 			swap_ideas = {
@@ -1421,7 +1421,7 @@ focus_tree = {
 		}
 
 		available = {
-			national_vanguard > 0.2
+			fascism > 0.2
 		}
 
 		bypass = {
@@ -1435,7 +1435,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.05
 			}
 			random_owned_controlled_state = {
@@ -1548,7 +1548,7 @@ focus_tree = {
 		}
 
 		available = {
-			national_vanguard > 0.35
+			fascism > 0.35
 		}
 
 		bypass = {
@@ -1562,7 +1562,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.05
 			}
 			add_ideas = LAT_neopaganism_idea
@@ -1585,8 +1585,8 @@ focus_tree = {
 		}
 
 		available = {
-			national_vanguard < 0.5
-			NOT = { has_government = national_vanguard }
+			fascism < 0.5
+			NOT = { has_government = fascism }
 		}
 
 		bypass = {
@@ -1601,7 +1601,7 @@ focus_tree = {
 		completion_reward = {
 			remove_mission = LAT_perkonkrust_uprising
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = -0.2
 			}
 
@@ -1636,7 +1636,7 @@ focus_tree = {
 		}
 
 		available = {
-			national_vanguard > 0.4
+			fascism > 0.4
 			NOT = { has_war_with = GER }
 			is_subject = no
 			is_in_faction = no
@@ -1648,7 +1648,7 @@ focus_tree = {
 			}
 			GER = {
 				is_faction_leader = yes
-				has_government = national_vanguard
+				has_government = fascism
 				is_subject = no
 			}
 			NOT = { has_government = democratic }
@@ -1665,11 +1665,11 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			set_politics = {
-				ruling_party = national_vanguard
+				ruling_party = fascism
 				elections_allowed = no
 			}
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.15
 			}
 			remove_mission = LAT_perkonkrust_uprising
@@ -1679,7 +1679,7 @@ focus_tree = {
 					GER = {
 						exists = yes
 						has_capitulated = no
-						has_government = national_vanguard
+						has_government = fascism
 						is_faction_leader = yes
 					}
 				}
@@ -1711,7 +1711,7 @@ focus_tree = {
 		}
 
 		available = {
-			national_vanguard > 0.4
+			fascism > 0.4
 			is_subject = no
 			NOT = { has_government = democratic }
 		}
@@ -1727,11 +1727,11 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			set_politics = {
-				ruling_party = national_vanguard
+				ruling_party = fascism
 				elections_allowed = no
 			}
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.15
 			}
 			GER = {
@@ -1832,7 +1832,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		bypass = {
@@ -2038,14 +2038,14 @@ focus_tree = {
 			OR = {
 				LIT = {
 					NOT = {
-						has_government = national_vanguard
+						has_government = fascism
 						exists = no
 						is_subject = yes
 					}
 				}
 				EST = {
 					NOT = {
-						has_government = national_vanguard
+						has_government = fascism
 						exists = no
 						is_subject = yes
 					}
@@ -2056,14 +2056,14 @@ focus_tree = {
 		bypass = {
 			LIT = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					exists = no
 					is_subject = yes
 				}
 			}
 			EST = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					exists = no
 					is_subject = yes
 				}
@@ -2079,7 +2079,7 @@ focus_tree = {
 			if = {
 				limit = {
 					EST = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 				EST = { country_event = LAT_events.3 }
@@ -2087,7 +2087,7 @@ focus_tree = {
 			if = {
 				limit = {
 					LIT = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 				LIT = { country_event = LAT_events.3 }
@@ -2118,14 +2118,14 @@ focus_tree = {
 			OR = {
 				LIT = {
 					OR = {
-						has_government = national_vanguard
+						has_government = fascism
 						exists = no
 						is_subject = yes
 					}
 				}
 				EST = {
 					OR = {
-						has_government = national_vanguard
+						has_government = fascism
 						exists = no
 						is_subject = yes
 					}
@@ -2162,7 +2162,7 @@ focus_tree = {
 					if = {
 						limit = {
 							EST = {
-								has_government = national_vanguard
+								has_government = fascism
 							}
 						}
 						EST = {
@@ -2181,7 +2181,7 @@ focus_tree = {
 					if = {
 						limit = {
 							LIT = {
-								has_government = national_vanguard
+								has_government = fascism
 							}
 						}
 						LIT = {
@@ -2202,7 +2202,7 @@ focus_tree = {
 					if = {
 						limit = {
 							EST = {
-								has_government = national_vanguard
+								has_government = fascism
 							}
 						}
 						effect_tooltip = {
@@ -2212,7 +2212,7 @@ focus_tree = {
 					if = {
 						limit = {
 							LIT = {
-								has_government = national_vanguard
+								has_government = fascism
 							}
 						}
 						effect_tooltip = {
@@ -2489,7 +2489,7 @@ focus_tree = {
 					controls_state = 812
 					controls_state = 813
 				}
-				EST = { has_government = national_vanguard }
+				EST = { has_government = fascism }
 				EST = { is_subject_of = ROOT }
 			}
 			# Lithuania
@@ -2501,7 +2501,7 @@ focus_tree = {
 					controls_state = 814
 					controls_state = 815
 				}
-				LIT = { has_government = national_vanguard }
+				LIT = { has_government = fascism }
 				LIT = { is_subject_of = ROOT }
 			}
 		}
@@ -2633,7 +2633,7 @@ focus_tree = {
 
 		available = {
 			is_major = yes
-			has_government = national_vanguard
+			has_government = fascism
 			is_subject = no
 		}
 

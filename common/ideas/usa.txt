@@ -1205,11 +1205,11 @@ ideas = {
 			}			
 		}
 			# idea for the protect Amercians focus - USA fascist
-		american_influence_defence_national_vanguard = {
+		american_influence_defence_fascism = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 
 			removal_cost = -1
@@ -1218,24 +1218,24 @@ ideas = {
 				drift_defence_factor = 0.5
 			}
 		}
-		american_influence_drift_national_vanguard = {
+		american_influence_drift_fascism = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 
 			removal_cost = -1
 			picture = generic_fascism_drift_bonus
 			modifier = {
-				national_vanguard_drift = 0.05
+				fascism_drift = 0.05
 			}
 		} 
-		american_protection_defence_national_vanguard = {
+		american_protection_defence_fascism = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 
 			removal_cost = -1
@@ -1244,17 +1244,17 @@ ideas = {
 				drift_defence_factor = 0.5
 			}
 		}
-		american_protection_drift_national_vanguard = {
+		american_protection_drift_fascism = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 
 			removal_cost = -1
 			picture = generic_intel_bonus
 			modifier = {
-				national_vanguard_drift = 0.05
+				fascism_drift = 0.05
 			}			
 		}
 		USA_world_police = {

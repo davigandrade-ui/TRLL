@@ -17,7 +17,7 @@ country_event = {
 		ai_chance = {
 			base = 10
 		}
-		add_popularity = { ideology = national_vanguard popularity = 0.01 }
+		add_popularity = { ideology = fascism popularity = 0.01 }
 		clr_country_flag = BRA_gaining_support_in_progress
 	}	
 }
@@ -34,7 +34,7 @@ country_event = {
 		ai_chance = {
 			base = 10
 		}
-		add_popularity = { ideology = national_vanguard popularity = 0.03 }
+		add_popularity = { ideology = fascism popularity = 0.03 }
 		clr_country_flag = BRA_gaining_support_in_progress
 	}	
 }
@@ -51,7 +51,7 @@ country_event = {
 		ai_chance = {
 			base = 10
 		}
-		add_popularity = { ideology = national_vanguard popularity = 0.05 }
+		add_popularity = { ideology = fascism popularity = 0.05 }
 		clr_country_flag = BRA_gaining_support_in_progress
 	}	
 }
@@ -79,7 +79,7 @@ country_event = {
 			set_popularities = {
 				neutrality = 60
 				democratic = 10
-				national_vanguard = 10
+				fascism = 10
 				communism = 20
 			}
 			BRA = {
@@ -337,7 +337,7 @@ country_event = {
 				factor = 0
 				NOT = {
 					OR = {
-						has_government = national_vanguard
+						has_government = fascism
 						has_government = neutrality
 					}
 				}
@@ -1116,7 +1116,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = communism
 				}
 			}
@@ -1162,7 +1162,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = communism
 				}
 			}
@@ -2326,7 +2326,7 @@ country_event = { #Brazil demands FROM releases territories in SA
 			modifier = { #fascist countries wouldn't do this
 				factor = 0.1
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					#has_government = neutrality
 				}
 			}
@@ -3278,7 +3278,7 @@ country_event = {
 		    name = BRA_monarchy_party
 		}
 		set_party_name = { 
-		    ideology = national_vanguard
+		    ideology = fascism
 		    long_name = BRA_antimonarchist_coalition_long
 		    name = BRA_antimonarchist_coalition
 		}
@@ -3289,7 +3289,7 @@ country_event = {
 			add_country_leader_role = {
 				country_leader = {
 					expire = "1954.8.24"
-					ideology = national_vanguard
+					ideology = fascism
 					traits = {
 						BRA_reluctant_integralist
 					}

@@ -801,21 +801,21 @@ YUG_crush_ustasa = {
 						release = PREV
 					}
 					set_politics = {
-						ruling_party = national_vanguard
+						ruling_party = fascism
 						last_election = "1935.6.9"
 						election_frequency = 12
 						elections_allowed = no
 					}
 					set_popularities = {
 						democratic = 15
-						national_vanguard = 75
+						fascism = 75
 						communism = 10
 					}
 					add_country_leader_role = {
 						character = CRO_nikola_mandic
 						country_leader = {
 							expire = "1965.1.1"
-							ideology = national_vanguard
+							ideology = fascism_ideology
 							traits = {
 							}
 						}
@@ -1209,7 +1209,7 @@ YUG_progress_crushing_decisions = {
 
 		remove_effect = {
 			add_popularity = {
-			    ideology = national_vanguard
+			    ideology = fascism
 			    popularity = 0.05
 			}
 			add_days_mission_timeout = {
@@ -1268,7 +1268,7 @@ YUG_progress_crushing_decisions = {
 
 		remove_effect = {
 			add_popularity = {
-			    ideology = national_vanguard
+			    ideology = fascism
 			    popularity = 0.05
 			}
 			add_days_mission_timeout = {
@@ -1328,7 +1328,7 @@ YUG_progress_crushing_decisions = {
 
 		remove_effect = {
 			add_popularity = {
-			    ideology = national_vanguard
+			    ideology = fascism
 			    popularity = 0.05
 			}
 			add_days_mission_timeout = {
@@ -1387,7 +1387,7 @@ YUG_progress_crushing_decisions = {
 
 		remove_effect = {
 			add_popularity = {
-			    ideology = national_vanguard
+			    ideology = fascism
 			    popularity = 0.05
 			}
 			division_template = {

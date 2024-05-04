@@ -28,7 +28,7 @@
 #		modifier = {
 #			add = 5
 #			# if the mapped tag has national_vanguard give it a higher score
-#			has_government = national_vanguard
+#			has_government = fascism
 #		}
 #	}
 #
@@ -38,7 +38,7 @@
 #	or = {
 #		#only accept targets that is ally with us or is fascist
 #		is_in_faction_with = PREV
-#		has_government = national_vanguard
+#		has_government = fascism
 #	}
 #	# trigger 2
 #	# trigger 3
@@ -163,7 +163,7 @@ SB4 = {
 
 FNO = { # Alias for Fascist Norway 
 	original_tag = NOR 
-	has_government = national_vanguard
+	has_government = fascism
 }
 
 FGR = {
@@ -180,7 +180,7 @@ FGR = {
 		}
 		modifier = {
 			add = 5
-			has_government = national_vanguard	
+			has_government = fascism	
 			exists = yes 
 		}
 	}

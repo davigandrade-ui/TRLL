@@ -18,10 +18,10 @@ foreign_politics = {
 			is_in_faction = no
 			OR = {
 				AND = {
-					has_government = national_vanguard
+					has_government = fascism
 					MEX = {
 						is_in_faction = yes
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 				AND = {
@@ -618,7 +618,7 @@ MEX_category_military_issues = {
 			NOT = { has_completed_focus = MEX_focus_support_spains_loyalists }
 
 			FROM = {
-				has_government = national_vanguard
+				has_government = fascism
 				has_civil_war = yes
 				NOT = { has_war_with = ROOT }
 			}
@@ -638,7 +638,7 @@ MEX_category_military_issues = {
 		target_trigger = {
 			FROM = {
 				original_tag = SPR
-				has_government = national_vanguard
+				has_government = fascism
 				has_civil_war = yes
 			}
 		}

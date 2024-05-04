@@ -187,7 +187,7 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 75
-	national_vanguard = 20
+	fascism = 20
 	communism = 5
 }
 

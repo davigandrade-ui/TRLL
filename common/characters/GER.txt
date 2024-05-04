@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=national_vanguard
+			ideology = fascism_ideology
 			desc = GER_goring_description
 			traits={ dictator aviation_hero anti_democrat nationalist_symbol }
 			expire="1965.1.1.1"
@@ -1147,7 +1147,7 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			traits = {
 				army_chief_drill_2
@@ -1238,7 +1238,7 @@ characters={
 			}
 			available = {
 				or = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_country_flag = GER_reinstated_nazi_leadership
 				}
 			}
@@ -1622,7 +1622,7 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_government = national_vanguard 
+				has_government = fascism 
 				if = {
 					limit = {
 						has_dlc = "Man the Guns"
@@ -1637,7 +1637,7 @@ characters={
 			}
 			do_effect = {
 				NOT = {
-					has_government = national_vanguard 
+					has_government = fascism 
 				}
 			}
 			ai_will_do = {
@@ -1664,7 +1664,7 @@ characters={
 					has_country_flag = flight_of_hess 
 				}
 				OR = {
-					has_government = national_vanguard 
+					has_government = fascism 
 					has_country_flag = GER_reinstated_nazi_leadership 
 				}
 			}
@@ -1686,7 +1686,7 @@ characters={
 			}
 		}
 		allowed_civil_war = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		advisor={
 			slot = political_advisor
@@ -1696,7 +1696,7 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = national_vanguard 
+					has_government = fascism 
 					has_country_flag = GER_reinstated_nazi_leadership 
 				}
 			}
@@ -1724,7 +1724,7 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = national_vanguard 
+					has_government = fascism 
 					has_country_flag = GER_reinstated_nazi_leadership 
 				}
 			}

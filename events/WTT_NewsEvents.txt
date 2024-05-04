@@ -23,14 +23,14 @@ news_event = {
 		name = wtt_news.1.b
 		trigger = { 
 			NOT = { original_tag = GER }
-			has_government = national_vanguard
+			has_government = fascism
 		}
 	}
 	option = {
 		name = wtt_news.1.c
 		trigger = { 
 			NOT = { original_tag = GER }
-			NOT = { has_government = national_vanguard }
+			NOT = { has_government = fascism }
 		}
 	}
 }
@@ -1027,7 +1027,7 @@ news_event = {
 				original_tag = JAP
 				AND = {
 					original_tag = MAN
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 		}
@@ -1067,7 +1067,7 @@ news_event = {
 				original_tag = RAJ
 				AND = {
 					original_tag = MAN
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 		}
@@ -2652,7 +2652,7 @@ news_event = {
 				original_tag = WGR
 				AND = {
 					original_tag = ENG
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			NOT = { has_war_with = FROM }
@@ -2671,7 +2671,7 @@ news_event = {
 			NOT = { 
 				AND = {
 					original_tag = ENG
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			NOT = { has_war_with = FROM }

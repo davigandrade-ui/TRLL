@@ -1288,7 +1288,7 @@ country_event = {
 		}
 		add_ruling_to_fas = yes
 		set_politics = {
-			ruling_party = national_vanguard
+			ruling_party = fascism
 			elections_allowed = no
 			long_name = bermontian_party
 			name = bermontian_party 
@@ -1886,10 +1886,10 @@ country_event = {
 			hidden_effect = {
 				load_oob = "DON_cossack_host"
 				set_politics = {
-					ruling_party = national_vanguard
+					ruling_party = fascism
 				}
 				add_popularity = {
-					ideology = national_vanguard
+					ideology = fascism
 					popularity = 0.5
 				}
 			}
@@ -1998,10 +1998,10 @@ country_event = {
 			hidden_effect = {
 				load_oob = "KUB_cossack_host"
 				set_politics = {
-					ruling_party = national_vanguard
+					ruling_party = fascism
 				}
 				add_popularity = {
-					ideology = national_vanguard
+					ideology = fascism
 					popularity = 0.5
 				}
 			}
@@ -3926,14 +3926,14 @@ country_event = {
 			}
 			modifier = {
 				factor = 2
-				national_vanguard > 0.4
+				fascism > 0.4
 			}
 		}
 		FROM = {
 			add_to_faction = PREV
 		}
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = 0.35
 		}
 		if = {
@@ -3943,13 +3943,13 @@ country_event = {
 				}
 			}
 			set_politics = {
-				ruling_party = national_vanguard
+				ruling_party = fascism
 				elections_allowed = yes
 			}
 		}
 		else = {
 			set_politics = {
-				ruling_party = national_vanguard
+				ruling_party = fascism
 				elections_allowed = no
 			}
 		}
@@ -3995,7 +3995,7 @@ country_event = {
 			
 			modifier = {
 				factor = 2
-				national_vanguard < 0.2
+				fascism < 0.2
 			}
 			modifier = {
 				factor = 2
@@ -4093,7 +4093,7 @@ country_event = {
 		}
 		add_stability = -0.1
 		set_politics = {
-			ruling_party = national_vanguard
+			ruling_party = fascism
 			elections_allowed = no
 		}
 	}
@@ -4115,7 +4115,7 @@ country_event = {
 			factor = 10
 		}
 		set_politics = {
-			ruling_party = national_vanguard
+			ruling_party = fascism
 			elections_allowed = yes
 			election_frequency = 60
 			long_name = POL_natdem_party_long

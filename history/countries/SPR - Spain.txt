@@ -61,7 +61,7 @@ if = {
 
 	set_popularities = {
 		democratic = 47
-		national_vanguard = 46
+		fascism = 46
 		communism = 7
 	}
 }
@@ -93,7 +93,7 @@ if = {
 	}
 	set_popularities = {
 		democratic = 41
-		national_vanguard = 37
+		fascism = 37
 		communism = 7
 		neutrality = 15
 	}

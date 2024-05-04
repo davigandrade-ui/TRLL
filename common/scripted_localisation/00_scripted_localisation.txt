@@ -51,7 +51,7 @@ defined_text = { # Country
 	text = {
 		trigger = {
 			original_tag = GER
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		localization_key = GER_HERMANN_GORING_WERKE_NAME_FASCIST
 	}
@@ -369,7 +369,7 @@ defined_text = {
 			original_tag = ENG
 			OR = {
 				has_government = democratic
-				has_government = national_vanguard
+				has_government = fascism
 				has_government = neutrality
 			}
 		}
@@ -391,7 +391,7 @@ defined_text = {
 			original_tag = ENG
 			OR = {
 				has_government = democratic
-				has_government = national_vanguard
+				has_government = fascism
 				has_government = neutrality
 			}
 		}
@@ -413,7 +413,7 @@ defined_text = {
 			original_tag = ENG
 			OR = {
 				has_government = democratic
-				has_government = national_vanguard
+				has_government = fascism
 				has_government = neutrality
 			}
 		}
@@ -435,7 +435,7 @@ defined_text = {
 			original_tag = ENG
 			OR = {
 				has_government = democratic
-				has_government = national_vanguard
+				has_government = fascism
 				has_government = neutrality
 			}
 		}
@@ -457,7 +457,7 @@ defined_text = {
 			original_tag = ENG
 			OR = {
 				has_government = democratic
-				has_government = national_vanguard
+				has_government = fascism
 				has_government = neutrality
 			}
 		}
@@ -497,7 +497,7 @@ defined_text = {
 			original_tag = ENG
 			OR = {
 				has_government = democratic
-				has_government = national_vanguard
+				has_government = fascism
 				has_government = neutrality
 			}
 		}
@@ -519,7 +519,7 @@ defined_text = {
 			original_tag = ENG
 			OR = {
 				has_government = democratic
-				has_government = national_vanguard
+				has_government = fascism
 				has_government = neutrality
 			}
 		}
@@ -541,7 +541,7 @@ defined_text = {
 			original_tag = ENG
 			OR = {
 				has_government = democratic
-				has_government = national_vanguard
+				has_government = fascism
 				has_government = neutrality
 			}
 		}
@@ -563,7 +563,7 @@ defined_text = {
 			original_tag = ENG
 			OR = {
 				has_government = democratic
-				has_government = national_vanguard
+				has_government = fascism
 				has_government = neutrality
 			}
 		}
@@ -585,7 +585,7 @@ defined_text = {
 			original_tag = ENG
 			OR = {
 				has_government = democratic
-				has_government = national_vanguard
+				has_government = fascism
 				has_government = neutrality
 			}
 		}
@@ -605,14 +605,14 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = HOL
-			GER = { has_government = national_vanguard }
+			GER = { has_government = fascism }
 		}
 		localization_key = HOL_WILHELMINISM_national_vanguard
 	}
 	text = {
 		trigger = {
 			original_tag = HOL
-			NOT = { GER = { has_government = national_vanguard } }
+			NOT = { GER = { has_government = fascism } }
 		}
 		localization_key = HOL_WILHELMINISM_NEUTRALITY
 	}
@@ -1282,7 +1282,7 @@ defined_text = {
 	text = {
 		trigger = {
 			SOV = {
-				NOT = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
 			}
 		}
 		localization_key = SOV_USSR_ALLIANCE_DESC_COMMUNIST
@@ -1290,7 +1290,7 @@ defined_text = {
 	text = {
 		trigger = {
 			SOV = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 		localization_key = SOV_USSR_ALLIANCE_DESC_EXILES
@@ -1310,7 +1310,7 @@ defined_text = {
 	text = {
 		trigger = {
 			SOV = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 		localization_key = SOV_BULWARK_NAME_national_vanguard
@@ -1341,7 +1341,7 @@ defined_text = {
 	text = {
 		trigger = {
 			SOV = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 		localization_key = SOV_BULWARK_BOLSHEVISM_DESC_national_vanguard
@@ -1372,7 +1372,7 @@ defined_text = {
 	text = {
 		trigger = {
 			SOV = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 		localization_key = SOV_BULWARK_COMMUNISM_DESC_national_vanguard
@@ -1403,7 +1403,7 @@ defined_text = {
 	text = {
 		trigger = {
 			SOV = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 		localization_key = SOV_DANZIG_GUARANTEES_BOLSHEVIKS_DESC_national_vanguard

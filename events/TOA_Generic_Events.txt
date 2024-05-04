@@ -242,7 +242,7 @@ country_event = {
 		drop_cosmetic_tag = yes
 
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = 0.08
 		}
 
@@ -687,7 +687,7 @@ country_event = {
 			}
 
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.1
 			}
 
@@ -1483,7 +1483,7 @@ news_event = {
 		name = south_american_news.50.a
 		trigger = {
 			OR = {
-				has_government = national_vanguard
+				has_government = fascism
 				has_government = neutrality
 			}
 		}
@@ -1518,7 +1518,7 @@ news_event = {
 		name = south_american_news.51.a
 		trigger = {
 			OR = {
-				has_government = national_vanguard
+				has_government = fascism
 				has_government = neutrality
 			}
 		}
@@ -1603,7 +1603,7 @@ country_event = {
 		ai_chance = {
 			base = 1
 			modifier = {
-				has_government = national_vanguard 
+				has_government = fascism 
 				factor = 0
 			}
 		}
@@ -1612,7 +1612,7 @@ country_event = {
 		name = south_american_events.61.b
 
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = 0.05
 		}
 
@@ -1641,7 +1641,7 @@ country_event = {
 		ai_chance = {
 			base = 0
 			modifier = {
-				has_government = national_vanguard 
+				has_government = fascism 
 				add = 1
 			}
 		}
@@ -1754,7 +1754,7 @@ country_event = {
 		}
 
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = 0.1
 		}
 
@@ -1929,7 +1929,7 @@ country_event = {
 		}
 
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = 0.05
 		}
 
@@ -2659,7 +2659,7 @@ country_event = { #Monroe Doctrine Triggered
 				factor = 10
 				FROM = {
 					OR = {
-						has_government = national_vanguard
+						has_government = fascism
 						has_government = communism
 					}
 				}
@@ -3074,7 +3074,7 @@ country_event = {
 #		name = south_american_news.52.b
 #		trigger = {
 #			OR = {
-#				has_government = national_vanguard
+#				has_government = fascism
 #				has_government = neutrality
 #			}
 #		}

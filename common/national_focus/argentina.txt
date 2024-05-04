@@ -188,7 +188,7 @@ focus_tree = {
 		ai_will_do = {
 			modifier = {
 				NOT = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				factor = 0 
 			}
@@ -490,7 +490,7 @@ focus_tree = {
 
 			add_popularity = {
 					popularity = 0.15
-					ideology = national_vanguard  
+					ideology = fascism  
 				}
 
 			add_popularity = {
@@ -859,7 +859,7 @@ focus_tree = {
 
 		completion_reward = { 
 			custom_effect_tooltip = ARG_modify_growing_nationalism_ns_intro
-			add_to_variable = { ARG_growing_nationalism_national_vanguard_drift = 0.1 tooltip = national_vanguard_drift_factor_tt }
+			add_to_variable = { ARG_growing_nationalism_fascism_drift = 0.1 tooltip = fascism_drift_factor_tt }
 			add_to_variable = { ARG_growing_nationalism_recruitable_population_factor = 0.1 tooltip = recruitable_population_factor_tt}
 			add_to_variable = { ARG_growing_nationalism_war_support_factor = 0.05 tooltip = war_support_factor_tt}
 			add_to_variable = { ARG_growing_nationalism_democratic_drift = -0.05 tooltip = democratic_drift_factor_tt }
@@ -886,7 +886,7 @@ focus_tree = {
 		completion_reward = { 
 			add_political_power = 50
 			add_popularity = {
-				ideology = national_vanguard 
+				ideology = fascism 
 				popularity = 0.1
 			}
 			278 = {
@@ -1055,7 +1055,7 @@ focus_tree = {
 						is_on_continent = south_america
 					}
 					NOT = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 				ARG = {
@@ -1309,7 +1309,7 @@ focus_tree = {
 					original_tag = SPR
 				NOT = {
 					OR = {
-						has_government = national_vanguard
+						has_government = fascism
 						has_government = neutrality
 					}
 				}
@@ -1343,7 +1343,7 @@ focus_tree = {
 		cost = 10
 		available = {
 			GER = {
-				has_government = national_vanguard
+				has_government = fascism
 				exists = yes
 			}
 		}
@@ -1405,7 +1405,7 @@ focus_tree = {
 		cost = 10
 		available = {
 			ITA = {
-				has_government = national_vanguard
+				has_government = fascism
 				exists = yes
 			}
 		}
@@ -1456,7 +1456,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ARG_union_nacional_fascista }
 		cost = 10
 		available = {
-			national_vanguard > 0.6
+			fascism > 0.6
 		}
 
 		ai_will_do = {
@@ -1477,7 +1477,7 @@ focus_tree = {
   			}
 
 			set_party_name = {
-				ideology = national_vanguard
+				ideology = fascism
 				long_name = ARG_national_vanguard_party_long
 				name = ARG_national_vanguard_party
 			}
@@ -1489,7 +1489,7 @@ focus_tree = {
 			hidden_effect = {
 
 			set_politics = {
-				ruling_party = national_vanguard
+				ruling_party = fascism
 				last_election = "1934.3.26" 
 				election_frequency = 48
 				elections_allowed = no
@@ -1498,7 +1498,7 @@ focus_tree = {
 				ARG_pedro_pablo_ramirez = { 
 					add_country_leader_role = {
 						country_leader = {
-							ideology = national_vanguard
+							ideology = fascism
 							expire = "1965.1.1.1"
 							traits = {
 								ARG_moderate_dictator
@@ -1533,7 +1533,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ARG_guardia_nacional }
 		cost = 10
 		available = {
-			national_vanguard > 0.6
+			fascism > 0.6
 		}
 
 		ai_will_do = {
@@ -1559,7 +1559,7 @@ focus_tree = {
 			hidden_effect = {
 
 			set_politics = {
-				ruling_party = national_vanguard
+				ruling_party = fascism
 				last_election = "1934.3.26"
 				election_frequency = 48
 				elections_allowed = no
@@ -1721,7 +1721,7 @@ focus_tree = {
 		available = {
 			GER = {
 				exists = yes
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 
@@ -1734,7 +1734,7 @@ focus_tree = {
 				GER = {
 				exists = no
 				NOT = {
-					has_government = national_vanguard
+					has_government = fascism
 					}
 				}
 			is_in_faction = yes
@@ -2853,7 +2853,7 @@ focus_tree = {
 			}
 
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = -0.05
 			}
 
@@ -3905,7 +3905,7 @@ focus_tree = {
 				capital_scope = {
 					is_on_continent = south_america
 				}
-				has_government = national_vanguard
+				has_government = fascism
 				NOT = {
 					OR = {
 						original_tag = ELS
@@ -3932,7 +3932,7 @@ focus_tree = {
 					capital_scope = {
 						is_on_continent = south_america
 					}
-					has_government = national_vanguard
+					has_government = fascism
 					NOT = {
 						OR = {
 							original_tag = ELS
@@ -4342,7 +4342,7 @@ focus_tree = {
 			}
 
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = -0.05
 			}
 
@@ -5251,7 +5251,7 @@ focus_tree = {
 #			USA = {
 #				OR = {
 #					has_government = democratic
-#					has_government = national_vanguard
+#					has_government = fascism
 #					has_government = neutrality
 #				}
 #				is_subject = no

@@ -432,7 +432,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	national_vanguard = 100
+	fascism = 100
 }
 
 recruit_character = JAP_tetsu_katayama

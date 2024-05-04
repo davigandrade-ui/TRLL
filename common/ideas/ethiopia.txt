@@ -414,7 +414,7 @@ ideas = {
 			available= {
 				is_subject_of = ITA 
 				OR = {
-					ITA = { has_government = national_vanguard }
+					ITA = { has_government = fascism }
 					ITA = { has_government = neutrality }
 				}
 			}
@@ -437,7 +437,7 @@ ideas = {
 			available= {
 				is_subject_of = ITA 
 				OR = {
-					ITA = { has_government = national_vanguard }
+					ITA = { has_government = fascism }
 					ITA = { has_government = neutrality }
 				}
 			}
@@ -459,7 +459,7 @@ ideas = {
 			available= {
 				is_subject_of = ITA 
 				OR = {
-					ITA = { has_government = national_vanguard }
+					ITA = { has_government = fascism }
 					ITA = { has_government = neutrality }
 				}
 			}
@@ -482,7 +482,7 @@ ideas = {
 			available= {
 				is_subject_of = ITA 
 				OR = {
-					ITA = { has_government = national_vanguard }
+					ITA = { has_government = fascism }
 					ITA = { has_government = neutrality }
 				}
 			}
@@ -864,7 +864,7 @@ ideas = {
 
 			allowed = {
 				original_tag = ETH
-				has_government = national_vanguard
+				has_government = fascism
 			}
 
 			allowed_civil_war = {

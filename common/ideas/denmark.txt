@@ -690,7 +690,7 @@ ideas = {
 			}
 		
 			targeted_modifier = { 
-				national_vanguard_drift = 0.15
+				fascism_drift = 0.15
 				drift_defence_factor = -0.3
 			}
 		}
@@ -710,7 +710,7 @@ ideas = {
 			}
 
 			modifier = { 
-				national_vanguard_drift = 0.01
+				fascism_drift = 0.01
 				communism_drift = -0.01
 			}
 		}
@@ -731,7 +731,7 @@ ideas = {
 		
 			modifier = { 
 				communism_drift = 0.01
-				national_vanguard_drift = -0.01
+				fascism_drift = -0.01
 			}
 		}
 

@@ -872,7 +872,7 @@ CHL_nacista_insurgency_decisions = {
 		activation = {
 			original_tag = CHL
 			NOT = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			NOT = { 
 				OR = {
@@ -891,7 +891,7 @@ CHL_nacista_insurgency_decisions = {
 		visible = {
 			tag = CHL
 			NOT = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			NOT = { 
 				OR = {
@@ -956,7 +956,7 @@ CHL_nacista_insurgency_decisions = {
 		visible = {
 			tag = CHL
 			NOT = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			NOT = { 
 				OR = {
@@ -980,7 +980,7 @@ CHL_nacista_insurgency_decisions = {
 		timeout_effect = {
 			
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.1
 			}	
 
@@ -1009,7 +1009,7 @@ CHL_nacista_insurgency_decisions = {
 		visible = {
 			tag = CHL
 			NOT = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			NOT = { 
 				OR = {
@@ -1063,7 +1063,7 @@ CHL_nacista_insurgency_decisions = {
 		visible = {
 			tag = CHL
 			NOT = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			NOT = { 
 				OR = {
@@ -1087,7 +1087,7 @@ CHL_nacista_insurgency_decisions = {
 		timeout_effect = {
 			
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.1
 			}
 
@@ -1123,7 +1123,7 @@ CHL_nacista_insurgency_decisions = {
 		visible = {
 			tag = CHL
 			NOT = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			NOT = { 
 				OR = {
@@ -1153,7 +1153,7 @@ CHL_nacista_insurgency_decisions = {
 				add_political_power = -25
 
 				add_popularity = {
-					ideology = national_vanguard
+					ideology = fascism
 					popularity = 0.02
 				}	
 			}
@@ -1170,7 +1170,7 @@ CHL_nacista_insurgency_decisions = {
 				add_political_power = -75
 
 				add_popularity = {
-					ideology = national_vanguard
+					ideology = fascism
 					popularity = 0.05
 				}	
 			}
@@ -1200,7 +1200,7 @@ CHL_nacista_insurgency_decisions = {
 		visible = {
 			tag = CHL
 			NOT = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			NOT = { 
 				OR = {
@@ -1224,7 +1224,7 @@ CHL_nacista_insurgency_decisions = {
 		timeout_effect = {
 			
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.1
 			}	
 
@@ -1255,7 +1255,7 @@ CHL_nacista_insurgency_decisions = {
 		visible = {
 			tag = CHL
 			NOT = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			NOT = { 
 				OR = {
@@ -1281,7 +1281,7 @@ CHL_nacista_insurgency_decisions = {
 			add_political_power = -50
 
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.05
 			}
 
@@ -1319,7 +1319,7 @@ CHL_nacista_insurgency_decisions = {
 		}
 
 		available = {
-			NOT = { has_government = national_vanguard }
+			NOT = { has_government = fascism }
 			has_completed_focus = CHL_suppress_the_nacistas
 			NOT = { 
 				OR = {
@@ -1333,7 +1333,7 @@ CHL_nacista_insurgency_decisions = {
 		visible = { 
 			tag = CHL
 			has_completed_focus = CHL_suppress_the_nacistas
-			NOT = { has_government = national_vanguard }
+			NOT = { has_government = fascism }
 			NOT = { 
 				OR = {
 					has_country_flag = CHL_fascist_and_communist_joint_civil_war_started
@@ -1408,7 +1408,7 @@ CHL_nacista_insurgency_decisions = {
 		}
 
 		available = {
-			NOT = { has_government = national_vanguard }
+			NOT = { has_government = fascism }
 			NOT = { 
 				OR = {
 					has_country_flag = CHL_fascist_and_communist_joint_civil_war_started
@@ -1420,7 +1420,7 @@ CHL_nacista_insurgency_decisions = {
 
 		visible = { 
 			tag = CHL
-			NOT = { has_government = national_vanguard }
+			NOT = { has_government = fascism }
 			NOT = { 
 				OR = {
 					has_country_flag = CHL_fascist_and_communist_joint_civil_war_started
@@ -1450,7 +1450,7 @@ CHL_nacista_insurgency_decisions = {
 		remove_effect = {
 			
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = -0.1
 			}	
 
@@ -1486,7 +1486,7 @@ CHL_nacista_insurgency_decisions = {
 		}
 
 		available = {
-			NOT = { has_government = national_vanguard }
+			NOT = { has_government = fascism }
 			NOT = { has_completed_focus = CHL_address_the_mapuche_conflict }
 			NOT = { 
 				OR = {
@@ -1500,7 +1500,7 @@ CHL_nacista_insurgency_decisions = {
 
 		visible = { 
 			tag = CHL
-			NOT = { has_government = national_vanguard }
+			NOT = { has_government = fascism }
 			NOT = { 
 				OR = {	
 					has_country_flag = CHL_fascist_and_communist_joint_civil_war_started
@@ -1594,7 +1594,7 @@ CHL_nacista_insurgency_decisions = {
 		}
 
 		available = {
-			NOT = { has_government = national_vanguard }
+			NOT = { has_government = fascism }
 			NOT = { 
 				OR = {
 					has_country_flag = CHL_fascist_and_communist_joint_civil_war_started
@@ -1606,7 +1606,7 @@ CHL_nacista_insurgency_decisions = {
 
 		visible = { 
 			tag = CHL
-			NOT = { has_government = national_vanguard }
+			NOT = { has_government = fascism }
 			NOT = { 
 				OR = {
 					has_country_flag = CHL_fascist_and_communist_joint_civil_war_started
@@ -1642,7 +1642,7 @@ CHL_nacista_insurgency_decisions = {
 			custom_effect_tooltip = CHL_skip_one_line_tt
 
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = -0.05
 			}	
 
@@ -1698,7 +1698,7 @@ CHL_nacista_insurgency_decisions = {
 		}
 
 		available = {
-			NOT = { has_government = national_vanguard }
+			NOT = { has_government = fascism }
 			NOT = { 
 				OR = {
 					has_country_flag = CHL_fascist_and_communist_joint_civil_war_started
@@ -1715,7 +1715,7 @@ CHL_nacista_insurgency_decisions = {
 
 		visible = { 
 			tag = CHL
-			NOT = { has_government = national_vanguard }
+			NOT = { has_government = fascism }
 			NOT = { 
 				OR = {
 					has_country_flag = CHL_fascist_and_communist_joint_civil_war_started
@@ -1789,7 +1789,7 @@ CHL_nacista_insurgency_decisions = {
 		}
 
 		available = {
-			NOT = { has_government = national_vanguard }
+			NOT = { has_government = fascism }
 			NOT = { 
 				OR = {
 					has_country_flag = CHL_fascist_and_communist_joint_civil_war_started
@@ -1810,7 +1810,7 @@ CHL_nacista_insurgency_decisions = {
 
 		visible = { 
 			tag = CHL
-			NOT = { has_government = national_vanguard }
+			NOT = { has_government = fascism }
 			NOT = { 
 				OR = {
 					has_country_flag = CHL_fascist_and_communist_joint_civil_war_started
@@ -1947,7 +1947,7 @@ political_actions = {
 			NOT = { 
 				OR = {
 					has_government = communism 
-					has_government = national_vanguard 
+					has_government = fascism 
 				}
 			}
 			NOT = { has_completed_focus = CHL_avenge_the_pacification_of_araucania }
@@ -1959,7 +1959,7 @@ political_actions = {
 			NOT = { 
 				OR = {
 					has_government = communism 
-					has_government = national_vanguard 
+					has_government = fascism 
 				}
 			}
 			NOT = { has_completed_focus = CHL_avenge_the_pacification_of_araucania }
@@ -2006,11 +2006,11 @@ political_actions = {
 		}
 
 		available = {
-			has_government = national_vanguard 
+			has_government = fascism 
 			GER = {
 				OR = {
 					NOT = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					is_in_faction_with = ROOT
 					has_subject = ROOT
@@ -2022,7 +2022,7 @@ political_actions = {
 
 		visible = { 
 			original_tag = CHL
-			has_government = national_vanguard 
+			has_government = fascism 
 			NOT = { has_country_flag = recalled_peter_hansen }
 		} 
 
@@ -2066,7 +2066,7 @@ political_actions = {
 			NOT = { 
 				OR = {
 					has_government = communism
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			NOT = { has_completed_focus = CHL_avenge_the_pacification_of_araucania }
@@ -2078,7 +2078,7 @@ political_actions = {
 			NOT = { 
 				OR = {
 					has_government = communism
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			NOT = { has_completed_focus = CHL_avenge_the_pacification_of_araucania }
@@ -2139,7 +2139,7 @@ CHL_nacista_decisions = {
 			tag = CHL
 			NOT = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_completed_focus = CHL_commence_the_counter_revolution
 				}
 			}
@@ -2189,7 +2189,7 @@ CHL_nacista_decisions = {
 			tag = CHL
 			NOT = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_completed_focus = CHL_commence_the_counter_revolution
 				}
 			}
@@ -2210,7 +2210,7 @@ CHL_nacista_decisions = {
 			add_political_power = -50
 
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = -0.1
 			}	
 
@@ -2240,7 +2240,7 @@ CHL_nacista_decisions = {
 			tag = CHL
 			NOT = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_completed_focus = CHL_commence_the_counter_revolution
 				}
 			}
@@ -2264,7 +2264,7 @@ CHL_nacista_decisions = {
 			add_manpower = -10000
 
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = -0.05
 			}	
 
@@ -2297,7 +2297,7 @@ CHL_nacista_decisions = {
 			tag = CHL
 			NOT = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_completed_focus = CHL_commence_the_counter_revolution
 				}
 			}
@@ -2344,7 +2344,7 @@ CHL_nacista_decisions = {
 			tag = CHL
 			NOT = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_completed_focus = CHL_commence_the_counter_revolution
 				}
 			}
@@ -2389,7 +2389,7 @@ CHL_nacista_decisions = {
 			tag = CHL
 			NOT = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_completed_focus = CHL_commence_the_counter_revolution
 				}
 			}
@@ -2410,7 +2410,7 @@ CHL_nacista_decisions = {
 						original_tag = PAR
 					}
 					NOT = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 				add_ideas = CHL_republican_guards_in_exile
@@ -2442,7 +2442,7 @@ CHL_nacista_decisions = {
 			tag = CHL
 			NOT = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_completed_focus = CHL_commence_the_counter_revolution
 				}
 			}
@@ -2941,7 +2941,7 @@ CHL_nacista_decisions = {
 		}
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		visible = { 
@@ -2978,7 +2978,7 @@ CHL_nacista_decisions = {
 			}
 			
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.1
 			}	
 
@@ -3005,7 +3005,7 @@ CHL_nacista_decisions = {
 		}
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		visible = { 
@@ -11036,12 +11036,12 @@ CHL_the_hispanic_revolutions_decisions = {
 
 				ELSE_IF = {
 					limit = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
 
 					start_civil_war = {
 						ideology = communism
-						ruling_party = national_vanguard
+						ruling_party = fascism
 						size = var:CHL_FROM_communist_support
 						ROOT = {
 							puppet = {

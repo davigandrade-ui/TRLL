@@ -340,7 +340,7 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 				}
 			}
@@ -411,7 +411,7 @@ ideas = {
 				conscription_factor = -0.1
 				stability_factor = -0.1
 				mobilization_laws_cost_factor = 0.25
-				national_vanguard_drift = 0.05
+				fascism_drift = 0.05
 			}
 		}
 
@@ -433,7 +433,7 @@ ideas = {
 				conscription_factor = -0.2
 				stability_factor = -0.15
 				mobilization_laws_cost_factor = 0.5
-				national_vanguard_drift = 0.1
+				fascism_drift = 0.1
 				land_doctrine_cost_factor = 0.25
 			}
 		}
@@ -456,7 +456,7 @@ ideas = {
 				conscription_factor = -0.1
 				stability_factor = -0.25
 				mobilization_laws_cost_factor = 0.25
-				national_vanguard_drift = 0.15
+				fascism_drift = 0.15
 				land_doctrine_cost_factor = -0.05
 			}
 		}
@@ -478,7 +478,7 @@ ideas = {
 			modifier = {
 				conscription_factor = 0.1
 				war_support_factor = 0.1
-				national_vanguard_drift = -0.1
+				fascism_drift = -0.1
 			}
 		}
 
@@ -499,7 +499,7 @@ ideas = {
 			modifier = {
 				conscription_factor = 0.05
 				stability_factor = 0.1
-				national_vanguard_drift = -0.1
+				fascism_drift = -0.1
 			}
 		}
 
@@ -551,7 +551,7 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 				}
 			}
@@ -560,7 +560,7 @@ ideas = {
 			
 			modifier = {
 				war_support_factor = 0.1
-				national_vanguard_drift = 0.1
+				fascism_drift = 0.1
 			}
 		}
 		LAT_state_romuva_idea_1 = {
@@ -572,7 +572,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 
 			removal_cost = -1
@@ -581,7 +581,7 @@ ideas = {
 				defence = 0.05
 				offence = 0.05
 				war_support_factor = 0.1
-				national_vanguard_drift = 0.15
+				fascism_drift = 0.15
 				political_power_factor = 0.1
 			}
 		}
@@ -594,7 +594,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 
 			removal_cost = -1
@@ -604,7 +604,7 @@ ideas = {
 				offence = 0.05
 				army_org_factor = 0.1
 				war_support_factor = 0.1
-				national_vanguard_drift = 0.15
+				fascism_drift = 0.15
 				political_power_factor = 0.1
 			}
 		}
@@ -617,7 +617,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 
 			removal_cost = -1
@@ -630,7 +630,7 @@ ideas = {
 				army_org_factor = 0.1
 				army_morale_factor = 0.1
 				war_support_factor = 0.1
-				national_vanguard_drift = 0.15
+				fascism_drift = 0.15
 				political_power_factor = 0.1
 			}
 		}
@@ -643,7 +643,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 
 			removal_cost = -1
@@ -651,7 +651,7 @@ ideas = {
 			modifier = {
 				army_core_defence_factor = 0.1
 				army_core_attack_factor = 0.1
-				national_vanguard_drift = 0.05
+				fascism_drift = 0.05
 			}
 		}
 	}

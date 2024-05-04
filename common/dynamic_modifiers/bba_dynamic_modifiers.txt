@@ -1261,7 +1261,7 @@ ITA_cooperatives_for_intensive_exploitation_dm = {
 				controller = {
 					OR = {
 						has_government = neutrality
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 			}

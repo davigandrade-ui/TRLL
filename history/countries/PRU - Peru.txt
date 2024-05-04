@@ -151,14 +151,14 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = national_vanguard
+	ruling_party = fascism
 	last_election = "1931.10.11"
 	election_frequency = 96
 	elections_allowed = yes
 }
 set_popularities = {
 	democratic = 49
-	national_vanguard = 51
+	fascism = 51
 }
 
 1939.1.1 = {

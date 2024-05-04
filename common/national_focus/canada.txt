@@ -580,7 +580,7 @@ focus_tree = {
 				add_ideas = CAN_defence_of_canada_regulations_communism
 			}
 			if = {
-				limit = { has_government = national_vanguard }
+				limit = { has_government = fascism }
 				add_ideas = CAN_defence_of_canada_regulations_fascism
 			}
 		}
@@ -2842,7 +2842,7 @@ focus_tree = {
 			modifier = {
 				OR = {
 					communism > 0.15
-					national_vanguard > 0.15
+					fascism > 0.15
 					}
 				factor = 2.5
 			}
@@ -3271,11 +3271,11 @@ focus_tree = {
 		ai_will_do = {
 			factor = 25
 			modifier = {
-				national_vanguard > 0.25
+				fascism > 0.25
 				factor = 2
 			}
 			modifier = {
-				national_vanguard > 0.35
+				fascism > 0.35
 				factor = 4
 			}
 		}
@@ -3318,7 +3318,7 @@ focus_tree = {
 
 		available = {
 			is_subject = no
-			has_government = national_vanguard
+			has_government = fascism
 			NOT = { has_country_flag = britain_enforced_our_loyalty }
 		}
 		
@@ -3359,9 +3359,9 @@ focus_tree = {
 		}
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			GER = { 
-				has_government = national_vanguard 
+				has_government = fascism 
 				is_subject = no
 			}
 
@@ -3504,10 +3504,10 @@ focus_tree = {
 		}
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			any_country = {
 				original_tag = MEX
-				has_government = national_vanguard
+				has_government = fascism
 				NOT = { has_war_with = ROOT }
 			}
 			NOT = { has_country_flag = britain_enforced_our_loyalty }
@@ -3526,7 +3526,7 @@ focus_tree = {
 			random_country = {
 				limit = {
 					original_tag = MEX
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				country_event = { id = tfv_canada.40 }
 			}
@@ -3566,7 +3566,7 @@ focus_tree = {
 
 		completion_reward = {
 			if = {
-				limit = { has_government = national_vanguard }
+				limit = { has_government = fascism }
 				set_rule = { can_create_factions = yes }
 				create_wargoal = {
 					type = annex_everything

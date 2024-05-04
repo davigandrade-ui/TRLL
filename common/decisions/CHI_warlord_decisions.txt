@@ -8,7 +8,7 @@
 
 CHI_seek_japanese_support = {
 
-	CHI_internal_party_support_national_vanguard = {
+	CHI_internal_party_support_fascism = {
 
 		icon = generic_political_discourse
 
@@ -18,7 +18,7 @@ CHI_seek_japanese_support = {
 
 		visible = {
 			has_completed_focus = CHI_seek_japanese_support
-			JAP = { has_government = national_vanguard }
+			JAP = { has_government = fascism }
 		}
 
 		fire_only_once = no
@@ -28,7 +28,7 @@ CHI_seek_japanese_support = {
 		cost = 35
 
 		modifier = {
-			national_vanguard_drift = 0.05
+			fascism_drift = 0.05
 			stability_weekly = -0.005
 			political_power_gain = -0.5
 		}
@@ -38,7 +38,7 @@ CHI_seek_japanese_support = {
 		}
 	}
 
-	CHI_aggresive_prosecution_of_opposition_national_vanguard = {
+	CHI_aggresive_prosecution_of_opposition_fascism = {
 
 		icon = generic_civil_support
 
@@ -49,7 +49,7 @@ CHI_seek_japanese_support = {
 
 		visible = {
 			has_completed_focus = CHI_seek_japanese_support
-			JAP = { has_government = national_vanguard }
+			JAP = { has_government = fascism }
 		}
 
 		fire_only_once = no
@@ -59,7 +59,7 @@ CHI_seek_japanese_support = {
 		cost = 0
 
 		modifier = {
-			national_vanguard_drift = 0.1
+			fascism_drift = 0.1
 			stability_weekly = -0.01
 		}
 
@@ -246,8 +246,8 @@ CHI_seek_japanese_support = {
 		available = {
 			is_subject = no
 			if = {
-				limit = { JAP = { has_government = national_vanguard } }
-				national_vanguard > 0.4
+				limit = { JAP = { has_government = fascism } }
+				fascism > 0.4
 			}
 			if = {
 				limit = { JAP = { has_government = democratic } }

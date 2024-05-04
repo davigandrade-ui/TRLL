@@ -127,7 +127,7 @@ MTG_naval_treaties = {
 		visible = {
 			has_naval_treaty_trigger = yes
 			OR = {
-				has_government = national_vanguard
+				has_government = fascism
 				has_government = communism
 			}
 		}
@@ -215,7 +215,7 @@ MTG_naval_treaties = {
 				has_idea = MTG_naval_treaty_adherent_reduced
 			}
 			OR = {
-				has_government = national_vanguard
+				has_government = fascism
 				has_government = communism
 			}
 		}

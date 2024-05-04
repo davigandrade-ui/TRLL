@@ -319,7 +319,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology=national_vanguard
+				ideology=fascism_ideology
 				traits = { fascist_militia_leader }
 				expire = "1965.1.1.1"
 				id = -1
@@ -356,7 +356,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology=national_vanguard
+				ideology=fascism_ideology
 				expire = "1965.1.1.1"
 				id = -1
 			}
@@ -1279,7 +1279,7 @@ characters = {
 				}
 				do_effect = {
 					NOT = {
-						has_government = national_vanguard 
+						has_government = fascism 
 					}
 				}
 				ai_will_do = {
@@ -1313,7 +1313,7 @@ characters = {
 				}
 				do_effect = {
 					NOT = {
-						has_government = national_vanguard 
+						has_government = fascism 
 					}
 				}
 				ai_will_do = {

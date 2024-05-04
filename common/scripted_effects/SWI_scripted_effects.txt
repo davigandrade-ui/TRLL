@@ -1844,7 +1844,7 @@ SWI_find_fascist_germany = { #Checks if fascist Germany still exists, and if it 
 				SWI_is_fasc_ger = no
 				any_other_country = {
 					original_tag = GER 
-					NOT = { has_government = national_vanguard }
+					NOT = { has_government = fascism }
 				}
 			}
 			random_other_country = {
@@ -2698,10 +2698,10 @@ SWI_make_centralized_president = { #This takes the current president of the Conf
 		ROOT = { set_country_flag = SWI_elected_centralized_president }
 	}
 	else_if = {
-		limit = { ROOT = { has_government = national_vanguard } }
+		limit = { ROOT = { has_government = fascism } }
 		add_country_leader_role = {
 			country_leader = {
-				ideology = national_vanguard
+				ideology = fascism_ideology
 				expire = "1965.1.1.1"
 			}
 			promote_leader = yes 
@@ -2913,7 +2913,7 @@ SWI_find_biggest_fascist_neighbor = {
 			limit = {
 				GER = { 
 					exists = yes 
-					has_government = national_vanguard 
+					has_government = fascism 
 					has_capitulated = no
 					NOT = { has_war_with = SWI }
 				}
@@ -2925,7 +2925,7 @@ SWI_find_biggest_fascist_neighbor = {
 			limit = { 
 				ITA = {
 					exists = yes 
-					has_government = national_vanguard 
+					has_government = fascism 
 					has_capitulated = no
 					NOT = { has_war_with = SWI }
 				}
@@ -2937,7 +2937,7 @@ SWI_find_biggest_fascist_neighbor = {
 			limit = { 
 				FRA = {
 					exists = yes 
-					has_government = national_vanguard 
+					has_government = fascism 
 					has_capitulated = no
 					NOT = { has_war_with = SWI }
 				}
@@ -2950,7 +2950,7 @@ SWI_find_biggest_fascist_neighbor = {
 		limit = { 
 			ENG = {
 				exists = yes 
-				has_government = national_vanguard 
+				has_government = fascism 
 				has_capitulated = no
 				NOT = { has_war_with = SWI }
 			}
@@ -2962,13 +2962,13 @@ SWI_find_biggest_fascist_neighbor = {
 		limit = {
 			any_other_country = {
 				SWI_is_country_to_balance = yes
-				has_government = national_vanguard 
+				has_government = fascism 
 			}
 		}
 		every_other_country = {
 			limit = {
 				SWI_is_country_to_balance = yes
-				has_government = national_vanguard 
+				has_government = fascism 
 			}
 			SWI_check_fascist_factories = yes
 			#log = "Biggest fash around is [?SWI_biggest_fascist.GetName] (Any Fascist Country to balance)"
@@ -2993,14 +2993,14 @@ SWI_find_biggest_fascist_neighbor = {
 			any_other_country = {
 				NOT = { has_war_with = SWI }
 				is_neighbor_of = SWI
-				has_government = national_vanguard 
+				has_government = fascism 
 			}
 		}
 		every_other_country = {
 			limit = {
 				NOT = { has_war_with = SWI }
 				is_neighbor_of = SWI
-				has_government = national_vanguard 		
+				has_government = fascism 		
 			}
 			SWI_check_fascist_factories = yes
 			#log = "Biggest fash around is [?SWI_biggest_fascist.GetName] (Any Fascist Neighbor)"
@@ -3010,14 +3010,14 @@ SWI_find_biggest_fascist_neighbor = {
 		limit = {
 			any_other_country = {
 				NOT = { has_war_with = SWI }
-				has_government = national_vanguard 
+				has_government = fascism 
 				capital_scope = { is_on_continent = europe }
 			}	
 		}
 		every_other_country = {
 			limit = { 
 				NOT = { has_war_with = SWI }
-				has_government = national_vanguard 
+				has_government = fascism 
 				capital_scope = { is_on_continent = europe }
 			}
 			SWI_check_fascist_factories = yes 
@@ -3086,7 +3086,7 @@ SWI_turn_into_alpine = {
 	}
 	else_if = {
 		limit = {
-			has_government = national_vanguard 
+			has_government = fascism 
 		}
 		set_cosmetic_tag = SWI_alpine_fascism
 	}
@@ -3357,7 +3357,7 @@ SWI_on_action_puppet_selection = { # DO NOT USE OUTSIDE ON_ACTIONS Effect to sel
 			if = {
 				limit = { original_tag = GER }
 				if = {
-					limit = { has_government = national_vanguard }
+					limit = { has_government = fascism }
 					ROOT = { set_cosmetic_tag = SWI_GER_puppet_fascism }
 				}
 				else_if = {
@@ -3368,7 +3368,7 @@ SWI_on_action_puppet_selection = { # DO NOT USE OUTSIDE ON_ACTIONS Effect to sel
 			else_if = {
 				limit = { original_tag = FRA }
 				if = {
-					limit = { has_government = national_vanguard }
+					limit = { has_government = fascism }
 					ROOT = { set_cosmetic_tag = SWI_FRA_puppet_fascism}
 				}
 				else_if = {
@@ -3379,7 +3379,7 @@ SWI_on_action_puppet_selection = { # DO NOT USE OUTSIDE ON_ACTIONS Effect to sel
 			else_if = {
 				limit = { original_tag = ITA }
 				if = {
-					limit = { has_government = national_vanguard }
+					limit = { has_government = fascism }
 					ROOT = { set_cosmetic_tag = SWI_ITA_puppet_fascism}
 				}
 				else_if = {
@@ -3397,7 +3397,7 @@ SWI_on_action_puppet_selection = { # DO NOT USE OUTSIDE ON_ACTIONS Effect to sel
 			else_if = {
 				limit = { original_tag = ENG }
 				if = {
-					limit = { has_government = national_vanguard }
+					limit = { has_government = fascism }
 					ROOT = { set_cosmetic_tag = SWI_ENG_puppet_fascism}
 				}
 				else_if = {

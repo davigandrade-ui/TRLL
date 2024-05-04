@@ -29,7 +29,7 @@ country_event = {
 	desc = {
 		text = BBA_ethiopia_balance_of_power_events.01.desc_fascism
 		trigger = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 	}
 	desc = {
@@ -50,7 +50,7 @@ country_event = {
 	option = {
 		name = BBA_ethiopia_balance_of_power_events.01.a
 		trigger = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		ai_chance = {
 			base = 10
@@ -99,7 +99,7 @@ country_event = {
 		}
 		start_civil_war = {
 			ruling_party = ROOT
-			ideology = national_vanguard
+			ideology = fascism
 			size = 0.55
 			capital = 842
 			keep_political_leader = no
@@ -107,7 +107,7 @@ country_event = {
 		hidden_effect = {
 			ETH_promote_ETH_hailu_tekle_haymanot = yes 
 			set_party_name = { 
-				ideology = national_vanguard 
+				ideology = fascism 
 				long_name = ETH_alternate_fascist_party_long 
 				name = ETH_alternate_fascist_party
 			}
@@ -115,7 +115,7 @@ country_event = {
 			random_other_country = {
 				limit = {
 					original_tag = ETH 
-					has_government = national_vanguard
+					has_government = fascism
 					has_war_with = ROOT 
 				}
 				hidden_effect = {
@@ -152,7 +152,7 @@ country_event = {
 			}
 			set_popularities = {
 				communism = 50
-				national_vanguard = 20
+				fascism = 20
 				democratic = 10
 				neutrality = 20
 			}
@@ -1984,7 +1984,7 @@ country_event = {
 		}
 		hidden_effect = {
 			set_temp_variable = { temp_neutrality = ETH.party_popularity_100@neutrality}
-			set_temp_variable = { temp_national_vanguard = ETH.party_popularity_100@fascism}
+			set_temp_variable = { temp_fascism = ETH.party_popularity_100@fascism}
 			set_temp_variable = { temp_democratic = ETH.party_popularity_100@democratic}
 			set_temp_variable = { temp_communism = ETH.party_popularity_100@communism}
 			
@@ -1997,7 +1997,7 @@ country_event = {
 					democratic = temp_democratic
 					neutrality = temp_neutrality
 					communism = temp_communism
-					national_vanguard = temp_fascism
+					fascism = temp_fascism
 				}
 			}
 		}
@@ -2859,8 +2859,8 @@ country_event = {
 			modifier = {
 				factor = 2
 				tag = FRA
-				NOT = { has_government = national_vanguard }
-				GER = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
+				GER = { has_government = fascism }
 			}
 		}
 		effect_tooltip = {
@@ -4280,7 +4280,7 @@ country_event = {
 			}	
 			ETH_promote_ETH_hailu_tekle_haymanot = yes 
 			set_party_name = {
-				ideology = national_vanguard
+				ideology = fascism
 				long_name = ETH_gojjam_haymanot_fascism_party_long
 				name = ETH_gojjam_haymanot_fascism_party
 			}
@@ -4308,7 +4308,7 @@ country_event = {
 			}	
 			ETH_promote_ETH_abba_jofir = yes 
 			set_party_name = {
-				ideology = national_vanguard
+				ideology = fascism
 				long_name = ETH_jimma_jofir_fascism_party_long
 				name = ETH_jimma_jofir_fascism_party
 			}
@@ -4316,7 +4316,7 @@ country_event = {
 
 		start_civil_war = {
 			ideology = neutrality
-			ruling_party = national_vanguard
+			ruling_party = fascism
 			size = ETH_civil_war_size
 			army_ratio = ETH_civil_war_army
 			capital = 271
@@ -4461,11 +4461,11 @@ country_event = {
 			IF = { # safety for if ITA has changed ideology - we still want to keep that ideology here regardless 
 				limit = {
 					ROOT = {
-						NOT = { has_government = national_vanguard }
+						NOT = { has_government = fascism }
 					}	
 				}
 				set_politics = {
-					ruling_party = national_vanguard
+					ruling_party = fascism
 				}
 			}
 			IF = {
@@ -5477,7 +5477,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					NOT = { has_government = national_vanguard }
+					NOT = { has_government = fascism }
 					has_civil_war = yes
 					NOT = {
 						ETH = {has_war_with = ITA}
@@ -5502,7 +5502,7 @@ country_event = {
 			modifier = {
 				factor = 10
 				OR = {
-					NOT = { has_government = national_vanguard }
+					NOT = { has_government = fascism }
 					has_civil_war = yes
 					NOT = {FROM = {is_subject_of = ITA}}
 				}				
@@ -6666,7 +6666,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.5
-				has_government = national_vanguard
+				has_government = fascism
 				is_in_faction_with = GER
 			}
 		}
@@ -6845,7 +6845,7 @@ country_event = {
 			ERI = {
 				set_popularities = {
 					democratic = 20
-					national_vanguard = 5
+					fascism = 5
 					neutrality = 15
 					communism = 60
 				}
@@ -6912,7 +6912,7 @@ country_event = {
 					set_popularities = {
 						democratic = ETH.party_popularity_100@democratic
 						neutrality = ETH.party_popularity_100@neutrality
-						national_vanguard = ETH.party_popularity_100@fascism
+						fascism = ETH.party_popularity_100@fascism
 						communism = ETH.party_popularity_100@communism
 					}
 					set_politics = {
@@ -6937,7 +6937,7 @@ country_event = {
 					set_popularities = {
 						democratic = ETH.party_popularity_100@democratic
 						neutrality = ETH.party_popularity_100@neutrality
-						national_vanguard = ETH.party_popularity_100@fascism
+						fascism = ETH.party_popularity_100@fascism
 						communism = ETH.party_popularity_100@communism
 					}
 					set_politics = {

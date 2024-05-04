@@ -89,7 +89,7 @@ ideas = {
 			modifier = {
 				democratic_drift = -0.1
 				communism_drift = -0.1
-				national_vanguard_drift = 0.1
+				fascism_drift = 0.1
 				neutrality_drift = 0.1
 			}
 		}
@@ -120,7 +120,7 @@ ideas = {
 			
 			modifier = {
 				democratic_drift = -0.1
-				national_vanguard_drift = -0.1
+				fascism_drift = -0.1
 				neutrality_drift = -0.1
 				communism_drift = 0.1
 			}
@@ -141,7 +141,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				national_vanguard_drift = 0.05
+				fascism_drift = 0.05
 				command_power_gain = -0.05
 				conscription_factor = -0.15
 				mobilization_laws_cost_factor = 0.1
@@ -163,7 +163,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				national_vanguard_drift = 0.1
+				fascism_drift = 0.1
 				command_power_gain = -0.1
 				conscription_factor = -0.25
 				mobilization_laws_cost_factor = 0.25
@@ -185,7 +185,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				national_vanguard_drift = 0.2
+				fascism_drift = 0.2
 				command_power_gain = -0.15
 				conscription_factor = -0.5
 				mobilization_laws_cost_factor = 0.5
@@ -207,7 +207,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				national_vanguard_drift = 0.35
+				fascism_drift = 0.35
 				command_power_gain = -0.3
 				conscription_factor = -0.75
 				mobilization_laws_cost_factor = 0.75
@@ -229,7 +229,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				national_vanguard_drift = 0.05
+				fascism_drift = 0.05
 				conscription_factor = 0.05
 			}
 		}
@@ -384,7 +384,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				national_vanguard_drift = 0.15
+				fascism_drift = 0.15
 			}
 		}
 
@@ -401,7 +401,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				national_vanguard_drift = 0.15
+				fascism_drift = 0.15
 				command_power_gain = -0.1
 				political_power_factor = -0.1
 			}
@@ -426,7 +426,7 @@ ideas = {
 				neutrality_drift = 0.05
 				communism_drift = -0.05
 				democratic_drift = -0.05
-				national_vanguard_drift = -0.05
+				fascism_drift = -0.05
 			}
 		}
 		LIT_military_idea_1 = {
@@ -683,7 +683,7 @@ ideas = {
 			
 			modifier = {
 				communism_drift = -0.025
-				national_vanguard_drift = -0.025
+				fascism_drift = -0.025
 				war_support_factor = 0.1
 				war_stability_factor = 0.1
 			}

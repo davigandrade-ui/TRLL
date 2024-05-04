@@ -1,7 +1,7 @@
 ﻿l_english:
- national_vanguard:0 "National Vanguardist"
- national_vanguard_noun:0 "National Vanguardism"
- national_vanguard_desc:0 "Nationalist Unity"
+ fascism:0 "National Vanguardist"
+ fascism_noun:0 "National Vanguardism"
+ fascism_desc:0 "Nationalist Unity"
  japanese_vanguard:0 "Japanese Vanguardism"
  japanese_vanguard_desc:0 "Japanese Vanguardism advocates Japanese imperialism and supremacy, driven by nationalism, militarism, and cultural superiority. It envisions Japan as the leader of an Asian empire, promoting hegemony through military strength and a belief in the divine mission of the Japanese people."
  falangism_desc:0 "An authoritarian ideology with traits of National Vanguardism, Falangism values nationalism and Catholic identity."
@@ -17,6 +17,8 @@
  american_maximalism:0 "American Maximalism"
  american_maximalism_desc:0 "American Maximalism seeks to maximize state control to ensure economic prosperity, social stability, and military strength, with a focus on preserving American identity and dominance both domestically and internationally."
  maximalism_generic:0 "Maximalism"
+ fascism_ideology:0 "National Vanguardism"
+ fascism_ideology_desc:0 "Encompassing a variety of ultra-nationalist movements, National Vanguardism typically venerates devotion to the state and uniting the people under a strong leader."
 
   # TRLL TAGS BELOW
 

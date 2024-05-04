@@ -201,7 +201,7 @@ country_event = {
 			set_popularities = {
 				democratic = 50
 				neutrality = 40
-				national_vanguard = 5
+				fascism = 5
 				communism = 5
 			}
 			set_capital = { state = 107 }

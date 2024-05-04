@@ -298,7 +298,7 @@ intelligence_agency = {
 	available = { 
 		tag = SWI
 		NOT = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		has_completed_focus = SWI_buero_ha
 	}
@@ -306,7 +306,7 @@ intelligence_agency = {
 	default = { 		
 		tag = SWI
 		NOT = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		has_completed_focus = SWI_buero_ha
 	} 

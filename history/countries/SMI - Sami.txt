@@ -73,7 +73,7 @@ set_politics = {
 set_popularities = {
 	neutrality = 78
 	democratic = 10
-	national_vanguard = 2
+	fascism = 2
 	communism = 10
 }
 
@@ -102,5 +102,5 @@ create_country_leader = {
 	name = SMI_fascism_council
 	picture = GFX_portrait_SMI_sami_council
 	expire = "1965.1.1"
-	ideology = national_vanguard
+	ideology = fascism
 }

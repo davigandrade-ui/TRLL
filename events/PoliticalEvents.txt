@@ -454,11 +454,11 @@ country_event = {
 #		}
 #		if = {
 #			limit = {
-#				has_government = national_vanguard
+#				has_government = fascism
 #			}
 #			start_civil_war = {
 #				ruling_party = communism
-#				ideology = national_vanguard
+#				ideology = fascism
 #				size = 0.6
 #			}
 #		}
@@ -488,10 +488,10 @@ country_event = {
 	picture = GFX_report_event_fascist_gathering
 
 	trigger = {
-		NOT = { has_government = national_vanguard }
-		national_vanguard > 0.6
-		NOT = { national_vanguard > 0.7 }
-		check_has_focus_tree_to_switch_to_national_vanguard = yes
+		NOT = { has_government = fascism }
+		fascism > 0.6
+		NOT = { fascism > 0.7 }
+		check_has_focus_tree_to_switch_to_fascism = yes
 		NOT = {
 			AND = {
 				original_tag = SPR
@@ -584,7 +584,7 @@ country_event = {
 		name = political.14.c
 		add_political_power = -100
 		set_politics = {
-			ruling_party = national_vanguard
+			ruling_party = fascism
 			elections_allowed = no
 		}
 	}
@@ -608,7 +608,7 @@ country_event = {
 #	
 #	trigger = {
 #		has_idea_with_trait = fascist_demagogue
-#		NOT = { has_government = national_vanguard }
+#		NOT = { has_government = fascism }
 #		NOT = { has_country_flag = fascism_government_support }
 #	}
 #	
@@ -637,9 +637,9 @@ country_event = {
 #	
 #	trigger = {
 #		has_idea_with_trait = fascist_demagogue
-#		NOT = { has_government = national_vanguard }
+#		NOT = { has_government = fascism }
 #		has_country_flag = fascism_government_support
-#		national_vanguard > 0.3
+#		fascism > 0.3
 #		is_major = no
 #		is_puppet = no
 #	}
@@ -648,7 +648,7 @@ country_event = {
 #		days = 100
 #		modifier = {
 #			factor = 0.5
-#			national_vanguard > 0.4
+#			fascism > 0.4
 #		}
 #	}
 #
@@ -659,7 +659,7 @@ country_event = {
 #	option = {
 #		name = political.9.a
 #		set_politics = {
-#			ruling_party = national_vanguard
+#			ruling_party = fascism
 #			elections_allowed = no
 #		}
 #		add_timed_idea = { idea = reign_of_terror days = 730 }
@@ -675,8 +675,8 @@ country_event = {
 #	
 #	trigger = {
 #		has_idea_with_trait = fascist_demagogue
-#		NOT = { has_government = national_vanguard }
-#		national_vanguard > 0.25
+#		NOT = { has_government = fascism }
+#		fascism > 0.25
 #		if = {
 #			limit = {
 #				has_dlc = "Together for Victory"
@@ -706,17 +706,17 @@ country_event = {
 #				has_government = democratic
 #			}
 #			if = {
-#				limit = { national_vanguard > 0.4 }
+#				limit = { fascism > 0.4 }
 #				start_civil_war = {
-#					ruling_party = national_vanguard
+#					ruling_party = fascism
 #					ideology = democratic
 #					size = 0.6
 #				}
 #			}
 #			if = {
-#				limit = { NOT = { national_vanguard > 0.4 } }
+#				limit = { NOT = { fascism > 0.4 } }
 #				start_civil_war = {
-#					ruling_party = national_vanguard
+#					ruling_party = fascism
 #					ideology = democratic
 #					size = 0.7
 #				}
@@ -727,17 +727,17 @@ country_event = {
 #				has_government = communism
 #			}
 #			if = {
-#				limit = { national_vanguard > 0.4 }
+#				limit = { fascism > 0.4 }
 #				start_civil_war = {
-#					ruling_party = national_vanguard
+#					ruling_party = fascism
 #					ideology = communism
 #					size = 0.6
 #				}
 #			}
 #			if = {
-#				limit = { NOT = { national_vanguard > 0.4 } }
+#				limit = { NOT = { fascism > 0.4 } }
 #				start_civil_war = {
-#					ruling_party = national_vanguard
+#					ruling_party = fascism
 #					ideology = communism
 #					size = 0.7
 #				}
@@ -748,17 +748,17 @@ country_event = {
 #				has_government = neutrality
 #			}
 #			if = {
-#				limit = { national_vanguard > 0.4 }
+#				limit = { fascism > 0.4 }
 #				start_civil_war = {
-#					ruling_party = national_vanguard
+#					ruling_party = fascism
 #					ideology = neutrality
 #					size = 0.6
 #				}
 #			}
 #			if = {
-#				limit = { NOT = { national_vanguard > 0.4 } }
+#				limit = { NOT = { fascism > 0.4 } }
 #				start_civil_war = {
-#					ruling_party = national_vanguard
+#					ruling_party = fascism
 #					ideology = neutrality
 #					size = 0.7
 #				}
@@ -781,9 +781,9 @@ country_event = {
 	
 	trigger = {
 		has_idea_with_trait = fascist_demagogue
-		NOT = { has_government = national_vanguard }
-		national_vanguard > 0.3
-		NOT = { national_vanguard > 0.59 }
+		NOT = { has_government = fascism }
+		fascism > 0.3
+		NOT = { fascism > 0.59 }
 		NOT = { has_idea = fascist_assault_divisions }
 		if = {
 			limit = {
@@ -861,7 +861,7 @@ country_event = {
 	option = {
 		name = political.11.a
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = 0.05
 		}
 		add_ideas = fascist_assault_divisions
@@ -877,9 +877,9 @@ country_event = {
 	
 	trigger = {
 		has_idea_with_trait = fascist_demagogue
-		NOT = { has_government = national_vanguard }
-		national_vanguard > 0.25
-		NOT = { national_vanguard > 0.59 }
+		NOT = { has_government = fascism }
+		fascism > 0.25
+		NOT = { fascism > 0.59 }
 		any_neighbor_country = {
 			has_government = communism
 		}
@@ -896,7 +896,7 @@ country_event = {
 	option = {
 		name = political.12.a
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = 0.1
 		}
 	}
@@ -1214,7 +1214,7 @@ country_event = {
 #	option = {
 #		name = political.17.a
 #		if = {
-#			limit = { has_government = national_vanguard }
+#			limit = { has_government = fascism }
 #			add_timed_idea = { idea = fascism_defeated days = 730 }
 #		}
 #		if = {
@@ -1245,8 +1245,8 @@ country_event = {
 	is_triggered_only = yes
 
 	#trigger = {
-	#	national_vanguard > 0.5
-	#	NOT = { has_government = national_vanguard }
+	#	fascism > 0.5
+	#	NOT = { has_government = fascism }
 	#	NOT = { has_idea = fascist_revolutionaries }
 	#	NOT = { has_idea = reign_of_terror }
 	#	is_puppet = no
@@ -1261,7 +1261,7 @@ country_event = {
 	#	name = political.18.a
 	#	add_political_power = -100
 	#	add_popularity = {
-	#		ideology = national_vanguard
+	#		ideology = fascism
 	#		popularity = -0.10
 	#	}
 	#	add_timed_idea = {
@@ -1281,7 +1281,7 @@ country_event = {
 	option = {
 		name = political.18.c
 		set_politics = {
-			ruling_party = national_vanguard
+			ruling_party = fascism
 			elections_allowed = no
 		}
 		add_stability = -0.05
@@ -1399,7 +1399,7 @@ country_event = {
 	option = {
 		name = political.20.c
 		if = {
-			limit = { has_government = national_vanguard }
+			limit = { has_government = fascism }
 			add_timed_idea = { idea = fascism_defeated days = 730 }
 		}
 		if = {
@@ -1424,12 +1424,12 @@ country_event = {
 	picture = GFX_report_event_fascist_militia
 
 	trigger = {
-		national_vanguard > 0.7
+		fascism > 0.7
 		num_of_controlled_states > 1
 		#has_idea = fascist_revolutionaries
-		NOT = { has_government = national_vanguard }
+		NOT = { has_government = fascism }
 		has_civil_war = no
-		check_has_focus_tree_to_switch_to_national_vanguard = yes
+		check_has_focus_tree_to_switch_to_fascism = yes
 		NOT = {
 			AND = {
 				original_tag = SPR
@@ -1515,7 +1515,7 @@ country_event = {
 			factor = 0
 		}
 		start_civil_war = {
-			ideology = national_vanguard
+			ideology = fascism
 			size = 0.5
 		}
 	}
@@ -1530,7 +1530,7 @@ country_event = {
 				has_government = democratic
 			}
 			start_civil_war = {
-				ruling_party = national_vanguard
+				ruling_party = fascism
 				ideology = democratic
 				size = 0.5
 				keep_political_leader = yes
@@ -1541,7 +1541,7 @@ country_event = {
 				has_government = communism
 			}
 			start_civil_war = {
-				ruling_party = national_vanguard
+				ruling_party = fascism
 				ideology = communism
 				size = 0.5
 				keep_political_leader = yes
@@ -1552,7 +1552,7 @@ country_event = {
 				has_government = neutrality
 			}
 			start_civil_war = {
-				ruling_party = national_vanguard
+				ruling_party = fascism
 				ideology = neutrality
 				size = 0.5
 				keep_political_leader = yes
@@ -1568,7 +1568,7 @@ country_event = {
 		}
 		add_political_power = -100
 		set_politics = {
-			ruling_party = national_vanguard
+			ruling_party = fascism
 			elections_allowed = no
 		}
 	}
@@ -1702,11 +1702,11 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			start_civil_war = {
 				ruling_party = communism
-				ideology = national_vanguard
+				ideology = fascism
 				size = 0.5
 				keep_political_leader = yes
 			}
@@ -1870,12 +1870,12 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			add_timed_idea = { idea = fascism_defeated days = 730 }			
 			start_civil_war = {
 				ruling_party = democratic
-				ideology = national_vanguard
+				ideology = fascism
 				size = 0.5
 				keep_political_leader = yes
 			}
@@ -1917,7 +1917,7 @@ country_event = {
 	picture = GFX_report_event_fascists_posing
 
 	trigger = {
-		national_vanguard < 0.3
+		fascism < 0.3
 		has_idea = fascist_revolutionaries
 	}
 
@@ -1979,7 +1979,7 @@ country_event = {
 	title = political.27.t
 	desc = { 
 		text = political.27.d_fascism
-	 	trigger = { has_government = national_vanguard }
+	 	trigger = { has_government = fascism }
 	}
 	desc = { 
 		text = political.27.d_communism
@@ -1989,7 +1989,7 @@ country_event = {
 
 	trigger = {
 		OR = {
-			has_government = national_vanguard
+			has_government = fascism
 			has_government = communism
 		}
 		has_idea = neutrality_idea

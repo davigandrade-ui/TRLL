@@ -1819,8 +1819,8 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			SOV = { has_government = national_vanguard }
-			ROOT = { NOT = { has_government = national_vanguard } }
+			SOV = { has_government = fascism }
+			ROOT = { NOT = { has_government = fascism } }
 		}
 		localization_key = SOV_fascist_threat
 	}
@@ -1840,8 +1840,8 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			SOV = { has_government = national_vanguard }
-			ROOT = { NOT = { has_government = national_vanguard } }
+			SOV = { has_government = fascism }
+			ROOT = { NOT = { has_government = fascism } }
 		}
 		localization_key = SOV_fascist_threatAlt
 	}
@@ -1866,9 +1866,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
-		localization_key = national_vanguard_noun
+		localization_key = fascism_noun
 	}
 	text = {
 		localization_key = neutrality_noun
@@ -1886,7 +1886,7 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				has_government = national_vanguard
+				has_government = fascism
 				has_government = neutrality
 			}
 		}

@@ -359,7 +359,7 @@ country_event = {
 		CHL = {
 			NOT = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_War_with = GER
 				}
 			}
@@ -622,14 +622,14 @@ country_event = {
 		add_stability = -0.05
 
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = -0.15
 		}	
 
 		CHL_anarchic_society_level_down = yes
 
 		set_party_name = {
-		    ideology = national_vanguard
+		    ideology = fascism
 		    long_name = CHL_popular_socialist_vanguard_long
 		    name = CHL_popular_socialist_vanguard
 		}
@@ -661,18 +661,18 @@ country_event = {
 		add_stability = -0.2
 
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = 0.15
 		}	
 
 		set_party_name = {
-		    ideology = national_vanguard
+		    ideology = fascism
 		    long_name = CHL_popular_socialist_vanguard_long
 		    name = CHL_popular_socialist_vanguard
 		}
 
 		start_civil_war = {
-		    ideology = national_vanguard
+		    ideology = fascism
 		    size = 0.1
 		    army_ratio = 0.1
 		    navy_ratio = 0
@@ -731,12 +731,12 @@ country_event = {
 		add_stability = -0.15
 
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = -0.05
 		}
 
 		set_party_name = {
-		    ideology = national_vanguard
+		    ideology = fascism
 		    long_name = CHL_popular_socialist_vanguard_long
 		    name = CHL_popular_socialist_vanguard
 		}
@@ -2168,7 +2168,7 @@ country_event = {
 		add_manpower = 1500
 
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = 0.01
 		}	
 
@@ -2457,7 +2457,7 @@ country_event = {
 		random_country = {
 			limit = {
 				original_tag = GER
-				has_government = national_vanguard
+				has_government = fascism
 				is_faction_leader = yes
 			}
 			add_to_faction = FROM
@@ -2567,7 +2567,7 @@ country_event = {
 
 		URG = {
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.2
 			}	
 			add_war_support = 0.1
@@ -3739,14 +3739,14 @@ country_event = {
 
 		remove_country_leader_role = {
 		    character = CHL_jorge_gonzález_von_marées
-		    ideology = national_vanguard
+		    ideology = fascism
 		}
 
 		add_country_leader_role  = {
 			character = CHL_carlos_keller_reuff
 		    promote_leader = yes
 		    country_leader = {
-		        ideology = national_vanguard
+		        ideology = fascism
 		        expire = "1965.1.1.1"
 		        traits = { JUNO_national_socialist_vanguard }
 		    }
@@ -3767,7 +3767,7 @@ country_event = {
 
 		remove_country_leader_role = {
 		    character = CHL_jorge_gonzález_von_marées
-		    ideology = national_vanguard
+		    ideology = fascism
 		}
 
 		add_country_leader_role  = {
@@ -3816,7 +3816,7 @@ country_event = {
 		}	
 
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = 0.15
 		}	
 
@@ -4521,7 +4521,7 @@ country_event = {
 
 		hidden_effect = {
 			start_civil_war = {
-			    ideology = national_vanguard
+			    ideology = fascism
 			    size = 0.6
 			    army_ratio = 0.6
 			    navy_ratio = 0.4
@@ -4704,7 +4704,7 @@ country_event = {
 	        		PREV.PREV = {
 	        			promote_character = {
 	        				character = CHL_jorge_gonzález_von_marées 
-	        				ideology = national_vanguard 
+	        				ideology = fascism 
 	        			}
 	        		}
 	        	}
@@ -4781,7 +4781,7 @@ country_event = {
 
 		hidden_effect = {
 			start_civil_war = {
-			    ideology = national_vanguard
+			    ideology = fascism
 			    size = 0.6
 			    army_ratio = 0.6
 			    navy_ratio = 0.4
@@ -4935,7 +4935,7 @@ country_event = {
 	        		PREV.PREV = {
 	        			promote_character = {
 	        				character = CHL_jorge_gonzález_von_marées 
-	        				ideology = national_vanguard 
+	        				ideology = fascism 
 	        			}
 	        		}
 	        	}
@@ -5797,13 +5797,13 @@ country_event = {
 		} 
 
 		set_politics = {
-			ruling_party = national_vanguard
+			ruling_party = fascism
 			elections_allowed = no
 			last_election = "1936.1.1"
 		}
 
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = 0.1
 		}	
 

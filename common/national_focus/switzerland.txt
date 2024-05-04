@@ -752,7 +752,7 @@
 				add_idea = SWI_martial_law_idea
 			}
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = -0.15
 			}
 			add_popularity = {
@@ -2184,7 +2184,7 @@
 					limit = {
 						SWI_is_country_to_balance = yes
 						NOT = { original_tag = var:SWI_biggest_fascist }
-						NOT = { has_government = national_vanguard }
+						NOT = { has_government = fascism }
 					}
 					add_opinion_modifier = {
 						target = ROOT 
@@ -2343,7 +2343,7 @@
 				limit = {
 					is_league_of_nations_member = yes 
 					NOT = {
-						has_government = national_vanguard 
+						has_government = fascism 
 					}	
 				}
 				add_opinion_modifier = {
@@ -2540,7 +2540,7 @@
 		bypass = {
 			GER = {
 				NOT = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 		}
@@ -2656,7 +2656,7 @@
 				every_other_country = {
 					limit = {
 						SWI_is_country_to_balance = yes 
-						has_government = national_vanguard 
+						has_government = fascism 
 					}
 					add_opinion_modifier = {
 						target = ROOT 
@@ -2890,7 +2890,7 @@
 				every_other_country = {
 					limit = {
 						has_country_flag = SWI_country_to_appease
-						has_government = national_vanguard 
+						has_government = fascism 
 					}
 					add_opinion_modifier = {
 						modifier = SWI_romansh_language_adopted
@@ -3453,7 +3453,7 @@
 					limit = {
 						GER = {
 							exists = yes 
-							has_government = national_vanguard 
+							has_government = fascism 
 						}
 					}
 					GER = {
@@ -3467,7 +3467,7 @@
 					limit = {
 						ITA = {
 							exists = yes 
-							has_government = national_vanguard 
+							has_government = fascism 
 						}
 					}
 					ITA = {
@@ -3490,7 +3490,7 @@
 
 			}
 			add_popularity = {
-				ideology = national_vanguard 
+				ideology = fascism 
 				popularity = -0.15
 			}
 			add_political_power = 120
@@ -3790,7 +3790,7 @@
 			every_other_country = {
 				limit = {
 					is_major = yes 
-					has_government = national_vanguard 
+					has_government = fascism 
 				}
 				add_opinion_modifier = {
 					target = ROOT 
@@ -3893,7 +3893,7 @@
 			}
 			USA = {
 				exists = yes 
-				NOT = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
 				NOT = { has_war_with = ROOT }
 			}
 		}
@@ -3901,7 +3901,7 @@
 		bypass = {
 			USA = {
 				OR = {
-					has_government = national_vanguard 
+					has_government = fascism 
 					exists = no 
 					has_war_with = ROOT	
 				}
@@ -3955,7 +3955,7 @@
 		}
 
 		available = {
-			national_vanguard < 0.30
+			fascism < 0.30
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_balanced
@@ -4156,7 +4156,7 @@
 		}
 
 		available = {
-			national_vanguard < 0.30
+			fascism < 0.30
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_balanced
@@ -5126,7 +5126,7 @@
 
 		available = {
 			democratic < 0.90
-			national_vanguard < 0.20
+			fascism < 0.20
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_very_cantons
@@ -5174,7 +5174,7 @@
 
 		available = {
 			democratic < 0.80
-			national_vanguard < 0.20
+			fascism < 0.20
 			AUS = {	exists = yes }
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
@@ -5217,7 +5217,7 @@
 				limit = {
 					GER = {
 						exists = yes 
-						has_government = national_vanguard
+						has_government = fascism
 						NOT = { has_completed_focus = GER_oppose_hitler }
 					}
 				}
@@ -5252,7 +5252,7 @@
 
 		available = {
 			democratic < 0.75
-			national_vanguard < 0.20
+			fascism < 0.20
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_very_council
@@ -5320,7 +5320,7 @@
 
 		available = {
 			democratic < 0.70
-			national_vanguard < 0.15
+			fascism < 0.15
 			AUS = {	exists = yes }
 			SWI_is_fully_centralized = yes 
 		}
@@ -5376,7 +5376,7 @@
 
 		available = {
 			democratic < 0.60
-			national_vanguard < 0.15
+			fascism < 0.15
 			SWI_is_fully_centralized = yes 
 		}
 		
@@ -5473,7 +5473,7 @@
 
 		available = {
 			democratic < 0.60
-			national_vanguard < 0.15
+			fascism < 0.15
 			SWI_is_fully_centralized = yes 
 		}
 		
@@ -5546,7 +5546,7 @@
 
 		available = {
 			democratic < 0.60
-			national_vanguard < 0.15
+			fascism < 0.15
 			SWI_is_fully_centralized = yes 
 		}
 		
@@ -5599,7 +5599,7 @@
 
 		available = {
 			democratic < 0.50
-			national_vanguard < 0.10
+			fascism < 0.10
 			any_controlled_state = {
 				is_alpine_state = yes 
 			}
@@ -5665,7 +5665,7 @@
 
 		available = {
 			democratic < 0.40
-			national_vanguard < 0.10
+			fascism < 0.10
 		}
 		
 		bypass = {
@@ -5709,7 +5709,7 @@
 
 		available = {
 			democratic < 0.40
-			national_vanguard < 0.10
+			fascism < 0.10
 		}
 		
 		bypass = {
@@ -5754,7 +5754,7 @@
 
 		available = {
 			democratic < 0.40
-			national_vanguard < 0.10
+			fascism < 0.10
 		}
 		
 		bypass = {
@@ -5804,7 +5804,7 @@
 
 		available = {
 			democratic < 0.70
-			national_vanguard < 0.15		
+			fascism < 0.15		
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_very_council
@@ -5842,7 +5842,7 @@
 
 		available = {
 			democratic < 0.65
-			national_vanguard < 0.10			
+			fascism < 0.10			
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_very_council
@@ -5881,7 +5881,7 @@
 
 		available = {
 			democratic < 0.65
-			national_vanguard < 0.10	
+			fascism < 0.10	
 			SWI_is_fully_centralized = yes
 		}
 		
@@ -5922,7 +5922,7 @@
 
 		available = {
 			democratic < 0.60
-			national_vanguard < 0.05	
+			fascism < 0.05	
 		}
 		
 		bypass = {
@@ -5970,7 +5970,7 @@
 
 		available = {
 			democratic > 0.50
-			national_vanguard < 0.05	
+			fascism < 0.05	
 			has_war = yes 
 		}
 		
@@ -6017,7 +6017,7 @@
 
 		available = {
 			democratic > 0.60
-			national_vanguard < 0.05	
+			fascism < 0.05	
 		}
 		
 		bypass = {
@@ -6040,7 +6040,7 @@
 			}
 			set_popularities = {
 				democratic = 90
-				national_vanguard = 5
+				fascism = 5
 				communism = 4 
 				neutrality = 1  
 			}
@@ -6085,7 +6085,7 @@
 
 		available = {
 			democratic < 0.80
-			national_vanguard < 0.20
+			fascism < 0.20
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_very_council
@@ -6132,7 +6132,7 @@
 
 		available = {
 			democratic < 0.80
-			national_vanguard < 0.20
+			fascism < 0.20
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_very_council
@@ -6169,7 +6169,7 @@
 
 		available = {
 			democratic < 0.80
-			national_vanguard < 0.20
+			fascism < 0.20
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_very_council
@@ -6227,7 +6227,7 @@
 
 		available = {
 			democratic < 0.80
-			national_vanguard < 0.20
+			fascism < 0.20
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_very_council
@@ -6285,7 +6285,7 @@
 
 		available = {
 			democratic < 0.80
-			national_vanguard < 0.20
+			fascism < 0.20
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_very_council
@@ -6342,7 +6342,7 @@
 
 		available = {
 			democratic < 0.80
-			national_vanguard < 0.20
+			fascism < 0.20
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_very_council
@@ -6384,7 +6384,7 @@
 
 		available = {
 			democratic < 0.80
-			national_vanguard < 0.20
+			fascism < 0.20
 			any_owned_state = {
 				is_coastal = yes
 			}
@@ -6427,7 +6427,7 @@
 
 		available = {
 			democratic < 0.80
-			national_vanguard < 0.20
+			fascism < 0.20
 			any_owned_state = {
 				is_coastal = yes
 			}
@@ -6463,7 +6463,7 @@
 
 		available = {
 			democratic < 0.80
-			national_vanguard < 0.20
+			fascism < 0.20
 			any_owned_state = {
 				is_coastal = yes
 			}
@@ -6505,7 +6505,7 @@
 
 		available = {
 			democratic < 0.80
-			national_vanguard < 0.20
+			fascism < 0.20
 			any_owned_state = {
 				is_coastal = yes
 			}
@@ -6548,7 +6548,7 @@
 
 		available = {
 			democratic < 0.80
-			national_vanguard < 0.20
+			fascism < 0.20
 			any_owned_state = {
 				is_coastal = yes
 			}
@@ -6590,7 +6590,7 @@
 
 		available = {
 			democratic < 0.80
-			national_vanguard < 0.20
+			fascism < 0.20
 			any_owned_state = {
 				is_coastal = yes
 			}
@@ -6652,7 +6652,7 @@
 
 		available = {
 			democratic < 0.80
-			national_vanguard < 0.20
+			fascism < 0.20
 			any_owned_state = {
 				is_coastal = yes
 			}
@@ -6713,7 +6713,7 @@
 
 		available = {
 			democratic < 0.80
-			national_vanguard < 0.20
+			fascism < 0.20
 			any_owned_state = {
 				is_coastal = yes
 			}
@@ -7009,7 +7009,7 @@
 						SWI_is_country_to_balance = yes 
 						NOT = { 
 							tag = SWI.SWI_biggest_fascist 
-							has_government = national_vanguard 
+							has_government = fascism 
 						}
 					}
 					SWI_add_large_bad_opinion = yes 
@@ -7091,7 +7091,7 @@
 		}
 
 		available = {
-			national_vanguard > 0.05
+			fascism > 0.05
 		}
 		
 		bypass = {
@@ -7108,7 +7108,7 @@
 			show_ideas_tooltip = SWI_robert_tobler
 			show_ideas_tooltip = SWI_rolf_henne
 			add_popularity = {
-				ideology = national_vanguard 
+				ideology = fascism 
 				popularity = 0.05
 			}
 		}
@@ -7134,7 +7134,7 @@
 		}
 	
 		available = {
-			national_vanguard > 0.05
+			fascism > 0.05
 			has_country_flag = SWI_viable_fascist_in_europe
 		}
 	
@@ -7170,7 +7170,7 @@
 		}
 
 		available = {
-			national_vanguard > 0.05 
+			fascism > 0.05 
 		}
 		
 		bypass = {
@@ -7225,7 +7225,7 @@
 			}
 
 			add_popularity = {
-				ideology = national_vanguard 
+				ideology = fascism 
 				popularity = 0.05 
 			}
 		}
@@ -7254,7 +7254,7 @@
 		}
 	
 		available = {
-			national_vanguard > 0.4	
+			fascism > 0.4	
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_balanced
@@ -7304,7 +7304,7 @@ focus = {
 		}
 
 		available = {
-			national_vanguard > 0.15
+			fascism > 0.15
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_very_cantons
@@ -7369,7 +7369,7 @@ focus = {
 		}
 
 		available = {
-			national_vanguard > 0.15
+			fascism > 0.15
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_very_cantons
@@ -7429,9 +7429,9 @@ focus = {
 		available = {
 			var:SWI_biggest_fascist = { #This might need to be changed to a variable so the fascit neighbor is generic.  edit: You mean...biggus fascist? 
 				exists = yes
-				has_government = national_vanguard
+				has_government = fascism
 			}
-			national_vanguard > 0.2
+			fascism > 0.2
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_very_cantons
@@ -7522,7 +7522,7 @@ focus = {
 		}
 
 		available = {
-			national_vanguard > 0.3
+			fascism > 0.3
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_balanced
@@ -7584,7 +7584,7 @@ focus = {
 		}
 
 		available = {
-			national_vanguard > 0.2
+			fascism > 0.2
 			has_country_flag = SWI_viable_fascist_in_europe
 		}
 		
@@ -7638,7 +7638,7 @@ focus = {
 		}
 
 		available = {
-			national_vanguard > 0.5
+			fascism > 0.5
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_very_council
@@ -7666,7 +7666,7 @@ focus = {
 				add_idea = SWI_democratic_unrest
 			}
 			add_popularity = {
-				ideology = national_vanguard 
+				ideology = fascism 
 				popularity = 0.05
 			}
 			every_other_country = {
@@ -7709,7 +7709,7 @@ focus = {
 		}
 
 		available = {
-			national_vanguard > 0.6
+			fascism > 0.6
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_very_council
@@ -7729,13 +7729,13 @@ focus = {
 			add_country_leader_role = {
 				character = SWI_robert_tobler
 				country_leader = {
-					ideology = national_vanguard
+					ideology = fascism
 					expire = "1965.1.1.1"
 				}
 				promote_leader = yes
 			}
 			hidden_effect = { 
-				SWI_robert_tobler = { remove_country_leader_role = { ideology = national_vanguard } }
+				SWI_robert_tobler = { remove_country_leader_role = { ideology = fascism } }
 			}
 			SWI_robert_tobler = {
 				SWI_add_country_leader_trait_based_on_councilor_trait = yes
@@ -7773,7 +7773,7 @@ focus = {
 		}
 
 		available = {
-			national_vanguard > 0.6
+			fascism > 0.6
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_very_council
@@ -7793,13 +7793,13 @@ focus = {
 			add_country_leader_role = {
 				character = SWI_rolf_henne
 				country_leader = {
-					ideology = national_vanguard
+					ideology = fascism
 					expire = "1965.1.1.1"
 				}
 				promote_leader = yes
 			}
 			hidden_effect = { 
-				SWI_rolf_henne = { remove_country_leader_role = { ideology = national_vanguard } }
+				SWI_rolf_henne = { remove_country_leader_role = { ideology = fascism } }
 				set_country_flag = SWI_elected_centralized_president
 			}
 			SWI_rolf_henne = {
@@ -7809,7 +7809,7 @@ focus = {
 				SWI_rolf_henne = { SWI_make_character_confederation_president = yes } 
 			}
 			set_politics = {
-				ruling_party = national_vanguard
+				ruling_party = fascism
 				elections_allowed = no
 			}
 			retire_character = SWI_robert_tobler 
@@ -7840,7 +7840,7 @@ focus = {
 		}
 
 		available = {
-			national_vanguard > 0.65
+			fascism > 0.65
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_very_council
@@ -7858,7 +7858,7 @@ focus = {
 		completion_reward = {
 			add_war_support = 0.1 
 			add_popularity = {
-				ideology = national_vanguard 
+				ideology = fascism 
 				popularity = 0.08
 			}
 			SWI_max_mr_medium_increase = yes 
@@ -7881,7 +7881,7 @@ focus = {
 		}
 
 		available = {
-			national_vanguard > 0.65
+			fascism > 0.65
 			is_power_balance_in_range = {
 				id = SWI_centralization_bop
 				range < SWI_centralization_bop_very_council
@@ -7920,11 +7920,11 @@ focus = {
 
 		available = {
 			SWI_is_fully_centralized = yes 
-			national_vanguard > 0.7
+			fascism > 0.7
 		}
 		
 		bypass = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_BALANCE_OF_POWER}
 		cancel_if_invalid = no
@@ -7936,7 +7936,7 @@ focus = {
 				id = SWI_centralization_bop
 			}
 			set_politics = {
-				ruling_party = national_vanguard
+				ruling_party = fascism
 				elections_allowed = no
 			}
 			unlock_decision_tooltip = {
@@ -7965,7 +7965,7 @@ focus = {
 		}
 
 		available = {
-			national_vanguard > 0.65
+			fascism > 0.65
 		}
 		
 		bypass = {
@@ -8018,7 +8018,7 @@ focus = {
 				is_in_faction = yes
 				is_faction_leader = yes
 			}
-			national_vanguard > 0.75
+			fascism > 0.75
 		}
 		
 		bypass = {
@@ -8052,7 +8052,7 @@ focus = {
 		}
 
 		available = {
-			national_vanguard > 0.7
+			fascism > 0.7
 			has_war = no
 			has_country_flag = SWI_viable_fascist_in_europe
 		}
@@ -8099,7 +8099,7 @@ focus = {
 				}
 			}
 
-			national_vanguard > 0.65
+			fascism > 0.65
 		}
 		
 		bypass = {
@@ -8139,7 +8139,7 @@ focus = {
 					owns_state = 848
 				}
 			}
-			national_vanguard > 0.7
+			fascism > 0.7
 		}
 		
 		bypass = {
@@ -8202,7 +8202,7 @@ focus = {
 					}
 				}
 			}
-			national_vanguard > 0.7
+			fascism > 0.7
 		}
 		
 		bypass = {
@@ -8273,7 +8273,7 @@ focus = {
 					}
 				}
 			}
-			national_vanguard > 0.7
+			fascism > 0.7
 		}
 		
 		bypass = {
@@ -8343,7 +8343,7 @@ focus = {
 					}
 				}
 			}
-			national_vanguard > 0.7
+			fascism > 0.7
 		}
 		
 		bypass = {
@@ -8437,7 +8437,7 @@ focus = {
 		}
 
 		available = {
-			has_government = national_vanguard 
+			has_government = fascism 
 			any_owned_state = {
 				NOT = { is_core_of = ROOT } 
 				is_alpine_state = yes

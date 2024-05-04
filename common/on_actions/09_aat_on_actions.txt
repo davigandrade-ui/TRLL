@@ -432,11 +432,11 @@ on_actions = {
 							}
 							OR = {
 								FROM = { has_government = communism }
-								FROM = { has_government = national_vanguard }
+								FROM = { has_government = fascism }
 							}
 						}
 						ROOT = { # Civil war from Estonia Focus Tree
-							has_government = national_vanguard
+							has_government = fascism
 						}
 					}
 				}
@@ -457,7 +457,7 @@ on_actions = {
 				}
 				else_if = {
 					limit = {
-						FROM = { has_government = national_vanguard }
+						FROM = { has_government = fascism }
 						ROOT = { has_government = neutrality }
 					}
 					uncomplete_national_focus = {
@@ -471,7 +471,7 @@ on_actions = {
 				}
 				else_if = {
 					limit = {
-						ROOT = { has_government = national_vanguard }
+						ROOT = { has_government = fascism }
 					}
 					if = {
 						limit = {
@@ -651,7 +651,7 @@ on_actions = {
 						has_global_flag = NOR_the_norwegian_queen_is_dead 
 						has_global_flag = NOR_the_norwegian_king_is_dead 
 						has_government = communism
-						has_government = national_vanguard  
+						has_government = fascism  
 					}
 				}
 				if = {
@@ -1249,13 +1249,13 @@ on_actions = {
 				limit = {
 					NOT = { has_global_flag = NOR_norwegian_fascist_cw_started }
 					ROOT = {
-						has_government = national_vanguard
+						has_government = fascism
 						is_faction_leader = yes
 						NOT = { has_country_flag = NOR_attacked_norway }  
 					}
 					FROM = {
 						original_tag = NOR
-						NOT = { has_government = national_vanguard }
+						NOT = { has_government = fascism }
 						has_civil_war = no 
 					}
 				}
@@ -2062,7 +2062,7 @@ on_actions = {
 				limit = {
 					FROM = {
 						original_tag = NOR 
-						NOT = { has_government = national_vanguard }
+						NOT = { has_government = fascism }
 						surrender_progress > 0.45
 						has_completed_focus = NOR_continue_nygaardsvold_government 
 						has_country_flag = NOR_delayed_quislings_coup
@@ -2405,7 +2405,7 @@ on_actions = {
 			IF = {
 				limit = {
 					original_tag = SWE
-					has_government = national_vanguard
+					has_government = fascism
 					has_completed_focus = SWE_revoke_anti_militia_laws
 				}
 				every_core_state = {
@@ -2621,7 +2621,7 @@ on_actions = {
 				limit = {
 					has_cosmetic_tag = FIN_confederated_finno_russian_republics
 					OR = {
-						has_government = national_vanguard
+						has_government = fascism
 						has_government = neutrality
 					}
 				}
@@ -2693,7 +2693,7 @@ on_actions = {
 				}
 				else_if = {
 					limit = {
-						has_government = national_vanguard 
+						has_government = fascism 
 						OR = {
 							has_cosmetic_tag = NOR_SOV_communism
 							has_cosmetic_tag = NOR_trotsky_communism
@@ -2872,7 +2872,7 @@ on_actions = {
 					limit = {
 						OR = {
 							communism > 0.09
-							national_vanguard > 0.09
+							fascism > 0.09
 						}
 					}
 					#Add modifier (only once)
@@ -2922,7 +2922,7 @@ on_actions = {
 				#ERADICATE EXTREMISTS
 				if = {
 					limit = {
-						national_vanguard < 0.01
+						fascism < 0.01
 						communism < 0.01
 					}
 					if = {
@@ -3356,7 +3356,7 @@ on_actions = {
 					limit = {
 						OR = {
 							communism > 0.09
-							national_vanguard > 0.09
+							fascism > 0.09
 						}
 					}
 					#Add modifier (only once)
@@ -3486,7 +3486,7 @@ on_actions = {
 					limit = {
 						has_war = yes
 						any_enemy_country = {
-							has_government = national_vanguard
+							has_government = fascism
 						}
 						surrender_progress < 0.05
 						NOT = {
@@ -3577,10 +3577,10 @@ on_actions = {
 				#OBLITERATED EUROPEAN FASCISM
 				if = {
 					limit = {
-						national_vanguard < 0.01
+						fascism < 0.01
 						all_country = { #No Fascist country in Europe
 							OR = {
-								NOT = { has_government = national_vanguard }
+								NOT = { has_government = fascism }
 								capital_scope = {
 									NOT = { is_on_continent = europe }
 								}

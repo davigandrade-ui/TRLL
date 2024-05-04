@@ -435,7 +435,7 @@ country_event = {
 			modifier = {
 				add = 30
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 				}
 			}
@@ -2547,7 +2547,7 @@ country_event = {
 			modifier = {
 				NOR = {
 					OR = {
-						has_government = national_vanguard
+						has_government = fascism
 						has_government = communism
 					}
 					NOT = { is_in_faction_with = SWE }
@@ -4689,7 +4689,7 @@ country_event = {
 		}
 		add_stability = SWE_fascist_pop_invert
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = 0.1
 		}
 	}
@@ -4950,7 +4950,7 @@ country_event = {
 	    NOT = { 
 	    	OR = {
 	    		has_government = communism 
-	    		has_government = national_vanguard
+	    		has_government = fascism
 	    	}
 	    }
 	    has_country_flag = SWE_communist_revolution_started
@@ -5989,7 +5989,7 @@ country_event = { #Sweden requests control of the Aland islands
 				factor = 8
 				OR = {
 					has_government = communism
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 		}
@@ -6232,7 +6232,7 @@ country_event = {
 			base = 0
 		}
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = 0.05
 		}
 		country_event = {
@@ -6305,7 +6305,7 @@ country_event = {
 			base = 0
 		}
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = 0.05
 		}
 		country_event = {
@@ -6378,7 +6378,7 @@ country_event = {
 			base = 0
 		}
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = 0.05
 		}
 		country_event = {
@@ -6499,7 +6499,7 @@ country_event = {
 		}
 		ELSE_IF = {
 			limit = {
-				national_vanguard > 0.5
+				fascism > 0.5
 			}
 			set_power_balance = {
 				id = SWE_riksdag_political_balance
@@ -6616,7 +6616,7 @@ country_event = {
 		IF = {
 			limit = { has_country_flag = SWE_fascist_victory }
 			set_politics = {
-				ruling_party = national_vanguard
+				ruling_party = fascism
 			}
 		}
 		IF = {
@@ -6629,7 +6629,7 @@ country_event = {
 			}
 			ELSE = {
 				set_politics = {
-					ruling_party = national_vanguard
+					ruling_party = fascism
 				}
 			}
 		}
@@ -6849,7 +6849,7 @@ country_event = {
 				limit = {
 					original_tag = SWE
 					NOT = {
-						has_government = national_vanguard
+						has_government = fascism
 						is_subject_of = ROOT
 					}
 				}
@@ -6909,7 +6909,7 @@ country_event = {
 				limit = {
 					original_tag = SWE
 					NOT = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 				# Go back to German scope, create war goal targeting non-fascist Sweden
@@ -6942,7 +6942,7 @@ country_event = {
 			add_country_leader_role = {
 				promote_leader = yes
 				country_leader = {
-					ideology = national_vanguard
+					ideology = fascism
 					expire = "1965.1.1"
 					traits = { anti_democrat }
 				}
@@ -6960,7 +6960,7 @@ country_event = {
 			add_country_leader_role = {
 				promote_leader = yes
 				country_leader = {
-					ideology = national_vanguard
+					ideology = fascism
 					expire = "1965.1.1"
 					traits = { national_socialist_veterinarian }
 				}
@@ -6983,7 +6983,7 @@ country_event = {
 			base = 10
 		}
 		add_stability = -0.07
-		add_popularity = { ideology = national_vanguard popularity = 0.03 }
+		add_popularity = { ideology = fascism popularity = 0.03 }
 	}	
 }
 
@@ -7000,7 +7000,7 @@ country_event = {
 			base = 10
 		}
 		add_stability = -0.04
-		add_popularity = { ideology = national_vanguard popularity = 0.06 }
+		add_popularity = { ideology = fascism popularity = 0.06 }
 	}	
 }
 
@@ -7019,7 +7019,7 @@ country_event = {
 		add_stability = -0.02
 		add_war_support = 0.07
 
-		add_popularity = { ideology = national_vanguard popularity = 0.09 }
+		add_popularity = { ideology = fascism popularity = 0.09 }
 	}	
 }
 
@@ -7041,7 +7041,7 @@ country_event = {
 			add_popularity = { ideology = neutrality popularity = 0.10 }
 		}
 		else = {
-			add_popularity = { ideology = national_vanguard popularity = 0.10 }
+			add_popularity = { ideology = fascism popularity = 0.10 }
 		}
 
 		IF = {
@@ -7074,7 +7074,7 @@ country_event = {
 			add_popularity = { ideology = neutrality popularity = 0.10 }
 		}
 		else = {
-			add_popularity = { ideology = national_vanguard popularity = 0.10 }
+			add_popularity = { ideology = fascism popularity = 0.10 }
 		}
 		IF = {
 			limit = {
@@ -7106,7 +7106,7 @@ country_event = {
 			add_popularity = { ideology = neutrality popularity = 0.10 }
 		}
 		else = {
-			add_popularity = { ideology = national_vanguard popularity = 0.10 }
+			add_popularity = { ideology = fascism popularity = 0.10 }
 		}
 		IF = {
 			limit = {
@@ -7138,7 +7138,7 @@ country_event = {
 			add_popularity = { ideology = neutrality popularity = 0.10 }
 		}
 		else = {
-			add_popularity = { ideology = national_vanguard popularity = 0.10 }
+			add_popularity = { ideology = fascism popularity = 0.10 }
 		}
 		IF = {
 			limit = {
@@ -8006,7 +8006,7 @@ country_event = {
 	picture = GFX_report_event_hitler_parade
 	fire_only_once = yes
 	trigger = {
-		national_vanguard > 0.2
+		fascism > 0.2
 		has_idea = SWE_fascist_counter_revolution_0
 	}
 	mean_time_to_happen = { days = 15 }
@@ -8049,7 +8049,7 @@ country_event = { # u fucked up - Civil war
 		name = AAT_Sweden_communism.4.a
 		SWE = {
 			start_civil_war = {
-				ideology = national_vanguard
+				ideology = fascism
 				ruling_party = communism
 				size = 0.69 
 				capital = 141 # Optional. Capital of Revolt country
@@ -8061,7 +8061,7 @@ country_event = { # u fucked up - Civil war
 			random_other_country = {
 				limit = {
 					original_tag = SWE
-					has_government = national_vanguard
+					has_government = fascism
 					has_civil_war = yes
 				}
 				SWE = {
@@ -8100,7 +8100,7 @@ country_event = { # prosecute or "promote" ringleaders out of power
 		add_stability = 0.075
 		add_war_support = -0.035
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = -0.5
 		}
 
@@ -8128,7 +8128,7 @@ country_event = { # prosecute or "promote" ringleaders out of power
 		}
 
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = -0.5
 		}
 

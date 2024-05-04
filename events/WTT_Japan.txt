@@ -670,7 +670,7 @@ country_event = {
 			}
 			remove_country_leader_role = {
 				character = JAP_emperor_hirohito
-				ideology = national_vanguard
+				ideology = fascism
 			}
 		}
 		add_country_leader_role = {
@@ -712,7 +712,7 @@ country_event = {
 			random_country = {
 				limit = {
 					original_tag = ITA
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				save_event_target_as = ITA_fascism
 			}
@@ -725,7 +725,7 @@ country_event = {
 			base = 10
 		}
 
-		event_target:ITA_national_vanguard = {
+		event_target:ITA_fascism = {
 			country_event = { id = wtt_japan.110 hours = 6 }
 		}
 	}
@@ -737,7 +737,7 @@ country_event = {
 		}
 
 		event_target:JAP_initiator = { country_event = { id = wtt_japan.112 hours = 6 } }
-		event_target:ITA_national_vanguard = { country_event = { id = wtt_japan.112 hours = 6 } }
+		event_target:ITA_fascism = { country_event = { id = wtt_japan.112 hours = 6 } }
 	}
 }
 
@@ -766,16 +766,16 @@ country_event = {
 			give_guarantee = event_target:ITA_fascism
 			give_guarantee = event_target:GER_fascism
 		}
-		event_target:GER_national_vanguard = {
+		event_target:GER_fascism = {
 			give_guarantee = event_target:ITA_fascism
 			give_guarantee = event_target:JAP_initiator
 		}
-		event_target:ITA_national_vanguard = {
+		event_target:ITA_fascism = {
 			give_guarantee = event_target:JAP_initiator
 			give_guarantee = event_target:GER_fascism
 		}
 		event_target:JAP_initiator = { country_event = { id = wtt_japan.111 hours = 6 } }
-		event_target:GER_national_vanguard = { country_event = { id = wtt_japan.113 hours = 6 } }
+		event_target:GER_fascism = { country_event = { id = wtt_japan.113 hours = 6 } }
 	}
 
 	option = {
@@ -791,7 +791,7 @@ country_event = {
 			}
 		}
 		
-		event_target:GER_national_vanguard = { country_event = { id = wtt_japan.112 hours = 6 } }
+		event_target:GER_fascism = { country_event = { id = wtt_japan.112 hours = 6 } }
 		event_target:JAP_initiator = { country_event = { id = wtt_japan.112 hours = 6 } }
 	}
 }
@@ -815,11 +815,11 @@ country_event = {
 				give_guarantee = event_target:ITA_fascism
 				give_guarantee = event_target:GER_fascism
 			}
-			event_target:GER_national_vanguard = {
+			event_target:GER_fascism = {
 				give_guarantee = event_target:ITA_fascism
 				give_guarantee = event_target:JAP_initiator
 			}
-			event_target:ITA_national_vanguard = {
+			event_target:ITA_fascism = {
 				give_guarantee = event_target:JAP_initiator
 				give_guarantee = event_target:GER_fascism
 			}
@@ -829,14 +829,14 @@ country_event = {
 				limit = {
 					is_literally_china = yes
 				}
-				event_target:ITA_national_vanguard = {
+				event_target:ITA_fascism = {
 					add_ai_strategy = {
 						type = alliance
 						id = PREV
 						value = -500
 					}
 				}
-				event_target:GER_national_vanguard = {
+				event_target:GER_fascism = {
 					add_ai_strategy = {
 						type = alliance
 						id = PREV
@@ -878,11 +878,11 @@ country_event = {
 				give_guarantee = event_target:ITA_fascism
 				give_guarantee = event_target:GER_fascism
 			}
-			event_target:GER_national_vanguard = {
+			event_target:GER_fascism = {
 				give_guarantee = event_target:ITA_fascism
 				give_guarantee = event_target:JAP_initiator
 			}
-			event_target:ITA_national_vanguard = {
+			event_target:ITA_fascism = {
 				give_guarantee = event_target:JAP_initiator
 				give_guarantee = event_target:GER_fascism
 			}
@@ -931,7 +931,7 @@ country_event = {
 		add_popularity = { ideology = democratic popularity = 0.1 }
 		start_civil_war = {
 			ruling_party = democratic
-			ideology = national_vanguard
+			ideology = fascism
 			size = 0.5
 		}
 		if = {

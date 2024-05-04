@@ -14,7 +14,7 @@ country_event = {
 		ai_chance = {
 			factor = 80
 			modifier = {
-				has_government = national_vanguard
+				has_government = fascism
 				factor = 0
 			}
 			modifier = {
@@ -116,7 +116,7 @@ country_event = {
 		random_other_country = {
 			limit = {
 				original_tag = FRA
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			add_war_support = 0.05
 			add_opinion_modifier = {
@@ -126,9 +126,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				GER = { has_government = national_vanguard }
+				GER = { has_government = fascism }
 			}
-			GER = { add_popularity = { ideology = national_vanguard popularity = 0.05 } }
+			GER = { add_popularity = { ideology = fascism popularity = 0.05 } }
 		}
 		if = {
 			limit = {
@@ -145,7 +145,7 @@ country_event = {
 				random_other_country = {
 					limit = {
 						original_tag = FRA
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					destroy_ships = {
 						type = ship_hull_light
@@ -161,7 +161,7 @@ country_event = {
 				random_other_country = {
 					limit = {
 						original_tag = FRA
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					destroy_ships = {
 						type = ship_hull_light
@@ -177,7 +177,7 @@ country_event = {
 				random_other_country = {
 					limit = {
 						original_tag = FRA
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					destroy_ships = {
 						type = ship_hull_light

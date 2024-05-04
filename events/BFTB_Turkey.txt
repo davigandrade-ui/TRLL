@@ -1238,7 +1238,7 @@ add_namespace = bftb_turkey
 # 			}
 # 			promote_leader = yes
 # 		}
-# 		set_politics = { ruling_party = national_vanguard }
+# 		set_politics = { ruling_party = fascism }
 # 	}
 # 	option = {
 # 		name = bftb_turkey.24.f #nationalist + fascist = Cakmak + Peker / Peker
@@ -1246,7 +1246,7 @@ add_namespace = bftb_turkey
 # 			has_completed_focus = TUR_kemalism_and_the_modern_movement
 # 		}
 # 		promote_character = TUR_mehmet_recep_peker #Has the country role already set in the Character File (FASCISM -> national_vanguard)
-# 		set_politics = { ruling_party = national_vanguard }
+# 		set_politics = { ruling_party = fascism }
 # 	}
 # 	option = {
 # 		name = bftb_turkey.24.g #socialist
@@ -2823,7 +2823,7 @@ add_namespace = bftb_turkey
 # 	option = {
 # 		name = bftb_turkey.67.a #fight the fascists
 # 		trigger = {
-# 			NOT = { national_vanguard < 0.05 }
+# 			NOT = { fascism < 0.05 }
 # 		}
 # 		ai_chance = {
 # 			base = 5
@@ -2837,7 +2837,7 @@ add_namespace = bftb_turkey
 # 		}
 # 		start_civil_war = {
 # 			ruling_party = neutrality
-# 			ideology = national_vanguard
+# 			ideology = fascism
 # 			size = 0.45
 # 			capital = 676
 # 			states = { 676 }
@@ -2850,7 +2850,7 @@ add_namespace = bftb_turkey
 # 			random_other_country = { 
 #            		limit = { 
 #            		    original_tag = IRQ 
-#            		    has_government = national_vanguard 
+#            		    has_government = fascism 
 #            		} 
 #           		ROOT = { set_variable = { civil_war_opponent = PREV } }
 # 			}
@@ -2859,12 +2859,12 @@ add_namespace = bftb_turkey
 # 	option = {
 # 		name = bftb_turkey.67.b #uplift the fascists
 # 		trigger = {
-# 			NOT = { national_vanguard < 0.05 }
+# 			NOT = { fascism < 0.05 }
 # 		}
 # 		ai_chance = {
 # 			base = 30
 # 		}
-# 		set_politics = { ruling_party = national_vanguard }
+# 		set_politics = { ruling_party = fascism }
 # 		ENG = { 
 # 			remove_resource_rights = 676
 # 			remove_resource_rights = 291
@@ -2894,7 +2894,7 @@ add_namespace = bftb_turkey
 # 	option = {
 # 		name = bftb_turkey.67.c #scatter the fascists
 # 		trigger = {
-# 			national_vanguard < 0.05
+# 			fascism < 0.05
 # 		}
 # 		add_stability = 0.05
 # 		hidden_effect = {
@@ -2918,7 +2918,7 @@ add_namespace = bftb_turkey
 # 		random_other_country = { 
 # 			limit = { 
 # 				original_tag = IRQ 
-# 				has_government = national_vanguard
+# 				has_government = fascism
 # 			} 
 # 			ROOT = { give_guarantee = PREV }
 # 		}
@@ -2926,7 +2926,7 @@ add_namespace = bftb_turkey
 # 			random_other_country = { 
 # 				limit = { 
 # 					original_tag = IRQ 
-# 					has_government = national_vanguard
+# 					has_government = fascism
 # 				} 
 # 				set_country_flag = TUR_iraqi_fascists_flag
 # 				#set_variable = { civil_war_opponent = PREV }
@@ -2954,7 +2954,7 @@ add_namespace = bftb_turkey
 # 		if = {
 # 			limit = {
 # 				has_dlc = "Death or Dishonor"
-# 				has_government = national_vanguard
+# 				has_government = fascism
 # 			}
 # 			set_autonomy = {
 # 				target = FROM
@@ -3132,7 +3132,7 @@ add_namespace = bftb_turkey
 # 	option = {
 # 		name = bftb_turkey.75.a #then guard the sacred flame with us
 # 		trigger = {
-# 			ENG = { has_government = national_vanguard }
+# 			ENG = { has_government = fascism }
 # 		}
 # 		IRQ = { country_event = { id = generic.5 } }
 # 	}
@@ -3477,7 +3477,7 @@ add_namespace = bftb_turkey
 # 		trigger = {
 # 			OR = {
 # 				has_government = neutrality
-# 				has_government = national_vanguard
+# 				has_government = fascism
 # 			}
 # 		}
 # 		if = {
@@ -3485,7 +3485,7 @@ add_namespace = bftb_turkey
 # 				ENG = { 
 # 					OR = {
 # 						has_government = neutrality
-# 						has_government = national_vanguard
+# 						has_government = fascism
 # 					} 
 # 				}
 # 			} 
@@ -3496,7 +3496,7 @@ add_namespace = bftb_turkey
 # 				FRA = { 
 # 					OR = {
 # 						has_government = neutrality
-# 						has_government = national_vanguard
+# 						has_government = fascism
 # 					} 
 # 				}
 # 			} 
@@ -3507,7 +3507,7 @@ add_namespace = bftb_turkey
 # 				GER = { 
 # 					OR = {
 # 						has_government = neutrality
-# 						has_government = national_vanguard
+# 						has_government = fascism
 # 					} 
 # 				}
 # 			} 
@@ -3518,7 +3518,7 @@ add_namespace = bftb_turkey
 # 				ITA = { 
 # 					OR = {
 # 						has_government = neutrality
-# 						has_government = national_vanguard
+# 						has_government = fascism
 # 					} 
 # 				}
 # 			} 
@@ -3529,7 +3529,7 @@ add_namespace = bftb_turkey
 # 				ROM = { 
 # 					OR = {
 # 						has_government = neutrality
-# 						has_government = national_vanguard
+# 						has_government = fascism
 # 					} 
 # 				}
 # 			} 
@@ -3540,7 +3540,7 @@ add_namespace = bftb_turkey
 # 				GRE = { 
 # 					OR = {
 # 						has_government = neutrality
-# 						has_government = national_vanguard
+# 						has_government = fascism
 # 					}
 # 				}
 # 			} 
@@ -3614,7 +3614,7 @@ add_namespace = bftb_turkey
 # 		name = bftb_turkey.85.c #we cannot allow the communists to run amok
 # 		trigger = {
 # 			OR = {
-# 				has_government = national_vanguard
+# 				has_government = fascism
 # 				has_government = neutrality
 # 			}
 # 		}
@@ -5476,7 +5476,7 @@ add_namespace = bftb_turkey
 # 			}
 # 			promote_leader = yes
 # 		}
-# 		set_politics = { ruling_party = national_vanguard }
+# 		set_politics = { ruling_party = fascism }
 # 	}
 # 	option = {
 # 		name = bftb_turkey.134.f #nationalist + fascist = Cakmak + Peker / Peker
@@ -5485,7 +5485,7 @@ add_namespace = bftb_turkey
 # 			has_completed_focus = TUR_kemalism_and_the_modern_movement
 # 		}
 # 		promote_character = TUR_mehmet_recep_peker #Has the country role already set in the Character File (FASCISM -> national_vanguard)
-# 		set_politics = { ruling_party = national_vanguard }
+# 		set_politics = { ruling_party = fascism }
 # 	}
 # 	option = {
 # 		name = bftb_turkey.134.g #socialist
@@ -5736,7 +5736,7 @@ add_namespace = bftb_turkey
 # 	option = {
 # 		name = bftb_turkey.137.d #as long as they leave their fellow faction members alone...
 # 		trigger = {
-# 			has_government = national_vanguard
+# 			has_government = fascism
 # 		}
 # 		custom_effect_tooltip = TUR_keeping_turkey_under_observation
 # 		hidden_effect = {

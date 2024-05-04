@@ -123,7 +123,7 @@ SPR_the_inevitable_civil_war = {
 
 		remove_effect = {
 			add_popularity = {
-			    ideology = national_vanguard
+			    ideology = fascism
 			    popularity = 0.05
 			}
 			add_days_mission_timeout = {
@@ -5016,7 +5016,7 @@ SPR_opposition_civil_war_preparations = {
 				days = -25
 			}
 			add_popularity = {
-			    ideology = national_vanguard
+			    ideology = fascism
 			    popularity = 0.05
 			}
 			add_stability = -0.05
@@ -15975,7 +15975,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -15990,7 +15990,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16009,7 +16009,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16024,7 +16024,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16039,7 +16039,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16054,7 +16054,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16069,7 +16069,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16129,7 +16129,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16144,7 +16144,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16163,7 +16163,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16178,7 +16178,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16193,7 +16193,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16208,7 +16208,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16223,7 +16223,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16283,7 +16283,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16298,7 +16298,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16317,7 +16317,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16332,7 +16332,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16347,7 +16347,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16362,7 +16362,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16377,7 +16377,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16437,7 +16437,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16465,7 +16465,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16497,7 +16497,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16525,7 +16525,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16553,7 +16553,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16581,7 +16581,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16609,7 +16609,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16695,7 +16695,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16710,7 +16710,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16729,7 +16729,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16744,7 +16744,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16759,7 +16759,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16774,7 +16774,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16789,7 +16789,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16849,7 +16849,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16864,7 +16864,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16883,7 +16883,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16898,7 +16898,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16913,7 +16913,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16928,7 +16928,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0
@@ -16943,7 +16943,7 @@ SPR_foreign_arms_purchases = {
 				10 = {
 					modifier = {
 						factor = 0
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					modifier = {
 						factor = 0

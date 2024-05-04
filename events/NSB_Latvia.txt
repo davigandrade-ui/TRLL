@@ -520,14 +520,14 @@ country_event = {
 		trigger = {
 			EST = {
 				exists = yes
-				has_government = national_vanguard
+				has_government = fascism
 				NOT = {
 					is_in_faction_with = ROOT
 				}
 			}
 			LIT = {
 				exists = yes
-				has_government = national_vanguard
+				has_government = fascism
 				NOT = {
 					is_in_faction_with = ROOT
 				}
@@ -539,7 +539,7 @@ country_event = {
 		trigger = {
 			EST = {
 				exists = yes
-				has_government = national_vanguard
+				has_government = fascism
 				NOT = {
 					is_in_faction_with = ROOT
 				}
@@ -548,7 +548,7 @@ country_event = {
 				NOT = {
 					OR = {
 						exists = yes
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 			}
@@ -559,7 +559,7 @@ country_event = {
 		trigger = {
 			LIT = {
 				exists = yes
-				has_government = national_vanguard
+				has_government = fascism
 				NOT = {
 					is_in_faction_with = ROOT
 				}
@@ -568,7 +568,7 @@ country_event = {
 				NOT = {
 					OR = {
 						exists = yes
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 			}
@@ -580,14 +580,14 @@ country_event = {
 		trigger = {
 			EST = {
 				exists = yes
-				has_government = national_vanguard
+				has_government = fascism
 				NOT = {
 					is_in_faction_with = ROOT
 				}
 			}
 			LIT = {
 				exists = yes
-				has_government = national_vanguard
+				has_government = fascism
 				NOT = {
 					is_in_faction_with = ROOT
 				}
@@ -599,7 +599,7 @@ country_event = {
 		trigger = {
 			EST = {
 				exists = yes
-				has_government = national_vanguard
+				has_government = fascism
 				NOT = {
 					is_in_faction_with = ROOT
 				}
@@ -608,7 +608,7 @@ country_event = {
 				NOT = {
 					OR = {
 						exists = yes
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 			}
@@ -619,7 +619,7 @@ country_event = {
 		trigger = {
 			LIT = {
 				exists = yes
-				has_government = national_vanguard
+				has_government = fascism
 				NOT = {
 					is_in_faction_with = ROOT
 				}
@@ -628,7 +628,7 @@ country_event = {
 				NOT = {
 					OR = {
 						exists = yes
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 			}
@@ -649,7 +649,7 @@ country_event = {
 					original_tag = LIT
 					original_tag = EST
 				}
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			country_event = generic.2
 		}
@@ -695,7 +695,7 @@ country_event = {
 			factor = 10
 		}
 		start_civil_war = {
-			ideology = national_vanguard
+			ideology = fascism
 			size = party_popularity@fascism
 		}
 	}
@@ -706,7 +706,7 @@ country_event = {
 			factor = 0
 		}
 		set_politics = {
-			ruling_party = national_vanguard
+			ruling_party = fascism
 			elections_allowed = no
 		}
 	}
@@ -745,14 +745,14 @@ country_event = {
 				}
 			}
 			start_civil_war = {
-				ideology = national_vanguard
+				ideology = fascism
 				size = 0.2
 				capital = 282
 			}
 		}
 		else = { #Regular CW
 			start_civil_war = {
-				ideology = national_vanguard
+				ideology = fascism
 				size = party_popularity@fascism
 				states = {
 					190 809
@@ -814,7 +814,7 @@ country_event = {
 		}
 		set_capital = { state = 809 } #Move the capital to Zemgale
 		start_civil_war = {
-			ruling_party = national_vanguard
+			ruling_party = fascism
 			ideology = neutrality
 			size = 0.45
 			states = {

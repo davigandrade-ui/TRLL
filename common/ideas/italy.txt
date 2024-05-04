@@ -548,7 +548,7 @@ ideas = {
 			modifier = {
 				communism_acceptance = -10
 				democratic_acceptance = -10
-				national_vanguard_acceptance = 10
+				fascism_acceptance = 10
 				ai_focus_aggressive_factor = 0.5
 				justify_war_goal_time = -0.05
 			}
@@ -565,9 +565,9 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					AND = {
-						has_government = national_vanguard
+						has_government = fascism
 						GER = {
-							has_government = national_vanguard
+							has_government = fascism
 						}
 					}
 					AND = {
@@ -655,7 +655,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				NOT = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
 			}
 			
 			removal_cost = -1
@@ -681,7 +681,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				NOT = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
 			}
 			
 			removal_cost = -1
@@ -709,7 +709,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				NOT = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
 			}
 			
 			removal_cost = -1
@@ -737,7 +737,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				NOT = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
 			}
 			
 			removal_cost = -1
@@ -1042,7 +1042,7 @@ ideas = {
 
 			available = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_completed_focus = ITA_security_militias
 				}
 			}
@@ -1052,7 +1052,7 @@ ideas = {
 				resistance_garrison_penetration_chance = -0.1
 				resistance_damage_to_garrison = -0.1
 				conscription_factor = 0.15
-				national_vanguard_drift = 0.02
+				fascism_drift = 0.02
 			}
 		}
 
@@ -1072,7 +1072,7 @@ ideas = {
 
 			available = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_completed_focus = ITA_security_militias
 				}
 			}
@@ -1082,7 +1082,7 @@ ideas = {
 				resistance_garrison_penetration_chance = -0.1
 				resistance_damage_to_garrison = -0.1
 				conscription_factor = 0.15
-				national_vanguard_drift = 0.02
+				fascism_drift = 0.02
 				modifier_army_sub_unit_militia_max_org_factor = 0.05
 			}
 		}
@@ -1103,7 +1103,7 @@ ideas = {
 
 			available = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_completed_focus = ITA_security_militias
 				}
 			}
@@ -1113,7 +1113,7 @@ ideas = {
 				resistance_garrison_penetration_chance = -0.1
 				resistance_damage_to_garrison = -0.1
 				conscription_factor = 0.15
-				national_vanguard_drift = 0.02
+				fascism_drift = 0.02
 				modifier_army_sub_unit_militia_max_org_factor = 0.05
 				non_core_manpower = 0.1
 			}
@@ -1135,7 +1135,7 @@ ideas = {
 
 			available = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_completed_focus = ITA_security_militias
 				}
 			}
@@ -1145,7 +1145,7 @@ ideas = {
 				resistance_garrison_penetration_chance = -0.1
 				resistance_damage_to_garrison = -0.1
 				conscription_factor = 0.15
-				national_vanguard_drift = 0.02
+				fascism_drift = 0.02
 				modifier_army_sub_unit_militia_max_org_factor = 0.1
 				non_core_manpower = 0.1
 			}
@@ -1794,7 +1794,7 @@ ideas = {
 			modifier = {
 				political_power_gain = 0.5
 				war_stability_factor = -0.1
-				national_vanguard_drift = 0.1
+				fascism_drift = 0.1
 				stability_factor = 0.05
 			}
 		}
@@ -1820,7 +1820,7 @@ ideas = {
 			modifier = {
 				political_power_gain = 0.7
 				war_stability_factor = -0.1
-				national_vanguard_drift = 0.12
+				fascism_drift = 0.12
 				stability_factor = 0.07
 			}
 		}
@@ -2009,7 +2009,7 @@ ideas = {
 				
 			allowed = {
 				original_tag = ITA
-				NOT = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
 				NOT = { has_government = neutrality }
 			}
 
@@ -2032,7 +2032,7 @@ ideas = {
 				
 			allowed = {
 				original_tag = ITA
-				NOT = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
 				NOT = { has_government = neutrality }
 			}
 
@@ -2056,7 +2056,7 @@ ideas = {
 				
 			allowed = {
 				original_tag = ITA
-				NOT = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
 				NOT = { has_government = neutrality }
 			}
 
@@ -2081,7 +2081,7 @@ ideas = {
 				
 			allowed = {
 				original_tag = ITA
-				NOT = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
 				NOT = { has_government = neutrality }
 			}
 
@@ -2530,7 +2530,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			
 			modifier = {
@@ -2576,9 +2576,9 @@ ideas = {
 			}
 			
 			modifier = {
-				national_vanguard_acceptance = 80
+				fascism_acceptance = 80
 				neutrality_acceptance = 80
-				national_vanguard_drift = 0.05
+				fascism_drift = 0.05
 				neutrality_drift = 0.05
 			}
 		}
@@ -2938,7 +2938,7 @@ ideas = {
 			}
 	
 			modifier = {
-				national_vanguard_drift = -0.05
+				fascism_drift = -0.05
 				army_attack_factor = 0.05
 			}
 		}
@@ -3073,7 +3073,7 @@ ideas = {
 				command_power_gain_mult = 0.05
 				drift_defence_factor = 0.1
 				army_org_factor = 0.05
-				national_vanguard_drift = 0.1
+				fascism_drift = 0.1
 				army_core_defence_factor = 0.05
 				army_core_attack_factor = 0.05
 				surrender_limit = 0.1
@@ -3122,7 +3122,7 @@ ideas = {
 				army_org_factor = 0.05
 				offensive_war_stability_factor = 0.25
 				puppet_cost_factor = -0.2
-				national_vanguard_drift = 0.05
+				fascism_drift = 0.05
 				compliance_growth = 0.05
 				resistance_decay = 0.01
 			}
@@ -3148,7 +3148,7 @@ ideas = {
 				army_org_factor = 0.05
 				offensive_war_stability_factor = 0.25
 				puppet_cost_factor = -0.2
-				national_vanguard_drift = 0.05
+				fascism_drift = 0.05
 				compliance_growth = 0.05
 				resistance_decay = 0.01
 				subjects_autonomy_gain = -0.1
@@ -3294,7 +3294,7 @@ ideas = {
 				defense_bonus_against = -0.15
 			}
 		}
-		ITA_public_questions_war_effort_idea_national_vanguard = {
+		ITA_public_questions_war_effort_idea_fascism = {
 			name = ITA_public_questions_war_effort_idea 
 			
 			picture = EST_democratic_opposition
@@ -3303,7 +3303,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			available = {
 				has_global_flag = second_italo_ethiopian_war_flag
@@ -3312,7 +3312,7 @@ ideas = {
 			modifier = {
 				political_power_factor = -0.3
 				war_support_weekly = -0.01
-				national_vanguard_drift = -0.01
+				fascism_drift = -0.01
 			}
 		}
 		ITA_public_questions_war_effort_idea_democratic = {

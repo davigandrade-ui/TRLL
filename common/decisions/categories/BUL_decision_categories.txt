@@ -170,7 +170,7 @@ BUL_align_bulgaria = {
 			BUL = { has_government = ROOT }
 			AND = {
 				BUL = { has_government = neutrality }
-				ROOT = { has_government = national_vanguard }
+				ROOT = { has_government = fascism }
 			}
 		}
 	}

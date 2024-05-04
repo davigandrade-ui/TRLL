@@ -773,7 +773,7 @@ characters = {
 				legacy_id = -1
 				visible = {
 					NOT = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 			}
@@ -919,7 +919,7 @@ characters = {
 			legacy_id = -1
 			visible = {
 				NOT = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 		}

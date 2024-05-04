@@ -72,7 +72,7 @@ FRA_civil_unrest_category = {
 		available = {
 			OR = {
 				has_stability > 0.25	
-				has_government = national_vanguard
+				has_government = fascism
 				has_completed_focus = FRA_destroy_the_counter_revolution
 				custom_trigger_tooltip = {
 					tooltip = french_communist_civil_war_intervention_tt 
@@ -138,7 +138,7 @@ FRA_vichy_france = {
 		icon = generic_ignite_civil_war
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			NOT = {
 				GER = { divisions_in_state = { state = 851 size > 0 } } #BBA: Replaced state 21 (Provence - Bouches-du-Rhone) by stat 851 (Provence - Var), where Toulon is
 			}
@@ -155,7 +155,7 @@ FRA_vichy_france = {
 		}
 
 		visible = {
-			has_government = national_vanguard
+			has_government = fascism
 			has_country_flag = case_anton
 		}
 
@@ -198,7 +198,7 @@ FRA_vichy_france = {
 
 		activation = {
 			original_tag = FRA
-			has_government = national_vanguard
+			has_government = fascism
 			OR = {
 				is_subject_of = GER
 				has_focus_tree = vichy_french_focus
@@ -412,13 +412,13 @@ category_test_decisions = {
 				}
 				set_capital = { state = 26 }
 				set_politics = {
-					ruling_party = national_vanguard
+					ruling_party = fascism
 					elections_allowed = no
 				}
 				set_popularities = {
 					democratic = 0
 					neutrality = 20
-					national_vanguard = 80
+					fascism = 80
 					communism = 0
 				}
 				FRA = {
@@ -430,7 +430,7 @@ category_test_decisions = {
 					add_country_leader_role = {
 						country_leader = {
 							expire = "1965.1.1"
-							ideology = national_vanguard
+							ideology = fascism_ideology
 							traits = {
 								
 							}
@@ -1589,14 +1589,14 @@ political_actions = {
 
 		visible = { 
 			has_completed_focus = FRA_utilize_the_leagues 
-			NOT = { has_government = national_vanguard }
+			NOT = { has_government = fascism }
 		}
 
 		days_re_enable = 60
 
 		complete_effect = {
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.05
 			}
 			add_popularity = {
@@ -1618,12 +1618,12 @@ political_actions = {
 
 		visible = { 
 			has_completed_focus = FRA_utilize_the_leagues 
-			NOT = { has_government = national_vanguard }
+			NOT = { has_government = fascism }
 		}
 		days_re_enable = 30
 		complete_effect = {
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.1
 			}
 			add_stability = -0.075

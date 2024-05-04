@@ -14,7 +14,7 @@ defined_text = {
 		trigger = {
 			original_tag = GRE
 			NOT = {
-				has_government = national_vanguard
+				has_government = fascism
 				has_country_leader = { 
 					character = GRE_georgios_kosmidis
 					ruling_only = yes
@@ -26,7 +26,7 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = GRE
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		localization_key = GRE_NENIKIKAMEN_FOCUS_DESCRIPTION_BYZANTINE
 	}
@@ -1892,7 +1892,7 @@ defined_text = {
 			FROM = {
 				NOT = { has_government = ROOT }
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 				}
 			}
@@ -2553,7 +2553,7 @@ defined_text = {
 	name = GetLukovLeader
 	text = {
 		trigger = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		localization_key = BUL_hristo_lukov_death_leader_country
 	}
@@ -2618,7 +2618,7 @@ defined_text = {
 	name = GetLukovConclusion
 	text = {
 		trigger = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		localization_key = BUL_hristo_lukov_death_conclusion_other
 	}

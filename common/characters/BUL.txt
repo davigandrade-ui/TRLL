@@ -99,7 +99,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = national_vanguard
+				ideology = fascism_ideology
 				traits = { hardened_officer }
 				expire = "1966.1.1.1"
 				id = -1
@@ -136,7 +136,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = national_vanguard
+				ideology = fascism_ideology
 				expire = "1965.1.1.1"
 				id = -1
 			}
@@ -605,7 +605,7 @@ characters = {
 						has_completed_focus = BUL_join_the_tripartite_pact
 					}
 					NOT = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 				traits = {
@@ -933,7 +933,7 @@ characters = {
 					has_completed_focus = BUL_approach_germany
 				}
 				NOT = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			traits = {
@@ -1834,7 +1834,7 @@ characters = {
 			available = {
 				has_country_flag = BUL_appointed_bs_members_flag 
 				NOT = {
-					has_government = national_vanguard 
+					has_government = fascism 
 				}
 			}
 			traits = {
@@ -2032,10 +2032,10 @@ characters = {
 		}
 	}
 	
-	BUL_bogdan_filov_national_vanguard = { #TODO_Manu: THIS GUY IS SPLIT INTO TWO VERSIONS -> SHOULD UNIFY
+	BUL_bogdan_filov_fascism = { #TODO_Manu: THIS GUY IS SPLIT INTO TWO VERSIONS -> SHOULD UNIFY
 		advisor = {
 			slot = political_advisor
-			idea_token = BUL_bogdan_filov_national_vanguard
+			idea_token = BUL_bogdan_filov_fascism
 			name = BUL_bogdan_filov 
 			allowed = {
 				has_dlc = "Battle for the Bosporus"
@@ -2051,10 +2051,10 @@ characters = {
 				}
 			}
 			visible = {
-				has_government = national_vanguard 
+				has_government = fascism 
 			}
 			traits = {
-				ambitious_negotiator_national_vanguard 
+				ambitious_negotiator_fascism
 			}
 			ai_will_do = {
 				factor = 1.000
@@ -2092,7 +2092,7 @@ characters = {
 			}
 			visible = {
 				NOT = {
-					has_government = national_vanguard 
+					has_government = fascism 
 				}
 			}
 			traits = {

@@ -3251,7 +3251,7 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = available_political_advisor
 		    show_ideas_tooltip = charles_coughlin
-		    add_popularity = { ideology = national_vanguard popularity = 0.05 }
+		    add_popularity = { ideology = fascism popularity = 0.05 }
 		     if = {
 		    	limit = {
 		    		is_ai = yes
@@ -3346,7 +3346,7 @@ focus_tree = {
 		}
 
 		available = {
-			national_vanguard > 0.15
+			fascism > 0.15
 			congress_high_support_trigger = yes
 		}
 		
@@ -3402,14 +3402,14 @@ focus_tree = {
 		}
 
 		available = {
-			national_vanguard > 0.1
+			fascism > 0.1
 			has_idea_with_trait = fascist_demagogue
 			not = { has_completed_focus = USA_limited_intervention }
 			not = { has_completed_focus = USA_neutrality_act }
 		}
 		
 		bypass = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		cancel_if_invalid = yes
@@ -3449,7 +3449,7 @@ focus_tree = {
 		}
 
 		available = {
-			national_vanguard > 0.2
+			fascism > 0.2
 		}
 		
 		bypass = {
@@ -3701,7 +3701,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_civil_war = yes
-				has_government = national_vanguard
+				has_government = fascism
 				has_government = neutrality
 			}
 		}
@@ -3743,7 +3743,7 @@ focus_tree = {
 
 		available = {
 			congress_high_support_trigger = yes
-			national_vanguard > 0.3
+			fascism > 0.3
 		}
 		
 		bypass = {

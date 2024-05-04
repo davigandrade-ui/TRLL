@@ -187,7 +187,7 @@ ideas = {
 				NOT = {
 					OR = { 
 						has_government = communism
-						has_government = national_vanguard 
+						has_government = fascism 
 					}
 				}
 			}
@@ -212,7 +212,7 @@ ideas = {
 				NOT = {
 					OR = { 
 						has_government = communism
-						has_government = national_vanguard 
+						has_government = fascism 
 					}
 				}
 			}
@@ -237,7 +237,7 @@ ideas = {
 				NOT = {
 					OR = { 
 						has_government = communism
-						has_government = national_vanguard 
+						has_government = fascism 
 					}
 				}
 			}
@@ -430,7 +430,7 @@ ideas = {
 				war_support_factor = 0.1
 				training_time_factor = -0.1
 				neutrality_drift = 0.03
-				national_vanguard_drift = 0.01
+				fascism_drift = 0.01
 			}
 		}
 
@@ -451,7 +451,7 @@ ideas = {
 			modifier = {
 				war_support_factor = 0.1
 				training_time_factor = -0.1
-				national_vanguard_drift = 0.03
+				fascism_drift = 0.03
 			}
 		}
 
@@ -822,7 +822,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 
 			picture = generic_fascism_drift_bonus
@@ -831,7 +831,7 @@ ideas = {
 				
 			modifier = {
 				stability_factor = 0.05
-				national_vanguard_drift = 0.05
+				fascism_drift = 0.05
 			}
 		}
 
@@ -1239,7 +1239,7 @@ ideas = {
 				NOT = {
 					OR = { 
 						has_government = communism
-						has_government = national_vanguard 
+						has_government = fascism 
 						has_government = democratic 
 					}
 				}
@@ -1276,7 +1276,7 @@ ideas = {
 				NOT = {
 					OR = { 
 						has_government = communism
-						has_government = national_vanguard 
+						has_government = fascism 
 						has_government = democratic 
 					}
 				}
@@ -1313,7 +1313,7 @@ ideas = {
 				NOT = {
 					OR = { 
 						has_government = communism
-						has_government = national_vanguard 
+						has_government = fascism 
 						has_government = democratic 
 					}
 				}
@@ -1349,7 +1349,7 @@ ideas = {
 				NOT = {
 					OR = { 
 						has_government = communism
-						has_government = national_vanguard 
+						has_government = fascism 
 						has_government = democratic 
 					}
 				}
@@ -1386,7 +1386,7 @@ ideas = {
 				NOT = {
 					OR = { 
 						has_government = communism
-						has_government = national_vanguard 
+						has_government = fascism 
 						has_government = democratic 
 					}
 				}
@@ -1482,7 +1482,7 @@ ideas = {
 				army_core_defence_factor = 0.1
 				conscription_factor = 0.15	
 				drift_defence_factor = 1.00	
-				national_vanguard_drift = 0.05				
+				fascism_drift = 0.05				
 			}
 		}
 

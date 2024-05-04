@@ -835,14 +835,14 @@ on_actions = {
 					has_dlc = "Trial of Allegiance"
 					ROOT = {
 						original_tag = GER
-						has_government = national_vanguard
+						has_government = fascism
 						has_country_leader = {
 							character = GER_adolf_hitler
 							ruling_only = yes
 						}
 					}
 					ARG = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				} 
 				ARG = {

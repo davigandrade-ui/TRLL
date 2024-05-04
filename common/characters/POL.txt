@@ -328,7 +328,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology=national_vanguard
+			ideology=fascism_ideology
 			expire="1965.1.1.1"
 			traits = { POL_cossack_king }
 			id=-1
@@ -396,7 +396,7 @@ characters = {
 		}
 		
 		country_leader = {
-			ideology=national_vanguard
+			ideology=fascism_ideology
 			expire="1965.1.1.1"
 			id=-1
 			traits = { father_of_polish_nationalism }
@@ -1384,7 +1384,7 @@ characters = {
 				has_completed_focus = POL_assemble_the_regency_council
 				OR = {
 					has_government = neutrality
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			visible = {
@@ -1479,7 +1479,7 @@ characters = {
 				has_completed_focus = POL_assemble_the_regency_council
 				OR = {
 					has_government = neutrality
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			traits = {
@@ -1620,7 +1620,7 @@ characters = {
 				modifier = {
 					factor = 0.000
 					NOT = {
-						has_government = national_vanguard 
+						has_government = fascism 
 					}
 				}
 			}

@@ -548,7 +548,7 @@ country_event = {
 			}			
 			modifier = {
 				factor = 2		
-				national_vanguard > 0.5
+				fascism > 0.5
 			}
 		}	
 		set_global_flag = RAJ_seek_help_from_germany_promised
@@ -691,11 +691,11 @@ country_event = {
 		}
 		GER = { add_to_faction = RAJ }
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = 0.35
 		}
 		set_politics = {
-			ruling_party = national_vanguard
+			ruling_party = fascism
 			elections_allowed = no
 		}
 		hidden_effect = {

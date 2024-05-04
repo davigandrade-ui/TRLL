@@ -94,7 +94,7 @@ bookmarks = {
 		"OTT"={
 		minor = yes
 			history = "REM_GATHERING_STORM_DESC"
-			ideology = national_vanguard
+			ideology = fascism
 			ideas = {
 				TUR_sectarian_woes_1
 				TUR_irregular_army

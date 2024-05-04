@@ -18,7 +18,7 @@ set_party_name = { # DLC
 	long_name = BUL_communism_party_bulgarian_long
 }
 set_party_name = { # DLC
-	ideology = national_vanguard
+	ideology = fascism
 	name = BUL_fascism_party_bulgarian
 	long_name = BUL_fascism_party_bulgarian_long
 }
@@ -189,7 +189,7 @@ if = { #DLC
 	#DLC POLIICS
 	set_popularities = { #DLC
 		democratic = 10
-		national_vanguard = 30
+		fascism = 30
 		neutrality = 55
 		communism = 5
 	}
@@ -287,7 +287,7 @@ if = { #DLC
 		#POLITICS
 		set_popularities = { #VANILLA
 			democratic = 5
-			national_vanguard = 35
+			fascism = 35
 			neutrality = 60
 		}
 		set_politics = { #VANILLA
@@ -353,7 +353,7 @@ if = {
 	#POLIICS
 	set_popularities = { #VANILLA & DLC //  # Will get +7 from Italian focus: Potential Allies in the Balkans
 		democratic = 5
-		national_vanguard = 35
+		fascism = 35
 		neutrality = 60
 	}
 	set_politics = { #VANILLA & DLC

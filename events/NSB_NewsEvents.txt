@@ -38,7 +38,7 @@ news_event = {
 	option = { #Fascist Germany revels at Poland tearing itself apart
 		name = nsb_news.1.d
 		trigger = {
-			has_government = national_vanguard
+			has_government = fascism
 			original_tag = GER
 		}
 	}
@@ -53,7 +53,7 @@ news_event = {
 				}
 				AND = {
 					original_tag = GER
-					NOT = { has_government = national_vanguard }
+					NOT = { has_government = fascism }
 				}
 			}
 		}
@@ -458,7 +458,7 @@ news_event = {
 		trigger = {
 			NOT = { tag = FROM }
 			OR = {
-				has_government = national_vanguard
+				has_government = fascism
 				has_government = neutrality 
 			}
 			NOT = { has_country_leader_ideology = anarchism}
@@ -1224,14 +1224,14 @@ news_event = {
 		name = nsb_news.401.b
 		trigger = {
 			NOT = { tag = FROM }
-			NOT = { has_government = national_vanguard }
+			NOT = { has_government = fascism }
 		}
 	}
 	option = {
 		name = nsb_news.401.c
 		trigger = {
 			NOT = { tag = FROM }
-			has_government = national_vanguard
+			has_government = fascism
 		}
 	}
 }
@@ -1266,7 +1266,7 @@ news_event = {
 				tag = FROM
 				tag = GER
 			}
-			has_government = national_vanguard
+			has_government = fascism
 		}
 	}
 	option = {
@@ -1276,7 +1276,7 @@ news_event = {
 				tag = FROM
 				tag = GER
 			}
-			NOT = { has_government = national_vanguard }
+			NOT = { has_government = fascism }
 		}
 	}
 }
@@ -1311,7 +1311,7 @@ news_event = {
 				tag = FROM
 				tag = USA
 			}
-			has_government = national_vanguard
+			has_government = fascism
 		}
 	}
 	option = {
@@ -1321,7 +1321,7 @@ news_event = {
 				tag = FROM
 				tag = USA
 			}
-			NOT = { has_government = national_vanguard }
+			NOT = { has_government = fascism }
 		}
 	}
 }

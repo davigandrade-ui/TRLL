@@ -39,7 +39,7 @@ ideas = {
 			modifier = {
 				stability_factor = -0.05
 				neutrality_drift = 0.03
-				national_vanguard_drift = 0.03
+				fascism_drift = 0.03
 				war_support_factor = -0.05
 			}
 
@@ -711,7 +711,7 @@ ideas = {
 			removal_cost = -1
 			picture = ARG_anti_british_sentiment
 			modifier = {
-				national_vanguard_drift = 0.01
+				fascism_drift = 0.01
 				consumer_goods_factor = -0.1
 				war_support_factor = 0.05
 			}
@@ -731,7 +731,7 @@ ideas = {
 			removal_cost = -1
 			picture = ARG_military_government
 			modifier = {
-				national_vanguard_drift = 0.15
+				fascism_drift = 0.15
 				war_support_factor = 0.1
 				conscription_factor = 0.1
 				training_time_factor = 0.15
@@ -752,7 +752,7 @@ ideas = {
 			removal_cost = -1
 			picture = ARG_spirit_of_the_conquistadors
 			modifier = {
-				national_vanguard_drift = 0.15
+				fascism_drift = 0.15
 				war_support_factor = 0.1
 				justify_war_goal_time = -0.2
 				army_attack_factor = 0.06
@@ -815,7 +815,7 @@ ideas = {
 			removal_cost = -1
 			picture = ARG_war_division
 			modifier = {
-				national_vanguard_drift = 0.12
+				fascism_drift = 0.12
 				weekly_manpower = 250
 				production_speed_arms_factory_factor = 0.05
 			}
@@ -859,7 +859,7 @@ ideas = {
 			modifier = {
 				war_support_factor = 0.1
 				training_time_factor = -0.25
-				national_vanguard_drift = 0.15
+				fascism_drift = 0.15
 			}
 
 			targeted_modifier = {

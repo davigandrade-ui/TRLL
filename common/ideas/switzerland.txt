@@ -98,13 +98,13 @@ ideas = {
 		SWI_banned_foreign_nazi_propaganda_idea = {
 			allowed = { 
 				original_tag = SWI 
-				NOT = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
 			} 
 			removal_cost = -1
 			picture = generic_national_vanguard_banned
 
 			modifier = {
-				national_vanguard_drift = -0.05
+				fascism_drift = -0.05
 			}
 		}
 
@@ -207,7 +207,7 @@ ideas = {
 			allowed = { 
 				original_tag = SWI 
 				NOT = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			} 
 			removal_cost = -1 
@@ -225,7 +225,7 @@ ideas = {
 			allowed = { 
 				original_tag = SWI 
 				NOT = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			} 
 			removal_cost = -1 
@@ -243,7 +243,7 @@ ideas = {
 			allowed = { 
 				original_tag = SWI 
 				NOT = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				NOT = {has_dlc = "La Resistance"}
 			} 
@@ -273,7 +273,7 @@ ideas = {
 
 			modifier = {
 				intelligence_agency_defense = 0.2
-				national_vanguard_drift = 0.01
+				fascism_drift = 0.01
 			}
 		}
 
@@ -283,7 +283,7 @@ ideas = {
 			allowed = { original_tag = SWI }
 
 			modifier = {
-				national_vanguard_drift = 0.01
+				fascism_drift = 0.01
 			}
 		}
 
@@ -294,7 +294,7 @@ ideas = {
 
 			modifier = {
 				intelligence_agency_defense = 0.3
-				national_vanguard_drift = 0.02
+				fascism_drift = 0.02
 				drift_defence_factor = 0.15
 				enemy_operative_capture_chance_factor = 0.2
 				resistance_growth_on_our_occupied_states = 0.05
@@ -306,7 +306,7 @@ ideas = {
 			allowed = { original_tag = SWI }
 
 			modifier = {
-				national_vanguard_drift = 0.02
+				fascism_drift = 0.02
 				drift_defence_factor = 0.15
 				resistance_growth_on_our_occupied_states = 0.05
 				navy_intel_to_others = -1
@@ -325,7 +325,7 @@ ideas = {
 
 			modifier = {
 				intelligence_agency_defense = 0.35
-				national_vanguard_drift = 0.02
+				fascism_drift = 0.02
 				drift_defence_factor = 0.15
 				enemy_operative_capture_chance_factor = 0.25
 				required_garrison_factor  = -0.25
@@ -342,7 +342,7 @@ ideas = {
 
 			modifier = {
 
-				national_vanguard_drift = 0.02
+				fascism_drift = 0.02
 				drift_defence_factor = 0.20
 				resistance_growth_on_our_occupied_states = 0.2
 				navy_intel_to_others = -2
@@ -364,7 +364,7 @@ ideas = {
 
 			modifier = {
 				intelligence_agency_defense = -0.2
-				national_vanguard_drift = 0.03
+				fascism_drift = 0.03
 				drift_defence_factor = -0.15
 			}
 		}
@@ -380,7 +380,7 @@ ideas = {
 				airforce_intel_to_others = 1
 				army_intel_to_others = 1
 				civilian_intel_to_others = 1
-				national_vanguard_drift = 0.03
+				fascism_drift = 0.03
 				drift_defence_factor = -0.1
 			}
 
@@ -663,13 +663,13 @@ ideas = {
 			allowed = {
 				tag = SWI
 				any_neighbor_country ={
-					has_government = national_vanguard 
+					has_government = fascism 
 				}
 			}
 			removal_cost = -1 
 			picture = generic_fascism_drift_bonus
 			modifier = {
-				national_vanguard_drift = 0.04
+				fascism_drift = 0.04
 			}
 		}
 
@@ -680,7 +680,7 @@ ideas = {
 			removal_cost = -1 
 			picture = generic_fascism_drift_bonus
 			modifier = {
-				national_vanguard_drift = 0.08
+				fascism_drift = 0.08
 			}			
 		}
 

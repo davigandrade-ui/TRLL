@@ -193,7 +193,7 @@ ideologies = {
 		ai_ideology_wanted_units_factor = 1.15
 	}
 	
-	national_vanguard = {
+	fascism = {
 
 		types = {
 
@@ -209,7 +209,7 @@ ideologies = {
 			clerical_national_vanguard = {
 			}
 			
-			national_vanguard = {
+			fascism_ideology = {
 			}
 			
 		}

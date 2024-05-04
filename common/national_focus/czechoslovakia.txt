@@ -1349,7 +1349,7 @@
 			}
 			every_other_country = {
 				limit = { 
-					has_government = national_vanguard
+					has_government = fascism
 					num_of_factories > 30
 				}
 				add_opinion_modifier = { 
@@ -1741,7 +1741,7 @@
 			#allow nazi leader
 			every_other_country = {
 				limit = { 
-					has_government = national_vanguard
+					has_government = fascism
 					num_of_factories > 30
 				}
 				add_opinion_modifier = { 
@@ -1787,7 +1787,7 @@
 		}
 
 		available = {
-			national_vanguard > 0.35
+			fascism > 0.35
 		}
 
 		bypass = {
@@ -1819,7 +1819,7 @@
 		}
 
 		available = {
-			national_vanguard > 0.5
+			fascism > 0.5
 		}
 
 		bypass = {
@@ -1893,7 +1893,7 @@
 		}
 
 		available = {
-			national_vanguard > 0.6
+			fascism > 0.6
 		}
 
 		bypass = {
@@ -1941,7 +1941,7 @@
 		}
 
 		available = {
-			national_vanguard > 0.6
+			fascism > 0.6
 			NOT = {
 				has_idea = CZE_divided_nation
 			}
@@ -1981,7 +1981,7 @@
 
 		available = {
 			is_in_faction = no
-			GER = { has_government = national_vanguard }
+			GER = { has_government = fascism }
 			GER = { exists = yes }
 			GER = { is_subject = no }
 			has_army_manpower = { size > 249999 } 
@@ -2022,7 +2022,7 @@
 
 		available = {
 			is_in_faction = no
-			GER = { has_government = national_vanguard }
+			GER = { has_government = fascism }
 			GER = { exists = yes }
 			GER = { is_subject = no }
 			has_army_manpower = { size > 299999 } 

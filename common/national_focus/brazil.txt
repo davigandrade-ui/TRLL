@@ -154,7 +154,7 @@ focus_tree = {
 			custom_effect_tooltip = BRA_modify_aotci_ns_intro
 			add_to_variable = {
 				BRA_coup_fascism_factor = 0.05
-				tooltip = national_vanguard_drift_factor_tt
+				tooltip = fascism_drift_factor_tt
 			}
 		}
 	}
@@ -176,14 +176,14 @@ focus_tree = {
 		}
 
 		bypass = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			
-			#set_country_leader_ideology = national_vanguard
+			#set_country_leader_ideology = fascism
 			custom_effect_tooltip = BRA_estado_moderno_tt
 			hidden_effect = {
 			every_other_country = {
@@ -201,7 +201,7 @@ focus_tree = {
 				BRA_getulio_vargas = { 
 					add_country_leader_role = {
 						country_leader = {
-							ideology = national_vanguard
+							ideology = fascism_ideology
 							expire = "1965.1.1.1"
 							traits = {
 								#war_industrialist
@@ -212,7 +212,7 @@ focus_tree = {
 				}
 			}
 			set_politics = {
-				ruling_party = national_vanguard
+				ruling_party = fascism
 				last_election = "1934.3.26"
 				election_frequency = 48
 				elections_allowed = no
@@ -304,7 +304,7 @@ focus_tree = {
 		cost = 10
 		available = {
 			OR = {
-				national_vanguard > 0.50
+				fascism > 0.50
 				neutrality > 0.50
 			}
 		}
@@ -591,15 +591,15 @@ focus_tree = {
 		completion_reward = {
 			IF = {
 				limit = {
-					national_vanguard > 0.4
+					fascism > 0.4
 				}
 				start_civil_war = {
-					ideology = national_vanguard #SPLITTING TAG
+					ideology = fascism #SPLITTING TAG
 					size = party_popularity@fascism
 				}
 				hidden_effect = {
 					set_popularities = {
-						national_vanguard = 0
+						fascism = 0
 					}
 				}
 			}
@@ -634,7 +634,7 @@ focus_tree = {
 			custom_effect_tooltip = BRA_modify_estado_novo_ns_intro
 			add_to_variable = {
 				BRA_estado_novo_fascism_factor = -0.2
-				tooltip = national_vanguard_drift_factor_tt
+				tooltip = fascism_drift_factor_tt
 			}
 			add_to_variable = {
 				BRA_estado_novo_democratic_factor = -0.2
@@ -958,7 +958,7 @@ focus_tree = {
 			BRA_plinio_salgado = {
 				add_country_leader_role = {
 					country_leader = {
-						ideology=national_vanguard
+						ideology=fascism
 						expire="1965.1.1.1"
 						id=-1
 						traits = {
@@ -985,7 +985,7 @@ focus_tree = {
 			factor = 20
 		}
 		available = {
-			national_vanguard > 0.7
+			fascism > 0.7
 		}
 
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
@@ -2799,14 +2799,14 @@ focus_tree = {
 		available = {
 			NOT = {
 				USA = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			any_country = {
 				capital_scope = {
 					is_on_continent = south_america
 				}
-				has_government = national_vanguard
+				has_government = fascism
 				NOT = {
 					OR = {
 						original_tag = ELS
@@ -2827,7 +2827,7 @@ focus_tree = {
 						capital_scope = {
 							is_on_continent = south_america
 						}
-						has_government = national_vanguard
+						has_government = fascism
 						NOT = {
 							OR = {
 								original_tag = ELS
@@ -3017,14 +3017,14 @@ focus_tree = {
 			modifier = {
 				factor = 10
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_completed_focus = BRA_empire_of_brazil
 				}
 			}
 		}
 		available = {
 			OR = {
-				has_government = national_vanguard
+				has_government = fascism
 				has_government = neutrality
 			}
 			has_army_manpower = { size > 199999 }
@@ -3084,7 +3084,7 @@ focus_tree = {
 			is_in_faction = no
 			GER = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 				}
 				NOT = {
@@ -3948,7 +3948,7 @@ focus_tree = {
 			is_in_faction = no
 			ITA = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 				}
 				NOT = {
@@ -4012,7 +4012,7 @@ focus_tree = {
 		available = {
 			ITA = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 				}
 			}
@@ -6639,7 +6639,7 @@ focus_tree = {
 				capital_scope = {
 					is_on_continent = south_america
 				}
-				has_government = national_vanguard
+				has_government = fascism
 				NOT = {
 					OR = {
 						original_tag = ELS
@@ -6659,7 +6659,7 @@ focus_tree = {
 						capital_scope = {
 							is_on_continent = south_america
 						}
-						has_government = national_vanguard
+						has_government = fascism
 						NOT = {
 							OR = {
 								original_tag = ELS

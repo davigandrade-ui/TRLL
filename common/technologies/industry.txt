@@ -247,7 +247,7 @@ technologies = {
 
 			modifier = {
 				factor = 0
-				NOT = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
 			}
 		}
 		
@@ -279,7 +279,7 @@ technologies = {
 
 			modifier = {
 				factor = 0
-				NOT = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
 			}
 		}
 		

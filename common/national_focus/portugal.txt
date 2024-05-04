@@ -74,7 +74,7 @@ focus_tree = {
 	focus = {
 		id = POR_luso_tropicalism
 		available = {
-			NOT = { has_government = national_vanguard }
+			NOT = { has_government = fascism }
 			OR = {
 				has_full_control_of_state = 796 #North Angola
 				has_full_control_of_state = 540 #Luanda
@@ -92,7 +92,7 @@ focus_tree = {
 				add = 1
 				OR = {
 					has_government = neutrality
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = communism
 				}
 			}
@@ -135,7 +135,7 @@ focus_tree = {
 			modifier = {
 				factor = 0
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 				}			
 			}
@@ -2735,7 +2735,7 @@ focus_tree = {
 		id = POR_cooperate_with_french_militants
 		available = {
 			any_other_country = {
-				has_government = national_vanguard
+				has_government = fascism
 				has_war_with = FRA
 			}
 		}
@@ -2743,7 +2743,7 @@ focus_tree = {
 		bypass = {
 			NOT = {
 				any_other_country = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_war_with = FRA
 				}
 			}		
@@ -2800,7 +2800,7 @@ focus_tree = {
 		select_effect = {
 			every_country = {
 				limit = {
-					has_government = national_vanguard
+					has_government = fascism
 					NOT = { is_in_faction_with = ROOT }
 					OR = {
 						is_major = yes
@@ -2819,7 +2819,7 @@ focus_tree = {
 
 		available = {
 			any_country = {
-				has_government = national_vanguard
+				has_government = fascism
 				NOT = { is_in_faction_with = ROOT }
 				OR = {
 					is_major = yes
@@ -2841,7 +2841,7 @@ focus_tree = {
 			hidden_effect = {
 				every_country = {
 					limit = {
-						has_government = national_vanguard
+						has_government = fascism
 						NOT = { is_in_faction_with = ROOT }
 						OR = {
 							is_major = yes
@@ -2860,7 +2860,7 @@ focus_tree = {
 			custom_effect_tooltip = POR_anti_fascism_tt
 			every_country = { #TOOLTIP Support
 				limit = {
-					has_government = national_vanguard
+					has_government = fascism
 					NOT = { is_in_faction_with = ROOT }
 					OR = {
 						is_major = yes
@@ -2872,7 +2872,7 @@ focus_tree = {
 			hidden_effect = {
 				random_country = {
 					limit = {
-						has_government = national_vanguard
+						has_government = fascism
 						NOT = { is_in_faction_with = ROOT }
 						OR = {
 							is_major = yes
@@ -4137,7 +4137,7 @@ focus_tree = {
 					multiply_temp_variable = { POR_democratic_cw_opposition = 0.6 }
 					add_to_temp_variable = { POR_democratic_cw_opposition = party_popularity@fascism }
 					start_civil_war = {	
-						ideology = national_vanguard
+						ideology = fascism
 						size = POR_democratic_cw_opposition
 						capital = 180
 						states = { 181 }
@@ -4254,7 +4254,7 @@ focus_tree = {
 		available = {
 			country_exists = GER
 			GER = {
-				has_government = national_vanguard
+				has_government = fascism
 				has_capitulated = no
 			}		
 		}
@@ -5061,7 +5061,7 @@ focus_tree = {
 	focus = {
 		id = POR_ditadura_militar
 		available = {	
-			national_vanguard > 0.4
+			fascism > 0.4
 			has_war = no
 		}
 
@@ -5080,7 +5080,7 @@ focus_tree = {
 			remove_ideas = POR_estado_novo
 			every_country = {
 				limit = { 
-					has_government = national_vanguard
+					has_government = fascism
 					is_major = yes
 					capital_scope = {
 						is_on_continent = europe
@@ -5093,10 +5093,10 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					NOT = { has_government = national_vanguard }
+					NOT = { has_government = fascism }
 				}
 				set_politics = {
-					ruling_party = national_vanguard
+					ruling_party = fascism
 				}	
 				
 				if = { #Low Stability triggers a Civil War
@@ -5122,7 +5122,7 @@ focus_tree = {
 			else = {
 				add_political_power = 120
 				add_popularity = {
-				    ideology = national_vanguard
+				    ideology = fascism
 				    popularity = 0.05
 				}
 			}
@@ -5132,7 +5132,7 @@ focus_tree = {
 	focus = {
 		id = POR_camisas_azuis
 		available = {
-			has_government = national_vanguard			
+			has_government = fascism			
 		}
 
 		bypass = {		
@@ -5154,7 +5154,7 @@ focus_tree = {
 		id = POR_join_the_axis
 		available = {
 			is_in_faction = no
-			has_government = national_vanguard	
+			has_government = fascism	
 			GER	= { 
 				exists = yes
 				is_faction_leader = yes 
@@ -5212,7 +5212,7 @@ focus_tree = {
 	focus = {
 		id = POR_the_fifth_empire
 		available = {	
-			has_government = national_vanguard		
+			has_government = fascism		
 		}
 
 		bypass = {		
@@ -5849,7 +5849,7 @@ focus_tree = {
 				set_popularities = {
 						communism = com_pop
 						democratic = dem_pop
-						national_vanguard = fas_pop
+						fascism = fas_pop
 						neutrality = neu_pop
 					}
 			}
@@ -5865,7 +5865,7 @@ focus_tree = {
 				}
 
 				add_popularity = {
-				    ideology = national_vanguard
+				    ideology = fascism
 				    popularity = 0.10
 				}			
 			}
@@ -6172,7 +6172,7 @@ focus_tree = {
 						    name = BRA_monarchy_party
 						}
 						set_party_name = { 
-						    ideology = national_vanguard
+						    ideology = fascism
 						    long_name = BRA_antimonarchist_coalition_long
 						    name = BRA_antimonarchist_coalition
 						}
@@ -6185,13 +6185,13 @@ focus_tree = {
 								} 
 							}
 							set_politics = {
-								ruling_party = national_vanguard
+								ruling_party = fascism
 							}
 						}
 						set_popularities = {
 							democratic = 0
 							neutrality = 20
-							national_vanguard = 80
+							fascism = 80
 							communism = 0
 						}
 						hidden_effect = {
@@ -6204,7 +6204,7 @@ focus_tree = {
 							add_country_leader_role = {
 								country_leader = {
 									expire = "1954.8.24"
-									ideology = national_vanguard
+									ideology = fascism
 									traits = {
 										anti_communist
 									}
@@ -6345,7 +6345,7 @@ focus_tree = {
 				add_to_temp_variable = { POR_monarchist_cw_opposition = party_popularity@communism }
 				add_to_temp_variable = { POR_monarchist_cw_opposition = party_popularity@democratic }
 				start_civil_war = {	
-					ideology = national_vanguard
+					ideology = fascism
 					size = POR_monarchist_cw_opposition
 					capital = 180
 					states = { 181 }
@@ -6485,7 +6485,7 @@ focus_tree = {
 		select_effect = {
 			random_country = {
 				limit = {
-					has_government = national_vanguard
+					has_government = fascism
 					NOT = { is_in_faction_with = ROOT }
 					OR = {
 						is_major = yes
@@ -6504,7 +6504,7 @@ focus_tree = {
 
 		available = {
 			any_country = {
-				has_government = national_vanguard
+				has_government = fascism
 				NOT = { is_in_faction_with = ROOT }
 				OR = {
 					is_major = yes
@@ -6526,7 +6526,7 @@ focus_tree = {
 			hidden_effect = {
 				every_country = {
 					limit = {
-						has_government = national_vanguard
+						has_government = fascism
 						NOT = { is_in_faction_with = ROOT }
 						OR = {
 							is_major = yes
@@ -6545,7 +6545,7 @@ focus_tree = {
 			custom_effect_tooltip = POR_deal_with_fascism_tt
 			every_country = { #TOOLTIP Support
 				limit = {
-					has_government = national_vanguard
+					has_government = fascism
 					NOT = { is_in_faction_with = ROOT }
 					OR = {
 						is_major = yes
@@ -6557,7 +6557,7 @@ focus_tree = {
 			hidden_effect = {
 				random_country = {
 					limit = {
-						has_government = national_vanguard
+						has_government = fascism
 						NOT = { is_in_faction_with = ROOT }
 						OR = {
 							is_major = yes

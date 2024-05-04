@@ -27,7 +27,7 @@ ideas = {
 			modifier = {
 				stability_factor = -0.05
 				conscription = 0.002
-				national_vanguard_drift = 0.05
+				fascism_drift = 0.05
 			}
 	
 			ai_will_do = {
@@ -209,7 +209,7 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			
 			modifier = {
-				national_vanguard_acceptance = -50
+				fascism_acceptance = -50
 			}
 		}
 		

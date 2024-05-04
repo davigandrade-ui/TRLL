@@ -18,8 +18,8 @@ ideas = {
 			}
 			
 			modifier = {
-				national_vanguard_drift = 0.1
-				national_vanguard_acceptance = 100
+				fascism_drift = 0.1
+				fascism_acceptance = 100
 			}
 		}
 	
@@ -35,7 +35,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			

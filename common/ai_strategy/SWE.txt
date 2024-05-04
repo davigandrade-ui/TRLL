@@ -315,7 +315,7 @@ make_SWE_unpopular = {
 	enable = {
 		is_historical_focus_on = yes
 		SWE = {
-			NOT = { has_government = national_vanguard }
+			NOT = { has_government = fascism }
 			NOT = { has_government = neutrality }
 		}
 		date < 1946.1.1

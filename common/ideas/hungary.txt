@@ -146,12 +146,12 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 
 			available = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					AND = {
 						has_government = neutrality
 						NOT = { has_completed_focus = HUN_renounce_the_treaty_of_trianon }
@@ -160,7 +160,7 @@ ideas = {
 			}
 			
 			modifier = {
-				national_vanguard_drift = 0.034
+				fascism_drift = 0.034
 				stability_factor = 0.1
 			}
 		}
@@ -182,7 +182,7 @@ ideas = {
 			
 			modifier = {
 				democratic_drift = 0.02
-				national_vanguard_drift = -0.01
+				fascism_drift = -0.01
 				communism_drift = -0.01
 				stability_factor = 0.1
 			}
@@ -247,7 +247,7 @@ ideas = {
 			picture = generic_fascism_drift_2
 			
 			modifier = {
-				national_vanguard_drift = 0.03
+				fascism_drift = 0.03
 			}
 		}
 

@@ -1324,7 +1324,7 @@ focus_tree = {
 		relative_position_id = ETH_old_reliable
 		cost = 10
 		available = {
-			NOT = { has_government = national_vanguard}
+			NOT = { has_government = fascism}
 		}
 		ai_will_do = {
 			base = 1
@@ -1735,7 +1735,7 @@ focus_tree = {
 			base = 1
 			modifier = {
 				factor = 2
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 
@@ -1766,7 +1766,7 @@ focus_tree = {
 			base = 1
 			modifier = {
 				factor = 1.5
-				NOT = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
 			}
 		}
 
@@ -1879,7 +1879,7 @@ focus_tree = {
 			base = 1
 			modifier = {
 				factor = 2
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 
@@ -3475,7 +3475,7 @@ focus_tree = {
 		}
 		available_if_capitulated = yes 
 		bypass = { 
-			USA = { has_government = national_vanguard }
+			USA = { has_government = fascism }
 		}
 		allow_branch = {
 			OR = {
@@ -4705,7 +4705,7 @@ focus_tree = {
 			add_political_power = 125
 			add_popularity = {
 				popularity = -0.1
-				ideology = national_vanguard 
+				ideology = fascism 
 			}
 			custom_effect_tooltip = ETH_empower_the_chambers_tt 
 			add_to_variable = { ETH_bureaucracy_production_speed_buildings_factor = 0.05 }
@@ -5922,7 +5922,7 @@ focus_tree = {
 				IF = {
 					limit = {
 						OR = { 
-							has_government = national_vanguard
+							has_government = fascism
 							has_government = neutrality
 						}
 					}
@@ -6350,12 +6350,12 @@ focus_tree = {
 				any_country = {
 					original_tag = FRA 
 					exists = yes 
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				any_country = {
 					original_tag = FRA 
 					exists = yes 
-					NOT = { has_government = national_vanguard }
+					NOT = { has_government = fascism }
 				}
 			}
 		}
@@ -7022,7 +7022,7 @@ focus_tree = {
 				limit = {
 					is_major = yes
 					NOT = {
-						has_government = national_vanguard
+						has_government = fascism
 						tag = SOV
 					}
 
@@ -7388,7 +7388,7 @@ focus_tree = {
 			subtract_from_variable = { ETH_civil_war_size = 0.2 }
 			subtract_from_variable = { ETH_civil_war_army = 0.05}
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.1
 			}
 			ETH_BOP_decentralization_large_effect = yes 
@@ -7466,7 +7466,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.05
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.15
 			}
 			add_timed_idea = {
@@ -7601,7 +7601,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.1
 			}
 			add_war_support = 0.05
@@ -7654,7 +7654,7 @@ focus_tree = {
 			ITA = {
 				has_civil_war = no
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_completed_focus = ITA_monarchia_d_italia
 					hidden_trigger = {
 						has_government = neutrality # if ITA has been couped to be a monarchy
@@ -7824,12 +7824,12 @@ focus_tree = {
 				any_country = {
 					original_tag = FRA 
 					exists = yes 
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				any_country = {
 					original_tag = FRA 
 					exists = yes 
-					NOT = { has_government = national_vanguard }
+					NOT = { has_government = fascism }
 				}
 			}
 		}
@@ -7854,7 +7854,7 @@ focus_tree = {
 			ITA = {
 				has_civil_war = no
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_completed_focus = ITA_monarchia_d_italia
 					hidden_trigger = {
 						has_government = neutrality # if ITA has been couped to be a monarchy
@@ -7883,7 +7883,7 @@ focus_tree = {
 			ITA = {
 				has_civil_war = no
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_completed_focus = ITA_monarchia_d_italia
 					hidden_trigger = {
 						has_government = neutrality # if ITA has been couped to be a monarchy
@@ -8001,7 +8001,7 @@ focus_tree = {
 			ITA = {
 				has_civil_war = no
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_completed_focus = ITA_monarchia_d_italia
 					hidden_trigger = {
 						has_government = neutrality # if ITA has been couped to be a monarchy
@@ -8032,7 +8032,7 @@ focus_tree = {
 			ITA = {
 				has_civil_war = no
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_completed_focus = ITA_monarchia_d_italia
 					hidden_trigger = {
 						has_government = neutrality # if ITA has been couped to be a monarchy
@@ -8223,7 +8223,7 @@ focus_tree = {
 			ITA = {
 				has_civil_war = no
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_completed_focus = ITA_monarchia_d_italia
 					hidden_trigger = {
 						has_government = neutrality # if ITA has been couped to be a monarchy
@@ -8422,7 +8422,7 @@ focus_tree = {
 			ITA = {
 				has_civil_war = no
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_completed_focus = ITA_monarchia_d_italia
 					hidden_trigger = {
 						has_government = neutrality # if ITA has been couped to be a monarchy
@@ -8468,7 +8468,7 @@ focus_tree = {
 			ITA = {
 				has_civil_war = no
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_completed_focus = ITA_monarchia_d_italia
 					hidden_trigger = {
 						has_government = neutrality # if ITA has been couped to be a monarchy
@@ -8547,7 +8547,7 @@ focus_tree = {
 			ITA = {
 				has_civil_war = no
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_completed_focus = ITA_monarchia_d_italia
 					hidden_trigger = {
 						has_government = neutrality # if ITA has been couped to be a monarchy

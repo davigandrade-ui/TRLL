@@ -375,7 +375,7 @@
 				random_other_country = {
 					limit = {
 						original_tag = JAP
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					hidden_effect = {
 						division_template = { name = "Japanese Loyalist Regiment" division_names_group = JAP_INF_01 is_locked = yes regiments = { infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } } }
@@ -542,7 +542,7 @@
 		available = {
 			country_exists = MAN
 			MAN = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 
@@ -555,7 +555,7 @@
 				}
 				MAN = {
 					not = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 			}
@@ -1907,12 +1907,12 @@
 		available = {
 			any_country = {
 				original_tag = GER
-				has_government = national_vanguard
+				has_government = fascism
 				NOT = { has_war_with = ROOT }
 			}
 			any_country = {
 				original_tag = ITA
-				has_government = national_vanguard
+				has_government = fascism
 				NOT = { has_war_with = ROOT }
 			}
 		}
@@ -1925,34 +1925,34 @@
 						NOT = {
 							any_country = {
 								original_tag = GER
-								has_government = national_vanguard
+								has_government = fascism
 							}
 						}
 						any_country = {
 							original_tag = GER
-							has_government = national_vanguard
+							has_government = fascism
 							has_war_with = ROOT
 						}
 						NOT = {
 							any_country = {
 								original_tag = ITA
-								has_government = national_vanguard
+								has_government = fascism
 							}
 						}
 						any_country = {
 							original_tag = ITA
-							has_government = national_vanguard
+							has_government = fascism
 							has_war_with = ROOT
 						}	
 					}	
 				}
 				AND = {
 					GER = {
-						has_government = national_vanguard
+						has_government = fascism
 						has_war_with = ITA
 					}
 					ITA = {
-						has_government = national_vanguard
+						has_government = fascism
 						has_war_with = GER
 					}
 				}
@@ -1968,7 +1968,7 @@
 			random_country = {
 				limit = {
 					original_tag = GER
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				country_event = { id = wtt_japan.109 days = 1 }
 			}
@@ -3338,7 +3338,7 @@
 			random_country = {
 				limit = {
 					original_tag = GER
-					has_government = national_vanguard
+					has_government = fascism
 					is_faction_leader = yes
 				}
 				if = {
@@ -3540,7 +3540,7 @@
 			random_country = {
 				limit = {
 					original_tag = GER
-					has_government = national_vanguard
+					has_government = fascism
 					is_faction_leader = yes
 				}
 				if = {
@@ -3840,7 +3840,7 @@
 				add_popularity = { ideology = democratic popularity = 0.1 }
 				start_civil_war = {
 					ruling_party = democratic
-					ideology = national_vanguard
+					ideology = fascism
 					size = 0.5
 				}
 				if = {
@@ -4207,7 +4207,7 @@
 			else_if = {
 				limit = {
 					MAN = {
-						has_government = national_vanguard
+						has_government = fascism
 						has_full_control_of_state = 525
 						has_full_control_of_state = 527
 					}
@@ -4258,7 +4258,7 @@
 					MAN = {
 						exists = yes
 						OR = {
-							has_government = national_vanguard
+							has_government = fascism
 							has_government = communism
 						}
 					}

@@ -299,7 +299,7 @@ SWI_federal_council_decisions_category = {
 			FROM = {
 				tag = SWI.SWI_biggest_fascist
 				exists = yes 
-				has_government = national_vanguard 
+				has_government = fascism 
 			}
 		}
 
@@ -342,7 +342,7 @@ SWI_federal_council_decisions_category = {
 					AND = {
 						original_tag = FRA 
 						exists = yes
-						NOT = { has_government = national_vanguard } 
+						NOT = { has_government = fascism } 
 					}
 					AND = {
 						OR = {
@@ -351,7 +351,7 @@ SWI_federal_council_decisions_category = {
 						}
  						NOT = { original_tag = FRA }
 						SWI_is_country_to_balance = yes
-						NOT = { has_government = national_vanguard } 
+						NOT = { has_government = fascism } 
 					}
 				}
 			}
@@ -819,7 +819,7 @@ SWI_federal_council_decisions_category = {
 			every_other_country = {
 				limit = {
 					SWI_is_country_to_balance = yes 
-					has_government = national_vanguard 
+					has_government = fascism 
 				}
 				if = {
 					limit = {
@@ -838,7 +838,7 @@ SWI_federal_council_decisions_category = {
 			every_other_country = {
 				limit = {
 					SWI_is_country_to_balance = yes 
-					NOT = { has_government = national_vanguard } 					
+					NOT = { has_government = fascism } 					
 				}
 				add_opinion_modifier = {
 					target = ROOT 
@@ -853,7 +853,7 @@ SWI_federal_council_decisions_category = {
 				add = 120 
 				any_other_country = {
 					SWI_is_country_to_balance = yes 
-					has_government = national_vanguard 
+					has_government = fascism 
 					SWI_country_about_to_be_angry = yes 
 				}
 			}
@@ -863,7 +863,7 @@ SWI_federal_council_decisions_category = {
 					SWI_AI_is_fascist = yes 
 					AND = {
 						is_puppet = yes 
-						has_government = national_vanguard 
+						has_government = fascism 
 					}
 				}
 			}
@@ -1329,7 +1329,7 @@ SWI_federal_council_decisions_category = {
 		cost = SWI_president_initiative_cost
 		
 		modifier = {
-			national_vanguard_drift = -0.15
+			fascism_drift = -0.15
 			democratic_drift = -0.05
 			war_support_weekly_factor = 0.07
 			communism_drift = 0.07
@@ -1711,7 +1711,7 @@ SWI_federal_council_decisions_category = {
 		cost = SWI_president_initiative_cost
 		
 		modifier = {
-			national_vanguard_drift = -0.05
+			fascism_drift = -0.05
 			monthly_population = 0.3
 		}
 
@@ -1722,7 +1722,7 @@ SWI_federal_council_decisions_category = {
 					limit = {
 						capital_scope = { is_on_continent = europe }
 						OR = {
-							has_government = national_vanguard
+							has_government = fascism
 							has_government = neutrality  
 						}
 						num_occupied_states > 0
@@ -1895,7 +1895,7 @@ SWI_federal_council_decisions_category = {
 		cost = SWI_president_initiative_cost
 		
 		modifier = {
-			national_vanguard_drift = 0.1
+			fascism_drift = 0.1
 			stability_weekly = -0.01
 		}
 
@@ -1959,7 +1959,7 @@ SWI_federal_council_decisions_category = {
 		
 		target_trigger ={
 			FROM = { 
-				has_government = national_vanguard 
+				has_government = fascism 
 				SWI_is_country_to_balance = yes 
 			}
 		}
@@ -1969,7 +1969,7 @@ SWI_federal_council_decisions_category = {
 		cost = SWI_president_initiative_cost
 		
 		modifier = {
-			national_vanguard_drift = 0.05
+			fascism_drift = 0.05
 			stability_factor = 0.1 
 			war_support_factor = 0.1
 		}
@@ -2702,15 +2702,15 @@ SWI_absolute_neutrality_decisions_category = {
 		allowed = { original_tag = SWI }
 
 		visible = {
-			check_variable = { ROOT.party_popularity_100@national_vanguard < 10 }
-			NOT = { has_government = national_vanguard } 
+			check_variable = { ROOT.party_popularity_100@fascism < 10 }
+			NOT = { has_government = fascism } 
 			NOT = { has_idea = fascism_banned }
 		}
 
 		target_trigger = {
 			FROM = { 
 				SWI_is_country_to_balance = yes 
-				has_government = national_vanguard  
+				has_government = fascism  
 			}
 		}
 
@@ -2719,7 +2719,7 @@ SWI_absolute_neutrality_decisions_category = {
 		days_remove = 120 
 
 		modifier = {
-			national_vanguard_drift = 0.05
+			fascism_drift = 0.05
 		}
 
 		complete_effect = {
@@ -3271,7 +3271,7 @@ SWI_absolute_neutrality_decisions_category = {
 		target_trigger = {
 			FROM = {
 				SWI_is_country_to_balance = yes
-				has_government = national_vanguard 
+				has_government = fascism 
 				NOT = {
 					has_war_with = ROOT 
 					has_dynamic_modifier = { modifier = SWI_gold_trade_with_switzerland }
@@ -3282,7 +3282,7 @@ SWI_absolute_neutrality_decisions_category = {
 			}
 			NOT = {
 				any_other_country = {
-					has_government = national_vanguard 
+					has_government = fascism 
 					has_country_flag = SWI_gold_trading_partner
 				}
 			}
@@ -3409,7 +3409,7 @@ SWI_absolute_neutrality_decisions_category = {
 			FROM = {
 				SWI_is_country_to_balance = yes											
 				
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 		available = {
@@ -3647,7 +3647,7 @@ SWI_absolute_neutrality_decisions_category = {
 			FROM = {
 				tag = SWI.SWI_biggest_fascist
 				exists = yes 
-				has_government = national_vanguard 
+				has_government = fascism 
 				NOT = { has_war_with = ROOT } 	
 			}
 		}
@@ -3722,7 +3722,7 @@ SWI_absolute_neutrality_decisions_category = {
 			FROM = {
 				tag = SWI.SWI_biggest_fascist
 				exists = yes 
-				has_government = national_vanguard 
+				has_government = fascism 
 				NOT = { has_war_with = ROOT } 	
 			}
 		}

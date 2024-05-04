@@ -25,7 +25,7 @@ CZE_historical_strategy_plan = {
 		OR = {
 			GER = {
 				not = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			FRA = {

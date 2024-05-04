@@ -524,7 +524,7 @@ characters = {
 					has_completed_focus = FIN_political_unity
 					has_completed_focus = FIN_cooperate_with_social_democrats
 				}
-				NOT = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
 			}
 		}
 	}
@@ -590,7 +590,7 @@ characters = {
 					limit = {
 						has_character_flag = FIN_anti_fascist_character_flag
 					}
-					NOT = { has_government = national_vanguard }
+					NOT = { has_government = fascism }
 				}
 			}
 		}
@@ -606,7 +606,7 @@ characters = {
 					limit = {
 						has_character_flag = FIN_anti_fascist_character_flag
 					}
-					NOT = { has_government = national_vanguard }
+					NOT = { has_government = fascism }
 				}
 			}
 			traits = {
@@ -1413,7 +1413,7 @@ characters = {
 			available = {
 				NOT = {
 					has_government = communism
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			traits = {
@@ -1593,7 +1593,7 @@ characters = {
 					}
 					OR = {
 						has_government = neutrality
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 			}
@@ -1623,7 +1623,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = national_vanguard #IKL
+				ideology = fascism_ideology #IKL
 				expire = "1965.1.1.1"
 				id = -1
 				traits = { economic_reformer personal_agenda_annala }
@@ -1669,7 +1669,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = national_vanguard #IKL
+				ideology = fascism_ideology #IKL
 				expire = "1965.1.1.1"
 				id = -1
 				traits = { hawk }

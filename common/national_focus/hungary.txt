@@ -1183,7 +1183,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = national_vanguard
+				has_government = fascism
 				has_government = neutrality				
 			}
 		}
@@ -1208,7 +1208,7 @@ focus_tree = {
 				limit = {
 					has_government = neutrality
 				}
-				add_popularity = { ideology = national_vanguard popularity = 0.05 }
+				add_popularity = { ideology = fascism popularity = 0.05 }
 				add_country_leader_role = {
 					character = "HUN_franz_friedrich"
 					country_leader = {
@@ -1223,7 +1223,7 @@ focus_tree = {
 				add_country_leader_role = {
 					character = "HUN_franz_friedrich"
 					country_leader = {
-					  ideology=national_vanguard
+					  ideology=fascism_ideology
 					  expire="1965.1.1"
 					}
 					promote_leader = yes
@@ -1307,8 +1307,8 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_timed_idea = { idea = HUN_strengthen_fascists days = 720 }
-			add_popularity = { ideology = national_vanguard popularity = 0.05 }
-			set_party_name = { ideology = national_vanguard long_name = HUN_arrow_cross_party_long name = HUN_arrow_cross_party }
+			add_popularity = { ideology = fascism popularity = 0.05 }
+			set_party_name = { ideology = fascism long_name = HUN_arrow_cross_party_long name = HUN_arrow_cross_party }
 		}
 	}
 
@@ -1328,8 +1328,8 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = national_vanguard
-				national_vanguard > 0.4
+				has_government = fascism
+				fascism > 0.4
 			}
 			is_subject = no
 		}
@@ -1402,7 +1402,7 @@ focus_tree = {
 					add_country_leader_role = {
 						character = "HUN_miklos_horthy"
 						country_leader={
-							ideology= national_vanguard
+							ideology= fascism
 							traits={ anti_communist }
 							expire="1965.1.1.1"
 							id=503
@@ -1425,7 +1425,7 @@ focus_tree = {
 					add_country_leader_role = {
 						character = "HUN_franz_friedrich"
 						country_leader = {
-						  ideology=national_vanguard
+						  ideology=fascism
 						  expire="1965.1.1"
 						}
 						promote_leader = yes
@@ -1445,10 +1445,10 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					NOT = { has_government = national_vanguard }
+					NOT = { has_government = fascism }
 				}
 				set_politics = {
-					ruling_party = national_vanguard
+					ruling_party = fascism
 					elections_allowed = no
 				}
 			}
@@ -1483,7 +1483,7 @@ focus_tree = {
 				NOT = { has_war_with = AUS }
 				OR = {
 					has_government = neutrality
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			AUS = {
@@ -1491,7 +1491,7 @@ focus_tree = {
 				is_subject = no
 				OR = {
 					has_government = neutrality
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 		}
@@ -1504,7 +1504,7 @@ focus_tree = {
 				OR = {
 					exists = no
 					NOT = {
-						has_government = national_vanguard #historical AI should only pick this if Germany doesn't exist or isn't fascist
+						has_government = fascism #historical AI should only pick this if Germany doesn't exist or isn't fascist
 					}
 				}
 			}
@@ -1780,7 +1780,7 @@ focus_tree = {
 			}
 			GER = {
 				is_faction_leader = yes
-				has_government = national_vanguard
+				has_government = fascism
 				is_subject = no
 			}
 		}
@@ -1790,7 +1790,7 @@ focus_tree = {
 				is_in_faction_with = GER
 				GER = {
 					is_faction_leader = yes
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			} 
 		}

@@ -3027,7 +3027,7 @@ SOV_propaganda_campaigns = {
 		}
 	}
 
-	SOV_propaganda_anti_national_vanguard = { # ID = 15
+	SOV_propaganda_anti_fascism = { # ID = 15
 		priority = 14
 
 		icon = eng_propaganda_campaigns
@@ -3063,7 +3063,7 @@ SOV_propaganda_campaigns = {
 			SOV_propaganda_poster_slot_available = yes
 
 			any_country = {
-				has_government = national_vanguard
+				has_government = fascism
 				OR = {
 					tag = ENG
 					tag = FRA
@@ -3090,8 +3090,8 @@ SOV_propaganda_campaigns = {
 
 		modifier = {
 			opinion_gain_monthly_same_ideology_factor = 0.25
-			national_vanguard_acceptance = -100
-			national_vanguard_drift = -0.1
+			fascism_acceptance = -100
+			fascism_drift = -0.1
 		}
 
 		complete_effect = {
@@ -3103,42 +3103,42 @@ SOV_propaganda_campaigns = {
 			#Choose the "most powerful" fascist country based on num of factories
 			if = {
 				limit = {
-					ENG = { has_government = national_vanguard }
+					ENG = { has_government = fascism }
 				}
 				set_temp_variable = { SOV_max_factories = ENG.num_of_factories }
 				set_variable = { SOV_anti_fascist_target = 1 } #1=ENG / 2=FRA / 3=GER / 4=ITA / 5=USA / 6=JAP
 			}
 			else_if = {
 				limit = {
-					FRA = { has_government = national_vanguard }
+					FRA = { has_government = fascism }
 				}
 				set_temp_variable = { SOV_max_factories = FRA.num_of_factories }
 				set_variable = { SOV_anti_fascist_target = 2 } #1=ENG / 2=FRA / 3=GER / 4=ITA / 5=USA / 6=JAP
 			}
 			else_if = {
 				limit = {
-					GER = { has_government = national_vanguard }
+					GER = { has_government = fascism }
 				}
 				set_temp_variable = { SOV_max_factories = GER.num_of_factories }
 				set_variable = { SOV_anti_fascist_target = 3 } #1=ENG / 2=FRA / 3=GER / 4=ITA / 5=USA / 6=JAP
 			}
 			else_if = {
 				limit = {
-					ITA = { has_government = national_vanguard }
+					ITA = { has_government = fascism }
 				}
 				set_temp_variable = { SOV_max_factories = ITA.num_of_factories }
 				set_variable = { SOV_anti_fascist_target = 4 } #1=ENG / 2=FRA / 3=GER / 4=ITA / 5=USA / 6=JAP
 			}
 			else_if = {
 				limit = {
-					USA = { has_government = national_vanguard }
+					USA = { has_government = fascism }
 				}
 				set_temp_variable = { SOV_max_factories = USA.num_of_factories }
 				set_variable = { SOV_anti_fascist_target = 5 } #1=ENG / 2=FRA / 3=GER / 4=ITA / 5=USA / 6=JAP
 			}
 			else_if = {
 				limit = {
-					JAP = { has_government = national_vanguard }
+					JAP = { has_government = fascism }
 				}
 				set_temp_variable = { SOV_max_factories = JAP.num_of_factories }
 				set_variable = { SOV_anti_fascist_target = 6 } #1=ENG / 2=FRA / 3=GER / 4=ITA / 5=USA / 6=JAP
@@ -3146,7 +3146,7 @@ SOV_propaganda_campaigns = {
 
 			if = {
 				limit = {
-					FRA = { has_government = national_vanguard }
+					FRA = { has_government = fascism }
 				}
 				set_temp_variable = { SOV_compare_factories = FRA.num_of_factories }
 				if = { #FIRST Vs FRA
@@ -3160,7 +3160,7 @@ SOV_propaganda_campaigns = {
 
 			if = {
 				limit = {
-					GER = { has_government = national_vanguard }
+					GER = { has_government = fascism }
 				}
 				set_temp_variable = { SOV_compare_factories = GER.num_of_factories }
 				if = { #WINNER Vs GER
@@ -3174,7 +3174,7 @@ SOV_propaganda_campaigns = {
 
 			if = {
 				limit = {
-					ITA = { has_government = national_vanguard }
+					ITA = { has_government = fascism }
 				}
 				set_temp_variable = { SOV_compare_factories = ITA.num_of_factories }
 				if = { #WINNER Vs ITA
@@ -3188,7 +3188,7 @@ SOV_propaganda_campaigns = {
 
 			if = {
 				limit = {
-					USA = { has_government = national_vanguard }
+					USA = { has_government = fascism }
 				}
 				set_temp_variable = { SOV_compare_factories = USA.num_of_factories }
 				if = { #WINNER Vs USA
@@ -3202,7 +3202,7 @@ SOV_propaganda_campaigns = {
 
 			if = {
 				limit = {
-					JAP = { has_government = national_vanguard }
+					JAP = { has_government = fascism }
 				}
 				set_temp_variable = { SOV_compare_factories = JAP.num_of_factories }
 				if = { #WINNER Vs JAP

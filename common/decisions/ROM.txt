@@ -284,7 +284,7 @@ ROM_change_sides = {
 				is_faction_leader = yes
 				has_war_with = ROM
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					original_tag = GER
 					original_tag = ITA
 				}
@@ -294,11 +294,11 @@ ROM_change_sides = {
 					character = ROM_king_michael
 					ruling_only = yes
 				}
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			NOT = {
 				FACTION_LEADER  = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			hidden_trigger = {
@@ -338,7 +338,7 @@ ROM_change_sides = {
 					any_country = {
 						is_faction_leader = yes
 						has_war_with = ROM
-						has_government = national_vanguard
+						has_government = fascism
 						OR = {
 							original_tag = GER
 							is_in_faction_with = GER
@@ -349,7 +349,7 @@ ROM_change_sides = {
 					limit = {
 						is_faction_leader = yes
 						has_war_with = ROM
-						has_government = national_vanguard
+						has_government = fascism
 						OR = {
 							original_tag = GER
 							is_in_faction_with = GER
@@ -364,7 +364,7 @@ ROM_change_sides = {
 					any_country = {
 						is_faction_leader = yes
 						has_war_with = ROM
-						has_government = national_vanguard
+						has_government = fascism
 						OR = {
 							original_tag = ITA
 							is_in_faction_with = ITA
@@ -375,7 +375,7 @@ ROM_change_sides = {
 					limit = {
 						is_faction_leader = yes
 						has_war_with = ROM
-						has_government = national_vanguard
+						has_government = fascism
 						OR = {
 							original_tag = ITA
 							is_in_faction_with = ITA
@@ -390,7 +390,7 @@ ROM_change_sides = {
 					limit = {
 						is_faction_leader = yes
 						has_war_with = ROM
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					save_event_target_as = romania_new_ally_target
 				}

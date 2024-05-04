@@ -602,7 +602,7 @@ on_actions = {
 					}
 					FROM = {
 						original_tag = ETH
-						has_government = national_vanguard
+						has_government = fascism
 						has_completed_focus = ETH_sway_the_warlords
 					}
 				}
@@ -769,7 +769,7 @@ on_actions = {
 				limit = {
 					has_global_flag = second_italo_ethiopian_war_flag
 					is_tutorial = no
-					NOT = { has_government = national_vanguard } # not for collaboration regime
+					NOT = { has_government = fascism } # not for collaboration regime
 				}
 				# International Rep Grows
 				IF = {
@@ -1535,7 +1535,7 @@ on_actions = {
 					FROM = {
 						original_tag = ITA
 						OR = {
-							has_government = national_vanguard
+							has_government = fascism
 							has_government = neutrality
 						}
 					}
@@ -1829,11 +1829,11 @@ on_actions = {
 					OR = {
 						AND = {
 							tag = ITA
-							FROM = { tag = GER has_government = national_vanguard }
+							FROM = { tag = GER has_government = fascism }
 						}
 						AND = {
 							tag = GER
-							has_government = national_vanguard
+							has_government = fascism
 							FROM = { tag = ITA }
 						}
 					}

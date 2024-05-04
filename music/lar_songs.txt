@@ -71,14 +71,14 @@ music = {
 		modifier = {
 			factor = 2
 
-			has_government = national_vanguard
+			has_government = fascism
 			has_war = no
 		}
 
 		modifier = {
 			factor = 2
 
-			has_government = national_vanguard
+			has_government = fascism
 			OR = {
 				original_tag = SPA
 				original_tag = SPR

@@ -185,7 +185,7 @@ set_convoys = 10
 		}
 		set_popularities = {
 			democratic = 10
-			national_vanguard = 22
+			fascism = 22
 			communism = 26
 			neutrality = 42
 		}
@@ -321,7 +321,7 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 43
-	national_vanguard = 2
+	fascism = 2
 	communism = 17
 	neutrality = 38
 }

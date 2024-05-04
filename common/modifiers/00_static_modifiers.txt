@@ -630,7 +630,7 @@ FRA_reorganized_departments = {
 GER_rescued_mussolini = {
 	valid_relation_trigger = {
 		ROOT = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 	}
 	compliance_gain = 0.5

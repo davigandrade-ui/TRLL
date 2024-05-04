@@ -267,7 +267,7 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 25
-	national_vanguard = 31
+	fascism = 31
 	neutrality = 44
 }
 
@@ -308,14 +308,14 @@ recruit_character = HUN_franz_friedrich
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = national_vanguard
+		ruling_party = fascism
 		last_election = "1939.5.29"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 	set_popularities = {
 		democratic = 27
-		national_vanguard = 70
+		fascism = 70
 		communism = 3
 	}
 }

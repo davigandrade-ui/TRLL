@@ -1837,7 +1837,7 @@ characters={
 				original_tag  = SWE
 			}
 			available = { is_country_leader = no }
-			visible = { has_government = national_vanguard }
+			visible = { has_government = fascism }
 			available = {
 				is_country_leader = no
 			}
@@ -1885,7 +1885,7 @@ characters={
 			allowed  = {
 				original_tag  = SWE
 			}
-			visible = { has_government = national_vanguard }
+			visible = { has_government = fascism }
 			traits = { prince_of_terror }
 		}
 		name=SWE_sven_hedengren
@@ -1907,7 +1907,7 @@ characters={
 			}
 			visible = { 
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 					has_completed_focus = SWE_the_old_enemy_stirs
 				}
@@ -1941,7 +1941,7 @@ characters={
 			allowed  = {
 				original_tag  = SWE
 			}
-			visible = { has_government = national_vanguard }
+			visible = { has_government = fascism }
 			traits = {  munckska_karens_member }
 
 		}

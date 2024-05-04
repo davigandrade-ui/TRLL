@@ -341,7 +341,7 @@ set_popularities = {
 	neutrality = 65
 	democratic = 10
 	communism = 2
-	national_vanguard = 23
+	fascism = 23
 }
 
 1939.1.1 = {
@@ -354,7 +354,7 @@ set_popularities = {
 	set_popularities = {
 		neutrality = 43
 		democratic = 11
-		national_vanguard = 36
+		fascism = 36
 		communism = 10
 	}
 }

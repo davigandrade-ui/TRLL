@@ -2019,14 +2019,14 @@ focus_tree = {
 				limit = {
 					is_subject = yes
 					NOT = { 
-						has_government = national_vanguard 
+						has_government = fascism 
 						ROOT.OVERLORD = {
-							has_government = national_vanguard
+							has_government = fascism
 						}
 					}
 				}
 				add_popularity = {
-				    ideology = national_vanguard
+				    ideology = fascism
 				    popularity = 0.05
 				}
 			}
@@ -2219,7 +2219,7 @@ focus_tree = {
 				limit = {
 					is_subject = yes
 					ROOT.OVERLORD = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 				if = {
@@ -2235,12 +2235,12 @@ focus_tree = {
 				}
 				if = {
 					limit = {
-						has_government = national_vanguard
-						national_vanguard > 0.15
+						has_government = fascism
+						fascism > 0.15
 						has_country_leader_with_trait = DEN_plenipotentiary
 					}
 					add_popularity = {
-						ideology = national_vanguard
+						ideology = fascism
 						popularity = -0.05
 					}
 				}
@@ -2255,11 +2255,11 @@ focus_tree = {
 				if = {
 					limit = {
 						NOT = { 
-							has_government = national_vanguard 
+							has_government = fascism 
 						}
 					}
 					add_popularity = {
-				    	ideology = national_vanguard
+				    	ideology = fascism
 				   		popularity = 0.05
 					}
 				}
@@ -2400,7 +2400,7 @@ focus_tree = {
 			if = {
 				limit = {
 					OR = {
-						has_government = national_vanguard
+						has_government = fascism
 						has_government = communism
 						check_variable = { DEN.DEN_overlord_nation = GER }
 						check_variable = { DEN.DEN_overlord_nation = ENG }
@@ -3848,7 +3848,7 @@ focus_tree = {
 					is_subject = yes
 					OVERLORD = {
 						OR = {
-							has_government = national_vanguard
+							has_government = fascism
 							has_government = neutrality
 						}
 					}
@@ -6848,10 +6848,10 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				add_popularity = {
-				    ideology = national_vanguard
+				    ideology = fascism
 				    popularity = 0.05
 				}
 			}
@@ -6890,7 +6890,7 @@ focus_tree = {
 			has_completed_focus =  DEN_unify_the_right
 			OR = {
 				has_government = neutrality
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 
@@ -6965,7 +6965,7 @@ focus_tree = {
 			}
 
 			add_popularity = {
-			    ideology = national_vanguard
+			    ideology = fascism
 			    popularity = 0.05
 			}
 
@@ -7002,10 +7002,10 @@ focus_tree = {
 		available = {
 			OR = {
 				neutrality > 0.4
-				national_vanguard > 0.4
+				fascism > 0.4
 				AND = {
 					neutrality > 0.2
-					national_vanguard > 0.2
+					fascism > 0.2
 				}
 			}
 			is_subject = no
@@ -7015,7 +7015,7 @@ focus_tree = {
 			has_completed_focus =  DEN_unify_the_right
 			OR = {
 				has_government = neutrality
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 
@@ -7876,7 +7876,7 @@ focus_tree = {
 					threat > 0.20
 				}
 				AND = {
-					has_government = national_vanguard
+					has_government = fascism
 					threat > 0.15
 				}
 			}
@@ -7988,13 +7988,13 @@ focus_tree = {
 			}
 			else_if = {
 				limit = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				if = {
 					limit = {
 						NOR = {
 							is_subject = no
-							has_government = national_vanguard
+							has_government = fascism
 						}
 					}
 					NOR = { country_event = { id = denmark_expansion_event.20 days = 1 }}
@@ -8008,7 +8008,7 @@ focus_tree = {
 						NOR = {
 							is_subject = yes
 							OVERLORD = {
-								has_government = national_vanguard
+								has_government = fascism
 							}
 						}
 					}
@@ -8156,13 +8156,13 @@ focus_tree = {
 		cost = 5
 
 		available = {
-			national_vanguard > 0.2
+			fascism > 0.2
 			has_civil_war = no
 			is_subject = no
 		}
 
 		bypass = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -8171,7 +8171,7 @@ focus_tree = {
 			#custom_effect_tooltip = TODO_DANNE
 
 			add_popularity = {
-			    ideology = national_vanguard
+			    ideology = fascism
 			    popularity = 0.05
 			}
 		}
@@ -8190,12 +8190,12 @@ focus_tree = {
 		cost = 5
 
 		available = {
-			national_vanguard > 0.4
+			fascism > 0.4
 			is_subject = no
 		}
 
 		bypass = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_MANPOWER }
@@ -8209,16 +8209,16 @@ focus_tree = {
 			if = {
 				limit = {
 					NOT = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 				set_politics = {
-					ruling_party = national_vanguard
+					ruling_party = fascism
 				}
 				
 				if = {
 					limit = {
-						national_vanguard < 0.5
+						fascism < 0.5
 					}
 					if = {
 						limit = {
@@ -8324,18 +8324,18 @@ focus_tree = {
 
 		available = {
 			GER = {
-				has_government = national_vanguard
+				has_government = fascism
 				is_subject = no
 			}
 			NOT = {
 				has_war_with = GER
 			}
-			national_vanguard > 0.3
+			fascism > 0.3
 			is_subject = no
 		}
 
 		bypass = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_MANPOWER FOCUS_FILTER_STABILITY }
@@ -8351,7 +8351,7 @@ focus_tree = {
 				add_stability = 0.05
 
 				set_politics = {
-					ruling_party = national_vanguard
+					ruling_party = fascism
 				}
 				
 				DEN_frits_clausen = {
@@ -8366,7 +8366,7 @@ focus_tree = {
 			custom_effect_tooltip = if_they_refuse_tt
 			effect_tooltip = {
 				set_politics = {
-					ruling_party = national_vanguard
+					ruling_party = fascism
 				}
 
 				start_civil_war = {
@@ -8476,7 +8476,7 @@ focus_tree = {
 
 			if = { #In case you have elected a fascist government and bypassed several focuses
 				limit = {
-					has_government = national_vanguard
+					has_government = fascism
 					NOT = { has_completed_focus = DEN_overthrow_the_government }
 					has_completed_focus = DEN_march_on_the_capital
 				}

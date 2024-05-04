@@ -274,7 +274,7 @@ characters={
 				}
 				do_effect  = {
 					not  = {
-						has_government  = national_vanguard 
+						has_government  = fascism 
 					}
 				}
 				ai_will_do  = {

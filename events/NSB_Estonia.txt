@@ -399,7 +399,7 @@ country_event = {
 				EST = { set_capital = { state = PREV } }
 			}
 			start_civil_war = {
-				ruling_party = national_vanguard
+				ruling_party = fascism
 				ideology = neutrality
 				size = civil_war_size_var
 				states = all
@@ -439,7 +439,7 @@ country_event = {
 			factor = 10
 		}
 		set_politics = {
-			ruling_party = national_vanguard
+			ruling_party = fascism
 			elections_allowed = no
 		}
 		if = {
@@ -476,13 +476,13 @@ country_event = {
 				original_tag = EST
 			}
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.1
 			}
 		}
 		else = {
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.05
 			}
 		}
@@ -512,7 +512,7 @@ country_event = {
 		
 
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = 0.02
 		}
 		add_stability = -0.02
@@ -538,13 +538,13 @@ country_event = {
 				original_tag = EST
 			}
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.15
 			}
 		}
 		else = {
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.1
 			}
 		}
@@ -574,7 +574,7 @@ country_event = {
 		
 
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = 0.02
 		}
 		add_stability = -0.02
@@ -599,13 +599,13 @@ country_event = {
 				original_tag = EST
 			}
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.2
 			}
 		}
 		else = {
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.15
 			}
 		}
@@ -635,7 +635,7 @@ country_event = {
 		
 
 		add_popularity = {
-			ideology = national_vanguard
+			ideology = fascism
 			popularity = 0.02
 		}
 		add_stability = -0.02
@@ -659,7 +659,7 @@ country_event = {
 			factor = 10
 		}
 		start_civil_war = {
-			ideology = national_vanguard
+			ideology = fascism
 			size = party_popularity@fascism
 			states = all
 			states_filter = {
@@ -670,7 +670,7 @@ country_event = {
 		random_other_country = {
 			limit = {
 				original_tag = FIN
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			save_global_event_target_as = neutral_EST_civil_war
 		}
@@ -697,7 +697,7 @@ country_event = {
 			}
 		}
 		set_politics = {
-			ruling_party = national_vanguard
+			ruling_party = fascism
 			elections_allowed = no
 		}
 		EST = { country_event = EST_events.901 }
@@ -720,7 +720,7 @@ country_event = {
 		effect_tooltip = {
 			FROM = {
 				set_politics = {
-					ruling_party = national_vanguard
+					ruling_party = fascism
 					elections_allowed = no
 				}
 			}
@@ -745,7 +745,7 @@ country_event = {
 		random_country = {
 			limit = {
 				original_tag = FIN
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			PREV = {
 				add_to_war = {

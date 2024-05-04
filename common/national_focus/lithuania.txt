@@ -507,7 +507,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = neutrality
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 
@@ -562,9 +562,9 @@ focus_tree = {
 				add_timed_idea = { idea = LIT_purge_resistance_idea days = 180 }
 			}
 			else_if = {
-				limit = { has_government = national_vanguard }
+				limit = { has_government = fascism }
 				add_popularity = {
-					ideology = national_vanguard
+					ideology = fascism
 					popularity = 0.2
 				}
 				add_timed_idea = { idea = LIT_purge_resistance_idea days = 180 }
@@ -689,7 +689,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = -0.05
 			}
 			add_stability = 0.05
@@ -707,7 +707,7 @@ focus_tree = {
 				limit = {
 					GER = {
 						OR = {
-							has_government = national_vanguard
+							has_government = fascism
 							has_country_flag = GER_imprisoned_fascist_leadership
 						}
 					}
@@ -1144,7 +1144,7 @@ focus_tree = {
 
 		available = {
 			has_active_mission = LIT_iron_wolf_partisans
-			national_vanguard > 0.2
+			fascism > 0.2
 		}
 
 		bypass = {
@@ -1420,7 +1420,7 @@ focus_tree = {
 		}
 
 		available = {
-			national_vanguard > 0.4
+			fascism > 0.4
 			has_active_mission = LIT_iron_wolf_partisans
 		}
 
@@ -1435,11 +1435,11 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_MANPOWER }
 		completion_reward = {
 			set_politics = {
-				ruling_party = national_vanguard
+				ruling_party = fascism
 				elections_allowed = no
 			}
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.15
 			}
 			remove_ideas = {
@@ -1492,7 +1492,7 @@ focus_tree = {
 			}
 			GER = {
 				is_faction_leader = yes
-				has_government = national_vanguard
+				has_government = fascism
 				is_subject = no
 			}
 		}
@@ -1502,7 +1502,7 @@ focus_tree = {
 				is_in_faction_with = GER
 				GER = {
 					is_faction_leader = yes
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			} 
 		}
@@ -1518,7 +1518,7 @@ focus_tree = {
 					GER = {
 						exists = yes
 						has_capitulated = no
-						has_government = national_vanguard
+						has_government = fascism
 						is_faction_leader = yes
 					}
 				}
@@ -2001,7 +2001,7 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = { 
-					POL = { has_government = national_vanguard }
+					POL = { has_government = fascism }
 					LIT = { 
 						OR = {
 							is_in_faction = no
@@ -2030,7 +2030,7 @@ focus_tree = {
 			}
 			else_if = {
 				limit = {
-					POL = { has_government = national_vanguard }
+					POL = { has_government = fascism }
 					LIT = {
 						is_in_faction = yes
 						is_faction_leader = no
@@ -2058,7 +2058,7 @@ focus_tree = {
 			}
 			else_if = {
 				limit = {
-					POL = { NOT = { has_government = national_vanguard } }
+					POL = { NOT = { has_government = fascism } }
 				}
 				unlock_decision_category_tooltip = support_polish_falange_decisions
 			}
@@ -2444,7 +2444,7 @@ focus_tree = {
 		}
 
 		available = {
-			NOT = { has_government = national_vanguard }
+			NOT = { has_government = fascism }
 		}
 
 		bypass = {
@@ -2457,7 +2457,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_MANPOWER }
 		completion_reward = {
-			retire_ideology_leader = national_vanguard
+			retire_ideology_leader = fascism
 			if = { #Lithuania should not benefit from this, only mitigate negatives
 				limit = {
 					OR = {
@@ -2470,7 +2470,7 @@ focus_tree = {
 			}
 			else = {
 				add_popularity = {
-					ideology = national_vanguard
+					ideology = fascism
 					popularity = -0.1
 				}
 			}
@@ -2507,7 +2507,7 @@ focus_tree = {
 		completion_reward = {
 			LIT_remove_iron_wolf_effect = yes
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = -0.1
 			}
 			custom_effect_tooltip = disable_iron_wolf_tt

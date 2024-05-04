@@ -34,7 +34,7 @@ technology_sharing_group = {
 	research_sharing_per_country_bonus = 0.1 
 
 	available = {
-		has_government = national_vanguard	
+		has_government = fascism	
 		NOT = { has_war_with = ICE }
 	}
 }

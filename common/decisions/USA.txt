@@ -1225,7 +1225,7 @@ USA_foreign_support = {
 				is_major = yes
 				exists = yes
 				has_war = no
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 		cost = 25
@@ -1254,7 +1254,7 @@ USA_foreign_support = {
 			FROM = {
 				exists = yes
 				is_major = yes
-				has_government = national_vanguard
+				has_government = fascism
 				has_war = no
 				has_country_flag = USA_foreign_support_donations_approved
 			}
@@ -1284,7 +1284,7 @@ USA_foreign_support = {
 				is_major = yes
 				exists = yes
 				has_war = no
-				has_government = national_vanguard
+				has_government = fascism
 				not = { has_country_flag = USA_training_camps_approved }
 				has_country_flag = USA_foreign_support_donations_approved
 			}
@@ -1314,7 +1314,7 @@ USA_foreign_support = {
 				exists = yes
 				is_major = yes
 				has_war = no
-				has_government = national_vanguard
+				has_government = fascism
 				has_tech = fighter1
 				not = { has_country_flag = usa_pilot_training }
 				has_country_flag = USA_foreign_support_donations_approved
@@ -1346,7 +1346,7 @@ USA_foreign_support = {
 				exists = yes
 				is_major = yes
 				has_war = no
-				has_government = national_vanguard
+				has_government = fascism
 				has_country_flag = USA_foreign_support_donations_approved
 			}
 		}
@@ -1376,7 +1376,7 @@ USA_honor_the_confederacy = {
 		fire_only_once = yes
 		complete_effect = {
 			add_stability = 0.05
-			add_popularity = { ideology = national_vanguard popularity = 0.05 }
+			add_popularity = { ideology = fascism popularity = 0.05 }
 			set_cosmetic_tag = USA_CSA
 			if = {
 				limit = {
@@ -1417,7 +1417,7 @@ USA_honor_the_confederacy = {
 		complete_effect = {
 			add_stability = 0.1
 			set_capital = { state = 362 }
-			add_popularity = { ideology = national_vanguard popularity = 0.05 }
+			add_popularity = { ideology = fascism popularity = 0.05 }
 			if = {
 				limit = {
 					not = {
@@ -1452,7 +1452,7 @@ USA_honor_the_confederacy = {
 		}
 		complete_effect = {
 			add_stability = 0.1
-			add_popularity = { ideology = national_vanguard popularity = 0.05 }
+			add_popularity = { ideology = fascism popularity = 0.05 }
 			if = {
 				limit = {
 					not = {
@@ -1491,7 +1491,7 @@ USA_honor_the_confederacy = {
 		complete_effect = {
 			add_stability = 0.1
 			add_war_support = 0.1
-			add_popularity = { ideology = national_vanguard popularity = 0.05 }
+			add_popularity = { ideology = fascism popularity = 0.05 }
 			if = {
 				limit = {
 					not = {
@@ -1514,7 +1514,7 @@ USA_honor_the_confederacy = {
 	USA_constitutional_convention = {
 		icon = eng_trade_unions_support
 		available = {
-			national_vanguard > 0.35
+			fascism > 0.35
 		}
 		visible = {
 			has_country_flag = {
@@ -1531,8 +1531,8 @@ USA_honor_the_confederacy = {
 		complete_effect = {
 			add_stability = 0.1
 			add_war_support = 0.05
-			add_popularity = { ideology = national_vanguard popularity = 0.05 }
-			set_politics = { ruling_party = national_vanguard }
+			add_popularity = { ideology = fascism popularity = 0.05 }
+			set_politics = { ruling_party = fascism }
 		}
 	}
 
@@ -2865,7 +2865,7 @@ USA_intervention_mandate = {
 				FROM = {
 					OR = {
 						has_added_tension_amount > 30
-						has_government = national_vanguard
+						has_government = fascism
 						has_government = communism
 					}
 					NOT = { is_in_faction_with = USA }
@@ -3107,7 +3107,7 @@ operations = {
 				DEN = {
 					overlord = {
 						OR = {
-							has_government = national_vanguard
+							has_government = fascism
 							has_government = communism
 						}
 					}
@@ -3121,7 +3121,7 @@ operations = {
 					has_subject = CAN
 				}	
 				GER = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_subject = DEN
 				}
 			}

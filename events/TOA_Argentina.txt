@@ -63,13 +63,13 @@ country_event = {
 		} 
 
 			set_party_name = {
-				ideology = national_vanguard
+				ideology = fascism
 				long_name = ARG_militarist_party_long
 				name = ARG_militarist_party
 			}
 	
 			start_civil_war = {
-				ideology = national_vanguard
+				ideology = fascism
 				size = 0.1
 				army_ratio = 0.1
 			    navy_ratio = 0
@@ -109,7 +109,7 @@ country_event = {
 		                set_nationality = PREV.PREV
 		                add_country_leader_role = {
 							country_leader = {
-								ideology = national_vanguard
+								ideology = fascism_ideology
 								expire = "1965.1.1.1"
 								traits = {
 									#war_industrialist
@@ -415,13 +415,13 @@ country_event = {
 		add_stability = -0.2
 
 		set_party_name = {
-			ideology = national_vanguard
+			ideology = fascism
 			long_name = ARG_militarist_party_long
 			name = ARG_militarist_party
 		}
 
 		start_civil_war = {
-			ideology = national_vanguard
+			ideology = fascism
 			size = 0.1
 			army_ratio = 0.1
 		    navy_ratio = 0
@@ -447,7 +447,7 @@ country_event = {
 	                set_nationality = PREV.PREV
 	                add_country_leader_role = {
 						country_leader = {
-							ideology = national_vanguard
+							ideology = fascism
 							expire = "1965.1.1.1"
 							traits = {
 								#war_industrialist
@@ -521,13 +521,13 @@ country_event = {
 		add_stability = -0.2
 
 		set_party_name = {
-			ideology = national_vanguard
+			ideology = fascism
 			long_name = ARG_militarist_party_long
 			name = ARG_militarist_party
 		}
 
 		start_civil_war = {
-			ideology = national_vanguard
+			ideology = fascism
 			size = 0.1
 			army_ratio = 0.1
 		    navy_ratio = 0
@@ -549,7 +549,7 @@ country_event = {
 	                set_nationality = PREV.PREV
 	                add_country_leader_role = {
 						country_leader = {
-							ideology = national_vanguard
+							ideology = fascism
 							expire = "1965.1.1.1"
 							traits = {
 								#war_industrialist
@@ -2408,13 +2408,13 @@ country_event = {
 		} 
 
 		set_party_name = {
-				ideology = national_vanguard
+				ideology = fascism
 				long_name = ARG_national_vanguard_party_long
 				name = ARG_national_vanguard_party
 			}
 
 		set_politics = {
-				ruling_party = national_vanguard
+				ruling_party = fascism
 				last_election = "1934.3.26" 
 				election_frequency = 48
 				elections_allowed = no
@@ -2424,7 +2424,7 @@ country_event = {
 			character = ARG_senor_hitler
 			country_leader={
 				expire = "1965.1.1"
-				ideology = national_vanguard
+				ideology = fascism
 				traits = {
 					dictator
 					incognito

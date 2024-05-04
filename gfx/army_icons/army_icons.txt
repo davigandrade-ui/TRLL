@@ -411,7 +411,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			has_government = national_vanguard
+			has_government = fascism
 		}
 	}
 	icon = {
@@ -478,7 +478,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			has_government = national_vanguard
+			has_government = fascism
 		}
 	}
 	icon = {

@@ -32,7 +32,7 @@ BUL_befriend_GER = {
 		}
 		OR = {
 			has_government = neutrality
-			has_government = national_vanguard
+			has_government = fascism
 		}
 	}
 	abort = {
@@ -80,7 +80,7 @@ BUL_befriend_ITA = {
 		}
 		OR = {
 			has_government = neutrality
-			has_government = national_vanguard
+			has_government = fascism
 		}
 	}
 	abort = {
@@ -147,7 +147,7 @@ BUL_befriend_ENG = {
 			has_war_with = ENG
 			ENG = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = communism
 					has_opinion	= {
 						target = ROOT
@@ -380,7 +380,7 @@ BUL_dont_pressure_bulgarians_yet = {
 		BUL = {
 			OR = {
 				has_government = neutrality
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 		has_war = yes
@@ -417,7 +417,7 @@ BUL_reject_bulgarian_aggressive_ai = {
 			is_ai = yes
 			OR = {
 				has_government = neutrality
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 		OR = {

@@ -11,7 +11,7 @@ set_party_name = {
 	name = SOV_communism_party_russian
 }
 set_party_name = {
-	ideology = national_vanguard
+	ideology = fascism
 	long_name = SOV_fascism_party_russian_long
 	name = SOV_fascism_party_russian
 }
@@ -480,7 +480,7 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 10
-	national_vanguard = 2
+	fascism = 2
 	communism = 88
 }
 

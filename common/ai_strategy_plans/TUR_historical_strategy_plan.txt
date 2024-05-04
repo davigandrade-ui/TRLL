@@ -31,7 +31,7 @@ TUR_historical_plan = {
 			has_war_with = GRE
 			has_government = communism
 			has_government = democratic
-			has_government = national_vanguard
+			has_government = fascism
 		}
 	}
 

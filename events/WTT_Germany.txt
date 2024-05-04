@@ -17,7 +17,7 @@ country_event = {
 			set_capital = { state = 55 }
 			start_civil_war = {
 				ruling_party = neutrality
-				ideology = national_vanguard
+				ideology = fascism
 				size = 0.5
 				capital = 64
 				states = { 64 61 52 53 54 60 65 66 67 68 62 63 5 }
@@ -27,7 +27,7 @@ country_event = {
 			random_other_country = {
 				limit = {
 					original_tag = GER
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				set_stability = 0.9
 				set_war_support = 0.8
@@ -48,7 +48,7 @@ country_event = {
 				popularity = 0.35
 			}
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.1
 			}	
 			set_stability = 0.9
@@ -60,7 +60,7 @@ country_event = {
 		random_other_country = {
 			limit = {
 				original_tag = GER
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			set_cosmetic_tag = GER_civil_war
 			hidden_effect = { activate_mission = GER_mefo_bills_mission }
@@ -81,7 +81,7 @@ country_event = {
 			random_other_country = {
 				limit = {
 					original_tag = GER
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				save_event_target_as = fascist_germany_civil_war
 				every_unit_leader = {
@@ -695,7 +695,7 @@ country_event = {
 	option = {
 		name = wtt_germany.18.a
 		add_stability = 0.05
-		add_popularity = { ideology = national_vanguard popularity = -0.05 }
+		add_popularity = { ideology = fascism popularity = -0.05 }
 		delete_unit_template_and_units = { division_template = "Landsturmregiment" }
 		if = { 
 			limit = { is_faction_leader = yes } 
@@ -707,7 +707,7 @@ country_event = {
 	option = {
 		name = wtt_germany.18.b
 		add_political_power = 75
-		add_popularity = { ideology = national_vanguard popularity = 0.05 }
+		add_popularity = { ideology = fascism popularity = 0.05 }
 		set_country_flag = GER_imprisoned_fascist_leadership
 		delete_unit_template_and_units = { division_template = "Landsturmregiment" }
 		if = { 
@@ -2212,14 +2212,14 @@ country_event = {
 		random_other_country = {
 			limit = {
 				original_tag = GER
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			kill_country_leader = yes
 			GER_heinrich_himmler = {
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = national_vanguard
+						ideology = fascism_ideology
 						expire = "1965.1.1.1"
 						traits = {}
 					}
@@ -2251,7 +2251,7 @@ country_event = {
 							}
 						}
 						ARG = {
-							add_timed_idea = { idea = national_vanguard_drift_ARG days = 1460 }
+							add_timed_idea = { idea = fascism_drift_ARG days = 1460 }
 							country_event = { id = wtt_germany.1004 days = 1095 random_days = 365 }
 						}
 					}
@@ -2308,7 +2308,7 @@ country_event = {
 	trigger = {
 		tag = GER
 		NOT = { has_government = communism }
-		NOT = { has_government = national_vanguard }
+		NOT = { has_government = fascism }
 		has_war = yes
 		has_country_flag = GER_imprisoned_fascist_leadership
 		has_idea = all_adults_serve
@@ -2351,7 +2351,7 @@ country_event = {
 	option = {
 		name = wtt_germany.51.a
 		add_political_power = 75
-		add_popularity = { ideology = national_vanguard popularity = 0.05 }
+		add_popularity = { ideology = fascism popularity = 0.05 }
 		custom_effect_tooltip = reinstate_nazi_leadership_TT
 		set_country_flag = GER_reinstated_nazi_leadership
 		if = {  #I'm leaving these guys in the old system for now because it would be a lot of trouble to make them work properly and need not sure if it's worth it right now.
@@ -2433,7 +2433,7 @@ country_event = {
 	option = {
 		name = wtt_germany.51.c
 		add_stability = 0.05
-		add_popularity = { ideology = national_vanguard popularity = -0.05 }
+		add_popularity = { ideology = fascism popularity = -0.05 }
 		clr_country_flag = model_survived
 		clr_country_flag = kruger_survived
 		clr_country_flag = hausser_survived
@@ -2601,7 +2601,7 @@ country_event = {
 		surrender_progress > 0.3
 		has_defensive_war_with = SOV
 		NOT = { has_government = communism }
-		NOT = { has_government = national_vanguard }
+		NOT = { has_government = fascism }
 		GER = { has_government = democratic }
 		NOT = { GER = { has_war_together_with = POL } }
 		NOT = { is_in_faction_with = GER }	
@@ -2721,7 +2721,7 @@ country_event = {
 
 	trigger = {
 		original_tag = GER
-		has_government = national_vanguard
+		has_government = fascism
 		has_country_flag = mefo_bills_removed_through_war
 		has_war = no
 	}
@@ -3625,14 +3625,14 @@ country_event = {
 
 	immediate = {
 		set_politics = { 
-			ruling_party = national_vanguard 
+			ruling_party = fascism 
 			elections_allowed = no 
 		}
 		add_country_leader_role = {
 			character = ARG_senor_hitler
 			country_leader={
 				expire = "1965.1.1"
-				ideology = national_vanguard
+				ideology = fascism_ideology
 				traits = {
 					dictator
 					incognito

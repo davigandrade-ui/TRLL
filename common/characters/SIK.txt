@@ -59,7 +59,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=national_vanguard
+			ideology = fascism_ideology
 			traits={ reluctant_interventionist dealbroker }
 			expire="1950.1.1.12"
 			id=-1

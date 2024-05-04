@@ -2429,7 +2429,7 @@ ETH_centralization_balance_of_power_category = {
 			has_global_flag = second_italo_ethiopian_war_flag
 			OR = {
 				has_government = neutrality
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 		days_remove = 2
@@ -2467,7 +2467,7 @@ ETH_centralization_balance_of_power_category = {
 		visible = {
 			OR = {
 				has_government = neutrality
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}	
 		days_remove = 90
@@ -2590,7 +2590,7 @@ ETH_centralization_balance_of_power_category = {
 		visible = {
 			OR = {
 				has_government = neutrality
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 		days_remove = 90
@@ -3373,7 +3373,7 @@ ETH_exploit_french_weakness_category = {
 					any_country = {
 						original_tag = FRA 
 						exists = yes 
-						has_government= national_vanguard
+						has_government= fascism
 					}
 					num_divisions_in_states = {
 						count = 0
@@ -3388,12 +3388,12 @@ ETH_exploit_french_weakness_category = {
 				any_country = {
 					original_tag = FRA 
 					exists = yes 
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				any_country = {
 					original_tag = FRA 
 					exists = yes 
-					NOT = { has_government = national_vanguard }
+					NOT = { has_government = fascism }
 				}
 			}
 
@@ -3404,11 +3404,11 @@ ETH_exploit_french_weakness_category = {
 					OR = {
 						OWNER = {
 							original_tag = FRA
-							has_government = national_vanguard
+							has_government = fascism
 						}
 						CONTROLLER = {
 							original_tag = FRA
-							has_government = national_vanguard
+							has_government = fascism
 						}
 						OWNER = {
 							num_divisions_in_states = {

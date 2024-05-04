@@ -844,7 +844,7 @@ defined_text = { #Moschettieri del Duce name based on political path
 		trigger = { 
 			has_completed_focus = ITA_monarchia_d_italia
 			NOT = {
-				has_government = national_vanguard
+				has_government = fascism
 				has_government = communism
 			}
 		}
@@ -876,7 +876,7 @@ defined_text = { #Moschettieri del Duce desc based on political path
 		trigger = { 
 			has_completed_focus = ITA_monarchia_d_italia
 			NOT = {
-				has_government = national_vanguard
+				has_government = fascism
 				has_government = communism
 			}
 		}

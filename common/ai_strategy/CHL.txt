@@ -24,7 +24,7 @@ join_the_global_war_on_historical = {
 			NOT = {
 				OR = {
 					has_government = neutrality
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 		}	

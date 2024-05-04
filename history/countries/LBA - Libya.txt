@@ -74,7 +74,7 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 25
-	national_vanguard = 20
+	fascism = 20
 	communism = 5
 	neutrality = 50
 }
@@ -93,7 +93,7 @@ create_country_leader = {
 	name = "Ettore Bastico"
 	desc = ""
 	picture = GFX_portrait_Ettore_Bastico
-	ideology = national_vanguard
+	ideology = fascism
 	traits = {
 		#
 	}

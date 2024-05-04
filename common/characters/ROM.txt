@@ -96,7 +96,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=national_vanguard
+			ideology = fascism_ideology
 			traits={ anti_democrat }
 			expire="1965.1.1.1"
 			id=-1
@@ -111,7 +111,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=national_vanguard
+			ideology = fascism_ideology
 			expire="1965.1.1.1"
 			id=-1
 		}

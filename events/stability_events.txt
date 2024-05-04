@@ -867,7 +867,7 @@ country_event = {
 		if = {
 			limit = { 
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = communism
 				} 
 			}

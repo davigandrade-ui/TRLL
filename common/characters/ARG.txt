@@ -290,13 +290,13 @@ characters={
 				visible = {
 				OR = {
 					has_government = neutrality
-					has_government = national_vanguard
+					has_government = fascism
 					}
 				}
 				available = {
 				OR = {
 					has_government = neutrality
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				NOT = {
 					has_country_leader = {
@@ -462,7 +462,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = national_vanguard
+			ideology = fascism_ideology
 			expire = "1965.1.1.1"
 			id = -1
 			traits = {
@@ -503,7 +503,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = national_vanguard
+			ideology = fascism_ideology
 			expire = "1965.1.1.1"
 			id = -1
 		}
@@ -749,7 +749,7 @@ characters={
 				visible = {
 					NOT = {
 						has_government = democratic
-						has_government = national_vanguard
+						has_government = fascism
 						has_government = neutrality
 					}
 				}
@@ -833,7 +833,7 @@ characters={
 				visible = {
 					NOT = {
 						has_government = democratic
-						has_government = national_vanguard
+						has_government = fascism
 						has_government = neutrality
 					}
 				}
@@ -891,7 +891,7 @@ characters={
 			visible = {
 				NOT = {
 					has_government = democratic
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 				}
 			}

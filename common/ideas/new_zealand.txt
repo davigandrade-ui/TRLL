@@ -262,7 +262,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 
 			removal_cost = -1
@@ -271,7 +271,7 @@ ideas = {
 
 			modifier = {
 				autonomy_gain = 1
-				national_vanguard_drift = 0.01
+				fascism_drift = 0.01
 				production_speed_buildings_factor = 0.1
 			}
 		}

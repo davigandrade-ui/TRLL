@@ -54,7 +54,7 @@ defined_text = {
 defined_text = {
 	name = GetRulingIdeologyNoun_DE_ART_DEF_S_N
 	text = {
-		trigger = { has_government = national_vanguard }
+		trigger = { has_government = fascism }
 		localization_key = DE_ART_DEF_S_N_national_vanguard_noun
 	}
 	text = {
@@ -75,7 +75,7 @@ defined_text = {
 defined_text = {
 	name = GetRulingIdeologyNoun_DE_ART_DEF_S_G
 	text = {
-		trigger = { has_government = national_vanguard }
+		trigger = { has_government = fascism }
 		localization_key = DE_ART_DEF_S_G_national_vanguard_noun
 	}
 	text = {
@@ -96,7 +96,7 @@ defined_text = {
 defined_text = {
 	name = GetRulingIdeologyNoun_DE_ART_DEF_S_D
 	text = {
-		trigger = { has_government = national_vanguard }
+		trigger = { has_government = fascism }
 		localization_key = DE_ART_DEF_S_D_national_vanguard_noun
 	}
 	text = {
@@ -117,7 +117,7 @@ defined_text = {
 defined_text = {
 	name = GetRulingIdeologyNoun_DE_ART_DEF_S_A
 	text = {
-		trigger = { has_government = national_vanguard }
+		trigger = { has_government = fascism }
 		localization_key = DE_ART_DEF_S_A_national_vanguard_noun
 	}
 	text = {
@@ -138,7 +138,7 @@ defined_text = {
 defined_text = {
 	name = GetRulingIdeologyNoun_DE_ART_DEF_S_N_Cap
 	text = {
-		trigger = { has_government = national_vanguard }
+		trigger = { has_government = fascism }
 		localization_key = DE_ART_DEF_S_N_Cap_national_vanguard_noun
 	}
 	text = {
@@ -162,7 +162,7 @@ defined_text = {
 	name = GetGermanCountryLeaderTitle_DE_ART_DEF_S_D
 	text = {
 		trigger = { 
-			GER = { has_government = national_vanguard }
+			GER = { has_government = fascism }
 		}
 		localization_key = DE_ART_DEF_S_D_GER_national_vanguard_leader_title
 	}
@@ -230,7 +230,7 @@ defined_text = { #Text to get fascis-est neighbor
 		trigger = {
 			GER = {
 				exists = yes
-				has_government = national_vanguard 
+				has_government = fascism 
 				is_major = yes
 			}
 		}
@@ -240,7 +240,7 @@ defined_text = { #Text to get fascis-est neighbor
 		trigger = {
 			ITA = {
 				exists = yes 
-				has_government = national_vanguard 
+				has_government = fascism 
 				is_major = yes
 			}
 		}
@@ -251,7 +251,7 @@ defined_text = { #Text to get fascis-est neighbor
 			FRA = {
 				exists = yes
 				SWI_is_country_to_balance = yes 
-				has_government = national_vanguard 
+				has_government = fascism 
 			}
 		}
 		localization_key = "DE1_SWI_french_fascist_neighbor"
@@ -261,7 +261,7 @@ defined_text = { #Text to get fascis-est neighbor
 			ENG = {
 				exists = yes
 				SWI_is_country_to_balance = yes 
-				has_government = national_vanguard 
+				has_government = fascism 
 			}
 		}
 		localization_key = "DE1_SWI_english_fascist_neighbor"

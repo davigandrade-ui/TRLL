@@ -108,7 +108,7 @@ ideas = {
 			allowed = {
 				original_tag = SPR
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 				}
 			}
@@ -140,7 +140,7 @@ ideas = {
 			allowed = {
 				original_tag = SPR
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 				}
 			}
@@ -172,7 +172,7 @@ ideas = {
 			allowed = {
 				original_tag = SPR
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 				}
 			}
@@ -218,7 +218,7 @@ ideas = {
 				original_tag = SPR
 				OR = {
 					has_government = democratic
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 				}
 			}
@@ -244,7 +244,7 @@ ideas = {
 			allowed = {
 				original_tag = SPR
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 				}
 			}
@@ -270,7 +270,7 @@ ideas = {
 			allowed = {
 				original_tag = SPR
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 				}
 			}
@@ -299,7 +299,7 @@ ideas = {
 			allowed = {
 				original_tag = SPR
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 				}
 			}
@@ -324,7 +324,7 @@ ideas = {
 			allowed = {
 				original_tag = SPR
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 				}
 			}

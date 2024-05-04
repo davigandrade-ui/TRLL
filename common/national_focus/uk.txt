@@ -2128,7 +2128,7 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				every_other_country = {
 					limit = {
@@ -2139,7 +2139,7 @@ focus_tree = {
 					country_event = { id = generic.1 }
 					every_other_country = {
 						limit = { 
-							NOT = { has_government = national_vanguard }
+							NOT = { has_government = fascism }
 							num_of_factories > 30
 						}
 						add_opinion_modifier = { target = PREV modifier = fascism_leanings_bad }
@@ -2162,7 +2162,7 @@ focus_tree = {
 					country_event = { id = generic.1 }
 					every_other_country = {
 						limit = { 
-							NOT = { has_government = national_vanguard }
+							NOT = { has_government = fascism }
 							num_of_factories > 30
 						}
 						add_opinion_modifier = { target = PREV modifier = neutrality_leanings_bad }
@@ -2287,11 +2287,11 @@ focus_tree = {
 						OR = {
 							AND = {
 								is_in_faction_with = GER
-								GER = { has_government = national_vanguard }
+								GER = { has_government = fascism }
 							}
 							AND = {
 								is_in_faction_with = ITA
-								ITA = { has_government = national_vanguard }
+								ITA = { has_government = fascism }
 							}
 							GRE = { 
 								has_country_flag = GRE_britain_rebuffed
@@ -2424,7 +2424,7 @@ focus_tree = {
 				}
 			}
 			if = {
-				limit = { has_government = national_vanguard }
+				limit = { has_government = fascism }
 				TUR = {
 					add_opinion_modifier = { target = ENG modifier = fascism_leanings_good }
 					add_timed_idea = { idea = fascist_influence days = 1095 }
@@ -2432,7 +2432,7 @@ focus_tree = {
 				}
 				every_other_country = {
 					limit = { 
-						NOT = { has_government = national_vanguard }
+						NOT = { has_government = fascism }
 						num_of_factories > 30
 					}
 					add_opinion_modifier = { target = TUR modifier = fascism_leanings_bad }
@@ -2494,7 +2494,7 @@ focus_tree = {
 				}
 			}
 			if = {
-				limit = { has_government = national_vanguard }
+				limit = { has_government = fascism }
 				GRE = {
 					add_opinion_modifier = { target = ENG modifier = fascism_leanings_good }
 					add_timed_idea = { idea = fascist_influence days = 1095 }
@@ -2502,7 +2502,7 @@ focus_tree = {
 				}
 				every_other_country = {
 					limit = { 
-						NOT = { has_government = national_vanguard }
+						NOT = { has_government = fascism }
 						num_of_factories > 30
 					}
 					add_opinion_modifier = { target = GRE modifier = fascism_leanings_bad }
@@ -2981,7 +2981,7 @@ focus_tree = {
 								}
 								set_popularities = {
 									democratic = 65
-									national_vanguard = 10
+									fascism = 10
 									communism =  2
 									neutrality = 23
 								}
@@ -3008,7 +3008,7 @@ focus_tree = {
 								}
 								set_popularities = {
 									democratic = 17
-									national_vanguard = 2
+									fascism = 2
 									communism = 1
 									neutrality = 80
 								}
@@ -7016,7 +7016,7 @@ focus_tree = {
 				limit = {
 					NOT = { has_dlc = "Together for Victory" }
 					has_dlc = "Death or Dishonor"
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				CAN = {
 					OR = {
@@ -8263,7 +8263,7 @@ focus_tree = {
 			IRQ = {
 				OR = { 
 					communism > 0.2
-			 		national_vanguard > 0.2
+			 		fascism > 0.2
 			 	} 
 			}
 		} #UK at war with fascist/commie. iraq is fascist/commie
@@ -8305,7 +8305,7 @@ focus_tree = {
 				exists = yes
 				OR = { 
 					communism > 0.2
-			 		national_vanguard > 0.2
+			 		fascism > 0.2
 			 	} 
 			}
 		} #UK at war with fascist/commie. iran is fascist/commie
@@ -8543,21 +8543,21 @@ focus_tree = {
 					exists = yes
 					OR = { 
 						communism > 0.1
-				 		national_vanguard > 0.1
+				 		fascism > 0.1
 				 	} 
 				}
 				NOR = { 
 					exists = yes
 					OR = { 
 						communism > 0.1
-				 		national_vanguard > 0.1
+				 		fascism > 0.1
 				 	} 
 				}
 				DEN = {
 					exists = yes
 					OR = { 
 						communism > 0.1
-				 		national_vanguard > 0.1
+				 		fascism > 0.1
 				 	} 
 				}				
 			}			
@@ -8622,7 +8622,7 @@ focus_tree = {
 				exists = yes
 				OR = {
 					communism > 0.2
-					national_vanguard > 0.2
+					fascism > 0.2
 				}
 			}		
 		}
@@ -8655,7 +8655,7 @@ focus_tree = {
 				exists = yes
 				OR = {
 					communism > 0.2
-					national_vanguard > 0.2
+					fascism > 0.2
 				}
 			}
 		}	
@@ -8688,7 +8688,7 @@ focus_tree = {
 				exists = yes
 				OR = {
 					communism > 0.2
-					national_vanguard > 0.2
+					fascism > 0.2
 				}
 			}
 		}		
@@ -8756,14 +8756,14 @@ focus_tree = {
 					exists = yes
 					OR = { 
 						communism > 0.15
-				 		national_vanguard > 0.15
+				 		fascism > 0.15
 				 	} 
 				}
 				HOL = { 
 					exists = yes
 					OR = { 
 						communism > 0.15
-				 		national_vanguard > 0.15
+				 		fascism > 0.15
 				 	} 
 				}								
 			}			
@@ -8808,7 +8808,7 @@ focus_tree = {
 				exists = yes
 				OR = {
 					communism > 0.2
-					national_vanguard > 0.2
+					fascism > 0.2
 				}
 			}
 		}		
@@ -8840,7 +8840,7 @@ focus_tree = {
 				exists = yes
 				OR = {
 					communism > 0.2
-					national_vanguard > 0.2
+					fascism > 0.2
 				}
 			}
 		}		
@@ -9278,7 +9278,7 @@ focus_tree = {
 				if = {
 					limit = {
 						OR = {
-							has_government = national_vanguard
+							has_government = fascism
 							has_government = neutrality
 						}
 					}
@@ -9325,7 +9325,7 @@ focus_tree = {
 			is_subject = no
 			country_exists = GER
 			NOT = { has_war_with = GER }
-			GER = { has_government = national_vanguard }
+			GER = { has_government = fascism }
 			NOT = { has_country_flag = ENG_germany_rejected_isolate_the_italian_threat }
 		}
 		bypass = {
@@ -9566,7 +9566,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_organize_the_blackshirts }
 		available = {
 			is_subject = no
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		icon = GFX_goal_support_fascism
 		x = 1
@@ -9584,7 +9584,7 @@ focus_tree = {
 			GER = {
 				if = {
 					limit = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					add_opinion_modifier = { target = ENG modifier = ENG_the_british_path_to_fascism }
 				}
@@ -9684,7 +9684,7 @@ focus_tree = {
 			ITA = {
 				if = {
 					limit = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					add_opinion_modifier = { target = ENG modifier = ENG_broke_french_relations }
 				}
@@ -9705,7 +9705,7 @@ focus_tree = {
 				}
 				any_country = {
 					original_tag = SPR
-					has_government = national_vanguard
+					has_government = fascism
 					exists = yes
 					NOT = { is_in_faction_with = ENG }
 				}
@@ -9737,7 +9737,7 @@ focus_tree = {
 				random_country = {
 					limit = {
 						original_tag = SPR
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					country_event = { id = mtg_britain.40 hours = 6 }
 				}
@@ -9762,7 +9762,7 @@ focus_tree = {
 				}
 				any_country = {
 					original_tag = SPR
-					has_government = national_vanguard
+					has_government = fascism
 					exists = yes
 					NOT = { is_in_faction_with = ENG }
 					NOT = { has_war_with = ENG }
@@ -9788,7 +9788,7 @@ focus_tree = {
 				NOT = {
 					any_country = {
 						original_tag = SPR
-						has_government = national_vanguard
+						has_government = fascism
 						exists = yes
 					}
 				}
@@ -9822,7 +9822,7 @@ focus_tree = {
 					}
 					any_country = {
 						original_tag = SPR
-						has_government = national_vanguard
+						has_government = fascism
 						exists = yes
 						is_in_faction_with = GER
 					}
@@ -9847,7 +9847,7 @@ focus_tree = {
 				random_country = {
 					limit = {
 						original_tag = SPR
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					ENG = {
 						create_wargoal = {
@@ -9994,7 +9994,7 @@ focus_tree = {
 			is_subject = no
 			OR = {
 				has_government = neutrality
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 		icon = GFX_focus_eng_god_save_the_king
@@ -10617,7 +10617,7 @@ focus_tree = {
 			country_exists = JAP
 			NOT = { is_in_faction_with = JAP }
 			OR = {
-				JAP = { has_government = national_vanguard }
+				JAP = { has_government = fascism }
 				JAP = { has_government = communism }
 			}
 		}
@@ -10808,7 +10808,7 @@ focus_tree = {
 			is_subject = no
 			has_war = no
 			OR = {
-				has_government = national_vanguard
+				has_government = fascism
 				has_government = communism
 			}
 			OR = {
@@ -11677,8 +11677,8 @@ focus_tree = {
 				country_exists = ITA
 			}
 			OR = {
-				GER = { has_government = national_vanguard }
-				ITA = { has_government = national_vanguard }
+				GER = { has_government = fascism }
+				ITA = { has_government = fascism }
 			}
 		}
 		icon = GFX_focus_generic_anti_fascist_diplomacy
@@ -11693,8 +11693,8 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					GER = { has_government = national_vanguard }
-					ITA = { has_government = national_vanguard }
+					GER = { has_government = fascism }
+					ITA = { has_government = fascism }
 				}
 				add_ideas = ENG_tackle_fascism_idea_1
 				GER = { add_opinion_modifier = { target = ENG modifier = ENG_tackle_fascism } }
@@ -11702,16 +11702,16 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					GER = { has_government = national_vanguard }
-					NOT = { ITA = { has_government = national_vanguard } }
+					GER = { has_government = fascism }
+					NOT = { ITA = { has_government = fascism } }
 				}
 				add_ideas = ENG_tackle_fascism_idea_2
 				GER = { add_opinion_modifier = { target = ENG modifier = ENG_tackle_fascism } }
 			}
 			if = {
 				limit = {
-					NOT = { GER = { has_government = national_vanguard } }
-					ITA = { has_government = national_vanguard }
+					NOT = { GER = { has_government = fascism } }
+					ITA = { has_government = fascism }
 				}
 				add_ideas = ENG_tackle_fascism_idea_3
 				ITA = { add_opinion_modifier = { target = ENG modifier = ENG_tackle_fascism } }

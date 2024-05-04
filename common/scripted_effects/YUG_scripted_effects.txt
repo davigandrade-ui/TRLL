@@ -3,7 +3,7 @@
 #	example_effect = {
 #		add_political_power = 66
 #		add_popularity = {
-#			ideology = national_vanguard
+#			ideology = fascism
 #			popularity = 0.33
 #		}
 #	}
@@ -91,7 +91,7 @@ YUG_start_peters_coup = {
 		set_popularities = {
 			democratic = 50
 			neutrality = 40
-			national_vanguard = 5
+			fascism = 5
 			communism = 5
 		}
 		set_capital = { state = 107 }

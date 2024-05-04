@@ -2369,7 +2369,7 @@ POL_anti_capitalist_decisions = {
 				OR = {
 					is_major = no
 					has_government = communism
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 				}
 			}
@@ -2411,7 +2411,7 @@ POL_anti_fascist_revolution_category = {
 		target_trigger = {
 			FROM = {
 				is_major = yes
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 
@@ -2423,7 +2423,7 @@ POL_anti_fascist_revolution_category = {
 			FROM = {
 				OR = {
 					is_major = no
-					NOT = { has_government = national_vanguard }
+					NOT = { has_government = fascism }
 				}
 			}
 		}
@@ -3348,7 +3348,7 @@ POL_sanacja_falanga_decisions = {
 		
 		
 		visible = {
-			NOT = { has_government = national_vanguard }
+			NOT = { has_government = fascism }
 		}
 		
 		fire_only_once = no
@@ -3357,7 +3357,7 @@ POL_sanacja_falanga_decisions = {
 		days_remove = 70
 		
 		modifier = {
-			national_vanguard_drift = 0.1
+			fascism_drift = 0.1
 			stability_weekly = -0.02
 		}
 		
@@ -3385,7 +3385,7 @@ POL_sanacja_falanga_decisions = {
 		
 		
 		visible = {
-			NOT = { has_government = national_vanguard }
+			NOT = { has_government = fascism }
 		}
 		
 		fire_only_once = no
@@ -3394,7 +3394,7 @@ POL_sanacja_falanga_decisions = {
 		days_remove = 70
 		
 		modifier = {
-			national_vanguard_drift = 0.1
+			fascism_drift = 0.1
 			political_power_factor = -0.5
 		}
 		
@@ -3445,7 +3445,7 @@ POL_promote_falangism_decisions = {
 							ROOT = { NOT = { has_completed_focus = POL_support_falangists_in_the_americas } }
 						}
 					}
-					NOT = { has_government = national_vanguard }
+					NOT = { has_government = fascism }
 					NOT = { has_country_flag = banned_fascism_flag }
 				}
 				is_capital = yes
@@ -3498,7 +3498,7 @@ POL_promote_falangism_decisions = {
 						original_tag = PRU
 					}
 					ROOT = { NOT = { has_completed_focus = POL_support_falangists_in_the_americas } }
-					NOT = { has_government = national_vanguard }
+					NOT = { has_government = fascism }
 					NOT = { has_country_flag = banned_fascism_flag }
 				}
 				is_capital = yes

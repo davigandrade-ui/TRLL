@@ -638,7 +638,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		removal_cost = -1
@@ -649,7 +649,7 @@ country = {
 			economy_cost_factor = -0.1
 			political_power_factor = 0.15
 			drift_defence_factor = 0.15
-			national_vanguard_drift = 0.1
+			fascism_drift = 0.1
 		}
 	}
 
@@ -661,7 +661,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		removal_cost = -1
@@ -672,7 +672,7 @@ country = {
 			economy_cost_factor = -0.2
 			political_power_factor = 0.15
 			drift_defence_factor = 0.25
-			national_vanguard_drift = 0.2
+			fascism_drift = 0.2
 			stability_factor = 0.1
 		}
 	}
@@ -685,7 +685,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		removal_cost = -1
@@ -698,7 +698,7 @@ country = {
 			resistance_damage_to_garrison = -0.15
 			political_power_factor = 0.15
 			drift_defence_factor = 0.15
-			national_vanguard_drift = 0.15
+			fascism_drift = 0.15
 		}
 	}
 
@@ -755,7 +755,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		removal_cost = -1
@@ -765,7 +765,7 @@ country = {
 		modifier = {
 			conscription = 0.02
 			training_time_army_factor = -0.1
-			national_vanguard_drift = 0.02
+			fascism_drift = 0.02
 		}
 	}
 
@@ -1392,7 +1392,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		removal_cost = -1
@@ -1414,7 +1414,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		removal_cost = -1
@@ -1501,7 +1501,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		removal_cost = -1
@@ -1510,7 +1510,7 @@ country = {
 
 		modifier = {
 			stability_factor = -0.1
-			national_vanguard_drift = 0.05
+			fascism_drift = 0.05
 		}
 	}
 
@@ -1522,7 +1522,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		removal_cost = -1
@@ -1532,7 +1532,7 @@ country = {
 		modifier = {
 			war_support_factor = 0.1
 			political_power_factor = 0.1
-			national_vanguard_drift = 0.1
+			fascism_drift = 0.1
 		}
 	}
 
@@ -1544,7 +1544,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		removal_cost = -1
@@ -1571,7 +1571,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		removal_cost = -1
@@ -1598,7 +1598,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		removal_cost = -1
@@ -1624,7 +1624,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		removal_cost = -1
@@ -1651,7 +1651,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		removal_cost = -1
@@ -1677,7 +1677,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		removal_cost = -1
@@ -1699,7 +1699,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		removal_cost = -1
@@ -1719,7 +1719,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		removal_cost = -1
@@ -1745,7 +1745,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		removal_cost = -1
@@ -1771,7 +1771,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		removal_cost = -1
@@ -1779,8 +1779,8 @@ country = {
 		picture = generic_fascism_drift_bonus
 
 		modifier = {
-			national_vanguard_drift = 0.1
-			national_vanguard_acceptance = 80
+			fascism_drift = 0.1
+			fascism_acceptance = 80
 		}
 	}
 
@@ -1791,7 +1791,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		picture = generic_fascism_drift_bonus
@@ -1799,7 +1799,7 @@ country = {
 		removal_cost = -1
 
 		modifier = {
-			national_vanguard_drift = 0.15
+			fascism_drift = 0.15
 		}
 	}
 

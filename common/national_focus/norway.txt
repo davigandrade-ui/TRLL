@@ -804,7 +804,7 @@ focus_tree = {
 					GER = {
 						exists = yes 
 						is_major = yes 
-						has_government = national_vanguard
+						has_government = fascism
 						has_capitulated = no 
 					}
 				}
@@ -1992,12 +1992,12 @@ focus_tree = {
 				limit = {
 					any_other_country = { 
 						original_tag = GER 
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 				any_other_country = { 
 					original_tag = GER 
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			else_if = {
@@ -2007,7 +2007,7 @@ focus_tree = {
 				var:GLOBAL.platonic_fascist_bully = {
 					exists = yes 
 					is_major = yes 
-					has_government = national_vanguard
+					has_government = fascism
 					has_capitulated = no 
 				}
 			}
@@ -2017,7 +2017,7 @@ focus_tree = {
 			NOT = {
 				any_other_country = {
 					is_major = yes 
-					has_government = national_vanguard 
+					has_government = fascism 
 					has_capitulated = no 
 				}
 			}
@@ -2038,7 +2038,7 @@ focus_tree = {
 				limit = {
 					GER = {
 						exists = yes 
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					NOT = {
 						has_wargoal_against = { target = GER }
@@ -2054,7 +2054,7 @@ focus_tree = {
 				random_other_country = {
 					limit = {
 						original_tag = GER
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					set_variable = { NOR.AltGer = THIS }
 
@@ -2146,7 +2146,7 @@ focus_tree = {
 				}
 			}
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.12
 			}	
 		}
@@ -2535,7 +2535,7 @@ focus_tree = {
 				popularity = 0.1
 			}
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.08
 			}
 			add_political_power = 50		
@@ -2560,7 +2560,7 @@ focus_tree = {
 		completion_reward = {
 			add_command_power = 30
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = -0.1
 			}
 			add_equipment_to_stockpile = { 
@@ -2684,7 +2684,7 @@ focus_tree = {
 		completion_reward = {
 			remove_ideas = { NOR_anti_communist_sentiment_ns }
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = -0.2
 			}
 			add_popularity = {
@@ -4035,7 +4035,7 @@ focus_tree = {
 			NOR_set_prepare_variables_fascist = yes 	
 			add_political_power = 50
 			add_popularity = {
-				ideology = national_vanguard 
+				ideology = fascism 
 				popularity = 0.05
 			}
 			unlock_decision_tooltip = {
@@ -4133,7 +4133,7 @@ focus_tree = {
 					limit = {
 						any_other_country = {
 							original_tag = GER 
-							has_government = national_vanguard 
+							has_government = fascism 
 							exists = yes 
 							has_capitulated = no 
 						}
@@ -4144,7 +4144,7 @@ focus_tree = {
 				}
 				else = {
 					any_other_country = {
-						has_government = national_vanguard 
+						has_government = fascism 
 						capital_scope = {
 							is_on_continent = europe
 						}
@@ -4161,7 +4161,7 @@ focus_tree = {
 			add_war_support = 0.25
 			add_political_power = 100 	
 			add_popularity = {
-				ideology = national_vanguard 
+				ideology = fascism 
 				popularity = -0.1
 			}
 			mark_focus_tree_layout_dirty = yes
@@ -4179,7 +4179,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_war = no
-			NOT = { has_government = national_vanguard }
+			NOT = { has_government = fascism }
 
 		}
 
@@ -4191,13 +4191,13 @@ focus_tree = {
 				limit = {
 					any_other_country = {
 						original_tag = GER 
-						has_government = national_vanguard 
+						has_government = fascism 
 					}
 				}
 				random_other_country = {
 					limit = {
 						original_tag = GER
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					country_event = {
 						id = AAT_norway_fascist.4
@@ -4228,7 +4228,7 @@ focus_tree = {
 		relative_position_id = NOR_lurk_in_the_shadows
 		cost = 5
 		available = {
-			national_vanguard > 0.15
+			fascism > 0.15
 		}
 
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_POLITICAL_CHARACTER }
@@ -4236,7 +4236,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 50
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = -0.1
 			}
 			hidden_effect = { find_local_dangerous_fascist = yes }
@@ -4255,7 +4255,7 @@ focus_tree = {
 		relative_position_id = NOR_lurk_in_the_shadows
 		cost = 5
 		available = {
-			national_vanguard > 0.15
+			fascism > 0.15
 		}
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -4330,7 +4330,7 @@ focus_tree = {
 		relative_position_id = NOR_approach_the_fatherland_league
 		cost = 10
 		available = {
-			national_vanguard > 0.35
+			fascism > 0.35
 		}
 
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_POLITICAL_CHARACTER FOCUS_FILTER_HISTORICAL }
@@ -4361,7 +4361,7 @@ focus_tree = {
 		cost = 10
 		available = {
 			NOT = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 
@@ -4416,15 +4416,15 @@ focus_tree = {
 			}
 			modifier = {
 				add = 5
-				national_vanguard > 0.4 
+				fascism > 0.4 
 			}
 			modifier = {
 				add = 10
-				national_vanguard > 0.5 
+				fascism > 0.5 
 			}
 			modifier = {
 				add = 15
-				national_vanguard > 0.6
+				fascism > 0.6
 			}
 		}
 
@@ -4455,7 +4455,7 @@ focus_tree = {
 					limit = {
 						any_other_country = {
 							tag = GER 
-							has_government = national_vanguard 
+							has_government = fascism 
 							exists = yes 
 							has_capitulated = no 
 						}
@@ -4466,7 +4466,7 @@ focus_tree = {
 				}
 				else = {
 					any_other_country = {
-						has_government = national_vanguard 
+						has_government = fascism 
 						capital_scope = {
 							is_on_continent = europe
 						}
@@ -4478,14 +4478,14 @@ focus_tree = {
 		}
 
 		bypass = {
-			has_government = national_vanguard	
+			has_government = fascism	
 		}
 
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_HISTORICAL }
 
 		completion_reward = {
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.3
 			}
 			if = {
@@ -4521,7 +4521,7 @@ focus_tree = {
 				limit = {
 					any_other_country = {
 						original_tag = NOR
-						NOT = { has_government = national_vanguard }
+						NOT = { has_government = fascism }
 					}
 					has_variable = NOR_cw_democratic_norway	
 				}
@@ -4532,8 +4532,8 @@ focus_tree = {
 			else = {
 				has_civil_war = no 
 			}
-			has_government = national_vanguard
-			national_vanguard > 0.5 
+			has_government = fascism
+			fascism > 0.5 
 		}
 
 		ai_will_do = {
@@ -4578,8 +4578,8 @@ focus_tree = {
 					}
 				}
 			}			
-			has_government = national_vanguard 
-			national_vanguard > 0.5 
+			has_government = fascism 
+			fascism > 0.5 
 		}
 
 		ai_will_do = {
@@ -4594,7 +4594,7 @@ focus_tree = {
 			remove_ideas = { NOR_contested_leadership_ns }
 			promote_character = {
 				character = NOR_josef_terboven
-				ideology = national_vanguard
+				ideology = fascism
 			}			
 		}
 	}
@@ -4923,7 +4923,7 @@ focus_tree = {
 			OR = {
 				NORDIC_basic_joint_trigger = yes 
 				any_other_country = {
-					has_government = national_vanguard 
+					has_government = fascism 
 					capital_scope = { is_on_continent = europe}
 					is_in_faction_with = ROOT 
 				}
@@ -4936,7 +4936,7 @@ focus_tree = {
 			every_other_country = {
 				limit = {
 					is_germanic = yes
-					has_government = national_vanguard  
+					has_government = fascism  
 				}
 				add_opinion_modifier = {
 					target = ROOT 
@@ -4946,21 +4946,21 @@ focus_tree = {
 			if = {
 				limit = {
 					GER = {
-						NOT = { has_government = national_vanguard }
+						NOT = { has_government = fascism }
 					}
 				}
 				if ={
 					limit = {
 						any_other_country = {
 							is_germanic = yes 
-							has_government = national_vanguard 
+							has_government = fascism 
 							is_faction_leader = yes 
 						}
 					}
 					random_other_country = {
 						limit = {
 							is_germanic = yes 
-							has_government = national_vanguard 
+							has_government = fascism 
 							is_faction_leader = yes 
 						}
 						country_event = {
@@ -4974,7 +4974,7 @@ focus_tree = {
 				limit = {
 					GER = {
 						exists = yes 
-						has_government = national_vanguard
+						has_government = fascism
 						is_faction_leader = yes 
 					}
 				}
@@ -4990,7 +4990,7 @@ focus_tree = {
 				every_other_country = {
 					limit = {
 						is_germanic = yes 
-						has_government = national_vanguard 
+						has_government = fascism 
 					}
 					country_event = { 
 						id = generic.5
@@ -5042,7 +5042,7 @@ focus_tree = {
 			}
 			add_stability = 0.1
 			add_popularity = {
-				ideology = national_vanguard 
+				ideology = fascism 
 				popularity = 0.15
 			}
 		}
@@ -5083,7 +5083,7 @@ focus_tree = {
 				every_other_country = {
 					limit = {
 						is_in_faction_with = ROOT 
-						has_government = national_vanguard 
+						has_government = fascism 
 					}
 					add_opinion_modifier = {
 						target = THIS
@@ -5223,7 +5223,7 @@ focus_tree = {
 		relative_position_id = NOR_the_administrative_council
 		cost = 10
 		available = {
-			has_government = national_vanguard 
+			has_government = fascism 
 			is_in_faction = yes 
 			is_faction_leader = no 
 			if = {
@@ -5242,7 +5242,7 @@ focus_tree = {
 				limit = {
 					is_subject = yes 
 				}
-				OVERLORD = { has_government = national_vanguard }
+				OVERLORD = { has_government = fascism }
 			}
 		}
 
@@ -5308,7 +5308,7 @@ focus_tree = {
 		completion_reward = {
 			promote_character = {
 				character = NOR_jonas_lie
-				ideology = national_vanguard
+				ideology = fascism
 			}
 		}
 	}
@@ -5330,7 +5330,7 @@ focus_tree = {
 		completion_reward = {
 			promote_character = {
 				character = NOR_vidkun_quisling 
-				ideology = national_vanguard 
+				ideology = fascism 
 			}
 			NOR_vidkun_quisling = { 
 				remove_country_leader_trait = NOR_fascist_lackey
@@ -5355,7 +5355,7 @@ focus_tree = {
 		relative_position_id = NOR_jonas_lie_coup
 		cost = 10
 		available = {
-			has_government = national_vanguard 
+			has_government = fascism 
 			is_subject = yes 
 			has_civil_war = no 
 		}
@@ -5367,7 +5367,7 @@ focus_tree = {
 				limit = {
 					GER = {
 						exists = yes 
-						has_government = national_vanguard 
+						has_government = fascism 
 					}
 				}
 				GER = {
@@ -5386,7 +5386,7 @@ focus_tree = {
 				limit = {
 					is_subject = yes
 					OVERLORD = {
-						has_government = national_vanguard
+						has_government = fascism
 					} 
 				}
 				OVERLORD = {
@@ -5433,7 +5433,7 @@ focus_tree = {
 		available = {
 			GER = {
 				exists = yes 
-				has_government = national_vanguard 
+				has_government = fascism 
 			}
 		}
 
@@ -6244,14 +6244,14 @@ focus_tree = {
 			add_war_support = 0.2
 			add_political_power = 120
 			add_popularity = {
-				ideology = national_vanguard 
+				ideology = fascism 
 				popularity = 0.1
 			}
 			NOR_vidkun_quisling = {
 				swap_country_leader_traits = {
 					remove = NOR_fascist_dilettante
 					add = NOR_fascist_landssviker
-					ideology = national_vanguard
+					ideology = fascism
 				}
 				set_portraits = {
 					army = { large ="GFX_portrait_NOR_vidkun_quisling_3"}
@@ -7863,7 +7863,7 @@ focus_tree = {
 		available = {
 			NOR_broken_gun_trigger = yes 
 			NOT = {
-				has_government = national_vanguard 
+				has_government = fascism 
 				has_government = communism
 			}
 		}
@@ -8104,7 +8104,7 @@ focus_tree = {
 				category = industry 
 			}
 			add_popularity = { # This is to represent Large industry's collaboration with the Nazis in occupied Norway 
-			 	ideology = national_vanguard
+			 	ideology = fascism
 			 	popularity = 0.05
 			 } 
 		}

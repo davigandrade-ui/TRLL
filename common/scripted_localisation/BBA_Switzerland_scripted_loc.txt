@@ -99,7 +99,7 @@ defined_text = { #Text to get fascis-est neighbor
 		trigger = {
 			GER = {
 				exists = yes
-				has_government = national_vanguard 
+				has_government = fascism 
 				is_major = yes
 			}
 		}
@@ -109,7 +109,7 @@ defined_text = { #Text to get fascis-est neighbor
 		trigger = {
 			ITA = {
 				exists = yes 
-				has_government = national_vanguard 
+				has_government = fascism 
 				is_major = yes
 			}
 		}
@@ -120,7 +120,7 @@ defined_text = { #Text to get fascis-est neighbor
 			FRA = {
 				exists = yes
 				SWI_is_country_to_balance = yes 
-				has_government = national_vanguard 
+				has_government = fascism 
 			}
 		}
 		localization_key = "[FRA.GetNameDef]"
@@ -130,7 +130,7 @@ defined_text = { #Text to get fascis-est neighbor
 			ENG = {
 				exists = yes
 				SWI_is_country_to_balance = yes 
-				has_government = national_vanguard 
+				has_government = fascism 
 			}
 		}
 		localization_key = "[ENG.GetNameDef]"
@@ -146,7 +146,7 @@ defined_text = { #Text to get fascis-est neighbor
 		trigger = {
 			GER = {
 				exists = yes
-				has_government = national_vanguard 
+				has_government = fascism 
 				is_major = yes
 			}
 		}
@@ -156,7 +156,7 @@ defined_text = { #Text to get fascis-est neighbor
 		trigger = {
 			ITA = {
 				exists = yes 
-				has_government = national_vanguard 
+				has_government = fascism 
 				is_major = yes
 			}
 		}
@@ -167,7 +167,7 @@ defined_text = { #Text to get fascis-est neighbor
 			FRA = {
 				exists = yes
 				SWI_is_country_to_balance = yes 
-				has_government = national_vanguard 
+				has_government = fascism 
 			}
 		}
 		localization_key = "[FRA.GetNameDefCap]"
@@ -177,7 +177,7 @@ defined_text = { #Text to get fascis-est neighbor
 			ENG = {
 				exists = yes
 				SWI_is_country_to_balance = yes 
-				has_government = national_vanguard 
+				has_government = fascism 
 			}
 		}
 		localization_key = "[ENG.GetNameDefCap]"
@@ -193,7 +193,7 @@ defined_text = { #How to call your fascist-est neighbor
 		trigger = {
 			GER = {
 				exists = yes
-				has_government = national_vanguard 
+				has_government = fascism 
 				is_major = yes
 			}
 		}
@@ -203,7 +203,7 @@ defined_text = { #How to call your fascist-est neighbor
 		trigger = {
 			ITA = {
 				exists = yes 
-				has_government = national_vanguard 
+				has_government = fascism 
 				is_major = yes
 			}
 		}
@@ -214,7 +214,7 @@ defined_text = { #How to call your fascist-est neighbor
 			FRA = {
 				exists = yes
 				SWI_is_country_to_balance = yes 
-				has_government = national_vanguard 
+				has_government = fascism 
 			}
 		}
 		localization_key = "[FRA.GetAdjective]"
@@ -224,7 +224,7 @@ defined_text = { #How to call your fascist-est neighbor
 			ENG = {
 				exists = yes
 				SWI_is_country_to_balance = yes 
-				has_government = national_vanguard 
+				has_government = fascism 
 			}
 		}
 		localization_key = "[ENG.GetAdjective]"
@@ -484,7 +484,7 @@ defined_text = {
 		text = {
 			trigger = {
 				SWI = {
-					has_government = national_vanguard
+					has_government = fascism
 					OR = {
 						has_completed_focus = SWI_promote_tobler 
 						has_completed_focus = SWI_promote_henne

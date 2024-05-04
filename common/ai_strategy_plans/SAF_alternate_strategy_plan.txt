@@ -236,7 +236,7 @@ SAF_alternate_fascist = {
 	abort = {
 		GER = {
 			not = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 	}
@@ -347,7 +347,7 @@ SAF_alternate_fascist_2 = {
 		}
 		GER = {
 			not = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 	}

@@ -56,7 +56,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = national_vanguard
+				ideology = fascism_ideology
 				traits = { JUNO_el_jefe }
 				expire = "1965.1.1.1"
 				id = -1
@@ -111,7 +111,7 @@ characters = {
 				logistics_skill = 2
 				legacy_id = -1 
 				visible = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 		}
@@ -128,7 +128,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = national_vanguard
+				ideology = fascism_ideology
 				expire = "1965.1.1.1"
 				id = -1
 			}
@@ -403,7 +403,7 @@ characters = {
 
 				visible = {
 					NOT = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 
@@ -424,7 +424,7 @@ characters = {
 
 				visible = {
 					NOT = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 			}
@@ -1135,7 +1135,7 @@ characters = {
 						has_government = neutrality
 						has_government = democratic
 						AND = {
-							has_government = national_vanguard
+							has_government = fascism
 							has_completed_focus = CHL_sway_ariosto_hererra
 						}
 					}
@@ -1147,7 +1147,7 @@ characters = {
 							has_completed_focus = CHL_address_the_mapuche_conflict
 							has_government = communism
 							AND = {
-								has_government = national_vanguard
+								has_government = fascism
 								NOT = {
 									has_completed_focus = CHL_sway_ariosto_hererra
 								}
@@ -1176,7 +1176,7 @@ characters = {
 						has_government = neutrality
 						has_government = democratic
 						AND = {
-							has_government = national_vanguard
+							has_government = fascism
 							has_completed_focus = CHL_sway_ariosto_hererra
 						}
 					}
@@ -1242,7 +1242,7 @@ characters = {
 					NOT = {
 						OR = {
 							has_government = communism
-							has_government = national_vanguard
+							has_government = fascism
 							has_completed_focus = CHL_address_the_mapuche_conflict
 						}
 					}
@@ -1252,7 +1252,7 @@ characters = {
 					NOT = {
 						OR = {
 							has_government = communism
-							has_government = national_vanguard
+							has_government = fascism
 							has_completed_focus = CHL_address_the_mapuche_conflict
 						}
 					}
@@ -1391,7 +1391,7 @@ characters = {
 						OR = {
 							has_completed_focus = CHL_address_the_mapuche_conflict
 							has_government = communism
-							has_government = national_vanguard
+							has_government = fascism
 						}
 					}
 				}
@@ -1609,7 +1609,7 @@ characters = {
 		}
 		# This should be gettable later
 		#country_leader = {
-		#	ideology = national_vanguard
+		#	ideology = fascism
 		#	expire = "1965.1.1.1"
 		#	id = -1
 		#	traits  = {
@@ -1665,7 +1665,7 @@ characters = {
 			logistics_skill = 1
 			legacy_id = -1 
 			visible = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 	}
@@ -1834,7 +1834,7 @@ characters = {
 				OR = {
 					has_government = democratic
 					has_government = neutrality
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				NOT = {
 					has_completed_focus = CHL_address_the_mapuche_conflict
@@ -1904,7 +1904,7 @@ characters = {
 			visible = {
 				NOT = {
 					OR = {
-						has_government = national_vanguard
+						has_government = fascism
 						has_government = communism
 					}
 				}
@@ -1987,7 +1987,7 @@ characters = {
 
 			available = {
 				NOT = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				OR = {
 					has_country_flag = CHL_incorporated_mapuche_organizations
@@ -2005,7 +2005,7 @@ characters = {
 			visible = {
 				#CM
 				NOT = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				OR = {
 					has_country_flag = CHL_incorporated_mapuche_organizations
@@ -2239,7 +2239,7 @@ characters = {
 			visible = {
 				NOT = {
 					OR = {
-						has_government = national_vanguard
+						has_government = fascism
 						AND = {
 							has_government = communism
 							NOT = {
@@ -2336,7 +2336,7 @@ characters = {
 				OR = {
 					has_government = neutrality
 					has_government = democratic
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				not_already_hired_except_as = theorist
 			}
@@ -2384,7 +2384,7 @@ characters = {
 				OR = {
 					has_government = neutrality
 					has_government = democratic
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 		}
@@ -2408,13 +2408,13 @@ characters = {
 			}
 
 			available = {
-				has_government = national_vanguard
+				has_government = fascism
 				not_already_hired_except_as = political_advisor
 			}
 
 			visible = {
 				#CM
-				has_government = national_vanguard
+				has_government = fascism
 				#END
 				NOT = {
 					OR = {
@@ -2439,7 +2439,7 @@ characters = {
 			cost = 100
 
 			available = {
-				has_government = national_vanguard
+				has_government = fascism
 				not_already_hired_except_as = army_chief
 			}
 
@@ -2465,7 +2465,7 @@ characters = {
 			logistics_skill = 1
 			legacy_id = -1 
 			visible = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 	}
@@ -2489,7 +2489,7 @@ characters = {
 			legacy_id = -1 
 			visible = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 					has_government = democratic
 				}
@@ -2681,7 +2681,7 @@ characters = {
 			visible = {
 				OR = {
 					has_government = neutrality
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = democratic
 				}
 			}
@@ -2901,7 +2901,7 @@ characters = {
 			legacy_id = -1
 			visible = {
 				NOT = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 		}
@@ -2926,7 +2926,7 @@ characters = {
 			legacy_id = -1
 			visible = {
 				NOT = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 		}
@@ -3056,7 +3056,7 @@ characters = {
 			logistics_skill = 4
 			legacy_id = -1
 			visible = {
-				has_government = national_vanguard
+				has_government = fascism
 				has_country_flag = recalled_peter_hansen
 			}
 		}
@@ -3578,7 +3578,7 @@ characters = {
 
 			available = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					CHL_has_right_wing_government = yes
 					has_government = neutrality
 				}
@@ -3590,7 +3590,7 @@ characters = {
 			visible = {
 				#CM
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					CHL_has_right_wing_government = yes
 					has_government = neutrality
 				}
@@ -3839,7 +3839,7 @@ characters = {
 			available = {
 				OR = {
 					has_completed_focus = CHL_utilize_national_populism
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 
@@ -3847,7 +3847,7 @@ characters = {
 				#CM
 				OR = {
 					has_completed_focus = CHL_utilize_national_populism
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				#END
 				NOT = {
@@ -3938,7 +3938,7 @@ characters = {
 
 			available = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					CHL_has_right_wing_government = yes
 					has_government = neutrality
 				}
@@ -3950,7 +3950,7 @@ characters = {
 			visible = {
 				#CM
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					CHL_has_right_wing_government = yes
 					has_government = neutrality
 				}
@@ -4134,7 +4134,7 @@ characters = {
 
 			available = {
 				OR =  {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 					has_completed_focus = CHL_utilize_national_populism
 				}
@@ -4146,7 +4146,7 @@ characters = {
 			visible = {
 				#CM
 				OR =  {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 					has_completed_focus = CHL_utilize_national_populism
 				}
@@ -4582,7 +4582,7 @@ characters = {
 			}
 
 			available = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 
 			visible = {
@@ -4593,7 +4593,7 @@ characters = {
 					}
 				}
 				#CM
-				has_government = national_vanguard
+				has_government = fascism
 				#END
 			}
 
@@ -4746,7 +4746,7 @@ characters = {
 
 			available = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 					has_completed_focus = CHL_utilize_national_populism
 				}
@@ -4757,7 +4757,7 @@ characters = {
 
 			visible = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 					has_completed_focus = CHL_utilize_national_populism
 				}
@@ -4792,7 +4792,7 @@ characters = {
 				OR = {
 					has_completed_focus = CHL_repeal_the_separation_of_church_an_state
 					has_completed_focus = CHL_state_catholicism
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				NOT = {
 					has_completed_focus = CHL_address_the_mapuche_conflict
@@ -4803,7 +4803,7 @@ characters = {
 				OR = {
 					has_completed_focus = CHL_repeal_the_separation_of_church_an_state
 					has_completed_focus = CHL_state_catholicism
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				NOT = {
 					has_completed_focus = CHL_address_the_mapuche_conflict

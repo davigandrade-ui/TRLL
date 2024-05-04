@@ -55,7 +55,7 @@ characters={
 
 		}
 		country_leader = {
-			ideology = national_vanguard
+			ideology = fascism_ideology
 			traits = { ICE_national_romanticist }
 			expire = "1965.1.1"
 			id = -1
@@ -250,7 +250,7 @@ characters={
 			
 			}
 			available = {
-				NOT = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
 				IF = { 
 					limit = { has_government = democratic }
 					has_country_leader = {
@@ -293,7 +293,7 @@ characters={
 			
 			}
 			available = {
-				NOT = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
 				IF = { 
 					limit = { has_government = democratic }
 					has_country_leader = {
@@ -336,7 +336,7 @@ characters={
 			
 			}
 			available = {
-				NOT = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
 				IF = { 
 					limit = { has_government = democratic }
 					has_country_leader = {
@@ -379,7 +379,7 @@ characters={
 			
 			}
 			available = {
-				NOT = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
 				IF = { 
 					limit = { has_government = democratic }
 					has_country_leader = {
@@ -456,7 +456,7 @@ characters={
 			available = {
 				OR = {
 					has_government = democratic
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				IF = { 
 					limit = { has_government = democratic }
@@ -501,7 +501,7 @@ characters={
 			available = {
 				OR = {
 					has_government = neutrality
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			visible = {
@@ -583,7 +583,7 @@ characters={
 			available = {
 				OR = {
 					has_government = neutrality
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			visible = {
@@ -617,7 +617,7 @@ characters={
 			available = {
 				OR = {
 					has_government = neutrality
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			visible = {
@@ -684,7 +684,7 @@ characters={
 			
 			}
 			available = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			visible = {
 			
@@ -818,7 +818,7 @@ characters={
 			
 			}
 			available = {
-				has_government = national_vanguard 
+				has_government = fascism 
 				has_completed_focus = ICE_state_visits
 			}
 			visible = {
@@ -926,7 +926,7 @@ characters={
 			logistics_skill = 1
 			legacy_id=0
 			visible = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 		

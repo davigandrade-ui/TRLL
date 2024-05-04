@@ -1306,11 +1306,11 @@ focus_tree = {
 				ELSE_IF = {
 					limit = {
 						OVERLORD = {
-							has_government = national_vanguard
+							has_government = fascism
 						}
 					}
 					add_popularity = {
-						ideology = national_vanguard
+						ideology = fascism
 						popularity = 0.1
 					}
 				}

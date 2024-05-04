@@ -45,7 +45,7 @@ support_polish_falange_decisions = {
 
 	visible = {
 		has_completed_focus = LIT_support_polish_fascists
-		NOT = { POL = { has_government = national_vanguard } }
+		NOT = { POL = { has_government = fascism } }
 		NOT = { POL = { has_country_flag = banned_fascism_flag } }
 	}
 	priority = 9
@@ -98,7 +98,7 @@ march_through_estonia = {
 		has_completed_focus = EST_rally_the_nation
 		NOT = { 
 			has_country_flag = EST_vapsid_takeover_finland
-			has_government = national_vanguard 
+			has_government = fascism 
 		}
 	}
 	
@@ -126,7 +126,7 @@ EST_convert_FIN_cat = {
 			any_other_country = {
 				original_tag = FIN 
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
  					has_country_flag = estonia_started_cw_in_finland
 				}
 			}

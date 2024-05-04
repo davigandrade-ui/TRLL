@@ -2627,7 +2627,7 @@ country_event = {
 			exists = yes
 		}
 		OR = {
-			NOT = {GER = {has_government = national_vanguard}}
+			NOT = {GER = {has_government = fascism}}
 			GER = {exists = no}
 		}
 	}

@@ -2075,7 +2075,7 @@
 				kill_country_leader = yes 
 				if = {
 					limit = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					create_country_leader = {
 						name = "Xuantong"

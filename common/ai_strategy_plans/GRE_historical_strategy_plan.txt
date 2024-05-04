@@ -28,7 +28,7 @@ GRE_historical_plan = {
 			is_in_faction_with = GER
 			has_government = communism
 			has_government = democratic
-			has_government = national_vanguard
+			has_government = fascism
 		}
 	}
 

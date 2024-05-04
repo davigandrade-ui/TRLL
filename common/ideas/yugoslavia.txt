@@ -13,7 +13,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 
@@ -114,7 +114,7 @@ ideas = {
 			
 			modifier = {
 				join_faction_tension = -0.20
-				national_vanguard_acceptance = 85
+				fascism_acceptance = 85
 			}
 		}
 		

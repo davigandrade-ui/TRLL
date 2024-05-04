@@ -78,7 +78,7 @@ OTT_UNIFIED_democratic = { #BftB
 	color_ui = rgb { 26 138 4 }
 }
 
-OTT_UNIFIED_national_vanguard = { #BftB
+OTT_UNIFIED_fascism = { #BftB
 	color = rgb { 26 138 4 }
 	color_ui = rgb { 26 138 4 }
 }
@@ -128,7 +128,7 @@ BYZ_UNIFIED_democratic = {
 	color_ui = rgb { 143 12 125 }
 }
 
-BYZ_UNIFIED_national_vanguard = {
+BYZ_UNIFIED_fascism = {
 	color = rgb { 143 12 125 }
 	color_ui = rgb { 143 12 125 }
 }
@@ -401,7 +401,7 @@ GRE_dem_monarchy_democratic = {
 	color_ui = rgb { 93 181 227 }
 }
 
-GRE_dem_monarchy_national_vanguard = {
+GRE_dem_monarchy_fascism = {
 	color = rgb { 93 181 227 }
 	color_ui = rgb { 93 181 227 }
 }
@@ -421,7 +421,7 @@ GRE_com_independent_democratic = {
 	color_ui = rgb { 195 8 8 }
 }
 
-GRE_com_independent_national_vanguard = {
+GRE_com_independent_fascism = {
 	color = rgb { 195 8 8 }
 	color_ui = rgb { 195 8 8 }
 }
@@ -451,7 +451,7 @@ GRE_GREATER_GREECE_democratic = {
 	color_ui = rgb { 19 131 196 }
 }
 
-GRE_GREATER_GREECE_national_vanguard = {
+GRE_GREATER_GREECE_fascism = {
 	color = rgb { 19 131 196 }
 	color_ui = rgb { 19 131 196 }
 }
@@ -471,7 +471,7 @@ MAE_democratic = {
 	color_ui = rgb { 35 65 153 }
 }
 
-MAE_national_vanguard = {
+MAE_fascism = {
 	color = rgb { 35 65 153 }
 	color_ui = rgb { 35 65 153 }
 }
@@ -501,7 +501,7 @@ OTT_SULTANATE_democratic = {
 	color_ui = rgb { 227 10 23 }
 }
 
-OTT_SULTANATE_national_vanguard = {
+OTT_SULTANATE_fascism = {
 	color = rgb { 227 10 23 }
 	color_ui = rgb { 227 10 23 }
 }
@@ -521,7 +521,7 @@ TUR_GREATER_TURKEY_democratic = {
 	color_ui = rgb { 227 10 23 }
 }
 
-TUR_GREATER_TURKEY_national_vanguard = {
+TUR_GREATER_TURKEY_fascism = {
 	color = rgb { 227 10 23 }
 	color_ui = rgb { 227 10 23 }
 }
@@ -541,7 +541,7 @@ TUR_PROVISIONARY_democratic = {
 	color_ui = rgb { 193 99 99 }
 }
 
-TUR_PROVISIONARY_national_vanguard = {
+TUR_PROVISIONARY_fascism = {
 	color = rgb { 193 99 99 }
 	color_ui = rgb { 193 99 99 }
 }
@@ -566,7 +566,7 @@ TRN_democratic = {
 	color_ui = rgb { 213 253 255 }
 }
 
-TRN_national_vanguard = {
+TRN_fascism = {
 	color = rgb { 213 253 255 }
 	color_ui = rgb { 213 253 255 }
 }
@@ -636,7 +636,7 @@ UBF_united_balkan_federation_democratic = {
 	color_ui = rgb { 11 11 11 }
 }
 
-UBF_united_balkan_federation_national_vanguard = {
+UBF_united_balkan_federation_fascism = {
 	color = rgb { 11 11 11 }
 	color_ui = rgb { 11 11 11 }
 }
@@ -656,7 +656,7 @@ TBE_third_bulgarian_empire_democratic = {
 	color_ui = rgb { 138 249 195 }
 }
 
-TBE_third_bulgarian_empire_national_vanguard = {
+TBE_third_bulgarian_empire_fascism = {
 	color = rgb { 138 249 195 }
 	color_ui = rgb { 138 249 195 }
 }
@@ -893,22 +893,22 @@ ITA_rds = {
 	color_ui = rgb { 10 150 90 }
 }
 
-SWI_GER_puppet_national_vanguard ={
+SWI_GER_puppet_fascism ={
 	color = rgb{ 125 0 0 }
 	color_ui = rgb { 255 255 255 } 
 }
 
-SWI_FRA_puppet_national_vanguard = {
+SWI_FRA_puppet_fascism = {
 	color = rgb { 100 0 100 }
 	color_ui = rgb { 255 255 255 }
 }
 
-SWI_ITA_puppet_national_vanguard = {
+SWI_ITA_puppet_fascism = {
 	color = rgb { 0 100 0 }
 	color_ui = rgb { 255 255 255 }
 }
 
-SWI_ENG_puppet_national_vanguard = {
+SWI_ENG_puppet_fascism = {
 	color = rgb { 60 60 100 }
 	color_ui = rgb { 255 255 255 }
 }
@@ -943,7 +943,7 @@ SWI_alpine_democratic = {
 	color_ui = rgb { 255 255 255 }
 }
 
-SWI_alpine_national_vanguard = {
+SWI_alpine_fascism = {
 	color = rgb{ 120 120 120 }
 	color_ui = rgb { 255 255 255 }
 }
@@ -1057,17 +1057,17 @@ NOR_neutrality = {
 	color_ui = rgb { 92 6 67 }
 
 }
-NOR_GER_national_vanguard = {
+NOR_GER_fascism = {
 	color = rgb { 115 115 115 }
 	color_ui = rgb { 122 145 93 }
 }
 
-NOR_national_vanguard = {	
+NOR_fascism = {	
 	color = rgb { 134 120 66 }
 	color_ui = rgb { 178 172 0 }
 }
 
-NOR_norgesveldet_national_vanguard = {
+NOR_norgesveldet_fascism = {
 	color = rgb { 178 172 0 }
 	color_ui = rgb { 178 172 0 }
 }
@@ -1157,7 +1157,7 @@ first_nations_canada = {
 	color_ui = rgb { 102 0 0 }
 }
 
-ARG_nationalist_union_south_america_national_vanguard = {
+ARG_nationalist_union_south_america_fascism = {
 	color = rgb { 2 2 153 }
 	color_ui = rgb { 2 2 153 }
 }
@@ -1187,7 +1187,7 @@ ARG_independent_democracy_democratic = {
 	color_ui = rgb { 170 169 173 }
 }
 
-ARG_fourth_reich_national_vanguard = {
+ARG_fourth_reich_fascism = {
 	color = rgb { 106  119  89  }
 	color_ui = rgb { 106  119  89  }
 }

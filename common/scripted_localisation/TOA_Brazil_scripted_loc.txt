@@ -29,7 +29,7 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = BRA
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		localization_key = BRA_land_reform_key
 	}

@@ -48,7 +48,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_vanguard
+			ideology = fascism_ideology
 			traits = { BBA_ALB_fascist_lawyer }
 			expire = "1956.1.1.12"
 			id = -1

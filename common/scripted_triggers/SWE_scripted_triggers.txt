@@ -187,14 +187,14 @@ SWE_cross_we_bear_state_condition_trigger = {
 SWE_the_cross_we_bear_am_i_occupied_by_fascists_or_communists = {
 	controller = {
 		OR = {
-			has_government = national_vanguard
+			has_government = fascism
 			has_government = communism
 			
 			AND = {
 				is_subject = yes
 				OVERLORD = {
 					OR = {
-						has_government = national_vanguard
+						has_government = fascism
 						has_government = communism
 					}
 				}

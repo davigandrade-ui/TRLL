@@ -19,7 +19,7 @@ USA_alternate_plan_1 = {
 		OR = {
 			GER = {
 				has_war = yes
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			JAP = {
 				has_war = yes

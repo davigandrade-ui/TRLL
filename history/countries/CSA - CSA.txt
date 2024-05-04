@@ -202,7 +202,7 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 80
-	national_vanguard = 10
+	fascism = 10
 	communism = 10
 }
 
@@ -231,7 +231,7 @@ create_country_leader = {
 	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
 	picture = GFX_portrait_William_Dudley_Pelley
 	expire = "1965.1.1"
-	ideology = national_vanguard
+	ideology = fascism
 	traits = {
 		
 	}

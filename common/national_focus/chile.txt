@@ -239,7 +239,7 @@ focus_tree = {
 		completion_reward = {
 
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.05
 			}	
 
@@ -510,7 +510,7 @@ focus_tree = {
 		}
 
 		bypass = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		
 		completion_reward = { 
@@ -654,13 +654,13 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT }
 
 		bypass = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		
 		completion_reward = {
 
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.08
 			}	
 
@@ -748,7 +748,7 @@ focus_tree = {
 		}
 
 		bypass = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY }
@@ -808,7 +808,7 @@ focus_tree = {
 
 			every_country = {
 				limit = {
-					has_government = national_vanguard
+					has_government = fascism
 					NOT = {
 						OR = {
 							tag = ROOT
@@ -865,7 +865,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT }
 
 		bypass = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		
 		completion_reward = {
@@ -913,7 +913,7 @@ focus_tree = {
 		}
 
 		bypass = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		
 		completion_reward = {
@@ -923,7 +923,7 @@ focus_tree = {
 			add_political_power = 75
 
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.1
 			}	
 
@@ -955,7 +955,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_MANPOWER FOCUS_FILTER_MILITARY_CHARACTER FOCUS_FILTER_POLITICAL_CHARACTER FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_STABILITY }
 
 		available = {
-			national_vanguard > 0.39
+			fascism > 0.39
 		}
 
 		ai_will_do = {
@@ -1474,7 +1474,7 @@ focus_tree = {
 			}	
 
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.05
 			}
 
@@ -5693,7 +5693,7 @@ focus_tree = {
 			NOT = {
 				OR = {
 					has_global_flag = nacista_coup_attempt_happened
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}	
 		}
@@ -5701,7 +5701,7 @@ focus_tree = {
 		completion_reward = {
 
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = -0.05
 			}	
 
@@ -5759,7 +5759,7 @@ focus_tree = {
 	#		NOT = {
 	#			OR = {
 	#				has_global_flag = nacista_coup_attempt_happened
-	#				has_government = national_vanguard
+	#				has_government = fascism
 	#				has_completed_focus = CHL_denounce_the_anarchy
 	#				has_completed_focus = CHL_avenge_the_pacification_of_araucania
 	#				has_completed_focus = CHL_crown_antoine_as_sovereign_king
@@ -7314,12 +7314,12 @@ focus_tree = {
 			base = 1
 			modifier = {
 				factor = 3.5
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_POLITICAL FOCUS_FILTER_POLITICAL_CHARACTER }
@@ -7378,7 +7378,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }
@@ -7431,7 +7431,7 @@ focus_tree = {
 			base = 1
 			modifier = {
 				factor = 2
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			modifier = {
 				factor = 0.5
@@ -7440,7 +7440,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		search_filters = { FOCUS_FILTER_MANPOWER }
@@ -7481,7 +7481,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			has_war_support > 0.79
 			any_country = {
 				capital_scope = {
@@ -7743,7 +7743,7 @@ focus_tree = {
 			base = 1
 			modifier = {
 				factor = 3.5
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 
@@ -7862,7 +7862,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		
 		completion_reward = {
@@ -7917,7 +7917,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_MILITARY_CHARACTER FOCUS_FILTER_ARMY_XP }
@@ -7960,7 +7960,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
@@ -8065,7 +8065,7 @@ focus_tree = {
 		
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
@@ -8114,11 +8114,11 @@ focus_tree = {
 		}
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			#has_completed_focus = CHL_enforce_the_chilean_identity
 			any_country = {
 				original_tag = GER
-				has_government = national_vanguard
+				has_government = fascism
 				is_faction_leader = yes
 			}
 			is_subject = no
@@ -8140,7 +8140,7 @@ focus_tree = {
 			random_country = {
 				limit = {
 					original_tag = GER
-					has_government = national_vanguard
+					has_government = fascism
 					is_faction_leader = yes
 					is_subject = no
 				}
@@ -8181,7 +8181,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL_CHARACTER FOCUS_FILTER_MILITARY_CHARACTER }
@@ -8238,7 +8238,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		search_filters = { FOCUS_FILTER_STABILITY }
@@ -8283,7 +8283,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -8353,7 +8353,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY FOCUS_FILTER_ANNEXATION }
@@ -8502,7 +8502,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -8555,7 +8555,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
@@ -8624,7 +8624,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_MANPOWER }
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		
 		completion_reward = {
@@ -8663,7 +8663,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_MANPOWER }
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		
 		completion_reward = {
@@ -8699,7 +8699,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_ANNEXATION }
@@ -8789,7 +8789,7 @@ focus_tree = {
 		will_lead_to_war_with = PRU
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			NOT = {
 				owns_state = 947
 			}
@@ -8856,7 +8856,7 @@ focus_tree = {
 		will_lead_to_war_with = ARG
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			NOT = {
 				owns_state = 953
 			}
@@ -8927,7 +8927,7 @@ focus_tree = {
 		will_lead_to_war_with = ARG
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			NOT = {
 				owns_state = 954
 			}
@@ -9084,7 +9084,7 @@ focus_tree = {
 		will_lead_to_war_with = ARG
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			NOT = {
 				AND = {
 					owns_state = 512
@@ -9242,7 +9242,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
@@ -9252,7 +9252,7 @@ focus_tree = {
 			add_stability = 0.1
 
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.1
 			}	
 
@@ -9284,7 +9284,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_POLITICAL }
@@ -9319,7 +9319,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_ARMY_XP FOCUS_FILTER_NAVY_XP FOCUS_FILTER_AIR_XP FOCUS_FILTER_WAR_SUPPORT }
 
 		available = { 
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		
 		completion_reward = {
@@ -9355,7 +9355,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_POLITICAL }
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			has_idea = CHL_pan_hispanic_rhetoric	
 		}
 		
@@ -9403,7 +9403,7 @@ focus_tree = {
 
 		available = {
 			is_subject = no
-			has_government = national_vanguard
+			has_government = fascism
 			has_war_support > 0.79
 			has_idea = CHL_the_francoist_model
 		}
@@ -9468,7 +9468,7 @@ focus_tree = {
 
 		available = {
 
-			has_government = national_vanguard
+			has_government = fascism
 
 			any_country = {
 				NOT = {
@@ -9481,7 +9481,7 @@ focus_tree = {
 					is_on_continent = south_america
 				}
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 				}
 				is_in_faction = no
@@ -9513,7 +9513,7 @@ focus_tree = {
 						is_on_continent = south_america
 					}
 					OR = {
-						has_government = national_vanguard
+						has_government = fascism
 						has_government = neutrality
 					}
 					is_in_faction = no
@@ -9572,7 +9572,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL }
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			is_faction_leader = yes
 			any_country = {
 				OR = {
@@ -9590,7 +9590,7 @@ focus_tree = {
 				}
 			
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 				}
 				
@@ -9615,7 +9615,7 @@ focus_tree = {
 					}
 
 					OR = {
-						has_government = national_vanguard
+						has_government = fascism
 						has_government = neutrality
 					}
 
@@ -9667,7 +9667,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_ANNEXATION FOCUS_FILTER_POLITICAL }
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			all_owned_state = { is_controlled_by_ROOT_or_ally = yes }
 		}
 		
@@ -9707,7 +9707,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			is_faction_leader = yes
 			any_country = {
 				NOT = {
@@ -9725,7 +9725,7 @@ focus_tree = {
 
 			every_country = {
 				limit = {
-					has_government = national_vanguard
+					has_government = fascism
 					NOT = { has_war_with = ROOT }
 					OR = {
 						tag = CHL
@@ -9742,7 +9742,7 @@ focus_tree = {
 						original_tag = CHL
 					}
 					is_in_faction_with = CHL
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				random_state = {
 					limit = {
@@ -9805,7 +9805,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			OR = {
 				has_war_support > 0.84
 				has_war = yes
@@ -9876,7 +9876,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT }
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			has_idea = CHL_pan_hispanic_rhetoric_2
 		}
 		
@@ -9915,7 +9915,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_ANNEXATION }
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			OR = {
 				controls_state = 304
 				controls_state = 313
@@ -9959,7 +9959,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			# South America
 			custom_trigger_tooltip = {
 				tooltip = form_country_south_america_required_states_tt
@@ -10204,7 +10204,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_ANNEXATION }
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 		}
 		
 		completion_reward = {
@@ -10251,7 +10251,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			OR = {
 				controls_state = 488
 				controls_state = 939
@@ -10345,7 +10345,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			OR = {
 				controls_state = 307
 				controls_state = 489
@@ -10597,7 +10597,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_ANNEXATION FOCUS_FILTER_POLITICAL }
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			AND = {
 				controls_state = 687
 				controls_state = 309
@@ -10690,7 +10690,7 @@ focus_tree = {
 		
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			is_in_faction_with = GER
 			GER = {
 				is_faction_leader = yes
@@ -10716,7 +10716,7 @@ focus_tree = {
 						is_on_continent = south_america
 					}
 					OR = {
-						has_government = national_vanguard
+						has_government = fascism
 						has_government = neutrality
 					}
 					NOT = {
@@ -10769,15 +10769,15 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			is_in_faction_with = GER
 			GER = {
 				is_faction_leader = yes
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			URG = {
 				NOT = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				exists = yes
 				is_subject = no
@@ -10849,18 +10849,18 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			is_in_faction_with = GER
 			GER = {
 				is_faction_leader = yes
-				has_government = national_vanguard
+				has_government = fascism
 				has_war = yes
 			}
 			OR = {
 				SPR = {
 					OR = {
 						has_government = neutrality
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					is_subject = no
 					is_in_faction = no
@@ -10869,7 +10869,7 @@ focus_tree = {
 				POR = {
 					OR = {
 						has_government = neutrality
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					is_subject = no
 					is_in_faction = no
@@ -10888,7 +10888,7 @@ focus_tree = {
 					}
 					OR = {
 						has_government = neutrality
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					is_subject = no
 					is_in_faction = no
@@ -10933,7 +10933,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_MANPOWER }
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			all_owned_state = {
 				is_controlled_by = ROOT
 			}
@@ -11037,7 +11037,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			
 		}
 		
@@ -11103,7 +11103,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
 
 		available = {
-			has_government = national_vanguard
+			has_government = fascism
 			surrender_progress < 0.49
 		}
 		
@@ -11233,7 +11233,7 @@ focus_tree = {
 				factor = 2.5
 				any_country = {
 					is_major = yes
-					has_government = national_vanguard
+					has_government = fascism
 					has_war = yes
 				}
 			}
@@ -11948,7 +11948,7 @@ focus_tree = {
 				capital_scope = {
 					is_on_continent = south_america
 				}
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 
@@ -11960,7 +11960,7 @@ focus_tree = {
 					capital_scope = {
 						is_on_continent = south_america
 					}
-					has_government = national_vanguard
+					has_government = fascism
 					NOT = {
 						original_tag = DOM
 					}
@@ -12381,7 +12381,7 @@ focus_tree = {
 		available = { 
 			NOT = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 				}
 			}
@@ -12677,7 +12677,7 @@ focus_tree = {
 			ARG = {
 				NOT = {
 					OR = {
-						has_government = national_vanguard
+						has_government = fascism
 						has_government = communism
 					}
 				}
@@ -12846,7 +12846,7 @@ focus_tree = {
 				limit = {
 					JAP = {
 						OR = {
-							has_government = national_vanguard
+							has_government = fascism
 							has_government = neutrality
 						}
 					}
@@ -12860,7 +12860,7 @@ focus_tree = {
 				limit = {
 					NZL = { 
 						OR = {
-							has_government = national_vanguard
+							has_government = fascism
 							has_government = neutrality
 						}
 					}
@@ -12874,7 +12874,7 @@ focus_tree = {
 				limit = { 
 					AST = {
 						OR = {
-							has_government = national_vanguard
+							has_government = fascism
 							has_government = neutrality
 						}
 					}
@@ -12959,7 +12959,7 @@ focus_tree = {
 				limit = {
 					JAP = {
 						OR = {
-							has_government = national_vanguard
+							has_government = fascism
 							has_government = neutrality
 						}
 						OR = {
@@ -12984,7 +12984,7 @@ focus_tree = {
 				limit = {
 					NZL = {
 						OR = {
-							has_government = national_vanguard
+							has_government = fascism
 							has_government = neutrality
 						}
 						owns_state = 726
@@ -13442,14 +13442,14 @@ focus_tree = {
 			base = 1
 			modifier = {
 				factor = 1.5
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 	 
 		available = {
 			OR = {
 				has_completed_focus = CHL_endorse_the_constitution
-				has_government = national_vanguard 
+				has_government = fascism 
 				has_completed_focus = CHL_crown_antoine_as_sovereign_king
 			}
 		}
@@ -13616,7 +13616,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_completed_focus = CHL_endorse_the_constitution
-				has_government = national_vanguard
+				has_government = fascism
 				has_completed_focus = CHL_crown_antoine_as_sovereign_king
 			}
 		}

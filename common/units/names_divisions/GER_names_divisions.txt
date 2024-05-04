@@ -546,7 +546,7 @@ GER_MOT_02 =
 
 	for_countries = { GER }
 
-	can_use = { has_government = national_vanguard }
+	can_use = { has_government = fascism }
 
 	division_types = { "motorized"  }
 
@@ -949,7 +949,7 @@ GER_SS_01 =
 	for_countries = { GER }
 
 	can_use = { 
-		has_government = national_vanguard
+		has_government = fascism
 	}
 
 	division_types = { "infantry" "motorized" "medium_armor" "mechanized" }

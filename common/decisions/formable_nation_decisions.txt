@@ -3127,7 +3127,7 @@ form_roman_empire_category = {
 				}
 				if = {
 					limit = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					ITA_remove_king_vittorio_emanuele_as_idea = yes
 				}
@@ -4637,12 +4637,12 @@ form_roman_empire_category = {
 				IF = {
 					limit = {
 						ITA = {
-							has_government = national_vanguard
+							has_government = fascism
 						}
 					}
 					CRI = {
 						set_politics = {
-							ruling_party = national_vanguard
+							ruling_party = fascism
 						    elections_allowed = no
 						    last_election = "1935.12.17"
 						    election_frequency = 48
@@ -5128,7 +5128,7 @@ form_byzantine_empire_category = {
 		visible = {
 			AND = { 
 				has_completed_focus = GRE_horror_and_fear
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			NOT = { has_global_flag = form_byzantine_empire_flag }
 		}
@@ -6126,7 +6126,7 @@ form_greater_german_reich_category = {
 		visible = {
 			AND = {
 				original_tag = GER
-				has_government = national_vanguard
+				has_government = fascism
 				has_country_leader = { ruling_only = yes character = GER_adolf_hitler }
 			}
 			NOT = { has_global_flag = form_greater_german_reich_flag }
@@ -9567,7 +9567,7 @@ form_ethiopian_empire_category  = {
 			454 = { is_owned_and_controlled_by = ROOT }
 			OR = {
 				has_government = neutrality
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			NOT = { has_cosmetic_tag = gojjam }
 			NOT = { has_cosmetic_tag = jimma }

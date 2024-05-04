@@ -128,7 +128,7 @@ foreign_influence = {
 				is_puppet_of = ROOT
 			}
 			FROM = {
-				national_vanguard < 0.9
+				fascism < 0.9
 			}
 			OR = {
 				political_power_daily > 0.5
@@ -137,7 +137,7 @@ foreign_influence = {
 		}
 
 		visible = {
-			has_government = national_vanguard
+			has_government = fascism
 			NOT = {
 				AND = {
 					tag = ENG
@@ -150,13 +150,13 @@ foreign_influence = {
 							tag = AST
 							tag = NZL
 						}
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 			}
 			FROM = {
 				is_puppet_of = ROOT
-				national_vanguard < 0.99
+				fascism < 0.99
 			}
 		}
 
@@ -367,18 +367,18 @@ foreign_influence = {
 				is_puppet_of = ROOT
 			}
 			FROM = {
-				national_vanguard > 0.6
+				fascism > 0.6
 			}
 			FROM = {
-				NOT = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
 			}
 		}
 
 		visible = {
-			has_government = national_vanguard
+			has_government = fascism
 			FROM = {
 				is_puppet_of = ROOT
-				NOT = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
 			}
 			NOT = {
 				AND = {
@@ -415,7 +415,7 @@ foreign_influence = {
 			}
 			FROM = {
 				set_politics = {
-					ruling_party = national_vanguard
+					ruling_party = fascism
 					elections_allowed = no
 				}
 			}

@@ -2030,7 +2030,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 75
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.10
 			}
 			add_popularity = {
@@ -2147,7 +2147,7 @@ focus_tree = {
 		available = {
 			OR = {
 				communism > 0.1
-				national_vanguard > 0.1
+				fascism > 0.1
 			}
 			NOT = {
 				has_completed_focus = ICE_break_with_the_crown
@@ -2208,7 +2208,7 @@ focus_tree = {
 		available = {
 			OR = {
 				communism > 0.1
-				national_vanguard > 0.1
+				fascism > 0.1
 			}
 			NOT = {
 				has_completed_focus = ICE_break_with_the_crown
@@ -2246,14 +2246,14 @@ focus_tree = {
 		relative_position_id = ICE_anti_capitalist_propaganda
 		cost = 10
 		available = {
-			national_vanguard > 0.2
+			fascism > 0.2
 		}
 
 		search_filters = {FOCUS_FILTER_RESEARCH}
 
 		completion_reward = {
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.05
 			}
 			add_tech_bonus = {
@@ -2322,7 +2322,7 @@ focus_tree = {
 		relative_position_id = ICE_prepare_for_the_revolution
 		cost = 10
 		available = {
-			national_vanguard > 0.2
+			fascism > 0.2
 			NOT = {
 				has_completed_focus = ICE_break_with_the_crown
 			}
@@ -2332,7 +2332,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.05
 			}
 			add_popularity = {
@@ -2354,7 +2354,7 @@ focus_tree = {
 		available = {
 			has_stability < 0.5
 			OR = {
-				national_vanguard > 0.3
+				fascism > 0.3
 				communism > 0.3
 			}
 		}
@@ -2508,11 +2508,11 @@ focus_tree = {
 
 		completion_reward = {
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.05
 			}
 			set_politics = {
-				ruling_party = national_vanguard 
+				ruling_party = fascism 
 				elections_allowed = no
 			}
 			random_owned_state = {
@@ -2671,7 +2671,7 @@ focus_tree = {
 		completion_reward = {
 			every_country = {
 				limit = {
-					has_government = national_vanguard
+					has_government = fascism
 					NOT = { has_war_with = ROOT }
 					OR = {
 						tag = ICE

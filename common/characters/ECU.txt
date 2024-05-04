@@ -34,7 +34,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=national_vanguard
+			ideology = fascism_ideology
 			traits={ eager_collaborator war_industrialist }
 			expire="1955.1.1.12"
 			id=-1

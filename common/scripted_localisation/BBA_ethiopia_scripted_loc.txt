@@ -520,7 +520,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_government = national_vanguard 
+			has_government = fascism 
 			is_subject_of = ITA
 		}
 		localization_key = ETH_cie_fascist
@@ -548,7 +548,7 @@ defined_text = {
 		trigger = {
 			OR = {
 				has_government = neutrality
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 		localization_key = ETH_mesafint_influence_range
@@ -669,7 +669,7 @@ defined_text = {
 	name = GetGermanCountryLeaderTitle
 	text = {
 		trigger = { 
-			GER = { has_government = national_vanguard }
+			GER = { has_government = fascism }
 		}
 		localization_key = GER_national_vanguard_leader_title
 	}

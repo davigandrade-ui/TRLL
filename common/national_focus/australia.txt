@@ -2977,7 +2977,7 @@
 					has_government = democratic
 				}
 				add_popularity = {
-					ideology = national_vanguard
+					ideology = fascism
 					popularity = -0.1
 				}
 				add_popularity = {
@@ -2987,7 +2987,7 @@
 			}
 			if = {
 				limit = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				add_popularity = {
 					ideology = democratic
@@ -3007,7 +3007,7 @@
 					popularity = -0.1
 				}
 				add_popularity = {
-					ideology = national_vanguard
+					ideology = fascism
 					popularity = -0.1
 				}
 			}
@@ -3069,7 +3069,7 @@
 			modifier = {
 				OR = {
 					communism > 0.15
-					national_vanguard > 0.15
+					fascism > 0.15
 					}
 				factor = 0.2
 			}
@@ -3564,14 +3564,14 @@
 			factor = 0.5 
 			modifier = {
 				OR = {
-						national_vanguard > 0.25
+						fascism > 0.25
 						communism > 0.25
 					}
 				factor = 20
 			}
 			modifier = {
 				OR = {
-						national_vanguard > 0.45
+						fascism > 0.45
 						communism > 0.45
 					}
 				factor = 30
@@ -3762,11 +3762,11 @@
 
 		available = {
 			if = {
-				limit = { NOT = { has_government = national_vanguard } }
+				limit = { NOT = { has_government = fascism } }
 				has_autonomy_state = autonomy_dominion
 			}
 			if = {
-				limit = { has_government = national_vanguard }
+				limit = { has_government = fascism }
 				has_autonomy_state = autonomy_satellite
 			}
 			NOT = { has_country_flag = britain_enforced_our_loyalty }
@@ -4062,14 +4062,14 @@
 			modifier = {
 				OR = {
 					communism > 0.2
-					national_vanguard > 0.2
+					fascism > 0.2
 					}
 				factor = 20
 			}
 			modifier = {
 				OR = {
 					communism > 0.4
-					national_vanguard > 0.4
+					fascism > 0.4
 					}
 				factor = 20
 			}
@@ -4090,7 +4090,7 @@
 
 		completion_reward = {
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.05
 			}
 			add_popularity = {
@@ -4119,11 +4119,11 @@
 		ai_will_do = {
 			factor = 0.5
 			modifier = {
-				NOT = { JAP = { has_government = national_vanguard } }
+				NOT = { JAP = { has_government = fascism } }
 				factor = 0 #let's not go fascist if Japan isn't
 			}
 			modifier = {
-				national_vanguard > 0.3
+				fascism > 0.3
 				factor = 20
 			}
 		}
@@ -4131,11 +4131,11 @@
 		available = {
 			compare_autonomy_progress_ratio > 0.55
 			if = {
-				limit = { not = { has_government = national_vanguard } }
+				limit = { not = { has_government = fascism } }
 				compare_autonomy_state > autonomy_colony
 			}
 			if = {
-				limit = { has_government = national_vanguard } 
+				limit = { has_government = fascism } 
 				compare_autonomy_state > autonomy_reichsprotectorate
 			}
 			NOT = { has_country_flag = britain_enforced_our_loyalty }
@@ -4178,7 +4178,7 @@
 			country_exists = INS
 			INS = { is_subject = yes }
 			ROOT = {
-				national_vanguard > 0.15
+				fascism > 0.15
 			}
 			has_equipment = {
 				infantry_equipment > 199
@@ -4235,18 +4235,18 @@
 				AND = {
 					compare_autonomy_progress_ratio > 0.75
 					if = {
-						limit = { not = { has_government = national_vanguard } }
+						limit = { not = { has_government = fascism } }
 						has_autonomy_state = autonomy_dominion
 					}
 					if = {
-						limit = { has_government = national_vanguard } 
+						limit = { has_government = fascism } 
 						has_autonomy_state = autonomy_satellite
 					}
 				}
 			}
-			national_vanguard > 0.3
+			fascism > 0.3
 			INS = {
-				national_vanguard > 0.3
+				fascism > 0.3
 			}
 			NOT = { has_country_flag = britain_enforced_our_loyalty }
 		}
@@ -4285,7 +4285,7 @@
 
 		available = {
 			OR = {
-				has_government = national_vanguard
+				has_government = fascism
 				has_government = communism
 			}
 			NOT = { has_war_together_with = ENG }
@@ -4335,11 +4335,11 @@
 
 		available = {
 			if = {
-				limit = { not = { has_government = national_vanguard } }
+				limit = { not = { has_government = fascism } }
 				has_autonomy_state = autonomy_dominion
 			}
 			if = {
-				limit = { has_government = national_vanguard } 
+				limit = { has_government = fascism } 
 				has_autonomy_state = autonomy_satellite
 			}
 			MAL = {
@@ -4387,11 +4387,11 @@
 				is_subject = no
 				AND = {
 					if = {
-						limit = { not = { has_government = national_vanguard } }
+						limit = { not = { has_government = fascism } }
 						has_autonomy_state = autonomy_dominion
 					}
 					if = {
-						limit = { has_government = national_vanguard } 
+						limit = { has_government = fascism } 
 						has_autonomy_state = autonomy_satellite
 					}
 					compare_autonomy_progress_ratio > 0.8
@@ -4465,11 +4465,11 @@
 				is_subject = no
 				AND = {
 					if = {
-						limit = { not = { has_government = national_vanguard } }
+						limit = { not = { has_government = fascism } }
 						has_autonomy_state = autonomy_dominion
 					}
 					if = {
-						limit = { has_government = national_vanguard } 
+						limit = { has_government = fascism } 
 						has_autonomy_state = autonomy_satellite
 					}
 					compare_autonomy_progress_ratio > 0.8
@@ -4597,11 +4597,11 @@
 		available = {			
 			compare_autonomy_progress_ratio > 0.55
 			if = {
-				limit = { not = { has_government = national_vanguard } }
+				limit = { not = { has_government = fascism } }
 				compare_autonomy_state > autonomy_colony
 			}
 			if = {
-				limit = { has_government = national_vanguard } 
+				limit = { has_government = fascism } 
 				compare_autonomy_state > autonomy_reichsprotectorate
 			}
 			NOT = { has_country_flag = britain_enforced_our_loyalty }

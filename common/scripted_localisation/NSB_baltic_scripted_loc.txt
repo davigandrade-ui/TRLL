@@ -248,7 +248,7 @@ defined_text = { #Chooses description for BALTIC_axis_investments
 			GER = {
 					exists = yes
 					has_capitulated = no
-					has_government = national_vanguard
+					has_government = fascism
 					is_faction_leader = yes
 					NOT = { has_war_with = ROOT }
 			}
@@ -266,7 +266,7 @@ defined_text = { #Chooses description for BALTIC_axis_investments
 			JAP = {
 				exists = yes
 				has_capitulated = no
-				has_government = national_vanguard
+				has_government = fascism
 				NOT = { has_war_with = ROOT }
 			}
 		}
@@ -284,7 +284,7 @@ defined_text = { #Choose adjective for Fascists Baltic Investments
 			GER = {
 					exists = yes
 					has_capitulated = no
-					has_government = national_vanguard
+					has_government = fascism
 					is_faction_leader = yes
 					NOT = { has_war_with = ROOT }
 			}
@@ -295,21 +295,21 @@ defined_text = { #Choose adjective for Fascists Baltic Investments
 		trigger = {
 			suitable_fascist_major_in_europe = yes
 		}
-		localization_key = national_vanguard
+		localization_key = fascism
 	}
 	text = {
 		trigger = {
 			JAP = {
 				exists = yes
 				has_capitulated = no
-				has_government = national_vanguard
+				has_government = fascism
 				NOT = { has_war_with = ROOT }
 			}
 		}
 		localization_key = JAP_ADJ
 	}
 	text = {
-		localization_key = national_vanguard
+		localization_key = fascism
 	}
 }
 
@@ -391,7 +391,7 @@ defined_text = { #Chooses description for BALTIC_german_war_economics
 			GER = {
 					exists = yes
 					has_capitulated = no
-					has_government = national_vanguard
+					has_government = fascism
 					is_faction_leader = yes
 					NOT = { has_war_with = ROOT }
 			}
@@ -409,7 +409,7 @@ defined_text = { #Chooses description for BALTIC_german_tank_licences
 			GER = {
 					exists = yes
 					has_capitulated = no
-					has_government = national_vanguard
+					has_government = fascism
 					is_faction_leader = yes
 					NOT = { has_war_with = ROOT }
 			}
@@ -427,7 +427,7 @@ defined_text = { #Chooses description for BALTIC_german_baltic_industry
 			GER = {
 					exists = yes
 					has_capitulated = no
-					has_government = national_vanguard
+					has_government = fascism
 					is_faction_leader = yes
 					NOT = { has_war_with = ROOT }
 			}
@@ -445,7 +445,7 @@ defined_text = { #Chooses description for BALTIC_request_german_support
 			GER = {
 					exists = yes
 					has_capitulated = no
-					has_government = national_vanguard
+					has_government = fascism
 					is_faction_leader = yes
 					NOT = { has_war_with = ROOT }
 			}

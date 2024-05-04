@@ -3960,7 +3960,7 @@ BUL_internal_factions = {
 				#Store ideology support values to fix the mess after the split
 				set_variable = { BUL_communist_support_before_zveno_coup = party_popularity_100@communism }
 				set_variable = { BUL_democratic_support_before_zveno_coup = party_popularity_100@democratic }
-				set_variable = { BUL_fascist_support_before_zveno_coup = party_popularity_100@national_vanguard }
+				set_variable = { BUL_fascist_support_before_zveno_coup = party_popularity_100@fascism }
 				set_variable = { BUL_neutrality_support_before_zveno_coup = party_popularity_100@neutrality }
 
 				#START CIVIL WAR
@@ -3985,7 +3985,7 @@ BUL_internal_factions = {
 				set_popularities = {
 					communism = BUL_communist_support_before_zveno_coup
 					democratic = BUL_democratic_support_before_zveno_coup
-					national_vanguard = BUL_fascist_support_before_zveno_coup
+					fascism = BUL_fascist_support_before_zveno_coup
 					neutrality = BUL_neutrality_support_before_zveno_coup
 				}
 
@@ -4064,7 +4064,7 @@ BUL_internal_factions = {
 						democratic = 10
 						neutrality = 55
 						communism = 5
-						national_vanguard = 30
+						fascism = 30
 					}
 					set_party_name = {
 						ideology = neutrality
@@ -5726,7 +5726,7 @@ BUL_rearmament = {
 			}
 			modifier = {
 				factor = 0
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 
@@ -5798,7 +5798,7 @@ BUL_rearmament = {
 			}
 			modifier = {
 				factor = 0.5
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 
@@ -5865,7 +5865,7 @@ BUL_rearmament = {
 			}
 			modifier = {
 				factor = 0.5
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 
@@ -5919,7 +5919,7 @@ BUL_rearmament = {
 			base = 1000
 			modifier = {
 				factor = 100
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 
@@ -8158,7 +8158,7 @@ BUL_bulgarian_administration_of_the_balkans = {
 			modifier = {
 				add = 0.1
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_country_leader = {
 						character = BUL_ferdinand_i
 						ruling_only = yes
@@ -8338,7 +8338,7 @@ BUL_align_bulgaria = {
 				OR = {
 					BUL = { has_government = ROOT }
 					AND = {
-						has_government = national_vanguard
+						has_government = fascism
 						BUL = { has_government = neutrality }
 					}
 				}
@@ -8836,7 +8836,7 @@ BUL_the_balkan_federation_dream = {
 			FROM = { 
 				NOT = {
 					tag = ROOT
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 		}
@@ -8926,7 +8926,7 @@ BUL_the_balkan_federation_dream = {
 			FROM = { 
 				NOT = {
 					tag = ROOT
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 		}
@@ -8991,7 +8991,7 @@ BUL_the_balkan_federation_dream = {
 			FROM = { 
 				NOT = {
 					tag = ROOT
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 		}
@@ -10005,7 +10005,7 @@ political_actions = {
 		}
 		
 		visible = {
-			has_government = national_vanguard
+			has_government = fascism
 			NOT = {
 				has_country_leader = { character = BUL_aleksandar_tsankov }
 			}
@@ -10016,16 +10016,16 @@ political_actions = {
 		cost = 50
 		
 		complete_effect = {
-			retire_ideology_leader = national_vanguard
+			retire_ideology_leader = fascism
 			set_party_name = {
-				ideology = national_vanguard
+				ideology = fascism
 				long_name = BUL_national_social_movement_party_long
 				name = BUL_national_social_movement_party
 			}
 			add_country_leader_role = {
 				character = BUL_aleksandar_tsankov
 				country_leader = {
-				  ideology=national_vanguard
+				  ideology=fascism_ideology_ideology
 				  traits = { the_bloody_professor }
 				  expire="1965.1.1"
 				}

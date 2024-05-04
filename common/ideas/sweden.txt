@@ -52,7 +52,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				national_vanguard_acceptance = 20
+				fascism_acceptance = 20
 				neutrality_acceptance = 20
 				neutrality_drift = 0.01
 				command_power_gain_mult = 0.15
@@ -471,7 +471,7 @@ ideas = {
 				research_speed_factor = 0.07
 				drift_defence_factor = -0.3
 				justify_war_goal_time = -0.25
-				national_vanguard_drift = 0.1
+				fascism_drift = 0.1
 				communism_drift = -0.02
 				war_support_factor = 0.05
 			}
@@ -493,7 +493,7 @@ ideas = {
 				drift_defence_factor = -0.3
 				justify_war_goal_time = -0.25
 				communism_drift = 0.1
-				national_vanguard_drift = -0.02
+				fascism_drift = -0.02
 				democratic_drift = 0.02
 				war_support_factor = 0.025
 				stability_factor = 0.025
@@ -515,7 +515,7 @@ ideas = {
 				drift_defence_factor = -0.3
 				justify_war_goal_time = -0.25
 				communism_drift = -0.1
-				national_vanguard_drift = 0.01
+				fascism_drift = 0.01
 				democratic_drift = -0.02
 				neutrality_drift = 0.1
 				war_support_factor = 0.05
@@ -1536,7 +1536,7 @@ ideas = {
 			}
 
 			modifier = {
-				national_vanguard_drift = -0.10
+				fascism_drift = -0.10
 				neutrality_drift = 0.05
 			}
 		}
@@ -1649,7 +1649,7 @@ ideas = {
 				has_civil_war = yes
 			}
 			modifier = {
-				national_vanguard_drift = 0.15
+				fascism_drift = 0.15
 			}
 		}
 
@@ -1659,7 +1659,7 @@ ideas = {
 				has_civil_war = yes
 			}
 			modifier = {
-				national_vanguard_drift = 0.15
+				fascism_drift = 0.15
 				neutrality_drift = 0.15
 			}
 		}
@@ -1670,7 +1670,7 @@ ideas = {
 				has_civil_war = yes
 			}
 			modifier = {
-				national_vanguard_drift = 0.23
+				fascism_drift = 0.23
 				neutrality_drift = 0.17
 				democratic_drift = 0.04
 			}

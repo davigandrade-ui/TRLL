@@ -342,11 +342,11 @@ NORDIC_cooperation_decisions_category = {
 			else_if = {
 				limit = {
 					FROM = {
-						has_government = national_vanguard   
+						has_government = fascism   
 					}
 				}
 				add_popularity = {
-					ideology = national_vanguard 
+					ideology = fascism 
 					popularity = 0.05
 				}
 			}		
@@ -392,11 +392,11 @@ NORDIC_cooperation_decisions_category = {
 				else_if = {
 					limit = {
 						ROOT = {
-							has_government = national_vanguard   
+							has_government = fascism   
 						}
 					}
 					add_popularity = {
-						ideology = national_vanguard 
+						ideology = fascism 
 						popularity = 0.05
 					}
 				}
@@ -589,7 +589,7 @@ NORDIC_cooperation_decisions_category = {
 			has_war = no
 			OR = {
 				has_government = communism
-				has_government = national_vanguard
+				has_government = fascism
 			} 
 		}
 

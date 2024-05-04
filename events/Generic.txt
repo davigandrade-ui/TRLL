@@ -99,9 +99,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 	}
@@ -128,9 +128,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				AND = {
 					FROM = {
@@ -184,9 +184,9 @@ country_event = {
 			FROM = { has_rule = can_join_factions }
 			AND = {
 				FROM = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 		ai_chance = {
@@ -266,9 +266,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				AND = {
 					FROM = {
@@ -421,9 +421,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 
@@ -452,9 +452,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				AND = {
 					FROM = {
@@ -493,9 +493,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 		if = {
@@ -534,9 +534,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				AND = {
 					FROM = {
@@ -584,9 +584,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 	}
@@ -613,9 +613,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				AND = {
 					FROM = {
@@ -699,9 +699,9 @@ country_event = {
 			is_in_faction = no
 			AND = {
 				FROM = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			#Lone Wolf Finland can't join any factions
 			FIN_is_lone_wolf_finland = no
@@ -778,9 +778,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				AND = {
 					FROM = {
@@ -991,9 +991,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 
@@ -1022,9 +1022,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				AND = {
 					FROM = {
@@ -1063,9 +1063,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
-				has_government = national_vanguard
+				has_government = fascism
 			}
 		}
 	}
@@ -1092,9 +1092,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
-					has_government = national_vanguard
+					has_government = fascism
 				}
 				AND = {
 					FROM = {
@@ -1415,10 +1415,10 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = national_vanguard }
-				NOT = { has_government = national_vanguard }
-				national_vanguard > 0.1
-				NOT = { national_vanguard > 0.2 }
+				FROM = { has_government = fascism }
+				NOT = { has_government = fascism }
+				fascism > 0.1
+				NOT = { fascism > 0.2 }
 				strength_ratio = { tag = FROM ratio < 1.2 }
 			}
 			custom_effect_tooltip = attache_fascism_tt
@@ -1426,10 +1426,10 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = national_vanguard }
-				NOT = { has_government = national_vanguard }
-				national_vanguard > 0.2
-				NOT = { national_vanguard > 0.3 }
+				FROM = { has_government = fascism }
+				NOT = { has_government = fascism }
+				fascism > 0.2
+				NOT = { fascism > 0.3 }
 				strength_ratio = { tag = FROM ratio < 1.2 }
 			}
 			custom_effect_tooltip = attache_fascism_tt
@@ -1437,10 +1437,10 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = national_vanguard }
-				NOT = { has_government = national_vanguard }
-				national_vanguard > 0.3
-				NOT = { national_vanguard > 0.4 }
+				FROM = { has_government = fascism }
+				NOT = { has_government = fascism }
+				fascism > 0.3
+				NOT = { fascism > 0.4 }
 				strength_ratio = { tag = FROM ratio < 1.2 }
 			}
 			custom_effect_tooltip = attache_fascism_tt
@@ -1448,9 +1448,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = national_vanguard }
-				NOT = { has_government = national_vanguard }
-				national_vanguard > 0.4
+				FROM = { has_government = fascism }
+				NOT = { has_government = fascism }
+				fascism > 0.4
 				strength_ratio = { tag = FROM ratio < 1.2 }
 			}
 			custom_effect_tooltip = attache_fascism_tt

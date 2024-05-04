@@ -818,7 +818,7 @@ characters={
 			}
 			
 			country_leader={
-				ideology=national_vanguard
+				ideology=fascism_ideology
 				expire="1966.1.1.1"
 				id=-1
 			}

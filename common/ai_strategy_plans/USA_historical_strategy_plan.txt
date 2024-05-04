@@ -44,7 +44,7 @@ USA_historical_plan = {
 					JAP = {
 						not = {
 							OR = {
-								has_government = national_vanguard
+								has_government = fascism
 								has_government = neutrality
 							}
 						}

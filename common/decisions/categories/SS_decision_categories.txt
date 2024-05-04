@@ -13,7 +13,7 @@ SS_recruitment = {
 	}
 
 	available = {
-		has_government = national_vanguard
+		has_government = fascism
 	}
 
 	visible = {

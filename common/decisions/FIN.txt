@@ -1575,7 +1575,7 @@ FIN_balance_of_power_category = {
 					FIN_is_historical_ai = yes
 					AND = {
 						FIN_is_fascist_ai = yes
-						has_government = national_vanguard
+						has_government = fascism
 					}
 					AND = {
 						FIN_is_communist_ai = yes
@@ -3537,7 +3537,7 @@ FIN_coup_preparations = {
 		}
 
 		available = {
-			national_vanguard > 0.3
+			fascism > 0.3
 		}
 
 		visible = {
@@ -3558,7 +3558,7 @@ FIN_coup_preparations = {
 				}
 			}
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.1
 			}
 			custom_effect_tooltip = when_civil_war_starts_tt
@@ -3583,7 +3583,7 @@ FIN_coup_preparations = {
 			country_exists = GER
 			GER = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 				}
 			}
@@ -3620,7 +3620,7 @@ FIN_coup_preparations = {
 		}
 
 		available = {
-			national_vanguard > 0.4
+			fascism > 0.4
 		}
 
 		visible = {
@@ -3633,7 +3633,7 @@ FIN_coup_preparations = {
 		complete_effect = {
 			set_country_flag = FIN_cw_support_from_middle_class_flag
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.2
 			}
 			custom_effect_tooltip = when_civil_war_starts_tt

@@ -41,7 +41,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = national_vanguard
+			ideology = fascism_ideology
 			traits = { the_grand_council }
 			expire = "1965.1.1.1"
 			id = -1
@@ -161,7 +161,7 @@ characters = {
 				ITA_is_italian_tag = yes
 			}
 			available = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			traits = {
 				grand_battle_plan_expert
@@ -179,7 +179,7 @@ characters = {
 			planning_skill = 2
 			logistics_skill = 1
 			legacy_id = 0
-			visible = { has_government = national_vanguard }
+			visible = { has_government = fascism }
 		}
 	}
 
@@ -417,7 +417,7 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = 0
-			visible = { has_government = national_vanguard }
+			visible = { has_government = fascism }
 		}
 	}
 
@@ -438,7 +438,7 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = 0
-			visible = { has_government = national_vanguard }
+			visible = { has_government = fascism }
 		}
 	}
 
@@ -519,7 +519,7 @@ characters = {
 				ITA_is_italian_tag = yes
 			}
 			available = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			traits = {
 				army_infantry_2
@@ -538,7 +538,7 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = 0
-			visible = { has_government = national_vanguard }
+			visible = { has_government = fascism }
 		}
 	}
 
@@ -559,7 +559,7 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = 0
-			visible = { has_government = national_vanguard }
+			visible = { has_government = fascism }
 		}
 	}
 
@@ -620,7 +620,7 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = 0
-			visible = { has_government = national_vanguard }
+			visible = { has_government = fascism }
 		}
 	}
 
@@ -641,7 +641,7 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = 0
-			visible = { has_government = national_vanguard }
+			visible = { has_government = fascism }
 		}
 	}
 
@@ -765,7 +765,7 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = 0
-			visible = { has_government = national_vanguard }
+			visible = { has_government = fascism }
 		}
 	}
 
@@ -826,7 +826,7 @@ characters = {
 			planning_skill = 2
 			logistics_skill = 2
 			legacy_id = 0
-			visible = { has_government = national_vanguard }
+			visible = { has_government = fascism }
 		}
 	}
 
@@ -1114,7 +1114,7 @@ characters = {
 				ITA_is_italian_tag = yes
 			}
 			available = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			traits = { naval_theorist }
 		}
@@ -1127,7 +1127,7 @@ characters = {
 			maneuvering_skill = 3
 			coordination_skill = 1
 			legacy_id = 0
-			visible = { has_government = national_vanguard }
+			visible = { has_government = fascism }
 		}
 	}
 
@@ -1149,7 +1149,7 @@ characters = {
 			coordination_skill = 1
 			legacy_id = 0
 			visible = {
-				#has_government = national_vanguard
+				#has_government = fascism
 				#has_completed_focus = ITA_supermarina #Maybe Escort focus? Or maybe available from start
 			} 
 		}
@@ -1356,7 +1356,7 @@ characters = {
 				ITA_is_italian_tag = yes
 			}
 			available = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			traits = {
 				navy_chief_naval_aviation_1
@@ -1507,7 +1507,7 @@ characters = {
 				ITA_is_italian_tag = yes
 			}
 			available = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			traits = {
 				air_tactical_bombing_2
@@ -1535,7 +1535,7 @@ characters = {
 				ITA_is_italian_tag = yes
 			}
 			available = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			traits = {
 				air_air_combat_training_2
@@ -1563,7 +1563,7 @@ characters = {
 				ITA_is_italian_tag = yes
 			}
 			available = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			traits = {
 				air_bomber_interception_2
@@ -1591,7 +1591,7 @@ characters = {
 				ITA_is_italian_tag = yes
 			}
 			available = {
-				has_government = national_vanguard
+				has_government = fascism
 			}
 			traits = {
 				navy_naval_air_defense_1
@@ -1620,7 +1620,7 @@ characters = {
 			}
 			available = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 				}
 				NOT = { has_completed_focus = ITA_disband_the_blackshirts }
@@ -2088,7 +2088,7 @@ characters = {
 			}
 			available = {
 				OR = {
-					has_government = national_vanguard
+					has_government = fascism
 					has_government = neutrality
 					if = {
 						limit = {
@@ -2130,7 +2130,7 @@ characters = {
 				ITA_is_italian_tag = yes
 			}
 			available = {
-				has_government = national_vanguard
+				has_government = fascism
 				NOT = { has_completed_focus = ITA_pact_of_steel }
 				if = {
 					limit = {
@@ -2215,13 +2215,13 @@ characters = {
 						has_dlc = "By Blood Alone"
 					}
 					OR = {
-						has_government = national_vanguard
+						has_government = fascism
 						has_completed_focus = ITA_utilize_the_blackshirts
 						has_completed_focus = ITA_cooperate_with_moderates
 					}
 				}
 				else = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			traits = {
@@ -2343,7 +2343,7 @@ characters = {
 			}
 			do_effect = {
 				NOT = {
-					has_government = national_vanguard 
+					has_government = fascism 
 				}
 			}
 			ai_will_do = {

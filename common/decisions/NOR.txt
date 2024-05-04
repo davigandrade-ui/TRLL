@@ -127,7 +127,7 @@
 	NOR_test_fascist_civil_war = {
 		complete_effect = {
 			add_popularity = {
-				ideology = national_vanguard
+				ideology = fascism
 				popularity = 0.2
 			}
 			GER = {
@@ -2220,11 +2220,11 @@ NOR_fascist_preparation_decisions_category = {
 			has_country_flag = NOR_going_fascist
 			has_completed_focus = NOR_nasjonal_samling
 			has_war = no
-			NOT = { has_government = national_vanguard } 
+			NOT = { has_government = fascism } 
 		}
 		
 		available = {
-			national_vanguard > 0.5
+			fascism > 0.5
 		}
 
 		complete_effect = {
@@ -2255,13 +2255,13 @@ NOR_fascist_preparation_decisions_category = {
 				limit = {
 					any_other_country = {
 						original_tag = GER 
-						has_government = national_vanguard 
+						has_government = fascism 
 					}
 				}
 				random_other_country = {
 					limit = {
 						original_tag = GER 
-						has_government = national_vanguard 
+						has_government = fascism 
 					}
 					country_event = {
 						id = AAT_norway_fascist.1

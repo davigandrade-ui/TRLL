@@ -58,7 +58,7 @@ ideas = {
 
 			do_effect = {
 				NOT = {
-					has_government = national_vanguard
+					has_government = fascism
 				}
 			}
 			

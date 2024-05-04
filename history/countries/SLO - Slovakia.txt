@@ -133,13 +133,13 @@ recruit_character = SLO_anton_pulanick
 }
 
 set_politics = {
-	ruling_party = national_vanguard
+	ruling_party = fascism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	democratic = 5
-	national_vanguard = 90
+	fascism = 90
 	communism = 5
 }

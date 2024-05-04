@@ -351,7 +351,7 @@ POR_arms_purchases = {
 			modifier = {
 				factor = 5
 				ENG = { has_government = ROOT }
-				NOT = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
 			}
 			modifier = {
 				factor = 0
@@ -359,10 +359,10 @@ POR_arms_purchases = {
 			}
 			modifier = {
 				factor = 0
-				has_government = national_vanguard
+				has_government = fascism
 				ENG = { 
 					NOT = { 
-						has_government = national_vanguard 	 
+						has_government = fascism 	 
 					}
 				}
 			}
@@ -2056,7 +2056,7 @@ POR_iberian_summit = {
 			}
 			GER = { 
 				is_faction_leader = yes 
-				has_government = national_vanguard
+				has_government = fascism
 				has_capitulated = no
 			}
 		}
@@ -2139,7 +2139,7 @@ POR_iberian_summit = {
 			POR = {
 				is_in_faction = no
 				has_completed_focus = POR_iberian_summit
-				NOT = { has_government = national_vanguard }
+				NOT = { has_government = fascism }
 				NOT = { has_government = communism }
 			}
 			if = {

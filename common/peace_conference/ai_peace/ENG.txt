@@ -15,7 +15,7 @@ peace_ai_desires = {
 			ROOT.FROM = { tag = ROOT }
             ROOT = {
                 OR = {
-                    has_government = national_vanguard
+                    has_government = fascism
                     has_government = neutrality
                 }
             }
@@ -56,7 +56,7 @@ peace_ai_desires = {
 			ROOT.FROM = { tag = ROOT }
             ROOT = {
                 OR = {
-                    has_government = national_vanguard
+                    has_government = fascism
                     has_government = neutrality
                 }
             }

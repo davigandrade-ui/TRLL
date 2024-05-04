@@ -210,7 +210,7 @@ set_war_support = 0.3
 	unlock_national_focus = GER_mol_rib_pact
 	every_other_country = {
 		limit = {
-			has_government = national_vanguard 
+			has_government = fascism 
 		}
 		add_opinion_modifier = { target = GER modifier = MR_pact_fascists }
 	}
@@ -379,7 +379,7 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 20
-	national_vanguard = 22
+	fascism = 22
 	maximalism = 23
 	neutrality = 25
 	communism = 10

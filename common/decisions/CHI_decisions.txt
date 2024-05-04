@@ -6617,7 +6617,7 @@ CHI_xian_incident = {
 			modifier = {
 				JAP = {
 					NOT = {
-						has_government = national_vanguard
+						has_government = fascism
 					}
 				}
 				factor = 0

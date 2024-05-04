@@ -2120,7 +2120,7 @@ shared_focus = {
 
 	available = {
 		is_subject = no
-		NOT = { has_government = national_vanguard }
+		NOT = { has_government = fascism }
 	}
 
 	bypass = {
