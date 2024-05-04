@@ -140,7 +140,7 @@ defined_text = { # Country
 		trigger = {			
 			event_target:yugoslavia_wedding_partner = { original_tag = ITA }
 		}
-		localization_key = FACTION_NAME_GER_national_vanguard
+		localization_key = FACTION_NAME_GER_fascism
 	}
 	text = {
 		trigger = {			

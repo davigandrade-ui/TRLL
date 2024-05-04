@@ -2056,7 +2056,7 @@ focus_tree = {
 				add_country_leader_role = {
 					country_leader = {
 						expire = "1965.1.1"
-						ideology = fascism
+						ideology = fascism_ideology
 						traits = {}
 					}
 					promote_leader = yes
@@ -2505,7 +2505,7 @@ focus_tree = {
 					add_country_leader_role = {
 						character = YUG_prince_paul
 						country_leader = {
-							ideology = fascism
+							ideology = fascism_ideology
 							traits = {
 								collaborator_king
 							}

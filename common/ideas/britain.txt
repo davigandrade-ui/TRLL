@@ -685,9 +685,9 @@ ideas = {
 			}
 		}
 
-		ENG_tackle_national_vanguard_idea_1 = {
+		ENG_tackle_fascism_idea_1 = {
 
-			name = ENG_tackle_national_vanguard
+			name = ENG_tackle_fascism
 
 			allowed = {
 				always = no
@@ -712,15 +712,15 @@ ideas = {
 				defense_bonus_against = 0.1
 			}
 
-			picture = generic_national_vanguard_banned
+			picture = generic_fascism_banned
 			
 			removal_cost = -1	
 
 		}
 
-		ENG_tackle_national_vanguard_idea_2 = {
+		ENG_tackle_fascism_idea_2 = {
 
-			name = ENG_tackle_national_vanguard
+			name = ENG_tackle_fascism
 
 			allowed = {
 				always = no
@@ -740,15 +740,15 @@ ideas = {
 				defense_bonus_against = 0.1
 			}
 
-			picture = generic_national_vanguard_banned
+			picture = generic_fascism_banned
 			
 			removal_cost = -1	
 
 		}
 
-		ENG_tackle_national_vanguard_idea_3 = {
+		ENG_tackle_fascism_idea_3 = {
 
-			name = ENG_tackle_national_vanguard
+			name = ENG_tackle_fascism
 
 			allowed = {
 				always = no
@@ -768,7 +768,7 @@ ideas = {
 				defense_bonus_against = 0.1
 			}
 
-			picture = generic_national_vanguard_banned
+			picture = generic_fascism_banned
 			
 			removal_cost = -1	
 
@@ -1054,7 +1054,7 @@ ideas = {
 				fascism_drift = 0.3
 			}
 
-			picture = ast_abandon_the_westminster_system_national_vanguard
+			picture = ast_abandon_the_westminster_system_fascism
 			
 			removal_cost = -1	
 

@@ -607,7 +607,7 @@ defined_text = {
 			original_tag = HOL
 			GER = { has_government = fascism }
 		}
-		localization_key = HOL_WILHELMINISM_national_vanguard
+		localization_key = HOL_WILHELMINISM_fascism
 	}
 	text = {
 		trigger = {
@@ -619,7 +619,7 @@ defined_text = {
 }
 
 defined_text = { # Country
-	name = GetCandidatesnational_vanguard
+	name = GetCandidatesfascism
 	text = {
 		trigger = {
 			has_global_flag = MTG_flag_955
@@ -632,7 +632,7 @@ defined_text = { # Country
 }
 
 defined_text = { # Country
-	name = GetCandidatesnational_vanguard2
+	name = GetCandidatesfascism2
 	text = {
 		trigger = {
 			has_completed_focus = USA_send_lindbergh_to_germany
@@ -1313,7 +1313,7 @@ defined_text = {
 				has_government = fascism
 			}
 		}
-		localization_key = SOV_BULWARK_NAME_national_vanguard
+		localization_key = SOV_BULWARK_NAME_fascism
 	}
 	text = {
 		trigger = {
@@ -1344,7 +1344,7 @@ defined_text = {
 				has_government = fascism
 			}
 		}
-		localization_key = SOV_BULWARK_BOLSHEVISM_DESC_national_vanguard
+		localization_key = SOV_BULWARK_BOLSHEVISM_DESC_fascism
 	}
 	text = {
 		trigger = {
@@ -1375,7 +1375,7 @@ defined_text = {
 				has_government = fascism
 			}
 		}
-		localization_key = SOV_BULWARK_COMMUNISM_DESC_national_vanguard
+		localization_key = SOV_BULWARK_COMMUNISM_DESC_fascism
 	}
 	text = {
 		trigger = {
@@ -1406,7 +1406,7 @@ defined_text = {
 				has_government = fascism
 			}
 		}
-		localization_key = SOV_DANZIG_GUARANTEES_BOLSHEVIKS_DESC_national_vanguard
+		localization_key = SOV_DANZIG_GUARANTEES_BOLSHEVIKS_DESC_fascism
 	}
 	text = {
 		trigger = {

@@ -868,9 +868,9 @@ ideas = {
 			}
 		}
 
-		national_vanguard_banned = {
+		fascism_banned = {
 
-			picture = generic_national_vanguard_banned
+			picture = generic_fascism_banned
 
 			allowed = {
 				always = no

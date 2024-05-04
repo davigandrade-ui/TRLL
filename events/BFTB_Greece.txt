@@ -6716,7 +6716,7 @@ country_event = {
 			character = "GRE_george_mercouris"
 			country_leader = {
 				expire = "1965.1.1"
-				ideology = fascism
+				ideology = fascism_ideology
 				traits = {
 					polemarch
 				}

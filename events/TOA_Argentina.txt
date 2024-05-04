@@ -447,7 +447,7 @@ country_event = {
 	                set_nationality = PREV.PREV
 	                add_country_leader_role = {
 						country_leader = {
-							ideology = fascism
+							ideology = fascism_ideology
 							expire = "1965.1.1.1"
 							traits = {
 								#war_industrialist
@@ -549,7 +549,7 @@ country_event = {
 	                set_nationality = PREV.PREV
 	                add_country_leader_role = {
 						country_leader = {
-							ideology = fascism
+							ideology = fascism_ideology
 							expire = "1965.1.1.1"
 							traits = {
 								#war_industrialist
@@ -2409,8 +2409,8 @@ country_event = {
 
 		set_party_name = {
 				ideology = fascism
-				long_name = ARG_national_vanguard_party_long
-				name = ARG_national_vanguard_party
+				long_name = ARG_fascism_party_long
+				name = ARG_fascism_party
 			}
 
 		set_politics = {
@@ -2424,7 +2424,7 @@ country_event = {
 			character = ARG_senor_hitler
 			country_leader={
 				expire = "1965.1.1"
-				ideology = fascism
+				ideology = fascism_ideology
 				traits = {
 					dictator
 					incognito

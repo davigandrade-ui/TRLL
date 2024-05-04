@@ -1833,7 +1833,7 @@ country_event = {
 			character = MEX_saturnino_cedillo
 			country_leader = {
 				expire = "1965.1.1"
-				ideology = fascism
+				ideology = fascism_ideology
 				traits = {
 					strongman_of_san_luis_potosi
 				}

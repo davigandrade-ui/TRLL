@@ -99,7 +99,7 @@ defined_text = {
 		trigger = {
 			check_variable = { SOV_poster_left_icon_frame = 15 }
 		}
-		localization_key = SOV_propaganda_anti_national_vanguard
+		localization_key = SOV_propaganda_anti_fascism
 	}
 	text = {
 		trigger = {
@@ -259,7 +259,7 @@ defined_text = {
 		trigger = {
 			check_variable = { SOV_poster_center_icon_frame = 15 }
 		}
-		localization_key = SOV_propaganda_anti_national_vanguard
+		localization_key = SOV_propaganda_anti_fascism
 	}
 	text = {
 		trigger = {
@@ -419,7 +419,7 @@ defined_text = {
 		trigger = {
 			check_variable = { SOV_poster_right_icon_frame = 15 }
 		}
-		localization_key = SOV_propaganda_anti_national_vanguard
+		localization_key = SOV_propaganda_anti_fascism
 	}
 	text = {
 		trigger = {

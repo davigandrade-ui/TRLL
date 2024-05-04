@@ -211,6 +211,12 @@ ideologies = {
 			
 			fascism_ideology = {
 			}
+
+			nazism = {
+			}
+
+			gen_nazism = {
+			}			
 			
 		}
 

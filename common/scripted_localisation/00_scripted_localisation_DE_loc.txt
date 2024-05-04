@@ -55,7 +55,7 @@ defined_text = {
 	name = GetRulingIdeologyNoun_DE_ART_DEF_S_N
 	text = {
 		trigger = { has_government = fascism }
-		localization_key = DE_ART_DEF_S_N_national_vanguard_noun
+		localization_key = DE_ART_DEF_S_N_fascism_noun
 	}
 	text = {
 		trigger = { has_government = communism }
@@ -76,7 +76,7 @@ defined_text = {
 	name = GetRulingIdeologyNoun_DE_ART_DEF_S_G
 	text = {
 		trigger = { has_government = fascism }
-		localization_key = DE_ART_DEF_S_G_national_vanguard_noun
+		localization_key = DE_ART_DEF_S_G_fascism_noun
 	}
 	text = {
 		trigger = { has_government = communism }
@@ -97,7 +97,7 @@ defined_text = {
 	name = GetRulingIdeologyNoun_DE_ART_DEF_S_D
 	text = {
 		trigger = { has_government = fascism }
-		localization_key = DE_ART_DEF_S_D_national_vanguard_noun
+		localization_key = DE_ART_DEF_S_D_fascism_noun
 	}
 	text = {
 		trigger = { has_government = communism }
@@ -118,7 +118,7 @@ defined_text = {
 	name = GetRulingIdeologyNoun_DE_ART_DEF_S_A
 	text = {
 		trigger = { has_government = fascism }
-		localization_key = DE_ART_DEF_S_A_national_vanguard_noun
+		localization_key = DE_ART_DEF_S_A_fascism_noun
 	}
 	text = {
 		trigger = { has_government = communism }
@@ -139,7 +139,7 @@ defined_text = {
 	name = GetRulingIdeologyNoun_DE_ART_DEF_S_N_Cap
 	text = {
 		trigger = { has_government = fascism }
-		localization_key = DE_ART_DEF_S_N_Cap_national_vanguard_noun
+		localization_key = DE_ART_DEF_S_N_Cap_fascism_noun
 	}
 	text = {
 		trigger = { has_government = communism }
@@ -164,7 +164,7 @@ defined_text = {
 		trigger = { 
 			GER = { has_government = fascism }
 		}
-		localization_key = DE_ART_DEF_S_D_GER_national_vanguard_leader_title
+		localization_key = DE_ART_DEF_S_D_GER_fascism_leader_title
 	}
 	text = {
 		trigger = { 

@@ -5529,7 +5529,7 @@
 				desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
 				picture = GFX_portrait_fra_francois_de_la_rocque
 				expire = "1965.1.1"
-				ideology = fascism
+				ideology = fascism_ideology
 				traits = {
 					retired_officer
 				}
@@ -5906,7 +5906,7 @@
 				desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
 				picture = GFX_portrait_fra_jacques_doriot
 				expire = "1965.1.1"
-				ideology = fascism
+				ideology = fascism_ideology
 				traits = {
 					eager_collaborator
 				}

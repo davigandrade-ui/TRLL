@@ -2563,7 +2563,7 @@ ideas = {
 		
 		ITA_dodecanese_treaty_idea = {
 		
-			picture = ast_abandon_the_westminster_system_national_vanguard 
+			picture = ast_abandon_the_westminster_system_fascism 
 		
 			removal_cost = -1	
 		
@@ -3034,7 +3034,7 @@ ideas = {
 
 		ITA_divino_duce_1 = {
 
-			picture = generic_national_vanguard_rising
+			picture = generic_fascism_rising
 	
 			removal_cost = -1	
 	
@@ -3056,7 +3056,7 @@ ideas = {
 
 		ITA_divino_duce_2 = {
 
-			picture = generic_national_vanguard_rising
+			picture = generic_fascism_rising
 	
 			removal_cost = -1	
 	
@@ -3083,7 +3083,7 @@ ideas = {
 
 		ITA_italian_hegemony_master_1 = {
 
-			picture = generic_national_vanguard_rising
+			picture = generic_fascism_rising
 
 			removal_cost = -1	
 	
@@ -3105,7 +3105,7 @@ ideas = {
 
 		ITA_italian_hegemony_master_2 = {
 			name = ITA_italian_hegemony_master_1
-			picture = idea_generic_national_vanguard_rising
+			picture = idea_generic_fascism_rising
 			removal_cost = -1	
 	
 			allowed = {
@@ -3130,7 +3130,7 @@ ideas = {
 
 		ITA_italian_hegemony_master_3 = {
 			name = ITA_italian_hegemony_master_1
-			picture = idea_generic_national_vanguard_rising
+			picture = idea_generic_fascism_rising
 
 			removal_cost = -1
 

@@ -13,7 +13,7 @@ characters={
 		}
 	}
 	
-	#Generic auto-generated country leaders for Democratic, national_vanguard and Non-Aligned
+	#Generic auto-generated country leaders for Democratic, fascism and Non-Aligned
 
 	TAN_rugalinskij={
 		advisor={

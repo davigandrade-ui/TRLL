@@ -1402,7 +1402,7 @@ focus_tree = {
 					add_country_leader_role = {
 						character = "HUN_miklos_horthy"
 						country_leader={
-							ideology= fascism
+							ideology= fascism_ideology
 							traits={ anti_communist }
 							expire="1965.1.1.1"
 							id=503
@@ -1425,7 +1425,7 @@ focus_tree = {
 					add_country_leader_role = {
 						character = "HUN_franz_friedrich"
 						country_leader = {
-						  ideology=fascism
+						  ideology=fascism_ideology
 						  expire="1965.1.1"
 						}
 						promote_leader = yes

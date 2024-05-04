@@ -3289,7 +3289,7 @@ country_event = {
 			add_country_leader_role = {
 				country_leader = {
 					expire = "1954.8.24"
-					ideology = fascism
+					ideology = fascism_ideology
 					traits = {
 						BRA_reluctant_integralist
 					}

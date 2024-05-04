@@ -52,6 +52,15 @@ characters={
 			id=-1
 		}
 	}
+
+	GER_august_von_mackensen={
+		name=GER_august_von_mackensen
+		portraits={
+			civilian={
+				large="GFX_portrait_ger_august_von_mackensen"
+			}
+		}
+	}	
 	
 	GER_august_mackensen={
 		name=GER_mackensen

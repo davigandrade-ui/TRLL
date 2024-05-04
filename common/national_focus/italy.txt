@@ -10740,7 +10740,7 @@ focus_tree = {
 				character = ITA_italo_balbo
 				promote_leader = yes
 				country_leader = {
-					ideology = fascism
+					ideology = fascism_ideology
 					expire = 1965.1.1.1
 					traits =  {	aviation_hero }
 				}
@@ -10802,7 +10802,7 @@ focus_tree = {
 					character = ITA_dino_grandi
 					promote_leader = yes
 					country_leader = {
-						ideology = fascism
+						ideology = fascism_ideology
 						expire = 1965.1.1.1
 						traits =  {
 							silver_tongue
@@ -10815,7 +10815,7 @@ focus_tree = {
 					character = ITA_dino_grandi
 					promote_leader = yes
 					country_leader = {
-						ideology = fascism
+						ideology = fascism_ideology
 						expire = 1965.1.1.1
 						traits =  {
 							silver_tongue_no_lar

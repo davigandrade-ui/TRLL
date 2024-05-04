@@ -135,7 +135,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = can_defence_of_canada_regulations_national_vanguard
+			picture = can_defence_of_canada_regulations_fascism
 
 			modifier = {
 				democratic_drift = -0.01

@@ -3982,7 +3982,7 @@ DEN_create_the_plenipotentiary = { #This is set up in an event and will create a
 		DEN_werner_best = {
 			add_country_leader_role = {
 				country_leader = {
-					ideology = fascism
+					ideology = fascism_ideology
 					expire = "1965.1.1.1"
 					id = -1
 					traits = {
@@ -4003,7 +4003,7 @@ DEN_create_the_plenipotentiary = { #This is set up in an event and will create a
 			create_country_leader = {
 				picture = GFX_portrait_Europe_Generic_1
 				expire = "1965.1.1"
-				ideology = fascism
+				ideology = fascism_ideology
 				traits = {
 					DEN_plenipotentiary
 				}	

@@ -2358,7 +2358,7 @@ country_event = {
 					character = BUL_regency_council
 					country_leader = {
 						expire = "1965.1.1"
-						ideology = fascism
+						ideology = fascism_ideology
 						traits = {
 							elected_regency_council_pro_axis hardened_officer_regency_council
 						}
@@ -2377,7 +2377,7 @@ country_event = {
 					character = BUL_regency_council
 					country_leader = {
 						expire = "1965.1.1"
-						ideology = fascism
+						ideology = fascism_ideology
 						traits = {
 							elected_regency_council_pro_axis the_bloody_professor_regency_council
 						}
@@ -2390,7 +2390,7 @@ country_event = {
 					character = BUL_regency_council
 					country_leader = {
 						expire = "1965.1.1"
-						ideology = fascism
+						ideology = fascism_ideology
 						traits = {
 							elected_regency_council_pro_axis
 						}
@@ -2411,7 +2411,7 @@ country_event = {
 					character = BUL_regency_council
 					country_leader = {
 						expire = "1965.1.1"
-						ideology = fascism
+						ideology = fascism_ideology
 						traits = {
 							elected_regency_council_pro_axis political_manipulator_regency_council
 						}
@@ -2434,7 +2434,7 @@ country_event = {
 					character = BUL_regency_council
 					country_leader = {
 						expire = "1965.1.1"
-						ideology = fascism
+						ideology = fascism_ideology
 						traits = {
 							elected_regency_council_pro_axis
 						}
@@ -2451,7 +2451,7 @@ country_event = {
 					character = BUL_regency_council
 					country_leader = {
 						expire = "1965.1.1"
-						ideology = fascism
+						ideology = fascism_ideology
 						traits = {
 							elected_regency_council_pro_axis
 						}
@@ -9029,7 +9029,7 @@ country_event = {
 			character = BUL_aleksandar_tsankov
 			country_leader = {
 				expire = "1965.1.1"
-				ideology = fascism
+				ideology = fascism_ideology
 				traits = {
 					the_bloody_professor
 				}

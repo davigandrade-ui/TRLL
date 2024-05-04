@@ -280,7 +280,7 @@ ideas = {
 			}
 
 			available = {
-				NOT = { has_country_flag = banned_national_vanguard_flag } #So Finland can do something about this
+				NOT = { has_country_flag = banned_fascism_flag } #So Finland can do something about this
 			}
 
 			removal_cost = -1

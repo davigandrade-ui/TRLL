@@ -290,7 +290,7 @@ defined_text = {
 				NOT = { has_war_with = NOR }
 			}
 		}
-		localization_key = GER_national_vanguard_DEF
+		localization_key = GER_fascism_DEF
 	}
 	text = {
 		trigger = {
@@ -320,7 +320,7 @@ defined_text = {
 				NOT = { is_in_faction_with = ROOT }
 			}
 		}
-		localization_key = GER_national_vanguard_DEF
+		localization_key = GER_fascism_DEF
 	}
 	text = {
 		trigger = {

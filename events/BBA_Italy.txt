@@ -3709,7 +3709,7 @@ unit_leader_event = {
 				ETH_abba_jofir = {
 					add_country_leader_role = {
 						country_leader = {
-							ideology = fascism 
+							ideology = fascism_ideology 
 							expire = "1965.1.1.1"
 							traits = { inexperienced_sultan }
 							id = -1
@@ -3745,7 +3745,7 @@ unit_leader_event = {
 					ETH_abba_jofir = {
 						add_country_leader_role = {
 							country_leader = {
-								ideology = fascism 
+								ideology = fascism_ideology 
 								expire = "1965.1.1.1"
 								traits = { inexperienced_sultan }
 								id = -1
@@ -3771,7 +3771,7 @@ unit_leader_event = {
 			}
 			GBA = {
 				promote_character = { character = ETH_abba_jofir ideology = despotism }
-				promote_character = { character = ETH_abba_jofir ideology = fascism }
+				promote_character = { character = ETH_abba_jofir ideology = fascism_ideology }
 			}
 		}
 
@@ -4054,7 +4054,7 @@ unit_leader_event = {
 				ETH_hailu_tekle_haymanot = {
 					add_country_leader_role = {
 						country_leader = {
-							ideology = fascism 
+							ideology = fascism_ideology 
 							expire = "1965.1.1.1"
 							traits = { tainted_ras }
 							id = -1
@@ -4090,7 +4090,7 @@ unit_leader_event = {
 					ETH_hailu_tekle_haymanot = {
 						add_country_leader_role = {
 							country_leader = {
-								ideology = fascism 
+								ideology = fascism_ideology 
 								expire = "1965.1.1.1"
 								traits = { tainted_ras }
 								id = -1
@@ -4116,7 +4116,7 @@ unit_leader_event = {
 			}
 			BEG = {
 				promote_character = { character = ETH_hailu_tekle_haymanot ideology = despotism }
-				promote_character = { character = ETH_hailu_tekle_haymanot ideology = fascism }
+				promote_character = { character = ETH_hailu_tekle_haymanot ideology = fascism_ideology }
 			}
 		}
 
@@ -4369,7 +4369,7 @@ unit_leader_event = {
 				ETH_seyoum_mengesha = {
 					add_country_leader_role = {
 						country_leader = {
-							ideology = fascism 
+							ideology = fascism_ideology 
 							expire = "1965.1.1.1"
 							traits = { eager_collaborator }
 							id = -1
@@ -4405,7 +4405,7 @@ unit_leader_event = {
 					ETH_seyoum_mengesha = {
 						add_country_leader_role = {
 							country_leader = {
-								ideology = fascism 
+								ideology = fascism_ideology 
 								expire = "1965.1.1.1"
 								traits = { eager_collaborator }
 								id = -1
@@ -4431,7 +4431,7 @@ unit_leader_event = {
 			}
 			TIG = {
 				promote_character = { character = ETH_seyoum_mengesha ideology = despotism }
-				promote_character = { character = ETH_seyoum_mengesha ideology = fascism }
+				promote_character = { character = ETH_seyoum_mengesha ideology = fascism_ideology }
 			}
 		}
 

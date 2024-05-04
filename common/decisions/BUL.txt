@@ -10025,7 +10025,7 @@ political_actions = {
 			add_country_leader_role = {
 				character = BUL_aleksandar_tsankov
 				country_leader = {
-				  ideology=fascism_ideology_ideology
+				  ideology=fascism_ideology
 				  traits = { the_bloody_professor }
 				  expire="1965.1.1"
 				}

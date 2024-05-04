@@ -16,7 +16,7 @@ spriteTypes = {
         texturefile = gfx/interface/ideologies/neutrality_group.dds
     }
     spriteType = {
-        name = GFX_ideology_national_vanguard_group # National Vanguard
+        name = GFX_ideology_fascism_group # National Vanguard
         texturefile = gfx/interface/ideologies/nationalvan_group.dds
     }
 }

@@ -985,7 +985,7 @@ ideas = {
 		}
 
 		CHL_empowered_preparations_department = {
-			picture = saf_ossewabrandwag_national_vanguard
+			picture = saf_ossewabrandwag_fascism
 			allowed = {
 				original_tag = CHL
 			}

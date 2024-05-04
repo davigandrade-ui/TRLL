@@ -625,7 +625,7 @@ ideas = {
 				tag = SOV
 			}
 
-			picture = generic_national_vanguard_banned
+			picture = generic_fascism_banned
 
 			targeted_modifier = {
 				tag = ENG
@@ -647,7 +647,7 @@ ideas = {
 				tag = SOV
 			}
 
-			picture = generic_national_vanguard_banned
+			picture = generic_fascism_banned
 
 			targeted_modifier = {
 				tag = FRA
@@ -669,7 +669,7 @@ ideas = {
 				tag = SOV
 			}
 
-			picture = generic_national_vanguard_banned
+			picture = generic_fascism_banned
 
 			targeted_modifier = {
 				tag = GER
@@ -691,7 +691,7 @@ ideas = {
 				tag = SOV
 			}
 
-			picture = generic_national_vanguard_banned
+			picture = generic_fascism_banned
 
 			targeted_modifier = {
 				tag = ITA
@@ -713,7 +713,7 @@ ideas = {
 				tag = SOV
 			}
 
-			picture = generic_national_vanguard_banned
+			picture = generic_fascism_banned
 
 			targeted_modifier = {
 				tag = USA
@@ -735,7 +735,7 @@ ideas = {
 				tag = SOV
 			}
 
-			picture = generic_national_vanguard_banned
+			picture = generic_fascism_banned
 
 			targeted_modifier = {
 				tag = JAP
@@ -1400,7 +1400,7 @@ ideas = {
 			}
 		}
 
-		SOV_face_western_national_vanguard_ns = {
+		SOV_face_western_fascism_ns = {
 			picture = SPR_the_popular_front
 
 			removal_cost = -1
@@ -1418,7 +1418,7 @@ ideas = {
 			}
 
 			modifier = {
-				custom_modifier_tooltip = SOV_face_western_national_vanguard_ns_tt
+				custom_modifier_tooltip = SOV_face_western_fascism_ns_tt
 			}
 		}
 

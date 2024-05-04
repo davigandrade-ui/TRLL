@@ -2461,7 +2461,7 @@ country_event = {
 			character = USA_charles_lindbergh
 			country_leader = {
 				expire = "1965.1.1"
-				ideology = fascism
+				ideology = fascism_ideology
 				traits = {
 					famous_aviator
 				}

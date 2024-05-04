@@ -18,7 +18,7 @@ ideas = {
 
 		idea_VEN_blockade_active = {
 
-			picture = generic_national_vanguard_banned
+			picture = generic_fascism_banned
 
 			allowed = {
 				original_tag = VEN

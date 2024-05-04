@@ -1859,7 +1859,7 @@ country_event = {
 						desc = "POLITICS_PLINIO_SALGADO_DESC"
 						picture = GFX_portrait_Plinio_Salgado
 						expire = "1965.1.1"
-						ideology = fascism
+						ideology = fascism_ideology
 						traits = {
 							#
 						}
@@ -1921,7 +1921,7 @@ country_event = {
 						desc = "POLITICS_PLINIO_SALGADO_DESC"
 						picture = GFX_portrait_Plinio_Salgado
 						expire = "1965.1.1"
-						ideology = fascism
+						ideology = fascism_ideology
 						traits = {
 							#
 						}
@@ -2199,7 +2199,7 @@ country_event = {
 			add_country_leader_role = {
 				country_leader = {
 					expire = "1954.8.24"
-					ideology = fascism
+					ideology = fascism_ideology
 					traits = {
 						anti_communist
 					}
@@ -2259,7 +2259,7 @@ country_event = {
 			add_country_leader_role = {
 				country_leader = {
 					expire = "1954.8.24"
-					ideology = fascism
+					ideology = fascism_ideology
 					traits = {
 						anti_communist
 					}

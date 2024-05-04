@@ -671,7 +671,7 @@ defined_text = {
 		trigger = { 
 			GER = { has_government = fascism }
 		}
-		localization_key = GER_national_vanguard_leader_title
+		localization_key = GER_fascism_leader_title
 	}
 	text = {
 		trigger = { 

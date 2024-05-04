@@ -2055,7 +2055,7 @@ leader_traits = {
 		fascism_drift = 0.05
 		political_power_factor = 0.1
 		opinion_gain_monthly_factor = 0.25
-		custom_modifier_tooltip = BUL_bogdan_filov_ideology_national_vanguard_tt
+		custom_modifier_tooltip = BUL_bogdan_filov_ideology_fascism_tt
 	}
 
 

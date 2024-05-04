@@ -755,7 +755,7 @@ country_event = {
 			add_country_leader_role = {
 				character = FRA_philippe_petain
 				country_leader = {
-					ideology = fascism 
+					ideology = fascism_ideology 
 					expire = "1965.1.1.1"
 					id = -1
 				}

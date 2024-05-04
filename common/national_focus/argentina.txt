@@ -1478,8 +1478,8 @@ focus_tree = {
 
 			set_party_name = {
 				ideology = fascism
-				long_name = ARG_national_vanguard_party_long
-				name = ARG_national_vanguard_party
+				long_name = ARG_fascism_party_long
+				name = ARG_fascism_party
 			}
 
 			custom_effect_tooltip = CHL_skip_one_line_tt
@@ -1498,7 +1498,7 @@ focus_tree = {
 				ARG_pedro_pablo_ramirez = { 
 					add_country_leader_role = {
 						country_leader = {
-							ideology = fascism
+							ideology = fascism_ideology
 							expire = "1965.1.1.1"
 							traits = {
 								ARG_moderate_dictator

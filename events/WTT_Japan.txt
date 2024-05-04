@@ -670,7 +670,7 @@ country_event = {
 			}
 			remove_country_leader_role = {
 				character = JAP_emperor_hirohito
-				ideology = fascism
+				ideology = fascism_ideology
 			}
 		}
 		add_country_leader_role = {

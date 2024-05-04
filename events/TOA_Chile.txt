@@ -3739,14 +3739,14 @@ country_event = {
 
 		remove_country_leader_role = {
 		    character = CHL_jorge_gonzález_von_marées
-		    ideology = fascism
+		    ideology = fascism_ideology
 		}
 
 		add_country_leader_role  = {
 			character = CHL_carlos_keller_reuff
 		    promote_leader = yes
 		    country_leader = {
-		        ideology = fascism
+		        ideology = fascism_ideology
 		        expire = "1965.1.1.1"
 		        traits = { JUNO_national_socialist_vanguard }
 		    }
@@ -3767,7 +3767,7 @@ country_event = {
 
 		remove_country_leader_role = {
 		    character = CHL_jorge_gonzález_von_marées
-		    ideology = fascism
+		    ideology = fascism_ideology
 		}
 
 		add_country_leader_role  = {

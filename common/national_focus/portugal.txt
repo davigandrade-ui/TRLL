@@ -6204,7 +6204,7 @@ focus_tree = {
 							add_country_leader_role = {
 								country_leader = {
 									expire = "1954.8.24"
-									ideology = fascism
+									ideology = fascism_ideology
 									traits = {
 										anti_communist
 									}
