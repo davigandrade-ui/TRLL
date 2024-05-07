@@ -62,12 +62,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/BUL/portrait_boris_iii.dds"
 	}
 	
-# Czechoslovakia:
-
-	spriteType = {
-		name = "GFX_edvard"
-		texturefile = "gfx/leaders/CZE/portrait_edvard.dds"
-	}
 	
 # Serbia:
 
@@ -97,13 +91,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ROM/portrait_carolII.dds"
 	}
 	
-# Albania:
-
-	spriteType = {
-		name = "GFX_zog"
-		texturefile = "gfx/leaders/ALB/portrait_zog.dds"
-	}
-	
 # Greece:
 
 	spriteType = {
@@ -123,13 +110,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_haakon"
 		texturefile = "gfx/leaders/NOR/portrait_haakon.dds"
-	}
-	
-# Denmark:
-
-	spriteType = {
-		name = "GFX_thorvald"
-		texturefile = "gfx/leaders/DEN/portrait_thorvald.dds"
 	}
 	
 # Netherlands:

@@ -51,7 +51,7 @@ set_technology = {
 	mtg_transport = 1
 }
 
-	recruit_character = TUR_mumtaz_okmen
+	recruit_character = TUR_mumtaz_okmen_TRLL
 	recruit_character = TUR_hasan_cakmak
 	recruit_character = TUR_refik_koraltan
 		add_ideas = {
@@ -102,13 +102,9 @@ set_war_support = 0.5
 
 if = {
 	limit = { has_dlc = "Battle for the Bosporus" }
-	recruit_character = TUR_mustafa_kemal_ataturk
-	recruit_character = TUR_sefik_husnu
-	recruit_character = TUR_celal_bayar
-	recruit_character = TUR_mehmet_recep_peker
-	recruit_character = TUR_fevzi_cakmak
+	recruit_character = TUR_fevzi_cakmak_TRLL
 	recruit_character = TUR_fahrettin_altay
-	recruit_character = TUR_kazim_orbay
+	recruit_character = TUR_kazim_orbay_TRLL
 	recruit_character = TUR_cemil_cahit_toydemir
 	recruit_character = TUR_izzettin_chalishlar
 	recruit_character = TUR_mustafa_muglali
@@ -126,24 +122,6 @@ if = {
 	recruit_character = TUR_ahmet_ali_celikten
 	recruit_character = TUR_mehmet_fahri_engin
 	recruit_character = TUR_muzaffer_goksenin
-	recruit_character = TUR_riza_nur
-	recruit_character = TUR_nejdet_sancar
-	recruit_character = TUR_kazim_ozalp
-	recruit_character = TUR_sukru_saracoglu_prime_minister
-	recruit_character = TUR_adnan_menderes
-	recruit_character = TUR_nuri_demirag_prime_minister
-	recruit_character = TUR_hasan_saka
-	recruit_character = TUR_hilmi_uran
-	recruit_character = TUR_fethi_okyar
-	recruit_character = TUR_sukru_saracoglu
-	recruit_character = TUR_halide_edib_adivar
-	recruit_character = TUR_sevket_sureyya_aydemir
-	recruit_character = TUR_mehmet_emin_yurdakul
-	recruit_character = TUR_nuri_demirag
-	recruit_character = TUR_ismet_inonu
-	recruit_character = TUR_nihal_atsiz
-	recruit_character = TUR_zeki_velidi_togan
-	recruit_character = TUR_nazim_hikmet
 
 
 	recruit_character = TUR_halife_abdulmecid_efendi #Empty Character that can become Country Leader via event.
@@ -157,7 +135,7 @@ if = {
 }
 
 
-recruit_character = TUR_elyesa_bazna
+
 create_operative_leader = {
 	name = "Ruzi Nazar"
 	GFX = "GFX_portrait_tur_ruzi_nazar"

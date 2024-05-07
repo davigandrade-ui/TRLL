@@ -17,7 +17,7 @@ focus_tree = {
 
 
 	focus = {
-		id = TUR_war_economyy
+		id = TUR_lift_the_turkiye_komunist_partisis_exile
 		icon = GFX_goal_economic_control
 		cost = 5
 		x = 8
@@ -33,11 +33,11 @@ focus_tree = {
 	focus = {
 		id = TUR_old_but_gold
 		icon = GFX_frontend_medal_dlc031
-		prerequisite = { focus = TUR_war_economyy }
+		prerequisite = { focus = TUR_lift_the_turkiye_komunist_partisis_exile }
 		cost = 5
 		x = -4
 		y = 1
-		relative_position_id = TUR_war_economyy
+		relative_position_id = TUR_lift_the_turkiye_komunist_partisis_exile
 		ai_will_do = {
 			factor = 7
 		}
@@ -53,11 +53,11 @@ focus_tree = {
 	focus = {
 		id = TUR_denounce
 		icon = GFX_goal_continuous_def_against_influence
-		prerequisite = { focus = TUR_war_economyy }
+		prerequisite = { focus = TUR_lift_the_turkiye_komunist_partisis_exile }
 		cost = 5
 		x = 4
 		y = 1
-		relative_position_id = TUR_war_economyy
+		relative_position_id = TUR_lift_the_turkiye_komunist_partisis_exile
 		ai_will_do = {
 			factor = 3
 		}
@@ -127,10 +127,10 @@ focus_tree = {
 	focus = {
 		id = TUR_ratify_the_six_arrows
 		icon = GFX_focus_TUR_ratify_the_six_arrows
-		prerequisite = { focus = TUR_war_economyy }
+		prerequisite = { focus = TUR_lift_the_turkiye_komunist_partisis_exile }
 		x = 0
 		y = 1
-		relative_position_id = TUR_war_economyy
+		relative_position_id = TUR_lift_the_turkiye_komunist_partisis_exile
 		cost = 5
 		ai_will_do = {
 			factor = 1
