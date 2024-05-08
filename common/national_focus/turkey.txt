@@ -17,7 +17,7 @@ focus_tree = {
 
 
 	focus = {
-		id = TUR_lift_the_turkiye_komunist_partisis_exile
+		id = TUR_lift_the_turkiye_komunist_partisis_exile #Tur_tekalif
 		icon = GFX_goal_economic_control
 		cost = 5
 		x = 8
