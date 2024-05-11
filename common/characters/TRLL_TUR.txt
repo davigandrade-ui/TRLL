@@ -1,5 +1,28 @@
 characters={
 
+	TUR_nuri_killigil_TRLL={
+		name=TUR_nuri_killigil
+		portraits={
+			army={
+				small="GFX_idea_tur_nuri_killigil"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = TUR_nuri_killigil
+			allowed = {
+				original_tag = OTT
+			}
+			cost = 0
+			available = {
+				num_of_military_factories > 7
+				has_political_power > 0
+				not = { has_idea_with_trait = war_industrialist_three }
+			}
+			traits = { war_industrialist_two }
+		}
+	}
+
 	TUR_recebzade_erdogan_efendi = {
 		name=TUR_recebzade_erdogan_efendi_name
 		portraits={
@@ -501,12 +524,10 @@ characters={
 					has_dlc = "Battle for the Bosporus"
 				}
 				available = {
-					has_built = {
-    					type = industrial_complex
-   						 value > 10
-					}
+					num_of_civilian_factories > 24
+					has_political_power > 0
 					not = {
-						OR = { has_idea_with_trait = captain_of_industry_two  has_idea_with_trait = captain_of_industry_one has_political_power < 0 }
+						OR = { has_idea_with_trait = captain_of_industry_two  has_idea_with_trait = captain_of_industry_one }
 					}
 				}
 				traits = {
@@ -516,10 +537,6 @@ characters={
 	}
 
 	TUR_mumtaz_okmen_TRLL={
-		instance = {
-			allowed = {
-				has_dlc = "Battle for the Bosporus"
-			}
 			name=TUR_mumtaz_okmen
 			portraits={
 				army={
@@ -533,49 +550,19 @@ characters={
 				cost = 0
 				allowed = {
 					original_tag = TUR
-					has_dlc = "Battle for the Bosporus"
 				}
 				available = {
-					has_built = {
-    					type = industrial_complex
-   						 value > 5
-					}	
+					num_of_civilian_factories > 14
+					has_political_power > 0
 					not = {
-						OR = { has_idea_with_trait = captain_of_industry_three  has_political_power < 0 }
+						OR = { has_idea_with_trait = captain_of_industry_three  }
 					}
 				}
+				visible = { not = { has_idea_with_trait = captain_of_industry_three } }	
 				traits = {
 					captain_of_industry_two
 				}
 			}
-		}
-		instance = {
-			allowed = {
-				NOT = {
-					has_dlc = "Battle for the Bosporus"
-				}
-			}
-			name=TUR_mumtaz_okmen
-			portraits={
-				army={
-					small="GFX_idea_generic_political_advisor_europe_5"
-				}
-			}
-			advisor={
-				slot = political_advisor
-				idea_token = TUR_mumtaz_okmen
-				cost = 0
-				allowed = {
-					original_tag = TUR
-					NOT = {
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
-				traits = {
-					captain_of_industry_two 
-				}
-			}			
-		}
 	}	
 
 	TUR_hasan_cakmak = {
@@ -603,7 +590,7 @@ characters={
 				}
 				available = {
 					not = {
-						OR = { has_idea_with_trait = captain_of_industry_two  has_idea_with_trait = captain_of_industry_three has_political_power < 0 }
+						OR = { has_idea_with_trait = captain_of_industry_two has_political_power < 0 }
 					}
 				}
 				visible = { not = { has_idea_with_trait = captain_of_industry_two } }				

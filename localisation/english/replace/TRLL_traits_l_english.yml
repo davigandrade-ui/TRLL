@@ -18,4 +18,7 @@
  captain_of_industry_one:0 "Captain of Industry(Specialist)"
  captain_of_industry_two:0 "Captain of Industry(Expert)"
  captain_of_industry_three:0 "Captain of Industry(Genius)"
+ war_industrialist_one:0 "War Industrialist(Specialist)"
+ war_industrialist_two:0 "War Industrialist(Expert)"
+ war_industrialist_three:0 "War Industrialist(Genius)"
  fascist_sympathies:0 "Maximalist Sympathies"

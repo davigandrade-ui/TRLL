@@ -17,7 +17,7 @@ recruit_character = TUR_ali_ihsan_sabis_TRLL
 recruit_character = TUR_ali_fuat_cebesoy_TRLL
 recruit_character = TUR_rauf_orbay_TRLL
 recruit_character = TUR_halil_kut_TRLL
-recruit_character = TUR_nuri_killigil
+recruit_character = TUR_nuri_killigil_TRLL
 recruit_character = TUR_said_i_nursi
 recruit_character = TUR_riza_nur_TRLL
 
