@@ -146,7 +146,7 @@
 
  TUR_national_defence_law_desc:0 "With Italy posing a threat, safeguarding our recovering economy from unforeseen price fluctuations is crucial. Market disruptions could trigger volatility, harming consumer confidence and growth. Prioritizing price stability and economic resilience is essential."
 
- OTT_call_for_jihad:0 "Call To Jihad"
+ OTT_call_for_jihad:0 "Foreign Fighters"
 
  OTT_guns_through_iraq:0 "Guns Through Iraq"
 
@@ -158,3 +158,5 @@
 
  TUR_great_depression_cooldown:0 "New law is still being worked on" 
  TUR_great_depression_cooldown_tt:0 "Once this law is passed, it will take §Y175 days§! for the work on the new law to be completed and ready to be signed.\n\n"
+
+ OTT_call_of_caliph:0 "Call Of Caliph"

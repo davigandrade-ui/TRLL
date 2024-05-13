@@ -147,6 +147,7 @@ country_event = {
 		has_war_with = TUR
 		casualties > 100000
 	}
+
 	option = {
 		name = TRLL.6.a
 			division_template = {
@@ -215,5 +216,23 @@ country_event = {
 				
 			}			
 			
+	}
+
+}
+
+# Turkish Civil War - Call Of Caliph
+country_event = {
+	id = TRLL.7
+	title = TRLL.7.t
+	desc = TRLL.7.d
+	picture = GFX_report_event_generic_parliament
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = TRLL.7.a
+
 	}
 }

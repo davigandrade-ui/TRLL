@@ -55,7 +55,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 4
+			factor = 5
 		}
 
 		available = {
@@ -305,7 +305,7 @@ focus_tree = {
 	focus = {
 		id = OTT_last_defense
 		icon = GFX_goal_generic_defence
-		prerequisite = { focus = OTT_gayretullah focus = TUR_three_children focus = OTT_reach_out_to_britain }
+		prerequisite = { focus = OTT_volunteers_from_abroad focus = TUR_three_children focus = OTT_reach_out_to_britain }
 		x = 0
 		y = 2
 		relative_position_id = OTT_reach_out_to_britain
@@ -358,19 +358,15 @@ focus_tree = {
 	focus = {
 		id = OTT_gayretullah
 		icon = GFX_goal_continuous_suppression
-		prerequisite = { focus = OTT_masallah }
+		prerequisite = { focus = OTT_last_defense }
 		x = 0
 		y = 1
-		relative_position_id = OTT_masallah
+		relative_position_id = OTT_last_defense
 
 		cost = 5
 
 		ai_will_do = {
-			factor = 2
-			modifier = {
-				factor = 0
-				surrender_progress > 0.55
-			}
+			factor = 100
 		}
 
 		available = {
@@ -398,15 +394,19 @@ focus_tree = {
 	focus = {
 		id = OTT_volunteers_from_abroad
 		icon = GFX_goal_generic_CAS
-		prerequisite = { focus = OTT_last_defense }
+		prerequisite = { focus = OTT_masallah }
 		x = 0
 		y = 1
-		relative_position_id = OTT_last_defense
+		relative_position_id = OTT_masallah
 
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 2
+			modifier = {
+				factor = 0
+				surrender_progress > 0.55
+			}
 		}
 
 		available = {
@@ -471,7 +471,7 @@ focus_tree = {
 	focus = {
 		id = OTT_true_caliph
 		icon = GFX_focus_TUR_pivot_to_the_past 
-		prerequisite = { focus = OTT_volunteers_from_abroad }
+		prerequisite = { focus = OTT_gayretullah }
 		x = 0
 		y = 2
 		relative_position_id = OTT_last_defense
@@ -499,5 +499,102 @@ focus_tree = {
 		swap_ruler_traits = { remove = self_declared_caliph add = true_caliph }
 		}
 	}
+
+	focus = {
+		id = OTT_call_of_caliph
+		icon = GFX_goal_continuous_def_against_influence 
+		prerequisite = { focus = OTT_true_caliph }
+		x = -1
+		y = 1
+		relative_position_id = OTT_true_caliph
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+		TUR = { country_event = { id = TRLL.7 hours = 6 } }
+			hidden_effect = {
+				OTT = { set_province_controller = 922 set_province_controller = 6895 set_province_controller = 928 set_province_controller = 3786 set_province_controller = 6992 set_province_controller = 12016 }
+				division_template = {
+		    		name = "Civilian Volunteers"
+					priority = 1
+					division_names_group = OTT_INF_01
+					regiments = {
+						irregular_infantry_2 = { x = 0 y = 0 }
+						irregular_infantry_2 = { x = 0 y = 1 }
+						irregular_infantry_2 = { x = 0 y = 2 }
+						irregular_infantry_2 = { x = 1 y = 0 }
+						irregular_infantry_2 = { x = 1 y = 1 }
+						irregular_infantry_2 = { x = 1 y = 2 }
+					}
+				}	
+				341 = {	
+					create_unit = {
+						division = "name = \"1. Civilian Volunteers\" division_template = \"Civilian Volunteers\"start_experience_factor = 0.1" 
+						owner = OTT
+						prioritize_location = 922
+					}
+		
+					create_unit = {
+						division = "name = \"2. Civilian Volunteers\" division_template = \"Civilian Volunteers\"start_experience_factor = 0.1" 
+						owner = OTT
+						prioritize_location = 6895
+					}
+	
+				}	
+	
+				339 = {	
+					create_unit = {
+						division = "name = \"3. Civilian Volunteers\" division_template = \"Civilian Volunteers\"start_experience_factor = 0.1" 
+						owner = OTT
+						prioritize_location = 928
+					}
+
+					create_unit = {
+						division = "name = \"4. Civilian Volunteers\" division_template = \"Civilian Volunteers\"start_experience_factor = 0.1" 
+						owner = OTT
+						prioritize_location = 6992
+					}					
+	
+				}
+	
+				340 = {	
+					create_unit = {
+						division = "name = \"5. Civilian Volunteers\" division_template = \"Civilian Volunteers\"start_experience_factor = 0.1" 
+						owner = OTT
+						prioritize_location = 3786
+					}
+	
+				}
+
+				342 = {	
+					create_unit = {
+						division = "name = \"6. Civilian Volunteers\" division_template = \"Civilian Volunteers\"start_experience_factor = 0.1" 
+						owner = OTT
+						prioritize_location = 12016
+					}
+	
+				}				
+	
+			}			
+
+		}
+	}	
 
 }

@@ -39,7 +39,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = TUR_lift_the_turkiye_komunist_partisis_exile
 		ai_will_do = {
-			factor = 7
+			factor = 10
 		}
 		available = {
 
@@ -279,7 +279,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 3
+			factor = 4
 		}
 
 		available = {
