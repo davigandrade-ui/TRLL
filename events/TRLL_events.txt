@@ -281,3 +281,25 @@ country_event = {
 
 	}
 }
+
+# End Of Turkish Civil War - Death Of True Caliph
+country_event = {
+	id = TRLL.8
+	title = TRLL.8.t
+	desc = TRLL.8.d
+	picture = GFX_report_event_generic_funeral
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = OTT				
+		country_exists = OTT
+		NOT = { has_war_with = TUR }
+	}
+
+	immediate = { hidden_effect = { kill_country_leader = yes }	}
+
+	option = {
+		name = TRLL.8.a
+	}
+}
