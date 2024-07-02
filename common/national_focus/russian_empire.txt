@@ -906,11 +906,12 @@
 		id = REM_finishing_the_job
 		icon = GFX_goal_generic_major_war
 		relative_position_id = REM_asset_alexei_postion
-		x = 0
+		x = -3
 		y = 1
 
 		cost = 4
 		prerequisite = { focus = REM_asset_alexei_postion }
+		mutually_exclusive = { focus = REM_one_step_back }
 
 		ai_will_do = {
 		}
@@ -934,11 +935,375 @@
 		id = REM_revitalize_economy
 		icon = GFX_goal_generic_major_war
 		relative_position_id = REM_finishing_the_job
-		x = 0
+		x = 3
 		y = 1
 
 		cost = 4
 		prerequisite = { focus = REM_finishing_the_job }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_flourish_ukrainian_fields
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_revitalize_economy
+		x = 2
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_revitalize_economy }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_factories_of_belarus
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_revitalize_economy
+		x = -2
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_revitalize_economy }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_ports_of_baltic
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_revitalize_economy
+		x = 1
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_revitalize_economy }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_oil_of_caucasus
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_revitalize_economy
+		x = -1
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_revitalize_economy }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_an_integrated_economy
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_ports_of_baltic
+		x = -1
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_ports_of_baltic REM_oil_of_caucasus REM_factories_of_belarus REM_flourish_ukrainian_fields }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_power_duma
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_finishing_the_job
+		x = -3
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_finishing_the_job }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_peace_with_bolshevists
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_power_duma
+		x = 1
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_power_duma }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_support_conservative_parties
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_power_duma
+		x = -1
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_power_duma }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_equal_significance
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_support_conservative_parties
+		x = 1
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_support_conservative_parties REM_peace_with_bolshevists }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_grant_parliament_representation
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_equal_significance
+		x = 1
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_equal_significance }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_grant_military_autonomy
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_equal_significance
+		x = 0
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_equal_significance }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_hold_local_elections
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_equal_significance
+		x = -1
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_equal_significance }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_one_russia_many_identities
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_grant_military_autonomy
+		x = 0
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_grant_parliament_representation REM_grant_military_autonomy REM_hold_local_elections }
 
 		ai_will_do = {
 		}
@@ -1299,6 +1664,62 @@
 	}
 	
 	focus = {
+		id = REM_crush_minor_state # Romanian Death When?
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_ultimatum_bulgaria
+		x = 0
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_ultimatum_bulgaria }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_exploit_colonies
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_crush_minor_state
+		x = -1
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_crush_minor_state focus = REM_strangle_sun }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
 		id = REM_dealing_with_asia
 		icon = GFX_goal_generic_major_war
 		relative_position_id = REM_spread_wings
@@ -1363,6 +1784,34 @@
 
 		cost = 4
 		prerequisite = { focus = REM_ultimatum_korea }
+
+		ai_will_do = {
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = REM_deal_with_devil
+		icon = GFX_goal_generic_major_war
+		relative_position_id = REM_revert_the_changes
+		x = -3
+		y = 1
+
+		cost = 4
+		prerequisite = { focus = REM_exploit_colonies focus = REM_revert_the_changes }
 
 		ai_will_do = {
 		}
