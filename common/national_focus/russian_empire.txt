@@ -871,7 +871,7 @@
 	}
 	
 	focus = {
-		id = REM_asset_alexei_postion
+		id = REM_assert_alexei_postion
 		icon = GFX_goal_generic_major_war
 		relative_position_id = REM_long_live_alexei
 		x = 0

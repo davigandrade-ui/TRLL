@@ -93,7 +93,7 @@ characters={
 	country_leader={
 			ideology=despotism
 		    desc = REM_alexei_description
-			traits =  { }
+			traits =  { inexperienced_imperialist }
 			expire="1960.1.1.1"
 			id=-1
 		}

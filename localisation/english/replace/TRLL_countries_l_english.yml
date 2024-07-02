@@ -104,6 +104,8 @@
  REM_neutrality_DEF:1 "the Russian Empire"
  REM_communism:0 "People's Soviet Republics of Russia"
  REM_communism_DEF:0 "the People's Soviet Republics of Russia"
+ REM_maximalism:0 "Russian National Maximovik Republic"
+ REM_maximalism_ADJ:0 "Maximovik"
  REM_fascism_ADJ:0 "Russian"
  REM_democratic_ADJ:0 "Russian"
  REM_neutrality_ADJ:0 "Russian"
@@ -207,8 +209,17 @@
  BGO_DEF:0 "Baltics"
  BGO_ADJ:0 "Baltic"
 
- FRA_fascism:2 "French Maximalist State"
- FRA_fascism_DEF:2 "the French Maximalist State"
+ FRA_maximalism:2 "French Maximalist State"
+ FRA_maximalism_DEF:2 "the French Maximalist State"
+ 
+ GER_maximalism:0 "Popular German Union"
+ GER_maximalism_DEF:0 "the Popular German Union"
+ 
+ ENG_fascism:0 "Briton Republic"
+ ENG_fascism_DEF:0 "the Briton Republic"
+ ENG_maximalism:0 "All-British Union"
+ ENG_maximalism_DEF:0 "the All-British Union"
+ 
  CZE_democratic:0 "Czech Republic"
  CZE_democratic_DEF:0 "Czech Republic"
  SPR_neutrality:0 "Kingdom of Spain"

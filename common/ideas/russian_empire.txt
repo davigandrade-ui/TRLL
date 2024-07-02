@@ -235,7 +235,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = reforms_faith
+			picture = restore_faith
 
 			modifier = {
 				stability_factor = 0.05

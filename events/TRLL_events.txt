@@ -74,7 +74,7 @@ country_event = {
 	id = TRLL.3
 	title = TRLL.3.t
 	desc = TRLL.3.d
-	picture = GFX_report_event_ast_parliament_house
+	picture = GFX_report_event_rem_duma
 	
 	fire_only_once = yes
 	
@@ -96,7 +96,7 @@ country_event = {
 	id = TRLL.4
 	title = TRLL.4.t
 	desc = TRLL.4.d
-	picture = GFX_report_event_ast_parliament_house
+	picture = GFX_report_event_rem_duma
 	
 	fire_only_once = yes
 	
@@ -104,6 +104,51 @@ country_event = {
 
 	option = {
 		name = TRLL.4.a
+	}
+
+}
+
+# Death of Nicholas II
+country_event = {
+	id = TRLL.8
+	title = TRLL.8.t
+	desc = TRLL.8.d
+	picture = GFX_report_event_rem_deathnich
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = REM				
+        date = < 1937.04.17
+	}
+	
+	is_triggered_only = yes
+
+	option = {
+		name = TRLL.8.a
+		kill_ideology_leader = neutrality
+	}
+
+}
+
+news_event = {
+	id = TRLL.8A
+	title = TRLL.8A.t
+	desc = TRLL.8A.d
+	picture = GFX_news_event_001_REM
+	
+	fire_only_once = yes
+	
+	trigger = {
+        REM_Alexei_Romanov = {
+		    is_country_leader = yes
+		}
+	}
+	
+	is_triggered_only = yes
+
+	option = {
+		name = TRLL.8A.a
 	}
 
 }
