@@ -110,31 +110,31 @@ country_event = {
 
 # Death of Nicholas II
 country_event = {
-	id = TRLL.8
-	title = TRLL.8.t
-	desc = TRLL.8.d
+	id = TRLL.9
+	title = TRLL.9.t
+	desc = TRLL.9.d
 	picture = GFX_report_event_rem_deathnich
 	
 	fire_only_once = yes
 	
 	trigger = {
 		tag = REM				
-        date = < 1937.04.17
+        date = < 1937.04.1.7
 	}
 	
 	is_triggered_only = yes
 
 	option = {
-		name = TRLL.8.a
-		kill_ideology_leader = neutrality
+		name = TRLL.9.a
+		retire_country_leader
 	}
 
 }
 
 news_event = {
-	id = TRLL.8A
-	title = TRLL.8A.t
-	desc = TRLL.8A.d
+	id = TRLL.10
+	title = TRLL.10.t
+	desc = TRLL.10.d
 	picture = GFX_news_event_001_REM
 	
 	fire_only_once = yes
@@ -148,7 +148,7 @@ news_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = TRLL.8A.a
+		name = TRLL.10.a
 	}
 
 }
