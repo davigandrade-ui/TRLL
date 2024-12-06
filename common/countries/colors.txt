@@ -919,3 +919,8 @@ OTT = {
 	color = rgb { 26 138 4 }
 	color_ui = rgb { 26 138 4 }
 }
+
+RAT = {
+	color = rgb { 75 83 32 }
+	color_ui = rgb { 75 83 32 }
+}

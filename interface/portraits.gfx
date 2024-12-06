@@ -58,6 +58,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_pyotr_wrangel"
+		texturefile = "gfx/leaders/RAT/portrait_RAT_pyotr_wrangel.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_boris"
 		texturefile = "gfx/leaders/BUL/portrait_boris_iii.dds"
 	}
