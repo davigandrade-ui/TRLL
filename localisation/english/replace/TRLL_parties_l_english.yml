@@ -33,9 +33,17 @@
 
  RMA_fascism_party:0 "Loyalists of the Rising Sun"
  RMA_democratic_party:0 "Trudoviks"
- RMA_communist_party:0 "UCCP"
- RMA_communism_party_long:0 "United Chinese Communist Party"
+ RMA_communist_party:0 "UMCP"
+ RMA_communism_party_long:0 "United Manchurian Communist Party"
  RMA_neutrality_party:0 "Russian Imperial Administration"
+ 
+ RAT_fascism_party:0 "UNI"
+ RAT_fascism_party_long:0 "Union of Nationalists and Imperialists"
+ RAT_democratic_party:0 "DRPRT"
+ RAT_democratic_party_long:0 "Democratic Republic Party of Russia and Turkey"
+ RAT_communist_party:0 "WTURT"
+ RAT_communist_party_long:0 "Workers' Trade Unions of Russian Turkey"
+ RAT_neutrality_party:0 "Russian Imperial Administration"
 
  CKU_fascism_party:0 "OUN"
  CKU_democratic_party:0 "Ukrainian National Democratic Alliance"

@@ -1,0 +1,18 @@
+characters={
+	
+	RAT_pyotr_wrangel={
+		name=RAT_pyotr_wrangel_name
+		portraits={
+			civilian={
+				large="GFX_pyotr_wrangel"
+			}
+		}
+		country_leader={
+			ideology=despotism
+		    desc = REM_pyotr_wrangel_description
+			traits =  { autocratic_imperialist headstrong }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+}
