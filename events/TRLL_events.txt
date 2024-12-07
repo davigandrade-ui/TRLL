@@ -114,12 +114,13 @@ country_event = {
 	title = TRLL.9.t
 	desc = TRLL.9.d
 	picture = GFX_report_event_rem_deathnich
+	days = 450
 	
 	fire_only_once = yes
 	
 	trigger = {
 		tag = REM				
-        date = < 1937.04.1.7
+        date = 1937.4.1
 	}
 	
 	is_triggered_only = yes
