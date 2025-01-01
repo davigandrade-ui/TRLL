@@ -1,4 +1,24 @@
 characters={
+
+### TRLL CUSTOM CHARACTERS ###
+	USA_john_nance_garner={
+		name=USA_john_nance_garner
+		desc=USA_john_description
+		portraits={
+			civilian={
+				large=GFX_cactus_jack
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			traits={ industry_magnate USA_cactus_jack }
+			expire="1967.1.1.1"
+			id=-1
+		}
+	}
+
+### VANILLA HELL BELOW ###
+
 	USA_franklin_delano_roosevelt={
 		name=USA_franklin_delano_roosevelt
 		portraits={
@@ -8,7 +28,7 @@ characters={
 		}
 		country_leader={
 			ideology=liberalism
-			traits={ dislikes_germany }
+			traits={ }
 			expire="1947.1.1.1"
 			id=-1
 		}

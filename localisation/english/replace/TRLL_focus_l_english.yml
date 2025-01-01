@@ -1,6 +1,6 @@
 ﻿l_english:
  REM_before_time_comes:0 "Before Time Comes"
- REM_before_time_comes_desc:0 "Whether we want it or not, ol' Nicholas is with one foot on the grave. His reign is almost over, and he is preparing his son, Alexei to take the crown when he unfortunately passes away. However, he still has a few last reforms he wants to pass before moving on, and eventually, we'll pick the rewards of our labour."
+ REM_before_time_comes_desc:0 "Whether we want it or not, old Nicholas is with one foot on the grave. His reign is almost over, and he is preparing his son, Alexei to take the crown when he unfortunately passes away. However, he still has a few last reforms he wants to pass before moving on, and eventually, we'll pick the rewards of our labour."
  
  REM_addressing_the_parliament:0 "Addressing The Parliament"
  REM_addressing_the_parliament_desc:0 "The Russian Parliament has stayed loyal and truthful to this day, and if someone deserves to know, it is them. Nicholas himself needs to speech before them and talk about the situation he's in."
@@ -18,7 +18,7 @@
  REM_restructure_church_state_relations_desc:0 "The relations we want with the Orthodox Church is not one of animosity, but we need to have a long, sturdy talk with them about the future of the nation, and what part they play on it." 
  
  REM_secularize_administration:0 "Secularize Administration"
- REM_secularize_administration_desc:0 "Nicholas is a fervorous Orthodox, and strong believer and supporter of the church. But it is simply a point of efficiency of secularizing the Imperial administration of the Empire, so that we don't discart good ideas just because they don't line up with the interests of the Church."
+ REM_secularize_administration_desc:0 "Nicholas is a fervorous Orthodox, and strong believer and supporter of the Church. But it is simply a point of efficiency of secularizing the Imperial administration of the Empire, so that we don't discart good ideas just because they don't line up with the interests of the Church."
  
  REM_restore_faith_government:0 "Restore Faith Government"
  REM_restore_faith_government_desc:0 "Now that we have done all of the steps needed to put the focus of the nation more strongly towards the crown than the Church, like a flower on the sun we will bloom faith in the government and the values which it stands for.
@@ -33,13 +33,13 @@
  REM_educate_youth_desc:0 "If we truly want our country to prosper further, we must ensure our educational systems are the best they can be, and that will open greater doors for the scientific and political progress of Russia."
  
  REM_civil_liberties:0 "Civil Liberties"
- REM_civil_liberties_desc:0 "No man is an island, and we can't force them to be like so. Equality is a cornerstone of society, and we must ensure that Russian lives are treated fairly under the great imperial crown."
+ REM_civil_liberties_desc:0 "No man is an island, and we can't force them to be like so. Equality is a cornerstone of society, and we must ensure that Russian lives are treated fairly under the great Imperial Crown."
  
  REM_expanded_female_rights:0 "Expanded Female Rights"
  REM_expanded_female_rights_desc:0 "Women are not simple minded objects standing and waiting to be ordered around, and we must reject that backwards mentality that unfortunately, many Russians have. Women deserve to have the same opportunities men have!"
  
  REM_distance_the_military:0 "Distance The Military"
- REM_distance_the_military_desc:0 "Further on, to ensure total autonomy of the crown, we must distance the military from political charter. It is not unclear that they wish to have at least SOME influence over the monarchy, and that can't be tolerated."
+ REM_distance_the_military_desc:0 "Further on, to ensure total autonomy of the Crown, we must distance the military from political charter. It is not unclear that they wish to have at least SOME influence over the monarchy, and that can't be tolerated."
  
  REM_decrease_voters_threshold:0 "Lower Electoral Threshold"
  REM_decrease_votes_threshold_desc:0 "By lowering the electoral threshold, we ensure a stronger democratic base and fairer elections, with a more vast landscape to be appreciated by the democracy loving nation Russia has become."
@@ -57,7 +57,7 @@
  REM_rewrite_constitution_desc:0 "To fully and thoroughly ensure our reforms are respected and followed, we must write a more modern and decisive constitution, officialized by the Tsar himself."
  
  REM_tsarist_success:0 "Tsarist Success"
- REM_tsarist_success_desc:0 "We have picked the fruits of our labour. Our prolonged work has been rewarded, and it is proven, §Ythe Romanovs Laugh Last!§"
+ REM_tsarist_success_desc:0 "We have picked the fruits of our labour. Our prolonged work has been rewarded, and it is proven, §YThe Romanovs Laugh Last!§"
  
  REM_reforms_denied:0 "Reforms Denied"
  REM_reforms_denied_desc:0 "The reforms have been shamefully denied, and any attempts on further progress by the crown have grown quiet. We have some calls to make..."

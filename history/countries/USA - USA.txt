@@ -1,0 +1,7 @@
+﻿capital = 361 # Washington DC
+
+oob = "USA_1936"
+
+recruit_character = USA_john_nance_garner
+
+}
