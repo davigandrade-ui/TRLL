@@ -44,30 +44,6 @@
  RHI:0 "Rhineland"
  RHI_DEF:0 "Rhineland"
  RHI_ADJ:0 "Rhenish"
- 
- ##############################
- #RUSSIAN EMPIRE (AND SPHERE)#
- #############################
- 
- RAT_fascism:0 "Turkish-Russian Federation"
- RAT_fascism_DEF:0 "the Turkish-Russian Federation"
- RAT_democratic:0 "Turkish-Russian Democratic Republic"
- RAT_democratic_DEF:0 "the Turkish-Russian Democratic Republic"
- RAT_neutrality:1 "Turkish-Russian Federation"
- RAT_neutrality_DEF:1 "the Turkish-Russian Federation"
- RAT_communism:0 "Russo-Turkish People’s Republic"
- RAT_communism_DEF:0 "the Russo-Turkish People’s Republic"
- RAT_fascism_ADJ:0 "Russo-Turkish"
- RAT_democratic_ADJ:0 "Russo-Turkish"
- RAT_neutrality_ADJ:0 "Russo-Turkish"
- RAT_communism_ADJ:0 "Russo-Turkish"
- RAT_autonomy_supervised_state:0 "$OVERLORDADJ$ Occupation Zone"
- RAT_autonomy_supervised_state_DEF:0 "the $OVERLORDADJ$ Occupation Zone"
- RAT_REM_neutrality_autonomy_puppet:0 "Russian Administration of Turkey"
- RAT_REM_neutrality_autonomy_puppet_DEF:0 "the Russian Administration of Turkey"
- RAT:0 "Russo-Turkey"
- RAT_DEF:0 "Russo-Turkey"
- RAT_ADJ:0 "Russo-Turkish"
 
  CAV_fascism:0 "Spritual State of the Caucasus"
  CAV_fascism_DEF:0 "the Spritual State of the Caucasus"

@@ -871,7 +871,7 @@
 	}
 	
 	focus = {
-		id = REM_alexei_position
+		id = REM_assert_alexei_postion
 		icon = GFX_goal_generic_major_war
 		relative_position_id = REM_long_live_alexei
 		x = 0
@@ -905,12 +905,12 @@
 	focus = {
 		id = REM_finishing_the_job
 		icon = GFX_goal_generic_major_war
-		relative_position_id = REM_alexei_position
-		x = 2
+		relative_position_id = REM_asset_alexei_postion
+		x = -3
 		y = 1
 
 		cost = 4
-		prerequisite = { focus = REM_alexei_position }
+		prerequisite = { focus = REM_asset_alexei_postion }
 		mutually_exclusive = { focus = REM_one_step_back }
 
 		ai_will_do = {
@@ -963,7 +963,7 @@
 		id = REM_flourish_ukrainian_fields
 		icon = GFX_goal_generic_major_war
 		relative_position_id = REM_revitalize_economy
-		x = 3
+		x = 2
 		y = 1
 
 		cost = 4
@@ -991,7 +991,7 @@
 		id = REM_factories_of_belarus
 		icon = GFX_goal_generic_major_war
 		relative_position_id = REM_revitalize_economy
-		x = -3
+		x = -2
 		y = 1
 
 		cost = 4
@@ -1079,7 +1079,7 @@
 		y = 1
 
 		cost = 4
-		prerequisite = { focus = REM_ports_of_baltic focus = REM_oil_of_caucasus focus = REM_factories_of_belarus focus = REM_flourish_ukrainian_fields }
+		prerequisite = { focus = REM_ports_of_baltic REM_oil_of_caucasus REM_factories_of_belarus REM_flourish_ukrainian_fields }
 
 		ai_will_do = {
 		}
@@ -1330,12 +1330,12 @@
 	focus = {
 		id = REM_one_step_back
 		icon = GFX_goal_generic_major_war
-		relative_position_id = REM_alexei_position
+		relative_position_id = REM_asset_alexei_postion
 		x = 3
 		y = 1
 
 		cost = 4
-		prerequisite = { focus = REM_alexei_position }
+		prerequisite = { focus = REM_asset_alexei_postion }
 
 		ai_will_do = {
 		}

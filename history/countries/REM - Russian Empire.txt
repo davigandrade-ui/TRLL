@@ -376,11 +376,6 @@ set_autonomy = {
 	autonomous_state = autonomy_imperial_mandates
 }
 
-set_autonomy = {
-	target = RAT
-	autonomous_state = autonomy_imperial_mandates
-}
-
 create_faction = "Pact of St.Petersburg"
 
 add_to_faction = KOR

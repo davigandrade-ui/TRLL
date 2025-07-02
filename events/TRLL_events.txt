@@ -110,9 +110,9 @@ country_event = {
 
 # Death of Nicholas II
 country_event = {
-	id = TRLL.9
-	title = TRLL.9.t
-	desc = TRLL.9.d
+	id = TRLL.8
+	title = TRLL.8.t
+	desc = TRLL.8.d
 	picture = GFX_report_event_rem_deathnich
 	days = 450
 	
@@ -120,22 +120,26 @@ country_event = {
 	
 	trigger = {
 		tag = REM				
+<<<<<<< HEAD
         date = 1937.4.1
+=======
+        date = < 1937.04.17
+>>>>>>> parent of e67f575 (thing)
 	}
 	
 	is_triggered_only = yes
 
 	option = {
-		name = TRLL.9.a
-		retire_country_leader
+		name = TRLL.8.a
+		kill_ideology_leader = neutrality
 	}
 
 }
 
 news_event = {
-	id = TRLL.10
-	title = TRLL.10.t
-	desc = TRLL.10.d
+	id = TRLL.8A
+	title = TRLL.8A.t
+	desc = TRLL.8A.d
 	picture = GFX_news_event_001_REM
 	
 	fire_only_once = yes
@@ -149,7 +153,7 @@ news_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = TRLL.10.a
+		name = TRLL.8A.a
 	}
 
 }
@@ -285,9 +289,9 @@ country_event = {
 
 # End Of Turkish Civil War - Death Of True Caliph
 country_event = {
-	id = TRLL.9
-	title = TRLL.9.t
-	desc = TRLL.9.d
+	id = TRLL.8
+	title = TRLL.8.t
+	desc = TRLL.8.d
 	picture = GFX_report_event_generic_funeral
 	
 	fire_only_once = yes
@@ -301,6 +305,6 @@ country_event = {
 	immediate = { hidden_effect = { kill_country_leader = yes }	}
 
 	option = {
-		name = TRLL.9.a
+		name = TRLL.8.a
 	}
 }
